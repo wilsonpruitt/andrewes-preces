@@ -1,0 +1,6 @@
+raw/
+site/node_modules/
+site/.next/
+site/out/
+site/src/data/content.json
+.DS_Store
