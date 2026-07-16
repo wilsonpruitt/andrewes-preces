@@ -1,0 +1,100 @@
+% Prototype B — 1675 mirror: Greek verso / Latin recto (1853 pagination),
+% English as a register across the foot of the spread
+\documentclass[10pt,twoside]{book}
+\input{preamble}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[CE]{\small ΕΥΧΑΙ ΚΑΘΗΜΕΡΙΝΑΙ.}
+\fancyhead[CO]{\small PRECES QUOTIDIANÆ.}
+\fancyhead[LE,RO]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% one 1853 page: body (\small) above, English register (\footnotesize italic) below
+\newcommand{\registerrule}{\par\vfill
+  {\centering\color{rulegray}\rule{0.9\textwidth}{0.4pt}\par}\vspace{0.3\baselineskip}}
+
+\begin{document}
+
+\thispagestyle{empty}
+\vspace*{2in}
+{\centering
+{\Huge Preces Privatae}\\[0.6em]
+{\large Lancelot Andrewes}\\[2em]
+{\itshape Prototype B --- the 1675 mirror}\\[0.5em]
+{\small Greek verso, Latin recto, line for line as the 1853 edition;}\\
+{\small the English translation runs as a register across the foot of each spread}\\[0.5em]
+{\small Sample: The First Day, printed pp.\ 30--43 (1853 ed.)}\par}
+\clearpage
+\setcounter{page}{2}
+
+% ---------- spread 30 | 31 ----------
+{\small\input{fragments/gr030}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en030-h1}}
+\clearpage
+{\small\input{fragments/la031}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en030-h2}}
+\clearpage
+
+% ---------- spread 32 | 33 ----------
+{\small\input{fragments/gr032a}\parasep\input{fragments/gr032b}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en032-h1}}
+\clearpage
+{\small\input{fragments/la033a}\parasep\input{fragments/la033b}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en032-h2}}
+\clearpage
+
+% ---------- spread 34 | 35 ----------
+{\small\input{fragments/gr034}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en034-h1}}
+\clearpage
+{\small\input{fragments/la035}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en034-h2}}
+\clearpage
+
+% ---------- spread 36 | 37 ----------
+{\small\input{fragments/gr036}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en036-h1}}
+\clearpage
+{\small\input{fragments/la037}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en036-h2}}
+\clearpage
+
+% ---------- spread 38 | 39 ----------
+{\small\input{fragments/gr038}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en038-h1}}
+\clearpage
+{\small\input{fragments/la039}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en038-h2}}
+\clearpage
+
+% ---------- spread 40 | 41 ----------
+{\small\input{fragments/gr040a}\parasep\input{fragments/gr040b}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en040-h1}}
+\clearpage
+{\small\input{fragments/la041a}\parasep\input{fragments/la041b}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en040-h2}}
+\clearpage
+
+% ---------- spread 42 | 43 ----------
+{\small\input{fragments/gr042a}\parasep\input{fragments/gr042b}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en042-h1}}
+\clearpage
+{\small\input{fragments/la043a}\parasep\input{fragments/la043b}}
+\registerrule
+{\footnotesize\itshape\input{fragments/en042-h2}}
+\clearpage
+
+\end{document}

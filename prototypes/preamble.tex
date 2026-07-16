@@ -1,0 +1,28 @@
+% Shared preamble for the M2 layout prototypes (xelatex + Cardo)
+\usepackage[paperwidth=6in,paperheight=9in,
+  inner=0.80in,outer=0.65in,top=0.80in,bottom=0.85in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Cardo}[
+  BoldFont={* Bold}, ItalicFont={* Italic},
+  Ligatures=TeX]
+\usepackage{xcolor}
+\definecolor{rulegray}{gray}{0.55}
+
+% a sense-line: #1 = indent in em, #2 = text; long lines wrap with hanging indent
+\newlength{\plhang}\setlength{\plhang}{5em}
+\newcommand{\pl}[2]{\par\noindent\hangindent=\plhang\hangafter=1\hspace*{#1em}#2}
+% vertical breathing space between prayer paragraphs
+\newcommand{\parasep}{\par\vspace{0.55\baselineskip}}
+% small-caps language label used by the stacked layout
+\newcommand{\langhead}[1]{\par\vspace{0.4\baselineskip}%
+  {\centering\scshape\color{rulegray}#1\par}\vspace{0.35\baselineskip}}
+% unit title
+\newcommand{\unittitle}[1]{\par\vspace{1.2\baselineskip}%
+  {\centering\large\scshape #1\par}\vspace{0.8\baselineskip}}
+% thin separator rule
+\newcommand{\thinrule}{\par\vspace{0.5\baselineskip}%
+  {\centering\color{rulegray}\rule{0.35\textwidth}{0.4pt}\par}\vspace{0.5\baselineskip}}
+\raggedbottom
+\setlength{\parindent}{0pt}
+% bidi must be loaded LAST (provides \RL for the Hebrew headings)
+\usepackage{bidi}

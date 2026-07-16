@@ -1,0 +1,107 @@
+% Prototype A — stacked per prayer: Greek, Latin, English blocks in sequence
+\documentclass[10pt,oneside]{book}
+\input{preamble}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[C]{\small\scshape Preces Privatae — The First Day}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+\thispagestyle{empty}
+\vspace*{2in}
+{\centering
+{\Huge Preces Privatae}\\[0.6em]
+{\large Lancelot Andrewes}\\[2em]
+{\itshape Prototype A --- stacked per prayer}\\[0.5em]
+{\small Greek $\cdot$ Latin $\cdot$ English in sequence, unit by unit}\\[0.5em]
+{\small Sample: The First Day, printed pp.\ 30--43 (1853 ed.)}\par}
+\clearpage
+\setcounter{page}{1}
+
+\unittitle{The First Day}
+
+% ---------- Unit 1 : Commemoration ----------
+\langhead{ΕΛΛΗΝΙΚΑ}
+\input{fragments/gr030}
+\parasep
+\input{fragments/gr032a}
+\thinrule
+\langhead{LATINE}
+\input{fragments/la031}
+\parasep
+\input{fragments/la033a}
+\thinrule
+\langhead{ENGLISH}
+\input{fragments/en030}
+\parasep
+\input{fragments/en032a}
+
+\unittitle{Confession}
+
+\langhead{ΕΛΛΗΝΙΚΑ}
+\input{fragments/gr032b}
+\parasep
+\input{fragments/gr034}
+\parasep
+\input{fragments/gr036}
+\parasep
+\input{fragments/gr038}
+\parasep
+\input{fragments/gr040a}
+\thinrule
+\langhead{LATINE}
+\input{fragments/la033b}
+\parasep
+\input{fragments/la035}
+\parasep
+\input{fragments/la037}
+\parasep
+\input{fragments/la039}
+\parasep
+\input{fragments/la041a}
+\thinrule
+\langhead{ENGLISH}
+\input{fragments/en032b}
+\parasep
+\input{fragments/en034}
+\parasep
+\input{fragments/en036}
+\parasep
+\input{fragments/en038}
+\parasep
+\input{fragments/en040a}
+
+\unittitle{Prayer for Grace}
+
+\langhead{ΕΛΛΗΝΙΚΑ}
+\input{fragments/gr040b}
+\parasep
+\input{fragments/gr042a}
+\thinrule
+\langhead{LATINE}
+\input{fragments/la041b}
+\parasep
+\input{fragments/la043a}
+\thinrule
+\langhead{ENGLISH}
+\input{fragments/en040b}
+\parasep
+\input{fragments/en042a}
+
+\unittitle{The Fence of the Law}
+
+\langhead{ΕΛΛΗΝΙΚΑ}
+\input{fragments/gr042b}
+\thinrule
+\langhead{LATINE}
+\input{fragments/la043b}
+\thinrule
+\langhead{ENGLISH}
+\input{fragments/en042b}
+
+\parasep
+{\centering\itshape\small (sample ends mid-unit)\par}
+
+\end{document}

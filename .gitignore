@@ -4,3 +4,6 @@ site/.next/
 site/out/
 site/src/data/content.json
 .DS_Store
+*.aux
+*.log
+prototypes/fragments/

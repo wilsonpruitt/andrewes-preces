@@ -1,0 +1,81 @@
+% Prototype C — originals verso / English recto:
+% Greek | Latin two columns on the left page, English full right page, per 1853 spread
+\documentclass[10pt,twoside]{book}
+\input{preamble}
+\usepackage{fancyhdr}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[CE]{\small ΕΥΧΑΙ ΚΑΘΗΜΕΡΙΝΑΙ.\ $\cdot$\ PRECES QUOTIDIANÆ.}
+\fancyhead[CO]{\small THE DAILY PRAYERS.}
+\fancyhead[LE,RO]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% two-column original spread page: #1 Greek inputs, #2 Latin inputs
+\newcommand{\originals}[2]{%
+  \noindent
+  \begin{minipage}[t]{0.485\textwidth}
+    \footnotesize\setlength{\plhang}{1.5em}#1
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\textwidth}
+    \footnotesize\setlength{\plhang}{1.5em}#2
+  \end{minipage}\par}
+
+\begin{document}
+
+\thispagestyle{empty}
+\vspace*{2in}
+{\centering
+{\Huge Preces Privatae}\\[0.6em]
+{\large Lancelot Andrewes}\\[2em]
+{\itshape Prototype C --- originals facing English}\\[0.5em]
+{\small Greek and Latin side by side on the left page,}\\
+{\small the English translation on the full right page}\\[0.5em]
+{\small Sample: The First Day, printed pp.\ 30--43 (1853 ed.)}\par}
+\clearpage
+\setcounter{page}{2}
+
+% ---------- spread for printed 30/31 ----------
+\originals{\input{fragments/gr030}}{\input{fragments/la031}}
+\clearpage
+{\small\input{fragments/en030}}
+\clearpage
+
+% ---------- spread for printed 32/33 ----------
+\originals{\input{fragments/gr032a}\parasep\input{fragments/gr032b}}%
+          {\input{fragments/la033a}\parasep\input{fragments/la033b}}
+\clearpage
+{\small\input{fragments/en032a}\parasep\input{fragments/en032b}}
+\clearpage
+
+% ---------- spread for printed 34/35 ----------
+\originals{\input{fragments/gr034}}{\input{fragments/la035}}
+\clearpage
+{\small\input{fragments/en034}}
+\clearpage
+
+% ---------- spread for printed 36/37 ----------
+\originals{\input{fragments/gr036}}{\input{fragments/la037}}
+\clearpage
+{\small\input{fragments/en036}}
+\clearpage
+
+% ---------- spread for printed 38/39 ----------
+\originals{\input{fragments/gr038}}{\input{fragments/la039}}
+\clearpage
+{\small\input{fragments/en038}}
+\clearpage
+
+% ---------- spread for printed 40/41 ----------
+\originals{\input{fragments/gr040a}\parasep\input{fragments/gr040b}}%
+          {\input{fragments/la041a}\parasep\input{fragments/la041b}}
+\clearpage
+{\small\input{fragments/en040a}\parasep\input{fragments/en040b}}
+\clearpage
+
+% ---------- spread for printed 42/43 ----------
+\originals{\input{fragments/gr042a}\parasep\input{fragments/gr042b}}%
+          {\input{fragments/la043a}\parasep\input{fragments/la043b}}
+\clearpage
+{\small\input{fragments/en042a}\parasep\input{fragments/en042b}}
+\clearpage
+
+\end{document}
