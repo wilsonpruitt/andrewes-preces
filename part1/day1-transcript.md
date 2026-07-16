@@ -1,7 +1,7 @@
 # Day 1 — ΤΗΣ ΠΡΩΤΗΣ ΗΜΕΡΑΣ / DIEI PRIMAE — raw transcript
 
 Source: 1853 Parker ed., printed pp. 30–69 (PDF 48–87), images `raw/day1/p-0NN.jpg`.
-Transcription discipline: verbatim incl. 1853 accentuation and punctuation; `[?]` = unreadable; indentation = 4 spaces per level as printed; scripture refs kept inline, book abbrev. italicized as printed. Greek verso / Latin recto alternate. Running heads, catchwords, and printer's signatures omitted. A leading `{ ` on consecutive lines = a printed brace grouping alternatives after a cue word; inline `{ a / b }` = a printed brace stacking alternatives mid-line. Square brackets are the 1853 editor's (supplied refs). Hebrew occurs in MAIN TEXT as section headings (first at printed p. 42).
+Transcription discipline: verbatim incl. 1853 accentuation and punctuation; `[?]` = unreadable; indentation = 4 spaces per level as printed; scripture refs kept inline, book abbrev. italicized as printed. Greek verso / Latin recto alternate. Running heads, catchwords, and printer's signatures omitted. A leading `{ ` on consecutive lines = a printed brace grouping alternatives after a cue word; inline `{ a / b }` = a printed brace stacking alternatives mid-line. Square brackets are the 1853 editor's (supplied refs). Hebrew occurs in MAIN TEXT as section headings (first at printed p. 42). Multi-column rows are transcribed row-wise with ` | ` separating columns; a row continuing only in the right column starts with ` | `.
 
 <!-- printed 30 (PDF 48) — Greek -->
 
@@ -449,3 +449,793 @@ Corpus in servitutem redigere, 1 *Cor.* ix. 27.
 Vacare orationi, 1 *Cor.* vii. 5.
 Ad Pœnitentiam secedere, 2 *Pet.* iii. 9.
 Sepi semitam meam spinis, *Hos.* ii. 6.
+
+<!-- NOTE: PDF 62/63 are duplicate scans of printed 42/43 — skipped. Offset +20 from here. -->
+
+<!-- printed 44 (PDF 64) — Greek -->
+
+    Τοῦ μὴ εὑρεῖν με τὴν τρίβον
+        τοῦ διώκειν τὰ μάταια.
+Ἐν κημῷ καὶ χαλινῷ τὰς σιαγόνας ἄγξον μου
+    τοῦ μὴ ἐγγίζοντος πρὸς σέ.
+Ὦ Κύριε, ἀνάγκασον εἰσελθεῖν εἴς σε.
+
+ΠΙΣΤΕΥΩ, ΚΥΡΙΕ,
+
+Εἰς σὲ { Πατέρα, / Λόγον, / Πνεῦμα, } ἕνα Θεόν.
+
+ά. Ὑπὸ τῆς στοργῆς καὶ δυνάμεως σῆς
+        ἐκτίσθαι τὸ πᾶν.
+
+β´. Ὑπὸ τῆς χρηστότητος καὶ φιλανθρωπίας σου
+        ἀνακεφαλαιῶσθαι τὸ πᾶν
+        ἐν τῷ Λόγῳ σου·
+Ὅς, δι’ ἡμᾶς ἀνθρώπους, διά τε τὴν σωτηρίαν ἡμῶν,
+        σὰρξ ἐγένετο,
+    συνελήφθη, | ἐτέχθη,
+    ἔπαθε, | ἐσταυρώθη,
+    ἔθανε, | ἐτάφη,
+    κατέβη, | ἀνέστη,
+    ἀνέβη, | ἐκάθισε,
+    παλινοστήσει, | μισθαποδώσει.
+
+γ´. Ὑπὸ τῆς ἐπιφαύσεως καὶ ἐνεργείας
+        τοῦ Πνεύματός σου τοῦ ἁγίου, <!-- print shows ἁγίοι, — broken type? -->
+        ἐκκεκλῆσθαι ἐκ τοῦ καθ’ ὅλου
+    λαὸν περιούσιον εἰς πολίτευμα,
+
+<!-- printed 45 (PDF 65) — Latin -->
+
+    ne inveniam viam
+        ad vanitatem sectandam.
+In camo et fræno constringe maxillas meas,
+    quando non approximo ad te. *Psal.* xxxii. 9.
+O Domine compelle me intrare ad te. *Luc.* xiv. 23.
+
+CREDO, DOMINE,
+
+In te { Patrem / Verbum / Spiritum } unum Deum.
+
+1. A tua paterna affectione ac potentia
+        creata omnia.
+
+2. A tua benignitate ac humani generis amore
+        instaurata omnia, [*Eph.* i. 10.]
+        in Verbo tuo:
+Quod propter nos homines salutemque nostram
+        Caro factum est,
+    Conceptum, | Natum,
+    Passum, | Crucifixum,
+    Mortuum, | Sepultum,
+    Descendit, | Resurrexit,
+    Ascendit, | Consedit ad dextram,
+    Redibit, | Reddet cuique.
+
+3. Ab illuminatione et operatione
+        Spiritus tui Sancti,
+        vocari ex universo
+    populum acquisitionis in societatem, [*Tit.* ii. 14. *Phil.* iii. 20.]
+
+<!-- printed 46 (PDF 66) — Greek -->
+
+κατὰ { πίστιν ἀληθείας, / καὶ / ἁγιωσύνην ἀναστροφῆς, }
+        ἐν ᾧ μετέχειν ἡμᾶς
+Τῆς κοινωνίας τῶν ἁγίων καὶ τῆς ἀφέσεως τῶν ἁμαρτιῶν
+        ἐν τῷ παρόντι,
+        ἐν ᾧ προσδοκᾶν ἡμᾶς
+    Σαρκὸς ἀνάστασιν, καὶ ζωὴν αἰώνιον
+        ἐν τῷ μέλλοντι.
+
+Ταύτην τὴν ἁγιωτάτην Πίστιν,
+    τὴν ἅπαξ παραδοθεῖσαν τοῖς ἁγίοις,
+        πιστεύω, Κύριε,
+    Βοήθει συ τῇ μου ἀπιστίᾳ,
+    Πρόσθες συ τῇ μου ὀλιγοπιστίᾳ·
+        Κἀμοὶ χάρισαι
+    τὸν Πατέρα ἀγαπᾶν τῆς στοργῆς,
+    τὸν Παντοκράτορα εὐλαβεῖσθαι τῆς δυνάμεως,
+Αὐτῷ ὡς κτιστῇ πιστῷ παρατίθεσθαι τὴν ψυχὴν
+    ἐν εὐποιΐᾳ.
+ἐκ { τοῦ Ἰησοῦ, | Σωτηρίας / τοῦ Χριστοῦ | Χρίσματος / μονογενοῦς Υἱοῦ, | Υἱοθεσίας } μετέχειν.
+        Τὸν Κύριον θεραπεύειν,
+Ἀντὶ τῆς συλλήψεως | ἐν πίστει,
+    γεννήσεως, | ταπεινοφροσύνῃ,
+    τῶν παθημάτων | ὑπομονῇ τε καὶ ἀντιπαθείᾳ
+        | τοῖς περὶ ἁμαρτίαν, <!-- print breathing unclear: ἁμαρτίαν/ὁμαρτίαν -->
+    τοῦ σταυροῦ | σταυρῶσαι τὰς ἀφορμὰς,
+
+<!-- printed 47 (PDF 67) — Latin -->
+
+ad { fidem veritatis, 2 *Thess.* ii. 13. / et / sanctimoniam conversationis, 1 *Pet.* iii. 2. }
+    In qua participes redde nos
+Communionis Sanctorum, et remissionis peccatorum
+        in præsenti tempore,
+    In qua certo exspectare nos
+    Carnis resurrectionem, et vitam æternam
+        in futuro.
+
+    Hanc Sanctissimam fidem
+        semel traditam Sanctis *Jud. vers.* 3.
+            Credo, Domine:
+    Adjuva incredulitatem meam, *Mar.* ix. 24.
+    Adauge, quod mihi est pusillum fidei. [*Luc.* xvii. 5.]
+        Et mihi concede benignus,
+ut in { Patre pietatem diligam; / Omnipotente potentiam reverear. }
+Ipsi, ceu Creatori fideli, commendem animam meam in
+    benefaciendo; 1 *Pet.* iv. 19.
+ex { Jesu, | Salutis / Christo, | Unctionis / Unigenito Filio, | Adoptionis } fiam particeps.
+        Dominum colam,
+Propter Conceptionem | Fide,
+    Nativitatem | Humilitate,
+    Passiones | Patientia et Antipathia
+        | peccatorum,
+    Crucem | Crucifigere primos motus,
+        | [*Gal.* v. 24.]
+
+<!-- printed 48 (PDF 68) — Greek -->
+
+    τοῦ θανάτου | νεκρῶσαι τὴν σάρκα,
+    τῆς ταφῆς | θάπτειν δι’ ἔργων ἀγαθῶν τὰ
+        | πονηρὰ διαβούλια,
+    τῆς καταβάσεως | μελετᾶν τὰ εἰς ᾅδου,
+    τῆς ἀναστάσεως | καινότητα τῆς ζωῆς,
+    ἀναβάσεως | τὰ ἄνω φρονεῖν,
+    καθέδρας | τὰ κρείττω ἐκ δεξιῶν,
+    παλινοστήσεως | τὸν φόβον τῆς παρουσίας δευτέρας,
+    κρίσεως | τῷ κρίνειν ἐμαυτὸν πρὸ τοῦ
+        | κρίνεσθαί με.
+        Ἀπὸ τοῦ Πνεύματος,
+    τὴν πνοὴν λαβεῖν τῆς χάριτος σωτηρίου,
+ἐν { ἐκκλησίᾳ | κλήσεως / ἁγίᾳ | ἁγιασμοῦ / καθολικῇ | μερισμοῦ } μετέχειν,
+        καὶ κοινωνίας
+τῶν { ἁγιασμάτων, | προσευχῶν, / νηστειῶν, | στεναγμῶν, / ἀγρυπνιῶν, | δακρύων, }
+        Κακοπαθημάτων·
+    εἰς πεποίθησιν ἀφέσεως ἁμαρτιῶν,
+εἰς ἐλπίδα { ἀναστάσεως / μεταστάσεως } εἰς ζωὴν αἰώνιον.
+
+Ὦ ἡ ἐλπὶς πάντων περάτων τῆς γῆς,
+    καὶ τῶν ἐν θαλάττῃ μακράν·
+
+<!-- printed 49 (PDF 69) — Latin -->
+
+    Mortem | Mortificare carnem, [*Col.* iii. 5.]
+    Sepulturam | Sepelire per opera bona malas
+        | cogitationes,
+    Descensum | Crebra meditatione in infer-
+        | num descendere,
+    Resurrectionem | Ad vitæ novitatem resurgere,
+        | [*Rom.* vi. 4.]
+    Ascensionem | Sapere ea quæ sursum sunt,
+        | [*Col.* iii. 2.]
+    Sessionem | Locando a dextris quæ me-
+        | liora sunt,
+    Reditum | Timorem adventus secundi,
+    Judicium | Me ipsum judicare antequam
+        | judicer. [1 *Cor.* xi. 31.]
+        A Spiritu recipiam
+    Spirationem gratiæ salutaris,
+ut in { Ecclesia | Vocationis / Sancta | Sanctificationis / Catholica | Distributionis } particeps fiam.
+        et Communionis
+    Sacramentorum, | Orationum,
+    Jejuniorum, | Suspiriorum,
+    Vigiliarum, | Lacrymarum,
+        Afflictionum!
+    Ad fiduciam Remissionis peccatorum,
+spem { Resurrectionis / Translationis } ad vitam æternam.
+
+O spes omnium finium terræ,
+    et eorum qui sunt in mari longe, *Psal.* lxv. 5.
+
+<!-- printed 50 (PDF 70) — Greek -->
+
+ὦ ἐφ’ ᾧ ἤλπισαν οἱ πατέρες ἡμῶν,
+        καὶ ἐρρύσω αὐτούς·
+    ὃν ὑπέμειναν,
+        καὶ οὐ κατῃσχύνθησαν.
+ὦ ἡ ἐλπίς μου ἐκ νεότητος,
+    ἀπὸ μαστῶν τῆς μητέρος,
+εἰς ὃν ἀπερρίφθην ἐκ μήτρας,
+        ἴσθι συ ἐλπίς μου
+            ἔτι καὶ ἔτι,
+    καὶ μερίς μου ἐν γῇ ζώντων.
+        Ἐν φύσει σου,
+ἐν { ὀνόμασι, / τύποις, / λόγῳ, / πράξει, }
+        ἡ ἐλπίς μου.
+    μὴ καταισχύνῃς με
+    ἀπὸ τῆς προσδοκίας
+        μου ταύτης.
+
+Ὦ ἡ ἐλπὶς πάντων περάτων τῆς γῆς,
+    Μνήσθητι τῆς κτίσεώς σου ἁπάσης εἰς ἀγαθόν·
+Ἐπίσκεψαι τὸν κόσμον ἐν οἰκτιρμοῖς σου.
+
+Ὦ φύλαξ ἀνθρώπων,
+    ὦ Δέσποτα φιλάνθρωπε·
+Μνήσθητι παντὸς τοῦ γένους ἡμῶν·
+    καὶ ὃς συνέκλεισας πάντας εἰς ἀπείθειαν,
+        πάντας ἐλέησον, ὦ Κύριε.
+
+Ὦ εἰς τοῦτο ἀποθανὼν καὶ ἀναζήσας,
+
+<!-- printed 51 (PDF 71) — Latin -->
+
+O in quem speraverunt Patres nostri,
+        et liberasti eos,
+    in quem speraverunt,
+    et non sunt confusi, *Psal.* xxii. 4, 5.
+    O spes mea a juventute, *Psal.* lxxi. 4.
+    ab uberibus matris meæ,
+In quem projectus sum ex utero, *Psal.* xxii. 9, 10.
+        Esto tu spes mea
+        dehinc et semper,
+Et sors mea in terra viventium. *Psal.* cxlii. 5.
+        Natura tua,
+In { Nominibus, / Typis, / Verbo, / Opere, }
+        Spes mea.
+    Non confundas me
+        ab hac mea
+    exspectatione. *Psal.* cxix. 116.
+
+O spes omnium finium terræ, *Psal.* lxv. 5.
+    Memento omnis Creaturæ tuæ in bonum;
+    Visita Mundum in misericordia tua.
+
+O Custos hominum, [*Job.* vii. 20.]
+    O Domine amator hominum,
+Memento generis nostri universi;
+    Et qui conclusisti omnes in incredulitate,
+    Omnium miserere, o Domine. *Rom.* xi. 32.
+
+O qui in hoc mortuus es et resurrexisti,
+
+<!-- printed 52 (PDF 72) — Greek -->
+
+ἵνα καὶ νεκρῶν καὶ ζώντων κυριεύσῃς,
+    ἐάν τε ζῶμεν, ἐάν τε καὶ ἀποθνήσκωμεν,
+        Κύριος ἡμῶν συ.
+Ζῶντας καὶ θανόντας ἐλέησον, ὦ Κύριε.
+
+Ὦ βοηθὲ τῶν ἀβοηθήτων,
+ἀντιλήπτορ ἐν εὐκαιρίᾳ, ἐν θλίψει,
+    Μνήσθητι πάντων ἐν ἀνάγκῃ ὄντων,
+        καὶ τῆς σῆς βοηθείας δεομένων.
+
+Ὁ Θεὸς χάριτος καὶ ἀληθείας,
+    Στήριξον πάντας ἐν ἀληθείᾳ
+        καὶ χάριτι ἱστάντας.
+Κατάρτισον πάντας περὶ αἱρέσεις καὶ ἁμαρτίας νοσοῦντας.
+
+Ὦ ὑπερασπιστὰ τῶν σωτηρίων
+        τοῦ Χριστοῦ σου,
+Μνήσθητι τῆς συναγωγῆς σου,
+    ἧς ἐκτήσω καὶ ἐλυτρώσω
+        ἀπ’ ἀρχῆς.
+Ὦ γενέσθω τῶν πιστευόντων
+        ἡ καρδία καὶ ἡ ψυχὴ μία.
+
+Ὁ περιπατῶν ἐν μέσῳ
+        λυχνιῶν χρυσῶν,
+    Μὴ κινήσῃς τὴν λυχνίαν ἡμετέραν
+        ἐκ τόπου αὐτῆς.
+Επιδιόρθωσον τὰ λείποντα,
+Ἐπιστήριξον τὰ λοιπὰ,
+    ἃ ἔμελλες ἀποβαλεῖν,
+    ἃ μέλλει ἀποθανεῖν.
+
+<!-- printed 53 (PDF 73) — Latin -->
+
+ut et mortuorum et vivorum domineris. *Rom.* xiv. 9.
+    Sive vivimus, seu morimur, [*Vers.* 8.]
+        Tu noster Dominus,
+Viventium et mortuorum miserere, O Domine.
+
+O Auxiliator eorum qui sine auxilio sunt,
+Adjutor in tempore opportuno, in afflictione, *Psal.* ix. 9.
+Recordare omnium in extrema necessitate,
+    tuoque auxilio indigentium.
+
+O Deus gratiæ et Veritatis, *Jo.* i. 14.
+Stabili omnes in veritate et gratia stantes; 1 *Thess.* iii. 2.
+    2 *Pet.* i. 12.
+    Restitue omnes hæresi vel peccato ægrotantes. *Galat.* vi 1.
+
+O Protector Salvationum
+        Christi tui, *Psal.* xxviii. 9.
+    Memor esto Congregationis tuæ,
+Quam acquisivisti et redemisti
+        ab initio. [*Psal.* lxxiv. 2.]
+    O fiat credentium cor unum,
+        et anima una. *Act.* iv. 32.
+
+O qui ambulas in medio
+    candelabrorum aureorum, *Rev.* ii. 1.
+    Ne amoveas Candelabrum hoc nostrum
+    e loco ipsius. [*Ibid.* 5.]
+    Corrige quæ desunt, *Tit.* i. 5.
+Confirma cætera,
+        quæ abjecturus eras,
+        quæ moritura erant. *Rev.* iii. 2.
+
+<!-- printed 54 (PDF 74) — Greek -->
+
+Ὦ Κύριε θερισμοῦ
+    Ἔκβαλλε τοὺς ἐργάτας
+        ἱκανωθέντας παρὰ σοῦ
+            εἰς τὸν θερισμόν σου·
+Ὁ κλῆρος τῶν προσεδρευόντων τῷ ναῷ σου,
+    Χάρισαι τῷ Κλήρῳ ἡμῶν
+        ὀρθοτομεῖν τὸν λόγον ἀληθείας, καὶ
+        ὀρθοποδεῖν ἐν αὐτῷ.
+    Χάρισαι τῷ φιλοχρίστῳ λαῷ
+        πείθεσθαι καὶ ὑπείκειν αὐτοῖς.
+
+Ὦ βασιλεῦ τῶν ἐθνῶν,
+    εἰς τὰ πέρατα τῆς γῆς,
+Κράτυνον πάντα τὰ πολιτεύματα
+        ὅλης τῆς οἰκουμένης,
+    ὡς διαταγὴν σὴν,
+        εἰ καὶ τὴν ἀνθρωπίνην κτίσιν.
+        Διασκόρπισον τὰ ἔθνη
+    Τὰ τοὺς πολέμους θέλοντα·
+        Ἀντάνελε τοὺς πολέμους μέχρι τῶν
+            περάτων τῆς γῆς.
+
+Ἡ ὑπομονὴ τῶν νήσων, Κύριε, καὶ
+    ἐλπὶς αὐτῶν,
+Ῥῦσαι τὴν νῆσον ταύτην,
+    καὶ πᾶσαν τὴν χώραν ἐν ᾗ παροικοῦμεν,
+        ἀπὸ πάσης θλίψεως, κινδύνου,
+            καὶ ἀνάγκης.
+
+Κύριε κυρίων, ἄρχον ἀρχόντων,
+
+<!-- printed 55 (PDF 75) — Latin -->
+
+O Domine messis,
+Mitte operarios
+    idoneos a Te factos
+        in messem Tuam. *Mat.* ix. 38.
+Tu qui sors es eorum, qui assident in Templo tuo, [1 *Cor.* ix. 13.]
+        Concede Clero nostro,
+Ut recte dividant verbum veritatis, et [2 *Tim.* ii. 15.]
+    Ut recto pede incedant in ea. *Galat.* ii. 14.
+    Concede Populo Christi dilecto
+        Obtemperare his et se subjicere. *Heb.* xiii. 17.
+
+O Rex Nationum,
+        usque ad terminos terræ,
+    Robora omnia totius Terræ Regna
+        et Politias,
+    utpote ordinationem tuam, *Rom.* xiii. 2.
+    etsi humanam creaturam. 1 *Pet.* ii. 13.
+        Dissipa gentes quæ
+            bella volunt. *Psal.* lxviii. 30.
+        Tolle bella usque ad
+            terminos terræ. *Psal.* xlvi. 9.
+
+O Domine, sustentatio Insularum et
+    earum spes, *Es.* li. 5.
+Libera Insulam hanc, et
+    totam Regionem in qua habitamus,
+    ab omni afflictione, periculo, et
+        extrema necessitate. *Liturg. Chrysost.*
+
+O Domine Dominorum, et Rex Regum,
+
+<!-- printed 56 (PDF 76) — Greek -->
+
+Μνήσθητι ἀρχόντων πάντων,
+    οὓς ἐδικαίωσας ἄρχειν ἐπὶ τῆς γῆς.
+Καὶ ὦ ἐν πρώτοις μνήσθητι
+    του θεοφυλάκτου Βασιλέως ἡμῶν,
+Καὶ ἐπὶ πλέον συνέργησον αὐτῷ,
+    καὶ εὐόδωσον αὐτὸν ἐν ἅπασι·
+Λάλησον εἰς καρδίαν αὐτοῦ ἀγαθὰ,
+    ὑπὲρ τῆς ἐκκλησίας σου,
+        καὶ παντὸς τοῦ λαοῦ·
+Χάρισαι αὐτῷ βαθεῖαν
+    καὶ ἀναφαίρετον εἰρήνην·
+Ἵνα ἐν τῇ γαλήνῃ αὐτοῦ
+    ἤρεμον καὶ ἡσύχιον βίον διάγωμεν,
+        μετὰ πάσης εὐσεβείας καὶ σεμνότητος.
+
+Ὦ παρ’ οὗ τεταγμέναι εἰσὶν αἱ ἐξουσίαι,
+    Χάρισαι τοῖς ἐν Παλατίῳ διαφέρουσι,
+        ἐπ’ ἀρετῇ τε καὶ φόβῳ σου διαφέρειν·
+    Τῷ βουλευτηρίῳ, τὴν ἁγίαν σου φρόνησιν·
+Τοῖς δυνάσταις ἡμῶν, τὸ μὴ δύνασθαί τι κατὰ,
+    ἀλλ’ ὑπὲρ τῆς ἀληθείας·
+Τῷ δικαστηρίῳ τὰ κρίματά σου,
+    τὸ κρίνειν ἐν πᾶσι πάντας,
+        ἄνευ προκρίματος, καὶ προσκλίσεως.
+
+Ὁ ΘΕΟΣ Σαβαὼθ (τῶν στρατιῶν δηλαδὴ)
+        εὐόδωσον καὶ ’νίσχυσον πάντα
+    τὸν φιλόχριστον στρατὸν κατὰ τῶν ἐχθρῶν
+        τῆς ἁγιωτάτης ἡμῶν πίστεως.
+    Χάρισαι τοῖς λαοῖς ἐν ἡμῖν
+
+<!-- printed 57 (PDF 77) — Latin -->
+
+Memor esto Principum omnium, quos
+    dignos deputasti qui in terra regnarent;
+Et imprimis memor esto
+    Regis nostri Deo cari,
+Et magis magisque cooperare,
+    et secunda eum in omnibus.
+Loquere ad ipsius cor bona,
+    propter Ecclesiam tuam,
+        et omnem populum.
+Largire illi altam et
+    non eripiendam Pacem,
+        ut in ipsius tranquillitate
+    quietam et tranquillam vitam agamus,
+        in omni pietate et castitate, 1 *Tim.* ii. 2.
+
+O a quo ordinatæ sunt potestates, *Rom.* xiii. 1.
+    Largire iis qui in Palatio eminent,
+    Ut in virtute et timore tui emineant;
+        Concilio, sanctam tuam Prudentiam;
+Proceribus, nihil facere contra,
+    Sed pro veritate valere; 2 *Cor.* xiii. 8.
+Judicibus nostris, Judicia tua,
+    et judicare in omnibus omnes
+        sine præjudicio, vel in alteram partem declinando. 1 *Tim.* v. 21.
+
+O Deus Sabaoth, (*sc.* Exercituum)
+    Esto tu Dux et Protector omnium
+        Christianorum militum,
+    adversus sanctissimæ fidei hostes.
+Largire Populo nostro
+
+<!-- printed 58 (PDF 78) — Greek -->
+
+    ὑποτάσσεσθαι τῇ ἀρχῇ,
+    οὐ μόνον διὰ τὴν ὀργὴν,
+        ἀλλὰ καὶ διὰ τὴν συνείδησιν.
+
+ΤΟΙΣ γεωργοῖς καὶ ζωοφόρβοις, εὐετηρίαν,
+    τῷ στόλῳ καὶ ἁλιεῦσιν, εὐπλοΐαν·
+    τῇ καπηλικῇ, μὴ ὑπερβαίνειν ἀλλήλους,
+    τῇ μηχανικῇ, νομίμως ἐργάζεσθαι
+        τὰς ἐργασίας αὐτῶν·
+    Καὶ μὲν καὶ μέχρι τῶν βαναύσων,
+    καὶ μὲν καὶ μέχρι τῶν πτωχῶν.
+
+Ὁ ΘΕΟΣ οὐχ ἡμῶν μόνον,
+    ἀλλὰ καὶ σπέρματος ἡμετέρου·
+Εὐλόγησον τὰ παιδία ἡμῶν ἐν ἡμῖν,
+    ὥστε προκόψαι αὐτὰ ἐν σοφίᾳ,
+        ὡς καὶ ἡλικίᾳ καὶ ἐν χάριτι
+            παρὰ σοί τε καὶ ἀνθρώποις.
+
+Ὁ θέλων τῶν ἰδίων πρόνοιαν ἔχειν ἡμᾶς,
+        καὶ μισῶν ἀστόργους,
+    Μνήσθητι, Κύριε, τῶν μοι
+        κατὰ σάρκα συγγενῶν.
+Δὸς ἐμοὶ λαλεῖν εἰρήνην περὶ αὐτῶν,
+    καὶ ἐκζητεῖν ἀγαθὰ αὐτοῖς.
+
+Ὁ βουλόμενος ἀνταμεῖψαι
+        ἡμᾶς τοῖς ἀγαθοποιοῦσι,
+Μνήσθητι, Κύριε, εἰς ἀγαθὸν πάντων
+    ὑφ’ ὧν εὐπέπονθα·
+
+<!-- printed 59 (PDF 79) — Latin -->
+
+    subjici potestati,
+    non solum propter iram, sed et
+        propter Conscientiam. *Rom.* xiii. 5.
+
+AGRICOLIS et Pastoribus, anni fertilitatem,
+Classiariis et Piscatoribus, secundam navigationem;
+Mercatoribus, alium alios non circumvenire,
+Artificibus, legitime operari
+    operas suas;
+    etiam usque ad artes sordidas,
+    etiam usque ad mendicantes.
+
+O DEUS non solum noster,
+    sed et seminis nostri;
+Benedic puerulis nostris inter nos,
+    ut sicut ætate, sapientia etiam
+        proficiant, et gratia
+            apud te et omnes homines. *Luc.* ii. 52.
+
+Qui curam nostrorum vis habere nos, 1 *Tim.* v. 8.
+    et odisti eos qui sine affectione naturali sunt, [2 *Tim.* iii. 3.]
+Memor esto, Domine, meorum secundum carnem pro-
+    pinquorum; *Rom.* ix. 3.
+Et da mihi pacifice de illis loqui,
+    et illorum bona quærere.
+
+Qui vis nos retribuere
+        benefactoribus nostris,
+Memor esto in bonum, Domine, omnium
+    qui de me bene meriti sunt:
+
+<!-- printed 60 (PDF 80) — Greek -->
+
+Ζῆσον αὐτοὺς καὶ μακάρισον ἐν τῇ γῇ,
+    καὶ μήποτε παραδῷς αὐτοὺς
+        εἰς θέλημα ἐχθρῶν.
+
+Ὁ τῶν οἰκείων ἀμελοῦντα
+    ἀπίστου χείρονα γράψας,
+Μνήσθητι ἐν εὐδοκίᾳ σου πάντων
+    ἐν οἰκονομίᾳ μου.
+        Εἰρήνη τῷ οἴκῳ ἐμῷ,
+        Υἱὸς εἰρήνης ἐπὶ πᾶσιν ἐν αὐτῷ.
+
+Ὁ θέλων περισσεύειν δικαιοσύνην ἡμῶν
+    πλεῖον τῶν ἁμαρτωλῶν,
+    Ἀνταγαπᾶν τοὺς ἀγαπῶντας ἐμὲ
+    δὸς ἐμοὶ, Κύριε·
+        Τοὺς φίλους ἐμοὺς καὶ πατρῴους,
+    καὶ τῶν φίλων παῖδας οὐδέποτε ἐγκαταλεῖψαι.
+
+Ὁ θέλων ἡμᾶς νικᾶν ἐν τῷ ἀγαθῷ τὸ κακὸν,
+    καὶ προσεύχεσθαι ὑπὲρ τῶν ἐπηρεαζόντων ἡμᾶς,
+    Ἐλέησον τοὺς ἔχθρους μου, Κύριε,
+        ὡς καὶ ἐμαυτὸν,
+        καὶ προσάγαγε εἰς τὴν ἐπουράνιόν
+            σου βασιλείαν, ὡς καὶ ἐμέ.
+
+Ὁ χαρισάμενος ταῖς προσευχαῖς τῶν δούλων σου
+    ὑπὲρ ἀλλήλων,
+Μνήσθητι, Κύριε, εἰς ἀγαθὸν,
+καὶ δῴης ἔλεος πᾶσι τοῖς ἐμὲ διὰ μνήμης ἔχουσιν,
+        ἐν ταῖς προσευχαῖς αὐτῶν·
+
+<!-- printed 61 (PDF 81) — Latin -->
+
+Longævos et beatos in terra fac eos,
+    et ne tradas unquam
+        voluntati inimicorum. *Psal.* xli. 2.
+
+Qui domesticorum curam non habentem
+    infideli deteriorem notasti, 1 *Tim.* v. 8.
+Memor esto in beneplacito tuo
+    omnium in familia mea.
+    Pax domui meæ,
+        Filius pacis super omnibus in ea. *Luc.* x. 5, [6.]
+
+Qui vis justitiam nostram excedere
+    justitiam peccatorum, *Mat.* v. 20.
+    Redamare mei amantes
+        Da mihi Domine, *Vers.* 46.
+            Amicos meos et patris mei
+        Et amicorum liberos nunquam derelinquere. *Prov.* xxvii. 10.
+
+Qui mandasti nobis vincere in bono malum, [*Rom.* xii. 21.]
+Et orare pro calumniantibus et persequentibus, [*Mat.* v. 44.]
+    Miserere inimicorum nostrorum, Domine,
+        Sicut et mei ipsius,
+        et perduc eos in Regnum
+            tuum cœleste, sicut et me.
+
+Qui accipis preces servorum tuorum
+        pro se invicem,
+Memento, Domine, in bonum, et da misericordiam omni-
+    bus qui me in memoria habent
+        in precibus suis;
+
+<!-- printed 62 (PDF 82) — Greek -->
+
+καὶ πᾶσιν οἷς ἐπηγγειλάμην διὰ μνήμης ἔχειν
+        ἐν προσευχαῖς μου.
+    Ὁ προθυμίαν ἐν παντὶ ἔργῳ ἀγαθῷ
+            εὐπρόσδεκτον ἡγούμενος,
+        τῶν δι’ εὐλόγους αἰτίας τῇ προσευχῇ
+            μὴ σχολαζόντων,
+    Μνήσθητι, Κύριε, ὡς καὶ προσευχομένων σοι.
+
+ΣΥ ἀναστὰς οἰκτειρήσεις τοὺς ἐν ἐσχάτῃ ἀνάγκῃ
+    ὄντας,
+Ὅτι καιρὸς τοῦ οἰκτειρῆσαι αὐτοὺς,
+    ὅτι ἥκει καιρός.
+Οἰκτειρήσεις δὲ, Κύριε,
+    ὡς καὶ ἐμὲ ἐν ἐσχάτοις ὄντα.
+
+        Μνήσθητι, Κύριε,
+
+τῶν { Νηπίων, / Παίδων, / Ἐφήβων, / Νέων, / Ἀνδρῶν, / Γερόντων· }
+τῶν { Πεινώντων, / Διψάντων, / Γυμνῶν, / Νοσούντων, / Δεσμωτῶν, / Ξένων, ἀξένων, / Ἀθάπτων, }
+
+Τῶν ἐν ἐσχάτῃ γήρᾳ
+    καὶ ἀδυναμίᾳ ὄντων,
+Ἐνεργουμένων εἰς τὸ ἑαυτοκτονεῖν,
+Ὀχλουμένων ὑπὸ πνευμάτων ἀκαθάρτων,
+Τῶν ἀπηλπισμένων,
+Ψυχὴν νοσούντων ἢ σῶμα,
+Ὀλιγοψύχων,
+
+<!-- printed 63 (PDF 83) — Latin -->
+
+et omnibus quos pollicitus sum in memoria
+        habere in precibus meis,
+    Qui voluntatem promptam acceptam habes
+        in omni opere bono, [1 *Cor.* viii. 12.]
+        Eorum, quibus justa de causa
+            otium non est,
+Memor esto, Domine, tanquam precantium.
+
+TU exsurgens misereberis eorum, qui in extrema
+    necessitate sunt;
+Quoniam tempus est miserendi eorum,
+    quia venit tempus; [*Psal.* cii. 13.]
+Misereberis autem, Domine,
+    tanquam et mei in extremis positi.
+
+        Memento, Domine,
+
+    Infantium, | Esurientium,
+    Puerorum, | Sitientium,
+    Adolescentium, | Nudorum,
+    Juvenum, | Ægrotantium,
+    Virorum, | Captivorum,
+    Senum; | Peregrinorum,
+    Eorum qui ex senio im- | Hospitio egentium,
+        potentes, | Insepultorum,
+Eorum qui dæmone obsessi sunt, ut impellantur ad
+    mortem sibi consciscendam,
+Ab immundis spiritibus inquietantur, [*Act.* v. 16.]
+Desperatorum,
+Quibus animo ægre est vel corpore,
+Pusillanimorum,
+
+<!-- printed 64 (PDF 84) — Greek -->
+
+Τῶν ἐν φυλακαῖς καὶ δεσμοῖς,
+Τῶν τεθανατωμένων,
+Ὀρφανῶν,
+Χηρῶν,
+Ξένων,
+Ὁδοιπορούντων,
+Πλεόντων,
+Ἐγκύων,
+Θηλαζουσῶν,
+Τῶν ἐν πικραῖς { Δουλείαις, / Μετάλλοις, / Τριήρεσι, }
+Τῶν ἐν ἐρημίᾳ.
+
+Ἀνθρώπους καὶ κτήνη σώσεις, Κύριε.
+Ὡς ἐπλήθυνας τὸ ἔλεός σου ὁ Θεός·
+Καὶ ἄρα οἱ υἱοὶ τῶν ἀνθρώπων ἐν σκέπῃ
+    Τῶν πτερύγων σου ἐλπιοῦσιν.
+        Εὐλογήσαι ἡμᾶς Κύριος,
+            καὶ φυλάξαι ἡμᾶς.
+    Ἐπιφάναι Κύριος τὸ πρόσωπον αὐτοῦ ἐφ’ ἡμᾶς,
+            καὶ ἐλεήσαι ἡμᾶς.
+        Ἐπάραι Κύριος τὸ πρόσωπον αὐτοῦ,
+            καὶ δῴη ἡμῖν εἰρήνην.
+
+ΣΥΝΙΣΤΩ σοι, Κύριε,
+
+{ τὴν ψυχὴν, / τὸν νοῦν, / τὰς προσευχὰς, / τὰ αἰσθητήρια, / τὴν ζωήν μου, } καὶ { τὸ σῶμα, / τὰς ἐννοίας, / εὐχὰς πάσας, / τὰ μέλη, / θάνατόν μου· }
+
+<!-- printed 65 (PDF 85) — Latin -->
+
+Eorum qui in custodiis sunt aut vinculis,
+Morti addictorum,
+Orphanorum,
+Viduarum,
+Peregrinorum,
+Itinerantium,
+Navigantium,
+Gravidarum,
+Lactantium,
+Qui duram servitutem serviunt,
+Damnatorum ad metalla,
+Affixorum remo,
+Agentium in Deserto.
+
+Homines et jumenta salvabis, Domine.
+Quemadmodum multiplicasti misericordiam tuam, O Deus!
+Quocirca filii hominum in tegmine
+    Alarum tuarum sperabunt. [*Psal.* xxxvi. 6, 7.]
+        Benedicat nobis Dominus,
+            et custodiat nos.
+    Ostendat Dominus faciem suam nobis,
+        et misereatur nostri.
+        Attollat Dominus vultum suum,
+            et det nobis Pacem. *Num.* vi. 24, [25, 26.]
+
+COMMENDO tibi, Domine,
+
+{ Animam, / Mentem, / Orationes, / Sensus, / Vitam meam, } et { Corpus, / Cogitationes, / Vota omnia, / Membra, / Mortem meam; }
+
+<!-- printed 66 (PDF 86) — Greek -->
+
+Τοὺς ἀδελφοὺς καὶ ἀδελφίδας,
+    καὶ τοὺς παῖδας αὐτῶν,
+τοὺς φίλους, καὶ εὖ δράσαντας,
+    τοὺς συνιστωμένους,
+    τοὺς οἰκείους, γείτονας,
+τὴν πατρίδα, καὶ λαὸν Χριστιανὸν
+        ἅπαντα.
+
+ΑΝΩ καρδίας σχῶμεν εἰς τὸν Κύριον
+    ὡς ἀληθῶς ἄξιόν ἐστι καὶ δίκαιον,
+    πρέπον τε καὶ ὀφειλόμενον,
+        ἐν πᾶσι καὶ διὰ πάντα,
+        ἐν παντὶ χρόνῳ, τόπῳ, τρόπῳ,
+            ὥρᾳ καὶ χώρᾳ
+        πάντοτε, πανταχοῦ, πάντως,
+Σοῦ ἀναμνῆσαι, | Σὲ προσκυνῆσαι,
+Σοὶ ὁμολογῆσαι, | Σὲ ἐπαινέσαι,
+Σὲ εὐλογῆσαι, | Σὲ ἀνυμνῆσαι,
+        Σοὶ εὐχαριστῆσαι,
+Τῷ πάντων ὄντων κτιστῇ, θρεπτῇ,
+    φύλακι, κυβερνήτῃ, θεραπευτῇ,
+    ἐνεργέτῃ, τελειωτῇ,
+        δεσπότῃ καὶ Πατρὶ,
+        Βασιλεῖ καὶ Θεῷ,
+Τῇ πηγῇ τῆς ζωῆς καὶ ἀθανασίας,
+    τῷ θησαυρῷ τῶν αἰωνίων ἀγαθῶν.
+    Ὃν ὑμνοῦσιν οἱ οὐρανοὶ,
+        καὶ οἱ οὐρανοὶ τῶν οὐρανῶν,
+    Οἱ ἄγγελοι, καὶ πᾶσαι αἱ δυνάμεις ἐπουράνιοι,
+        ἀδιαλείπτως ἑτέραι πρὸς ἑτέραν κραυγάζουσαι,
+
+<!-- printed 67 (PDF 87) — Latin -->
+
+Fratres et Sorores,
+    et eorum liberos,
+Amicos et Benefactores,
+    Recommendatos,
+Familiares, Propinquos,
+Patriam et omnem Populum
+        Christianum.
+
+SURSUM corda habeamus ad Dominum:
+    Ut vere dignum est et justum,
+        conveniens et debitum,
+    in omnibus et per omnia,
+    in omni tempore, loco, modo,
+    [Hora et regione,]
+    semper, ubique, omnimodo,
+Tui recordari, | Te adorare,
+Tibi confiteri, | Te laudare,
+Tibi benedicere, | Te celebrare,
+        Tibi gratias agere,
+Omnium Creatori, Altori,
+    Conservatori, Gubernatori, Curatori,
+    Auctori, Consummatori,
+        Domino et Patri,
+        Regi et Deo,
+Fonti Vitæ et Immortalitatis,
+    Thesauro æternorum bonorum,
+    Quem laudant Cœli,
+        et Cœli Cœlorum,
+Quem Angeli, et omnes Cœli Potestates,
+    Indesinenter inter se clamantes,
+
+<!-- printed 68 (PDF 88) — Greek -->
+
+(ἡμεῖς τε ταπεινοὶ, καὶ ἀνάξιοι
+    ὑπὸ τοὺς πόδας αὐτῶν
+        σὺν αὐτοῖς)
+    Ἅγιος, ἅγιος, ἅγιος,
+    Κύριος, ὁ Θεὸς Σαβαὼθ,
+        πλήρης πᾶς ὁ οὐρανὸς,
+            πᾶσά τε ἡ γῆ
+    τῆς μεγαλωσύνης τῆς δόξης σου.
+    Εὐλογημένη ἡ δόξα τοῦ Κυρίου
+        ἐκ τοῦ τόπου αὐτοῦ,
+Ὑπὲρ { τῆς Θεότητος, / ἀκαταλήπτου, / ὕψους, / κυριότητος, / παντοδυναμίας, / ἀϊδιότητος, / προνοίας. }
+Ὁ Θεὸς { ἰσχὺς, / στερέωμα, / καταφυγὴ, / ῥύστης, / βοηθὸς, / ὑπερασπιστὴς, / κέρας σωτηρίας, / ἀντιλήπτωρ. }
+
+<!-- printed 69 (PDF 89) — Latin — END OF DAY 1 (Day 2 begins printed 70 / PDF 90) -->
+
+(Et nos humiles atque indigni
+    sub pedibus eorum,
+        cum illis)
+    Sanctus, Sanctus, Sanctus,
+        Dominus, Deus Sabaoth,
+Pleni omnes cœli,
+    et omnis terra Majestate
+        et Gloria tua.
+    Benedicta sit gloria Domini
+        ex loco ejus, [*Ezek.* iii. 12.]
+Propter { Deitatem, / Incomprehensibilitatem, / Celsitudinem, / Dominium, / Omnipotentiam, / Æternitatem, / Providentiam. }
+Deus { Fortitudo, / Firmamentum, / Refugium, / Liberator, / Adjutor, / Protector, / Cornu salutis, / Susceptor. [*Psal.* xviii. 1.] }

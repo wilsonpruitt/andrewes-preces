@@ -9,8 +9,12 @@ Sources: 1853 Praefatio (PDF p. 13), heading census of `raw/preces1853_djvu.txt`
 | anchor | printed | PDF |
 |---|---|---|
 | Day 1 opens | 30 | 48 |
+| **DUPLICATE LEAVES: printed 42/43 scanned twice** (PDF 60/61 AND 62/63 — distinct photos, same pages) | 42–43 | 60–63 |
+| printed 44 onward | 44 | 64 (offset now +20) |
 | Part II sample (Frustra) | 297 | 320 |
 | Poems (In Christum Crucifixum) | 393 | 430 |
+
+⚠ The Google scan duplicates leaves at least once — ALWAYS verify the printed page number in the header of every image before transcribing; never trust arithmetic alone.
 
 ## Volume outline
 
