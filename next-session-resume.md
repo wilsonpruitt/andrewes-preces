@@ -1,20 +1,23 @@
 # Next session — resume note
 
-**Current front: M3 volume run — ALL SEVEN DAYS DONE (both layers). NEXT = the post-days deprecation ΠΑΤΕΡ ὁ κτίσας (printed 198–~219).**
+**Current front: M3 — Wilson chose to GO BACK and finish the FRONT of Part I (printed 1–29) before moving to Part II. Front transcript is checkpointed at printed 1–11; NEXT = continue the front transcript, printed 12–29.**
+
+Ordering (Wilson, 2026-07-17): the seven days are done; now finish the beginning of Part I (printed 1–29), THEN the end-of-Part-I material (ΠΑΤΕΡ deprecation 198–219, Evening Office 220–252, the two Meditations 253–262), THEN Part II. Do the front's English after its transcript is complete.
 
 ## NEXT ACTION
 
-1. **Transcribe + translate the ΠΑΤΕΡ ὁ κτίσας deprecation, printed 198–~219** (PDF 218–~239; offset +20). This is a separate devotion that sits AFTER the seven days and BEFORE the Evening Office (Η ΔΕΙΛΙΝΗ ΑΚΟΛΟΥΘΙΑ, printed 220 = PDF 240). Greek verso opens `ΠΑΤΕΡ ὁ κτίσας, ὃν ἔκτισας, / Τιὲ ὁ λυτρώσας … / Πνεῦμα ὁ ἀναγεννήσας …` (already seen on p.198/PDF 218). **First fix the tail:** scan forward from PDF 218 for where this section ends and the Evening Office begins at printed 220 — confirm whether 198–219 is one unit or several. Images for 198–219 are ALREADY EXTRACTED in `raw/day7/` (p-218.jpg … p-239.jpg); extract 240+ when you reach the Evening Office.
-2. Files: `part1/deprecation-transcript.md` + `-english.md` (or fold into a `post-days-` prefix — pick a clean name, it is no longer a numbered "day"). Format/rules unchanged: CONVENTIONS.md, page-faithful, translate the Greek, refs on Latin layer, `## Translator's flags`. Recipe + self-checks = M3-HANDOFF.md §Per-day recipe.
-3. Commit content, then point this file at the **Evening Office (printed 220–~252)**.
+1. **Continue `part1/front-transcript.md` from printed 12** (PDF 30). Done+committed (83f6c53): printed 1–11 = the bilingual half-title (p.1), ΩΡΑΙ ΕΥΧΗΣ/Hours, ΠΡΟΣΕΥΚΤΗΡΙΑ/Places, ΕΝΤΕΥΞΕΙΣ/Intercessions, ΟΜΟΛΟΓΙΑΙ/Confessions, ΕΙΣΟΔΟΣ-INTROITUS opening. **Offset +18** (printed N = PDF N+18; printed 4 = PDF 22; printed 30/Day 1 = PDF 48). Greek verso = even printed, Latin recto = odd. Images already extracted: `raw/front/p-018…p-050.jpg` (covers printed 1–29; extract more only if needed).
+2. Printed 12 onward: the ΕΙΣΟΔΟΣ/Introit intercession catalogue continues (heavy braced tables — `Τῶν πάλαι` / `Τῶν νῦν` list the SAME Andrewes places as Day 7's ΑΓΑΘΥΝΟΝ: Φροντιστήριον, Παροικία, Πηγὴ Μεσημβρινή=Southwell, Ἁγίου Παύλου, Ἐπιζεφύριον=Westminster, Κικεστρία=Chichester, Ἐλεόπολις=Ely, Διοίκησις Οὐιντον=Winchester — reuse the Day 7 place-name flags). The **Officium Matutinum (Morning Office)** begins ~printed 16 and runs to printed 29 (Day 1 starts printed 30). Watch printed numbers by eye; no known duplicate leaves in this region.
+3. Finish the front transcript (self-checks per M3-HANDOFF §4), commit, then **translate → `part1/front-english.md`** (thou-form AV/BCP, line-keyed to the Greek, `## Translator's flags`). Then this file moves to the end-of-Part-I material (ΠΑΤΕΡ deprecation, printed 198–~219).
 
 ## State (2026-07-17)
 
 - DONE: M1 (Day 1, printed 30–69, + CONVENTIONS.md), M2 (three print prototypes; **Wilson chose B, the 1675 mirror** — page-faithful transcription is load-bearing), **Days 2–7 (printed 70–197) — ALL SEVEN DAYS, both layers, self-checks pass** (Day 7 English parity exact 15/15). The seven-day core of Part I is complete.
-- Day-start Greek-verso pages: 70, 92, 106, 130, 148, 168. Day 7 = printed 168–197 (ended 196/197 — did NOT run to 220). Offset held at +20 the whole way through 217; re-verify past 218.
-- **Print pipeline is still Day-1-only** (`tools/transcript2tex.py` hardcodes pp.30–43; `proto-b-mirror.pdf` = the M2 layout sample). Generalizing it to typeset Days 2–7 (page-range args, ` | ` table + `{` brace rendering, page-fit tuning for the fragile mirror) is deferred M-print work — do it once the text is further along, not now.
+- **IN PROGRESS: front of Part I (printed 1–29)** — transcript checkpointed at printed 1–11 (`part1/front-transcript.md`, 83f6c53); offset +18. English not started.
+- Day-start Greek-verso pages: 70, 92, 106, 130, 148, 168. Day 7 = printed 168–197 (ended 196/197 — did NOT run to 220). Offset +20 through 217. **Front region (printed 1–29) uses offset +18.**
+- **Print pipeline is still Day-1-only** (`tools/transcript2tex.py` hardcodes pp.30–43; `proto-b-mirror.pdf` = the M2 layout sample). Generalizing it to typeset the rest (page-range args, ` | ` table + `{` brace rendering, page-fit tuning for the fragile mirror) is deferred M-print work — not now.
 - Repo is LOCAL ONLY (no GitHub remote — creating one is a protected action, Wilson's call).
-- After the ΠΑΤΕΡ deprecation: Evening Office (Η ΔΕΙΛΙΝΗ ΑΚΟΛΟΥΘΙΑ, printed 220–~252), the two Meditations (~253–262), then the FRONT of Part I (printed 1–29), then the Variae Lectiones pass. See M3-HANDOFF.md §Scope.
+- Remaining Part I after the front: end-of-Part-I material — ΠΑΤΕΡ deprecation (printed 198–~219, Hebrew at 198/200/212), Evening Office (Η ΔΕΙΛΙΝΗ ΑΚΟΛΟΥΘΙΑ, ~220–252), two Meditations (~253–262). Then Part II (~263–400), Part III (~401–460), appendix + Variae Lectiones pass. See M3-HANDOFF.md §Scope and STRUCTURE.md.
 
 ## Day 6 notes (learned, don't relearn)
 
@@ -34,3 +37,4 @@
 - 2026-07-17 (Opus 4.8): Day 6 = printed 148–167, both layers (transcript 3c86445, English f23a0fc). Offset +20 held; parity exact 10/10.
 - 2026-07-17 (Opus 4.8): Day 7 TRANSCRIPT = printed 168–197, both layers (759ee3d). Scouted the tail (Day 7 ends 196/197, not 220; 198 = separate ΠΑΤΕΡ deprecation). 15 spreads, offset +20 held clean; Greek/Latin parity exact 13/15 (184/185, 192/193 off by 1, layout wraps).
 - 2026-07-17 (Opus 4.8): Day 7 ENGLISH = printed 168–197 (15cfa54). Line-keyed, thou-form AV/BCP; Greek/English parity EXACT 15/15. Flags cover the Manasseh cento, 2 Pet virtue chain, Rev doxologies, and Andrewes' grecized autobiography (Barking/St Giles/Pembroke/Southwell/Westminster; Chichester/Ely/Winchester). **All seven days now complete, both layers.** Also rebuilt the M2 print prototype (`proto-b-mirror.pdf`, Day 1 pp.30–43) at Wilson's request — confirmed the mirror layout + XeTeX toolchain still render; print pipeline still Day-1-only.
+- 2026-07-17 (Opus 4.8): Wilson redirected — go back and finish the FRONT of Part I (printed 1–29) before Part II. Fixed STRUCTURE.md (Day 7 = 168–197; added ΠΑΤΕΡ 198–219 row). Started `front-transcript.md`: printed 1–11 done + committed (83f6c53), offset +18, parity within ±2. NEXT = front transcript printed 12–29 (Introit catalogue tail + Officium Matutinum), then front English.
