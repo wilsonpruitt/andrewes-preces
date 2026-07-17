@@ -715,3 +715,135 @@ Ad
     Deletionem debitorum,    *Col.* ii. 14.
     Emundationem macularum,    *Heb.* ix. 14.
     Sanationem infirmitatum animæ,    1 *Pet.* ii. 24.
+
+<!-- printed 242 (PDF 261) — Greek. The Εἰς { communion catalogue continues from printed 240 (left brace runs the whole page, cue 'Εἰς' set mid-list); inner inline brace after αὔξησιν. -->
+
+    ἀνακαινισμὸν συνθήκης,
+    ἐφόδιον ζωῆς Πνευματικῆς,
+    αὔξησιν { χάριτος ἐνδυναμούσης, / παραμυθίας ψυχαγωγούσης, }
+    κατάνυξιν τῆς μετανοίας,
+    [φωτισμὸν διανοίας,]
+    προγύμνασμα ταπεινοφροσύνης,
+    σφραγῖδα πίστεως,
+    πλησμονὴν σοφίας,
+    σύνδεσμον ἀγάπης,
+    λόγον ἱκανὸν λογίας,
+    ὁπλισμὸν ὑπομονῆς,
+    νῆψιν εὐχαριστίας,
+    παρρησίαν προσευχῆς,
+    ἐνοίκησιν ἀλλεπάλληλον,
+    ὑποθήκην ἀναστάσεως,
+    ἀπολογίαν εὐπροσδεκτὸν ἐπὶ κρίματος,
+    διαθήκην κληρονομίας,
+    τύπον τελειότητος.
+Ὅπως ἂν καὶ ἡμεῖς μετὰ πάντων ἁγίων
+    τῶν ἀπ' αἰῶνός σοι εὐαρεστησάντων,
+        γενώμεθα μέτοχοι
+τῶν ἀκηράτων καὶ αἰωνίων σου ἀγαθῶν,
+    ὧν ἡτοίμασας τοῖς ἀγαπῶσί σε, Κύριε,
+        ἐν οἷς δεδοξασμένος ὑπάρχεις
+            εἰς τοὺς αἰῶνας.
+
+        Ἀμνὲ Θεοῦ,
+    ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου,
+αἶρε καὶ τὴν ἐμοῦ τοῦ ἁμαρτωλοῦ
+        τοῦ πάνυ.
+
+<!-- printed 243 (PDF 262) — Latin. The Ad { communion catalogue continues from printed 241; inner inline brace after Incrementum (refs on the Latin side). -->
+
+    Renovationem fœderis,    *Psal.* l. 5.
+    Viaticum vitæ spiritualis,    *Jo.* vi. 27.
+    Incrementum { Gratiæ efficacis,    *Heb.* xiii. 9. / Consolationis,    *Psal.* civ. 15. }
+    Compunctionem pœnitentiæ,    2 *Cor.* vii. 9.
+    Illuminationem mentis,    *Luc.* xxiv. 31.
+    Progymnasma humilitatis,    *Jo.* xiii. 15.
+    Sigillum fidei,    2 *Cor.* i. 22.
+    Plenitudinem sapientiæ,    *Jo.* vi. 35.
+    Vinculum charitatis,    *Jo.* xiii. 35.
+    Rationem idoneam collectæ,    1 *Cor.* xvi. 1.
+    Armaturam tolerantiæ,    1 *Pet.* iv. 1.
+    Expergefactionem gratitudinis,    *Psal.* cxvi. 12.
+    Fiduciam orandi,    *Vers.* 18.
+    Inhabitationem reciprocam,    *Jo.* vi. 56.
+    Pignus resurrectionis,    *Vers.* 54.
+    Apologiam idoneam in judicio,    1 *Cor.* xi. 31.
+    Testamentum hæreditatis,    *Luc.* xxii. 20.
+    Typum perfectionis.    *Jo.* xvii. 23.
+Ut nos cum omnibus Sanctis Tuis
+    Qui tibi a sæculo placuerunt,
+        fiamus participes
+incorruptibilium et æternorum Tuorum bonorum,
+    quæ præparasti Tui amantibus, Domine,
+        in quibus glorificatus existis
+            in æternum.
+
+        Agnus Dei,
+    qui tollis peccata mundi,    [*Joan.* i. 29.]
+Tollas et mea, qui sum peccator
+        admodum.
+
+<!-- printed 244 (PDF 263) — Greek -->
+
+Μεμνημένοι οὖν, Δέσποτα, καὶ ἡμεῖς,
+ἐν τῇ παρουσίᾳ τῶν ἁγίων σου Μυστηρίων,
+    τῶν σωτηρίων τοῦ Χριστοῦ σου παθημάτων,
+        τοῦ ζωοποιοῦ σταυροῦ,
+        τοῦ πολυτίμου θανάτου,
+        τῆς τριημέρου ταφῆς,
+        τῆς ἐκ νεκρῶν ἀναστάσεως,
+        τῆς εἰς οὐρανοὺς ἀνόδου,
+        τῆς ἐκ δεξιῶν σου τοῦ Πατρὸς καθέδρας,
+        τῆς ἐνδόξου καὶ φοβερᾶς
+        αὐτοῦ παρουσίας,
+Δεόμεθά σου, Κύριε,
+        ἵνα ἐν καθαρῷ τῷ μαρτυρίῳ
+            τῆς συνειδήσεως ἡμῶν
+    ὑποδεχόμενοι τὴν μερίδα
+        τῶν ἁγιασμάτων σου,
+ἑνωθῶμεν τῷ ἁγίῳ σώματι καὶ αἵματι
+        τοῦ Χριστοῦ σου·
+    καὶ ὑποδεχόμενοι αὐτὰ οὐκ ἀναξίως,
+        σχῶμεν τὸν Χριστὸν ἐνοικοῦντα
+            ἐν ταῖς καρδίαις ἡμῶν,
+    καὶ γενώμεθα ναὸς τοῦ ἁγίου
+        σου Πνεύματος·
+        Ναὶ, ὁ Θεὸς ἡμῶν.
+Καὶ μηδένα ἡμῶν ἔνοχον ποιήσῃς
+    τῶν φρικτῶν σου τούτων καὶ
+        ἐπουρανίων τῶν μυστηρίων,
+μηδὲ ἀσθενῆ ψυχῇ ἢ σώματι,
+    ἐκ τοῦ ἀναξίως τούτων
+        μεταλαμβάνειν.
+
+<!-- printed 245 (PDF 264) — Latin -->
+
+Memores igitur et nos, Domine,
+    in præsentia Sacramenti Tui,
+Salutarium Christi Tui Passionum,
+        Vivificæ Crucis,
+        Pretiosissimæ Mortis,
+        Triduanæ Sepulturæ,
+        Resurrectionis a Mortuis,
+        Ascensionis in cœlum,
+        Sessionis a dextra Dei Patris,
+        Gloriosi et formidabilis
+        Adventus,
+Rogamus Te, Domine,
+        ut in puro testimonio
+            Conscientiæ nostræ
+    accipientes partem
+        Sacramentorum tuorum,
+    Adunemur Sancto Corpori et Sanguini
+        Christi Tui:
+    Et illa digne recipientes,
+        Habeamus Christum
+            Cordibus nostris inhabitantem,    [*Eph.* iii. 17.]
+                et fiamus Templum
+                    Sancti Tui Spiritus;    [1 *Cor.* vi. 19.]
+        Etiam, O Deus noster!
+Neque quenquam nostrum reum facias
+    horum tremendorum et
+        Cœlestium Sacramentorum,
+    neque infirmum anima vel corpore,
+        propter indignam horum
+            receptionem.    [1 *Cor.* xi. 27. 30.]
