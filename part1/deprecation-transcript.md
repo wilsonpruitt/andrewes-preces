@@ -1,6 +1,6 @@
-# Part I, after the seven days — ΠΑΤΕΡ deprecation (ΠΑΤΕΡ ὁ κτίσας / PATER Creator) — raw transcript
+# Part I, after the seven days — Deprecation + Hosannas (ΠΑΤΕΡ ὁ κτίσας / ΩΣΑΝΝΑ ΕΝ ΥΨΙΣΤΟΙΣ / ΩΣΑΝΝΑ ΕΝ ΕΠΙΓΕΙΟΙΣ) — raw transcript
 
-Source: 1853 Parker ed., printed pp. 198–~219 (PDF 218–~239), images `raw/end/p-NNN.jpg`. Offset **+20** (printed N = PDF N+20; printed 198 = PDF 218). This is the post-days deprecation — NOT an eighth day: Day 7 ended printed 196/197 with a doxology, and printed 198 begins fresh with the ΠΑΤΕΡ ὁ κτίσας averting-prayer, still before the Evening Office (Ἡ ΔΕΙΛΙΝΗ ΑΚΟΛΟΥΘΙΑ) at printed ~220.
+Source: 1853 Parker ed., printed pp. 198–219 (PDF 218–239), images `raw/end/p-NNN.jpg`. Offset **+20** (printed N = PDF N+20; printed 198 = PDF 218). This is the post-days material — NOT an eighth day: Day 7 ended printed 196/197 with a doxology, and printed 198 begins fresh. Three titled sections here, all before the Evening Office (Ἡ ΔΕΙΛΙΝΗ ΑΚΟΛΟΥΘΙΑ) at printed ~220: (1) the **ΠΑΤΕΡ ὁ κτίσας / PATER Creator** deprecation (averting-prayer against sin, judgement, and every temporal evil), printed 198–207; (2) **ΩΣΑΝΝΑ ΕΝ ΥΨΙΣΤΟΙΣ / HOSANNA IN EXCELSIS** (the heavenly counterpart — remember me among the elect), printed 208–213; (3) **ΩΣΑΝΝΑ ΕΝ ΕΠΙΓΕΙΟΙΣ / HOSANNA IN TERRENIS** (the earthly counterpart — the year's blessings), printed 214–219.
 Transcription discipline: verbatim incl. 1853 accentuation and punctuation; `[?]` = unreadable; indentation = 4 spaces per level as printed; scripture refs kept inline on the Latin side, book abbrev. italicized as printed. Greek verso (even printed) / Latin recto (odd printed) alternate, same as the days. Running heads, catchwords, and printer's signatures omitted. Braces/columns per CONVENTIONS §2–4. Greek ordinal numerals kept with the keraia. NB: the *Variae Lectiones* (§A) records **Hebrew** variants keyed to printed pp. 198/200/212 — that is APPARATUS, not the main text; the main printed text on these leaves carries no Hebrew (verify each leaf by eye).
 
 <!-- printed 198 (PDF 218) — Greek -->
@@ -159,6 +159,39 @@ Et ne corrumpas nos in sæculum,
     τοῦ ἑτεροδιδασκαλεῖν,
     τοῦ νοσεῖν περὶ τὰς ζητήσεις, καὶ τὰς μάχας
         ἀπεράντους ποιεῖν.
+
+<!-- printed 203 (PDF 223) — Latin -->
+
+Ne fiat, O Domine.
+Quod ut ne facias,
+Aufer a me, Domine,
+    [1.] Cordis duritiem, *Mar.* xvi. 14.
+    [2.] Dedolentiam post admissum peccatum, [*Eph.* iv. 19.]
+    [3.] Cordis cæcitatem, *Mar.* iii. 5, et vi. 52.
+    [4.] Minarum tuarum contemptum,
+    [5.] Cauteriatam conscientiam, 1 *Tim.* iv. 2.
+    [6.] Reprobam mentem. *Rom.* i. 28.*
+    Peccatum in Spiritum Sanctum. *Mat.* xii. 32.
+    Peccatum ad mortem. 1 *Jo.* v. 16.
+        Quatuor clamantia.
+        * Sex præcurrentia illud
+            in Spiritum Sanctum.
+
+    Libera me
+Ab omnibus diris et infestis in hoc sæculo,
+    Peste, fame, bello,
+    Terræ motu, inundatione, incendio,
+    Plaga pluviali, siccitate,
+    Ærugine, uredine,
+    Fulmine, fulgure, procellis,
+    Morbis epidemiis, acutis, et malignis,
+        Morte improvisa.
+Ab atrocibus malis in Ecclesia,
+    Privati spiritus interpretatione, [2 *Pet.* i. 20.]
+    Innovatione in rebus sacris, [1 *Tim.* vi. 20.]
+    Pravis dogmatis spargendis, [1 *Tim.* i. 3.]
+    Languendo circa quæstiones inutiles
+        et vanas, [1 *Tim.* vi. 4.]
 
 <!-- printed 204 (PDF 224) — Greek -->
 
@@ -477,35 +510,100 @@ Obsequia populi, Magistratus fortitudinem,
 Facultatum affluentiam,
     Sobolem { conceptu numerosam, partu facilem, / forma et moribus honestam, / incrementis validam, rite institutam. }
 
-<!-- printed 203 (PDF 223) — Latin -->
+<!-- printed 216 (PDF 236) — Greek -->
 
-Ne fiat, O Domine.
-Quod ut ne facias,
-Aufer a me, Domine,
-    [1.] Cordis duritiem, *Mar.* xvi. 14.
-    [2.] Dedolentiam post admissum peccatum, [*Eph.* iv. 19.]
-    [3.] Cordis cæcitatem, *Mar.* iii. 5, et vi. 52.
-    [4.] Minarum tuarum contemptum,
-    [5.] Cauteriatam conscientiam, 1 *Tim.* iv. 2.
-    [6.] Reprobam mentem. *Rom.* i. 28.*
-    Peccatum in Spiritum Sanctum. *Mat.* xii. 32.
-    Peccatum ad mortem. 1 *Jo.* v. 16.
-        Quatuor clamantia.
-        * Sex præcurrentia illud
-            in Spiritum Sanctum.
+Ὥστε
+    οἱ υἱοὶ ἡμῶν
+    ὡς νεόφυτα ἱδρυμένα
+        ἐν νεότητι·
+    Αἱ θυγατέρες
+    καλαὶ, ὡς ὁμοίωμα ναοῦ·
+    Τὰ ταμιεῖα ἡμῶν
+    ἐξερευγόμενα ἐξ αὐτοῦ εἰς αὐτὸ,
+        τὰ πρόβατα πολυτόκα,
+        οἱ βόες παχεῖς,
+μηδὲν κατάπτωμα φραγμοῦ,
+    μηδεμία διέξοδος,
+    μηδεμία κραυγή.
+Μίαν ᾐτησάμην παρὰ Κυρίου, ταύτην ζητήσω,
+    τὸ κατοικεῖν με ἐν τῷ οἴκῳ τοῦ Κυρίου
+        πάσας τὰς ἡμέρας τῆς ζωῆς μου·
+    τὸ θεωρεῖν με τὴν τερπνότητα Κυρίου,
+        καὶ ἐπισκέπτεσθαι τὸν ναὸν ἅγιον
+        αὐτοῦ.
+Δύο αἰτοῦμαι παρὰ σοῦ, Κύριε,
+    μὴ ἀφέλῃς μου χάριν πρὸ τοῦ ἀποθανεῖν με,
+Μάταιον λόγον καὶ ψευδῆ μακράν μου ποίησον.
+    Πλοῦτον καὶ πενίαν μή μοι δῷς,
+σύνταξον δέ μοι τὰ δέοντα καὶ τὰ αὐτάρκη.
+    Ἵνα μὴ πλησθεὶς ὑπερήφανος γένωμαι,
+        καὶ εἴπω, Τίς ὁ Κύριος;
+    ἵνα μὴ πένης γενηθεὶς κλέψω,
+        καὶ ἐπομόσω τὸ ὄνομα τοῦ Θεοῦ μου.
+Μυηθῶ καὶ περισσεῦσαι,
+    μυηθῶ καὶ ὑστερεῖσθαι,
 
-    Libera me
-Ab omnibus diris et infestis in hoc sæculo,
-    Peste, fame, bello,
-    Terræ motu, inundatione, incendio,
-    Plaga pluviali, siccitate,
-    Ærugine, uredine,
-    Fulmine, fulgure, procellis,
-    Morbis epidemiis, acutis, et malignis,
-        Morte improvisa.
-Ab atrocibus malis in Ecclesia,
-    Privati spiritus interpretatione, [2 *Pet.* i. 20.]
-    Innovatione in rebus sacris, [1 *Tim.* vi. 20.]
-    Pravis dogmatis spargendis, [1 *Tim.* i. 3.]
-    Languendo circa quæstiones inutiles
-        et vanas, [1 *Tim.* vi. 4.]
+<!-- printed 217 (PDF 237) — Latin -->
+
+Ut
+    Filii nostri
+sint sicut novellæ plantationes
+        in juventute sua;
+    Filiæ nostræ
+compositæ, ut similitudo templi;
+        Promptuaria nostra,
+    eructantia ex hoc in illud,
+        Oves nostræ fœtosæ,
+        Boves nostræ crassæ,
+Ne sit ruina maceriæ,
+    neque transitus,
+    neque clamor. *Psal.* cxliv. 12, 13, 14.
+Unam petii a Domino, hanc requiram,
+    ut inhabitem in domo Domini
+        omnibus diebus vitæ meæ:
+    Ut videam voluptatem Domini,
+        et visitem templum ejus
+                sanctum. *Psal.* xxvii. 4.
+Duo rogavi te, Domine,
+        Ne deneges mihi antequam moriar,
+Vanitatem et verba mendacia longe fac a me.
+Mendicitatem, et divitias, ne dederis mihi.
+Tribue tantum victui meo necessaria,
+    ne forte satiatus, superbus fiam,
+        et dicam, Quis est Dominus?
+        aut egestate compulsus furer,
+        et perjurem nomen Dei mei. *Prov.* xxx. 7, 8, 9.
+Discam et abundare,
+    discam et humiliari,
+
+<!-- printed 218 (PDF 238) — Greek -->
+
+καὶ ἐν οἷς εἰμὶ, αὐτάρκης εἶναι·
+    παρεκτὸς δὲ ὧν ἔχω,
+Μηδὲν ἐπίγειον, πρόσκαιρον, φθαρτὸν,
+    μήτε ἐπιθυμῆσαι,
+    μήτε προσδοκῆσαί ποτε.
+        Εὐζωΐαν ἐν
+    εὐσεβείᾳ, σεμνότητι, ἁγνείᾳ,
+        πάσῃ καλοκἀγαθίᾳ,
+    εὐθυμίᾳ, ὑγιείᾳ, εὐφημίᾳ,
+    αὐταρκείᾳ, ἀσφαλείᾳ, ἐλευθερίᾳ,
+        ἡσυχίᾳ,
+    Εὐθανασίαν,
+    Ἀθανασίαν.
+
+<!-- printed 219 (PDF 239) — Latin -->
+
+et, in quibus sim, sufficiens esse; *Phil.* iv. 11, 12.
+        Extra quæ habeam vero,
+Nihil terrenum, temporarium, caducum,
+        neque concupiscere,
+            neque unquam flagitare.
+        Vitam facilem in
+    Pietate, gravitate, puritate,
+        omni probitate,
+Cum mente composita, sano corpore, bona fama,
+Animo æquo, incolumi conditione, libera,
+        Ætate tranquilla,
+    Mortem lenem,
+    Immortalitatem.
