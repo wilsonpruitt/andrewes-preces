@@ -200,3 +200,147 @@ Quod tota die verecundia mea contra me est,
 Ecce, Domine, quod dijudico egomet me
         Reum æterni supplicii,
 Etiam et omnium difficultatum hujus mundi.
+
+<!-- printed 258 (PDF 277) — Greek -->
+
+Ἰδοὺ ἐμὲ, Κύριε, αὐτοκατάκριτον, <!-- first word ink-smudged in the scan around "-κα-": read αὐτοκατάκριτον (self-condemned); Latin 259 "proprio judicio condemnatum" confirms -->
+    ἰδοῦ, Κύριε, καὶ μὴ εἰσέλθῃς εἰς κρίσιν
+        μετὰ τοῦ δούλου σου.
+
+
+Καὶ νῦν, Κύριε,
+    ταπεινοῦμαι ὑπὸ τὴν κραταιάν σου χεῖρα,
+κάμπτω σοι, Κύριε, τὰ γόνατα,
+    πίπτω ἐπὶ τῆς γῆς,
+        ἐπὶ τὸ πρόσωπόν μου.
+Παρελθέτω ἀπ' ἐμοῦ τὸ ποτήριον τοῦτο.
+    διαπεταννύω πρὸς σὲ τὰς χεῖράς μου,
+        τύπτω εἰς τὸ στῆθός μου,
+            εἰς τὸν μηρόν.
+Ἐκ βαθέων κράζει σοι ἡ ψυχή μου,
+    ὡς γῆ ἄνυδρός σοι,
+        καὶ πάντα τὰ ὀστᾶ μου,
+            καὶ πάντα τὰ ἐντός μου.
+Κύριε, εἰσάκουσον τῆς φωνῆς μου.
+
+<!-- printed 259 (PDF 278) — Latin -->
+
+Ecce me, Domine, proprio judicio condemnatum,    *Tit.* iii. 11.
+Ecce, et, O Domine, ne intres Tu in judicium cum servo
+    tuo.    *Psal.* cxliii. 2.
+
+
+Et nunc, Domine,
+    Humilior sub potenti manu tua,    1 *Pet.* v. 6.
+Flecto genua ad Te, Domine,    *Eph.* iii. 14.
+    Procido in terram,
+        in faciem meam.
+Transeat a me calix iste.    *Matt.* xxvi. 39.
+    Expando manus meas ad Te.    *Psal.* cxliii. 6.
+        Percutio { pectus / femur } meum.    *Luc.* xviii. 13. — *Jer.* xxxi. 19. <!-- printed: left brace {pectus/femur}; right brace pairs 'meum. Luc. xviii. 13.' with pectus (top) and 'Jer. xxxi. 19.' with femur (bottom) -->
+De profundis clamat ad Te anima mea,    *Psal.* cxxx. 1.
+    Sicut terra sine aqua tibi,    *Psal.* cxliii. 6.
+        et omnia ossa mea,    [*Psal.* xxxv. 10.]
+        et omnia quæ intra me sunt.    *Psal.* ciii. 1.
+    Domine, exaudi vocem meam.    [*Psal.* lxi. 1.]
+
+<!-- printed 260 (PDF 279) — Greek -->
+
+ΜΕΛΕΤΗ Β'.
+
+ΠΕΡΙ ΤΗΣ ΤΟΥ ΒΙΟΥ ΒΡΑΧΥΤΗΤΟΣ.
+
+ΕΛΕΗΣΟΝ με, Κύριε, ὅτι ἀσθενής εἰμι,
+    Μνήσθητι τίς μου ἡ ὑπόστασις,
+        μνήσθητι ὅτι σάρξ εἰμι,
+    Πνεῦμα πορευόμενον καὶ οὐκ ἐπιστρέφον.
+ὡσεὶ χόρτος αἱ ἡμέραι μου, ὡσεὶ ἄνθος τοῦ ἀγροῦ,
+ὅτι πνεῦμα διῆλθεν ἐν ἐμοὶ, καὶ οὐχ ὑπάρξω,
+    καὶ οὐκ ἐπιγνώσομαι ἔτι τὸν τόπον μου.
+        Ἐγὼ γὰρ γῆ καὶ σποδὸς,
+        χοῦς καὶ χόρτος,
+            σὰρξ καὶ πνοὴ,
+            σαπρία καὶ σκώληξ.
+Ὡς παρεπιδημὸς ἐπὶ τῆς γῆς,
+    κατοικῶν οἰκίαν πηλίνην,
+    ἡμερῶν ὀλίγων καὶ κακῶν,
+    σήμερον καὶ οὐκ αὔριον,
+    πρωῒ καὶ οὐκ ἔτι ἕως νυκτός,
+    ἐν σώματι ἁμαρτίας,
+    ἐν αἰῶνι φθορᾶς,
+    ὀλιγόβιος καὶ πλήρης ὀργῆς,
+    ὥσπερ ἄνθος ἀνθῆσαν ἀπέδρα,
+    καὶ ὥσπερ σκιὰ, οὐ μὴ στῇ.
+Μνήσθητι τούτου, Κύριε, καὶ ἄνες, ἄφες,
+    τίς γὰρ ὠφέλεια ἐν τῇ ἀπωλείᾳ μου,
+
+<!-- printed 261 (PDF 280) — Latin -->
+
+MEDITATIO SECUNDA.
+
+FRAGILITATIS HUMANÆ.
+
+MISERERE mei, Domine, quia infirmus sum,    *Psal.* vi. 2.
+    Memorare quæ mea substantia,    *Psal.* lxxxix. 47.
+        Recordare quod caro sum,
+    Spiritus vadens, et non rediens.    *Psal.* lxxviii. 39.
+Sicut fœnum dies mei, sicut flos agri,    *Is.* xl. 6.
+    Spiritus transibit in me, et non subsistam,
+Nec cognoscam amplius locum meum.    *Psal.* ciii. 15, 16.
+    Ego enim pulvis et cinis,    *Gen.* xviii. 27.
+        Terra et fœnum,    *Is.* xl. 6.
+            Caro et flatus,    *Psal.* lxxviii. 39.
+        Putredo et vermis,    *Job.* xvii. 14.
+Ut advena et peregrinus in terra,    *Psal.* xxxix. 14.
+    Habitans domum luteam,    *Job.* iv. 19.
+    Cujus dies pauci et mali,    *Gen.* xlvii. 9.
+    Hodie et non cras,    *Pro.* xxvii. 1.
+    Mane, et non usque ad vesperam,    *Is.* xxxviii. 13.
+    In corpore peccati,    *Rom.* vi. 6.
+    In mundo corruptionis,    2 *Pet.* i. 4.
+    Repletus miseriis, sed brevis vitæ,    *Job.* xiv. 1.
+    Sicut flos, dum floruit, marcescit,
+    Et, sicut umbra, non subsistit.    [*Vers.* 2.]
+Memor esto hujus, Domine, et ignosce, remitte,    *Ps.* lxxiv. 18.
+    Quæ enim utilitas in sanguine meo,
+
+<!-- printed 262 (PDF 281) — Greek -->
+
+ἢ ἐν τῷ καταβαίνειν με εἰς διαφθοράν;
+Διὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου,
+    διὰ τὸν πλοῦτον καὶ ὑπερεκπερισσὸν
+        πλεονασμὸν τῶν ἐλέων σου,
+
+
+Διοτιοῦν ἢ φιλεῖς σὺ, ἢ ἡμᾶς χρὴ μνησθῆναι, <!-- printed as one word "Διοτιοῦν" (= δι' ὅ τι οὖν, "for whatever reason"); transcribed verbatim -->
+    καὶ πρὸ καὶ ὑπὲρ πάντων, διὰ σαυτοῦ,
+        διὰ σαυτοῦ, Κύριε, καὶ Χριστοῦ σου,
+Κύριε, ἱλάσθητί μοι τῷ ἁμαρτωλῶν πρώτῳ.
+        ὦ Κύριέ μου, κατακαυχάσθω
+            τὸ ἔλεος τῆς κρίσεως ἐν τῇ ἁμαρτίᾳ μου.
+        Εἰσάκουσον, Κύριε,
+        ἱλάσθητι, Κύριε,
+        πρόσχες, ὦ Κύριε,
+Κύριε, πρόσχες καὶ ποίησον,
+    ποίησον καὶ μὴ χρονίσῃς ἕνεκά σου,
+        Μὴ χρονίσῃς, Κύριε, ὁ Θεός μου.
+
+<!-- printed 263 (PDF 282) — Latin. NB this page uses lettered footnote markers (^a ^b ^c ^d) with a collected footnote line, instead of the usual inline refs. -->
+
+dum descendo in corruptionem?    *Psal.* xxx. 9.
+Propter^a multitudinem miserationum tuarum,
+    Propter^b divitias, et ^c superabundantem
+        ^d Abundantiam misericordiarum tuarum,
+    ^a *Psal.* li. 1.    ^b *Eph.* i. 7.    ^c *Eph.* i. 8.    ^d *Rom.* v. 20.
+Propter quicquid aut Tibi charum est, aut nobis memorandum,
+Præ omnibus autem et super omnia, propter Teipsum,    *Dan.* ix. 19.
+    Propter Teipsum, Domine, et Christum tuum,    *Jo.* xiv. 13, 14.
+Propitius esto, Domine, mihi peccatorum primo.    [1 *Tim.* i. 15.]
+    O Domine mi, superexultet
+        Misericordia judicium in peccato meo.    [*Jac.* ii. 13.]
+            Exaudi, Domine,
+            Propitius esto, Domine,
+            Intende, Domine,
+Domine, intende, et fac,
+    Fac, et ne moreris propter Teipsum,
+        Ne moreris, Domine, Deus meus.    *Dan.* ix. 19.

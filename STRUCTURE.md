@@ -22,7 +22,7 @@ Sources: 1853 Praefatio (PDF p. 13), heading census of `raw/preces1853_djvu.txt`
 
 Front matter (PDF 1–~19): 1853 title, Praefatio (J.B.), 1675 title (PDF 15), Imprimatur 1673, Lectori Christiano (1675, PDF 17 ff.).
 
-**PARS PRIMA — ΕΥΧΑΙ ΚΑΘΗΜΕΡΙΝΑΙ / PRECES QUOTIDIANAE** (printed 1–~262)
+**PARS PRIMA — ΕΥΧΑΙ ΚΑΘΗΜΕΡΙΝΑΙ / PRECES QUOTIDIANAE** (printed 1–263; TRANSCRIPTION COMPLETE both layers)
 Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-lines; scripture refs printed on the Latin side only.
 
 | section | printed pp. |
@@ -37,9 +37,9 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | ΤΗΣ ΠΕΜΠΤΗΣ ΗΜΕΡΑΣ | 130–147 |
 | ΤΗΣ ΕΚΤΗΣ ΗΜΕΡΑΣ | 148–167 |
 | ΤΗΣ ΕΒΔΟΜΗΣ ΗΜΕΡΑΣ | 168–197 |
-| [post-days deprecation] ΠΑΤΕΡ ὁ κτίσας / PATER qui creasti — NOT an eighth day; ends 196/197 with a doxology, this begins fresh at 198. **Hebrew in main text at printed 198, 200, 212** (per Variae Lectiones A) | 198–~219 |
-| [Officium Vespertinum], Confessio vespertina, Precatio vespertina | ~221–252 |
-| ΜΕΛΕΤΗ Α´ / Meditatio prima (judicii extremi); ΜΕΛΕΤΗ Β´ / Meditatio secunda (fragilitatis humanae) | 253–~262 |
+| [post-days deprecation] ΠΑΤΕΡ ὁ κτίσας / PATER qui creasti — NOT an eighth day; ends 196/197 with a doxology, this begins fresh at 198. **CORRECTION: NO Hebrew in the main text at 198/200/212 (confirmed by eye) — the Hebrew is Variae Lectiones §A apparatus only.** ΩΣΑΝΝΑ ΕΝ ΥΨΙΣΤΟΙΣ (208–213), ΩΣΑΝΝΑ ΕΝ ΕΠΙΓΕΙΟΙΣ (214–219). | 198–219 |
+| **[Ἡ ΔΕΙΛΙΝΗ ΑΚΟΛΟΥΘΙΑ] / [Officium Vespertinum]** — vesper opening, Ὁμολογησις/Confessio vespertina, Ευχη/Precatio vespertina, Ὑπερεντευξις/Intercessio, [ΕΠΙ ΤΗ ΕΥΧΑΡΙΣΤΙᾼ] before/after communion, Luke-3 catechism. `evening-transcript.md` COMPLETE, parity 16/16. **Offset drops +20→+19 at the photographed spread 238/239.** | 220–251 |
+| **ΜΕΛΕΤΗ Α´ / Meditatio prima (judicii extremi) 252–259; ΜΕΛΕΤΗ Β´ / Meditatio secunda (fragilitatis humanae) 260–263.** `meditations-transcript.md` COMPLETE, parity 6/6. Ends Part I. | 252–263 |
 
 **PARS SECUNDA** (printed ~263–~400): penitential/eucharistic material, partly parallel, **Latin-only stretches** (Praefatio: pp. 372–387 from Stokes' *Verus Christianus* 1668). Ends with poems: Hymnus Matutinus, Hymnus Vespertinus, In Christum Crucifixum Monostrophica (Latin, printed 393 ff.) + Greek counterpart.
 
