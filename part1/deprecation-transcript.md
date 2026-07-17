@@ -160,6 +160,154 @@ Et ne corrumpas nos in sæculum,
     τοῦ νοσεῖν περὶ τὰς ζητήσεις, καὶ τὰς μάχας
         ἀπεράντους ποιεῖν.
 
+<!-- printed 204 (PDF 224) — Greek -->
+
+Ἀπὸ τῶν αἱρέσεων, σχισμάτων, σκανδάλων
+        δημοσίων καὶ ἰδίων,
+    τῆς ἀποθειώσεως τῶν Βασιλέων,
+    τῆς θωπείας τοῦ δήμου,
+    τῆς ἀδιαφορίας τοῦ Σαοὺλ,
+    τῆς καταφρονήσεως τῆς Μιχὰλ,
+    τῆς κρεάγρας τοῦ Ὀφνεί,
+    τῆς κατασπάσεως τῆς Γοθολίας,
+    τῆς ἱερατείας Μιχὰ,
+    τῆς φρατρίας Σίμωνος καὶ Ἰούδα,
+    τῆς διδαχῆς ἀμαθῶν καὶ ἀστηρίκτων,
+    τοῦ τύφου νεοφύτων,
+    τοῦ λαοῦ ἀντιλέγοντος τῷ ἱερεῖ.
+Ἀπὸ τῶν κακῶν καὶ χαλεπῶν ἐν τῇ Πολιτείᾳ,
+    τῆς ἀναρχίας, πολυκοιρανίας, τυραννίδος,
+τοῦ Ἀσσοὺρ, Ἱεροβοάμ, Ῥοβοὰμ, Γαλλίωνος, Ἁμάν,
+    Ἀχιτοφὴλ πανουργίας,
+    Ζωὰν ἀβουλίας,
+    νομοθεσίας Ὀμρεὶ,
+    δικαιοκρισίας Ἰεζρεὴλ,
+    χειμάρρων Βελιὰρ,
+    πληγῆς Φογὼρ,
+    φάραγγος Ἀχὼρ,
+    αἵματος, ἢ σπέρματος μολυσμοῦ,
+        ἐπιδρομῆς ἀλλοφύλων,
+        ἐμφυλίου στασιασμοῦ,
+    ἀποστερήσεως τῶν καλῶν τε κἀγαθῶν,
+        τῶν ἐν τέλει ὄντων,
+    ἐπαναστάσεως τῶν κακῶν καὶ πανούργων
+        εἰς τὸ ἐν τέλει εἶναι.
+
+<!-- printed 205 (PDF 225) — Latin -->
+
+Hæresibus, Schismatibus, Scandalis
+        publicis et privatis, [*Rom.* xvi. 17.]
+    Apotheosi principum, *Act.* xii. 22.
+    Adulatione populi, *Act.* xxiv. 27.
+    Adiaphoria Saulis, 1 *Sam.* xv.
+    Contemptu Michal, 2 *Sam.* vi. 16.
+    Fuscina Hophni, 1 *Sam.* ii. 13.
+    Direptione Athaliæ, 2 *Reg.* xi. [1.]
+    Sacerdotio Michæ, *Judic.* xvii. 10.
+    Fraternitate Simonis et Judæ, *Act.* viii. 18. [*Matt.* xxvi. 16.]
+    Indoctorum et instabilium doctrina, [2 *Pet.* iii. 16.]
+    Neophytorum superbia, [1 *Tim.* iii. 6.]
+    Populo contradicente Sacerdoti. [*Os.* iv. 4.]
+Ab atrocibus malis in Republica,
+Anarchia, multitudine Principum, Tyrannide,
+Ashur, Jeroboam, Roboam, Gallione, Haman,
+    Achitophelis consilio, 2 *Sam.* xv. 31.
+    Consiliariis Taneos inconsultis, *Isa.* xix. 11.
+    Legibus Omri, *Mich.* vi. 16.
+    Judicibus Jezreel, 1 *Reg.* xxi. 15.
+    Torrentibus Belial, *Psal.* xviii. 4.
+    Plaga Peor, *Num.* xxv. 5.
+    Valle Achor, *Jos.* vii. 26.
+    Sanguinis aut seminis inquinamento, [*Lev.* xviii. 25.
+    Invasione hostium, *Num.* xxxv. 33.]
+    Bello Civili,
+Eo, ut tollantur boni
+    e Magistratu,
+        insurgant mali et subdoli
+        in magistratum.
+
+<!-- printed 206 (PDF 226) — Greek -->
+
+Ἀπὸ βίου ἀβιώτου
+    [ἐν] δυσθυμίᾳ, ἀσθενείᾳ, δυσφημίᾳ,
+    ἀπορίᾳ, περικινδυνίᾳ, δουλείᾳ, ἀκαταστασίᾳ.
+Ἀπὸ θανάτου
+    ἐν ἁμαρτίᾳ, αἰσχύνῃ, βασάνοις,
+    ἀπονοίᾳ, ῥυπαρίᾳ, βίᾳ,
+        ἐκ προδοσίας,
+Ἀπὸ θανάτου { ἀπρονοήτου, / ἀθανάτου. }
+
+<!-- printed 207 (PDF 227) — Latin -->
+
+A vita non vitali
+    in mœrore, invaletudine, infamia,
+    inopia, periculis, servitute, inquietudine.
+A morte
+    in peccato, probro, cum cruciatu,
+    in vecordia, turpitudine, per vim,
+        ex proditione,
+A morte { improvisa, / æterna. }
+
+<!-- printed 208 (PDF 228) — Greek -->
+
+ΩΣΑΝΝΑ ΕΝ ΥΨΙΣΤΟΙΣ.
+
+ΜΝΗΣΘΗΤΙ μου, Κύριε,
+    ἐν τῇ εὐδοκίᾳ τοῦ λαοῦ σου,
+Ἐπίσκεψαί με ἐν τῷ σωτηρίῳ σου,
+    τοῦ ἰδεῖν με ἐν τῇ χρηστότητι τῶν ἐκλεκτῶν σου,
+    τοῦ εὐφρανθῆναι ἐν τῇ εὐφροσύνῃ τοῦ ἔθνους [σου,]
+        τοῦ εὐχαριστῆσαί σοι μετὰ τῆς κληρονομίας σου.
+Ἔστι δὲ δόξα μέλλουσα ἀποκαλυφθῆναι.
+        Ἐρχομένου γὰρ κριτοῦ,
+    ἱλαρὸν τὸ πρόσωπον ἰδοῦσί τινες,
+ἀπὸ δεξιῶν κατασταθήσονται,
+    ἀκούσουσι τῆς ἡδίστης φωνῆς,
+        Δεῦτε, Εὐλογημένοι.
+Ἁρπαχθήσονται ἐν νεφέλαις εἰς
+    ἀπάντησιν τοῦ Κυρίου,
+Εἰσελεύσονται εἰς τὴν χαρὰν,
+    ἀπολαύσονται τῆς ὁράσεως αὐτοῦ,
+        πάντοτε σὺν αὐτῷ ἔσονται.
+Αὐτοὶ μόνοι, μόνοι αὐτοὶ μακάριοι
+    ἐν υἱοῖς ἀνθρώπων.
+Ὦ, δός μοι τῷ ἐσχάτῳ τόπον ἔσχατον ἐκεῖ
+    ὑπὸ τοὺς πόδας αὐτῶν·
+Ὑπὸ τοὺς πόδας τῶν ἐκλεκτῶν σου,
+    τοῦ ἐσχάτου ἐν αὐτοῖς.
+
+        Ἵνα δὲ τοῦτο,
+
+<!-- printed 209 (PDF 229) — Latin -->
+
+HOSANNA IN EXCELSIS.
+
+MEMENTO mei, Domine,
+    in beneplacito populi tui,
+Visita me in salutari tuo,
+    Ad videndum in bonitate Electorum tuorum,
+    Ad lætandum in lætitia gentis tuæ,
+        Ad laudandum te cum hæreditate tua. *Psal.* cvi. 4, 5.
+Est autem gloria in futuro revelanda. 1 *Pet.* v. 1.
+        Sunt enim qui venientis Judicis
+    Vultum videbunt hilarem, *Job.* xxxiii. 26.
+A dextris collocabuntur,
+    Audient suavissimam vocem,
+        VENITE, BENEDICTI. [*Matt.* xxv. 33, 34.]
+Rapientur in occursum Domini
+        in nubibus. 1 *Thess.* iv. 17.
+Intrabunt in gaudium, *Matt.* xxv. 21.
+    Fruentur ejus visione,
+        Semper cum eo erunt. 1 *Thess.* iv. 17.
+Hi soli, soli sunt hi beati
+    in filiis hominum.
+Oh! Da mihi infimo locum infimum
+    sub pedes illorum;
+Sub pedes electorum tuorum,
+    infimi ex illis.
+
+        Quod ut fiat,
+
 <!-- printed 203 (PDF 223) — Latin -->
 
 Ne fiat, O Domine.
