@@ -375,6 +375,108 @@ Qui das gratiam humilibus, *Jac.* iv. 6.
 Qui te timentes nunquam deseris,
     Lætetur cor meum, ut te timeat, [*Psal.* lxxxvi. 11.]
 
+<!-- printed 212 (PDF 232) — Greek -->
+
+ὁ φόβος μου, ἡ ἐλπίς μου,
+    ἓν φοβηθῶ μόνον,
+    τὸ φοβηθῆναι τί σου πλέον.
+Καθὼς θέλω ἵνα ποιῶσιν ἐμοὶ οἱ ἄνθρωποι,
+    καὶ ἐγὼ αὐτοῖς ποιῶ ὁμοίως.
+Μὴ ὑπερφρονεῖν παρ' ὃ δεῖ φρονεῖν,
+    ἀλλὰ φρονεῖν εἰς τὸ σωφρονεῖν.
+
+Ἐπίφανον τοῖς καθημένοις ἐν σκότει,
+    καὶ σκιᾷ θανάτου.
+Κατεύθυνον τοὺς πόδας ἡμῶν
+    εἰς ὁδὸν εἰρήνης·
+    ὥστε τὸ αὐτὸ φρονεῖν ἐν ἀλλήλοις,
+        Ὀρθοτομεῖν, | Ὀρθοποδεῖν,
+            οἰκοδομεῖν,
+        ὁμοθυμαδὸν ἐν ἑνὶ στόματι δοξάζειν τὸν Θεόν.
+Εἰ δέ τι ἑτέρως,
+    στοιχεῖν τῷ αὐτῷ κανόνι
+        εἰς ὃ ἐφθάσαμεν,
+        τάξιν περικρατεῖν,
+        εὐσχημοσύνην,
+        καὶ στερέωμα.
+
+<!-- printed 213 (PDF 233) — Latin -->
+
+Timor meus, Spes mea. [*Job.* iv. 6.]
+        Unum modo timeam,
+        Nequid plus quam te timeam.
+Sicut volo ut mihi faciant homines,
+        et ego illis ita faciam. [*Matt.* vii. 11.]
+Non plus sapere quam oportet sapere,
+        sed sapere ad sobrietatem. [*Rom.* xii. 3.]
+
+Illumina his qui in tenebris,
+        et in umbra mortis sedent.
+Dirige pedes nostros
+        in viam pacis; *Luc.* i. 79.
+    Ut idipsum sapiamus in alterutrum, [*Rom.* xv. 6.]
+        Recte secemus, [2 *Tim.* ii. 15.] Recte incedamus, [*Gal.* ii. 14.]
+            Ædificemus, [1 *Thess.* v. 11.]
+        Unanimes, uno ore honorificemus Deum. [*Rom.* xv. 6.]
+Veruntamen siquid aliter,
+        ut in eadem permaneamus regula,
+            ad quod pervenimus, [*Phil.* iii. 16.]
+                Retineamus ordinem, [1 *Cor.* xiv. 40.]
+                decorem
+                    et Firmamentum. [*Col.* ii. 5.]
+
+<!-- printed 214 (PDF 234) — Greek -->
+
+ΩΣΑΝΝΑ ΕΝ ΕΠΙΓΕΙΟΙΣ.
+
+ΜΝΗΣΘΗΤΙ, Κύριε, τοῦ στεφανοῦν
+    τὸν ἐνιαυτὸν ἐν χρηστότητί σου.
+Οἱ γὰρ ὀφθαλμοὶ πάντων εἰς σὲ ἐλπίζουσι,
+    σὺ δίδως τὴν τροφὴν αὐτῶν ἐν εὐκαιρίᾳ.
+Ἀνοίγεις σὺ τὴν χεῖρά σου, καὶ
+    ἐμπιπλᾷς πᾶν ζῷον εὐδοκίας.
+    Καὶ ἡμῖν, Κύριε, χάρισαι
+εὐλογίας οὐρανοῦ καὶ δρόσου ἄνωθεν,
+    εὐλογίας πηγῶν καὶ ἀβύσσου κάτωθεν,
+        Ἡλίου τροπὰς, Μηνῶν συνόδους,
+    κορυφὰς ὀρῶν ἀνατολῆς, βουνῶν αἰωνίων,
+        πλήρωσιν τῆς γῆς καὶ γεννημάτων αὐτῆς,
+            εὐετηρίαν, εὐκρασίαν ἀέρων,
+            εὐσιτίαν, καὶ εὐφορίαν καρπῶν,
+            εὐεξίαν σωμάτων, καὶ καιροὺς εἰρηνικούς,
+    Εὐαρχίαν, | εὐβουλίαν,
+    εὐνομίαν, | εὐδικίαν,
+        εὐπείθειαν,
+    Εὐεκδικίαν, | εὐπορίαν,
+    εὐγονίαν, | εὐτοκίαν,
+        εὐτεκνίαν,
+    εὐτροφίαν, | εὐπαιδευσίαν.
+
+<!-- printed 215 (PDF 235) — Latin -->
+
+HOSANNA IN TERRENIS,
+
+MEMENTO, Domine, coronare
+    annum benignitate tua. [*Psal.* lxv. 11.]
+Oculi enim omnium in te sperant,
+    Tu das escam eorum in tempore opportuno. [*Ps.* cxlv. 15.]
+Aperis tu manum tuam, et
+    imples omne animal benedictione. [*Ver.* 16.]
+        Et nobis, Domine, largire
+de benedictione cœli, et roris desuper,
+    de benedictione fontium abyssi subjacentis,
+        Conversiones Solis, Coitus Lunæ,
+de vertice montium Orientis, collium antiquorum,
+    de frugibus terræ, et plenitudine ejus, [*Deut.* xxxiii. 13—16.]
+Copiosum anni proventum, temperiem aeris,
+Lætas fruges, et ubertatem fructuum,
+Vegetam corporis habitum, et tempora pacifica,
+Principes bonos et bene rem gerentes,
+Leges æquas, Consilia recta, Judices incorruptos,
+Obsequia populi, Magistratus fortitudinem,
+Facultatum affluentiam,
+    Sobolem { conceptu numerosam, partu facilem, / forma et moribus honestam, / incrementis validam, rite institutam. }
+
 <!-- printed 203 (PDF 223) — Latin -->
 
 Ne fiat, O Domine.
