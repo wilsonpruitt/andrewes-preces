@@ -34,7 +34,8 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | ΤΗΣ ΤΕΤΑΡΤΗΣ ΗΜΕΡΑΣ | 106–129 |
 | ΤΗΣ ΠΕΜΠΤΗΣ ΗΜΕΡΑΣ | 130–147 |
 | ΤΗΣ ΕΚΤΗΣ ΗΜΕΡΑΣ | 148–167 |
-| ΤΗΣ ΕΒΔΟΜΗΣ ΗΜΕΡΑΣ | 168–~220 |
+| ΤΗΣ ΕΒΔΟΜΗΣ ΗΜΕΡΑΣ | 168–197 |
+| [post-days deprecation] ΠΑΤΕΡ ὁ κτίσας / PATER qui creasti — NOT an eighth day; ends 196/197 with a doxology, this begins fresh at 198. **Hebrew in main text at printed 198, 200, 212** (per Variae Lectiones A) | 198–~219 |
 | [Officium Vespertinum], Confessio vespertina, Precatio vespertina | ~221–252 |
 | ΜΕΛΕΤΗ Α´ / Meditatio prima (judicii extremi); ΜΕΛΕΤΗ Β´ / Meditatio secunda (fragilitatis humanae) | 253–~262 |
 
