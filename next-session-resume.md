@@ -8,13 +8,17 @@
 
 > **printed 267 = PDF 288** — incipit *DUO in me cognosco, Domine, Naturam quam Tu fecisti…* — **Latin-only**, single column, running-head *Preces Quotidianæ*. (PDF 289 = printed 268, confirming +21.)
 
-### Phase 0 (DO FIRST) — map Part II before transcribing anything
+### Phase 0 — section mapping — ✅ DONE (2026-07-17, Opus 4.8 recon pass)
 
-Part II is unmapped (unlike Part I's tidy seven days). **Recon only — do NOT transcribe in this phase.** Skim the images at low res (`pdftoppm -jpeg -r 120`), reading only: the printed page number in the header, each section header/incipit, which layer(s) the page carries (Latin-only vs. parallel Greek/Latin), and where the offset jumps. Deliverable = a **section map** extending `STRUCTURE.md §PARS SECUNDA` into a real table: section title · incipit · printed range · PDF range · offset · layer · proposed `part2/NN-slug`. That table becomes the score every later session plays — file list, layer rule, and offset anchors all fixed up front. Known checkpoints to hit: text opens 267/PDF288 (+21), Frustra ~297/PDF320 (+23), Praefatio (Latin-only, Stokes' *Verus Christianus*) 372–387, poems *In Christum Crucifixum* 393+/PDF430 (+37) with a Greek counterpart. Budget ~40–70 low-res image skims (flag the token burn to Wilson first — hard-stop #6).
+The full Part II + III section map, offset-anchor table, and layer-per-section are now in **`STRUCTURE.md` §PARS SECUNDA & TERTIA** (verified by eye). Read that FIRST — it is the score. Headlines:
+- Part II (printed 267–~397) = a second, largely **Latin** daily-office cycle + long penitential cycle, then a **bilingual (Gk+La)** eucharistic/hymns/poems finale. **Layer is not uniform — the map marks La / La+Gk / Greek / Gk-verso-La-recto per section.**
+- Offset is **stable +23** through the whole main body (267–367), then climbs erratically (+25→+37→+43) through a **duplicate-riddled tail** (368–429). Verify every leaf by eye from 368 on.
+- Part III (PARS TERTIA, PDF 438+) = Confessio Fidei / Creed prose, Latin. Primary text ends ~printed 430 (~PDF 481); **Variae Lectiones apparatus starts PDF 482** (separate final pass, not primary translation).
+- Two earlier notes were WRONG and are corrected in STRUCTURE: the "Stokes Praefatio 372–387" and "Part III = Harley poems."
 
-### Then, per-section transcription
+### Then, per-section transcription (start here next session)
 
-1. **Start at printed 267 = PDF 288.** Extract with `pdftoppm -jpeg -r 200 -f 288 -l NNN raw/preces1853.pdf raw/end/p`. Skip PDF 283–287 (blank + the twice-scanned PARS SECUNDA title = printed 264–266, no prayer text; capture the divisional title once as a section marker if wanted). See STRUCTURE.md anchor table for the whole boundary.
+1. **Start at printed 267 = PDF 288** (first section: *Duo in me cognosco*, Latin, printed 267–269). Work section-by-section down the STRUCTURE map; one `part2/NN-slug` file pair per section (or per few short sections). Extract with `pdftoppm -jpeg -r 200 -f 288 -l NNN raw/preces1853.pdf raw/end/p`. Skip PDF 283–287 (blank + the twice-scanned PARS SECUNDA title = printed 264–266, no prayer text; capture the divisional title once as a section marker if wanted). See STRUCTURE.md anchor table for the whole boundary.
 2. **Part II is LATIN-ONLY at the opening — translate the Latin (CONVENTIONS §6), not the Greek.** There is no facing Greek here; the even/odd Greek-verso/Latin-recto rule of Part I does NOT apply. Later stretches may go parallel again — check every page which layer(s) it carries before translating. Heavy nested `{ }` brace catalogues (both left- and right-joining) start immediately (see PDF 288–289).
 3. **File naming for Part II — create a `part2/` dir** (parallels `part1/`); name files by section, `part2/NN-<slug>-transcript.md` + `part2/NN-<slug>-english.md`, starting `part2/01-duo-in-me-cognosco-transcript.md`. Match the Day-1 file format (frontmatter + page-marker comments + `## Translator's flags`). Part II's internal section boundaries aren't mapped yet — segment at the 1853 typographic breaks (large blank + caps incipit) as you go, cross-checking STRUCTURE.md §PARS SECUNDA.
 4. **Offset keeps drifting** past +21 later (printed 297 = PDF 320 → +23; printed 393 = PDF 430 → +37, the poems). **Re-verify the printed page number by eye at every batch.**
