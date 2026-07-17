@@ -6,7 +6,7 @@ Ordering (Wilson, 2026-07-17): seven days done; front (1–29) done; post-days d
 
 ## NEXT ACTION
 
-1. **Start `part1/evening-transcript.md` for the Evening Office, printed 220 onward** (Ἡ ΔΕΙΛΙΝΗ ΑΚΟΛΟΥΘΙΑ / the evening service). **Offset +20** (printed 220 = PDF 240; verify by eye at first extraction). Images `raw/end/p-NNN.jpg` already extracted through PDF 240 (= printed 220); extract more with `pdftoppm -jpeg -r 200 -f <PDF> -l <PDF> raw/preces1853.pdf raw/end/p`.
+1. **Continue `part1/evening-transcript.md` for the Evening Office from printed 224** (PDF 244). Done+committed so far: printed 220–223 (`3d24f4b`) — the vesper opening (Ἡ ΔΕΙΛΙΝΗ ΑΚΟΛΟΥΘΙΑ / OFFICIUM VESPERTINUM), old-age/"abide with me" (Luke 24:29), night-and-death, the night-watch, the judgement-defence. **Offset +20** (printed 224 = PDF 244). Images `raw/end/p-NNN.jpg` extracted through **PDF 262 (= printed 242)**. Evening Office runs to printed ~252 (PDF 272), so extract **PDF 263–272** for its remainder, then **PDF 273–282** for the two Meditations (printed 253–262): `pdftoppm -jpeg -r 200 -f 263 -l 282 raw/preces1853.pdf raw/end/p`.
 2. Greek verso = even printed, Latin recto = odd. Follow M3-HANDOFF + CONVENTIONS exactly; one spread (2 leaves) per vision pass; verify printed page numbers by eye. **NB the Hebrew flagged for printed 198/200/212 is APPARATUS (Variae Lectiones §A), NOT main text — confirmed by eye, those leaves carry no Hebrew.**
 3. Finish the Evening Office transcript (self-checks), commit, then translate → `part1/evening-english.md`. Then the two Meditations (~253–262). Then Part II.
 
