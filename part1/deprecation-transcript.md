@@ -308,6 +308,73 @@ Sub pedes electorum tuorum,
 
         Quod ut fiat,
 
+<!-- printed 210 (PDF 230) — Greek -->
+<!-- SCAN DAMAGE: this leaf has a vertical ink-smear down the left margin in the Google scan (re-checked at 320 dpi, same defect). The leading connective word of most lines is illegible → marked [?]. The facing Latin (printed 211, below) preserves the full construal; the smeared left-column labels at "προσθὲς/στήριξον/ἅπτε" are Πίστεως / Ἐλπίδος / Ἀγάπης (= Lat. Fidei / Spei / Charitatis). Restore the [?] words from a non-Google digitization before print. -->
+
+[?]ν χάριν ἐνώπιόν σου,
+        ὥστε ἔχειν με χάριν,
+    [?] λατρεῦσαί σοι εὐαρέστως,
+        μετὰ αἰδοῦς καὶ εὐλαβείας.
+[?] δὲ καὶ τὴν χάριν δευτέραν,
+        [?] χάριν ἐκείνην,
+        μὴ εἰς κενὸν δέξασθαί με,
+        μὴ ὑστερῆσαι ἀπ' αὐτῆς.
+[?] μὴ ἀμελῆσαι αὐτῆς,
+        [?] ἐκπίπτειν αὐτῆς.
+        Ἀλλὰ ἀναζωπυρεῖν αὐτὴν,
+        [?] αὐξάνειν ἐπ' αὐτῇ.
+[?] ἐπιμένειν αὐτῇ,
+        μέχρι τῆς συντελείας
+        τῆς ζωῆς μου.
+[?] καταρτισόν μοι τὰ ὑστερήματα
+        τῶν χαρισμάτων σου,
+[?].        προσθὲς τῇ ὀλιγοπιστίᾳ.
+[?].        στήριξον ἐλπίδα περίτρομον.
+[?].        ἅπτε λίνον αὐτῆς τυφόμενον.
+        [?] ἐν τῇ καρδίᾳ μου
+        τὴν ἀγάπην σου,
+        [?] με
+        [?] φίλον ἔν σοι,
+            τὸν ἐχθρὸν διὰ σὲ,
+            ἀγαπᾶν ἐμέ.
+[?]δοὺς χάριν τοῖς ταπεινόφροσι,
+        καὶ ἐμοὶ χάριν δὸς τοῦ ταπεινόφρονα εἶναι.
+[?] τοὺς ζητοῦντάς σε οὔποτ' ἀνιείς,
+        [?]τω ἡ καρδία μου τοῦ φοβεῖσθαί σε,
+
+<!-- printed 211 (PDF 231) — Latin -->
+
+Inveniam coram te gratiam,
+        Ut habeam gratiam,
+    per quam serviens placeam tibi,
+        cum metu et reverentia. *Heb.* xii. 28.
+Inveniam autem, et gratiam alteram,
+        eam gratiam,
+            ne in vanum recipiam, 2 *Cor.* vi. 1.
+            Ei ne desim. *Heb.* xii. 15.
+Imo vero, ne negligam eam, 1 *Tim.* iv. 14.
+        adeo ut proinde ab ea excidam. *Gal.* v. 4.
+            Sed eam resuscitare, 2 *Tim.* i. 6.
+        adeo ut in ea crescam. 2 *Pet.* iii. 18.
+Imo vero ut proinde in ea permaneam, [*Act.* xiii. 43.]
+        usque ad exitum
+            vitæ meæ.
+Et oh! compleas mihi quæ desunt 1 *Thess.* iii. 10.
+            Charismatum tuorum:
+Fidei,        Modicam mihi fidem adauge. [*Luc.* xvii. 5.]
+Spei,        Spem trepidam confirma. [*Heb.* iii. 6.]
+Charitatis, ejus accende linum fumigans. [*Is.* xlii. 3.]
+        Diffunde in corde meo
+            Charitatem tuam, *Rom.* v. 5.
+        ut, sicut tu,
+            Amicum in te,
+                Inimicum propter te,
+                ego diligam.
+Qui das gratiam humilibus, *Jac.* iv. 6.
+    et mihi da gratiam, qua sim humilis.
+Qui te timentes nunquam deseris,
+    Lætetur cor meum, ut te timeat, [*Psal.* lxxxvi. 11.]
+
 <!-- printed 203 (PDF 223) — Latin -->
 
 Ne fiat, O Domine.
