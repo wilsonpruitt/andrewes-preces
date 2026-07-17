@@ -62,3 +62,141 @@ Vocabo ergo, si est qui mihi respondeat,
     Ad quem Angelorum sanctorum convertar?    *Job.* v. 1.
         Infelix ego homo!
 Quis me liberabit de corpore mortis hujus?    *Rom.* vii. 24.
+
+<!-- printed 254 (PDF 273) — Greek -->
+
+ὡς φοβερὰ ἡ κρίσις σου, Κύριε;
+    τιθεμένων τῶν θρόνων,
+    τῶν Ἀγγέλων παρισταμένων,
+    τῶν ἀνθρώπων εἰσαγομένων,
+        τῶν βίβλων ἀνεῳγμένων,
+        τῶν ἔργων ἐρευνωμένων,
+τῶν λογισμῶν
+τῶν κρυπτῶν τοῦ σκότους } ἐξεταζομένων. <!-- right brace joins the two lines to shared ἐξεταζομένων -->
+ποία κρίσις ἔσται ἐν ἐμοί;
+τίς μου τὴν φλόγα κατασβέσει;
+τίς μου τὸ σκότος καταλάμψει;
+εἰ μὴ σὺ ἐλεήσῃς με.
+        Κύριε, ὡς φιλάνθρωπος,
+            Δάκρυα δός μοι,
+        δὸς μυρία, δὸς σήμερον.
+Τότε γὰρ δικαστὴς ἀδέκαστος,
+        τὸ βῆμα φρικῶδες,
+        ἡ ἀπολογία ἀπροφάσιστος,
+        οἱ ἔλεγχοι ἄφευκτοι,
+        ἡ τιμωρία ἀπότομος,
+        ἡ γέεννα ἀτελεύτητος,
+        οἱ Ἄγγελοι ἀνελεήμονες,
+        ὁ ᾅδης πλατύνων τὸ στόμα,
+        ὁ ποταμὸς πυρὸς συρόμενος,
+        πυρὸς ἀσβέστου,
+        τὸ δεσμωτήριον σκοτεινὸν,
+        τὸ σκότος ἀφεγγὲς,
+        ἀνθρακώδεις αἱ κλῖναι,
+        ὁ σκώληξ ἀκοίμητος,
+        τὰ δεσμὰ ἄλυτα,
+
+<!-- printed 255 (PDF 274) — Latin -->
+
+Quam tremendum est judicium tuum, Domine!
+    Positis Thronis,
+    Adstantibus Angelis,
+    Introductis hominibus,
+        Apertis libris,
+        Investigatis operibus,
+Indagatis cogitationibus,
+Manifestatis tenebrarum occultis.
+Quale judicium erit in me?
+Quis flammam meam restinguet?
+Quis tenebras meas illustrabit?
+Nisi Tu mei fueris misertus.
+        Domine, sicut es hominum amans,
+            Lacrymas da mihi,
+        Da plurimas, da præsentes.
+Tunc enim Judex incorruptus,
+        Tribunal horrendum,
+        Defensio sine excusatione,
+        Argumenta inevitabilia,
+        Supplicium asperum,
+        Gehenna sempiterna,
+        Angeli immites,
+        Infernum dilatans os,
+        Flumen ignis stridens,
+        Ignis qui non extinguitur,
+        Carcer tenebrosus,
+        Tenebræ prorsus exsortes luminis,
+        Reclinatoria e prunis,
+        Vermiculus irrequietus,
+        Vincula indissolubilia,
+
+<!-- printed 256 (PDF 275) — Greek -->
+
+τὸ χάος ἀμετρητὸν,
+ἀνυπέρβατον τὸ τεῖχος,
+ὁ κλαυθμὸς ἀπαραμύθητος,
+Οὐδεὶς
+    { παριστάμενος,
+    συνήγορος,
+    ἐξαρπάζων.
+Ἀλλὰ μετανοῶ, Κύριε, ὦ Κύριε, μετανοῶ.
+        Βοήθει σὺ τῷ μου ἀμετανοήτῳ,
+    καὶ μᾶλλόν ἔτι καὶ μᾶλλον
+        κατάνυξον, διάρρηξον,
+    σύντριψον τὴν καρδίαν μου.
+        Ἰδοὺ, Κύριε, ὅτι ἀγανακτῶ
+        ἐμαυτῷ αὐτὸς,
+διὰ τὸ
+    { ἀνόητον,
+    ἀνόνητον,
+    βλαβερὸν,
+    καὶ ἐπικίνδυνον, } τοῦ πάθους· <!-- left brace groups the 4 items; right brace joins all to shared τοῦ πάθους -->
+Ὅτι βδελύττομαι ἐμαυτὸν,
+διὰ τὸ
+    { ἄτοπον,
+    ἄσχημον, καὶ δυσειδὲς,
+    κίβδηλον,
+        ἐπαίσχυντον,
+        καὶ ἐπονείδιστον <!-- left brace groups only ἄτοπον / ἄσχημον… / κίβδηλον; ἐπαίσχυντον + ἐπονείδιστον fall below/outside the brace -->
+Ὅτι ὅλην τὴν ἡμέραν ἡ ἐντροπή μου κατεναντίον μου,
+    καὶ ἡ αἰσχύνη τοῦ προσώπου μου ἐκάλυψέ με.
+        Ἔα, φεῦ, φεῦ·
+        Οἴμοι· ἕως πότε;
+Ἰδοὺ, Κύριε, ὅτι διακρίνω αὐτὸς ἐμαυτὸν,
+    ἄξιον τῆς αἰωνίου κολάσεως,
+καὶ μὴν καὶ πάντων δυσχερῶν τοῦ κόσμου τούτου.
+
+<!-- printed 257 (PDF 276) — Latin -->
+
+Chaos immensurabile,
+Murus quem transgredi non possumus,
+Clamor inconsolabilis,
+Nullus qui
+    { assistat,
+    patrocinetur,
+    liberet.
+Sed pœnitet, Domine, Domine, pœnitet.
+        Adjuva impœnitentiam meam,
+    et magis adhuc magisque
+        Compunge, scinde,
+    contere cor meum.
+        Ecce, Domine, quod indignor
+            egomet mihi,    2 *Cor.* vii. 11.
+propter
+    { stultum,    *Luc.* xxiii. 34.
+    inutile,    *Psal.* lxxiii. 22.
+    nocivum,    1 *Tim.* vi. 9.
+    et periculosum,    *Is.* xxvi. 11. } desiderium carnis meæ <!-- left brace groups the 4 items; right brace joins all to the shared two-line label "desiderium / carnis meæ" -->
+Quod abhorreo ipse me,    *Job.* xlii. 6.
+propter
+    { absurditatem,
+    turpitudinem,
+    vilitatem } desiderii, <!-- left brace groups the 3 items; right brace to shared desiderii -->
+        confusione
+        opprobrio } dignam; <!-- right brace joins the two lines to shared dignam -->
+Quod tota die verecundia mea contra me est,
+    et confusio faciei cooperuit me.    *Psal.* xliv. 15.
+        Ah! Vah, vah!
+        Hei mihi! usque quo?
+Ecce, Domine, quod dijudico egomet me
+        Reum æterni supplicii,
+Etiam et omnium difficultatum hujus mundi.
