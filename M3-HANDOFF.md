@@ -4,9 +4,20 @@
 
 ## Scope, in order
 
-1. **Days 2–7** (the core): printed pp. 70–~220. Day starts (Greek verso pages): 70, 92, 106, 130, 148, 168.
-2. Then: Officium Vespertinum + evening prayers (~221–252), the two Meditations (253–~262), and finally the FRONT of Part I (printed 1–29: times/places of prayer, Intercessiones, Confessiones, Introitus, Officium Matutinum).
-3. Variae Lectiones entries for covered pages come LAST, as a separate pass.
+**PART I IS COMPLETE — both layers AND English (printed 1–263).** The Scope list below is the historical Part I plan, kept for reference; all of it is done. The live front is Part II — see the next subsection.
+
+1. ~~**Days 2–7** (the core): printed pp. 70–~220.~~ Done.
+2. ~~Officium Vespertinum + evening prayers, the two Meditations, and the FRONT of Part I.~~ Done.
+3. Variae Lectiones entries for covered pages come LAST, as a separate pass (still outstanding, Part I + II together).
+
+### Part II — the live front (printed 264→)
+
+Read `next-session-resume.md` for the exact verified entry point. In brief:
+- **Text opens at printed 267 = PDF 288** (*Duo in me cognosco, Domine*), offset **+21** (VERIFIED by eye); printed 264–266 = the PARS SECUNDA divisional title + blanks (title scanned twice, PDF 284/286).
+- **Part II opens LATIN-ONLY** — single column, no facing Greek. So **translate the Latin** (CONVENTIONS §6), and the Part-I Greek-verso/Latin-recto even/odd rule does NOT apply. Check every page for which layer(s) it carries; later stretches may return to parallel. Heavy nested `{ }` brace catalogues throughout.
+- **Files:** new `part2/` dir, `part2/NN-<slug>-transcript.md` + `-english.md`, first = `part2/01-duo-in-me-cognosco-transcript.md`. Segment sections at the 1853 typographic breaks (large blank + caps incipit).
+- **Offset keeps drifting** (+21 → +23 by printed 297 → +37 by the poems at 393). Re-verify the printed number by eye every batch; record new anchors in STRUCTURE.md.
+- Known Part II shape (STRUCTURE.md §PARS SECUNDA): penitential/eucharistic material, a Latin-only Praefatio (pp. 372–387, from Stokes' *Verus Christianus* 1668), ending with the hymns + *In Christum Crucifixum Monostrophica* poems (printed 393 ff.) and a Greek counterpart.
 
 ## Per-day recipe (one day per session; commit per day)
 

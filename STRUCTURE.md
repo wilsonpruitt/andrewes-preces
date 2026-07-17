@@ -13,6 +13,9 @@ Sources: 1853 Praefatio (PDF p. 13), heading census of `raw/preces1853_djvu.txt`
 | printed 44 onward | 44 | 64 (offset now +20) |
 | **PHOTOGRAPHED SPREAD: printed 238+239 in ONE frame** (PDF 258 = a photo of the open book; Greek 238 legible on the left, Latin 239 on the right is CUT OFF past the first ~15 chars per line). Latin 239 needs a non-Google digitization. | 238–239 | 258 |
 | printed 240 onward | 240 | 259 (offset drops to **+19** — the photographed spread swallowed a leaf) |
+| Part I ends (Meditation II Latin) | 263 | 282 (offset +19) |
+| **PARS SECUNDA divisional title** (unnumbered) — printed 264–266 are the section-title leaf + blanks; the title page is **scanned twice** (PDF 284 AND 286, both "PRECES PRIVATÆ QUOTIDIANÆ. PARS SECUNDA."); PDF 283/285/287 blank | 264–266 | 283–287 |
+| **Part II TEXT opens — *Duo in me cognosco, Domine*** (Latin-only, running-head *Preces Quotidianæ*) | 267 | 288 (offset now **+21**; VERIFIED by eye 2026-07-17 — next page PDF 289 = printed 268) |
 | Part II sample (Frustra) | 297 | 320 |
 | Poems (In Christum Crucifixum) | 393 | 430 |
 

@@ -4,10 +4,15 @@
 
 ## NEXT ACTION
 
-1. **Begin Part II transcription (printed 264→, PDF 283→).** Offset is **+19** entering Part II (printed 264 = PDF 283) — but Part II has Latin-only stretches and unpaginated inserts; the offset drifts later (printed 297 = PDF 320 → +23; printed 393 = PDF 430 → +37). **Re-verify the printed page number by eye at every batch.** Extract images: `pdftoppm -jpeg -r 200 -f 283 -l NNN raw/preces1853.pdf raw/end/p`.
-2. **Watch the layer rule flips in Part II.** Part I = translate the Greek (Latin = witness). Part II has **Latin-only stretches** — there, translate the Latin (CONVENTIONS §6). Confirm which layer each page carries before translating.
-3. **CONVENTIONS §9 now carries a Psalter rule (added this session):** for psalm-lines, crib against the **Coverdale/BCP Psalter** ahead of the AV — it stands with Andrewes' LXX where the AV (from the Hebrew) diverges. See the translator's-flags sections of `evening-english.md` / `meditations-english.md` for worked LXX-vs-AV cases (Ps 19:13, 38:7, 91:6, 4:8, 89:47; Job 5:1, 14:1).
-4. Greek verso = even printed, Latin recto = odd. One spread per vision pass; verify printed page numbers by eye. Follow M3-HANDOFF + CONVENTIONS exactly.
+**Entry point is VERIFIED by eye (2026-07-17) — do not trust the old +19 arithmetic.** The Part II divisional title (PARS SECUNDA) plus blank/duplicate leaves push the offset to **+21**. The prayer text opens at:
+
+> **printed 267 = PDF 288** — incipit *DUO in me cognosco, Domine, Naturam quam Tu fecisti…* — **Latin-only**, single column, running-head *Preces Quotidianæ*. (PDF 289 = printed 268, confirming +21.)
+
+1. **Start there.** Extract with `pdftoppm -jpeg -r 200 -f 288 -l NNN raw/preces1853.pdf raw/end/p`. Skip PDF 283–287 (blank + the twice-scanned PARS SECUNDA title = printed 264–266, no prayer text; capture the divisional title once as a section marker if wanted). See STRUCTURE.md anchor table for the whole boundary.
+2. **Part II is LATIN-ONLY at the opening — translate the Latin (CONVENTIONS §6), not the Greek.** There is no facing Greek here; the even/odd Greek-verso/Latin-recto rule of Part I does NOT apply. Later stretches may go parallel again — check every page which layer(s) it carries before translating. Heavy nested `{ }` brace catalogues (both left- and right-joining) start immediately (see PDF 288–289).
+3. **File naming for Part II — create a `part2/` dir** (parallels `part1/`); name files by section, `part2/NN-<slug>-transcript.md` + `part2/NN-<slug>-english.md`, starting `part2/01-duo-in-me-cognosco-transcript.md`. Match the Day-1 file format (frontmatter + page-marker comments + `## Translator's flags`). Part II's internal section boundaries aren't mapped yet — segment at the 1853 typographic breaks (large blank + caps incipit) as you go, cross-checking STRUCTURE.md §PARS SECUNDA.
+4. **Offset keeps drifting** past +21 later (printed 297 = PDF 320 → +23; printed 393 = PDF 430 → +37, the poems). **Re-verify the printed page number by eye at every batch.**
+5. **CONVENTIONS §9 Psalter rule (added this session):** for psalm-lines crib against the **Coverdale/BCP Psalter** ahead of the AV — it stands with Andrewes' LXX where the AV (from the Hebrew) diverges. Worked LXX-vs-AV cases in `evening-english.md` / `meditations-english.md` flags (Ps 19:13, 38:7, 91:6, 4:8, 89:47; Job 5:1, 14:1).
 
 ## Watch items (source defects — restore from a non-Google digitization before print)
 
