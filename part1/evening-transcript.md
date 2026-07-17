@@ -476,3 +476,242 @@ Cura { olim / nunc } demandata,
 Amicitia moralis,
 Christiana charitas,
 Vicinitas loci,
+
+<!-- printed 234 (PDF 254) — Greek -->
+
+ἐπαγγελία μου,
+ἐπιπόθησις αὐτῶν,
+ἀσχολία,
+συμπαθὲς τῶν ἐν ἐσχάτοις,
+κατόρθωμα,
+καλλιεργία,
+σκάνδαλον δοθὲν,
+οὐδένα ἐντευκτήν.
+
+
+Εἰς χεῖράς σου, Κύριε, ἐμαυτὸν παρατίθημι,
+    τὸ πνεῦμα, τὴν ψυχὴν, τὸ σῶμά μου,
+        ἐκτίσω, καὶ ἐλυτρώσω αὐτὰ,
+            Κύριε, ὁ Θεὸς ἀληθείας.
+Καὶ σὺν ἐμοὶ τοὺς ἐμοὺς, καὶ τὰ ἐμὰ πάντα·
+    ἐχαρίσω μοι αὐτὰ, Κύριε,
+        ἐν τῇ ἀγαθωσύνῃ σου.
+Φύλαξον τὴν κοίμησίν μου, καὶ
+        τὴν ἔγερσίν μου,
+    ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος.
+Μνημονεύειν σου ἐπὶ στρωμνῆς,
+    σκάλλειν τὸ πνεῦμα,
+        ἐξεγερθῆναι καὶ
+        ἔτι εἶναι μετὰ σοῦ.
+Ἐν εἰρήνῃ ἐπὶ τὸ αὐτὸ κοιμηθήσομαι,
+        καὶ ὑπνώσω·
+    Ὅτι σὺ κατὰ μόνας, Κύριε,
+        ἐπ' ἐλπίδι κατοικίσεις με.
+
+<!-- printed 235 (PDF 255) — Latin -->
+
+Meum promissum,
+Ipsorum desiderium,
+Non vacare præ negotiis,
+In extremis suis condolentia,
+Præclarum facinus aggredi,
+Benefacere,
+Scandalum a me accepisse,
+Advocatis destitui.
+
+
+In manus tuas, Domine, me ipsum commendo,
+    Spiritum, animam, corpus meum,
+        Creasti, et redemisti illa,
+            Domine, Deus veritatis.    *Psal.* xxxi. 6.
+Et mecum meos meaque omnia;
+        donasti mihi illa, Domine,
+            in Tua bonitate.    *Gen.* xxxiii. 5.
+Custodi dormitionem meam, et
+            resurrectionem meam,    *Psal.* cxxxix. 1.
+    ex hoc nunc et usque in sæculum.    *Psal.* cxxi. 8.
+Memorem esse Tui super stratum    [*Psal.* lxiii. 6.]
+        ad scopandum spiritum meum,    *Psal.* lxxvii. 6.
+            exsurgere et
+            adhuc esse tecum.    *Psal.* cxxxix. 18.
+In pace in id ipsum dormiam
+        et requiescam;
+    Quoniam Tu, Domine, singulariter
+            in spe constitues me.    *Psal.* iv. 8.
+
+<!-- printed 236 (PDF 256) — Greek -->
+
+Κόσμον, | Οἰκουμένην,
+Ἐκκλησίαν, | Βασιλείαν,
+Θρόνον, | Θυσιαστήριον,
+Βουλευτήριον, | Δικαστήριον,
+Φροντιστήρια, | Ἐργαστήρια.
+
+
+Νηπίους, | Ἄνδρας,
+Παῖδας, | Προβεβηκότας,
+Ἐφήβους, | τοὺς ἐν γήρᾳ,
+Νέους, | καὶ ἀδυναμίᾳ.
+
+
+Ἐνεργουμένους, | Ὁδοιποροῦντας,
+Λειποψύχους, | Πλέοντας,
+Νοσοῦντας, | Ἐγκύους,
+ἐν Δεσμοῖς, | Θηλαζούσας,
+Ὀρφανοὺς, | ἐν πικραῖς δουλείαις,
+Χηρὰς, | ἐν ἐρημίᾳ,
+Ξένους, | Πεφορτισμένους.
+
+<!-- printed 237 (PDF 257) — Latin -->
+
+Orbem, | Terram habitabilem,
+Ecclesiam, | Regnum,
+Solium, | Altare,
+Consilium, | Forum,
+Scholas, | Officinas.
+
+
+Infantes, | Viros,
+Pueros, | Ætate provectos,
+Adolescentes, | Senes, et
+Juvenes, | Decrepitos.
+
+
+Obsessos, | Itinerantes,
+Pusillanimes, | Navigantes,
+Ægrotos, | Gravidas,
+Vinctos, | Lactantes,
+Pupillos, | Servitutem servientes asperam,
+Viduas, | In solitudine degentes,
+Peregrinos, | Onustos.
+
+<!-- printed 238 (PDF 258) — Greek. NB PDF 258 is a PHOTO of the open book (238 verso + 239 recto in one frame); Greek 238 fully legible, offset here +20. From printed 240 the offset drops to +19 (see STRUCTURE.md). -->
+
+[ΕΠΙ ΤΗ ΕΥΧΑΡΙΣΤΙᾼ.]
+
+[(1.) Πρὸ τῆς μεταλήψεως.]
+
+ΚΥΡΙΕ,
+    Οὐκ ἄξιός εἰμι, οὐδὲ ἱκανὸς,
+Ἵνα ὑπὸ τὴν ῥυπαρὰν στέγην τοῦ οἴκου
+    τῆς ψυχῆς μου εἰσέλθῃς,
+Διότι ὅλη ἔρημός ἐστι καὶ καταπεσοῦσα,
+    καὶ οὐκ ἔχεις παρ' ἐμοὶ τόπον ἄξιον
+        τοῦ κλῖναι τὴν κεφαλήν.
+        Ἀλλ' ὡς κατεδέξω
+ἐν σπηλαίῳ καὶ φάτνῃ τῶν ἀλόγων ζώων
+        ἀνακλιθῆναι·
+        Ὡς οὐκ ἀπηξίωσας
+καὶ ἐν οἰκίᾳ Σίμωνος τοῦ Λεπροῦ ὑποδεχθῆναι·
+        Ὡς οὐκ ἀπηξίωσας
+καὶ τὴν ὁμοίαν μου πόρνην τὴν ἁμαρτωλὸν,
+    προσερχομένην σοι καὶ ἁπτομένην σου·
+        ὡς οὐκ ἐβδελύξω
+τὸ ῥυπαρὸν ἐκείνης στόμα καὶ ἐναγές,
+    οὔτε τὸν ἐν σταυρῷ λῃστὴν
+        ὁμολογοῦντά σοι·
+Οὕτως καταξίωσον καὶ ἐμὲ
+    τὸν ἐπίτριπτον, ταλαίπωρον,
+        τὸν ὑπὲρ λίαν ἁμαρτωλὸν,
+Καταδέξασθαι εἰς τὴν ἀφὴν καὶ μετοχὴν
+    τῶν ἀχράντων, ἐξαισίων, ζωοποιῶν,
+
+<!-- printed 239 (PDF 258, right half) — Latin. WATCH: only the RIGHT edge of the photographed spread; each line is cut off past its first ~15 chars. Transcribed verbatim as far as legible, [?] = cut off. NEEDS a non-Google digitization before print (cf. printed 210). Do NOT reconstruct from the Greek. -->
+
+[IN EUCHARISTIA.]
+
+[(1.) [?]]
+
+Non sum dignus, ne[?]
+    ut intres sub so[?]
+        Domus anim[?]
+Quoniam tota desola[?]
+    nec habes apud [?]
+        in quo recli[?]
+        Sed ut [?]
+in stabulo et præsepi[?]
+        reclinar[?]
+        Ut non d[?]
+in domum Simonis L[?]
+        Ut non [?]
+mei similem a[?]
+    cum accederet et [?]
+        Nec ho[?]
+impurum et exec[?]
+    neque furen[?]
+        confitente[?]
+Digneris ipse et [?]
+    Protritum,
+        et indign[?]
+Recipere ad contactu[?]
+    Immaculati, excell[?]
+
+<!-- printed 240 (PDF 259) — Greek. Offset now +19. -->
+
+καὶ σωτηρίων μυστηρίων
+    τοῦ παναγίου σώματος,
+        καὶ τοῦ τιμίου αἵματός σου.
+Πρόσχες, Κύριε, ὁ Θεὸς ἡμῶν,
+    ἐξ ἁγίου κατοικητηρίου,
+    καὶ ἀπὸ θρόνου δόξης τῆς βασιλείας σου,
+        καὶ ἐλθὲ εἰς τὸ ἁγιάσαι ἡμᾶς.
+Ὁ ἄνω τῷ Πατρὶ συγκαθήμενος
+    καὶ ὧδε ἡμῖν ἀοράτως συνὼν,
+ἐλθὲ εἰς τὸ ἁγιάσαι τὰ προκείμενα δῶρα,
+    καὶ ὑπὲρ ὧν, καὶ δι' ὧν, καὶ ἐφ' οἷς
+        προσκομίζονται.
+Καὶ δὸς ἡμῖν κοινωνίαν
+<!-- large left brace over the whole communion catalogue, cue 'Εἰς' set vertically centred on the brace -->
+Εἰς
+    { πίστιν ἀκαταίσχυντον,
+    ἀγάπην ἀνυπόκριτον,
+    περιποίησιν τῶν ἐντολῶν,
+    νῆψιν παντὸς καρποῦ πνευματικοῦ,
+    ἀποτροπὴν παντὸς ἐναντίου,
+    ἴασιν τῆς ψυχῆς καὶ τοῦ σώματος,
+    σύμβολον τῆς συνάξεως,
+    μνημόσυνον τῆς Οἰκονομίας,
+    καταγγελίαν τοῦ θανάτου,
+    κοινωνίαν σώματος καὶ αἵματος,
+    μετοχὴν τοῦ πνεύματος,
+    ἄφεσιν ἁμαρτιῶν,
+    ἀποτρόπαιον ἐναντίων,
+    ἀνάπαυσιν τῆς συνειδήσεως,
+    ἐξάλειψιν ὀφειλῶν,
+    καθαρισμὸν κηλίδων,
+    ἴασιν τῶν ἀρρωστιῶν τῆς ψυχῆς,
+
+<!-- printed 241 (PDF 260) — Latin -->
+
+et salutaris Sacramenti
+    sanctissimi tui corporis,
+        et pretiosi sanguinis.
+Attende, Domine, Deus noster,
+        de sancto habitaculo Tuo,
+    et de Throno gloriæ Regni Tui,
+        et veni ut sanctifices nos.
+Qui sursum cum Patre sedes,
+    et invisibilis hic præsens nobiscum es,
+Veni ut sanctifices dona proposita,
+    et pro quibus, et a quibus, et quibus de causis
+        offeruntur.
+Et da nobis communionem
+<!-- large left brace over the whole communion catalogue, cue 'Ad' set vertically centred on the brace -->
+Ad
+    { Fidem inconfusam,    [*Rom.* ix. 33.]
+    Charitatem sinceram,    [*Rom.* xii. 9.]
+    Præceptorum impletionem,    [*Rom.* xiii. 10.]
+    Excitationem omnium Spiritus fructuum,    [*Gal.* v. 22.]
+    Aversionem omnis mali,    [*Rom.* xii. 9.]
+    Salutem animæ et corporis,    [1 *Thess.* v. 23.]
+    Tesseram conventus,    *Act.* ii. 42.
+    Monumentum dispensationis,    *Luc.* xxii. 19.
+    Annunciationem mortis,    1 *Cor.* xi. 26.
+    Communionem Corporis et Sanguinis,    [1 *Cor.* x. 16.]
+    Participationem Spiritus,    1 *Cor.* xii. 18.
+    Remissionem peccatorum,    *Matt.* xxvi. 28.
+    Amuletum contra omne quod infaustum est,    1 *Cor.* v. 7.
+    Tranquillitatem conscientiæ,    *Matt.* xi. 28.
+    Deletionem debitorum,    *Col.* ii. 14.
+    Emundationem macularum,    *Heb.* ix. 14.
+    Sanationem infirmitatum animæ,    1 *Pet.* ii. 24.

@@ -11,6 +11,8 @@ Sources: 1853 Praefatio (PDF p. 13), heading census of `raw/preces1853_djvu.txt`
 | Day 1 opens | 30 | 48 |
 | **DUPLICATE LEAVES: printed 42/43 scanned twice** (PDF 60/61 AND 62/63 — distinct photos, same pages) | 42–43 | 60–63 |
 | printed 44 onward | 44 | 64 (offset now +20) |
+| **PHOTOGRAPHED SPREAD: printed 238+239 in ONE frame** (PDF 258 = a photo of the open book; Greek 238 legible on the left, Latin 239 on the right is CUT OFF past the first ~15 chars per line). Latin 239 needs a non-Google digitization. | 238–239 | 258 |
+| printed 240 onward | 240 | 259 (offset drops to **+19** — the photographed spread swallowed a leaf) |
 | Part II sample (Frustra) | 297 | 320 |
 | Poems (In Christum Crucifixum) | 393 | 430 |
 
