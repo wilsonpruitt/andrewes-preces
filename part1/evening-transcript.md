@@ -66,3 +66,71 @@ Perficiatur virtus tua
 Abiit decedens dies,
     abit et vita,
         Vita minime vitalis.
+
+<!-- printed 222 (PDF 242) — Greek -->
+
+Ἔρχεται νὺξ,
+    ἔρχεται καὶ θάνατος,
+        ὁ θάνατος ἀθάνατος.
+Ἐγγὺς ὡς τέλος ἡμέρας,
+    οὕτω καὶ τέλος τῆς ζωῆς.
+Μεμνημένοι οὖν καὶ ἡμεῖς αὐτοῦ,
+    δεόμεθά σου,
+ὥστε ἡμῶν τὰ τέλη τῆς ζωῆς
+    Χριστιανὰ, καὶ εὐάρεστα,
+    ἀναμάρτητα, ἀνεπαίσχυντα,
+        (κἄν σοι δοκῇ) ἀνώδυνα,
+ἐν εἰρήνῃ κατευθῦναι, Κύριε, Κύριε,
+    ἐπισυνάγων ἡμᾶς
+    ὑπὸ τοὺς πόδας τῶν ἐκλεκτῶν σου
+    ὅτε θέλεις, καὶ ὡς θέλεις,
+    μόνον χωρὶς αἰσχύνης, καὶ
+    ἁμαρτημάτων.
+
+Μνησθῆναι τῶν ἡμερῶν τοῦ σκότους, ὅτι πολλαὶ,
+    εἰς τὸ μὴ ἐκβληθῆναι εἰς σκότος ἐξώτερον.
+Μνησθῆναι καὶ φθάσαι τὴν νύκτα,
+    ἐργαζομένους ἀγαθόν τι.
+
+        Ἐγγὺς κρίσις,
+Καλὴν καὶ εὐπρόσδεκτον ἀπολογίαν,
+    ἐπὶ τοῦ φοβεροῦ καὶ φρικτοῦ βήματος Ἰησοῦ Χριστοῦ,
+        χάρισαι ἡμῖν, ὦ Κύριε.
+
+Ἐν ταῖς νυξὶν ἐπαείρω τὰς χεῖρας
+    εἰς τὰ ἅγια, καὶ εὐλογῶ τὸν Κύριον.
+Τῆς ἡμέρας ἐνετείλατο Κύριος τὸ ἔλεος αὐτοῦ,
+
+<!-- printed 223 (PDF 243) — Latin -->
+
+Venit nox,
+    venit et mors,
+        Mors immortalis.
+Prope, ut finis diei,
+    sic et finis vitæ.
+Memores igitur ipsius et nos
+        Te rogamus,
+Ut nobis exitus vitæ
+    Christianos, et tibi acceptos,
+Peccati, pudoris, et, si
+    tibi videbitur, doloris expertes.
+In pace dirigas, Domine, Domine,
+        nos colligens
+sub pedes electorum tuorum,
+    ubi voles, et quomodo voles,
+        duntaxat absque pudore,
+            et peccato.
+
+Meminisse dies tenebrarum quia multi, *Eccl.* xi. 8.
+ne in tenebras exteriores ejiciamur. *Matt.* xxii. 13.
+Meminisse et antevertere noctem,
+    aliquid boni operando. [*Joan.* ix. 4.]
+
+        Instat Judicium,
+Bonam et acceptam defensionem,
+    ad tremendum et terribile Jesu Christi tribunal,
+        Concede nobis, Domine.
+
+In noctibus attollo manus,
+    in sancta, et benedico Domino. [*Psal.* cxxxiv. 2.]
+In die mandavit Dominus misericordiam ejus,
