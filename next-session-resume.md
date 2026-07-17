@@ -1,16 +1,17 @@
 # Next session — resume note
 
-**Current front: PART II IN PROGRESS. §§1–4 COMPLETE both layers (printed 267–279).** Part I is complete end-to-end (printed 1–263). Part II opened this session (Opus 4.8): four sections done in `part2/`, each transcript + line-keyed English, self-checked parity:
+**Current front: PART II IN PROGRESS. §§1–5 COMPLETE both layers (printed 267–285).** Part I is complete end-to-end (printed 1–263). Part II sections done in `part2/`, each transcript + line-keyed English, self-checked parity:
 - **§1 `01-duo-in-me-cognosco`** (267–269) — Latin-only opening penitential prayer, parity 3/3.
 - **§2 `02-preces-matutinae`** (270–272) — Latin-only morning-prayer psalm-catena, parity 3/3.
 - **§3 `03-intercessio`** (273–275top) — FOUR scripts (Latin body, Hebrew Hosanna הושיעה נא/הצליחה נא Ps 118:25, sustained Greek King-block, inline ortho- Greek pun), parity 3/3.
 - **§4 `04-gratiarum-actio`** (275–279) — Latin-only thanksgiving scripture-catena, lettered ᵃᵇᶜᵈ footnote apparatus on 279, parity 5/5.
+- **§5 `05-deprecatio`** (280–285) — Latin-only deprecation litany, the most brace/column-heavy yet (nested braces, 2-/3-col antithetical tables, armour-of-God catalogue), parity 6/6.
 
-**NEXT = §5 Deprecatio (*Ne perdas*) + Hosanna counterparts, printed 280–285 = PDF 303–308.** Then Sacrificium Vespertinum + Horologium (286–290), Allegatio (291–298), etc. — work down STRUCTURE.md §PARS SECUNDA.
+**NEXT = §6 Sacrificium Vespertinum + Horologium, printed 286–290 = PDF 309–313** (title SACRIFICIUM VESPERTINUM verified at PDF 309; HOROLOGIUM sub-head follows on same page; *Et serva nos* refrain). Then Allegatio (291–298), Confessio Laudis (299–302), etc. — work down STRUCTURE.md §PARS SECUNDA.
 
 ## NEXT ACTION
 
-**Offset is now stable +23** through the whole main body (holds from printed 272 onward; verified this session at 274/276/278). Extract with `pdftoppm -jpeg -r 200 -f 303 -l NNN raw/preces1853.pdf raw/end/p`; **printed 280 = PDF 303**. Re-verify the printed page number by eye every batch (dups resume ~368). Continue the `part2/NN-slug-transcript.md` + `-english.md` file pattern; match the §1–4 files exactly (header para + `<!-- printed N (PDF M) -->` markers + `## Translator's flags`).
+**Offset is stable +23** through the whole main body (verified this session at 274/276/278/280/286). Extract with `pdftoppm -jpeg -r 200 -f 309 -l NNN raw/preces1853.pdf raw/end/p`; **printed 286 = PDF 309** (already extracted; read but not yet transcribed). Re-verify the printed page number by eye every batch (dups resume ~368). Continue the `part2/NN-slug-transcript.md` + `-english.md` file pattern; match the §1–5 files exactly (header para + `<!-- printed N (PDF M) -->` markers + `## Translator's flags`).
 
 ### Part II entry (historical note — DONE)
 
@@ -49,6 +50,7 @@ The full Part II + III section map, offset-anchor table, and layer-per-section a
 
 ## Session log (recent)
 
+- 2026-07-17 (Opus 4.8, Part II cont.): **Added §5 Deprecatio** (*Ne perdas*, printed 280–285), both layers, parity 6/6 — the brace/column stress-test (nested braces, 2-/3-col antithetical tables, armour catalogue) all encoded. Verified §6 SACRIFICIUM VESPERTINUM opens printed 286 (PDF 309). NEXT = §6.
 - 2026-07-17 (Opus 4.8, Part II start): **Part II §§1–4 COMPLETE both layers** (printed 267–279), new `part2/` dir. §1 Duo in me cognosco (267–269), §2 Preces Matutinæ (270–272), §3 Intercessio (273–275top, four scripts), §4 Gratiarum Actio (275–279). Verified entry offset +21 (267) → +23 (272) across the 270–271 dup spread (PDF 293–294); +23 stable thereafter (checked 274/276/278). Established Part II conventions in practice: Latin-only sections translate the Latin (§6); psalm-catenae cribbed from Coverdale/BCP (§9); inline Greek glosses kept apposed (§11/§17); sustained Greek/Hebrew blocks are main text and fully translated; lettered ᵃᵇᶜᵈ footnote apparatus preserved. NEXT = §5 Deprecatio (280–285 = PDF 303–308).
 - 2026-07-17 (Opus 4.8, later): **Evening Office + both Meditations ENGLISH complete** — `evening-english.md` (parity 16/16) + `meditations-english.md` (parity 6/6). Part I English now finished end-to-end (printed 1–263). Added **CONVENTIONS §9 Psalter rule** (Coverdale/BCP Psalter as the first psalm-crib ahead of the AV; the BCP stands with Andrewes' LXX against the AV — worked cases in both files' flags). Rendered the communion devotions (238–248) in settled Divine-Liturgy English (Πρόσχες Κύριε, the anamnesis, Agnus Dei, Ἤνυσται καὶ τετέλεσται) + the Prayer-of-Humble-Access parallel at 238; Meditation II closes on Dan 9:19 verbatim. Local commit only. NEXT = Part II (printed 264→).
 - 2026-07-17 (Opus 4.8, earlier): Evening Office transcript printed 220–251 COMPLETE both layers (parity 16/16). Discovered + flagged the photographed-spread anomaly at PDF 258 (238+239 in one frame; Latin 239 cut off; offset +20→+19). Encoded the big communion catalogues (Εἰς {…} / Ad {…}), the Luke-3 catechism with brace-joined addressees, the Righteousness/Mercies two-column offering. Then started `part1/meditations-transcript.md`: Meditation I (252–259, Day of Judgement) + Meditation II (260–263, Human Frailty) COMPLETE both layers (parity 6/6). Part I transcription now finished end-to-end. NEXT = Evening + Meditations ENGLISH, then Part II.
