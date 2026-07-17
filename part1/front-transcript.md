@@ -640,3 +640,245 @@ Cum Magdalena audiam te dicentem,
         Et cum ipsa multum diligam;
     Quia multa mihi, et multiplicia
             dimissa sunt. *Luc.* vii. 47, 48.
+
+<!-- printed 22 (PDF 40) — Greek -->
+
+Καὶ σὺ, πανάγιον καὶ ἀγαθὸν
+    καὶ ζωοποιὸν Πνεῦμα,
+        Μή με παρίδῃς
+            Τὴν πνοήν σου,
+                Τὰ ἅγιά σου μὴ παρίδῃς·
+Ἀλλ' ἐπίστρεψον, Κύριε, ἕως πότε; καὶ
+    παρακλήθητι ἐπὶ τῷ δούλῳ σου ἐπίσκεψαι.
+
+ΕΥΛΟΓΗΤΟΣ εἶ, Κύριε,
+    Ὁ Θεὸς ἡμῶν,
+        Ὁ Θεὸς τῶν πατέρων ἡμῶν,
+Ὁ τρέπων εἰς τὸ πρωῒ σκιὰν θανάτου,
+    καὶ ἐμφανίζων τὸ πρόσωπον τῆς γῆς.
+Ὁ ἀφιστάμενος σκότον ἐκ προσώπου φωτός·
+    ὁ χωρίζων νύκτα καὶ ἐπανάγων ἡμέραν·
+Ὁ φωτίσας ὀφθαλμούς μου,
+    ἵνα μὴ ὑπνώσω εἰς θάνατον.
+Ὁ ῥύσας με ἀπὸ φόβου νυκτερινοῦ,
+    ἀπὸ πράγματος ἐν σκότει διαπορευομένου.
+Ὁ ἀπώσας ὕπνον ὀφθαλμῶν μου,
+    τῶν βλεφάρων μου νυσταγμούς·
+Ὁ εἰσόδους πρωΐας καὶ ἑσπέρας τέρπων,
+Ὅτι ἐκοιμήθην, καὶ ὕπνωσα, καὶ ἀνέστην,
+    Ἐπεὶ σὺ, Κύριε, ἐπ' ἐλπίδι κατῴκισάς με,
+Ὅτι ἐξηγέρθην, καὶ εἶδον,
+    καὶ ὁ ὕπνος μου γλυκὺς ἐγένετό μοι.
+Ἀπάλειψον ὡς δνόφον νυκτὸς ἀνομίας.
+    διασκέδασον ὡς νεφέλην πρωϊνὴν, ἁμαρτίας μου.
+Δός μοι γενέσθαι υἱὸν φωτὸς, υἱὸν ἡμέρας,
+
+<!-- printed 23 (PDF 41) — Latin -->
+
+Et tu Sanctissime, bone,
+    Vivifice Spiritus,
+        Ne me despicias
+            Spiraculum tuum,
+                Sancta tua ne despicias.
+Sed convertere, Domine, usquequo? et
+    Deprecabilis esto super servo tuo. *Psal.* xc. 13.
+
+BENEDICTUS es, Domine,
+    Deus noster,
+        Deus Patrum nostrorum,
+Qui convertis in auroram umbram mortis, *Amos* v. 8.
+    Et renovas faciem terræ. *Ps.* civ. 30.
+Qui dispellis tenebras a facie lucis,
+    Qui amoves noctem et reducis diem:
+Qui illuminasti oculos meos,
+    Ne obdormirem in morte. *Ps.* xiii. 3.
+Qui liberasti me a terrore nocturno,
+    A negotio perambulante in tenebris. *Ps.* xci. 5, 6.
+Qui transire fecisti somnum ab oculis meis,
+    Et a palpebris meis dormitationem. *Ps.* cxxxii. 4.
+Qui ovare facis exitus matutini et vespertini temporis. *Ps.* lxv. 8.
+Quia decubui, et obdormivi, et exsurrexi. *Ps.* iii. 5.
+    Quoniam tu, Domine, suscepisti me. *Ps.* iv. 9.
+Quia de somno suscitatus sum, et vidi,
+    Et somnus meus dulcis mihi erat. *Jer.* xxxi. 26.
+Dele, Domine, sicut nubem noctis iniquitates meas, et dissipa
+    sicut matutinam nebulam peccata mea. *Isa.* xliv. 22.
+Da mihi, ut sim filius lucis, filius diei, 1. *Thess.* v. 5.
+
+<!-- printed 24 (PDF 42) — Greek -->
+
+ὡς ἐν ἡμέρᾳ σωφρόνως, ἁγνῶς, εὐσχημόνως
+    περιπατεῖν.
+Ἀξίωσον ἐμὲ τὴν ἡμέραν ταύτην ἀναμάρτητον διαφυλάξαι.
+Ὑποστηρίζων καταπίπτοντα, ἀνορθῶν καταπεπτωκότα που,
+    ἵνα μή ποτε σκληρύνω τὴν καρδίαν ἐν παραπικρασμῷ,
+    ἢ πειρασμῷ, ἢ ἐν ἀπάτῃ τινὸς ἁμαρτίας.
+    Ἔτι δὲ καὶ ῥῦσον ἐμὲ σήμερον
+        Ἐκ παγίδος θηρευτῶν,
+        Ἀπὸ λόγου ταραχώδους,
+        Ἀπὸ βέλους πετομένου τῆς ἡμέρας,
+        Ἀπὸ συμπτώματος,
+        Ἀπὸ δαιμονίου μεσημβρινοῦ.
+    Ἀπὸ τῆς κακίας ἐμῆς διαφύλαξον τὴν ἡμέραν,
+    Ἀπὸ τῆς κακίας τῆς ἡμέρας διαφύλαξον ἐμέ.
+Μὴ ἐκλείπωσιν ἐν ματαιότητι ἡμέραι μου,
+    Τὰ ἔτη μου ἐν δυστηνίᾳ.
+Ἡμέρα τῇ ἡμέρᾳ ἐρεύγοι ῥῆμα,
+    Ἡ σήμερον τῇ χθὲς γνῶσιν ἢ πρᾶξιν τινά.
+Ἀκουστὸν ποίησόν μοι τὸ πρωῒ τὸ ἔλεός σου,
+        Ὅτι ἐπί σοι ἤλπισα·
+Γνώρισόν μοι ὁδὸν, ἐν ᾗ πορεύσομαι,
+        Ὅτι πρός σε ᾖρα τὴν ψυχήν μου.
+Ἐξελοῦ με ἐκ τῶν ἐχθρῶν μου, Κύριε·
+        Ὅτι πρός σε κατέφυγον.
+Δίδαξόν με ποιεῖν τὸ θέλημά σου,
+        Ὅτι Θεός μου εἶ Σύ.
+Τὸ πνεῦμά σου τὸ ἀγαθὸν ὁδηγήσει με
+    ἐν γῇ εὐθείᾳ.
+Ἕνεκεν τοῦ ὀνόματός σου ζήσεις με, Κύριε·
+    Ἐν τῇ δικαιοσύνῃ σου ἐξάξεις ἐκ θλίψεως
+
+<!-- printed 25 (PDF 43) — Latin -->
+
+Sicut in die sobrie, caste, composite ambulare. *Rom.*
+    xiii. 13.
+Dignare me isto die sine peccato custodire. [*Te Deum.*]
+Qui sustines labentem, erigis lapsum, concede, nequando
+    obdurem cor, aut exacerbatione, aut tentatione, aut fallacia
+    peccati quacunque. *Ps.* cxlv. 14. *Ps.* xcv. 8. *Heb.* iii. 8, 13.
+        Etiam libera me hodie
+            De laqueo venantium,
+            De aspero verbo,
+            A sagitta volante per diem,
+            A Symptomate,
+            A Dæmonio meridiano. *Ps.* xci. 3, 5, 6.
+        A malitia mea libera diem hunc,
+        A malitia diei hujus libera me. [*Matt.* vi. 34.]
+Ne deficiant in vanitate dies mei,
+        Anni mei in luctu. [*Ps.* lxxviii. 33.]
+Dies diei eructet verbum, [*Ps.* xix. 2.]
+        Hodierna hesternæ scientiam aut opus aliquod.
+Auditam fac mihi mane misericordiam tuam,
+        Quia in te speravi.
+Notam fac mihi viam, in qua ambulem,
+        Quia ad te levavi animam meam. *Ps.* cxliii. 8.
+Eripe me de inimicis meis, Domine,
+        Quia ad Te confugi. *Vers.* 9.
+Doce me facere voluntatem tuam,
+        Quia Deus meus es tu.
+Spiritus tuus bonus deducet me
+        In terram rectam. *Vers.* 10.
+Propter nomen tuum, Domine, vivificabis me:
+    In justitia tua educes de tribulatione
+
+<!-- printed 26 (PDF 44) — Greek -->
+
+    τὴν ψυχήν μου.
+Ἀπανάστησον τῆς ψυχῆς μου
+    λογισμοὺς ἀσυνέτους.
+Ἔμπνευσον δὲ ἀγαθοὺς,
+    καὶ εἰς εὐδοκίαν ἐνώπιόν σου.
+Ἀπόστρεψον τοὺς ὀφθαλμούς μου,
+    τοῦ μὴ ἰδεῖν ματαιότητα.
+        Οἱ ὀφθαλμοί μου τὰ ὀρθὰ βλεπέτωσαν,
+        καὶ τὰ βλέφαρα νευέτω τὰ δίκαια.
+Ἐν ἀκάνθαις φράξον τὰ ὦτά μοι,
+    τοῦ μὴ προσέχειν τοῖς λόγοις ἀπαιδεύτοις.
+            Τὸ πρωῒ πρόσθες μοι τὸ ὠτίον τοῦ ἀκούειν,
+            Καὶ τῇ παιδείᾳ τῶν λογίων ἄνοιγε τὰ ὦτά μοι.
+Θοῦ, Κύριε, φυλακὴν τῷ στόματι,
+    Θύραν περιοχῆς περὶ τὰ χείλη μου.
+            Ὁ λόγος μου ἅλατι ἠρτυμένος ἔστω,
+            Ἵνα δῷ χάριν τοῖς ἀκούουσι.
+Μηδέν μοι ἔργον γενέσθω εἰς λυγμὸν,
+    ἢ εἰς σκάνδαλον καρδίας.
+Γενέσθω δὲ ἔργον τι, περὶ οὗ μνησθῇς μου, Κύριε, εἰς
+    ἀγαθωσύνην, καὶ φεῖσαί μου κατὰ τὸ πλῆθος τοῦ ἐλέους
+    σου.
+
+ΕΙΣ χεῖράς σου παραθήσομαι
+    Πνεῦμα, ψυχὴν, σῶμά μου,
+Ἔκτισας, ἐλύτρωσας, ἀνεγέννησας αὐτὰ,
+    Κύριε ὁ Θεὸς τῆς ἀληθείας,
+Καὶ μετ' ἐμοῦ τοὺς ἐμοὺς πάντας, καὶ τὰ ἐμὰ πάντα.
+Ἐχαρίσω μοι αὐτὰ, Κύριε, ἐν ἀγαθωσύνῃ σου.
+    Φύλαξον ἡμᾶς ἀπὸ παντὸς κακοῦ,
+
+<!-- printed 27 (PDF 45) — Latin -->
+
+    animam meam. *Vers.* 11.
+Pelle ex anima mea
+    cogitationes insensatas. *Sap. Sol.* i. 5.
+Inspira autem bonas,
+    et in conspectu tuo complacitas.
+Averte oculos meos
+    ne videant vanitatem. *Psal.* cxix. 37.
+    Oculi mei quod rectum est aspiciant,
+    Et palpebræ annuant rectis. *Pro.* iv. 25.
+Sepi aures meas spinis,
+        Ne intendant sermonibus absque intellectu.
+            Erige mane mihi aurem audientem, *Es.* l. 4, 5.
+Ut attentus sim sermonibus disciplinæ.
+Pone, Domine, custodiam ori meo,
+    ostium circumstantiæ labiis meis. *Psal.* cxli. 8.
+        Esto sermo meus sale conditus, *Coloss.* iv. 6.
+    ut det gratiam audientibus. [*Eph.* iv. 29.]
+Nihil quod facturus sum sit mihi in singultum vel scan-
+    dalum cordis. 1 *Sam.* xxv. 31.
+Præparetur autem mihi aliquod opus, pro quo memor sis
+    mei in bonum, et parce mihi secundum multitudinem
+    miserationum tuarum. *Nehem.* xiii. 22, 31.
+
+IN manus tuas commendo
+    Spiritum, animam, corpus meum.
+Creasti, redemisti, et regenerasti illa
+    Domine, Deus veritatis, *Psal.* xxxi. 6.
+Et mecum meos omnes et mea omnia.
+Donavisti mihi illa, Domine, in benignitate tua. *Gen.* xxxiii. 5.
+    Custodi nos ab omni malo, *Psal.* cxxi. 7.
+
+<!-- printed 28 (PDF 46) — Greek -->
+
+Φύλαξον τὰς ψυχὰς ἡμῶν,
+    Δέομαί σου, Κύριε.
+Φύλαξον ἀπταίστους, καὶ στῆσον ἀμώμους
+    ἐνώπιον δόξης σου ἐν
+        Ἡμέρᾳ ἐκείνῃ.
+
+Φύλαξον τὴν ἔξοδόν μου, καὶ τὴν εἴσοδόν μου.
+    Ἀπὸ τοῦ νῦν, καὶ ἕως τοῦ αἰῶνος.
+Εὐόδωσον δὴ τῷ παιδί σου σήμερον, καὶ δός αὐτὸν
+    εἰς οἰκτιρμοὺς ἐνώπιον ἐντυγχανόντων αὐτῷ.
+Ὁ Θεὸς, εἰς τὴν βοήθειάν μου πρόσχες,
+    Κύριε, εἰς τὸ βοηθῆσαί μοι σπεῦσον.
+Ἐπίβλεψον ἐπ' ἐμὲ, καὶ ἐλέησόν με,
+    Δὸς τὸ κράτος σου τῷ παιδί σου,
+    Καὶ σῶσον τὸν υἱὸν τῆς παιδίσκης σου.
+Ποίησον μετ' ἐμοῦ σημεῖον εἰς ἀγαθὸν,
+    Τοῦ μὴ αἰσχυνθῆναί με ἐνώπιον τῶν
+    μισούντων με·
+        Ὅτι σὺ, Κύριε, ἐβοήθησάς μοι,
+        καὶ παρεκάλεσάς με.
+
+<!-- printed 29 (PDF 47) — Latin -->
+
+    Custodi animas nostras,
+        Rogo te, Domine.
+Conserva sine peccato et constitue immaculatos
+    In conspectu gloriæ tuæ, *Jud.* 24.
+        In die isto. 2 *Tim.* i. 18.
+
+Custodi exitum meum et introitum meum,
+        Ex hoc nunc et usque in sæculum. *Ps.* cxxi. 8.
+Dirige servum tuum hodie, et
+    Da ei misericordiam ante occurrentes. *Neh.* i. 11.
+Deus, in adjutorium meum intende,
+    Domine, ad adjuvandum me festina, *Psal.* lxx. 1.
+Respice in me, et miserere mei,
+        Da imperium tuum puero tuo,
+        Et salvum fac filium ancillæ tuæ. *Psal.* lxxxvi. 16.
+Fac mecum signum in bonum,
+    Ne confundar in conspectu eorum,
+        qui oderunt me:
+        Quoniam tu, Domine, adjuvisti me,
+            Et consolatus es me. *Vers.* 17.
