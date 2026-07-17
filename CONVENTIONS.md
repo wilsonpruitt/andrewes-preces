@@ -29,3 +29,13 @@ Frozen from the Day 1 pilot (2026-07-16). Later sessions follow this file; propo
 ## Fonts / rendering (downstream)
 
 15. Print: Cardo (polytonic Greek + Hebrew coverage in one face). Site: verify chosen webfont renders polytonic + Hebrew IN THE BROWSER before shipping (rendered check, not build check).
+
+## Print layout by language-count (Part II+ — PROVISIONAL, pending prototype)
+
+> Decided provisionally by Wilson 2026-07-17. **Not frozen** — build sample spreads at M-print time (as Prototype B was chosen for Part I) before committing. Affects typesetting only; transcription/translation are layout-agnostic and proceed regardless.
+
+16. **The number of source languages on a given opening decides its layout.** Part I is uniformly Greek-verso / Latin-recto parallel, so it is uniformly the trilingual mirror (Prototype B: Gr verso / La recto, English as the italic register across the spread foot). Part II is mixed, so the layout follows the opening:
+    - **One source language stands alone on the opening** (Latin-only — most of printed 267–360; or Greek-only — e.g. 367–369) → **that language verso / English recto**, a two-language facing mirror. English is promoted from foot-register to a full facing page here, because it carries the whole translation load.
+    - **Greek + Latin run in parallel** (the eucharistic/hymns/poems finale, ~361–397) → revert to the Part I **trilingual mirror** (Gr verso / La recto, English foot-register).
+17. **Inline Greek glosses do NOT trigger the trilingual switch.** Most of Part II's "La+Gk" main body is Latin with a few inline Greek words (Ὑπεύθυνον, Κηλίς, Χρηστός, imperatives). Those ride *inside* the Latin verso exactly as the 1853 sets them; only a **sustained Greek parallel column** flips the layout. Net effect: essentially ONE structural boundary (bilingual La/En for ~267–360, trilingual for the ~361–397 finale), not constant flipping. The Latin-only pages are single-column in the 1853 (no source parallel to preserve), so putting English on the facing verso breaks no mirror.
+18. **Known cost + the alternative.** English's typographic status shifts (foot-register in trilingual passages, full facing page in bilingual ones) — a reader feels it. Accepted rationale: English steps up precisely where it is the only translation. The consistency-first alternative, if the wobble reads badly in prototype, is to keep **English as the foot-register everywhere** and run Latin-only sections as a single full-width body with English beneath (invariant English role, but loses the facing-parallel look and gives a long Latin measure). Resolve at prototype time. See `STRUCTURE.md` §PARS SECUNDA for which sections carry which layer.
