@@ -847,3 +847,153 @@ Neque quenquam nostrum reum facias
     neque infirmum anima vel corpore,
         propter indignam horum
             receptionem.    [1 *Cor.* xi. 27. 30.]
+
+<!-- printed 246 (PDF 265) — Greek -->
+
+Ἀλλὰ δὸς ἡμῖν
+    μέχρι τῆς τελευταίας καὶ ἐσχάτης
+        ἡμῶν ἀναπνοῆς,
+    ἀξίως ὑποδέχεσθαι ἐλπίδα
+        τῶν ἁγιασμάτων σου,
+            Εἰς
+    ἁγιασμὸν, φωτισμὸν, ῥῶσιν,
+        κουφισμὸν τοῦ βάρους τῶν πολλῶν μου
+            ἁμαρτημάτων,
+Φυλακτήριον πάσης διαβολικῆς
+        ἐνεργείας,
+Ἀποτροπὴν καὶ ἐμπόδιον τῆς φαύλης
+        μου συνειδήσεως,
+Ἀπονέκρωσιν τῶν παθῶν,
+Περιποίησιν τῶν ἐντολῶν,
+Προσθήκην θείας σου χάριτος,
+    καὶ τῆς σῆς Βασιλείας οἰκείωσιν.
+
+
+[(2.) Μετὰ τὴν μετάληψιν.]
+
+ΗΝΥΣΤΑΙ καὶ τετέλεσται,
+    ὅσον εἰς τὴν ἡμετέραν δύναμιν,
+        Χριστὲ, ὁ Θεὸς ἡμῶν,
+    τὸ τῆς Οἰκονομίας σου μυστήριον.
+Εἴχομεν γὰρ τοῦ θανάτου σου μνήμην,
+    εἴδομεν τῆς ἀναστάσεως σῆς τὸν τύπον,
+    ἐνεπλήσθημεν τῆς ἀτελευτήτου σῆς ζωῆς,
+    ἀπελαύσαμεν τῆς ἀκενώτου σῆς τρυφῆς,
+        ἧς καὶ ἐν τῷ μέλλοντι αἰῶνι
+            πάντας ἡμᾶς καταξιωθῆναι
+                εὐδόκησον.
+
+<!-- printed 247 (PDF 266) — Latin -->
+
+Sed da nobis
+        usque ad finalem et extremum
+            spiritum,
+        digne spem suscipere
+            sanctitatum tuarum,
+            Ad
+Sanctificationem, Illuminationem,
+Corroborationem, Levationem oneris multorum meorum
+        peccatorum,
+Averruncationem omnis Diabolicæ
+        obsessionis,
+Depulsionem et aversionem malæ meæ
+        conversationis,
+Mortificationem passionum,
+Custodiam præceptorum,
+Augmentum divinæ Tuæ gratiæ,
+    et Regni Tui acquisitionem.
+
+
+[(2.) POST SUSCEPTIONEM.]
+
+ABSOLUTUM et consummatum est,
+        quicquid in nostra potestate est,
+            Christe, Deus noster,
+        quoad Dispensationis Tuæ mysterium.
+Habuimus enim memoriam Mortis Tuæ,
+    Vidimus typum Resurrectionis Tuæ,
+    Impleti sumus vita Tua æterna,
+    Fruitionem habuimus deliciarum Tuarum,
+        quarum nulla est satietas,
+    Qua et in futuro sæculo
+        Nos omnes dignari complaceat tibi, Domine Deus.
+
+<!-- printed 248 (PDF 267) — Greek -->
+
+Κύριος ὁ Θεὸς ἀγαθὸς
+    ἐξιλασάσθω
+        ὑπὲρ πάσης καρδίας,
+    κατευθυνούσης τοῦ ἐκζητῆσαι
+        τὸν Κύριον, τὸν Θεὸν
+            τῶν πατέρων αὐτοῦ,
+        καὶ οὐ κατὰ τὴν ἁγνείαν
+            τῶν ἁγίων.
+
+<!-- printed 249 (PDF 268) — Latin -->
+
+Dominus bonus
+    propitiabitur
+        cunctis, qui in toto corde se diligunt,
+et requirunt
+    Dominum, Deum
+        Patrum suorum,
+Quamvis non assequutis puritatem
+        Sanctorum.    [2 *Chron.* xxx. 18, 19.]
+
+<!-- printed 250 (PDF 269) — Greek. Catechetical Q&A on Luke 3 (John the Baptist's answers); each answer joined by a large right brace to its addressee (Ὄχλοις / Τελώναις / Στρατευομένοις). -->
+
+Α'. ΤΙ ποιήσω, ἵνα ζωὴν αἰώνιον
+        κληρονομήσω;
+    α'. Τήρησον τὰς ἐντολάς.
+Β'. Τί ποιήσομεν;
+    β'. Μετανοήσατε, καὶ βαπτισθήτω ἕκαστος
+            ὑμῶν.
+Γ'. Τί με δεῖ ποιεῖν, ἵνα σωθῶ;
+    γ'. Πίστευσον ἐπὶ τὸν Κύριον Ἰησοῦν Χριστόν.
+Δ'. Τί οὖν ποιήσομεν;
+    α'. Ὁ ἔχων δύο { χιτῶνας, / βρώματα, } { μεταδότω / τῷ μὴ ἔχοντι. } } Ὄχλοις.
+    β'. Μηδὲν πλέον τῶν διατεταγμένων
+            ζητεῖτε. } Τελώναις.
+    γ'. Μηδένα διασείσητε,
+            συκοφαντήσητε.
+    δ'. Ἀρκεῖσθε τοῖς ὀψωνίοις. } Στρατευομένοις. <!-- one right brace spans γ' + δ', joining both to Στρατευομένοις -->
+        Γνῶσιν καὶ Πίστιν,
+τῆς Δικαιοσύνης, | τῶν Ἐλέων,
+        εἰς
+φόβον, | ἐλπίδα,
+ταπεινοφροσύνην, | παράκλησιν,
+μετάνοιαν, | εὐχαριστίαν,
+νηστείαν, | ἐλεημοσύνας,
+προσευχὰς, | ὕμνους,
+ὑπομονὴν, | ὑπακοὴν,
+        ὡς
+θυσίαν. | προσφοράν.
+
+<!-- printed 251 (PDF 270) — Latin -->
+
+I. QUID faciam, ut vitam æternam
+        percipiam?    *Mar.* x. 17.
+    1. Observa præcepta.
+II. Quid faciemus?
+    2. Pœnitentiam agite, et baptizetur unusquisque ves-
+        trum.    *Act.* ii. 37, 38.
+III. Quid me oportet facere, ut salvus fiam?
+    3. Crede in Dominum Jesum Christum.    [*Act.* xvi. 30, 31.]
+IV. Quid ergo faciemus?    *Luc.* iii. 10. 12. 14.
+    1. Qui habet duas { tunicas, / escas, } { det non / habenti. } } Turbis.
+    2. Nihil amplius, quam quod consti-
+        tutum est vobis, exigitis. } Publicanis.
+    3. Neminem concutiatis:
+        neque calumniam faciatis.
+    4. Contenti estote stipendiis vestris. } Militibus. <!-- one right brace spans 3 + 4, joining both to Militibus -->
+        Scientiam et Fidem,
+Justitiæ, | Misericordiæ,
+        ad
+Timorem, | Spem,
+Humilitatem, | Consolationem,
+Pœnitentiam, | Gratitudinem,
+Jejunium, | Eleemosynas,
+Orationem, | Hymnos,
+Patientiam, | Obedientiam,
+        ut
+Sacrificium. | Oblationem.
