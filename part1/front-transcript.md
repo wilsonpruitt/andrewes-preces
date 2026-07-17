@@ -325,3 +325,318 @@ Quibus male est. | Clerus.
 Orientalis. |
 Occidentalis. | Christiana.
 Britannica. |
+
+<!-- printed 12 (PDF 30) — Greek -->
+
+Πλησιόχωρα.
+Τὸ ἐν ἡμῖν.
+ε´. Οὓς ἐδικαίωσας βασιλεύειν.
+Ὁ ἡμέτερος.
+Βουλή.
+Δίκη.
+Κράτος.
+Βία.
+Δῆμος.
+Διαδοχή.
+Διδασκαλία.
+ς´. Φύσις.
+Εὐπεπονθός.
+Λειτουργία σαρκικῶν.
+Ἐπιτροπὴ
+    Τῶν πάλαι, {
+        Φροντιστήριον.
+        Παροικία.
+        Πηγὴ Μεσημβρινή.
+        Ἁγίου Παύλου.
+        Ἐπιζεφύριον.
+        Κικεστρία.
+        Ἐλεόπολις.
+    Τῶν νῦν, {
+        Διοίκησις Οὔιντον.
+        Τέμενος.
+        Ἐκκλησία.
+        Τέμενος Βασιλικόν.
+        Οἰκονομία ἐλεημοσύνης Βασι-
+            λικῆς.
+        Φροντιστήρια ς´.
+ζ´. Φιλία ἠθική.
+
+<!-- printed 13 (PDF 31) — Latin -->
+
+Vicina.
+Nostrum.
+5. Quos Æquum censuisti Reges esse.
+Noster.
+Consiliarii.
+Judices.
+Præsides.
+Vis Bellica.
+Plebs.
+Soboles.
+Scholæ.
+6. Natura.
+Beneficentia.
+Ministeria in necessariis.
+Fidei commissum
+    olim, {
+        Collegium.
+        Parœcia.
+        Fons Australis.
+        S. Pauli.
+        Westmonasterium.
+        Cicestria.
+        Eleopolis.
+    nunc, {
+        Diœcesis Wintoniensis.
+        Sacellum.
+        Ecclesia.
+        Sacellum Regium.
+        Dispensatio Eleemosynarum
+            Regiarum.
+        Collegia 6.
+7. Amicitia Moralis.
+
+<!-- printed 14 (PDF 32) — Greek -->
+
+Ἀγάπη Χριστιανή.
+Τὸ πλησίον.
+Ἡ ἐπαγγελία. | Μὴ διαφθείρῃς.
+Τὸ ἐπάλληλον.
+Ἀσχολία. | Ὡσαννὰ
+Πανενδεία ἐντευκτῶν. | ἐν { ὑψίστοις. / ἐπιγείοις. }
+    Οἱ ἐν ἐσχάτοις.
+    Οἱ περὶ κατόρθωμά τι
+    καλλιεργοῦντες.
+        Σκανδαλισθέντες
+        παρ' ἐμοῦ ποτέ.
+
+ΤΗΣ ΠΡΟΣΕΥΧΗΣ ΠΕΡΙΣΤΑΣΕΙΣ.
+
+α´. Γονυκλισία. | Ταπείνωσις.
+Γονυπέτεια.
+Ἐπὶ πρόσωπον.
+    { Ἐταπεινώθη εἰς χοῦν ψυχή / Ἐκολλήθη εἰς γῆν γαστήρ } μου.
+β´. Κεφαλοκλισία.
+Κατήφεια. | Ἐντροπή.
+γ´. Στερνοκτυπία. | Ἀγανάκτησις.
+δ´. Φρίκη. | Φόβος.
+ε´. Στεναγμός.
+χειροπληξία. | Λύπη.
+ς´. Ἔπαρσις { Ὀφθαλμῶν / Χειρῶν. | Ἐπιπόθησις.
+ζ´. Ὑπωπιασμός. | Ἐκδίκησις.
+
+<!-- printed 15 (PDF 33) — Latin -->
+
+Christiana Caritas.
+Loci vicinitas.
+Promissum. | Ne corrumpas.
+Mutuum officium.
+Negotiorum moles. | Hosanna
+Intercessorum inopia. | in { excelsis / terrenis. }
+Qui in extremis sunt.
+    Qui insigne aliquod
+    opus præ manibus habent.
+        A me scandalizati
+        unquam fuerant.
+
+ORATIONIS CIRCUMSTANTIÆ.
+
+1. Genuflexio. | Humiliatio.
+Procumbere in genua. *Luc.* xxii. 41.
+Prosterni super faciem. *Mat.* xxvi. 39.
+Humiliata est in pulvere anima mea:
+Conglutinatus est in terra venter meus. *Psal.* xliv. 25.
+2. Capitis inclinatio.
+Vultus demissio. [*Ez.* ix. 6.] | Confusio.
+3. Pectoris plangor. [*Luc.* xviii. 13.] | Indignatio.
+4. Horror. [*Job.* iv. 14.] | Timor.
+5. Gemitus. [*Is.* lix. 11.]
+Manuum complosio. | Dolor.
+6. Elevatio { Oculorum. [*Ps.* cxxiii. 1.] / Manuum. [*Ps.* cxliii. 6.] | Desiderium.
+7. Suggillatio. [1 *Cor.* ix. 27.] Vindicta. 2. *Cor.* vii. 11.
+
+<!-- printed 16 (PDF 34) — Greek -->
+
+ΑΚΟΛΟΥΘΙΑ ΤΟΥ ΟΡΘΡΟΥ.
+
+Δόξα σοι, Κύριε, δόξα σοι,
+Δόξα τῷ παρασχόντι μοι ὕπνον
+    Εἰς ἀνάπαυσιν ἀσθενείας,
+    Καὶ εἰς ἄνεσιν τῶν κόπων
+    τῆσδε τῆς πολυμόχθου σαρκός.
+
+Τὴν ἡμέραν ταύτην καὶ πᾶσαν,
+Τελείαν, ἁγίαν, εἰρηνικὴν, ὑγιῆ,
+    ἀναμάρτητον διάγειν
+            Παράσχου, Κύριε. <!-- print: first response's glyph reads "Κίριε" in scan; = Κύριε -->
+Ἄγγελον εἰρήνης, πιστὸν ὁδηγὸν,
+    Φύλακα τῶν ψυχῶν καὶ σωμάτων,
+    παρεμβάλλοντά με κύκλῳ,
+    καὶ τὰ σωτηριώδη μοι ἀεὶ ὑποτιθέμενον
+            Παράσχου, Κύριε.
+Τὴν συγγνώμην καὶ τὴν ἄφεσιν
+    πασῶν τῶν ἁμαρτιῶν,
+    καὶ πάντων τῶν πλημμελημάτων
+            Παράσχου, Κύριε.
+Τὰ καλὰ καὶ συμφέροντα ταῖς ψυχαῖς ἡμῶν,
+    Καὶ εἰρήνην τῷ κόσμῳ
+            Παράσχου, Κύριε.
+Τὸν ὑπόλοιπον χρόνον τῆς ζωῆς ἡμῶν
+    ἐν μετανοίᾳ καὶ εὐλαβείᾳ,
+    ἐν ὑγιείᾳ καὶ εἰρήνῃ ἐκτελέσαι
+            Παράσχου, Κύριε.
+Ὅσα ἀληθῆ, ὅσα σεμνὰ, ὅσα δίκαια, ὅσα ἁγνὰ, ὅσα
+
+<!-- printed 17 (PDF 35) — Latin -->
+
+OFFICIUM MATUTINUM.
+
+Gloria tibi, Domine, tibi gloria,
+Gloria, qui mihi somnum dederis
+    In reparationem infirmitatis,
+    Et in requiem laborum
+    hujus fragilis carnis.
+
+Hanc diem, et omnem,
+Perfectam, sanctam, placidam, sanam,
+    peccati immunem transigere
+            *Concede, Domine.*
+Angelum pacis, fidum ducem,
+    Custodem animarum et corporum,
+    Castrametantem in circuitu meo, [*Ps.* xxxiv. 7.]
+    Et mihi salutaria semper suggerentem
+            *Concede, Domine.*
+Veniam et remissionem
+    Omnium peccatorum
+    Et delictorum omnium
+            *Concede, Domine.*
+Bona, et quæ animabus nostris expediunt,
+    Et pacem mundo
+            *Concede, Domine.*
+Reliquum vitæ nostræ tempus
+    In pœnitentia et reverentia,
+    In sanitate et pace transigere
+            *Concede, Domine.*
+Quæcunque vera, quæcunque decora, quæcunque justa,
+
+<!-- printed 18 (PDF 36) — Greek -->
+
+προσφιλῆ, ὅσα εὔφημα, εἴτις ἀρετὴ, καὶ εἴτις ἔπαινος,
+    ταῦτα λογίζεσθαι, καὶ ταῦτα πράττειν
+            Παράσχου, Κύριε.
+Χριστιανὰ τὰ τέλη τῆς ζωῆς ἡμῶν,
+    Ἀναμάρτητα, ἀνεπαίσχυντα,
+    Κἄν σοι δοκῇ ἀνώδυνα,
+Καὶ καλὴν ἀπολογίαν παρὰ τοῦ φρικτοῦ
+    καὶ φοβεροῦ βήματος Ἰησοῦ Χριστοῦ
+    Τοῦ Κυρίου ἡμῶν            Παράσχου, Κύριε.
+
+ΟΥΣΙΑ ὑπερούσιε, φύσις ἄκτιστε,
+    Τοῦ ὅλου δημιουργὲ,
+Προορῶ σε, Κύριε, ἐνώπιόν μου,
+Καὶ ἀείρω πρός σε τὴν ψυχήν μου.
+Προσκυνῶ σε θεὶς τὰ γόνατα,
+    Καὶ ταπεινοῦμαι ὑπὸ τὴν κραταιάν σου χεῖρα.
+    Διαπεταννύω πρός σε τὰς χεῖράς μου,
+Ἡ ψυχή μου γῆ ἄνυδρός σοι.
+        Τύπτω εἰς τὸ στῆθός μου,
+        Καὶ λέγω μετὰ Τελωνοῦ,
+Ὁ Θεὸς ἱλάσθητί μοι { τῷ ἁμαρτωλῷ, / τῷ πάνυ. }
+        Τῷ ἁμαρτωλῷ ὑπὲρ Τελωνοῦ
+        Ἱλάσθητι ὥσπερ τῷ Τελωνῇ.
+        Πάτερ οἰκτιρμῶν,
+    Δέομαι τῆς πατρικῆς σου εὐσπλαγχνίας,
+    Μή με παρίδῃς { Σκώληκα ῥυπαρόν. / Κύνα τεθνηκότα. / Θνησιμαῖον σαπρόν. }
+
+<!-- printed 19 (PDF 37) — Latin -->
+
+quæcunque casta, quæcunque amabilia, quæcunque bonæ
+famæ, si qua virtus, si qua laus, hæc cogitare et hæc
+facere, (*Phil.* iv. 8.)            *Concede, Domine.*
+Christianos vitæ nostræ exitus,
+    Peccati, pudoris, et,
+    Si tibi videbitur, doloris expertes,
+Et defensionem bonam ante tremendum et terribile tri-
+    bunal Jesu Christi Domini nostri
+            *Concede, Domine.*
+
+ESSENTIA superessentialis, natura increata,
+    Universi creatrix,
+Provideo te, Domine, in conspectu meo, *Psal.* xvi. 9.
+    Et ad te levo animam meam. *Psal.* xxv. 1.
+Adoro te positis genibus, [*Psal.* xcv. 6.]
+    Et humilior sub potenti manu tua. 1. *Pet.* v. 6.
+        Expando manus meas ad te,
+    Anima mea sicut terra sine aqua tibi, *Psal.* cxliii. 6.
+        Percutio pectus meum, *Luc.* xviii. 13.
+        Et dico cum Publicano,
+Deus propitius esto mihi { peccatori admodum, / peccatorum primo. 1. *Tim.* i. 15. }
+        Supra Publicanum peccatori
+        Propitius esto tanquam Publicano.
+        O Pater misericordiarum,
+        Obsecro paterna tua viscera,
+    Ne me despicias { Vermem immundum, [*Ps.* xxii. 6.] / Canem mortuum. 2. *Sam.* ix. 8. / Cadaver putridum. }
+
+<!-- printed 20 (PDF 38) — Greek -->
+
+Τὸ πλάσμα τῶν χειρῶν σου μὴ παρίδῃς,
+    Τὴν εἰκόνα σὴν μὴ παρίδῃς,
+        Εἰ καὶ στίγματα φέρουσαν τῆς ἁμαρτίας.
+Κύριε, ἐὰν θέλῃς, δύνασαί με καθαρίσαι.
+Κύριε, μόνον εἰπὲ λόγῳ, καὶ καθαρισθήσομαι.
+
+    Καὶ σὺ Σῶτέρ μου Χριστὲ,
+        Χριστὲ Σῶτέρ μου,
+    Σῶτερ ἁμαρτανόντων, ὧν ἐγὼ πρῶτος,
+            Μή με παρίδῃς,
+            Μή με παρίδῃς, Κύριε.
+    Τὴν τιμὴν τοῦ αἵματός σου,
+        Τὴν ἐπωνυμίαν σὴν μὴ παρίδῃς,
+            Μή με παρίδῃς, Κύριε·
+    Ἀλλ' ἐπίβλεψον ἐπ' ἐμὲ ὀφθαλμοῖς
+        Σοῦ ἐκείνοις, οἷς ἐπέβλεψας
+            Τῇ Μαγδαληνῇ ἐν δοχῇ,
+            Τῷ Πέτρῳ ἐν αὐλῇ,
+            Τῷ Λῃστῇ ἐπὶ ξύλῳ.
+Ὥστε μετὰ τοῦ Λῃστοῦ παρακαλεῖν σε ταπεινῶς,
+    Μνήσθητί μου, Κύριε, ἐν τῇ βασιλείᾳ σου
+Μετὰ Πέτρου πικρῶς κλαίειν, καὶ λέγειν,
+    ὦ τίς δώσει πηγὴν δακρύων ὀφθαλμοῖς μου,
+    καὶ κλαύσομαι ἡμέρας καὶ νυκτός;
+    Μετὰ Μαγδαληνῆς ἀκοῦσαί σου λέγοντος,
+    Ἀφέωνταί σοι αἱ ἁμαρτίαι σου.
+        Καὶ μετ' αὐτῆς πολὺ ἀγαπᾶν,
+    Ὅτι πολλαί μοι, ὅτι πολλαπλάσιαι
+        ἀφέθησαν.
+
+<!-- printed 21 (PDF 39) — Latin -->
+
+Opus manuum tuarum ne despicias. *Ps.* cxxxviii. 8.
+    Imaginem tuam ne despicias, [*Gen.* i. 27.]
+        Etsi notas peccati gerentem.
+Domine, si vis, potes me mundare.
+Domine, dic tantum verbo, et mundabor. *Mat.* viii. 2, 8.
+
+    Et tu mi Salvator Christe,
+        Christe Salvator mi!
+    Salvator peccantium, quorum ego primus, 1. *Tim.* i. 15.
+            Ne me despicias,
+            Ne me despicias, Domine.
+    Pretium sanguinis tui,
+        Signaculum nominis tui ne despicias,
+            Ne me despicias, Domine,
+    Quin respice me oculis tuis,
+        Illis quibus respexisti
+            Magdalenam in convivio,
+            Petrum in aula,
+            Latronem in patibulo.
+Ut cum Latrone humiliter te invocem,
+    Memento mei, Domine, in regno tuo. *Luc.* xxiii. 42.
+Cum Petro defleam amare, et dicam, *Mat.* xxvi. 75.
+    O quis dabit oculis meis fontem lacrymarum,
+        Et plorabo die ac nocte! [*Jer.* ix. 1.]
+Cum Magdalena audiam te dicentem,
+    Dimissa tibi sunt peccata tua:
+        Et cum ipsa multum diligam;
+    Quia multa mihi, et multiplicia
+            dimissa sunt. *Luc.* vii. 47, 48.
