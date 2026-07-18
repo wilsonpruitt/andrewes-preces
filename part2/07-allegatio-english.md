@@ -1,6 +1,6 @@
 # Part II — Preces Quotidianæ — §7 *Allegatio* (The Pleading) — English
 
-Line-keyed English of `07-allegatio-transcript.md` (printed 291–298). Latin-only → translated from the Latin (§6); psalm-lines cribbed from Coverdale/BCP (§9). A six-part forensic plea — rendered as reasoned advocacy, keeping the *ex parte …* heads and the italic counts. Register thou-form AV/BCP (§8–10). Parity target 8/8.
+Line-keyed English of `07-allegatio-transcript.md` (printed 291–299 top). Latin-only → translated from the Latin (§6); psalm-lines cribbed from Coverdale/BCP (§9). A six-part forensic plea — rendered as reasoned advocacy, keeping the *ex parte …* heads and the italic counts. [VI.] runs over onto 299 (counts [4]–[6]); §8 begins lower on 299. Register thou-form AV/BCP (§8–10). Parity target 8/8 (+299 top).
 
 <!-- printed 291 (PDF 314) -->
 
@@ -279,6 +279,32 @@ But for this cause I obtained mercy, that in me first
     pattern to them which should hereafter believe on Him unto life
     everlasting.   [1 Tim. 1:16]
 
+<!-- printed 299 (PDF 322) — [VI.] continues; CONFESSIO LAUDIS (§8) begins lower on the page -->
+
+[4.] *God Himself.*
+
+I, even I, am He that blotteth out iniquities for Mine own sake.   [Isa. 43:25]
+Hear, attend, defer not,
+        for Thine own sake.   [Dan. 9:19]
+Even He whom God hath set forth to be a propitiation.   [Rom. 3:25]
+Look upon the face of Thine Anointed.   [Ps. 84:9]
+Turn not away the face of Thine Anointed.   [Ps. 132:10]
+
+[5.] *From kindred.*
+
+Have mercy on me, O Thou Son of David.   [Matt. 15:22]
+And David said unto Shimei, Thou shalt not die,
+        and sware unto him.   [2 Sam. 19:23]
+
+[6.] *From office.*
+
+The Spirit of the Lord is upon Me, because He hath anointed Me.   [Isa. 61:1]
+The Lord hath sent Me to preach good tidings unto the meek,
+    to heal the broken-hearted.   [Luke 4:18]
+I came to call sinners.   [Matt. 9:13]
+God sent His Son, that the world through Him
+    might be saved.   [John 3:17]
+
 ## Translator's flags
 
 - **Parity 8/8.** Rendered as **advocacy, not litany** — the six *ex parte* heads read "On God's part / On our part / On the part of the evil (or good) that would follow," and the italic sub-heads are the counts of the plea. The scripture-tags are the *evidence* adduced; kept each as its AV/BCP verse so the argument stands on the reader's remembered Scripture.
@@ -286,6 +312,7 @@ But for this cause I obtained mercy, that in me first
 - **The right-hand one-word directives** (II): *Ne deleas* (Blot not out — the image), *Ne vilipendas* (Set not at nought — the blood-price), *Passive* (the Name is *called over* us — we bear it passively, not by our doing; rendered "(Passively borne)"), *Ne præscindas* (Cut not off — the member of Christ's body). These are Andrewes' terse plea attached to each ground; kept as printed.
 - **`Characterem ne contemnas`** (294): *character* = the stamped seal/mark (the baptismal *character indelebilis* — the Name pressed on us); "despise not the mark [Thou hast set]." Bracketed supply added for sense.
 - **The great "no-profit-in-death" argument** (V.1, printed 296–297): a chain of Ps 6 / 30 / 88 / 115 + Isa 38 (Hezekiah) — the plea that God gains nothing by the sinner's death, since "the dead praise not thee." Kept the BCP rhetorical questions intact ("Shall the dust give thanks unto Thee?… The living, the living, he shall praise Thee").
+- **[VI.] runs over onto 299** with three more counts: **[4] *God Himself*** (God's self-moved mercy — Isa 43:25 "for mine own sake," Dan 9:19 "for thine own sake," Ps 84:9 / 132:10 "the face of thine Anointed"; kept the AV "I, even I, am he that blotteth out"), **[5] *From kindred*** (the Canaanite woman's "Son of David," Matt 15:22; David's oath sparing Shimei, 2 Sam 19:23), **[6] *From office*** (Christ's Nazareth-manifesto, Isa 61:1 / Luke 4:18 "sent me to heal the brokenhearted"; Matt 9:13; John 3:17). In [4]–[6] the pleading voice shifts to **Christ's own words** — the advocate now speaks in the Redeemer's person; kept the AV wording of those dominical texts.
 - **The enemy's-taunt argument** (V.3 / 298): the heathen's "Where is now their God?" (Joel 2:17, Ps 79/115) + the Egyptians'/Canaanites' reproach (Exod 32:12, Num 14:16) — Moses' own intercessory plea, that God spare for His Name's honour. Kept the AV "For mischief did he bring them out."
 - Psalm cribs (§9), BCP verbatim where it meets the Vulgate: Ps 103:8–14 (the whole *Nature-of-God* count), 25:5 ("tender mercies… ever of old"), 89:47/48, 78:39, 79:8 ("brought very low"), 51:17 ("a broken and a contrite heart… shalt not despise"), 38:18 ("sorry for my sin"), 86:3, 119:20/48/49/60/94, 30:9 ("shall the dust give thanks"), 6:5, 88:10–12, 130:3 ("extreme to mark iniquities… who may abide it"), 143:2 ("no man living be justified"), 74:18/23, 79:9/13, 51:13. Kept BCP wording throughout.
 - `Ecclus. 2:11` (293): the 1853 prints `Syr.` glossed `[i. e. Ecclus.]` — Sirach 2:10–11 ("look at the generations of old: did ever any trust in the Lord, and was confounded?"). Rendered the AV-Apocrypha cadence.

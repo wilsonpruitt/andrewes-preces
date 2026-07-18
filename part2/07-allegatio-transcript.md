@@ -1,6 +1,6 @@
 # Part II — Preces Quotidianæ — §7 *Allegatio* (the Pleading) — raw transcript
 
-Source: 1853 Parker ed., printed pp. 291–298 (PDF 314–321), images `raw/end/p-NNN.jpg`. Offset **+23**. **LATIN-ONLY.** A single great **six-part forensic "pleading"** (*allegatio* = a legal plea / adducing of grounds): the soul argues its case for mercy before God from six heads — **[I.] Ex parte Dei**, **[II.] Ex parte nostra, relative ad Deum**, **[III.] Ex parte nostra, quoad nos**, **[IV.] Ex parte nostra, quoad officium**, **[V.] Ex parte consequentis mali**, **[VI.] Ex parte consequentis boni** — each subdivided into numbered `[n.] *Topic*` headings, each a chain of scripture-tags. The heading "ALLEGATIO." reprints at the top of 291/293/295 where a new major part opens a page (kept as printed). §8 (Confessio Laudis) opens printed 299. Translate the Latin (§6).
+Source: 1853 Parker ed., printed pp. 291–299(top) (PDF 314–322), images `raw/end/p-NNN.jpg`. Offset **+23**. **LATIN-ONLY.** A single great **six-part forensic "pleading"** (*allegatio* = a legal plea / adducing of grounds): the soul argues its case for mercy before God from six heads — **[I.] Ex parte Dei**, **[II.] Ex parte nostra, relative ad Deum**, **[III.] Ex parte nostra, quoad nos**, **[IV.] Ex parte nostra, quoad officium**, **[V.] Ex parte consequentis mali**, **[VI.] Ex parte consequentis boni** — each subdivided into numbered `[n.] *Topic*` headings, each a chain of scripture-tags. The heading "ALLEGATIO." reprints at the top of 291/293/295 where a new major part opens a page (kept as printed). **[VI.] runs over onto printed 299** — counts [4] Ipse Deus, [5] Ex genere, [6] Ex officio are on 299(top); §8 (Confessio Laudis) opens LOWER on printed 299. Translate the Latin (§6).
 Discipline: verbatim incl. accentuation/punctuation; `[?]`=unreadable; 4-space indent per printed level; refs inline, book abbrev. italicized, `[ ]`=editor's supplied; braces per §2–4. Roman-numeral part-heads and italic sub-heads kept as printed, with their right-hand caps directives (Ne deleas / Ne vilipendas / Passive / Ne præscindas).
 
 <!-- printed 291 (PDF 314) — Latin — title ALLEGATIO -->
@@ -280,6 +280,32 @@ Sed ideo misericordiam consecutus sum, ut in me primo
     formationem eorum qui credituri sunt Illi in vitam
     æternam.   1 *Tim.* i. 16.
 
+<!-- printed 299 (PDF 322) — Latin — [VI.] continues, then CONFESSIO LAUDIS begins lower (that = §8) -->
+
+[4.] *Ipse Deus.*
+
+Deleo iniquitates propter Me.   *Is.* xliii. 25.
+Exaudi, attende, ne moreris
+        propter Temetipsum.   *Dan.* ix. 19.
+Ipse quem proposuit Deus propitiationem.   *Rom.* iii. 25.
+Respice in faciem Christi Tui.   *Psal.* lxxxiv. 9.
+Non avertas faciem Christi Tui.   *Psal.* cxxxii. 10.
+
+[5.] *Ex genere.*
+
+Miserere mei, Fili David.   *Matt.* xv. 22.
+Et dixit David Shemei, Non morieris,
+        juravitque ei.   [2 *Sam.* xix. 23.]
+
+[6.] *Ex officio.*
+
+Spiritus Dei super Me, eo quod unxerit.   *Is.* lxi. 1.
+Dominus ad annunciandum mansuetis
+    misit Me, ut mederer contritis corde.   *Luc.* iv. 18.
+Veni vocare peccatores.   *Matt.* ix. 13.
+Misit Deus Filium, ut salvetur mundus
+    per Ipsum.   *Jo.* iii. 17.
+
 ## Translator's flags
 
 - **Section = printed 291–298.** The *Allegatio* is Andrewes' **forensic masterpiece**: a soul pleading for mercy adduces, like a barrister, six classes of "grounds" (*ex parte …*, "on the part of / on the side of"). Keep the legal register: *allegatio* = "the pleading / the plea"; *ex parte Dei* = "on God's part / on the side of God"; the italic sub-heads are the *counts* of the plea. The whole is an argument, not a litany — the English must read as reasoned advocacy ("Because … / For … / Is it not …?").
@@ -287,7 +313,7 @@ Sed ideo misericordiam consecutus sum, ut in me primo
 - **The `Cui { misereri… / punire… }` brace (291):** Isa 28:21 — to shew mercy is God's *own/proper* work (*opus proprium*), to punish His *strange and alien* work (*opus alienum et peregrinum*, "his strange work… his strange act"). A cornerstone of Andrewes' (and Luther's) theology of mercy; keep "proper work / strange work."
 - **[II.] Ex parte nostra, relative ad Deum** (our side, in relation to God): we are His *handiwork* (*Ne deleas*, "Destroy not"), His *image* (*Ne deleas*), *bought with blood* (*Ne vilipendas*, "Set not at nought"), bearing His *invoked Name* (marked *Passive* — the Name has been *called over* us, Jer 14:9; we passively bear the character), *members of Christ's Body* (*Ne præscindas*, "Cut not off"), *His own property in Christ* (servant though unprofitable, son though lost). The right-hand caps directives (*Ne deleas / vilipendas / præscindas*) are Andrewes' one-word plea attached to each ground — kept inline as printed.
 - **[III.] quoad nos** (as concerns ourselves): the *weakness of nature* (Ps 103/78 — dust, grass, a wind that passeth) and the *misery of our condition*. **[IV.] quoad officium** (as concerns our duty): we are *penitent*, *suppliant*, *forgiving others* (so the Lord's-Prayer condition is met, Matt 6/Mark 11), and *purposing amendment henceforth*.
-- **[V.] Ex parte consequentis mali** (from the evil that would follow [if God does not spare]): *no profit* to God in our death (the great Hezekiah/Ps 6/30/88/115 argument — "the dead praise not thee… shall the dust give thanks unto thee?"); *in vain* (hast Thou made all men for nought?); the *enemy's triumph* (the heathen's "Where is now their God?", the Egyptians'/Canaanites' taunt). **[VI.] Ex parte consequentis boni** (from the good that would follow [if God spares]): the *glory of His Name*, the *conversion of others* (Ps 51:13), and Paul as the *pattern/exemplum* of mercy shown to the chief of sinners (1 Tim 1:16).
+- **[V.] Ex parte consequentis mali** (from the evil that would follow [if God does not spare]): *no profit* to God in our death (the great Hezekiah/Ps 6/30/88/115 argument — "the dead praise not thee… shall the dust give thanks unto thee?"); *in vain* (hast Thou made all men for nought?); the *enemy's triumph* (the heathen's "Where is now their God?", the Egyptians'/Canaanites' taunt). **[VI.] Ex parte consequentis boni** (from the good that would follow [if God spares]) — **six counts, running over onto 299**: the *glory of His Name*, the *conversion of others* (Ps 51:13), Paul as the *pattern/exemplum* of mercy shown to the chief of sinners (1 Tim 1:16), then **[4] *Ipse Deus*** (God's own self-moved mercy — "I blot out iniquities for Mine own sake," Isa 43:25; "hear… for Thine own sake," Dan 9:19; "look upon the face of Thine Anointed," Ps 84:9 — Christ pleaded as the ground), **[5] *Ex genere*** (from kinship — "Have mercy on me, Thou Son of David," Matt 15:22; David's oath sparing Shimei), **[6] *Ex officio*** (from Christ's office/commission — "The Spirit of the Lord is upon Me… He hath sent Me to heal the broken-hearted," Isa 61:1 / Luke 4:18; "I came to call sinners," Matt 9:13; "God sent His Son that the world through Him might be saved," John 3:17). Counts [4]–[6] shift the voice: several lines are **Christ's own words** adduced as the plea's clinching evidence.
 - **`Characterem ne contemnas` (294):** *character* = the stamped mark/seal (baptismal character — the Name invoked/stamped on us); "despise not the mark/character [Thou hast set on us]." Kept "the mark" with a note.
 - Psalm cribs (§9), BCP where it agrees with the Vulgate: Ps 103:8–14 ("The Lord is full of compassion and mercy… he hath not dealt with us after our sins… like as a father pitieth… he knoweth whereof we are made; he remembereth that we are but dust"), Ps 130:3 ("If thou, Lord, wilt be extreme to mark what is done amiss, O Lord, who may abide it?"), Ps 143:2 ("in thy sight shall no man living be justified"), Ps 6:5 ("in death no man remembereth thee: and who will give thee thanks in the pit?"), Ps 88:10 ("Shall the dead rise up again, and praise thee?"), Ps 116:16 ("thy servant, and the son of thine handmaid"), Ps 79:9 ("for the glory of thy Name… deliver us"), Ps 51:13 ("then shall I teach thy ways unto the wicked"). Kept BCP wording.
 - `Syr. [i. e. Ecclus.]` (293) = the editor's gloss: *Syr.* (Syriac?) → Ecclesiasticus/Sirach 2:11 ("Look at the generations of old… did any hope in the Lord, and was confounded?"). Kept the gloss as printed.
