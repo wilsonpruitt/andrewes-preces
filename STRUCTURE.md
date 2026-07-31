@@ -90,8 +90,8 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | Communion devotion + intercession + **Doxologia + Pater noster** | 340–350 | La |
 | **Oratio Dominica Variata** (Lord's-Prayer paraphrases I–VI) | 351–354 | La |
 | Occasional prayers — Ad Templi ingressum, **Actus Adorationis**, **Oratio peregre profecturi**, Septem Opera Misericordiæ, Greek Pater noster | 355–360 | La+Gk |
-| **Articulorum Fidei** + **Interpellatio / Præfatio ad Eucharistiam** + Actus Spei — the Greek anamnesis (*per quæ fecisti…*) + biblical-deliverance litany | 361–366 | **Gk+La parallel** |
-| **Πίστει** (Greek Creed-by-witnesses) + **Greek Doxologia** + Sanctus (Apoc 4–5,19) | 367–369 | **Greek** |
+| **Articulorum Fidei** + **Interpellatio Eucharistica** (§32) + **Sicut patres** deliverance-litany (§33) | 361–365 upper | **Gk+La** |
+| **PRÆPARATIO AD Εὐλογίαν** (§34) — ONE heading over four movements: *Gratiarum Actio* · *Actus Spei* · **Πιστεύω** (creed-by-witnesses) · **DOXOLOGIA** (Apoc 4–5, 7, 11, 19), closing Rev 19:9 | 365 foot–369 | **La to mid-367, then Greek** |
 | Penitential/tears (Latin Meditation matter) + Oratiuncula post Confessionem + **Oratio Præparatoria** + **Ante Concionem** | 370–380 | La |
 | **Meditationum ἀφορμαί ante Εὐχαριστίαν** (Cicero/Pythagoras/Nyssa; Hebrew Ps 65:1) + **Scrutinium et Inquisitio** (self-exam) | 381–387 | Gk+La+**Heb** |
 | **Hymnus Matutinus** — ΥΜΝΟΣ ΕΩΘΙΝΟΣ / Gloria in Excelsis | 388/389 | **Gk verso / La recto** |
@@ -108,7 +108,8 @@ New in 1853 (from MS Harley 6616). Opens with **Confessio Fidei** (the Creed exp
 - **Notæ Marginales ex eodem MS** — **PDF 492+** — the liturgies each prayer derives from (Chrysostom, Basil, St James). PDF 496 = library cover (book ends).
 
 ### Corrections to earlier (pre-recon) notes
-- The "**Præfatio pp. 372–387 from Stokes' *Verus Christianus***" claim is **wrong** — printed 372–377 are the *Oratio Dominica Variata*; the *Præfatio ad Eucharistiam* is at **printed 365**. (An "ex [source]… ad Mon." citation does appear at printed 380, *Ante Concionem* — possibly the real Stokes-derived borrowing.)
+- The heading at printed 365 is **PRÆPARATIO AD Εὐλογίαν**, not "Præfatio ad Eucharistiam" — and its first two movements (*Gratiarum Actio*, *Actus Spei*) are **Latin, not Gk+La parallel**; the Greek does not resume until Πιστεύω mid-367. The recon pass also split this heading across two map rows (361–366 / 367–369); it is **one section, 365 foot–369** (§34), verified by reading to the hard boundary at printed 370.
+- The "**Præfatio pp. 372–387 from Stokes' *Verus Christianus***" claim is **wrong** — printed 372–377 are the *Oratio Dominica Variata*; the eucharistic preparation is at **printed 365**. (An "ex [source]… ad Mon." citation does appear at printed 380, *Ante Concionem* — possibly the real Stokes-derived borrowing.)
 - The "+37 at 393" old anchor is right, but the drift is **not gradual** — see the anchor table.
 
 ## Day 1 (pilot target)
