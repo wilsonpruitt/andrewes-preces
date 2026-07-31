@@ -109,7 +109,7 @@ New in 1853 (from MS Harley 6616). Opens with **Confessio Fidei** (the Creed exp
 
 ### Corrections to earlier (pre-recon) notes
 - The heading at printed 365 is **PRÆPARATIO AD Εὐλογίαν**, not "Præfatio ad Eucharistiam" — and its first two movements (*Gratiarum Actio*, *Actus Spei*) are **Latin, not Gk+La parallel**; the Greek does not resume until Πιστεύω mid-367. The recon pass also split this heading across two map rows (361–366 / 367–369); it is **one section, 365 foot–369** (§34), verified by reading to the hard boundary at printed 370.
-- The "**Præfatio pp. 372–387 from Stokes' *Verus Christianus***" claim is **wrong** — printed 372–377 are the *Oratio Dominica Variata*; the eucharistic preparation is at **printed 365**. (An "ex [source]… ad Mon." citation does appear at printed 380, *Ante Concionem* — possibly the real Stokes-derived borrowing.)
+- The "**Præfatio pp. 372–387 from Stokes' *Verus Christianus***" claim is **wrong** — printed 372–377 are the *Oratio Dominica Variata*; the eucharistic preparation is at **printed 365**. **RESOLVED 2026-07-31**: the citation at printed 380 reads ***Ante Concionem Cautela cum Precatione ex Fulgentii l. i. ad Mon.*** — **Fulgentius of Ruspe, *Ad Monimum* Bk I**, not Stokes. It is the **second attributed borrowing** in Part II (after Bradwardine at 370) and is likewise **continuous prose**.
 - The "+37 at 393" old anchor is right, but the drift is **not gradual** — see the anchor table.
 
 ## Day 1 (pilot target)
