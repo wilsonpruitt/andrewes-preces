@@ -63,6 +63,8 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | 382 | 413 | **+31** | ⚠ **the spread 380/381 is scanned THREE times** (PDF 407/408, 409/410, 411/412); the jump is +4 in one leaf |
 | 383 | 414 | +31 | confirmed by eye (the Hebrew leaf) |
 | 385 | 416 | +31 | signature `AND. PRECES. — 3 D` confirms +31 independently of the running head |
+| 386 | 421 | **+35** | ⚠ **384/385 scanned 3×** (PDF 415/416, 417/418, 419/420) — second +4 jump in two sections |
+| 387 | 422 | +35 | last leaf of the penitential matter; **386/387 scanned 2×** (PDF 421/422, 423/424) |
 | 388 | 425 | **+37** | **384–387 scanned 2–4× each** (PDF 415–424) — the offset balloons here |
 | 393 | 430 | +37 | poems (matches the old anchor) |
 | 400 | 441 | +41 | Part III, after PARS TERTIA title leaves |
@@ -97,7 +99,7 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | **PRÆPARATIO AD Εὐλογίαν** (§34) — ONE heading over four movements: *Gratiarum Actio* · *Actus Spei* · **Πιστεύω** (creed-by-witnesses) · **DOXOLOGIA** (Apoc 4–5, 7, 11, 19), closing Rev 19:9 | 365 foot–369 | **La to mid-367, then Greek** |
 | Penitential/tears (Latin Meditation matter) + Oratiuncula post Confessionem + **Oratio Præparatoria** + **Ante Concionem** | 370–380 | La |
 | **§40 Ἀφορμαὶ Meditationum — THREE catenæ**, not one: *ante Preces Pœnitentiales* (381mid–382) · *ante Intercessionum* (382mid–383) · *ante Εὐχαριστίαν ἢ Εὐλογίαν* (383mid–384top, carrying the **Hebrew Ps lxv. 2** לך דומיה תהלה as main text) | 381mid–384top | La+Gk+**Heb** |
-| **§41** *Oratio præparatoria ante* Εὐλογίαν (384mid) + **Monita et Meditationes præparatoriæ in Vespertina ad Deum elevatione mentis** → *Scrutinium et Inquisitio, vel Examen* (Aug./Cicero/Seneca/Jer. xvii. 9; the heavy nested *Quid hodie* brace) | 384mid–387? | La+Gk |
+| **§41** *Oratio præparatoria ante* Εὐλογίαν (384mid) + **Monita et Meditationes præparatoriæ in Vespertina ad Deum elevatione mentis** → *Scrutinium et Inquisitio, vel Examen* — the evening self-examination as a SCHEMA (Aug./**Cicero**/**Seneca**/**Ausonius ex Pythagora**/**Gr. Nyss.**/**Rab. J.**; the 4-level *Quid hodie* brace; ⚠ **garbled Hebrew at 386**). Closes on the 1853 editor's note announcing the hymns (Ussher, *Lib. de Symbolis*; Codex Alexandrinus) | 384mid–387 | La+Gk+**Heb** |
 | **Hymnus Matutinus** — ΥΜΝΟΣ ΕΩΘΙΝΟΣ / Gloria in Excelsis | 388/389 | **Gk verso / La recto** |
 | **Hymnus Vespertinus** — ΥΜΝΟΣ ΕΣΠΕΡΙΝΟΣ / *Phos Hilaron* (*Lumen hilare*) | 390/391 | **Gk verso / La recto** |
 | **In Christum Crucifixum, Monostrophica** (crucifixion poems) | 392/393–~397 | **Gk verso / La recto** |
