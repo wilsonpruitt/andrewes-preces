@@ -81,9 +81,19 @@ The apparatus preface says the Greek-only apograph lacks the Latin, *quam Editor
 - **Which Editor?** The 1853 Parker text reprints the 1675 Sheldonian. *Editor* in that sentence most likely means the **1675** editor, not Parker's 1853 editor — but the sentence does not say so, and this file is not going to pretend it does.
 - **`videtur`** — "seems." The 1853 is hedging, exactly as it hedged with *forsitan* in the §42 footnote (which we kept for that reason).
 - **The scope is *usque ad pag. 250*** — printed 1–250 only. Part I runs to 263, so even on the strongest reading this does not touch printed 251–263, and it says nothing about Parts II and III, whose Latin is the primary text anyway.
-- Against it: several places in Part I where the Latin **preserves a construal the Greek alone would not settle**, and §42's finding that on the Gloria the two columns are **two recensions**, not text-and-translation — an editor making a crib would not produce that.
+- ⚠ **§42 is NOT evidence here, and an earlier draft of this brief wrongly said it was.** The two-recensions finding (the asterisk alignment rows on the Gloria) is at printed **388–391**, well outside the *usque ad pag. 250* scope. It tells us nothing about the Latin under discussion. Do not re-import it as a counter-argument.
+- **On "which Editor": the sentence leans toward 1675.** It contrasts *pag. 250 **nostræ editionis*** with ***Editor ipse***. The 1853 says *nostra editio* when it means itself, so the unqualified contrasted *Editor* most naturally means the editor of the book being reprinted — the 1675 Sheldonian. Not proof, but the better reading, and it matters: a 1675 Oxford Latinist shared Andrewes' Vulgate, liturgical vocabulary and Latinity, and his version is the Latin every reader knew from 1675 to Brightman.
 
-**What the session should do:** transcribe the preface exactly, record the question in a dedicated note (`apparatus/THE-LATIN-QUESTION.md`), assemble whatever evidence classes A and B provide, and **stop there**. Do not revise CONVENTIONS §6, do not re-word any existing English, do not touch the Prototype B decision. **It is Wilson's call and it is an introduction-level question, not a translation-level one.** It also belongs on the pre-print verification list beside §39's Fulgentius attribution and the Hebrew at printed 386.
+### ⚠ THE DECISIVE TEST — run it, it is nearly free
+**Class A gives apograph-versus-printed Greek divergences for exactly this stretch (pp. 1–250). For each one, check which reading the facing LATIN supports.**
+- If the Latin **consistently follows the printed Greek against the apograph** → it was made from the edited Greek, is downstream, and the question is **settled**: editor's Latin.
+- If the Latin **ever supports the apograph against the printed Greek** → it has a source independent of the printed Greek, and the preface's *videtur* is too modest.
+
+This costs almost nothing on top of the class-A ledger you are building anyway, and it can **close** the question rather than leaving it hedged forever. Record the result in `apparatus/THE-LATIN-QUESTION.md` as a table of test cases, not as a verdict paragraph.
+
+**What the session should do:** transcribe the preface exactly, record the question in `apparatus/THE-LATIN-QUESTION.md`, **run the class-A test above**, and **stop there**. Do not revise CONVENTIONS §6, do not re-word any existing English, do not touch the Prototype B decision. **It is Wilson's call and it is an introduction-level question, not a translation-level one.**
+
+**And note how little actually moves even on the strongest reading.** CONVENTIONS §6 already makes the Greek primary and the Latin *the first witness to construal* — a role a 1675 Latinist fills excellently, and one that never claimed independent textual authority. Prototype B reproduces **the 1675 book**, which is what it always claimed to do. The project's own framing already reads "Greek original, **historic Latin parallel**, fresh English translation," which is accurate under either answer. **The only thing that genuinely changes is the introduction** — and there it is an asset: an edition precise about its witnesses reads as more serious, not less. It also belongs on the pre-print verification list beside §39's Fulgentius attribution and the Hebrew at printed 386.
 
 ---
 
