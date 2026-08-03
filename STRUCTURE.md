@@ -59,7 +59,10 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | 367 | 390 | +23 | last leaf at +23 |
 | 368 | 393 | +25 | after 366–367 dup (PDF 389–392; 368 also dup at 395) |
 | 375 | 402 | +27 | more dups ~370–374 |
-| 383 | 414 | +31 | dups ~381–382 |
+| 381 | 408 | +27 | **last leaf at +27** — 370–381 ran with NO duplicates at all |
+| 382 | 413 | **+31** | ⚠ **the spread 380/381 is scanned THREE times** (PDF 407/408, 409/410, 411/412); the jump is +4 in one leaf |
+| 383 | 414 | +31 | confirmed by eye (the Hebrew leaf) |
+| 385 | 416 | +31 | signature `AND. PRECES. — 3 D` confirms +31 independently of the running head |
 | 388 | 425 | **+37** | **384–387 scanned 2–4× each** (PDF 415–424) — the offset balloons here |
 | 393 | 430 | +37 | poems (matches the old anchor) |
 | 400 | 441 | +41 | Part III, after PARS TERTIA title leaves |
@@ -93,7 +96,8 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | **Articulorum Fidei** + **Interpellatio Eucharistica** (§32) + **Sicut patres** deliverance-litany (§33) | 361–365 upper | **Gk+La** |
 | **PRÆPARATIO AD Εὐλογίαν** (§34) — ONE heading over four movements: *Gratiarum Actio* · *Actus Spei* · **Πιστεύω** (creed-by-witnesses) · **DOXOLOGIA** (Apoc 4–5, 7, 11, 19), closing Rev 19:9 | 365 foot–369 | **La to mid-367, then Greek** |
 | Penitential/tears (Latin Meditation matter) + Oratiuncula post Confessionem + **Oratio Præparatoria** + **Ante Concionem** | 370–380 | La |
-| **Meditationum ἀφορμαί ante Εὐχαριστίαν** (Cicero/Pythagoras/Nyssa; Hebrew Ps 65:1) + **Scrutinium et Inquisitio** (self-exam) | 381–387 | Gk+La+**Heb** |
+| **§40 Ἀφορμαὶ Meditationum — THREE catenæ**, not one: *ante Preces Pœnitentiales* (381mid–382) · *ante Intercessionum* (382mid–383) · *ante Εὐχαριστίαν ἢ Εὐλογίαν* (383mid–384top, carrying the **Hebrew Ps lxv. 2** לך דומיה תהלה as main text) | 381mid–384top | La+Gk+**Heb** |
+| **§41** *Oratio præparatoria ante* Εὐλογίαν (384mid) + **Monita et Meditationes præparatoriæ in Vespertina ad Deum elevatione mentis** → *Scrutinium et Inquisitio, vel Examen* (Aug./Cicero/Seneca/Jer. xvii. 9; the heavy nested *Quid hodie* brace) | 384mid–387? | La+Gk |
 | **Hymnus Matutinus** — ΥΜΝΟΣ ΕΩΘΙΝΟΣ / Gloria in Excelsis | 388/389 | **Gk verso / La recto** |
 | **Hymnus Vespertinus** — ΥΜΝΟΣ ΕΣΠΕΡΙΝΟΣ / *Phos Hilaron* (*Lumen hilare*) | 390/391 | **Gk verso / La recto** |
 | **In Christum Crucifixum, Monostrophica** (crucifixion poems) | 392/393–~397 | **Gk verso / La recto** |
