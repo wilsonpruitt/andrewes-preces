@@ -70,8 +70,14 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | 392–395 | 429–432 | +37 | the poems; **392/393 scanned ONCE, 394/395 scanned THREE times** (PDF 433/434, 435/436) |
 | — | 437 | — | blank leaf |
 | — | 438 | — | **PARS TERTIA divisional title** — Part II's primary text ends at printed 395 |
-| 400 | 441 | +41 | Part III, after PARS TERTIA title leaves |
-| 419 | 462 | +43 | Part III |
+| 398–399 | 439–440 | **+41** | ✅ Part III opens — two **unnumbered** leaves (the Theophylact epigraph; the CONFESSIO FIDEI opener) |
+| 400–405 | 441–446 | +41 | ✅ every leaf read off its own plate; no duplicates; `3 F` at 401 |
+| 406–412 | 447–453 | +41 | ✅ holds; `3 G` at 409 |
+| 412 | 455 | — | ⚠ **the spread 412/413 is scanned TWICE** (PDF 453/454, then 455/456) |
+| 413 | 454 | +41 | ⚠ **this scan is CUT OFF at the right margin** (page number gone, ~6 lines truncated mid-word) — **do not transcribe from it** |
+| 413 | **456** | **+43** | ✅ the duplicate is **complete**; the truncation is a scan artifact, not a plate defect. Transcribe 413 from PDF 456. |
+| 414–417 | 457–460 | +43 | ✅ holds; `3 H` at 417 |
+| 419 | 462 | +43 | Part III (Phase 0 anchor — the +43 break actually arrives at **413**, six pages earlier) |
 | 429 | 472 | +43 | last primary-text leaf seen |
 
 ⚠ **The offset is rock-stable at +23 for the entire main body (267–367), then climbs erratically (+25→+27→+31→+37→+43) through a duplicate-riddled tail (368–429).** Verify EVERY leaf by eye from printed 368 on.
@@ -109,7 +115,14 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 
 ### PARS TERTIA (PDF 438 = divisional title; offset +41→+43)
 
-New in 1853 (from MS Harley 6616). Opens with **Confessio Fidei** (the Creed expanded — Theophylact on prayer, *Credo… in Deum, Patrem, Omnipotentem…* through the articles), then intercession recaps (*Pro bonis / Pro liberatione / Pro…*). **Latin.** Primary text runs printed ~399–~430 (PDF 438–~481). — *Correction: Part III is NOT the "Harley poems"; the crucifixion poems are the END OF PART II. Part III is the Creed/penitential prose.*
+New in 1853 (from MS Harley 6616). **Latin throughout.** Primary text runs printed ~398–~430 (PDF 439–~481). — *Correction: Part III is NOT the "Harley poems"; the crucifixion poems are the END OF PART II. Part III is the Creed/penitential prose.*
+
+| section (incipit) | printed | layer | state |
+|---|---|---|---|
+| Theophylact epigraph (*Orationis fundamentum et basis est fides*) + **§1 CONFESSIO FIDEI** — the Creed expanded: three notes on the Father, **twelve numbered articles of the Son**, the Spirit's operations, the Church; then the same creed turned into affection and duty (*Credo, Domine; supple defectus fidei meæ*), closing *Domine, adauge mihi fidem … Amen.* ⚠ **A second recension of §23** (and of §38's close), **plural where §23 is singular** | 398–405 | La | ✅ **done, both layers, parity 8/8** |
+| **§2 CONFESSIO PECCATORUM** — *Confiteor Tibi, Domine*, the catalogue of sin head to foot (406); the **Peccavi / Peccata** refrain over *numero multa* (407) · *qualitate pessima* (408) · the *Justus es Tu* turn carrying **`Provoco … a Te ad Te`** (408 foot–410, the figure of §22's double brace at 337); then **numbered pleas 1.–9.** (410 foot–416). ⚠ **A left-margin REFERENCE COLUMN begins at 408** — new to the volume, and at the foot of 410 it is **offset by one line** from its text | 406–416 upper | La | **read + eye-verified, not transcribed** |
+| **MISERICORDIA EJUS · MISERICORDIA DEI · PATER MISERICORDIARUM** — small-caps sub-headings over reference-column catenæ (August., Chrysos. among the authorities), then a fresh numbered series at *1. Qualis vero in specie* | 416 foot–417+ | La | read to 417; **unread past 417** |
+| intercession recaps (*Pro bonis / Pro liberatione / Pro…*) per the pre-recon map | ~418–430 | La | unread |
 
 ### Apparatus — NOT primary translatable text (separate final pass)
 
