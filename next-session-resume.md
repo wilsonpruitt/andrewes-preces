@@ -1,5 +1,7 @@
 # Next session — resume note
 
+> **▶ IF YOU ARE THE SESSION WILSON SET UP BEFORE TRAVELLING: read [`BRIEF-finish-primary-and-apparatus.md`](BRIEF-finish-primary-and-apparatus.md) FIRST.** It scopes the two deliverables (finish printed 431–436, then the *Variae Lectiones* apparatus pass) and carries **⚠ the Latin question** — the apparatus preface says the Greek-only apograph lacks the Latin *quam Editor ipse confecisse videtur*, which bears on the whole Prototype B mirror. **Surface it, do not act on it.**
+
 ## ▶ CURRENT FRONT — PART III, §2 (*Confessio Peccatorum*), printed 406 onward
 
 **PART III IS OPEN. §§1–4 are done, both layers.** Parts I and II were already complete. Primary text now stands at **printed 1–263 · 267–395 · 398–430** — everything but **printed 431–436**, then the *Variae Lectiones* apparatus pass. ⚠ **The volume ends at printed 436, NOT ~430 as the map said** — see the correction below.
