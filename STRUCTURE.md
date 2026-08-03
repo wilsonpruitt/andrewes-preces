@@ -76,7 +76,7 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | 412 | 455 | — | ⚠ **the spread 412/413 is scanned TWICE** (PDF 453/454, then 455/456) |
 | 413 | 454 | +41 | ⚠ **this scan is CUT OFF at the right margin** (page number gone, ~6 lines truncated mid-word) — **do not transcribe from it** |
 | 413 | **456** | **+43** | ✅ the duplicate is **complete**; the truncation is a scan artifact, not a plate defect. Transcribe 413 from PDF 456. |
-| 414–417 | 457–460 | +43 | ✅ holds; `3 H` at 417 |
+| 414–419 | 457–462 | +43 | ✅ holds; `3 H` at 417; printed 419 = PDF 462 confirms the Phase 0 anchor exactly |
 | 419 | 462 | +43 | Part III (Phase 0 anchor — the +43 break actually arrives at **413**, six pages earlier) |
 | 429 | 472 | +43 | last primary-text leaf seen |
 
@@ -120,8 +120,8 @@ New in 1853 (from MS Harley 6616). **Latin throughout.** Primary text runs print
 | section (incipit) | printed | layer | state |
 |---|---|---|---|
 | Theophylact epigraph (*Orationis fundamentum et basis est fides*) + **§1 CONFESSIO FIDEI** — the Creed expanded: three notes on the Father, **twelve numbered articles of the Son**, the Spirit's operations, the Church; then the same creed turned into affection and duty (*Credo, Domine; supple defectus fidei meæ*), closing *Domine, adauge mihi fidem … Amen.* ⚠ **A second recension of §23** (and of §38's close), **plural where §23 is singular** | 398–405 | La | ✅ **done, both layers, parity 8/8** |
-| **§2 CONFESSIO PECCATORUM** — *Confiteor Tibi, Domine*, the catalogue of sin head to foot (406); the **Peccavi / Peccata** refrain over *numero multa* (407) · *qualitate pessima* (408) · the *Justus es Tu* turn carrying **`Provoco … a Te ad Te`** (408 foot–410, the figure of §22's double brace at 337); then **numbered pleas 1.–9.** (410 foot–416). ⚠ **A left-margin REFERENCE COLUMN begins at 408** — new to the volume, and at the foot of 410 it is **offset by one line** from its text | 406–416 upper | La | **read + eye-verified, not transcribed** |
-| **MISERICORDIA EJUS · MISERICORDIA DEI · PATER MISERICORDIARUM** — small-caps sub-headings over reference-column catenæ (August., Chrysos. among the authorities), then a fresh numbered series at *1. Qualis vero in specie* | 416 foot–417+ | La | read to 417; **unread past 417** |
+| **§2 CONFESSIO PECCATORUM** — *Confiteor Tibi, Domine*, the catalogue of sin head to foot (406); the **Peccavi / Peccata** refrain over *numero multa* (407) · *qualitate pessima* (408) · the *Justus es Tu* turn carrying **`Provoco … a Te ad Te`** (408 foot–410, the figure of §22's double brace at 337); then **numbered pleas 1.–9.** (410 foot–416). ⚠ **A second recension of §17.** ⚠ **A left-margin REFERENCE COLUMN begins at the foot of 407** — new to the volume, and at the foot of 410 it is **offset by one line** from its text | 406–416 upper | La | ✅ **done, both layers, parity 11/11** |
+| **§3 — the MISERICORDIA schema** (boundary is **ours**, recorded, reversible): small-caps **MISERICORDIA EJUS · MISERICORDIA DEI · PATER MISERICORDIARUM** over reference-column catenæ (**August.**, **Chrysos.** among the authorities), then a numbered series on the kinds of mercy — *1. Qualis vero in specie · 2. Lenis in ipsa castigatione · 3. Placabilitas · 4. Compassio*. **A schema, not a prayer** (the §24/§36/§41 discipline) | 416 foot–419+ | La | read + eye-verified to 419; **unread past 419** |
 | intercession recaps (*Pro bonis / Pro liberatione / Pro…*) per the pre-recon map | ~418–430 | La | unread |
 
 ### Apparatus — NOT primary translatable text (separate final pass)
