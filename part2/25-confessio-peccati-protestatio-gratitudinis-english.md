@@ -102,3 +102,5 @@ My soul shall be satisfied even as it were with marrow and fatness; and
 12. **`Debita nostra` / `Debitoribus nostris` = debts / debtors**, following Matt. 6:12 as Andrewes' Latin does — deliberately not the BCP's "trespasses." The BCP governs this edition's register, not its textual base.
 
 13. **`Sicut in cœlo sic et in terra`** kept in the Latin order (heaven first, then earth), against the BCP's "in earth, As it is in heaven."
+
+14. **⚠ CROSS-REFERENCE, added at §40 (do not import).** "Who am I, O Lord, thy servant, and what is my house" (printed 349) **comes back at printed 384 as a Greek cue-line with an &c.** — "But who am I, O Lord?—&c." — closing §40's third catena. Andrewes expects the reader to finish it out of this page. **The English of the two is deliberately unequal:** §25 gives the sentence, §40 gives only the gesture. Do not lengthen §40's line to match this one, and do not shorten this one to match §40. See `40-aphormai-meditationum-english.md` flag 15.

@@ -101,3 +101,5 @@ Sicut adipe et pinguedine replebitur anima mea; et labiis
 11. **`Debita nostra` / `Debitoribus nostris`** — Andrewes' Latin follows Matt. 6:12 (*debts / debtors*), not the BCP's *trespasses*. Use **debts/debtors**, against the liturgical habit; the BCP register governs the diction of this edition, not its choice of textual base.
 
 12. **No `[?]` in this section.** Every leaf 348–351 is clean in the Google scan.
+
+13. **⚠ CROSS-REFERENCE, added at §40 (do not import).** The *Quis ego sum, Domine, servus Tuus, et quæ domus mea* of printed 349 (2 Sam. vii. 18, here in cento with ix. 8) **returns at printed 384 as a bare Greek cue** — `Ἀλλὰ τίς εἰμι ἐγώ, Κύριε—&c.` — where it closes §40's third catena. Andrewes is pointing back to this passage and expecting the reader to finish it from memory. **The two must not be conformed:** §25 keeps its full Latin cento, §40 keeps its truncated Greek cue and its `—&c.`, and neither borrows the other's wording. See `40-aphormai-meditationum-transcript.md` flag 9.
