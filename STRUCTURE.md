@@ -46,7 +46,7 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 
 ## PARS SECUNDA & TERTIA — section map (recon pass, 2026-07-17, verified by eye)
 
-**Running head throughout: PRECES QUOTIDIANÆ.** Part II is a second, largely **Latin** cycle that re-runs the daily-office shape of Part I (morning / intercession / thanksgiving / deprecation / evening / hours), then a long penitential cycle, then a **bilingual (Greek+Latin)** eucharistic + hymns/poems finale. **Layer is NOT uniform** — verify per page.
+**Running head throughout: PRECES QUOTIDIANÆ.** Part II is a second, largely **Latin** cycle that re-runs the daily-office shape of Part I (morning / intercession / thanksgiving / deprecation / evening / hours), then a long penitential cycle, then a **bilingual (Greek+Latin)** eucharistic + hymns/poems finale. **Layer is NOT uniform** — verify per page. ✅ **COMPLETE, both layers, §§1–43 = printed 267–395** (2026-08-03). **Part II's primary text ends at printed 395**, not the "~397" this map originally estimated — PDF 437 is blank and PDF 438 is the PARS TERTIA title.
 
 ### Offset anchors (all eyeball-verified this pass)
 
@@ -67,7 +67,9 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | 387 | 422 | +35 | last leaf of the penitential matter; **386/387 scanned 2×** (PDF 421/422, 423/424) |
 | 388 | 425 | **+37** | ✅ **verified** — after 384/385 (3×) and 386/387 (2×); the Phase 0 prediction was exactly right |
 | 389–391 | 426–428 | +37 | holds clean across the whole hymns opening, every leaf eye-verified |
-| 393 | 430 | +37 | poems (matches the old anchor) |
+| 392–395 | 429–432 | +37 | the poems; **392/393 scanned ONCE, 394/395 scanned THREE times** (PDF 433/434, 435/436) |
+| — | 437 | — | blank leaf |
+| — | 438 | — | **PARS TERTIA divisional title** — Part II's primary text ends at printed 395 |
 | 400 | 441 | +41 | Part III, after PARS TERTIA title leaves |
 | 419 | 462 | +43 | Part III |
 | 429 | 472 | +43 | last primary-text leaf seen |
@@ -102,8 +104,8 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | **§40 Ἀφορμαὶ Meditationum — THREE catenæ**, not one: *ante Preces Pœnitentiales* (381mid–382) · *ante Intercessionum* (382mid–383) · *ante Εὐχαριστίαν ἢ Εὐλογίαν* (383mid–384top, carrying the **Hebrew Ps lxv. 2** לך דומיה תהלה as main text) | 381mid–384top | La+Gk+**Heb** |
 | **§41** *Oratio præparatoria ante* Εὐλογίαν (384mid) + **Monita et Meditationes præparatoriæ in Vespertina ad Deum elevatione mentis** → *Scrutinium et Inquisitio, vel Examen* — the evening self-examination as a SCHEMA (Aug./**Cicero**/**Seneca**/**Ausonius ex Pythagora**/**Gr. Nyss.**/**Rab. J.**; the 4-level *Quid hodie* brace; ⚠ **garbled Hebrew at 386**). Closes on the 1853 editor's note announcing the hymns (Ussher, *Lib. de Symbolis*; Codex Alexandrinus) | 384mid–387 | La+Gk+**Heb** |
 | **§42 ΥΜΝΟΣ ΕΩΘΙΝΟΣ / Hymnus Matutinus** (Gloria in excelsis, Gk 388→390up, La 389→391up) **+ ΥΜΝΟΣ ΕΣΠΕΡΙΝΟΣ / Hymnus Vespertinus** (Φῶς ἱλαρόν, Gk 390low, La 391low) — both from the **Codex Alexandrinus** canticles per the 387 note. ⚠ **The two asterisk rows (389, 390) are cross-column ALIGNMENT MARKS** flagging where each column lacks the other's Holy-Ghost clause | 388–391 | **Gk verso / La recto** |
-| **Hymnus Vespertinus** — ΥΜΝΟΣ ΕΣΠΕΡΙΝΟΣ / *Phos Hilaron* (*Lumen hilare*) | 390/391 | **Gk verso / La recto** |
-| **In Christum Crucifixum, Monostrophica** (crucifixion poems) | 392/393–~397 | **Gk verso / La recto** |
+| **§43 ΕΙΣ ΤΗΝ ΤΟΥ ΧΡΙΣΤΟΥ ΣΤΑΥΡΩΣΙΝ, Μονοστροφικά / In Christum Crucifixum** — ⚠ **metrical GREEK VERSE**, the only verse in the volume; the Latin recto is a **line-for-line NON-metrical crib**. ⚠ Two wrong sorts: **Πᾶς for Πῶς** (392) and **Ἡ for Ἦ** (394) | 392–395 | **Gk verso / La recto** |
+| *(blank leaf, then the PARS TERTIA divisional title — PDF 437, 438)* | 396–398 | — |
 
 ### PARS TERTIA (PDF 438 = divisional title; offset +41→+43)
 
