@@ -77,8 +77,11 @@ Facing-page parallel throughout: Greek verso / Latin recto, line-for-line sense-
 | 413 | 454 | +41 | ⚠ **this scan is CUT OFF at the right margin** (page number gone, ~6 lines truncated mid-word) — **do not transcribe from it** |
 | 413 | **456** | **+43** | ✅ the duplicate is **complete**; the truncation is a scan artifact, not a plate defect. Transcribe 413 from PDF 456. |
 | 414–425 | 457–468 | +43 | ✅ holds, every leaf eye-verified; `3 H` at 417, `3 I` at 425; printed 419 = PDF 462 and 425 = PDF 468 both hit the Phase 0 anchors exactly |
-| 419 | 462 | +43 | Part III (Phase 0 anchor — the +43 break actually arrives at **413**, six pages earlier) |
-| 429 | 472 | +43 | last primary-text leaf seen |
+| 426–431 | 469–474 | +43 | ✅ holds through §4 and into §5 |
+| 432 | 475 | +43 | ⚠ **the spread 431/432 is scanned TWICE** (PDF 474/475, then 476/477) |
+| 432 | 477 | **+45** | the duplicate; both scans complete |
+| 433–436 | 478–481 | **+45** | `3 K` at 433; printed **436 = PDF 481 is the LAST LEAF of the primary text** (verified by eye) |
+| — | 482+ | — | *VARIÆ LECTIONES* begins — apparatus, a separate final pass |
 
 ⚠ **The offset is rock-stable at +23 for the entire main body (267–367), then climbs erratically (+25→+27→+31→+37→+43) through a duplicate-riddled tail (368–429).** Verify EVERY leaf by eye from printed 368 on.
 
@@ -122,8 +125,11 @@ New in 1853 (from MS Harley 6616). **Latin throughout.** Primary text runs print
 | Theophylact epigraph (*Orationis fundamentum et basis est fides*) + **§1 CONFESSIO FIDEI** — the Creed expanded: three notes on the Father, **twelve numbered articles of the Son**, the Spirit's operations, the Church; then the same creed turned into affection and duty (*Credo, Domine; supple defectus fidei meæ*), closing *Domine, adauge mihi fidem … Amen.* ⚠ **A second recension of §23** (and of §38's close), **plural where §23 is singular** | 398–405 | La | ✅ **done, both layers, parity 8/8** |
 | **§2 CONFESSIO PECCATORUM** — *Confiteor Tibi, Domine*, the catalogue of sin head to foot (406); the **Peccavi / Peccata** refrain over *numero multa* (407) · *qualitate pessima* (408) · the *Justus es Tu* turn carrying **`Provoco … a Te ad Te`** (408 foot–410, the figure of §22's double brace at 337); then **numbered pleas 1.–9.** (410 foot–416). ⚠ **A second recension of §17.** ⚠ **A left-margin REFERENCE COLUMN begins at the foot of 407** — new to the volume, and at the foot of 410 it is **offset by one line** from its text | 406–416 upper | La | ✅ **done, both layers, parity 11/11** |
 | **§3 — the MISERICORDIA schema**, untitled in the 1853 (boundary at 416 is **ours**, now **confirmed**): small-caps **MISERICORDIA EJUS · MISERICORDIA DEI · PATER MISERICORDIARUM** (**August.**, **Chrysos.** among the authorities), then **ten numbered heads on the kinds of God's mercy**, a ladder of *not only … but*, closing *hæc omnia recapitulantur in Christo*. **A schema, not a prayer — until head 10 turns it into one mid-page (422) and it never turns back.** ⚠ **Braces inside the reference column** (417, 421). ⚠ The *Nec frustra* apostolic series (423) **numbers a fourth witness but never announces a third** | 416 foot–424 | La | ✅ **done, both layers, parity 9/9** |
-| **§4 GRATIARUM ACTIO** — *Jucunda decoraque laus*, a thanksgiving built as a catena of Benedictus-texts; `AND. PRECES. — 3 I` at 425 | 425–? | La | read 425 only; **unread past 425** |
-| intercession recaps (*Pro bonis / Pro liberatione / Pro…*) per the pre-recon map | ~426–430 | La | unread |
+| **§4 GRATIARUM ACTIO** — *Jucunda decoraque laus*: a catena of Benedictus-texts closing in the Revelation doxology (425–428), then the **thirteen-line `Quod` brace** (428, = §24's estate-catalogue stripped of its antitheses) and **five `Pro` braces** (429–430) — ⚠ **one suspended sentence with no main verb until *Confiteor Tibi et confitebor* on the last page.** `3 I` at 425 | 425–430 | La | ✅ **done, both layers, parity 6/6** |
+| **§5 MATUTINÆ PRECES** — *Domine, Tuus est dies, et Tua est nox*; the morning office as a psalm-catena in the reference-column manner, closing on the *Te Deum*'s *Dignare, Domine, nos hodie absque peccato custodire* and (432) *Dominus custodiat exitum et introitum nostrum … Amen* | 431–432 | La | read + eye-verified; **not transcribed** |
+| **§6 VESPERTINÆ PRECES** — *In noctibus extollite manus vestras*; the evening office, `3 K` at 433. **Ends the volume** on *Stramentum vermium, Operimentum pulveris … In manus Tuas, Domine, Commendo spiritum meum, quia Tu redemisti me, Domine Deus* | 433–436 | La | read 433 and 436; **433–436 not transcribed** |
+
+⚠ **The "primary text runs to ~printed 430" estimate in the pre-recon map was SIX PAGES SHORT.** Printed 430 ends §4 with the lower two-thirds of the page blank — it reads exactly like the end of a book — but 431 and 433 open two further sections and the volume's last words are at printed **436** (PDF 481). Same class of error as the map's "~397" for the end of Part II. Corrected 2026-08-03.
 
 ### Apparatus — NOT primary translatable text (separate final pass)
 
