@@ -8,7 +8,11 @@
 
 Five files: `variae-lectiones-transcript.md` (classes A, B, C) · `notae-marginales-transcript.md` · `CLASS-A-ledger.md` · `CLASS-B-unit-boundaries.md` · `THE-LATIN-QUESTION.md`. ⚠ The apparatus is **PDF 482–493**, twelve pages — not 482–495 as the brief mapped it; it ends `FINIS` on 493, 494–495 are blank, 496 is library matter. **Third estimated page-range in this volume to run long.**
 
-### ⚠⚠ THE ONE DECISION WILSON OWES: is this a faithful reprint of the 1853, or a critical text of Andrewes?
+### ⚠⚠ THE ONE DECISION WILSON OWES — **now laid out in full at [`EDITION-SHAPE.md`](EDITION-SHAPE.md); read that, not this summary**
+Three options (faithful reprint only · **two books, mirror + English devotional** · an actual critical text, which needs the Pembroke MS and is out of reach). **Recommendation: two books, mirror first.** The memo carries the market evidence (2026-08-04: every top hit is English-only and descends from Newman 1840; the competitor's stated differentiator is *layout*, and class B is Andrewes' own spacing record, unexploited), the cost table, the shared 600-dpi blocker, and the discipline Book B must not lose. **Still unruled.**
+
+#### the original statement of the question
+
 The project has never had to answer this, because until this pass the two coincided. **Two findings now force it, and they are the same question in two coats:**
 1. **The 1853 DROPPED HEBREW THAT STANDS IN ANDREWES' TEXT.** Class A is by definition *variæ lectiones quæ in textu ipso occurrunt* — readings in the manuscript's own text, *pro veris habendæ*. Hebrew stands at printed **38 · 76 · 86–88 · 92 · 96 · 152 · 192 · 198 · 200 · 202 · 210 · 212** — including **`יצר טוב`** (the rabbinic *yetzer ha-tov*) at 76, **Genesis i. 2's *tohu wa-bohu*** at 92, a **seven-word Greek–Hebrew lexicon of sin** at 96, and **Jonah ii. 7 replacing the Greek outright** at 152. ⚠ **This reverses STRUCTURE's old note that the Hebrew at 198/200/212 was "apparatus only, not main text"** — no Hebrew is *printed* there, which is what our eyes saw, but it is in Andrewes. Full table → `CLASS-A-ledger.md` §2.
 2. **THREE BLANK LEAVES after printed 184** — six blank pages, the largest silence in the manuscript — fall **in the middle of `day7`**, immediately after Rev. xxi. 4 *ὅτι τὰ πρῶτα ἀπῆλθον*, and immediately before the great personal intercession at 186 **which our own transcript note already flags as belonging elsewhere ("cf. Day 3")**. The manuscript agrees with the note and disagrees with the file. Detail → `CLASS-B-unit-boundaries.md` §2.
