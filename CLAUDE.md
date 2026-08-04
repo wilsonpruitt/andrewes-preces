@@ -14,7 +14,7 @@ Wroot Press edition of the 1853 Parker printing (1675 Sheldonian text). This rep
 - **Verify printed page numbers by eye** at the start/end of every extraction batch — the Google scan has duplicate leaves (42/43 scanned twice; offset is +18 before printed 44, +20 after). Record new anomalies in STRUCTURE.md's anchor table.
 - **Translate the Greek** (Part I); Latin is the construal witness; English line-keyed, thou-form AV/BCP register per CONVENTIONS §8–10.
 - **Brightman 1903 / Newman / Neale are cribs only** — consult after drafting, never copy, never import Brightman's ordering.
-- **No git push, no remote creation, no deploy** — protected actions, per-action OK from Wilson. Commit locally: content commit + (if needed) notes commit, then update `next-session-resume.md` as the last commit of the session.
+- **No git push, no deploy** — protected actions, per-action OK from Wilson. ⚠ **The repo HAS a remote** (`origin` → github.com/wilsonpruitt/andrewes-preces); older notes said it never had one and were wrong. Verify with `git remote -v`, never from prose. Commit locally: content commit + (if needed) notes commit, then update `next-session-resume.md` as the last commit of the session.
 - Translation prose sessions run on **Opus** (Wilson's opus-for-authored-prose rule). If this session's task is a volume day and the model isn't Opus: ⚠️ Wilson — check your model. (Say it once, then proceed as he decides.)
 
 ## Build (prototypes / future edition)

@@ -99,7 +99,7 @@ This costs almost nothing on top of the class-A ledger you are building anyway, 
 
 ## Standing constraints for whoever runs this
 
-- **No git push, no remote creation, no deploy.** The repo has still never had a remote; creating one is Wilson's per-action call. Commit locally, that is all.
+- **No git push, no deploy.** ⚠ **CORRECTED 2026-08-03: the repo DOES have a remote** — `origin` → github.com/wilsonpruitt/andrewes-preces, current through `067e326`. This brief and several other files claimed it had "never had a remote," which was stale and wrong; the work is backed up off the machine. **Pushing is still protected** and needs Wilson's per-action OK. Commit locally, that is all. **Check `git remote -v` rather than believing any prose about it, including this line.**
 - **Nothing here needs a big-burn OK** at the scope written above. If the scope grows — a full re-collation of Parts I–II against class A, say — stop and ask.
 - **Wrong references, defective sorts and bad attributions stay as printed**, flagged in the translator's-flags, never silently mended. Part III alone added ten to the running list, and three times the volume proved its own misprint from its own pages.
 - **Read one page past before closing any section.** It has now caught a wrong ending at both ends of this volume — Part II's real end at 395 (not "~397") and Part III's at 436 (not "~430").

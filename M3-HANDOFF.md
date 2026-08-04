@@ -25,7 +25,7 @@ Read `next-session-resume.md` for the exact verified entry point. In brief:
 2. Transcribe one spread (2 leaves) per pass into `part1/dayN-transcript.md`, page-marker format exactly as Day 1 (`<!-- printed N (PDF M) — Greek|Latin -->`). Verbatim 1853; `[?]` unreadable; `<!-- print unclear: x/y -->` for ambiguous glyphs; braces/columns/Hebrew per CONVENTIONS §2–4. NEVER infer Greek from context — transcribe what is printed.
 3. Translate into `part1/dayN-english.md`, line-keyed to the GREEK, register per CONVENTIONS §8–10 (thou-form AV/BCP; echo AV wording only where Andrewes' Greek matches it). End the file with a `## Translator's flags` section like Day 1's.
 4. Self-check before commit: (a) page-marker sets identical between transcript Greek pages and English blocks; (b) line counts per page within ±2 between Greek and English; (c) every `*Ref.*` italic ref sits on the Latin layer only; (d) grep the transcript for `[?]` and unclear-comments — carry them into the flags list.
-5. Two commits per session max: content, then any STRUCTURE.md/notes updates. **No push, no remote creation — protected.**
+5. Two commits per session max: content, then any STRUCTURE.md/notes updates. **No push — protected.** (The remote `origin` already exists; see CLAUDE.md.)
 
 ## Print layout (already decided — affects nothing in M3 except discipline)
 
