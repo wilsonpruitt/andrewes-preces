@@ -86,10 +86,70 @@ His 189 < 192 < 257 maps to our 403 > 370 < 380. **The order is genuinely scramb
 
 ---
 
+## 3a. ✅ THE FLAG-LIST PASS — run 2026-08-04 on Opus, Wilson's go. **Nothing applied.**
+
+### ⚠⚠ The method finding, which is worth more than any single repair
+**THE VOLUME REPAIRS ITS OWN DEFECTS ACROSS THE RECENSION BOUNDARY.** Part III is the Harley recension of Part II's penitential matter (§1 : §23+§38 :: §2 : §17 :: §4 : §24). **So where Part II's plate is defective, Part III may carry the same passage intact** — a free, internal, entirely unused repair route. It resolved watch item #4 below before Brightman was even needed. **Check the recension parallel FIRST on any Part II defect; it costs nothing.**
+
+### ⚠ And the hard limit on Brightman
+**He prints no Greek and no Latin, so he can NEVER repair a lost Latin or Greek word** — only a reference, an attribution, a construal, or a sense. Watch items **1 (printed 239, cut-off Latin recto)** and **2 (printed 210, ink damage)** therefore **stay open for the digitization regardless**, and no amount of collation will close them.
+⚠ **His headings are HIS OWN** — preface §3: *"For titles, etc., which are printed in thick type… I am responsible."* **Never import a Brightman heading as recovered text.**
+
+### Watch items
+| # | item | outcome |
+|---|---|---|
+| 3 | **printed 370/371** — "a heading AND an opening are missing" | ⚠ **DOWNGRADED.** Brightman's litany **also begins at "For the wounded in spirit"** — so **the opening is not lost; the litany does start there.** What is missing is a heading — and **his ("FOR THOSE IN AFFLICTION AND PERIL") is his own and cannot be used.** Restate the watch item as *heading only*. |
+| 4 | **printed 339/340 §23** — missing antecedent + wanted *non tantum* | ✅✅ **RESOLVED, from TWO independent witnesses that agree verbatim.** Our own **Part III §1** reads `3. In Spiritum Sanctum, … Extrinsecus et invisibiliter, sed / Efficaciter et manifeste in / Nos operantem, / Illuminatione justitiæ, / Infusione gratiæ, / In Reprehensione, Doctrina, Tolerantia, Subventione…`; Brightman renders the same, *"in the Holy Ghost… from without and invisibly, but effectuously and manifestly operating upon us by illumination of righteousness, infusion of grace, in reproof, teaching, bearing with, help, witnessing with."* **The lost antecedent is the Holy Ghost** (our conjecture, confirmed) and **the lost hinge is `Extrinsecus et invisibiliter, sed`** — not a *non tantum*. ⚠ **`in Nos operantem` is accusative: our supplied `[in us]` should be `[upon us]`.** *Recommended correction, NOT applied.* |
+| 5 | **printed 353 §26 V.7** — `omnia m` broken mid-word, book name lost | ✅✅ **CONFIRMED EXACTLY.** Brightman: *"Send not a cruel messenger unto us: **Prov. xvii 11** / but let all evils be put far away from our houses. **13**"* — **our reconstruction `omnia m[ala. Prov.] xvii. 11, 13` is right in every part.** |
+| 1, 2 | printed 239, printed 210 | ⊘ **Not closable by Brightman** — see the hard limit above. Digitization only. |
+| 0 | printed 386 garbled Hebrew | ⊘ Needs his **page images**; italics do not survive OCR. |
+
+### References and attributions
+- ✅ **§28 `[Dan. vi. 4.]` → `Dan. i. 8`.** Brightman: *"If not wholly from all; **Dan. i 8** — yet from dainties?"* Daniel refusing the king's meat. **Identified**; kept as printed.
+- ✅ **§28 `tricesimam partem` — CONFIRMED as the reading**, with **Deut. xxvi. 12**, in a second witness who also declined to mend it. Our note said the choice between Andrewes' own reduction and a corruption of *tertiam* "cannot be settled from this witness." **It is now settled: it is the text.** The oddity is Andrewes'.
+- ✅ **Part III §2 `Jo. ix. 30` → 31 CONFIRMED.** Brightman: *"But I am a sinner: **S. Jo. ix 31** and God heareth not sinners."*
+- ✅ **Printed 425 `Isaac` → `Mosis`, Exod. xv. 1** (§2.4 above).
+- ✅ **§39 Fulgentius corroborated**; ✅ **§35 Bradwardine sourced exactly** (§2.1–2.2 above).
+- ⊘ No hit: Part III §2's `Marc. iv. 28` and `1 Cor. xi. 30` — a phrasing mismatch, not a negative result. Retry with our English wording.
+
+### ✅ Printed 398 — the epigraph leaf, previously carrying NO sources at all, is now sourced
+| our line | Brightman's identification |
+|---|---|
+| `ORATIONIS fundamentum et basis est fides. *Theophylact.*` | **Theophylact, *in S. Lucam* xviii** (ed. i. 433): `πάσης προσευχῆς βάθρον καὶ κρηπὶς ἡ πίστις` — ***βάθρον καὶ κρηπίς* = *fundamentum et basis*, exact.** |
+| `Sursum corda.` | first in the **Hippolytean canons 3** (2nd–3rd cent.) and **Cyprian *de Orat. dom.* 31** |
+
+Brightman also notes a lost wordplay in this neighbourhood — *fundit / fundatur*, closest parallel **Aug. *serm.* CXV 1**, *fides fundit orationem, fusa oratio fidei impetrat firmitatem*.
+
+### ✅ Printed 386 (§41) — the authorities catena, sourced
+`Cic. de senect. 11` (Cato's audit) · `Auson. Idyll.` · `Ps. lxxvii 6` · `Cp. Lucian Hermotimus 64` · `S. Aug. Serm. XX 2` · `Ecclus. xxiii 2` · `1 Cor. xi 31` · `S. Greg. Nyss. de orat. dom. 1`.
+⚠ **One divergence, unresolved:** our §41 note lists **Seneca** among the authorities; Brightman's margin does not, and gives **Lucian** and **Gregory of Nyssa** instead. **Check before the introduction repeats "Seneca."**
+
+### ✅ Two of our Part III §1 divergences independently confirmed
+- **`mundam`** — Brightman `P. 189. 6: H reads mundam; O, vincentem mundum` (§2.3).
+- **FIVE Spirit-operations, no *Consolatione*** — Brightman's Part III text likewise gives *reproof, teaching, bearing with, help, witnessing with*. Our note recorded five against §23's six; **confirmed.**
+
+### ✅ A class-B boundary corroborated
+Class B marks two blank pages after **printed 190. 4**, at the close of *προαιρέσεις, ἐπιχειρήσεις, ἔξοδον καὶ εἴσοδον, κάθεδραν καὶ ἔγερσιν*. Brightman sets exactly that text as **a discrete titled unit** with the siglum **`L 134`** — *"I commend unto Thee, o Lord, impulses, occasions, purposes, endeavours, going out and coming in, downsitting and uprising."* **Independent corroboration of the class-B unit boundary at 190.4**, from the Laudian MS rather than the Wright apograph.
+
+### Anchor table, extended
+| Brightman p. | our printed p. | section |
+|---|---|---|
+| 106 | 386 | II §41 |
+| ~131 | 357 | II §28 (the alms ladder) |
+| ~147 | 409 ff. | III §2 |
+| 189 | ~403 | III §1 |
+| 192 | 370 | II §35 |
+| ~196 | ~402 | III §1 (Creed, art. ii–iv) |
+| 257 | 380 | II §39 |
+| 289–290 (notes) | 398 | III §1 epigraph leaf |
+| 337 | 371 | II §36 |
+
 ## 4. Verdict on Wilson's question
 
 **Yes — but question-driven, not linear.** Four hits from five probes, including one solved crux and one independent confirmation of a Part III structural finding, is a decisive pilot. A full linear collation is the wrong instrument and would cost many times more for less.
 
-**Not yet run: the full flag-list pass.** Estimated 60–80 targeted lookups across the six lists above. That is a real burn and takes Wilson's *"which model, and go?"* per the standing rule.
+**✅ The flag-list pass was RUN on Opus, 2026-08-04, on Wilson's go — see §3a.** Three of the five watch items resolved or downgraded, four wrong references identified or confirmed, two Part III §1 divergences independently corroborated, one class-B boundary corroborated, and two previously unsourced pages (398, 386) sourced. **Nothing applied.**
+
+**Still open after the pass:** printed **210** and **239** (lost Latin/Greek words — digitization only, Brightman structurally cannot help) · printed **386**'s Hebrew (needs his page images) · **`p. 207`** · Part III §2's `Marc. iv. 28` and `1 Cor. xi. 30` (retry with our English wording) · the **Seneca/Lucian divergence** at §41.
 
 Related: `CLASS-A-ledger.md` · `CLASS-B-unit-boundaries.md` · `THE-LATIN-QUESTION.md` · `../EDITION-SHAPE.md` §4a.
