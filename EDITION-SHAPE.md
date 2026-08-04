@@ -49,7 +49,30 @@ Top Amazon hits, from Wilson's own search (screenshots, not re-verified here):
 
 ⚠ **The competitor's stated differentiator is layout** — *"It also has a lay-out more conducive to prayer."* They are laying out Whyte, by a modern designer's judgement. **Class B is a page-by-page register, in three weights (*spatium* · *majus* · *breve*), of where Andrewes himself put the air on the page, for printed 2–250** — and it is entirely unexploited (`CLASS-B-unit-boundaries.md` §5). That is a differentiator no competitor can answer, and we already hold it.
 
-⚠ **UNVERIFIED AND LOAD-BEARING — do not put in published copy until checked: Brightman's scope.** Our notes say he *rearranged* the work, which implies he had all of it. **Whether Parts II and III have ever been fully Englished is the central claim in Book B's positioning.** It is checkable. It is not assertable now. → pre-print list.
+### ⚠⚠ 4a. Brightman CHECKED, 2026-08-04 — and he is much stronger than assumed
+
+`archive.org/details/bwb_KP-665-232` — Methuen, London, **1903, 472 pp**, full text public. **Read his own preface, quoted here, before relying on anything below.**
+
+**What Brightman actually did, in his words:**
+
+> *"The text which has been translated is that of the Oxford edition of 1675, corrected and supplemented by the MSS., especially the **Laudian MS., which contains a considerable mass of Hebrew matter that was not represented in the edition of 1675**, and the **Harleian MS., the contents of which are almost wholly outside the scope of the edition of 1675 and have never as a whole appeared in English**."* — plus matter recovered from **Stokes' *Verus Christianus***, with sources marked in the inner margin.
+
+> *"The whole book has been **rearranged for practical use**, and redistributed… In the edition of 1675 and in versions dependent on it, the contents of the 'second part' are… **wholly without arrangement**… with the result that this part of the Preces has **probably been little used as a whole**."* Titles in thick type are **his**.
+
+> *"With regard to the arrangement of the lines of the text, **the Laudian MS. has been taken as authoritative**."*
+
+**Four consequences, and two of them hurt:**
+
+1. ⚠ **Book B's "completeness" claim is DEAD as I stated it.** Brightman does not merely cover Parts II–III — he covers **more than we do**: 1675 + Laudian + Harleian + Stokes, against our 1853 alone. Our Part III is the **Harley recension**, and Brightman had the Harleian MS.
+2. ⚠ **Book B's "Hebrew restored" claim is largely PRE-EMPTED.** Brightman restored the Hebrew from the **Laudian** MS in 1903 and prints it in italic. (This does independently **corroborate** our class-A finding from a *different manuscript* — the 1675/1853 really did drop Andrewes' Hebrew — which is worth a great deal to the introduction, and nothing to the marketing.)
+3. ✅ **Book B's "manuscript divisions / class-B layout" claim SURVIVES, but narrowed.** Brightman took the **Laudian** MS as authoritative for line arrangement; our class B is the **Wright apograph** — a *different witness*, and one he did not use. Still a real differentiator; no longer the clean one.
+4. ✅✅ **Book A is STRENGTHENED, decisively.** Brightman is **English-only**: *"no attempt has been made to mark the distinction between the Greek and the Latin of the original."* Verified mechanically — **zero Greek runs and zero Hebrew runs across 755 KB of OCR of all 472 pages.** So **not one edition in the field — Newman, Neale, Whyte, Nashotah 2023, or Brightman 1903 — presents the Greek and the Latin.**
+
+⚠ **And Brightman's own preface is the affirmative case for the mirror.** He says the second part "has probably been little used as a whole" — and then reorganised it out of existence as a book. **Nobody can currently read the *Preces Privatæ* in its own printed order with its own texts.** That is precisely and only what Prototype B does.
+
+**Two convergences worth keeping for the introduction, not the copy:** Brightman's register rule is ours — AV plus **the BCP Psalter** for LXX/Vulgate quotation, corrected toward the Hebrew where Andrewes reaches past them — arrived at independently, and it validates CONVENTIONS §9 and its four recorded overrides. And he is candid that Newman and Neale are unavoidable: *"No one who has made much use of their version will be either able or willing to ignore it."*
+
+⚠ **He is also PD and free.** Any Book B competes with a superior predecessor at zero cost.
 
 ---
 
@@ -93,13 +116,26 @@ Book A's real risk is **page-fit**, and it is not small. Book B's real risk is *
 
 ## 7. Recommendation
 
-**Option 2, mirror first.**
+⚠ **This section was written before Brightman was checked and has been revised down. The earlier version claimed four differentiators for Book B; §4a killed two of them.**
 
-1. **The mirror's lane is empty**, so it cannot be scooped. No urgency; do it properly.
-2. **The devotional's lane is contested and moved in 2023**, so it must differentiate hard — and **all four of its differentiators are products of doing the scholarly work first**: a fresh translation not descended from Newman; completeness (Parts II–III); the manuscript's divisions; class B's layout. **Ship the devotional first and you ship it without them.**
-3. Every editorial call and the whole introduction get settled once, by Book A, and Book B inherits them. Backwards, you make every call twice.
+**Do Book A. Treat Book B as a later, optional, and much more narrowly argued second book — not as a committed half of a two-book plan.**
 
-**Escape hatch:** if page-fit proves intractable, flip the order rather than stall. Do not let the mirror's hardest problem hold the catalogue hostage.
+**Why Book A is now the strong recommendation, not merely the first step:**
+
+1. **Its lane is empty against the whole field, Brightman included.** No edition in print or in the public domain presents the Greek and the Latin. An empty lane cannot be scooped: no urgency, do it properly.
+2. **Brightman's preface argues our case for us.** He rearranged the book because he judged its second part unusable as printed. Whether or not he was right, the consequence is that **the *Preces Privatæ* as a book — its own order, its own texts, its own page — is currently unreadable by anyone**, and that is exactly the gap Prototype B fills.
+3. The apparatus pass, the Latin question (answered: the 1853 Latin is an **independent witness**, not downstream of the printed Greek), and the class-A corroboration of Brightman's Hebrew from a *second and different* manuscript are all **introduction material for Book A**, and they are already written.
+
+**Why Book B is now a weaker proposition than it looked this morning:**
+
+- It would compete with a **free, public-domain, more complete, more critical predecessor** (Brightman: 1675 + Laudian + Harleian + Stokes) — and with a well-reviewed 2023 seminary-press entrant.
+- Its "fresh translation" claim is real but modest: our register is thou-form AV/BCP, which is **Brightman's register too**. We are not offering a modern-English Andrewes, and should not pretend to.
+- ⚠ **Its one honest surviving claim is narrow and should be stated narrowly:** *the complete 1853 in English, in the printed book's own order.* Brightman has completeness but discarded the order; Newman / Neale / Whyte / Nashotah keep some of the order but are partial. Nobody has both. **That is a real gap — it is just a much smaller one than "no modern complete English Andrewes exists," which is false.**
+- The class-B layout differentiator survives only because class B is the **Wright apograph** and Brightman used the **Laudian**. Worth something. Not worth a book on its own.
+
+**If Book B is done at all, it is done after Book A**, inherits its editorial rulings, and is positioned on order-fidelity — never on completeness or on restored Hebrew, both of which Brightman can answer.
+
+**Escape hatch, unchanged:** if the mirror's page-fit proves intractable, that is a reason to reconsider the whole plan, not to substitute Book B for it.
 
 ## 8. If option 2 is chosen — the discipline Book B must not lose
 
@@ -114,7 +150,7 @@ Book B is where the project is most likely to betray itself, because **a devotio
 ## 9. Open, and explicitly not decided here
 
 - **The ruling itself.** Options 1 / 2 / 3.
-- **Brightman's scope** (§4) — gates Book B's completeness claim.
+- ~~Brightman's scope~~ — ✅ **CHECKED 2026-08-04, see §4a.** He is English-only, but more complete and more critical than we are (1675 + Laudian + Harleian + Stokes). Book B's completeness and Hebrew claims are dead; its order-fidelity claim survives.
 - **What the two books are called**, and whether Book B says "translated from the Greek" when Parts II–III are translated from the Latin (CONVENTIONS §6).
 - **`p. 207`** — the only odd printed page cited anywhere in the apparatus. A crux; pre-print list.
 - **Class A / class C collisions at nine lines** — do not build on them without the manuscript.
