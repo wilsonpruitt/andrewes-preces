@@ -37,3 +37,9 @@ the inward and sweeter teaching of his own inspiration — which I may so set fo
 7. **The final petition is kept as one sustained period**, as the Latin has it: teach me what I know not · keep me in what I know · correct me where I am deceived · confirm me where I stagger · deliver me from the false and hurtful · and make my mouth utter what pleases Truth herself, that it may be accepted by all the faithful. The prayer moves inward to outward — mind, mouth, hearers — and breaking it into short sentences would lose that movement.
 
 8. **`quæ sunt coram ipsa veritate principaliter grata, sic fiant fidelibus cunctis accepta` keeps its two-step.** Pleasing **first** before the Truth, and **so** acceptable to the faithful: the order of approval is the point, and the *sic* is not merely connective. A preacher is not to seek what pleases his hearers and hope it also pleases God.
+
+## Collation findings — Brightman 1903 + recension parallels (2026-08-04)
+
+> Applied to the ENGLISH layer only. **No transcript is altered**; the 1853 plate stands as printed. Method and full ledger: `apparatus/BRIGHTMAN-collation.md`.
+
+- **✅ THE FULGENTIUS ATTRIBUTION IS CORROBORATED — the "looks like Augustine" doubt is answered.** The flags kept the 1853's `ex Fulgentii l. i. ad Mon.` as printed while recording that the passage reads like Augustine (*De Doctrina Christiana* IV). **Brightman, working independently from the sources, also gives Fulgentius** — his index: `Fulgentius of Ruspe, S. (**Migne Patr. lat. lxv**), 257`, with a note identifying him as bishop of Ruspe, 508–533; PL 65 is Fulgentius's volume and contains *Ad Monimum*. His introduction paraphrases the passage as we read it — *"it is rather by the piety of his prayers for himself and his flock than by fluency of speech…"* **Two independent editors, the same attribution.** Comes off the pre-print list; the text was never going to change either way.

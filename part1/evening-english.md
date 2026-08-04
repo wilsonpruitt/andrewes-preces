@@ -519,3 +519,9 @@ a sacrifice. | an offering.
 - **printed 244, the Session.** *τῆς ἐκ δεξιῶν σου τοῦ Πατρὸς καθέδρας* — the prayer addresses the Father (*Δέσποτα*), so *σου τοῦ Πατρὸς* is vocative-in-apposition: "the Sitting at **thy** right hand, O Father" (the Son's session). The Latin makes it third-person, *a dextra Dei Patris*. The following *αὐτοῦ παρουσίας* then shifts to "**his** coming" (the Son's Advent).
 - **printed 238/239 (source defect, not a translation issue).** Only the Greek verso (238) carries an English block, as throughout; the Latin recto (239) is the leaf cut off in the photographed-spread scan (see the transcript and STRUCTURE.md). The English layer is unaffected — but the Latin construal-witness for 239 is missing until a clean scan is obtained.
 - **General.** Only the Greek leaves (even printed pages) carry an English block; the Latin recto is the construal-witness throughout. Section-openers set in Greek capitals keep their emphasis in caps (O LORD, TO me, IT is, THE Lord, WHAT). Bracketed section titles ([INTERCESSION], [AT THE HOLY EUCHARIST], the numbered communion rubrics) reproduce the 1853 editor's bracketed supplies.
+
+## Collation findings — Brightman 1903 + recension parallels (2026-08-04)
+
+> Applied to the ENGLISH layer only. **No transcript is altered**; the 1853 plate stands as printed. Method and full ledger: `apparatus/BRIGHTMAN-collation.md`.
+
+- **printed 239 (Latin recto) — ⚠ NOT CLOSABLE BY COLLATION, EVER.** Brightman prints **no Greek and no Latin** (his preface §4; verified — zero Greek runs across all 472 pp), so he can settle a reference, an attribution or a sense, and **never a lost word**. The cut-off Latin recto is recoverable **only from a non-Google digitization**. Recording this so no one spends on the attempt again. ⚠ Per CONVENTIONS §12a there is **no dagger here**: English keys to the Greek versos, so 239 has no English block to mark.

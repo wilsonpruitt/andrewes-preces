@@ -20,6 +20,15 @@ Frozen from the Day 1 pilot (2026-07-16). Later sessions follow this file; propo
 10. **Divine titles in caps** (ΙΗΣΟΥ ΧΡΙΣΤΟΥ, Ὁ ΘΕΟΣ) keep their emphasis: JESUS CHRIST, O GOD. Caps openers (ΔΙΑ / PER) → caps first word in English (THROUGH …).
 11. **Hebrew headings:** keep the Hebrew, add translation: `סיג התורה — The Fence of the Law`. The English layer never silently drops a script.
 12. **Cribs:** Brightman 1903 and Newman 1840 may be consulted as reference AFTER drafting a line, to catch construal errors — never copied. Brightman follows a different arrangement; do not import his ordering.
+    - ⚠ **Brightman prints NO Greek and NO Latin** (his preface §4; verified — zero Greek and zero Hebrew runs across all 472 pp of OCR). He can therefore settle a **reference, an attribution, a construal or a sense — never a lost WORD.** Do not send anyone to him to repair a defective plate. He also marks Hebrew by *italics*, which do not survive OCR: Hebrew questions need his page images.
+    - ⚠ **His headings are his own** — *"For titles, etc., which are printed in thick type… I am responsible."* Never import a Brightman heading as recovered text.
+12a. **⚠ LOST WORDS — the dagger convention** (added 2026-08-04, Wilson's call: *"let's footnote or asterisk lost words for the time being"*). `*` is unavailable — it is markdown italic and the files are full of `*Psal.*`. So:
+    - Where the **source** has lost words (plate defect, scan damage, a garbled sort), the English layer marks the loss **once per page block** with a **`†`** appended to the point of loss — normally to the first `[?]` in that block.
+    - ⚠ **The `†` is appended INLINE to an existing line. It never adds a line**, because English parity is line-exact per §7 and a new line silently breaks the mirror.
+    - Each `†` is keyed to a numbered entry in a **`## Lost words`** section at the foot of the English file, which states: the printed page, what is lost, what secures the construal meanwhile, and **what would be needed to recover it**.
+    - The **transcript is untouched** — it keeps `[?]` per §1. `†` never appears in a transcript.
+    - **A loss that has been RECOVERED from a witness stops being a lost word.** It graduates to the ordinary bracket convention `[ ]` with the witnesses named in the flags. The dagger is for what is still gone.
+    - ⚠ Where a lost word falls on a **Latin recto in Part I**, there is **no English block to mark** (English keys to the Greek versos, §7). Record it in the flags; do not invent a phantom English line for it.
 
 ## Unit model (for the eventual chunk files)
 

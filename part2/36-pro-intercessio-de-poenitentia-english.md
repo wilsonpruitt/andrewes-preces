@@ -4,7 +4,7 @@ Line-keyed English of `36-pro-intercessio-de-poenitentia-transcript.md` (printed
 
 <!-- printed 371 (PDF 398) — §36 begins, without a heading, in the middle of an intercession. -->
 
-For them that are wounded in spirit, sick in mind, perplexed.
+For them that are wounded in spirit, sick in mind, perplexed.†
 For them that lie a-dying, that are sick, that are taking
         medicine.
 For captives, for prisoners, for them condemned to die.
@@ -75,3 +75,13 @@ By threatening, unless,   *Luke* 13:5.  *Jo.* 8:24.
 9. **⚠ The two tables at the foot read ACROSS, and the English preserves the rows.** *Prayer offereth the soul, overcometh the devil, and is toward God; fasting offereth the body, overcometh the flesh, and is toward ourselves; almsgiving offereth our goods, overcometh the world, and is toward our neighbour.* — the three Lenten works against the three enemies. The printed braces span rows (the §32 layout exception, used again and disclosed): collapsing them into inline braces would break the alignment on which the whole sense depends. *Bonum* is rendered **"our goods"**, not "the good": it is the third thing offered, beside soul and body.
 
 10. **`Ps. 130:3` and `Ps. 143:2` take Coverdale's wording** ("who shall abide it?" / "shall no man living be justified") per §9; `Job 9:3` takes the AV's "he cannot answer him one of a thousand," there being no Coverdale for Job.
+
+## Collation findings — Brightman 1903 + recension parallels (2026-08-04)
+
+> Applied to the ENGLISH layer only. **No transcript is altered**; the 1853 plate stands as printed. Method and full ledger: `apparatus/BRIGHTMAN-collation.md`.
+
+- **⚠ THE 370/371 WATCH ITEM IS DOWNGRADED — the opening is NOT lost; only a heading is.** Brightman's litany **also begins at "For the wounded in spirit"**, exactly where ours does. So the 1853 is not missing an opening: the intercession genuinely starts there, and flag 1's reading of the plate is right. What is missing is a **heading**. ⚠⚠ **Brightman's heading cannot be borrowed** — his preface §3: *"For titles, etc., which are printed in thick type… I am responsible."* His *FOR THOSE IN AFFLICTION AND PERIL* is **his own composition, not recovered Andrewes**, and must never be imported. **Nothing supplied; the dagger stands.**
+
+## Lost words
+
+**†1 — printed 371 (the section's first line).** §36 opens cold, in the middle of an intercession, because **a heading is absent from the 1853**. Confirmed a **printing defect, not a scan artifact** (consecutive leaves, no duplicate, the OCR agrees), and now confirmed **not** to involve a lost opening (above). **To recover:** the Harley MS, or a non-Google digitization. ⚠ **Not Brightman** — his heading here is his own.

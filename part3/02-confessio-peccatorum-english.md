@@ -394,3 +394,10 @@ That in them Thou mightest shew the excellency of Thy compassion;
 15. **The double brace (412).** *{ Dust / Wind / Flesh } { frail / light / dissolved }* — three nouns and three predicates, each brace gathering its own column, so that any of the three answers any of the three. The English keeps the rows and adds no verb; the natural reading runs across (dust is frail, wind is light, flesh dissolves) but the plate deliberately leaves it open, and closing it would be the translator's sentence, not Andrewes'.
 
 16. **The reference column's one-line offset at the foot of 410 is reproduced.** *Psal.* cxix. 94 stands beside *quare serva me* though the sentence begins on the line above, and *Sap.* xi. 25 beside *despexeris* alone. English keeps both references in the same position relative to the text. It looks like a mistake and may be one, but it is the plate's, and re-aligning it would silently make an editorial decision inside the apparatus.
+
+## Collation findings — Brightman 1903 + recension parallels (2026-08-04)
+
+> Applied to the ENGLISH layer only. **No transcript is altered**; the 1853 plate stands as printed. Method and full ledger: `apparatus/BRIGHTMAN-collation.md`.
+
+- **✅ `Jo. ix. 30` → read `Jo. ix. 31`, CONFIRMED.** Brightman: *"But I am a sinner: **S. Jo. ix 31** — and God heareth not sinners."* **Kept as printed**; the right reference is on record.
+- ⊘ `Marc. iv. 28` and `1 Cor. xi. 30` returned no hit — a phrasing mismatch in the search, **not** a negative result. Worth one retry against our own English wording.

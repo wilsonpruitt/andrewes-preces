@@ -173,7 +173,7 @@ beneath the feet of thy chosen,
 <!-- printed 210 — English of the Greek page -->
 <!-- The Greek leaf is ink-damaged down the left margin (see the transcript); the leading connective of most lines is illegible, marked [?] here as there. The construal is secured by the Latin (printed 211); the bracketed virtue-labels [Of faith]/[Of hope]/[Of charity] render the smeared Πίστεως / Ἐλπίδος / Ἀγάπης. -->
 
-[?] grace in thy sight,
+[?]† grace in thy sight,
         that I may have grace,
     [?] to serve thee acceptably,
         with reverence and godly fear.
@@ -315,3 +315,8 @@ nothing earthly, temporal, corruptible
 - **printed 210 (SCAN-DAMAGED).** This Greek leaf carries a vertical ink-smear down the left margin in the only extant (Google) scan; the leading word of most lines is illegible and is marked `[?]` in both transcript and translation. The three petition-labels — smeared in the Greek but preserved in the Latin as *Fidei / Spei / Charitatis* — are supplied in brackets as **[Of faith] / [Of hope] / [Of charity]**. The whole passage's construal (find grace → keep it → the theological virtues → love friend-in-God and enemy-for-God) is secured by the clean Latin on printed 211. Restore the `[?]` words from a non-Google digitization before print.
 - **printed 214 / 218 (the *eu-* anaphora).** Andrewes piles up abstract *εὐ-* compounds (*εὐαρχία, εὐνομία, εὐδικία, εὐπείθεια, εὐτεκνία, εὐπαιδευσία…*). These are rendered with the parallel English "good rule / good laws / good justice / good obedience / good children / good instruction" to keep the drum-beat of the anaphora; the Latin instead paraphrases each (e.g. *εὐπείθειαν* → *Obsequia populi*). The rendering follows the Greek.
 - **General.** Only the Greek leaves (even printed pages) carry an English block; the Latin recto is the construal-witness throughout. Section-openers set in Greek capitals keep their emphasis in caps (O FATHER, REMEMBER, HOSANNA).
+
+## Lost words
+
+**†1 — printed 210 (Greek verso).** A vertical ink-smear down the left margin of the only extant (Google) scan takes the **leading connective of most lines**; every one is `[?]` in both layers. **Not a plate defect — a scan defect**, so a clean image recovers it. The construal is secure meanwhile from the clean Latin on printed 211 (find grace → keep it → the theological virtues → love friend-in-God and enemy-for-God), and the three smeared petition-labels are supplied from the Latin as **[Of faith] / [Of hope] / [Of charity]**.
+**To recover:** a non-Google digitization of the leaf. ⚠ **Brightman cannot help here and must not be sent for** — he prints no Greek (CONVENTIONS §12), so he can supply the sense, which we already have, and never the words.

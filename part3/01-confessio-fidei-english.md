@@ -279,3 +279,14 @@ Lord, increase my faith,
 14. **`sapientes … viciniora saluti` (403).** *Sapientes* is Col. iii. 2's *quæ sursum sunt sapite* — the AV's "set your affection on things above," here a participle, so "being wise"; *viciniora saluti*, "nearer to salvation," is Rom. xiii. 11. Both left in their own words rather than assimilated to the AV's phrasing, since Andrewes has recast the grammar.
 
 15. **`voto et voluntate` (405) → "by vow and by will."** *Votum* in this pairing is the classic *votum* of desire/intention (to be of the Church *in voto* where one cannot be *in re*); "by desire and will" would be the smoother English and would lose the technical word. Kept "vow," flagged here.
+
+## Collation findings — Brightman 1903 + recension parallels (2026-08-04)
+
+> Applied to the ENGLISH layer only. **No transcript is altered**; the 1853 plate stands as printed. Method and full ledger: `apparatus/BRIGHTMAN-collation.md`.
+
+- **✅ THE 398 EPIGRAPH LEAF IS SOURCED AT LAST** — it carried no sources at all.
+  - `ORATIONIS fundamentum et basis est fides. *Theophylact.*` → **Theophylact, *in S. Lucam* xviii** (ed. i. 433): `πάσης προσευχῆς βάθρον καὶ κρηπὶς ἡ πίστις`. ⚠ ***βάθρον καὶ κρηπίς* is exactly *fundamentum et basis*** — the Latin is a close rendering of that sentence, not a loose echo.
+  - `Sursum corda.` → first in the **Hippolytean canons 3** (2nd–3rd cent.) and **Cyprian, *de Orat. dom.* 31**.
+  - Brightman also notes a wordplay lost in this neighbourhood, *fundit / fundatur*, closest parallel **Augustine, *serm.* CXV 1**: *fides fundit orationem, fusa oratio fidei impetrat firmitatem*.
+- **✅ TWO OF THE FIVE DIVERGENCES FROM §23 INDEPENDENTLY CONFIRMED.** (1) **`mundam`** — Brightman's note reads `P. 189. 6. **H reads mundam 'pure'; O, vincentem mundum.**` H = Harleian, O = Oxford 1675: so this is a **manuscript variant, not a slip**, and it corroborates the structural claim that **Part III is the Harley recension**, from a witness who held the Harleian MS. (2) **Five Spirit-operations, no *Consolatione*** — Brightman's Part III text likewise gives *reproof, teaching, bearing with, help, witnessing with*. Both kept exactly as they stand; neither recension conformed to the other.
+- **✅ This section repaired §23.** `In Spiritum Sanctum … Extrinsecus et invisibiliter, sed / Efficaciter et manifeste in / Nos operantem` supplies what the plate lost at the 339/340 join — see `part2/23-…-english.md`.

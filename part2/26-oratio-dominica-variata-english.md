@@ -141,3 +141,9 @@ their meat in due season.  Open thou thine hand, and fill
 11. **`Ab Angelo exterminante` (III. 7)** — the destroying Angel of David's plague (2 Sam. 24:16), capitalised as in the Latin, and answered by the response *Libera nos, Domine* set to the right on its own line. That response is the only refrain in the section; keep it set apart.
 
 12. **`[Ver. 3.]` (IV. 1)** is "verse 3" of the psalm just cited, not a book; given as `[v. 3]`.
+
+## Collation findings — Brightman 1903 + recension parallels (2026-08-04)
+
+> Applied to the ENGLISH layer only. **No transcript is altered**; the 1853 plate stands as printed. Method and full ledger: `apparatus/BRIGHTMAN-collation.md`.
+
+- **✅ THE 353 DEFECT (set V. 7) IS CONFIRMED — our reconstruction was right in every part.** The plate breaks mid-word at *omnia m* and loses the reference's book name. Brightman reads: *"Send not a cruel messenger unto us: **Prov. xvii 11** / but let all evils be put far away from our houses. **13**"* — so the line is **`omnia m[ala]`** and the reference is **`[Prov.] xvii. 11, 13`**, exactly as conjectured from Prov. xvii. 11 (*a cruel messenger*) and xvii. 13 (*evil shall not depart from his house*). **The Latin stays unrepaired in the transcript**; the English's brackets are now backed by a witness rather than by inference alone.

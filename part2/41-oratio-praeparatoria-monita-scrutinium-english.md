@@ -98,7 +98,7 @@ Neither do we count that man safe who hath not been
     fenced with the arms and garrison of prayer.
 Rightly therefore saith *Rab. J.*, of repentance that is not to be put off
     till the morrow,
-        ראה חזתלת התועלת והתשועה נכזבה — *so the plate; read* ראה תוחלת התועלת והתשועה נכזבה —
+        ראה חזתלת התועלת והתשועה נכזבה — *so the plate; read* ראה תוחלת התועלת והתשועה נכזבה —†
         See, the hope of the profit and of the deliverance is proved false.
 
 <!-- printed 387 (PDF 422) -->
@@ -124,7 +124,7 @@ And if such an examination be made for some days, or for one
 
 1. **The two pieces answer each other and are filed together.** The *Oratio præparatoria ante* Εὐλογίαν closes what §40's third catena opened (Occasions before the Eucharist-or-Blessing → the prayer itself), and the *Monita* then turns the whole penitential sequence into a **practice**: a nightly rule with a stated duration and a stated result. The section is the hinge out of Part II's penitential matter and into the hymns.
 
-2. **⚠ THE HEBREW AT 386 IS GARBLED IN THE PLATE, and the English discloses the repair rather than hiding it.** As set, the second word is **חזתלת**, which is not a Hebrew word; what the sentence needs is **תוחלת** (*tocheleth*), "hope" — and Andrewes' own Latin on the next page proves it, *Ecce **spes** fructus et salutis*. The mechanism is a compositor's: **two sorts transposed (ת ↔ ח) and a zayin set for a vav**. Confirmed a **plate defect, not a scan artifact** — the duplicate scan at PDF 423 reads the same five letters. **The transcript keeps the garble; the English prints the plate's reading, then the corrected reading, then the sense** — three things on one line, because a reader who cannot read Hebrew must still be able to see that a repair has been made and what it was. Silently printing the good Hebrew would be an emendation of the kind this edition does not make. **Goes on the watch list for restoration from Brightman/Harley before print.**
+2. **⚠ THE HEBREW AT 386 IS GARBLED IN THE PLATE, and the English discloses the repair rather than hiding it.** As set, the second word is **חזתלת**, which is not a Hebrew word; what the sentence needs is **תוחלת** (*tocheleth*), "hope" — and Andrewes' own Latin on the next page proves it, *Ecce **spes** fructus et salutis*. The mechanism is a compositor's: **two sorts transposed (ת ↔ ח) and a zayin set for a vav**. Confirmed a **plate defect, not a scan artifact** — the duplicate scan at PDF 423 reads the same five letters. **The transcript keeps the garble; the English prints the plate's reading, then the corrected reading, then the sense** — three things on one line, because a reader who cannot read Hebrew must still be able to see that a repair has been made and what it was. Silently printing the good Hebrew would be an emendation of the kind this edition does not make. **Goes on the watch list for restoration before print.** ⚠ **CORRECTED 2026-08-04: Brightman cannot settle this from his text.** He marks Hebrew by printing its translation in *italic*, and **italics do not survive OCR** — so the question needs **his page images**, not his text, and in any case he prints no Hebrew of his own. The Harley MS or a 600-dpi read of the plate remain the real routes.
 
 3. **`Rab. J.` is left abbreviated and unexpanded**, as the 1853 leaves it. The saying — do not defer repentance to the morrow, for the hope of your gain and your rescue will prove false if you die this night — is the commonplace of the rabbinic *teshuvah* literature (R. Jonah Gerondi's *Sha'arei Teshuvah* is the likeliest source), but the edition does not say and neither does the English. On the pre-print list beside §39's Fulgentius.
 
@@ -155,3 +155,15 @@ And if such an examination be made for some days, or for one
 16. **`rationem exigebat` is an ACCOUNTING word — "required of himself an account."** Cato audits the day as a steward audits a estate; it pairs with God's *recognitio operum*, the review of the works. Keep the ledger sense; "reflected on his day" is the wrong register in both directions.
 
 17. **The closing note is the EDITOR'S and is translated as apparatus.** *Rev. Usserius … Lib. de Symbolis* = **Ussher, *De Romanæ Ecclesiæ Symbolo Apostolico***, and the *MS. Alexandrinum Bibliothecæ Regiæ* is the **Codex Alexandrinus** in the King's Library, whose appendix of canticles is the source of the two hymns that follow. The English is given so that a reader of the finished book knows what the note says, but it **must be set as apparatus — small, editorial, and outside the devotional text**. It is not Andrewes praying.
+
+## Collation findings — Brightman 1903 + recension parallels (2026-08-04)
+
+> Applied to the ENGLISH layer only. **No transcript is altered.** Ledger: `apparatus/BRIGHTMAN-collation.md`.
+
+- **✅ THE AUTHORITIES CATENA AT 386 IS SOURCED.** Brightman's margin supplies what our transcript lacked: **`Cic. de senect. 11`** (Cato's daily audit) · **`Auson. Idyll.`** (Pythagoras via Ausonius) · **`Ps. lxxvii 6`** (David meditating and searching out his spirit) · **`Cp. Lucian, Hermotimus 64`** · **`S. Aug. Serm. XX 2`** · **`Ecclus. xxiii 2`** · **`1 Cor. xi 31`** · **`S. Greg. Nyss. de orat. dom. 1`**.
+- ⚠ **UNRESOLVED, AND IT TOUCHES OUR OWN PROSE: the Seneca question.** Our flags list **Seneca** among the authorities set side by side here. **Brightman's margin does not** — he gives **Lucian** and **Gregory of Nyssa** instead. One of us has an authority the other lacks. **Check before any introduction repeats "Seneca"**; the side-by-side-without-ranking observation stands either way, but the roll-call may be wrong.
+
+## Lost words
+
+**†1 — printed 386, the Hebrew.** The plate sets **חזתלת**, which is not a Hebrew word; the sentence needs **תוחלת** (*tocheleth*, "hope"), proved by Andrewes' own Latin on the facing page, *Ecce **spes** fructus et salutis*. Mechanism: two sorts transposed (ת ↔ ח) and a zayin for a vav. **A plate defect, not a scan artifact** — the duplicate at PDF 423 reads the same. The English discloses the repair on the line rather than hiding it (flag 2). **The only defect in the volume that corrupts a whole word in a script the reader cannot check.**
+**To recover:** the Harley MS, or a 600-dpi read. ⚠ **Not Brightman's text** — he marks Hebrew by italics and italics do not survive OCR; his **page images** might serve.

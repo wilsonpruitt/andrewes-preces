@@ -67,3 +67,11 @@ Doth it grieve?   Doth it dread?   Doth it weary?
 10. **The six questions answer §19.** They are the affects of *Pœnitet* (printed 326) asked back at the penitent, reordered and with repentance itself set at the head. The verbs are kept **impersonal** — "Doth it repent? Doth it vex? Doth it shame? / Doth it grieve? Doth it dread? Doth it weary?" — using the same English as §19's *Dolet / Pudet / Piget / Horret / Tædet* ("it grieves / shames / vexes / dreads / wearies"), so the earlier anatomy is audible under this examination. **Do not supply a subject** ("Dost thou repent?"); the Latin's impersonal construction is what makes it an examination of the state rather than of the man.
 
 11. **`Θωμᾶς·` = "Thomas:"** — an exemplar-label with a Greek raised point, introducing his words exactly as the ladder below introduces David's and Daniel's. Set as a label, never as a title.
+
+## Collation findings — Brightman 1903 + recension parallels (2026-08-04)
+
+> Applied to the ENGLISH layer only. **No transcript is altered**; the 1853 plate stands as printed. Method and full ledger: `apparatus/BRIGHTMAN-collation.md`.
+
+- **✅ `tricesimam partem` IS THE READING — a question the flags called unsettleable is now settled.** Brightman gives *"If not the half; **Dt. xxvi 12** — yet **the thirtieth part**?"* — the same word, the same reference, **and he declined to mend it too.** So *tricesimam* is **not** a corruption of *tertiam*: the oddity (Deut. xxvi. 12 is the third-year *tenth*) is Andrewes' own, and stands. Supersedes the earlier "cannot be settled from this witness."
+- **✅ `[Dan. vi. 4.]` IDENTIFIED: read Dan. i. 8.** Brightman sets *"If not wholly from all; **Dan. i 8** — yet from dainties?"* — Daniel purposing not to defile himself with the king's meat. **Kept as printed**, per the standing discipline; the right reference is now on record.
+- Brightman's neighbouring refs **confirm** ours: `S. Mk. xii 41` (the widow) and `S. Lk. xix 8` (Zacchæus).

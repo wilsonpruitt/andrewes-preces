@@ -26,3 +26,9 @@ Line-keyed English of `35-oratio-bradwardini-transcript.md` (printed 370). **Lat
 5. **⚠ The next section's heading is missing in the 1853, and the English of §36 begins as abruptly as the Latin.** Printed 370 stops a third of the way up the page; printed 371 opens in the middle of an intercession, *Pro spiritu vulneratis* — no title, no first petition. Confirmed present in the plate (consecutive leaves, OCR agrees). Nothing is supplied at either end; the gap is left visible and is on the watch list for restoration from Brightman/Harley before print.
 
 6. **`Nequicquam me præmias, sed crucias vehementer` is rendered with its sting kept** — *To no purpose dost thou reward me; nay, thou dost torment me sore.* Bradwardine is saying that heaven's gifts without heaven's God would be a cruelty, and the *sed* is an accusation. Softening it ("thou dost but grieve me") would take the risk out of a prayer whose whole force is that it is willing to say this to God.
+
+## Collation findings — Brightman 1903 + recension parallels (2026-08-04)
+
+> Applied to the ENGLISH layer only. **No transcript is altered**; the 1853 plate stands as printed. Method and full ledger: `apparatus/BRIGHTMAN-collation.md`.
+
+- **✅ BRADWARDINE SOURCED EXACTLY.** Brightman: *"Thomas Bradwardine was archbishop of Canterbury for five weeks in 1349. His work* de causa Dei contra Pelagium et de virtute causarum, *from which the present passage is taken…"* — with the marginal reference **`de virtute causarum, ii cor. 39`** and, from his index, **the edition Andrewes used: ed. Saville, London 1618.** Our identification is confirmed and now carries a work, a corollary and a printing.
