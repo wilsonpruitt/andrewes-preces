@@ -52,7 +52,7 @@ Brightman's text, in the same Benedictus-catena and in the same position:
 Brightman **marks Hebrew by printing its translation in italic** (preface §4). ⚠ **Italics do not survive OCR into plain text.** So `חזתלת` → `תוחלת` cannot be checked from the text dump; it needs his **page images**. Recorded as a method limit, not a negative result.
 
 **But the same probe paid anyway.** His p. 106 is our §41 (printed 386), and his margin supplies the source identifications our transcript lacked: **`Cic. de senect. 11`** (Cato's daily audit) · **`Auson. Idyll.`** · **`Ps. lxxvii 6`** · **`Cp. Lucian Hermotimus 64`** · **`S. Aug. Serm. XX 2`** · **`Ecclus. xxiii 2`** · **`1 Cor. xi 31`** · **`S. Greg. Nyss. de orat. dom. 1`**.
-⚠ **One divergence to check, not resolved here:** our §41 note lists **Seneca** among the authorities; Brightman's margin does not, and instead gives **Lucian** and **Gregory of Nyssa**.
+⚠ **The Seneca divergence — REFRAMED; the first statement of it was wrong.** ***Seneca.* is printed IN THE PLATE**, at **printed 385**, as an inline author tag among `*Aug.*` · `*Cicero.*` · `*Seneca.*` · `*Jer.* xvii. 9`, over `Deprehendas te oportet, antequam emendes.` and `Ignotum ulcus in deterius abit, et curatione destituitur.` **It is the edition's attribution, not our roll-call.** So the question is whether Brightman *rejected* it, whether his margin is keyed to neighbouring lines, or whether the OCR dropped it — and **our text keeps it as printed either way**, per the §39 *Fulgentius* rule.
 
 ---
 
@@ -122,7 +122,7 @@ Brightman also notes a lost wordplay in this neighbourhood — *fundit / fundatu
 
 ### ✅ Printed 386 (§41) — the authorities catena, sourced
 `Cic. de senect. 11` (Cato's audit) · `Auson. Idyll.` · `Ps. lxxvii 6` · `Cp. Lucian Hermotimus 64` · `S. Aug. Serm. XX 2` · `Ecclus. xxiii 2` · `1 Cor. xi 31` · `S. Greg. Nyss. de orat. dom. 1`.
-⚠ **One divergence, unresolved:** our §41 note lists **Seneca** among the authorities; Brightman's margin does not, and gives **Lucian** and **Gregory of Nyssa** instead. **Check before the introduction repeats "Seneca."**
+⚠ **The Seneca divergence — REFRAMED; the first statement of it was wrong.** ***Seneca.* is printed IN THE PLATE**, at **printed 385**, as an inline author tag among `*Aug.*` · `*Cicero.*` · `*Seneca.*` · `*Jer.* xvii. 9`, over `Deprehendas te oportet, antequam emendes.` and `Ignotum ulcus in deterius abit, et curatione destituitur.` **It is the edition's attribution, not our roll-call.** So the question is whether Brightman *rejected* it, whether his margin is keyed to neighbouring lines, or whether the OCR dropped it — and **our text keeps it as printed either way**, per the §39 *Fulgentius* rule.
 
 ### ✅ Two of our Part III §1 divergences independently confirmed
 - **`mundam`** — Brightman `P. 189. 6: H reads mundam; O, vincentem mundum` (§2.3).
