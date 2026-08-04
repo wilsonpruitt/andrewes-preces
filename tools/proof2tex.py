@@ -1,41 +1,58 @@
 #!/usr/bin/env python3
-"""Build a continuous PROOFING PDF of all of Part I (printed 1-263).
+"""Build a continuous PROOFING PDF of the Preces Privatae — any part, or all of it.
 
-NOT the final 1675 mirror (that is the deferred M-print job). This flows every
-Part I page in printed order — for each printed page: the Greek or Latin as
-printed, and (on Greek pages) the English translation beneath it — full width,
-so the ` | ` columns and `{ }` brace catalogues render legibly as literal
-characters. Overflow is harmless here: continuous flow, no verso/recto mirror
-to desync.
+NOT the final 1675 mirror (that is the deferred M-print job, tools/transcript2tex.py).
+This flows every printed page in printed order — for each page: the Greek or Latin
+as printed, and the English translation beneath it — full width, so the ` | ` columns,
+the `{ }` brace catalogues and Part III's left-margin reference column render legibly
+as literal characters in their printed horizontal positions. Overflow is harmless
+here: continuous flow, no verso/recto mirror to desync.
 
-Emits prototypes/part1-proof.tex ; build with:
-    cd prototypes && xelatex part1-proof.tex
+    python3.11 tools/proof2tex.py            # whole volume -> volume-proof.tex
+    python3.11 tools/proof2tex.py --part 1   # Part I only  -> part1-proof.tex
+    python3.11 tools/proof2tex.py --part 3   # Part III     -> part3-proof.tex
+
+Build with:  cd prototypes && xelatex <name>.tex
 """
+import argparse
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PART1 = ROOT / "part1"
-OUT = ROOT / "prototypes" / "part1-proof.tex"
+OUT_DIR = ROOT / "prototypes"
 
-# (transcript, english, section label) in reading order
-SECTIONS = [
-    ("front-transcript.md", "front-english.md", "Front Matter"),
-    ("day1-transcript.md", "day1-english.md", "The First Day"),
-    ("day2-transcript.md", "day2-english.md", "The Second Day"),
-    ("day3-transcript.md", "day3-english.md", "The Third Day"),
-    ("day4-transcript.md", "day4-english.md", "The Fourth Day"),
-    ("day5-transcript.md", "day5-english.md", "The Fifth Day"),
-    ("day6-transcript.md", "day6-english.md", "The Sixth Day"),
-    ("day7-transcript.md", "day7-english.md", "The Seventh Day"),
-    ("deprecation-transcript.md", "deprecation-english.md", "Deprecation and Hosannas"),
-    ("evening-transcript.md", "evening-english.md", "The Evening Office"),
-    ("meditations-transcript.md", "meditations-english.md", "The Meditations"),
+# Part I is not alphabetical — its reading order is explicit.
+PART1_SECTIONS = [
+    "front", "day1", "day2", "day3", "day4", "day5", "day6", "day7",
+    "deprecation", "evening", "meditations",
 ]
+PART1_LABELS = {
+    "front": "Front Matter", "day1": "The First Day", "day2": "The Second Day",
+    "day3": "The Third Day", "day4": "The Fourth Day", "day5": "The Fifth Day",
+    "day6": "The Sixth Day", "day7": "The Seventh Day",
+    "deprecation": "Deprecation and Hosannas", "evening": "The Evening Office",
+    "meditations": "The Meditations",
+}
 
-HEBREW = re.compile(r"[֐-׿][֐-׿\s]*[֐-׿]|[֐-׿]")
+PART_TITLES = {
+    1: "Part I",
+    2: "Part II --- Preces Quotidianae",
+    3: "Part III --- Confessio Fidei and after",
+}
+
+# One em of leading/internal space per 0.3em keeps Part I's 4-space unit at the
+# 1.2em it has always rendered at, and lets Part III's ragged reference column
+# keep its printed horizontal position instead of being rounded onto a ladder.
+SPACE_EM = 0.3
+
+HEBREW = re.compile(r"[\u0590-\u05ff][\u0590-\u05ff\s]*[\u0590-\u05ff]|[\u0590-\u05ff]")
 COMMENT = re.compile(r"<!--.*?-->")
 MARKER = re.compile(r"<!--\s*printed\s+(\d+)")
+GAP = re.compile(r"(?<=\S)( {2,})(?=\S)")
+# Every file ends with an apparatus section ("## Translator's flags", "## Transcription
+# notes", ...). It is editorial prose, NOT page text, and must never be flowed into the
+# last printed page of the section.
+APPARATUS = re.compile(r"^##\s")
 
 
 def tex_escape(s: str) -> str:
@@ -52,11 +69,25 @@ def render_line(raw: str):
     line = COMMENT.sub("", raw).rstrip()
     if not line.strip():
         return None
-    indent = (len(line) - len(line.lstrip(" "))) // 4
-    text = tex_escape(line.strip())
+    indent = len(line) - len(line.lstrip(" "))
+    body = line.strip()
+    # Preserve internal runs of 2+ spaces (the reference column, the ` | ` tables,
+    # the brace gutters) as measured horizontal space, not collapsed word-space.
+    gaps = []
+
+    def stash(m):
+        gaps.append(len(m.group(1)))
+        return "\x00%d\x00" % (len(gaps) - 1)
+
+    body = GAP.sub(stash, body)
+    text = tex_escape(body)
+    text = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", text)
     text = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", text)
     text = HEBREW.sub(lambda m: r"\RL{%s}" % m.group(0), text)
-    return r"\pl{%.2f}{%s}" % (indent * 1.2, text)
+    text = re.sub(r"\x00(\d+)\x00",
+                  lambda m: r"\hspace{%.2fem}" % (gaps[int(m.group(1))] * SPACE_EM),
+                  text)
+    return r"\pl{%.2f}{%s}" % (indent * SPACE_EM, text)
 
 
 def render_block(lines):
@@ -76,71 +107,134 @@ def render_block(lines):
 
 
 def parse_pages(path: Path):
-    """page number -> (layer, lines). layer in {gr, la, en}."""
-    blocks, cur, layer = {}, None, None
+    """printed page number -> (layer, lines). layer in {gr, la, en}."""
+    blocks, cur = {}, None
     for raw in path.read_text().splitlines():
+        if APPARATUS.match(raw):
+            break
         m = MARKER.match(raw.strip())
         if m:
             cur = int(m.group(1))
             low = raw.lower()
             layer = "en" if "english" in low else "la" if "latin" in low else "gr"
-            blocks[cur] = (layer, [])
+            # A page can be marked twice in one file (a section opening or closing
+            # mid-page). Continue the block; never start it over — overwriting drops
+            # the page's real text.
+            if cur in blocks:
+                blocks[cur][1].append("")
+            else:
+                blocks[cur] = (layer, [])
             continue
         if cur is not None:
             blocks[cur][1].append(raw)
     return blocks
 
 
-def main():
-    pages = {}            # N -> {"gr":lines, "la":lines, "en":lines}
-    section_start = {}    # N -> label (first printed page of each section)
-    for tr, en, label in SECTIONS:
-        tr_blocks = parse_pages(PART1 / tr)
-        en_blocks = parse_pages(PART1 / en)
-        all_ns = sorted(set(tr_blocks) | set(en_blocks))
-        if all_ns:
-            section_start[all_ns[0]] = label
-        for n in all_ns:
-            slot = pages.setdefault(n, {})
-            if n in tr_blocks:
-                lay, ls = tr_blocks[n]
-                slot[lay] = ls
-            if n in en_blocks:
-                slot["en"] = en_blocks[n][1]
+def section_label(part: int, stem: str, transcript: Path) -> str:
+    """Part I labels are named; Parts II-III take the section's own H1."""
+    if part == 1:
+        return PART1_LABELS.get(stem, stem)
+    head = transcript.read_text().splitlines()[0].lstrip("# ").strip()
+    head = re.sub(r"\s*—\s*raw transcript\s*$", "", head)
+    head = re.sub(r"^Part\s+[IVX]+\s*—\s*[^—]*—\s*", "", head)
+    return head.strip()
 
-    body = []
-    for n in sorted(pages):
-        if n in section_start:
-            body.append(r"\sectionhead{%s}" % section_start[n])
-        slot = pages[n]
-        for lay, name in [("gr", "Greek"), ("la", "Latin")]:
-            if lay in slot:
-                rendered = render_block(slot[lay])
+
+def sections_for(part: int):
+    """[(transcript Path, english Path, label)] in reading order."""
+    d = ROOT / f"part{part}"
+    if part == 1:
+        stems = PART1_SECTIONS
+    else:
+        stems = sorted(
+            {p.name[: -len("-transcript.md")] for p in d.glob("*-transcript.md")},
+            key=lambda s: (int(s.split("-", 1)[0]), s),
+        )
+    out = []
+    for stem in stems:
+        tr = d / f"{stem}-transcript.md"
+        en = d / f"{stem}-english.md"
+        if not tr.exists():
+            raise SystemExit(f"missing transcript: {tr}")
+        out.append((tr, en if en.exists() else None,
+                    section_label(part, stem, tr)))
+    return out
+
+
+def build_part(part: int, body: list, stats: dict):
+    body.append(r"\parthead{%s}" % PART_TITLES[part])
+    for tr, en, label in sections_for(part):
+        tr_blocks = parse_pages(tr)
+        en_blocks = parse_pages(en) if en else {}
+        pages = {}
+        for n, (lay, ls) in tr_blocks.items():
+            pages.setdefault(n, {})[lay] = ls
+        for n, (_, ls) in en_blocks.items():
+            pages.setdefault(n, {})["en"] = ls
+        if not pages:
+            continue
+        body.append(r"\sectionhead{%s}" % tex_escape(label))
+        for n in sorted(pages):
+            slot = pages[n]
+            for lay, name in [("gr", "Greek"), ("la", "Latin")]:
+                if lay in slot:
+                    rendered = render_block(slot[lay])
+                    if rendered:
+                        body.append(r"\pglabel{printed %d}{%s}" % (n, name))
+                        body.append(rendered)
+                        stats["pages"] += 1
+            if "en" in slot:
+                rendered = render_block(slot["en"])
                 if rendered:
-                    body.append(r"\pglabel{printed %d}{%s}" % (n, name))
-                    body.append(rendered)
-        if "en" in slot:
-            rendered = render_block(slot["en"])
-            if rendered:
-                body.append(r"\pglabel{printed %d}{English}" % n)
-                body.append(r"{\itshape" + "\n" + rendered + "\n}")
-
-    doc = TEMPLATE.replace("%%BODY%%", "\n\n".join(body))
-    OUT.write_text(doc)
-    print(f"wrote {OUT.name}  ({len(pages)} printed pages, "
-          f"{sum('en' in p for p in pages.values())} with English)")
+                    body.append(r"\pglabel{printed %d}{English}" % n)
+                    body.append(r"{\itshape" + "\n" + rendered + "\n}")
+                    stats["english"] += 1
 
 
-TEMPLATE = r"""% Part I proofing copy — continuous flow, printed order 1-263.
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--part", default="all", choices=["1", "2", "3", "all"])
+    args = ap.parse_args()
+
+    parts = [1, 2, 3] if args.part == "all" else [int(args.part)]
+    name = "volume-proof" if args.part == "all" else f"part{args.part}-proof"
+    out = OUT_DIR / f"{name}.tex"
+
+    body, stats = [], {"pages": 0, "english": 0}
+    for p in parts:
+        build_part(p, body, stats)
+
+    if len(parts) == 1:
+        scope = PART_TITLES[parts[0]]
+        blurb = r"Greek and Latin as printed in the 1853 Parker edition,\\ with the Wroot Press English beneath."
+    else:
+        scope = "The whole volume"
+        blurb = (r"Greek, Latin and Hebrew as printed in the 1853 Parker edition,\\ "
+                 r"with the Wroot Press English beneath each page.")
+
+    doc = (TEMPLATE
+           .replace("%%SCOPE%%", scope)
+           .replace("%%BLURB%%", blurb)
+           .replace("%%RUNHEAD%%", scope.replace("---", "\\textemdash{}"))
+           .replace("%%BODY%%", "\n\n".join(body)))
+    out.write_text(doc)
+    print(f"wrote {out.name}  ({stats['pages']} printed pages, "
+          f"{stats['english']} with English)")
+
+
+TEMPLATE = r"""% Proofing copy — continuous flow, printed order.
 % Auto-generated by tools/proof2tex.py. NOT the final 1675 mirror.
 \documentclass[11pt]{book}
 \input{preamble}
 \usepackage{fancyhdr}
 \setlength{\headheight}{14pt}
 \pagestyle{fancy}\fancyhf{}
-\fancyhead[C]{\small\itshape Preces Privatae --- Part I (proof)}
+\fancyhead[C]{\small\itshape Preces Privatae --- proof}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0pt}
+% Long inline brace catalogues ({ a / b / c }) have few breakpoints; in a proof a
+% loose line is better than one running past the trim.
+\sloppy
 
 % printed-page / layer label
 \newcommand{\pglabel}[2]{\par\vspace{0.7\baselineskip}%
@@ -155,16 +249,19 @@ TEMPLATE = r"""% Part I proofing copy — continuous flow, printed order 1-263.
   {\centering\color{rulegray}\rule{0.4\textwidth}{0.4pt}\par}%
   \vspace{0.6\baselineskip}}
 
+% part divider
+\newcommand{\parthead}[1]{\clearpage\thispagestyle{empty}\vspace*{2.2in}%
+  {\centering\Huge\scshape #1\par}\clearpage}
+
 \begin{document}
 \thispagestyle{empty}
 \vspace*{2in}
 {\centering
 {\Huge Preces Privatae}\\[0.6em]
 {\large Lancelot Andrewes}\\[2em]
-{\itshape Part I --- proofing copy}\\[0.5em]
-{\small Greek and Latin as printed in the 1853 Parker edition,}\\
-{\small with the Wroot Press English beneath each Greek page.}\\[0.5em]
-{\small Printed pp.\ 1--263 \textperiodcentered\ continuous flow, not the final mirror.}\par}
+{\itshape %%SCOPE%% --- proofing copy}\\[0.5em]
+{\small %%BLURB%%}\\[0.5em]
+{\small Continuous flow, not the final mirror.}\par}
 \clearpage
 \setcounter{page}{1}
 

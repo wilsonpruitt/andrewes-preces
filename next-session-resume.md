@@ -31,7 +31,28 @@ Ten class-A divergences resolved against our own files: **5 support the printed 
 - **Class B is the best unexploited resource for Prototype B's page-fit problem** — a page-by-page, three-weight register of where the vertical air goes, from the author's own book. Feed it to `transcript2tex.py` as a spacing table when that is finally generalised.
 
 ## ▶ Remaining after that: the print engineering
-`tools/transcript2tex.py` is still Day-1-only (hardcodes pp. 30–43). It has never met the reference column, braces inside the reference column, the thirteen-line `Quod` brace's vertical centring, §6's free-verse grid, or class B's spacing table.
+
+### ✅ STEP 1 DONE (2026-08-04) — the WHOLE-VOLUME PROOF builds
+`tools/proof2tex.py` was Part-I-only; it now builds any part or the whole book:
+
+```
+python3.11 tools/proof2tex.py            # volume-proof.tex  — 461 pages, 326 with English
+python3.11 tools/proof2tex.py --part 3   # part3-proof.tex
+cd prototypes && xelatex volume-proof.tex
+```
+
+**`prototypes/volume-proof.pdf` — 608 typeset pages, zero TeX errors, zero overfull boxes.** This is the readable proof of the entire edition, both layers, in printed order; it is **not** the mirror (that is still `transcript2tex.py`'s job). Verified by eye: Part III's left-margin reference column keeps its printed horizontal position, the ` | ` column tables hold their alignment, polytonic Greek and right-to-left Hebrew (`סיג התורה`, printed 42) both set correctly in Cardo.
+
+⚠ **Two real bugs were in the old Part I builder and are fixed — the old `part1-proof.pdf` was wrong:**
+1. **The translator's-flags prose was being flowed into the last printed page of every section.** The parser read to end-of-file; every transcript and English file ends with a `## Translator's flags` (or `## Transcription notes`) apparatus block. 109 files carry one. The parser now stops at the first `## ` heading.
+2. **A printed page marked twice in one file lost its real text.** Twenty Part II sections mark their last page a second time as a section-end note; the parser restarted the block and the *flags prose* replaced the *page*. Blocks now continue instead of restarting. (Printed 348 in §24 is the test case — it should open `Confessio peccati, | Per.`)
+
+Three Part III "pages" also disappeared and *should* have: printed 406 (§1), 425 (§3) and 431 (§4) are content-free pointer markers that previously rendered as pages of flags prose. §2's printed 416 is real and survives. **Page counts are now 263 / 158 / 40.**
+
+Also changed, deliberately: leading and internal whitespace is now measured at **0.3 em per space** rather than rounded to 1.2 em per four-space unit. Part I's strict 4-space indents render identically to before; Part III's ragged reference column is no longer rounded onto the ladder. `\sloppy` is set, which cleared the last twelve overfull lines (all long inline `{ a / b / c }` catalogues).
+
+### ▶ STEP 2, the real remaining engineering: the mirror
+`tools/transcript2tex.py` is still Day-1-only (hardcodes pp. 30–43). It has never met the reference column, braces inside the reference column, the thirteen-line `Quod` brace's vertical centring, §6's free-verse grid, or class B's spacing table. **The 0.3-em space measure and the two parser fixes above should be lifted into it** — it has the same end-of-file and duplicate-marker weaknesses.
 
 ## (superseded) — the apparatus pass, from PDF 482
 

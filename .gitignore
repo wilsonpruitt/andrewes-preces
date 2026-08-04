@@ -7,3 +7,4 @@ site/src/data/content.json
 *.aux
 *.log
 prototypes/fragments/
+tools/__pycache__/

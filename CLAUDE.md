@@ -19,4 +19,4 @@ Wroot Press edition of the 1853 Parker printing (1675 Sheldonian text). This rep
 
 ## Build (prototypes / future edition)
 
-`python3.11 tools/transcript2tex.py` regenerates `prototypes/fragments/`; `cd prototypes && xelatex proto-b-mirror.tex`. TeX packages paracol/bidi/zref/auxhook are user-installed from the frozen TL2025 repo (system tlmgr can't cross-install from 2026 CTAN). Cardo covers polytonic Greek + Hebrew; Hebrew needs `\RL{}` (bidi).
+`python3.11 tools/proof2tex.py` builds the **whole-volume proofing copy** (`prototypes/volume-proof.tex`; `--part 1|2|3` for one part) — continuous flow, both layers, not the mirror. `python3.11 tools/transcript2tex.py` regenerates the mirror's `prototypes/fragments/`; `cd prototypes && xelatex proto-b-mirror.tex`. TeX packages paracol/bidi/zref/auxhook are user-installed from the frozen TL2025 repo (system tlmgr can't cross-install from 2026 CTAN). Cardo covers polytonic Greek + Hebrew; Hebrew needs `\RL{}` (bidi).
