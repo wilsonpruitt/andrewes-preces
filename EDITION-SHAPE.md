@@ -1,5 +1,11 @@
 # What kind of edition is this? — the decision memo
 
+> **▶ WILSON'S WORKING DIRECTION, 2026-08-04: "I am good with starting with A. We are still drafting and don't need to lock into anything hard."** So: **Book A is the working plan, deliberately NOT a lock.** Book B stays open and unargued. Nothing below is settled against him changing his mind.
+>
+> **Two consequences recorded the same day:**
+> - **The web reader is NOT Andrewes work.** `~/milton-doctrina/PLAN.md` §5.3 schedules the language-array generalisation as **Milton M2**, explicitly so it is done once and ported here: *"Milton is the easier place to do it — two languages, clean prose, no polytonic Greek, no four-script pages, no fragile page-mirror layout. Generalise here, then port to Andrewes. Doing it twice would be the single most wasteful thing this project could do."* **Do not build the Andrewes site reader; wait and port.**
+> - **Brightman is worth collating against, question-driven.** Pilot run, 4 hits from 5 probes → `apparatus/BRIGHTMAN-collation.md`.
+
 **Status: WILSON'S CALL, NOT YET MADE.** Written 2026-08-04, after the *Variæ Lectiones* apparatus pass. Nothing in this file has been applied. It exists so the ruling is recorded once and a later, cheaper session can execute against it without re-deriving the argument.
 
 ---
