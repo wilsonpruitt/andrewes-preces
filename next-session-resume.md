@@ -2,7 +2,38 @@
 
 > **▶ READ [`BRIEF-finish-primary-and-apparatus.md`](BRIEF-finish-primary-and-apparatus.md) FIRST.** Its **Deliverable 1 (printed 431–436) is now DONE**; what stands is **Deliverable 2, the *Variae Lectiones* apparatus pass**, and with it **⚠ the Latin question** — the apparatus preface says the Greek-only apograph lacks the Latin *quam Editor ipse confecisse videtur*, which bears on the whole Prototype B mirror. **Surface it, do not act on it.** The brief also carries the decisive class-A test that can close the question, and the `apparatus/` file layout to produce.
 
-## ▶ CURRENT FRONT — THE *VARIÆ LECTIONES* APPARATUS PASS, from PDF 482
+## ▶ CURRENT FRONT — **WILSON OWES ONE DECISION** (below), then the print engineering
+
+## ✅✅ THE APPARATUS PASS IS DONE TOO (2026-08-03) — see `apparatus/`
+
+Five files: `variae-lectiones-transcript.md` (classes A, B, C) · `notae-marginales-transcript.md` · `CLASS-A-ledger.md` · `CLASS-B-unit-boundaries.md` · `THE-LATIN-QUESTION.md`. ⚠ The apparatus is **PDF 482–493**, twelve pages — not 482–495 as the brief mapped it; it ends `FINIS` on 493, 494–495 are blank, 496 is library matter. **Third estimated page-range in this volume to run long.**
+
+### ⚠⚠ THE ONE DECISION WILSON OWES: is this a faithful reprint of the 1853, or a critical text of Andrewes?
+The project has never had to answer this, because until this pass the two coincided. **Two findings now force it, and they are the same question in two coats:**
+1. **The 1853 DROPPED HEBREW THAT STANDS IN ANDREWES' TEXT.** Class A is by definition *variæ lectiones quæ in textu ipso occurrunt* — readings in the manuscript's own text, *pro veris habendæ*. Hebrew stands at printed **38 · 76 · 86–88 · 92 · 96 · 152 · 192 · 198 · 200 · 202 · 210 · 212** — including **`יצר טוב`** (the rabbinic *yetzer ha-tov*) at 76, **Genesis i. 2's *tohu wa-bohu*** at 92, a **seven-word Greek–Hebrew lexicon of sin** at 96, and **Jonah ii. 7 replacing the Greek outright** at 152. ⚠ **This reverses STRUCTURE's old note that the Hebrew at 198/200/212 was "apparatus only, not main text"** — no Hebrew is *printed* there, which is what our eyes saw, but it is in Andrewes. Full table → `CLASS-A-ledger.md` §2.
+2. **THREE BLANK LEAVES after printed 184** — six blank pages, the largest silence in the manuscript — fall **in the middle of `day7`**, immediately after Rev. xxi. 4 *ὅτι τὰ πρῶτα ἀπῆλθον*, and immediately before the great personal intercession at 186 **which our own transcript note already flags as belonging elsewhere ("cf. Day 3")**. The manuscript agrees with the note and disagrees with the file. Detail → `CLASS-B-unit-boundaries.md` §2.
+
+**Nothing has been applied. No transcript re-cut, no Hebrew restored, no English touched.** ⚠ A cheaper middle path is argued in `CLASS-B-unit-boundaries.md` §2: **record the MS's divisions in the apparatus and in the print design rather than re-cutting files** — re-cutting a transcript re-cuts its line-keyed English, and Prototype B has spreads to spend.
+
+### ✅ THE LATIN QUESTION IS ANSWERED — the second branch fires
+Ten class-A divergences resolved against our own files: **5 support the printed Greek, 2 support the apograph, 3 cannot decide.** The decisive case is **printed 34/35** — apograph `τὸ πλάσμα`, printed Greek `τὰ ἔργα`, and the facing Latin reads ***Figmenta***, which departs from the printed Greek **and** from the Vulgate of Ps. cxxxviii. 8 (*opera manuum tuarum*) and has no route to it except a Greek text reading πλάσμα. Corroborated at **174/175**, where ***Ablue*** renders `ἀπόλουσαι` and cannot render the printed `ἀπόλυσαι`. **So the 1853 Latin is not purely downstream of the printed Greek and the preface's *videtur* is too modest.** ⚠ **Surfaced, not acted on** — CONVENTIONS untouched, no English re-worded, Prototype B untouched. It is an **asset for the introduction**: the edition can now say, with a worked example, that its Latin column is an independent witness. Table → `THE-LATIN-QUESTION.md`.
+
+### Recorded and deliberately left unresolved
+- **Class A and class C collide at nine lines** and the direction of class C's `]` cannot be settled from the printed apparatus. The tempting theory — that the printed text has in places adopted **Drake's** marginal reading over the manuscript's — is attractive, partly supported, **not established.** Don't build on it without the MS. (Drake is also better than the brief allowed: he collates against **Wechel**, cites **Aquila/Theodotion/Symmachus**, and traces the Prayer of Manasses to *Apost. Const.* II. 22.)
+- **`p. 207`** is the only **odd** printed page cited anywhere in the apparatus (Part I's Greek is all verso/even). Misprint for 206/208, or something about the leaf. **A crux; on the pre-print list.**
+- **The dot-mark prayer-index** (apparatus ii–iii) needs a **600-dpi** read; the counts are legible at printed 76 (1·2·3·4) and not at apparatus ii. Guessing would corrupt an index, so nothing was guessed.
+- **All Hebrew is read at 200 dpi**; `אדאג` (printed 38) is secure on sense, not on its sorts. **Re-read every form at 600 dpi before setting type.**
+
+### Corroborations worth keeping
+- **Our seven-day boundaries are safe** — class B is silent at the day-heads *because* the preface's principle **iv** says each day is marked by its own **astronomical sign**, a different device. A naive reading of class B would take that silence as evidence against our cuts; it is not.
+- **The deprecation/evening cut at 218–220 is confirmed outright** by two blank pages.
+- **Class B cannot speak to §28 or Part III §2/§3** at all — both are far outside the apograph's *usque ad pag. 250*. That was the brief's explicit ask, and the answer is: those two boundaries stand on our own reasoning, unchanged. (§3's was independently confirmed from the plate anyway.)
+- **Class B is the best unexploited resource for Prototype B's page-fit problem** — a page-by-page, three-weight register of where the vertical air goes, from the author's own book. Feed it to `transcript2tex.py` as a spacing table when that is finally generalised.
+
+## ▶ Remaining after that: the print engineering
+`tools/transcript2tex.py` is still Day-1-only (hardcodes pp. 30–43). It has never met the reference column, braces inside the reference column, the thirteen-line `Quod` brace's vertical centring, §6's free-verse grid, or class B's spacing table.
+
+## (superseded) — the apparatus pass, from PDF 482
 
 ## ✅✅ THE PRIMARY TEXT OF THE VOLUME IS COMPLETE, BOTH LAYERS — printed 1–263 · 267–395 · 398–436.
 
