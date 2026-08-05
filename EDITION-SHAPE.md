@@ -181,7 +181,15 @@ Wilson's instinct after seeing the mirror's fit numbers: *it gets messy in both 
 
 **What the Loeb gives up beyond that:** the 1675 conceit itself. Compressing the 1853's opening onto a single leaf means the book no longer *looks* like the 1853, which is the thing §7's "empty lane" argument was partly selling.
 
-**Open — Wilson's call.** The shoulder-note ruling of §6a is layout-agnostic and stands either way.
+### ✅ RULED by Wilson, 2026-08-05 — **the Loeb is the edition layout**
+
+Prototype C replaces the 1675 mirror. The reasoning is the table above: zero units too tall against the mirror's 130 second leaves and 2 spoilt spreads, one structure for all three parts instead of two, and English with a full page of its own rather than a halved foot register — bought for 38 leaves and a denser Part I. The two spoilt mirror spreads and the 128 second leaves would never have gone away; they would have been hand-managed forever.
+
+⚠ **What this ruling gives up, so nobody has to rediscover it:** the 1675 conceit itself. Compressing the 1853's opening onto one leaf means the book no longer *looks* like the 1853 — and §7's "empty lane" argument was partly selling that look. **The lane is still empty** (no edition in print or in the public domain presents the Greek and the Latin at all), so the argument survives; but the introduction should now sell the *parallel*, not the facsimile page.
+
+⚠ **§7 and §6 above were written for the mirror and have NOT been rewritten.** Where they cost or argue "the mirror", read "the edition layout"; the page-fit risk §6 called Book A's real one is now retired — that was the whole point of the ruling.
+
+`--layout loeb` is the default. `--layout mirror` still builds prototype B, because it is what this was measured against and because Part I's mirror remains the truest picture of the 1853's own page. §6a's shoulder-notes are layout-agnostic and carried over unchanged.
 
 ---
 

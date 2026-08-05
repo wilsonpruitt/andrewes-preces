@@ -2,9 +2,23 @@
 
 > **▶ READ [`BRIEF-finish-primary-and-apparatus.md`](BRIEF-finish-primary-and-apparatus.md) FIRST.** Its **Deliverable 1 (printed 431–436) is now DONE**; what stands is **Deliverable 2, the *Variae Lectiones* apparatus pass**, and with it **⚠ the Latin question** — the apparatus preface says the Greek-only apograph lacks the Latin *quam Editor ipse confecisse videtur*, which bears on the whole Prototype B mirror. **Surface it, do not act on it.** The brief also carries the decisive class-A test that can close the question, and the `apparatus/` file layout to produce.
 
-## ▶ CURRENT FRONT — **WILSON NOW OWES TWO DECISIONS**, and the second is new
+## ▶ CURRENT FRONT — **BOTH LAYOUT DECISIONS ARE RULED (2026-08-05); the older editorial one still stands**
 
-### ⚠⚠ NEW 2026-08-04 — the mirror is generalized to the whole volume, and it does not fit in Parts II–III
+### ✅✅ THE EDITION LAYOUT IS THE LOEB, NOT THE MIRROR — ruled 2026-08-05, built, `prototypes/volume-loeb.pdf` (604 leaves)
+
+Prototype C replaces the 1675 mirror as the edition layout. **The unit is the 1853 OPENING, not the 1853 page**: in Part I the Greek verso and its Latin recto share one leaf in two columns and the English takes the whole facing page; in Parts II–III the verso takes the full measure and the English still faces it. **One structure serves all three parts, where the mirror needed two.**
+
+**Why it wins, measured, not argued** (the table is `EDITION-SHAPE.md` §6b): **0 units too tall for their leaf, anywhere**, against the mirror's 130 second leaves and 2 permanently spoilt Part I spreads; English gets a full page at `\small` instead of a mechanically-halved foot register. It cannot desynchronise because nothing depends on a page facing its own translation — originals are always verso, English always recto, so a long unit takes two spreads and the alternation is untouched. Cost: **38 extra leaves (+6.7%)** and a denser Part I.
+
+⚠ **The price, and it cannot be tuned away: 839 of Part I's 6,759 sense-lines TURN in the two columns** (against 23 at full width). The **Latin** column turns more than the Greek (14.0% vs 10.8%), so widening the Greek for its longer lines makes the total *worse* — 13.2% at 0.52/0.45, 15.1% at 0.55/0.42, against 12.4% for equal columns. Only `\scriptsize` halves it, at roughly 7pt. **Run `python3.11 tools/measure_lines.py` before changing any column width.** A turned line is not a broken parallel — the 1853 turns lines itself and CONVENTIONS keeps its turned-line hyphens — but the density is a real change and was chosen with open eyes.
+
+⚠ **What the ruling gives up:** the 1675 conceit. The book no longer *looks* like the 1853, and §7's empty-lane argument was partly selling that look. The lane is still empty (nobody prints the Greek and the Latin at all), so **the introduction should now sell the parallel, not the facsimile page.**
+
+⚠ **`--fit` measures BOX HEIGHTS for the Loeb, not page marks** — a minipage overruns in silence instead of breaking, so the marks that instrument the mirror would have reported no overflow here however bad it got. ⚠ **§6 and §7 of EDITION-SHAPE were written for the mirror and were NOT rewritten**; the page-fit risk §6 called Book A's real one is retired, which was the point.
+
+### ✅ And the pagination shape, ruled the same day — layout-agnostic, survived the change
+
+#### how the mirror got here (superseded as the edition layout, kept for the record)
 
 `tools/transcript2tex.py` was Day-1-only; it now builds any part or the whole book (`prototypes/volume-mirror.pdf`, 565 leaves for 431 printed pages, folios are the 1853's own), imports its parser and renderer from `proof2tex.py` so the two page-loss fixes cannot live in one builder and not the other, and **instruments every leaf** — `python3.11 tools/transcript2tex.py --fit` names any printed page that ran past its leaf. Run it after every mirror build; arithmetic cannot see an overflow, and one overflow desynchronises verso from recto for the rest of the book.
 

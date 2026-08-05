@@ -1,37 +1,45 @@
 #!/usr/bin/env python3
-"""Build the 1675 MIRROR — Greek verso, Latin recto, English register at the foot.
+"""Build the EDITION LAYOUT — originals verso, English recto (prototype C, "Loeb").
 
-This is the edition layout (prototype B), as against the continuous proofing copy
-built by tools/proof2tex.py. It emits one TeX fragment per printed page into
-prototypes/fragments/, then a driver that lays those fragments out one edition
-page per 1853 page:
+Ruled by Wilson 2026-08-05 over the 1675 mirror, on measurement: see
+EDITION-SHAPE.md 6b. This emits one TeX fragment per printed page into
+prototypes/fragments/, then a driver that lays them out:
 
-    python3.11 tools/transcript2tex.py             # whole volume -> volume-mirror.tex
-    python3.11 tools/transcript2tex.py --part 1    # Part I only  -> part1-mirror.tex
-    python3.11 tools/transcript2tex.py --fit 1     # read back part1-mirror.fit
+    python3.11 tools/transcript2tex.py                # whole volume -> volume-loeb.tex
+    python3.11 tools/transcript2tex.py --part 1       # Part I only  -> part1-loeb.tex
+    python3.11 tools/transcript2tex.py --fit          # read back the last build
+    python3.11 tools/transcript2tex.py --layout mirror  # prototype B, for comparison
 
 Build with:  cd prototypes && xelatex <name>.tex
 
-Two structures, not one. **Part I is a true mirror**: printed 1 stands alone, then
-every Greek verso 2N faces its Latin recto 2N+1, and the English of the Greek page
-is split across the foot of the spread (h1 under the Greek, h2 under the Latin).
-**Parts II and III are not mirrored at all** — each printed page carries a single
-language and its own English register beneath it.
+THE UNIT IS THE 1853 OPENING, not the 1853 page. In Part I the Greek verso and its
+Latin recto share one leaf in two columns and the English takes the whole facing
+page; in Parts II--III, which are one language to a page, the verso takes the full
+measure and the English still faces it. One structure serves all three parts,
+where the mirror needed two.
 
-The edition carries ITS OWN continuous folios, and the 1853 page runs as a
-shoulder-note in the inner head of every leaf (Wilson's ruling, 2026-08-05; the
-reasoning is EDITION-SHAPE.md 6a). An earlier draft made the 1853 number the
-edition's number, which was elegant until a page ran to two leaves and printed a
-duplicate folio.
+Why this layout cannot desynchronise: nothing depends on a page facing its own
+translation. Originals are always verso and English always recto, so a unit that
+runs long takes two spreads and the alternation is untouched. Across the whole
+volume nothing is too tall for its leaf. ⚠ The instrument that proves it is NOT
+the mirror's page marks — a minipage overruns in silence instead of breaking, so
+marks would report no overflow however bad it got. Each unit is boxed, its height
+written out, and compared against \textheight by `--fit`.
 
-⚠ THE MIRROR'S DISCIPLINE BELONGS TO PART I ALONE. There a printed page must
-occupy exactly one leaf, because overflow desynchronises verso from recto for
-everything after it; `\versoalign` forces every Greek page onto a left-hand leaf
-so the damage stops at the spoilt spread. Parts II--III have no facing page to
-fall out of, so a second leaf there is bulk, not damage. Every leaf is
-instrumented and `--fit` reads the record back; the line that matters is whether
-a Part I Greek page landed on a recto. Nothing is silently scaled to make a page
-fit — that is a typesetting decision, not a scripting one.
+The edition carries ITS OWN continuous folios, with the 1853 page as a
+shoulder-note in the inner head of every leaf (EDITION-SHAPE.md 6a; that ruling is
+layout-agnostic and survived the change of layout).
+
+What the layout costs, and it is worth knowing before touching the measure: 839 of
+Part I's 6,759 sense-lines turn in the two columns, against 23 at full width. The
+1853 turns lines itself and CONVENTIONS keeps its turned-line hyphens, so a turned
+line is not a broken parallel — but `tools/measure_lines.py` re-runs the whole
+comparison before anyone changes a column width on a hunch. The Latin column turns
+MORE than the Greek; widening the Greek makes the total worse.
+
+The mirror (`--layout mirror`) is kept because it is the thing this was measured
+against, and because Part I's mirror is still the truest picture of the 1853's own
+page. It needs \versoalign to hold its register; see EDITION-SHAPE.md 6a.
 
 Parsing and rendering are imported from proof2tex so the two builders cannot
 drift: both the apparatus cut-off (a trailing `## Translator's flags` must never
@@ -360,8 +368,9 @@ def report_loeb(name: str):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--part", default="all", choices=["1", "2", "3", "all"])
-    ap.add_argument("--layout", default="mirror", choices=["mirror", "loeb"],
-                    help="mirror = prototype B (default); loeb = prototype C")
+    ap.add_argument("--layout", default="loeb", choices=["loeb", "mirror"],
+                    help="loeb = the edition layout, ruled 2026-08-05 (default); "
+                         "mirror = prototype B, kept for comparison")
     ap.add_argument("--fit", nargs="?", const=True, default=False,
                     help="report the last build's page fitting instead of building")
     args = ap.parse_args()

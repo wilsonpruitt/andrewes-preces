@@ -15,19 +15,24 @@ Two whole-volume builds now exist, from the same parser and the same renderer:
 | PDF | Built by | What it is |
 |---|---|---|
 | `volume-proof.pdf` | `tools/proof2tex.py` | 608pp **proofing copy** — continuous flow, printed order, every page's original with its English beneath. Not the edition. |
-| `volume-mirror.pdf` | `tools/transcript2tex.py` | 566pp **edition layout** — the edition's own folios, with the 1853 page as a shoulder-note in the inner head of every leaf. `--part 1` for `part1-mirror.pdf`. |
+| `volume-loeb.pdf` | `tools/transcript2tex.py` | 604pp — **THE EDITION LAYOUT**, ruled 2026-08-05. Originals verso, English recto; Part I's Greek and Latin share a leaf in two columns. The edition's own folios, 1853 page as a shoulder-note. |
+| `volume-mirror.pdf` | `… --layout mirror` | 566pp — prototype B, the 1675 mirror. **Not the edition**; kept because it is what the Loeb was measured against, and because Part I's mirror is still the truest picture of the 1853's own page. |
 
-⚠ **The mirror's discipline belongs to Part I alone** — there, and only there, an overflow desynchronises verso from recto. `\versoalign` forces every Greek page onto a left-hand leaf, so an overflow spoils its own spread and the book realigns at the next one; the whole volume spends **one** blank leaf on that. Parts II–III have no facing page to fall out of, so their 128 second leaves are bulk, not damage.
+**Why the Loeb cannot desynchronise:** nothing depends on a page facing its own translation. Originals are always verso, English always recto, so a unit that runs long takes two spreads and the alternation is untouched — 0 of 596 units are too tall for their leaf. The mirror, by contrast, stakes verso/recto on every page fitting: `\versoalign` holds its register at a cost of one blank leaf, and printed 256 and 257 stay spoilt.
 
-Every leaf is instrumented: `python3.11 tools/transcript2tex.py --fit` reads the last build's `.fit` record and reports second leaves, blanks spent, and — the one that matters — **any Part I Greek page that landed on a recto**. Currently none. Printed **256 and 257** are the two spreads still wanting hand-fitting. Shape ruled by Wilson 2026-08-05; see `EDITION-SHAPE.md` §6a.
+⚠ **`--fit` measures BOX HEIGHTS for the Loeb, not page marks.** A minipage overruns in silence rather than breaking, so the marks that instrument the mirror would report no overflow here however bad it got.
+
+⚠ **Before touching a column width, run `python3.11 tools/measure_lines.py`.** 839 of Part I's 6,759 sense-lines already turn in the two columns (against 23 at full width), and the **Latin** column turns more than the Greek — so widening the Greek for its longer lines makes the total worse, not better. The full trade is at `EDITION-SHAPE.md` §6b.
 
 ## Build
 
 ```
-python3.11 tools/transcript2tex.py            # whole-volume mirror + prototypes/fragments/
-python3.11 tools/transcript2tex.py --part 1   # Part I only
-python3.11 tools/transcript2tex.py --fit      # page-fit report for the last build
-cd prototypes && xelatex volume-mirror.tex    # likewise proto-a-stacked, -b-, -c-
+python3.11 tools/transcript2tex.py                  # the edition + prototypes/fragments/
+python3.11 tools/transcript2tex.py --part 1         # Part I only
+python3.11 tools/transcript2tex.py --fit            # fit report for the last build
+python3.11 tools/transcript2tex.py --layout mirror  # prototype B, for comparison
+python3.11 tools/measure_lines.py                   # turned lines, both layouts
+cd prototypes && xelatex volume-loeb.tex            # likewise proto-a-stacked, -b-, -c-
 ```
 
 Requires: TeX Live + user-mode packages `paracol bidi zref auxhook` (installed 2026-07-16 into `~/Library/texmf` from the frozen TL2025 repo — system tlmgr can't cross-install from the 2026 CTAN), Cardo font. Hebrew via `bidi`'s `\RL{}` (xelatex does not auto-bidi).
