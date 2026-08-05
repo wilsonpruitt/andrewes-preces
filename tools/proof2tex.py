@@ -48,6 +48,8 @@ SPACE_EM = 0.3
 HEBREW = re.compile(r"[\u0590-\u05ff][\u0590-\u05ff\s]*[\u0590-\u05ff]|[\u0590-\u05ff]")
 COMMENT = re.compile(r"<!--.*?-->")
 MARKER = re.compile(r"<!--\s*printed\s+(\d+)")
+GREEK_CH = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff]")
+LATIN_CH = re.compile(r"[A-Za-z]")
 GAP = re.compile(r"(?<=\S)( {2,})(?=\S)")
 # Every file ends with an apparatus section ("## Translator's flags", "## Transcription
 # notes", ...). It is editorial prose, NOT page text, and must never be flowed into the
@@ -106,28 +108,47 @@ def render_block(lines):
     return "\n".join(out)
 
 
+def layer_of(lines, marker: str) -> str:
+    """Which layer a printed page belongs to.
+
+    Decided from the page's own SCRIPT, not from the marker's prose. The marker
+    is unreliable in both directions: most of Part II carries no layer word at
+    all, and the words that do appear are often descriptive ("Greek, with Latin
+    connectives", "one Latin line, then Greek"), so any substring test reads
+    them backwards. Counting characters agrees with Part I's verso/recto rule on
+    all 263 of its pages, and Greek versos stay Greek despite their Latin
+    scripture tags because the tags are a few words against a page of Greek.
+    The marker only breaks a tie (an empty block, or a bare title page).
+    """
+    text = "\n".join(lines)
+    gr, la = len(GREEK_CH.findall(text)), len(LATIN_CH.findall(text))
+    if gr != la:
+        return "gr" if gr > la else "la"
+    low = marker.lower()
+    return "en" if "english" in low else "la" if "latin" in low else "gr"
+
+
 def parse_pages(path: Path):
     """printed page number -> (layer, lines). layer in {gr, la, en}."""
-    blocks, cur = {}, None
+    blocks, markers, cur = {}, {}, None
     for raw in path.read_text().splitlines():
         if APPARATUS.match(raw):
             break
         m = MARKER.match(raw.strip())
         if m:
             cur = int(m.group(1))
-            low = raw.lower()
-            layer = "en" if "english" in low else "la" if "latin" in low else "gr"
             # A page can be marked twice in one file (a section opening or closing
             # mid-page). Continue the block; never start it over — overwriting drops
             # the page's real text.
             if cur in blocks:
-                blocks[cur][1].append("")
+                blocks[cur].append("")
             else:
-                blocks[cur] = (layer, [])
+                blocks[cur] = []
+                markers[cur] = raw
             continue
         if cur is not None:
-            blocks[cur][1].append(raw)
-    return blocks
+            blocks[cur].append(raw)
+    return {n: (layer_of(ls, markers[n]), ls) for n, ls in blocks.items()}
 
 
 def section_label(part: int, stem: str, transcript: Path) -> str:
