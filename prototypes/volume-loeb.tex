@@ -2626,6 +2626,12 @@
 \enleaf{436}{\input{fragments/en436}}{}
 \clearpage
 
+\backmatter
+% Plain style: the fancy heads carry the 1853 shoulder-note in \rightmark, which
+% the back matter has no use for and would otherwise fight with its own \markboth.
+\pagestyle{plain}
+\input{back/sources}
+
 \clearpage
 \immediate\closeout\fitfile
 \end{document}

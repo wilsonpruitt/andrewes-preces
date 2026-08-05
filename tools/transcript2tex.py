@@ -489,6 +489,12 @@ TEMPLATE = r"""% The 1675 mirror — Greek verso, Latin recto, English register 
 
 %%BODY%%
 
+\backmatter
+% Plain style: the fancy heads carry the 1853 shoulder-note in \rightmark, which
+% the back matter has no use for and would otherwise fight with its own \markboth.
+\pagestyle{plain}
+\input{back/sources}
+
 \clearpage
 \immediate\closeout\fitfile
 \end{document}
@@ -613,6 +619,12 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
 \pagestyle{fancy}
 
 %%BODY%%
+
+\backmatter
+% Plain style: the fancy heads carry the 1853 shoulder-note in \rightmark, which
+% the back matter has no use for and would otherwise fight with its own \markboth.
+\pagestyle{plain}
+\input{back/sources}
 
 \clearpage
 \immediate\closeout\fitfile
