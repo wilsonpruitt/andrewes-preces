@@ -120,6 +120,30 @@ Book A's real risk is **page-fit**, and it is not small. Book B's real risk is *
 
 ---
 
+## ⚠⚠ 6a. Page-fit MEASURED, 2026-08-04 — and the risk is not where §6 put it
+
+`transcript2tex.py` now builds the mirror for the whole volume, one edition leaf per 1853 page, and instruments every leaf so overflow is counted rather than guessed (`--fit`). The result is lopsided, and it is the most useful thing this session produced:
+
+| | printed pages | overflow their leaf |
+|---|---|---|
+| **Part I** — Greek verso, Latin recto, English split across the spread's two feet | 263 | **2** (printed 256, 257) |
+| **Part II** — single language, English register beneath it | 129 | **95** |
+| **Part III** — single language, English register beneath it | 39 | **33** |
+
+**Every one of the 128 Part II–III overflows carries an English register, none of them lacks one, and every one needs exactly one extra leaf.** Set the same 168 pages with the originals alone and the overflow is **0 of 168** — the printed pages themselves fit perfectly; the register is precisely the excess.
+
+**So the mirror's economy was never about fitting a page. It was about having a facing page to spend.** Part I can carry a full English translation because the Greek verso only pays for half of it and the Latin recto pays the rest. Parts II and III are one language on one page, so there is no facing leaf, and the register has nowhere to go. This is structural, not typographic: no leading, size, or measure will absorb it, and shrinking the register to make it fit would be the one thing §8 forbids.
+
+**⚠ This bears directly on the §5 options, and it was not known when they were written.** Book A is *not* uniformly cheap: Part I is nearly done fitting (2 pages to solve), while Parts II–III need a layout decision that does not yet exist. The three shapes, none of them chosen here:
+
+- **(a) Facing-page English for II–III** — printed page verso, its English recto. Costs ~168 extra leaves and, more seriously, **the folio can no longer be the 1853's own**, which is Book A's whole conceit.
+- **(b) Let a page run to two leaves in II–III** — cheapest, and honest, but the book then keeps a one-page-one-leaf promise for 263 pages and quietly breaks it for 168.
+- **(c) Book A carries the originals only in II–III**, and their English lives in Book B. Fits today, 0 overflow, and makes Book B *load-bearing* rather than optional — which is the opposite of §7's recommendation.
+
+**Recommendation withheld deliberately.** (c) changes what §7 concluded, and that is Wilson's call, not a build artefact's.
+
+---
+
 ## 7. Recommendation
 
 ⚠ **This section was written before Brightman was checked and has been revised down. The earlier version claimed four differentiators for Book B; §4a killed two of them.**
