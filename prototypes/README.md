@@ -15,7 +15,7 @@ Two whole-volume builds now exist, from the same parser and the same renderer:
 | PDF | Built by | What it is |
 |---|---|---|
 | `volume-proof.pdf` | `tools/proof2tex.py` | 608pp **proofing copy** — continuous flow, printed order, every page's original with its English beneath. Not the edition. |
-| `volume-loeb.pdf` | `tools/transcript2tex.py` | 604pp — **THE EDITION LAYOUT**, ruled 2026-08-05. Originals verso, English recto; Part I's Greek and Latin share a leaf in two columns. The edition's own folios, 1853 page as a shoulder-note. |
+| `volume-loeb.pdf` | `tools/transcript2tex.py` | 613pp — **THE EDITION LAYOUT**, ruled 2026-08-05. Originals verso, English recto; Part I's Greek and Latin share a leaf in two columns. Front matter (half-title, title, colophon, contents, preface) in roman, then the text. The edition's own folios, 1853 page as a shoulder-note. |
 | `volume-mirror.pdf` | `… --layout mirror` | 566pp — prototype B, the 1675 mirror. **Not the edition**; kept because it is what the Loeb was measured against, and because Part I's mirror is still the truest picture of the 1853's own page. |
 
 **Why the Loeb cannot desynchronise:** nothing depends on a page facing its own translation. Originals are always verso, English always recto, so a unit that runs long takes two spreads and the alternation is untouched — 0 of 596 units are too tall for their leaf. The mirror, by contrast, stakes verso/recto on every page fitting: `\versoalign` holds its register at a cost of one blank leaf, and printed 256 and 257 stay spoilt.
@@ -32,7 +32,7 @@ python3.11 tools/transcript2tex.py --part 1         # Part I only
 python3.11 tools/transcript2tex.py --fit            # fit report for the last build
 python3.11 tools/transcript2tex.py --layout mirror  # prototype B, for comparison
 python3.11 tools/measure_lines.py                   # turned lines, both layouts
-cd prototypes && xelatex volume-loeb.tex            # likewise proto-a-stacked, -b-, -c-
+cd prototypes && xelatex volume-loeb.tex            # TWICE — the contents page needs two passes
 ```
 
 Requires: TeX Live + user-mode packages `paracol bidi zref auxhook` (installed 2026-07-16 into `~/Library/texmf` from the frozen TL2025 repo — system tlmgr can't cross-install from the 2026 CTAN), Cardo font. Hebrew via `bidi`'s `\RL{}` (xelatex does not auto-bidi).

@@ -11,3 +11,4 @@ tools/__pycache__/
 *.fit
 prototypes/lines.dat
 prototypes/measure-lines.tex
+*.toc

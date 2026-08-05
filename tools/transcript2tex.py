@@ -66,6 +66,12 @@ SPLITS = {
     ("gr", 42): "סיג", ("la", 43): "SEPES", ("en", 42): "סיג",
 }
 
+# Leaves the 1853 sets as DISPLAY, not as running text. Both are named in the
+# transcripts' own page markers ("bilingual half-title", "the epigraph page facing
+# the section-opener"); grep the markers before adding to this list, rather than
+# guessing from a page's length.
+DISPLAY = {1: "title", 398: "epigraph"}
+
 FIT = re.compile(r"^([SEB])\s+(\d+)(?:\s+(\d+))?\s*$")
 HGT = re.compile(r"^H\s+([OE])\s+(\d+)\s+([\d.]+)pt\s*$")
 TEXTHEIGHT = re.compile(r"^T\s+([\d.]+)pt\s*$")
@@ -197,7 +203,8 @@ def leaf(n: int, slot, en_frag: str | None, body_frag: str | None, verso=False):
     return out
 
 
-def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None, single=False):
+def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None,
+              single=False, toc: str | None = None):
     """One Loeb unit: originals on the verso, the full English on the recto.
 
     The unit is the 1853 OPENING in Part I — Greek and Latin side by side on one
@@ -212,8 +219,16 @@ def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None, single=Fal
     Measuring the box is the only honest instrument here.
     """
     out = [r"\versoalign", r"\markright{%d}" % n]
-    if single:
-        out.append(r"\originalsone{%d}{\input{fragments/%s}}" % (n, gr or la))
+    if toc:
+        # After the page break, so the entry records the leaf the section opens on.
+        out.append(r"\addcontentsline{toc}{section}{%s}" % toc)
+    mode = DISPLAY.get(n)
+    if mode == "title":
+        out.append(r"\titleleaf{%d}{\input{fragments/%s}%s}" % (
+            n, gr, r"\parasep\input{fragments/%s}" % la if la else ""))
+    elif single:
+        out.append(r"\originalsone{%d}{\input{fragments/%s}}{%s}"
+                   % (n, gr or la, mode or ""))
     else:
         out.append(r"\originals{%d}{%s}{%s}" % (
             n,
@@ -222,7 +237,11 @@ def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None, single=Fal
     out.append(r"\clearpage")
     if en:
         out.append(r"\markright{%d}" % n)
-        out.append(r"\enleaf{%d}{\input{fragments/%s}}" % (n, en))
+        if mode == "title":
+            out.append(r"\titleleaf{%d}{\input{fragments/%s}}" % (n, en))
+        else:
+            out.append(r"\enleaf{%d}{\input{fragments/%s}}{%s}"
+                       % (n, en, mode or ""))
         out.append(r"\clearpage")
     return out
 
@@ -238,9 +257,13 @@ def build_loeb(parts, pages, have):
             part_seen = slot["part"]
             label_seen = None
             body.append(r"\parthead{%s}" % PART_TITLES[part_seen])
+        toc = None
         if slot["label"] != label_seen:
             label_seen = slot["label"]
             body.append(r"\sethead{%s}" % tex_inline(short_label(label_seen)))
+            # The head has one line; the contents page has a whole measure, so it
+            # gets the section's real title rather than the truncated one.
+            toc = tex_inline(label_seen)
 
         def frag(name):
             return name if name in have else None
@@ -253,12 +276,12 @@ def build_loeb(parts, pages, have):
         if paired:
             body += [r"%% ---------- opening %d | %d ----------" % (n, n + 1)]
             body += loeb_unit(n, frag(f"gr{n:03d}"), frag(f"la{n + 1:03d}"),
-                              frag(f"en{n:03d}"))
+                              frag(f"en{n:03d}"), toc=toc)
             skip.add(n + 1)
         else:
             body += [r"%% ---------- printed %d ----------" % n]
             body += loeb_unit(n, frag(f"{slot['layer']}{n:03d}"), None,
-                              frag(f"en{n:03d}"), single=True)
+                              frag(f"en{n:03d}"), single=True, toc=toc)
     return "\n".join(body)
 
 
@@ -389,8 +412,12 @@ def main():
     scope = "The whole volume" if len(parts) > 1 else PART_TITLES[parts[0]]
     template = LOEB_TEMPLATE if args.layout == "loeb" else TEMPLATE
     driver = build_loeb if args.layout == "loeb" else build_driver
+    scope_line = ("" if len(parts) > 1 else
+                  r"\\[3em]{\small\scshape %s}"
+                  % scope.replace("---", "\\textemdash{}"))
     doc = (template
            .replace("%%SCOPE%%", scope.replace("---", "\\textemdash{}"))
+           .replace("%%SCOPELINE%%", scope_line)
            .replace("%%BODY%%", driver(parts, pages, have)))
     (OUT_DIR / f"{name}.tex").write_text(doc)
     print(f"wrote {name}.tex and {len(have)} fragments "
@@ -474,6 +501,7 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
 \documentclass[10pt,twoside]{book}
 \input{preamble}
 \usepackage{fancyhdr}
+\usepackage{ifthen}
 \setlength{\headheight}{14pt}
 
 \newcommand{\headL}{ΕΥΧΑΙ ΚΑΘΗΜΕΡΙΝΑΙ.\ $\cdot$\ PRECES QUOTIDIANÆ.}
@@ -487,6 +515,7 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
 \renewcommand{\headrulewidth}{0pt}
 
 \newcommand{\parthead}[1]{\clearpage\thispagestyle{empty}\vspace*{2.2in}%
+  \addcontentsline{toc}{part}{#1}%
   {\centering\Huge\scshape #1\par}\clearpage}
 
 \newwrite\fitfile
@@ -509,27 +538,79 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
     \end{minipage}\par}%
   \immediate\write\fitfile{H O #1 \the\ht0}\box0}
 
-\newcommand{\originalsone}[2]{%
+\newcommand{\originalsone}[3]{%
   \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}#2}%
-  \immediate\write\fitfile{H O #1 \the\ht0}\box0}
+  \immediate\write\fitfile{H O #1 \the\ht0}%
+  \ifthenelse{\equal{#3}{epigraph}}{\dropto{0.16}\box0}{\box0}}
 
-\newcommand{\enleaf}[2]{%
+\newcommand{\enleaf}[3]{%
   \setbox0=\vbox{\hsize=\textwidth\small#2}%
-  \immediate\write\fitfile{H E #1 \the\ht0}\box0}
+  \immediate\write\fitfile{H E #1 \the\ht0}%
+  \ifthenelse{\equal{#3}{epigraph}}{\dropto{0.16}\box0}{\box0}}
+
+% Place a display block a fixed way down the leaf. NOT \vfil: the preamble sets
+% \raggedbottom, whose own bottom glue competes with any \vfil pair and lands the
+% block about a third of the way down by accident. A title page sits where it is
+% put, so put it.
+\newcommand{\dropto}[1]{\vspace*{#1\textheight}}
+
+% A leaf composed as one box of exactly the text height, so \vfill inside it
+% divides the leaf instead of competing with \raggedbottom's bottom glue.
+\newcommand{\fullleaf}[1]{\thispagestyle{empty}%
+  \vbox to \textheight{#1}\clearpage}
+
+% A display leaf: the 1853's own title and half-title pages, which are not running
+% text and must not be set as though they were. \pl is redefined to drop its
+% indent and centre, so the fragment renders as the page it is.
+\newcommand{\titleleaf}[2]{\thispagestyle{empty}%
+  \dropto{0.28}%
+  \begingroup\centering
+    \renewcommand{\parasep}{\par\vspace{2.4\baselineskip}}%
+    \renewcommand{\pl}[2]{\par{\Large\scshape ##2}}%
+    #2\par
+  \endgroup}
 
 \begin{document}
-\thispagestyle{empty}
-\vspace*{2in}
-{\centering
-{\Huge Preces Privatae}\\[0.6em]
-{\large Lancelot Andrewes}\\[2em]
-{\itshape %%SCOPE%% --- originals facing English}\\[0.5em]
-{\small Greek and Latin side by side on the left page,}\\
-{\small the English translation on the full right page.}\\[0.5em]
-{\small The edition's own folios, with the 1853 page in the inner margin.}\par}
-\clearpage
-\setcounter{page}{1}
+\frontmatter
+\pagestyle{plain}
 \immediate\write\fitfile{T \the\textheight}
+
+% half-title
+\fullleaf{\vspace*{0.30\textheight}
+  {\centering{\LARGE\scshape Preces Privatae}\par}\vfill}
+\fullleaf{}
+
+% title page
+\fullleaf{\vspace*{0.14\textheight}
+  {\centering
+  {\Huge\scshape Preces Privatae}\\[0.35em]
+  {\large\itshape Private Prayers}\\[2.4em]
+  {\Large Lancelot Andrewes}\\[0.6em]
+  {\small\itshape Bishop of Winchester, 1555--1626}\\[3em]
+  {\small Greek, Latin and Hebrew as printed in the}\\
+  {\small edition of J.\,H. Parker, Oxford, 1853,}\\
+  {\small reprinting the Sheldonian text of 1675,}\\[0.5em]
+  {\small with a new English translation}%%SCOPELINE%%\par}
+  \vfill
+  {\centering\small\scshape Wroot Press\par}}
+
+% colophon
+\fullleaf{\vfill
+  {\raggedright\footnotesize
+  The Greek, Latin and Hebrew are transcribed from the 1853 Parker
+  edition, which is in the public domain.\par\medskip
+  The English translation, the apparatus and the editorial matter are
+  \copyright{} Wroot Press, and are issued under a Creative Commons
+  Attribution\,--\,NonCommercial 4.0 licence.\par\medskip
+  Set in Cardo.\par}}
+
+\tableofcontents
+\clearpage
+
+\input{front/preface}
+
+\mainmatter
+\pagestyle{fancy}
 
 %%BODY%%
 
