@@ -9,3 +9,5 @@ site/src/data/content.json
 prototypes/fragments/
 tools/__pycache__/
 *.fit
+prototypes/lines.dat
+prototypes/measure-lines.tex

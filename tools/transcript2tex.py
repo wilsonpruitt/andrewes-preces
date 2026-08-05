@@ -59,6 +59,8 @@ SPLITS = {
 }
 
 FIT = re.compile(r"^([SEB])\s+(\d+)(?:\s+(\d+))?\s*$")
+HGT = re.compile(r"^H\s+([OE])\s+(\d+)\s+([\d.]+)pt\s*$")
+TEXTHEIGHT = re.compile(r"^T\s+([\d.]+)pt\s*$")
 
 
 def volume_pages(parts):
@@ -187,6 +189,71 @@ def leaf(n: int, slot, en_frag: str | None, body_frag: str | None, verso=False):
     return out
 
 
+def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None, single=False):
+    """One Loeb unit: originals on the verso, the full English on the recto.
+
+    The unit is the 1853 OPENING in Part I — Greek and Latin side by side on one
+    leaf, which is why the layout costs no more extent than the mirror despite
+    giving English a whole page. In Parts II--III there is one language, so the
+    verso is a single full-width column and the same structure serves all three
+    parts, where the mirror needed two.
+
+    Originals are boxed before they are set, and the box's height is written out,
+    because a minipage does not break across leaves — it silently overruns, and
+    \\fitstart/\\fitend would both land on the same page and report no overflow.
+    Measuring the box is the only honest instrument here.
+    """
+    out = [r"\versoalign", r"\markright{%d}" % n]
+    if single:
+        out.append(r"\originalsone{%d}{\input{fragments/%s}}" % (n, gr or la))
+    else:
+        out.append(r"\originals{%d}{%s}{%s}" % (
+            n,
+            r"\input{fragments/%s}" % gr if gr else "",
+            r"\input{fragments/%s}" % la if la else ""))
+    out.append(r"\clearpage")
+    if en:
+        out.append(r"\markright{%d}" % n)
+        out.append(r"\enleaf{%d}{\input{fragments/%s}}" % (n, en))
+        out.append(r"\clearpage")
+    return out
+
+
+def build_loeb(parts, pages, have):
+    body, part_seen, label_seen = [], None, None
+    skip = set()
+    for n in sorted(pages):
+        if n in skip:
+            continue
+        slot = pages[n]
+        if slot["part"] != part_seen:
+            part_seen = slot["part"]
+            label_seen = None
+            body.append(r"\parthead{%s}" % PART_TITLES[part_seen])
+        if slot["label"] != label_seen:
+            label_seen = slot["label"]
+            body.append(r"\sethead{%s}" % tex_inline(short_label(label_seen)))
+
+        def frag(name):
+            return name if name in have else None
+
+        recto = pages.get(n + 1)
+        paired = (
+            slot["part"] == 1 and slot["layer"] == "gr" and n % 2 == 0
+            and recto and recto["layer"] == "la" and recto["part"] == 1
+        )
+        if paired:
+            body += [r"%% ---------- opening %d | %d ----------" % (n, n + 1)]
+            body += loeb_unit(n, frag(f"gr{n:03d}"), frag(f"la{n + 1:03d}"),
+                              frag(f"en{n:03d}"))
+            skip.add(n + 1)
+        else:
+            body += [r"%% ---------- printed %d ----------" % n]
+            body += loeb_unit(n, frag(f"{slot['layer']}{n:03d}"), None,
+                              frag(f"en{n:03d}"), single=True)
+    return "\n".join(body)
+
+
 def build_driver(parts, pages, have):
     body, part_seen, label_seen = [], None, None
     ordered = sorted(pages)
@@ -254,25 +321,68 @@ def report_fit(name: str):
     return over
 
 
+def report_loeb(name: str):
+    """A minipage overruns silently, so the Loeb is judged on measured heights:
+    how many units are too tall for a leaf, and by how much."""
+    path = OUT_DIR / f"{name}.fit"
+    if not path.exists():
+        raise SystemExit(f"no fit record at {path} — build {name}.tex first")
+    avail, heights, blanks = None, {"O": {}, "E": {}}, 0
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        m = TEXTHEIGHT.match(line)
+        if m:
+            avail = float(m.group(1))
+            continue
+        m = HGT.match(line)
+        if m:
+            heights[m.group(1)][int(m.group(2))] = float(m.group(3))
+            continue
+        if line.startswith("B "):
+            blanks += 1
+    if avail is None:
+        raise SystemExit("no \\textheight recorded — rebuild")
+
+    print(f"leaf holds {avail:.0f}pt")
+    for key, what in [("O", "originals (verso)"), ("E", "English (recto)")]:
+        hs = heights[key]
+        over = sorted((n for n, h in hs.items() if h > avail),
+                      key=lambda n: -hs[n])
+        worst = f", worst printed {over[0]} at {hs[over[0]]:.0f}pt" if over else ""
+        print(f"  {len(hs):>3} {what}: {len(over)} too tall for their leaf{worst}")
+        if over:
+            print("      " + ", ".join(str(n) for n in sorted(over)[:24])
+                  + (" …" if len(over) > 24 else ""))
+    print(f"  {blanks} blank leaves spent keeping originals on the verso")
+    return heights
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--part", default="all", choices=["1", "2", "3", "all"])
+    ap.add_argument("--layout", default="mirror", choices=["mirror", "loeb"],
+                    help="mirror = prototype B (default); loeb = prototype C")
     ap.add_argument("--fit", nargs="?", const=True, default=False,
                     help="report the last build's page fitting instead of building")
     args = ap.parse_args()
 
     parts = [1, 2, 3] if args.part == "all" else [int(args.part)]
-    name = "volume-mirror" if args.part == "all" else f"part{args.part}-mirror"
+    stem = "volume" if args.part == "all" else f"part{args.part}"
+    name = f"{stem}-{args.layout}"
     if args.fit:
-        report_fit(name if args.fit is True else f"part{args.fit}-mirror")
+        if args.fit is not True:
+            name = f"part{args.fit}-{args.layout}"
+        (report_loeb if args.layout == "loeb" else report_fit)(name)
         return
 
     pages = volume_pages(parts)
     have = emit_fragments(pages)
     scope = "The whole volume" if len(parts) > 1 else PART_TITLES[parts[0]]
-    doc = (TEMPLATE
+    template = LOEB_TEMPLATE if args.layout == "loeb" else TEMPLATE
+    driver = build_loeb if args.layout == "loeb" else build_driver
+    doc = (template
            .replace("%%SCOPE%%", scope.replace("---", "\\textemdash{}"))
-           .replace("%%BODY%%", build_driver(parts, pages, have)))
+           .replace("%%BODY%%", driver(parts, pages, have)))
     (OUT_DIR / f"{name}.tex").write_text(doc)
     print(f"wrote {name}.tex and {len(have)} fragments "
           f"({len(pages)} printed pages, "
@@ -340,6 +450,77 @@ TEMPLATE = r"""% The 1675 mirror — Greek verso, Latin recto, English register 
 {\small The edition's own folios, with the 1853 page in the inner margin.}\par}
 \clearpage
 \setcounter{page}{1}
+
+%%BODY%%
+
+\clearpage
+\immediate\closeout\fitfile
+\end{document}
+"""
+
+
+
+LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English recto.
+% Auto-generated by tools/transcript2tex.py --layout loeb.
+\documentclass[10pt,twoside]{book}
+\input{preamble}
+\usepackage{fancyhdr}
+\setlength{\headheight}{14pt}
+
+\newcommand{\headL}{ΕΥΧΑΙ ΚΑΘΗΜΕΡΙΝΑΙ.\ $\cdot$\ PRECES QUOTIDIANÆ.}
+\newcommand{\headR}{THE DAILY PRAYERS.}
+\newcommand{\sethead}[1]{\renewcommand{\headL}{#1}\renewcommand{\headR}{#1}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[CE]{\small\headL}
+\fancyhead[CO]{\small\headR}
+\fancyhead[LE,RO]{\small\thepage}
+\fancyhead[RE,LO]{\footnotesize\color{rulegray}[\,\rightmark\,]}
+\renewcommand{\headrulewidth}{0pt}
+
+\newcommand{\parthead}[1]{\clearpage\thispagestyle{empty}\vspace*{2.2in}%
+  {\centering\Huge\scshape #1\par}\clearpage}
+
+\newwrite\fitfile
+\immediate\openout\fitfile=\jobname.fit
+\newcommand{\versoalign}{\clearpage
+  \ifodd\value{page}
+    \null\thispagestyle{empty}\write\fitfile{B \thepage}\clearpage
+  \fi}
+
+% A minipage cannot break across leaves: it overruns in silence. So every unit is
+% boxed, its height written out, and only then set — python compares the height
+% against \textheight. This is the measurement the mirror got from page marks.
+\newcommand{\originals}[3]{%
+  \setbox0=\vbox{\noindent
+    \begin{minipage}[t]{0.485\textwidth}
+      \footnotesize\setlength{\plhang}{1.5em}#2
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.485\textwidth}
+      \footnotesize\setlength{\plhang}{1.5em}#3
+    \end{minipage}\par}%
+  \immediate\write\fitfile{H O #1 \the\ht0}\box0}
+
+\newcommand{\originalsone}[2]{%
+  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}#2}%
+  \immediate\write\fitfile{H O #1 \the\ht0}\box0}
+
+\newcommand{\enleaf}[2]{%
+  \setbox0=\vbox{\hsize=\textwidth\small#2}%
+  \immediate\write\fitfile{H E #1 \the\ht0}\box0}
+
+\begin{document}
+\thispagestyle{empty}
+\vspace*{2in}
+{\centering
+{\Huge Preces Privatae}\\[0.6em]
+{\large Lancelot Andrewes}\\[2em]
+{\itshape %%SCOPE%% --- originals facing English}\\[0.5em]
+{\small Greek and Latin side by side on the left page,}\\
+{\small the English translation on the full right page.}\\[0.5em]
+{\small The edition's own folios, with the 1853 page in the inner margin.}\par}
+\clearpage
+\setcounter{page}{1}
+\immediate\write\fitfile{T \the\textheight}
 
 %%BODY%%
 

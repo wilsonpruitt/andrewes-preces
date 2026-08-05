@@ -158,6 +158,33 @@ What it buys: **English is one thing throughout the book** (an italic register a
 
 ---
 
+## ⚠⚠ 6b. Prototype C re-tried at volume scale, 2026-08-05 — and it is cleaner, at one price
+
+Wilson's instinct after seeing the mirror's fit numbers: *it gets messy in both directions; the Loeb stayed so much cleaner with page splits.* Built (`--layout loeb`, `prototypes/volume-loeb.pdf`) and measured, it does.
+
+**Why it cannot get messy, structurally:** the unit is the 1853 *opening*, always originals-verso and English-recto. A unit that runs long takes two spreads and the alternation is unchanged, because nothing depends on a page facing its own translation — whereas the mirror stakes the verso/recto relationship on each page fitting. And it is **one structure for all three parts**, where the mirror needs two (a true mirror for Part I, a register for II–III).
+
+| | **mirror** (prototype B) | **Loeb** (prototype C) |
+|---|---|---|
+| Leaves, whole volume | 566 | **604** (+38, +6.7%) |
+| Units too tall for their leaf | 130 second leaves; **2 spoilt Part I spreads** | **0, anywhere** |
+| Blank leaves spent on alignment | 1 | 4 |
+| Structures needed | 2 | **1** |
+| English | italic register at the foot, `\footnotesize`, mechanically halved across the spread | **a full page of its own, `\small`, uncut** |
+| Sense-lines that turn | **62 of 11,045 (0.6%)** | 870 of 11,045 (7.9%) |
+
+**The price is Part I, and only Part I: 839 of its 6,759 lines turn (12.4%) against 23 (0.3%) in the mirror.** Parts II–III actually turn *fewer* lines in the Loeb than the mirror (0.9% and 0.1% against 1.1% and 0.2%), because they get the full measure at `\footnotesize` instead of `\small`.
+
+⚠ **The price cannot be tuned away.** The Latin column turns more than the Greek (14.0% against 10.8%), so widening the Greek for its longer lines makes the total worse, not better — 0.52/0.45 gives 13.2% and 0.55/0.42 gives 15.1%, against 12.4% for equal columns. Only dropping to `\scriptsize` halves it (5.2%), and that is roughly 7pt in a book meant to be prayed from. Measured by `tools/measure_lines.py`, which re-runs the whole comparison.
+
+**How much does a turned line actually cost?** Less than it sounds. **The 1853 turns lines itself** — CONVENTIONS keeps its printer's turned-line hyphens — so a turned line is not a broken parallel; the sense-line is still one unit, set in two rows with a hanging indent. The real question is density and dignity, not integrity: one line in eight turning is a visibly tighter, more scholarly page than one line in three hundred.
+
+**What the Loeb gives up beyond that:** the 1675 conceit itself. Compressing the 1853's opening onto a single leaf means the book no longer *looks* like the 1853, which is the thing §7's "empty lane" argument was partly selling.
+
+**Open — Wilson's call.** The shoulder-note ruling of §6a is layout-agnostic and stands either way.
+
+---
+
 ## 7. Recommendation
 
 ⚠ **This section was written before Brightman was checked and has been revised down. The earlier version claimed four differentiators for Book B; §4a killed two of them.**
