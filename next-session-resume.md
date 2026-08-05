@@ -2,7 +2,17 @@
 
 > **▶ READ [`BRIEF-finish-primary-and-apparatus.md`](BRIEF-finish-primary-and-apparatus.md) FIRST.** Its **Deliverable 1 (printed 431–436) is now DONE**; what stands is **Deliverable 2, the *Variae Lectiones* apparatus pass**, and with it **⚠ the Latin question** — the apparatus preface says the Greek-only apograph lacks the Latin *quam Editor ipse confecisse videtur*, which bears on the whole Prototype B mirror. **Surface it, do not act on it.** The brief also carries the decisive class-A test that can close the question, and the `apparatus/` file layout to produce.
 
-## ▶ CURRENT FRONT — **WILSON OWES ONE DECISION** (below), then the print engineering
+## ▶ CURRENT FRONT — **WILSON NOW OWES TWO DECISIONS**, and the second is new
+
+### ⚠⚠ NEW 2026-08-04 — the mirror is generalized to the whole volume, and it does not fit in Parts II–III
+
+`tools/transcript2tex.py` was Day-1-only; it now builds any part or the whole book (`prototypes/volume-mirror.pdf`, 565 leaves for 431 printed pages, folios are the 1853's own), imports its parser and renderer from `proof2tex.py` so the two page-loss fixes cannot live in one builder and not the other, and **instruments every leaf** — `python3.11 tools/transcript2tex.py --fit` names any printed page that ran past its leaf. Run it after every mirror build; arithmetic cannot see an overflow, and one overflow desynchronises verso from recto for the rest of the book.
+
+**The measurement, which is the session's real output:** Part I overflows on **2 of 263** pages (printed 256, 257). Parts II–III overflow on **128 of 168**. Every one of those 128 carries an English register and **none lacks one**; set the same 168 pages with the originals alone and **0 of 168** overflow. So the mirror's economy was never about fitting a page — it was about **having a facing page to spend**. Part I's Greek verso pays for half its English and the Latin recto pays the rest; Parts II–III are one language on one page and the register has nowhere to go. **Structural, not typographic** — no leading or measure absorbs it, and shrinking the register is the one thing §8 forbids.
+
+**⚠ Three shapes for II–III, laid out with their costs at [`EDITION-SHAPE.md`](EDITION-SHAPE.md) §6a; none chosen, and option (c) would reverse §7's recommendation.** Nothing was decided in the build. Also fixed en route: **33 printed pages carried the wrong language caption** in the proofing copy (the test matched the substring "latin" anywhere in a marker's prose, and Part II's unlabelled pages defaulted to Greek while being Latin); the page's own script now decides, which agrees with Part I's verso/recto rule on all 263 of its pages. Body TeX byte-identical, 608pp / 0 errors / 0 overfull unchanged.
+
+### The older decision, still unruled
 
 ## ✅✅ THE APPARATUS PASS IS DONE TOO (2026-08-03) — see `apparatus/`
 
