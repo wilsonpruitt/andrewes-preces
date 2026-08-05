@@ -16,16 +16,22 @@ Two structures, not one. **Part I is a true mirror**: printed 1 stands alone, th
 every Greek verso 2N faces its Latin recto 2N+1, and the English of the Greek page
 is split across the foot of the spread (h1 under the Greek, h2 under the Latin).
 **Parts II and III are not mirrored at all** — each printed page carries a single
-language and its own English register beneath it. The 1853 page number IS the
-edition's page number throughout, so verso/recto placement falls out of the
-pagination for free and the gaps (264--266, 396--397) stay gaps.
+language and its own English register beneath it.
 
-⚠ THE MIRROR'S ONE DISCIPLINE: a printed page must occupy exactly one typeset
-page. Overflow does not merely look wrong, it desynchronises verso from recto for
-everything after it. The driver instruments every page and writes a `.fit` file at
-shipout; `--fit` reads it back and names the pages that ran over. Nothing is
-silently scaled to make a page fit — that is a typesetting decision, not a
-scripting one.
+The edition carries ITS OWN continuous folios, and the 1853 page runs as a
+shoulder-note in the inner head of every leaf (Wilson's ruling, 2026-08-05; the
+reasoning is EDITION-SHAPE.md 6a). An earlier draft made the 1853 number the
+edition's number, which was elegant until a page ran to two leaves and printed a
+duplicate folio.
+
+⚠ THE MIRROR'S DISCIPLINE BELONGS TO PART I ALONE. There a printed page must
+occupy exactly one leaf, because overflow desynchronises verso from recto for
+everything after it; `\versoalign` forces every Greek page onto a left-hand leaf
+so the damage stops at the spoilt spread. Parts II--III have no facing page to
+fall out of, so a second leaf there is bulk, not damage. Every leaf is
+instrumented and `--fit` reads the record back; the line that matters is whether
+a Part I Greek page landed on a recto. Nothing is silently scaled to make a page
+fit — that is a typesetting decision, not a scripting one.
 
 Parsing and rendering are imported from proof2tex so the two builders cannot
 drift: both the apparatus cut-off (a trailing `## Translator's flags` must never
@@ -38,7 +44,7 @@ from pathlib import Path
 
 from proof2tex import (
     OUT_DIR, PART_TITLES, ROOT, parse_pages, render_block, render_line,
-    sections_for, tex_escape,
+    sections_for, tex_escape, tex_inline,
 )
 
 FRAG = OUT_DIR / "fragments"
@@ -52,7 +58,7 @@ SPLITS = {
     ("gr", 42): "סיג", ("la", 43): "SEPES", ("en", 42): "סיג",
 }
 
-FIT = re.compile(r"^([SE])\s+(\d+)\s+(\d+)\s*$")
+FIT = re.compile(r"^([SEB])\s+(\d+)(?:\s+(\d+))?\s*$")
 
 
 def volume_pages(parts):
@@ -148,9 +154,30 @@ def emit_fragments(pages):
     return have
 
 
-def leaf(n: int, slot, en_frag: str | None, body_frag: str | None):
-    """One edition page: the 1853 folio, its text, and an English register."""
-    out = [r"\clearpage\setcounter{page}{%d}" % n, r"\fitstart{%d}" % n]
+def short_label(label: str) -> str:
+    """A running head has one line. Part II's own headings run to 200 characters
+    (§41 names four works and a cross-reference), so the head keeps the section
+    number and its first named work and drops the rest."""
+    head = re.split(r"\s+[+·(\u2192]|\s+—\s+", label, maxsplit=1)[0].strip()
+    if len(head) > 58:
+        head = head[:57].rstrip() + "\u2026"
+    head = head.rstrip(" ,;:")
+    # Cutting mid-title can strand an opening italic marker, which then sets as a
+    # literal asterisk because the emphasis regex needs a pair. Close it.
+    return head + "*" if head.count("*") % 2 else head
+
+
+def leaf(n: int, slot, en_frag: str | None, body_frag: str | None, verso=False):
+    """One edition leaf: its 1853 shoulder-note, its text, and an English register.
+
+    `verso=True` forces the leaf onto a left-hand page, inserting a blank if the
+    count has drifted. Only Part I's Greek pages ask for it — that is where the
+    mirror lives — and it makes an overflow self-healing: the spread that ran over
+    is spoilt, but the book realigns at the next Greek page instead of staying
+    flipped for two hundred leaves.
+    """
+    out = [r"\versoalign" if verso else r"\clearpage",
+           r"\markright{%d}" % n, r"\fitstart{%d}" % n]
     if body_frag:
         out.append(r"{\small\input{fragments/%s}}" % body_frag)
     if en_frag:
@@ -174,7 +201,7 @@ def build_driver(parts, pages, have):
             body.append(r"\parthead{%s}" % PART_TITLES[part_seen])
         if slot["label"] != label_seen:
             label_seen = slot["label"]
-            body.append(r"\sethead{%s}" % tex_escape(label_seen))
+            body.append(r"\sethead{%s}" % tex_inline(short_label(label_seen)))
         recto = pages.get(n + 1)
         mirrored = (
             slot["part"] == 1 and slot["layer"] == "gr" and n % 2 == 0
@@ -185,7 +212,7 @@ def build_driver(parts, pages, have):
 
         if mirrored:
             body += [r"%% ---------- spread %d | %d ----------" % (n, n + 1)]
-            body += leaf(n, slot, frag(f"en{n:03d}-h1"), frag(f"gr{n:03d}"))
+            body += leaf(n, slot, frag(f"en{n:03d}-h1"), frag(f"gr{n:03d}"), verso=True)
             body += leaf(n + 1, recto, frag(f"en{n:03d}-h2"), frag(f"la{n + 1:03d}"))
             skip.add(n + 1)
         else:
@@ -197,17 +224,33 @@ def report_fit(name: str):
     path = OUT_DIR / f"{name}.fit"
     if not path.exists():
         raise SystemExit(f"no fit record at {path} — build {name}.tex first")
-    start, end = {}, {}
+    start, end, blanks = {}, {}, []
     for line in path.read_text().splitlines():
         m = FIT.match(line.strip())
-        if m:
+        if not m:
+            continue
+        if m.group(1) == "B":
+            blanks.append(int(m.group(2)))
+        else:
             (start if m.group(1) == "S" else end)[int(m.group(2))] = int(m.group(3))
     over = sorted(n for n in start if end.get(n, start[n]) != start[n])
-    print(f"{len(start)} printed pages set; {len(over)} overflow their leaf")
-    for n in over:
-        print(f"  printed {n}: starts on {start[n]}, ends on {end[n]}")
-    if not over:
-        print("mirror is in register — every printed page occupies exactly one leaf")
+    # Which printed pages are supposed to be Part I versos — the only leaves whose
+    # side carries meaning. Read from the sources, not assumed from parity.
+    versos = {n for n, slot in volume_pages([1]).items()
+              if slot["layer"] == "gr" and n % 2 == 0}
+    flipped = sorted(n for n in start if n in versos and start[n] % 2)
+
+    print(f"{len(start)} printed pages on {max(end.values(), default=0)} leaves")
+    print(f"  {len(over)} run to a second leaf: "
+          + (", ".join(str(n) for n in over) if over else "none"))
+    print(f"  {len(blanks)} blank leaves spent keeping Part I's Greek on a verso"
+          + (f" (after leaf {', '.join(str(b) for b in blanks)})" if blanks else ""))
+    # The mirror is the only place a second leaf costs more than paper.
+    print(f"  {len(flipped)} Part I Greek pages landed on a RECTO — the mirror is "
+          "broken there" if flipped else
+          "  the mirror holds: every Part I Greek page is on a verso")
+    for n in flipped:
+        print(f"    printed {n} on leaf {start[n]}")
     return over
 
 
@@ -229,7 +272,6 @@ def main():
     scope = "The whole volume" if len(parts) > 1 else PART_TITLES[parts[0]]
     doc = (TEMPLATE
            .replace("%%SCOPE%%", scope.replace("---", "\\textemdash{}"))
-           .replace("%%FIRST%%", str(min(pages)))
            .replace("%%BODY%%", build_driver(parts, pages, have)))
     (OUT_DIR / f"{name}.tex").write_text(doc)
     print(f"wrote {name}.tex and {len(have)} fragments "
@@ -238,7 +280,8 @@ def main():
 
 
 TEMPLATE = r"""% The 1675 mirror — Greek verso, Latin recto, English register at the foot.
-% Auto-generated by tools/transcript2tex.py. Page numbers ARE the 1853 numbers.
+% Auto-generated by tools/transcript2tex.py. The edition carries its OWN folios;
+% the 1853 page runs as a shoulder-note in the inner head of every leaf.
 \documentclass[10pt,twoside]{book}
 \input{preamble}
 \usepackage{fancyhdr}
@@ -251,20 +294,35 @@ TEMPLATE = r"""% The 1675 mirror — Greek verso, Latin recto, English register 
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[CE]{\small\headL}
 \fancyhead[CO]{\small\headR}
+% Outer: the edition's own folio. Inner: the 1853 page as a shoulder-note, so the
+% original pagination stays recoverable on every leaf without the edition having
+% to promise one leaf per 1853 page. \rightmark carries the FIRST mark on the
+% leaf, so a page that runs to two leaves keeps its own number on both.
 \fancyhead[LE,RO]{\small\thepage}
+\fancyhead[RE,LO]{\footnotesize\color{rulegray}[\,\rightmark\,]}
 \renewcommand{\headrulewidth}{0pt}
+
+% Force the next leaf to be a verso, and record the blank if one was spent.
+% After \clearpage the counter holds the number of the leaf about to be set: even
+% is a verso. So an ODD count means a blank must be spent to reach the left-hand
+% page.
+\newcommand{\versoalign}{\clearpage
+  \ifodd\value{page}
+    \null\thispagestyle{empty}\write\fitfile{B \thepage}\clearpage
+  \fi}
 
 % English register across the foot of the leaf
 \newcommand{\registerrule}{\par\vfill
   {\centering\color{rulegray}\rule{0.9\textwidth}{0.4pt}\par}\vspace{0.3\baselineskip}}
 
-% part divider — takes no folio of its own; the next leaf resets the counter
+% part divider
 \newcommand{\parthead}[1]{\clearpage\thispagestyle{empty}\vspace*{2.2in}%
   {\centering\Huge\scshape #1\par}\clearpage}
 
 % Fit instrumentation. \write is deferred to shipout, so \thepage records the
 % leaf the mark actually landed on: if a page's start and end differ, its text
-% overflowed and the mirror is out of register from there on.
+% ran to a second leaf. In Parts II--III that is now merely bulk; in Part I it
+% spoils a spread, and \versoalign recovers the alignment at the next Greek page.
 \newwrite\fitfile
 \immediate\openout\fitfile=\jobname.fit
 \newcommand{\fitstart}[1]{\write\fitfile{S #1 \thepage}}
@@ -279,7 +337,9 @@ TEMPLATE = r"""% The 1675 mirror — Greek verso, Latin recto, English register 
 {\itshape %%SCOPE%% --- the 1675 mirror}\\[0.5em]
 {\small Greek verso, Latin recto, line for line as the 1853 edition;}\\
 {\small the English translation runs as a register across the foot.}\\[0.5em]
-{\small Folios are the 1853 edition's own.}\par}
+{\small The edition's own folios, with the 1853 page in the inner margin.}\par}
+\clearpage
+\setcounter{page}{1}
 
 %%BODY%%
 

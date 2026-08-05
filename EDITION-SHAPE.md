@@ -140,7 +140,21 @@ Book A's real risk is **page-fit**, and it is not small. Book B's real risk is *
 - **(b) Let a page run to two leaves in II–III** — cheapest, and honest, but the book then keeps a one-page-one-leaf promise for 263 pages and quietly breaks it for 168.
 - **(c) Book A carries the originals only in II–III**, and their English lives in Book B. Fits today, 0 overflow, and makes Book B *load-bearing* rather than optional — which is the opposite of §7's recommendation.
 
-**Recommendation withheld deliberately.** (c) changes what §7 concluded, and that is Wilson's call, not a build artefact's.
+### ✅ RULED by Wilson, 2026-08-05 — **(d), the shoulder-note shape**, and it is built
+
+None of (a)–(c). A fourth shape dissolves the constraint instead of paying for it: **the edition carries its own continuous folios, and the 1853 page number runs as a shoulder-note in the inner head of every leaf.**
+
+The correction that made it available: the "one printed page, one leaf" rule exists *because* an overflow desynchronises verso from recto — and **that is Part I's hazard alone.** Parts II–III have no facing-page relationship to fall out of, so a page there running to a second leaf costs paper and nothing else. What it actually cost was the *folio*, since forcing each leaf's number to the 1853's made a two-leaf page print a duplicate number. Shoulder-notes retire that problem everywhere at once.
+
+What it buys: **English is one thing throughout the book** (an italic register at the foot, never a facing page), **no extra leaves are bought** for II–III beyond the 128 the text itself needs, and **Book B stays optional** exactly as §7 wants. What it gives up is only the literal conceit that the edition's page number *is* the 1853's — and the shoulder-note keeps the original pagination recoverable on every single leaf, which is what the conceit was for.
+
+**Built and measured, same day** (`tools/transcript2tex.py`, `prototypes/volume-mirror.pdf`, 566 leaves):
+
+- **The mirror holds: every one of Part I's Greek pages lands on a verso.** A new `\versoalign` forces each Greek page to a left-hand leaf, so an overflow now spoils its own spread and the book **realigns at the next Greek page** instead of staying flipped for two hundred leaves. Total cost of that alignment across the volume: **one blank leaf**, at the very start.
+- Printed **256 and 257** still run to a second leaf and still want hand-fitting — they are the only two spreads in Part I that are actually spoilt.
+- The 128 Part II–III second leaves now stand as **bulk, not damage**.
+
+**Still to fix by hand, small:** 2 overfull boxes (1.4pt and 11.4pt), both in inline Greek brace catalogues — the placeholder `{ a / b }` rendering the real edition replaces with typeset braces anyway.
 
 ---
 

@@ -66,6 +66,17 @@ def tex_escape(s: str) -> str:
     return s
 
 
+def tex_inline(s: str) -> str:
+    """Escape a scrap of source prose and honour its markdown emphasis. Section
+    headings are written like the rest of the files (`§6 *Sacrificium Vespertinum*`),
+    so escaping alone sets the asterisks as literal characters — which is what all
+    49 Part II--III headings did."""
+    t = tex_escape(s)
+    t = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", t)
+    t = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", t)
+    return t
+
+
 def render_line(raw: str):
     """Return a rendered \\pl line, or None if the line is empty/comment-only."""
     line = COMMENT.sub("", raw).rstrip()
@@ -194,7 +205,7 @@ def build_part(part: int, body: list, stats: dict):
             pages.setdefault(n, {})["en"] = ls
         if not pages:
             continue
-        body.append(r"\sectionhead{%s}" % tex_escape(label))
+        body.append(r"\sectionhead{%s}" % tex_inline(label))
         for n in sorted(pages):
             slot = pages[n]
             for lay, name in [("gr", "Greek"), ("la", "Latin")]:

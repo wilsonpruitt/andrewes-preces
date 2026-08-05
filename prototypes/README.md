@@ -15,9 +15,11 @@ Two whole-volume builds now exist, from the same parser and the same renderer:
 | PDF | Built by | What it is |
 |---|---|---|
 | `volume-proof.pdf` | `tools/proof2tex.py` | 608pp **proofing copy** — continuous flow, printed order, every page's original with its English beneath. Not the edition. |
-| `volume-mirror.pdf` | `tools/transcript2tex.py` | 565pp **edition layout** — one leaf per 1853 page, folios are the 1853's own. `--part 1` for `part1-mirror.pdf`. |
+| `volume-mirror.pdf` | `tools/transcript2tex.py` | 566pp **edition layout** — the edition's own folios, with the 1853 page as a shoulder-note in the inner head of every leaf. `--part 1` for `part1-mirror.pdf`. |
 
-⚠ **The mirror's one discipline is that a printed page occupies exactly one leaf** — overflow desynchronises verso from recto for everything after it. Every leaf is instrumented; `python3.11 tools/transcript2tex.py --fit` reads the last build's `.fit` record and names the pages that ran over. **Part I overflows on 2 of 263 pages; Parts II–III on 128 of 168, and the register is the whole of the excess** — see `EDITION-SHAPE.md` §6a, which is a decision for Wilson, not a bug to fix.
+⚠ **The mirror's discipline belongs to Part I alone** — there, and only there, an overflow desynchronises verso from recto. `\versoalign` forces every Greek page onto a left-hand leaf, so an overflow spoils its own spread and the book realigns at the next one; the whole volume spends **one** blank leaf on that. Parts II–III have no facing page to fall out of, so their 128 second leaves are bulk, not damage.
+
+Every leaf is instrumented: `python3.11 tools/transcript2tex.py --fit` reads the last build's `.fit` record and reports second leaves, blanks spent, and — the one that matters — **any Part I Greek page that landed on a recto**. Currently none. Printed **256 and 257** are the two spreads still wanting hand-fitting. Shape ruled by Wilson 2026-08-05; see `EDITION-SHAPE.md` §6a.
 
 ## Build
 
