@@ -1375,3 +1375,27 @@ S: 23 Col. ii. 15 — *having spoiled principalities and powers, he made a shew 
 S: 24 Phil. iii. 10 — *that I may know him, and the power of his resurrection*
 R: 5 ⚠ **The prayer turns and the wounds change owner.** Through five members the wounded body has been forgiving; then *Et ego, Domine, vulneratus sum animâ* — and I too am wounded, in soul — and the same four dimensions Paul used of the love of Christ are set to measure the injury instead: *the multitude, the length, the breadth, the depth of them, from the head even to the heel.* The last clause is Isaiah's description of Israel, *from the sole of the foot even unto the head there is no soundness in it*, turned on the man praying. It ends *et per Tua sana mea* — **by Thy wounds heal mine** — which is the whole section in four words, and the reason the anatomy had to be kept exact on both sides.
 R: 16 **A plea offered by proxy: he asks Christ to present the Passion to the Father on his behalf.** Seven items are named — the death, the opened side, the blood and water, the begging of the body, the taking down, the burial in another's tomb, the three days — and then, rather than pleading them himself, *obsecro ut digneris hæc omnia pro me Patri Tuo offerre*. This is the *Allegatio*'s method (printed 291–299) handed over: the grounds are the same, but the advocate is now asked to make the argument. And what is added at the end is not an event but a motive — *the bitternesses which Thou didst suffer, the Love above all wherewith Thou didst suffer.*
+
+## 316
+S: 2 Acts i. 9 — *a cloud received him out of their sight*
+S: 3 Acts ii. 33 — Peter at Pentecost: *by the right hand of God exalted*
+S: 4 Eph. iv. 8 — *he led captivity captive, and gave gifts unto men*
+S: 5 Heb. vii. 25 — *he ever liveth to make intercession for them*
+S: 6 Acts i. 11 — the two men in white apparel: *shall so come in like manner*
+S: 15 Luke i. 35 — the Annunciation: *the power of the Highest shall overshadow thee*
+R: 9 ⚠ **A hymn set among the proof-texts, and quoted entire.** *Veni Creator Spiritus, mentes tuorum visita, imple superna gratia quæ Tu creasti pectora* is the first stanza of the ninth-century hymn — the hymn of Pentecost, and the one sung at the laying on of hands in every ordination Andrewes ever took part in. In a section that has proved every article out of Scripture, the confession of the Holy Spirit opens instead in the Church's own words. **Our English renders it as verse-shaped prose like everything else here, and does not import an existing English translation of the hymn**: the *Preces* is quoting a Latin text, and a familiar rendering would make the reader hear a hymnbook where the page has a prayer.
+R: 13 **The Spirit's history is given an Old Testament first, and it begins at the second verse of Genesis.** Before the visible coming, the brooding upon the waters — *the sending-forth* follows, and the whole Old Testament work is catalogued as its own brace before the New begins. ⚠ And a third register appears in the left margin from here: single words — **Shadow**, and its fellows below — naming the *mode* of each coming, as *Shame* and *Pain* named the members' sufferings at printed 313. They are the plate's, they are structural, and they must not be read as part of the line they stand against.
+
+## 317
+S: 3 Acts ii. 3, 4 — Pentecost: *cloven tongues like as of fire*
+S: 5 Acts iv. 31 — after Peter and John were let go: *the place was shaken where they were assembled*
+S: 6 Acts x. 44 — while Peter yet spake, the Holy Ghost fell on the Gentiles
+S: 7 Acts xix. 6 — the twelve at Ephesus who had not so much as heard whether there were a Holy Ghost
+S: 12 1 Cor. xii. 4–6 — *diversities of gifts… differences of administrations… diversities of operations*
+S: 16 John xvi. 8 — *he will reprove the world of sin*
+S: 17 1 John ii. 20 — *ye have an unction from the Holy One*
+S: 18 John xiv. 26 — *he shall bring all things to your remembrance*
+S: 19 Rom. v. 5 — *the love of God is shed abroad in our hearts by the Holy Ghost*
+S: 20 Rom. viii. 26 — *the Spirit itself maketh intercession for us with groanings which cannot be uttered*
+R: 10 **A Latin pair that only works because of the Greek beneath it.** *Invocatio* answers *Ἐπίκλησις* and *advocatio* answers *Παράκλησις*, and the two Greek words are the same verb — καλέω, to call — with different prefixes: a **calling-upon** and a **calling-alongside**. So the Spirit invoked and the Spirit as Advocate are one act described from two ends, which the Latin can imitate and the English cannot: *invocation* and *advocacy* no longer look like relatives in our language. The plate sets Greek and Latin on one line as a gloss for the reader, so by CONVENTIONS §41 the English renders it **once**, keeping the Greek visible with its sense in a parenthesis, rather than printing the same word twice.
+R: 12 **Three threes, and the first is Paul's.** *Gifts, ministrations, operations* is 1 Cor. xii. 4–6 entire, where each is assigned to a different Person — the same Spirit, the same Lord, the same God — and Andrewes uses it as the frame for what follows: the **gifts** of the Spirit, His **works**, His **fruits**, each then opened in its own list. The catalogue's shape is borrowed from the verse it cites, which is why the three bare words on their own lines are not a summary but a heading.
