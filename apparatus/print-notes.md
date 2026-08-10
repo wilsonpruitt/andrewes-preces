@@ -250,3 +250,53 @@ R: 26 **Andrewes is praying for the places he himself served, under their etymol
 
 ## 84
 R: 1 **And these are his own three sees, in order.** Chichester (1605), Ely (1609), and *this present see* — Winchester, which the Latin glosses *sc. Winton*. ⚠ **The phrase dates the prayer**: he came to Winchester in 1619 and died in 1626, so this leaf of the Intercession was written, or last revised, in his last seven years. It is the one place in the book where the text says when it is.
+
+## 92
+S: 3 Ps. lxiii. 1 — *O God, thou art my God; early will I seek thee*
+S: 6 Gen. i. 9 — **the work of the third day**: the waters gathered, and the dry land appearing
+S: 10 Ps. xxxiii. 7 — the Septuagint's *as in a wineskin*, where the AV has *as an heap*
+R: 3 ⚠ **The plate cites `Psal. xliii. 1`, and the verse is Psalm lxiii. 1.** *Ad te de luce vigilo* is the Vulgate of Ps. lxii. 2, the AV's *early will I seek thee*; Ps. xliii. 1 is *judge me, O God, and plead my cause*, which is not this line. The likeliest mechanism is a dropped letter — `xliii` for `lxiii` — the same slip the volume makes at printed 411, where `lxviii` stands for `lxxviii`. Kept as printed.
+
+## 94
+S: 4 Joel ii. 30 — *blood, and fire, and pillars of smoke*
+S: 6 Ps. xix. 12 — *cleanse thou me from secret faults*
+S: 11 Ps. xxv. 11 — *pardon mine iniquity; for it is great*
+S: 15 Ps. xl. 12 — *my heart faileth me*
+S: 19 Ps. xvii. 7 — *O thou that savest by thy right hand them which put their trust in thee*
+S: 21 Ps. xli. 4 — *heal my soul; for I have sinned against thee*
+
+## 96
+V: 25 *voces Hebrææ Græcis respondentes in altero* στοίχῳ *subjiciuntur apogr.*: `יצר` · `שגגה` · `אשם` · `חטאה` · `פשע` · `עון` · `תועבה`
+S: 7 1 Kings viii. 47 — Solomon at the dedication, praying for those who repent in the land of their captivity
+S: 9 Ps. xli. 4 — the verse of line 21 opposite, turned into the third person
+S: 10 Luke xviii. 13 — the publican, standing afar off
+S: 11 1 Tim. i. 15 — Paul, *of whom I am chief*
+S: 14 Luke xv. 18 — the prodigal: *make me as one of thy hired servants*
+S: 24 Ps. xxx. 9 — *thou hast turned for me my mourning into dancing*
+S: 32 2 Cor. vii. 11 — the seven marks of godly sorrow, which this column sets out
+R: 25 ⚠ **Under these seven Greek words for sin the manuscript sets a Hebrew column, and the 1853 left it out.** The apograph gives `יצר` · `שגגה` · `אשם` · `חטאה` · `פשע` · `עון` · `תועבה` — *yetzer, shegagah, asham, ḥaṭṭa'ah, pesha, avon, to'evah*, the standard rabbinic vocabulary of sin, set as a lexicon beneath the Greek. **It is not in the printed book at all.** ⚠ And the first of them is the word Andrewes glosses `יצר טוב`, the good inclination, at printed 76: so his *φαντασία* is being read through the rabbinic doctrine of the two inclinations, which is a fact about his theology and not a footnote about his text. Recorded here; not restored to the page.
+
+## 98
+S: 19 Ps. lxv. 5 — *the confidence of all the ends of the earth, and of them that are afar off upon the sea*
+
+## 100
+S: 22 Ps. cxxi. 5 — *the Lord is thy keeper; the Lord is thy shade upon thy right hand*
+
+## 102
+S: 2 Rom. vii. 24 — *O wretched man that I am*
+S: 11 2 Sam. vii. 28 — David after the promise: *thou art that God, and thy words be true*
+S: 13 Rom. v. 20 — *where sin abounded, grace did much more abound*
+S: 15 Tit. iii. 4 — *the kindness and love of God our Saviour toward man appeared*
+S: 17 2 Cor. x. 1 — *the meekness and gentleness of Christ*
+S: 19 Rom. ii. 4 — *the riches of his goodness and forbearance and longsuffering*
+S: 26 Jas. v. 11 — *the Lord is very pitiful, and of tender mercy*
+S: 28 Acts xvii. 30 — *the times of this ignorance God winked at*
+R: 11 **This is a catalogue of the Names of mercy, each with its proof-text**, and the proof-texts are doing the work a lexicon would: *bonitas* from Samuel, *charitas* from Romans, *hominum dilectio* from Titus — the Greek φιλανθρωπία — down to the *viscera* of James. The page is closer to a concordance than to a prayer, and it is the ground the next page prays from.
+
+## 104
+S: 1 Neh. ix. 28 — *many times didst thou deliver them*
+S: 4 Ps. lxxviii. 39 — *he stirred not up all his wrath*
+S: 5 Ps. ciii. 10 — *he hath not dealt with us after our sins*
+S: 7 Hab. iii. 2 — *in wrath remember mercy*
+S: 8 Joel ii. 13 — *slow to anger, and of great kindness, and repenteth him of the evil*
+S: 9 Isa. xl. 2 — *she hath received of the LORD's hand double for all her sins*
