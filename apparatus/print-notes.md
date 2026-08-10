@@ -1673,3 +1673,27 @@ R: 6 **The judgement is set out in two columns and they are not a list twice ove
 R: 22 ⚠⚠ **The page ends by lodging a legal APPEAL, and it appeals from God to God.** *I have deserved death from thee … yet still I appeal unto thee, O Lord — from the throne of justice to the throne of grace.* An appeal in law moves a cause from a lower court to a higher one, and here both courts are the same God's; nothing is denied and no ground of the sentence is contested. **The plea is not that the judgement is wrong but that it is not the last word available.** Then *Admit, O Lord, this appeal; if thou admit it not, we perish* — and the last line answers its own verb out of the Gospel.
 S: 26 Mark iv. 38 — the disciples waking Him in the storm: *carest thou not that we perish?*
 R: 26 ⚠ **The clincher of a courtroom argument is a question asked in a boat.** *Perimus* stands twice in three lines — *if thou admit it not, we perish*, then Mark's *doth it not concern thee, if we perish?* — so the appeal's own word is caught up and handed back by Scripture, and the section ends not on a plea but on the disciples' reproach. ⚠ **This verse has now been used four times in the volume and never once the same way** — at printed 172 as one of the Gospel cries, at 286 and 294 for two different things again, and here as the last word of a legal appeal. **Never conform or cross-refer them.**
+
+## 338
+S: 1 1 Tim. ii. 4 — *who will have all men to be saved*
+S: 4 Tit. iii. 11 — *he that is such is subverted, and sinneth, being condemned of himself*
+S: 8 Gen. xxxii. 10 — Jacob at the ford, before meeting Esau: *I am not worthy of the least of all thy mercies*
+S: 10 Luke xv. 19 — the prodigal, rehearsing his speech: *make me as one of thy hired servants*
+S: 12 Matt. xv. 27 — the woman of Canaan: *yet the dogs eat of the crumbs*
+S: 13 Matt. ix. 21 — the woman with the issue of blood: *if I may but touch his garment, I shall be whole*
+R: 8 ⚠⚠ **Four sayings of unworthiness, each from a different person, and every one of them was answered.** Jacob at the ford, the prodigal on the road, the woman of Canaan, the woman with the issue of blood — and they descend: not worthy of the mercies, not worthy to be a hired servant, not worthy of the crumbs, not worthy to touch the hem. **Jacob got the blessing, the prodigal the robe, the Canaanite her crumb, the woman her healing.** The ladder of unworthiness is built entirely out of approaches that succeeded, which is the argument it is making without stating it. ⚠ **And the fourth is not a saying of unworthiness at all.** The woman said *if I may but touch his garment, I shall be whole* — the boldest confidence in the Gospels — and the page turns it into *I am not worthy to touch the hem of thy garment.*
+S: 15 1 Pet. v. 6 — *humble yourselves therefore under the mighty hand of God*
+S: 20 Ps. cxliii. 6 — *my soul thirsteth after thee, as a thirsty land*
+S: 22 Luke xviii. 13 — the publican, who would not lift up his eyes
+S: 23 Ps. cxxx. 1 — *out of the depths have I cried unto thee, O LORD*
+
+## 339
+S: 1 Ps. lxxix. 9 — *help us, O God of our salvation, for the glory of thy name*
+S: 3 Ps. xxv. 10 — *pardon mine iniquity; for it is great*
+S: 7 Eph. ii. 4 — *God, who is rich in mercy*
+S: 9 Rom. v. 20 — *where sin abounded, grace did much more abound*
+R: 9 ⚠ **A rising ladder of words for mercy, and it is the second of its kind in Part II.** *Multitudo · magna multitudo · divitiæ · abundantia · superabundantia* — five terms, each stronger than the last, each with its own proof-text, ending on Paul's compound. **This is what printed 319 does in Greek** with περισσεία · πλεονασμός · ὑπερπλεονασμός · ὑπερπερισσεία, a ladder built out of prefixes; here the same figure is built in Latin out of different words. ⚠ **The two must not be conformed or cross-referred in the text** — but they are one habit, and the summit of both is *superabundare*, which is why the sentence that follows sets the man's abounding transgression against it.
+S: 13 1 Tim. i. 15 — *sinners; of whom I am chief*
+S: 14 Jas. ii. 13 — *mercy rejoiceth against judgment*, printed here as *superexaltet misericordia*
+S: 23 Dan. ix. 19 — Daniel in the exile: *O Lord, hearken and do; defer not, for thine own sake*
+S: 26 1 Tim. iii. 16 — *great is the mystery of godliness: God was manifest in the flesh*
