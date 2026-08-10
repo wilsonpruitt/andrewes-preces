@@ -146,7 +146,7 @@ These are the openings whose **Latin recto and English run different line counts
 
 **▶ Candidate next fronts, in the order I'd rank them:**
 1. **The preface** (`prototypes/front/preface.tex`) — still a draft in my words, and it is the one part of the finished book that is placeholder prose. Wilson's voice is the blocker, not research.
-2. **The source images** — commissioning or locating a non-Google 600-dpi digitization would unblock the entire remaining pre-print list at once.
+2. ✅ **THE SOURCE IMAGES ARE FOUND — see [`SOURCE-IMAGES.md`](SOURCE-IMAGES.md), 2026-08-10.** Three free non-Google scans (Toronto 1853 in colour, Illinois 1848 at 650 ppi, the 1675 Sheldonian in grayscale), plus **Wright's apograph itself digitized at Cambridge**. ⚠ **The old claim here — that a digitization unblocks the whole pre-print list at once — was too optimistic**: it closes printed 239 (verified, read entire), should close 210, only *confirms* 386 (a plate defect no scan repairs), and does **not** touch 414, which needs Brightman's page images. **Do not commission reprographics.**
 3. **Book A / Book B** — still unruled; working direction is "start with Book A, not a lock." Nothing currently waits on it.
 
 ---
