@@ -1658,3 +1658,18 @@ S: 10 Job vii. 20 — *I am become a burden to myself*
 S: 11 Ps. li. 17 — *a broken and a contrite heart, O God, thou wilt not despise*; Rom. viii. 26 — *groanings which cannot be uttered*
 S: 12 Isa. xxiv. 16 — *my leanness, my leanness, woe unto me*; Rom. ii. 5 — *after thy hardness and impenitent heart*; Jer. ix. 1 — *oh that mine head were waters*
 S: 18 2 Cor. vii. 11 — the *indignation* among the marks of godly sorrow, on its fourth leaf running
+
+## 336
+S: 1 Job xlii. 6 — Job at the end, out of the whirlwind: *I abhor myself, and repent in dust and ashes*
+S: 5 Ps. xliv. 15 — *my confusion is continually before me, and the shame of my face hath covered me*
+S: 7 Heb. xii. 21 — Moses at the mountain: *I exceedingly fear and quake*
+R: 7 ⚠ **Five things he confesses not having reverenced, and the fifth is not frightening.** The incomprehensibleness of the glory, the dread power, the awfulness of the presence, the exact justice — and then *thy lovely goodness*, **bonitas amabilis**. The list is built to make the reader expect a fifth terror and gives him an attraction instead. **What has gone unreverenced is not only what should have frightened him but what should have drawn him**, and the confession is the graver for it.
+S: 13 Jas. i. 14 — *every man is tempted, when he is drawn away of his own lust, and enticed*
+S: 15 Prov. v. 12 — *how have I hated instruction, and my heart despised reproof!*
+S: 18 Ps. lv. 5 — *fearfulness and trembling are come upon me, and horror hath overwhelmed me*
+
+## 337
+R: 6 **The judgement is set out in two columns and they are not a list twice over.** The left names what the court **is** — an incorruptible Judge, a dreadful tribunal, a defence without excuse, arguments not to be escaped — and the right names what the sentence **is**: an everlasting Gehenna, the fire that is not quenched, the restless worm, chaos immeasurable. **Procedure on one side and punishment on the other**, and the leaf reads across, so every step of the trial has its outcome standing beside it. ⚠ The two columns are the plate's own arrangement and must survive into both layers.
+R: 22 ⚠⚠ **The page ends by lodging a legal APPEAL, and it appeals from God to God.** *I have deserved death from thee … yet still I appeal unto thee, O Lord — from the throne of justice to the throne of grace.* An appeal in law moves a cause from a lower court to a higher one, and here both courts are the same God's; nothing is denied and no ground of the sentence is contested. **The plea is not that the judgement is wrong but that it is not the last word available.** Then *Admit, O Lord, this appeal; if thou admit it not, we perish* — and the last line answers its own verb out of the Gospel.
+S: 26 Mark iv. 38 — the disciples waking Him in the storm: *carest thou not that we perish?*
+R: 26 ⚠ **The clincher of a courtroom argument is a question asked in a boat.** *Perimus* stands twice in three lines — *if thou admit it not, we perish*, then Mark's *doth it not concern thee, if we perish?* — so the appeal's own word is caught up and handed back by Scripture, and the section ends not on a plea but on the disciples' reproach. ⚠ **This verse has now been used four times in the volume and never once the same way** — at printed 172 as one of the Gospel cries, at 286 and 294 for two different things again, and here as the last word of a legal appeal. **Never conform or cross-refer them.**
