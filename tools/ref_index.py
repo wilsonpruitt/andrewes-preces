@@ -50,7 +50,16 @@ BOOK = (r"Gen|Exod|Ex|Lev|Num|Deut|Jos|Judg|Ruth|Reg|Sam|Chr|Esd|Neh|Tob|Judith"
         r"|Mac|Matth|Matt|Mat|Marc|Mar|Luc|Luk|Joh|Jo|Act|Rom|Cor|Galat|Gal"
         r"|Ephes|Eph|Phil|Coloss|Col"
         r"|Thess|Tim|Tit|Philem|Heb|Jac|Pet|Jud|Apoc|Rev")
-REF = re.compile(r"((?:[12I]\s*)?(?:%s)\.?\s*[ivxlc]+\.?\s*[\d,\s.]*\d)" % BOOK,
+# ⚠ `[12I]\.?` — the epistle numeral may carry its OWN period. The 1853 prints
+# both `1 *Pet.* v. 6.` (meditations) and `1. *Pet.* v. 6.` (front matter, printed
+# 18), and `2. *Sam.* ix. 8.` beside `2 *Sam.* xxiv. 16.` Without the optional dot
+# the numeral is silently dropped and the reference indexes as plain `Pet. v. 6` —
+# which reads as a DIFFERENT BOOK, and made four tags look as though they cited
+# something not on their page at all.
+# ⚠ `\b` before the numeral is load-bearing once the period is optional: with
+# re.I, `[12I]\.?` otherwise matches the final letter of `ELI.` and indexes
+# `[*Matth.* xxvii. 46.]` at printed 155 as **1** Matthew.
+REF = re.compile(r"((?:\b[12I]\.?\s*)?(?:%s)\.?\s*[ivxlc]+\.?\s*[\d,\s.]*\d)" % BOOK,
                  re.I)
 MARK = re.compile(r"<!--\s*printed (\d+)")
 

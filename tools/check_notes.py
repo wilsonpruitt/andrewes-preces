@@ -59,7 +59,11 @@ BOOKS = {
     "reg": "reg", "kings": "reg", "cor": "cor", "thess": "th", "tim": "tim",
     "pet": "pet", "rev": "rev", "apoc": "rev", "gen": "gen", "exod": "ex",
     "ex": "ex", "deut": "dt", "dt": "dt", "job": "job", "dan": "dan",
-    "zach": "zech", "zech": "zech", "os": "hos", "hos": "hos", "jud": "jud",
+    # ⚠ "jud" -> JUDGES, not Jude. The 1853 abbreviates Judges `Jud.` (printed 282,
+    # Abimelech and the men of Shechem). The two collapse here on purpose: this map
+    # only has to make a tag and the plate agree with each other, and a missed
+    # disagreement is far cheaper than a false one sent to an editorial pass.
+    "zach": "zech", "zech": "zech", "os": "hos", "hos": "hos", "jud": "judg",
     "jude": "jud", "num": "num", "lev": "lev", "judg": "judg", "neh": "neh",
     "esth": "esth", "cant": "cant", "lam": "lam", "ezek": "ezek",
     "ezech": "ezek", "mic": "mic", "hab": "hab", "zeph": "zeph", "mal": "mal",
@@ -72,7 +76,11 @@ BOOKS = {
 NUMERALS = [("m", 1000), ("cm", 900), ("d", 500), ("cd", 400), ("c", 100),
             ("xc", 90), ("l", 50), ("xl", 40), ("x", 10), ("ix", 9),
             ("v", 5), ("iv", 4), ("i", 1)]
-CITE = re.compile(r"([12I]?\s*[A-Za-z]+)\.?\s*([ivxlcIVXLC]+)\.?\s*(\d+)")
+# ⚠ The epistle numeral gets its own group AND its own optional period. The 1853
+# prints `1. *Pet.* v. 6.` as well as `1 *Pet.* v. 6.`; folding the numeral into
+# the book group meant "1. Pet." parsed as plain "Pet." — a different book — so a
+# correctly-keyed tag was reported as citing something not on its page.
+CITE = re.compile(r"(?:([12I])\.?\s*)?([A-Za-z]+)\.?\s*([ivxlcIVXLC]+)\.?\s*(\d+)")
 
 
 def roman_value(s):
@@ -93,16 +101,55 @@ def citation(text):
     m = CITE.match(text.strip().lstrip("[").replace("*", "").strip())
     if not m:
         return None
-    book, chap, verse = m.groups()
-    book = book.strip()
-    prefix = ""
-    if book and book[0] in "12I":
-        prefix, book = ("1" if book[0] == "I" else book[0]), book[1:].strip()
-    key = BOOKS.get(book.lower())
+    prefix, book, chap, verse = m.groups()
+    prefix = "1" if prefix == "I" else (prefix or "")
+    key = BOOKS.get(book.strip().lower())
     ch = roman_value(chap)
     if not key or ch is None:
         return None
     return (prefix, key, ch, int(verse))
+
+
+def parity_unsafe():
+    """Printed pages whose English and originals do NOT have the same sense-line
+    count — the pages `check_lineparity.py` says cannot carry line-keyed notes.
+
+    ⚠ Read from the BUILT FRAGMENTS, the same source check_lineparity counts, so
+    the two tools can never disagree about which pages are safe.
+    """
+    frag = ROOT / "prototypes" / "fragments"
+    if not frag.exists():
+        return set()
+    pl = re.compile(r"\\pl\{")
+
+    def count(name):
+        f = frag / f"{name}.tex"
+        return len(pl.findall(f.read_text())) if f.exists() else None
+
+    # ⚠⚠ The column that must agree with the English is the one CARRYING THE
+    # REFERENCES — in Part I that is the LATIN RECTO, not the Greek verso. An
+    # earlier version gated on Greek-vs-English and so declared printed 48, 86,
+    # 258 and 262 safe to compare when the Latin runs +6, -2, -1 and +1 lines
+    # against them; the checker then lined tags up against references from a
+    # different line entirely and reported a tag on 1 Cor. xi as disagreeing with
+    # Colossians. The 20 openings where Latin and Greek differ are exactly the
+    # ones check_lineparity's second table names.
+    out = set()
+    for f in frag.glob("en*.tex"):
+        # ⚠ the fragment directory also holds split variants (`en204-h2`) left
+        # over from the M2 prototypes; only the plain three-digit pages are units.
+        m = re.match(r"^en(\d{3})$", f.stem)
+        if not m:
+            continue
+        n = int(m.group(1))
+        en = count(f.stem)
+        # Part I: the references are on the Latin recto facing this page.
+        ref_col = count(f"la{n + 1:03d}") if count(f"gr{n:03d}") is not None \
+            else count(f"la{n:03d}")
+        if ref_col is None or en is None or ref_col != en:
+            if ref_col is not None and en is not None:
+                out.add(n)
+    return out
 
 
 def load_notes():
@@ -144,6 +191,8 @@ def main():
                 plate.setdefault(p, {}).setdefault(ln, set()).add(c)
 
     order_bad, missing, mismatch = [], [], []
+    supplied, unchecked = [], []
+    unsafe = parity_unsafe()
     for p in pages:
         entries = notes[p]
         # 1. order, within each stream
@@ -152,37 +201,50 @@ def main():
             if seen != sorted(seen):
                 order_bad.append((p, stream, seen))
 
-        # ⚠ p OR p+1, never both. This is `ref_index --stub`'s own rule: in Part I
-        # the references are printed on the LATIN recto and filed under the even
-        # page facing it, so the plate's citations live under p+1; in Parts II–III
-        # each page carries its own. Unioning the two charges every page with its
-        # neighbour's references and reports a page as uncovered because the NEXT
-        # page's refs are untagged.
-        on_plate = set()
-        for s in (plate.get(p) or plate.get(p + 1, {})).values():
-            on_plate |= s
+        # ⚠⚠ CHECK 2 IS LINE-KEYED, and it has to be. Comparing a tag against
+        # every reference anywhere on the page produced mostly noise: printed 2
+        # tags Ps. cxix. 164 (the seven-times-a-day verse, which the plate does
+        # not print at all) and the page happens to carry Ps. cxix. 62, so a
+        # perfectly good tag was reported as disagreeing with a plate it never
+        # touched. Same book and chapter is not the same reference.
+        #
+        # So the only real question is: on the line this tag is keyed to, does
+        # the plate print a reference, and does it print the SAME verse?
+        #   - plate prints nothing there  -> the tag SUPPLIES a reference the
+        #     1853 left unmarked. Normal, and often the best thing on the page.
+        #   - plate prints a different verse -> a real disagreement, the reader
+        #     sees both figures on one opening, and it must be adjudicated.
+        #
+        # ⚠ A parity-mismatched page cannot be compared at all: there the tag's
+        # English line number and the plate's line number are different counts,
+        # so line N on one side is not line N on the other. Those pages are
+        # reported as UNCHECKED rather than silently compared, which is the same
+        # discipline check_lineparity applies to writing the notes in the first
+        # place.
+        refpage = p + 1 if (p <= 263 and p % 2 == 0) else p
+        by_line = plate.get(refpage, {})
+        if p in unsafe:
+            unchecked.append(p)
+            continue
 
         tagged = set()
-        for stream, _, body in entries:
-            if stream != "S":
+        for stream, ln, body in entries:
+            if stream != "S" or ln is None:
                 continue
-            # ⚠ strip the leading sense-line figure first. "11 Acts i. 7" parses
-            # otherwise as *1 Acts* — the line figure swallowed as the book's
-            # first/second-epistle prefix — so every tag on a line numbered 1, 2
-            # or 12 gets reported as disagreeing with a plate that agrees with it.
-            # ⚠ scan the WHOLE entry, not the part before the first em dash: a
-            # line carrying two references is ONE tag with two citations —
-            # "Gal. iv. 19 — Paul in travail …; Eph. iv. 13 — *unto a perfect
-            # man*" — and splitting on the dash throws the second one away, so
-            # a reference that IS tagged gets reported as uncovered.
+            here = by_line.get(ln, set())
             for m in CITE.finditer(re.sub(r"^\d+\s+", "", body)):
                 c = citation(m.group(0))
                 if not c:
                     continue
                 tagged.add(c)
-                if c not in on_plate:
-                    near = sorted(x for x in on_plate if x[:3] == c[:3])
-                    mismatch.append((p, m.group(0).strip(), near))
+                if not here:
+                    supplied.append((p, ln, m.group(0).strip()))
+                elif c not in here:
+                    mismatch.append((p, ln, m.group(0).strip(), sorted(here)))
+
+        on_plate = set()
+        for s in by_line.values():
+            on_plate |= s
 
         # 3. coverage — a plate reference with no tag anywhere on the page
         for c in sorted(on_plate - tagged):
@@ -201,10 +263,20 @@ def main():
     print("=" * 70)
     print("2. NUMBERING — band and plate disagree (ADJUDICATE, never auto-fix)")
     print("=" * 70)
-    for p, tag, near in mismatch:
-        seen = ", ".join(show(c) for c in near) or "— not on the page at all —"
-        print(f"  printed {p:>3}  tag `{tag}`   plate: {seen}")
+    for p, ln, tag, here in mismatch:
+        seen = ", ".join(show(c) for c in here)
+        print(f"  printed {p:>3} line {ln:>2}  tag `{tag}`   plate prints: {seen}")
     print(f"  {len(mismatch)} disagreements\n")
+
+    print("=" * 70)
+    print("2b. SUPPLIED — tag names a reference the plate does not print there")
+    print("=" * 70)
+    print(f"  {len(supplied)} supplied references "
+          f"(informational: the 1853 left the line unmarked and the pass named it)")
+    if unchecked:
+        print(f"  ⚠ {len(unchecked)} pages NOT compared — parity mismatch, the two "
+              f"columns are on different line counts: {unchecked}")
+    print()
 
     print("=" * 70)
     print("3. COVERAGE — plate references carrying no tag (WARNING: often right)")
