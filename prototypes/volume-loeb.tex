@@ -38,7 +38,12 @@
     \begin{minipage}[t]{0.485\textwidth}
       \footnotesize\setlength{\plhang}{1.5em}#3
     \end{minipage}\par}%
-  \immediate\write\fitfile{H O #1 \the\ht0}\box0}
+  % ⚠ \ht0 ALONE IS WRONG HERE and silently reported ~5.7pt for every Part I
+  % verso until 2026-08-09. This vbox's content is ONE LINE of two tall boxes, so
+  % its height is just that line's height above the baseline and the whole column
+  % sits in the DEPTH. Measure ht+dp. (\originalsone and \enleaf are multi-line
+  % vboxes and were never affected.)
+  \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0\relax}\box0}
 
 \newcommand{\originalsone}[3]{%
   \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}#2}%
