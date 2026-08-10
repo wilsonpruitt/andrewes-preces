@@ -95,7 +95,26 @@ The Psalter is a trap in this book and every note touching it must say which num
 
 **So: name the system whenever it could be read two ways**, and never "correct" a reference into agreement with a numbering the plate was not using.
 
-### ⚠⚠ OPEN, and Wilson's to rule (raised 2026-08-10) — the tags have been quietly renumbering the plate
+### ✅✅ RULED BY WILSON 2026-08-10 — **an `S:` tag prints the PLATE's chapter-and-verse, always**
+
+The tag is a **caption on the reference the plate prints**, so it cites what the plate cites. Where the two would differ, the difference goes into the tag's own clause — never into its figure.
+
+| what is true | how the tag reads |
+|---|---|
+| plate right on another numbering | `Ps. xxxi. 6 — *O LORD God of truth*; Prayer Book numbering` |
+| plate genuinely misprinted | `Ps. cxli. 8 — *keep the door of my lips*, which is verse 3` |
+| the 1853 editor's bracketed slip | keep his brackets in the tag; the `R:` note says whose slip it is (printed 62) |
+| **not certain which** | **give the substance and claim nothing** — `Ps. xxxix. 14 — *I am a stranger with thee, and a sojourner*` |
+
+That last row is §3's safety rule applied to numbering, and it is the one to reach for. A wrong claim about *which Psalter the 1853 was counting from* is exactly the plausible-looking printed error this edition cannot afford.
+
+**Why this way.** The discipline everywhere else in the edition is that wrong references and printing defects are kept as printed, flagged, never silently mended — `[Jer. l. 24.]`, `[Dan. vi. 4.]`, `Job. xiv. 14.`, the *Isaac* crux at 425 all stand. The tags were the one place in the book that quietly emended, and they did it in the register a reader trusts most, because a caption does not look like an argument. And the reader sees both figures on one opening: plate `Psal. xxxi. 6.` on the verso, band `Ps. xxxi. 5` below. Nothing explained the gap, so it read as an error in *our* work — worst of all in that case, where the 1853 is right and we introduced the discrepancy.
+
+⚠ **Applied 2026-08-10 to all 20 surviving cases; `check_notes.py` reports 0.** Nine were the Prayer Book's numbering and the tag had converted it to the AV's. One was the **Vulgate's**, and it is the sharpest: printed 274's Hosanna is `Ps. cxvii. 25`, Vulgate for the AV's cxviii — given §9's whole argument about which Psalter Andrewes had to hand, silently normalising his psalm numbers is the specific thing this edition should least want to do.
+
+⚠ **The checker cannot see a page whose columns are on different line counts** — 20 of them, listed in its own output. Those tags have never been compared with the plate at all.
+
+### (superseded — the question as it stood before the ruling)
 
 `tools/check_notes.py` reports **50 places on 34 pages where a tag's chapter-and-verse disagrees with the reference printed above it**, and a reader of the finished book sees both. Three quite different things are mixed together there and the pass has been treating them alike:
 

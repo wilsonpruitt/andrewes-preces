@@ -254,7 +254,7 @@ R: 26 **Andrewes is praying for the places he himself served, under their etymol
 R: 1 **And these are his own three sees, in order.** Chichester (1605), Ely (1609), and *this present see* — Winchester, which the Latin glosses *sc. Winton*. ⚠ **The phrase dates the prayer**: he came to Winchester in 1619 and died in 1626, so this leaf of the Intercession was written, or last revised, in his last seven years. It is the one place in the book where the text says when it is.
 
 ## 92
-S: 3 Ps. lxiii. 1 — *O God, thou art my God; early will I seek thee*
+S: 3 Ps. xliii. 1 — *O God, thou art my God; early will I seek thee*, which opens Psalm lxiii
 S: 6 Gen. i. 9 — **the work of the third day**: the waters gathered, and the dry land appearing
 S: 10 Ps. xxxiii. 7 — the Septuagint's *as in a wineskin*, where the AV has *as an heap*
 R: 3 ⚠ **The plate cites `Psal. xliii. 1`, and the verse is Psalm lxiii. 1.** *Ad te de luce vigilo* is the Vulgate of Ps. lxii. 2, the AV's *early will I seek thee*; Ps. xliii. 1 is *judge me, O God, and plead my cause*, which is not this line. The likeliest mechanism is a dropped letter — `xliii` for `lxiii` — the same slip the volume makes at printed 411, where `lxviii` stands for `lxxviii`. Kept as printed.
@@ -318,7 +318,7 @@ S: 23 Jer. xxxi. 34 — *I will remember their sin no more*
 S: 25 Rom. vii. 14 — *carnal, sold under sin*
 
 ## 110
-S: 9 Rom. v. 20 — *where sin abounded, grace did much more abound*
+S: 9 Rom. v. 2 — *where sin abounded, grace did much more abound*, which is verse 20
 S: 10 Rom. ii. 4 — *the goodness of God leadeth thee to repentance*
 S: 13 2 Tim. ii. 25 — *if God peradventure will give them repentance*
 S: 19 1 Pet. i. 19 — *the precious blood of Christ, as of a lamb without blemish*
@@ -414,7 +414,7 @@ S: 18 2 Sam. vii. 18 — David, sitting before the LORD: *who am I, O Lord GOD?*
 S: 20 Ps. cxvi. 12 — *what shall I render unto the LORD for all his benefits?*
 
 ## 146
-S: 9 Rev. iv. 11 — *for thy pleasure they are and were created*
+S: 9 Rev. iv. 8 — *for thy pleasure they are and were created* stands at verse 11
 
 ## 148
 S: 3 Ps. lxxxviii. 13 — *in the morning shall my prayer prevent thee*
@@ -432,7 +432,7 @@ S: 6 2 Pet. i. 4 — *partakers of the divine nature*
 S: 7 Gen. iii. 15 — the promise of the seed that should bruise the serpent
 S: 9 Gal. iv. 4 — *when the fulness of the time was come*
 S: 18 Hos. xiii. 16 — the prophet's word of a people fallen by its own iniquity
-S: 22 Hos. xiv. 2 — *so will we render the calves of our lips*
+S: 22 Hos. xiv. 1 — *so will we render the calves of our lips*, which is verse 2
 S: 25 Joel ii. 17 — *give not thine heritage to reproach*
 
 ## 152
@@ -453,7 +453,7 @@ S: 16 Matt. xxvii. 29 — *a crown of thorns, and put it upon his head*
 S: 18 Heb. v. 7 — *with strong crying and tears*
 S: 19 Matt. xxvii. 39 — *they that passed by reviled him, wagging their heads*
 S: 24 Ps. cxxix. 3 — *the plowers plowed upon my back*
-S: 25 Ps. xxii. 16 — *they pierced my hands and my feet*
+S: 25 Ps. xxii. 17 — *they pierced my hands and my feet*; Prayer Book numbering
 S: 26 Matt. xxvii. 46 — *Eli, Eli, lama sabachthani*, at the ninth hour
 S: 29 1 Cor. xi. 24 — *this is my body, which is broken for you*
 S: 30 Matt. xxvi. 28 — at the Supper: *my blood of the new testament, which is shed for many*
@@ -633,11 +633,11 @@ R: 16 ⚠⚠ **This is the verse Part III mis-numbers, and here the volume gets 
 ## 26
 S: 7 Ps. cxix. 37 — *turn away mine eyes from beholding vanity*
 S: 9 Prov. iv. 25 — *let thine eyelids look straight before thee*
-S: 15 Ps. cxli. 3 — *keep the door of my lips*
+S: 15 Ps. cxli. 8 — *keep the door of my lips*, which is verse 3
 S: 16 Col. iv. 6 — *let your speech be alway with grace, seasoned with salt*
 S: 17 Eph. iv. 29 — *that it may minister grace unto the hearers*
 S: 19 1 Sam. xxv. 31 — Abigail: *no grief, nor offence of heart*
-S: 26 Ps. xxxi. 5 — *O LORD God of truth*
+S: 26 Ps. xxxi. 6 — *O LORD God of truth*; Prayer Book numbering
 S: 28 Gen. xxxiii. 5 — Jacob to Esau: *the children which God hath graciously given thy servant*
 S: 29 Ps. cxxi. 7 — *the LORD shall preserve thee from all evil*
 
@@ -682,7 +682,7 @@ S: 4 Acts xxiv. 27 — Felix, *willing to shew the Jews a pleasure*
 S: 6 2 Sam. vi. 16 — Michal despising David as he danced before the ark
 S: 7 1 Sam. ii. 13 — the fleshhook of Hophni, taking the priests' portion by force
 S: 8 2 Kings xi. 1 — Athaliah destroying all the seed royal
-S: 10 Acts viii. 18 — Simon offering money for the gift; Matt. xxvi. 15 — Judas' thirty pieces
+S: 10 Acts viii. 18 — Simon offering money for the gift; Matt. xxvi. 16 — Judas, from the thirty pieces, seeking his opportunity
 S: 12 1 Tim. iii. 6 — *not a novice, lest being lifted up with pride*
 S: 13 Hos. iv. 4 — *this people are as they that strive with the priest*
 S: 17 2 Sam. xv. 31 — Ahithophel's counsel, prayed into foolishness
@@ -716,7 +716,7 @@ R: 7 **Seven verbs of grace in seven lines, and they make a single argument.** N
 
 ## 212
 S: 1 Job iv. 6 — *is not this thy fear, thy confidence?*
-S: 5 Matt. vii. 12 — *whatsoever ye would that men should do to you, do ye even so to them*
+S: 5 Matt. vii. 11 — the golden rule, which stands at verse 12
 S: 7 Rom. xii. 3 — *not to think of himself more highly than he ought, but to think soberly*
 S: 11 Luke i. 79 — *to guide our feet into the way of peace*
 S: 13 2 Tim. ii. 15 — *rightly dividing the word of truth*; Gal. ii. 14 — *walked not uprightly*
@@ -753,7 +753,7 @@ S: 27 Ps. cxxxiv. 2 — *lift up your hands in the sanctuary, and bless the LORD
 
 ## 224
 S: 2 Ps. xlii. 10 — *my prayer unto the God of my life*
-S: 4 Ps. lxiii. 4 — *I will lift up my hands in thy name*
+S: 4 Ps. lxiii. 5 — *I will lift up my hands in thy Name*; Prayer Book numbering
 S: 8 Ps. cxli. 2 — *the lifting up of my hands as the evening sacrifice*
 S: 12 Job xxxv. 10 — *God my maker, who giveth songs in the night*
 S: 15 Isa. xxxviii. 12 — Hezekiah again: *from day even to night wilt thou make an end of me*
@@ -770,7 +770,7 @@ R: 20 **Two sevens, set against each other.** *A just man falleth seven times* i
 S: 4 Ps. cxxx. 1 — *out of the depths have I cried unto thee*
 S: 13 Ps. xli. 4 — *heal my soul; for I have sinned against thee*
 S: 16 Ps. li. 1 — *blot out mine iniquity*
-S: 23 Ps. xxv. 17 — *bring thou me out of my distresses*
+S: 23 Ps. xxv. 16 — *O bring thou me out of my troubles*; Prayer Book numbering
 S: 25 Ps. xix. 12 — secret faults, and the Septuagint's *strange sins*
 S: 26 Wisd. iv. 12 — *the wandering of concupiscence doth undermine the simple mind*
 S: 27 Matt. xii. 36 — *every idle word that men shall speak*
@@ -787,17 +787,17 @@ S: 28 Job xxxiii. 15 — *in a dream, in a vision of the night, when deep sleep 
 
 ## 230
 S: 9 Ps. xxxviii. 7 — *my loins are filled with a loathsome disease*
-S: 10 Ps. xvi. 7 — *my reins also instruct me in the night seasons*
+S: 10 Ps. xvi. 8 — *my reins chasten me in the night-season*; Prayer Book numbering
 S: 22 Ps. ciii. 14 — *he knoweth our frame; he remembereth that we are dust*
 S: 25 Ps. xvii. 8 — *hide me under the shadow of thy wings*
-S: 27 Ps. xxxii. 6 — *in a time when thou mayest be found*
+S: 27 Ps. xxxii. 7 — *in a time when thou mayest be found*; Prayer Book numbering
 S: 28 Ps. lxiii. 1 — *early will I seek thee*
 R: 28 **The psalm the volume mis-numbered at printed 92 stands here correctly as `lxiii. 1`** — the third page to give it right, after 106. The book's own consistency is what convicts the one page that differs.
 
 ## 234
-S: 12 Ps. xxxi. 5 — *O LORD God of truth*
+S: 12 Ps. xxxi. 6 — *O LORD God of truth*; Prayer Book numbering
 S: 15 Gen. xxxiii. 5 — Jacob to Esau: *the children which God hath graciously given*
-S: 17 Ps. cxxxix. 2 — *thou knowest my downsitting and mine uprising*
+S: 17 Ps. cxxxix. 1 — *thou knowest my down-sitting and mine up-rising*; Prayer Book numbering
 S: 18 Ps. cxxi. 8 — *from this time forth, and even for evermore*
 S: 19 Ps. lxiii. 6 — *when I remember thee upon my bed*
 S: 20 Ps. lxxvii. 6 — *my spirit made diligent search*
@@ -882,7 +882,7 @@ S: 7 Isa. xl. 6 — *all flesh is grass*
 S: 9 Ps. ciii. 16 — *the place thereof shall know it no more*
 S: 10 Gen. xviii. 27 — Abraham pleading for Sodom: *I am but dust and ashes*
 S: 13 Job xvii. 14 — *I have said to corruption, Thou art my father*
-S: 14 Ps. xxxix. 12 — *I am a stranger with thee, and a sojourner*
+S: 14 Ps. xxxix. 14 — *I am a stranger with thee, and a sojourner*
 S: 15 Job iv. 19 — *them that dwell in houses of clay*
 S: 16 Gen. xlvii. 9 — Jacob before Pharaoh: *few and evil have the days of the years of my life been*
 S: 18 Isa. xxxviii. 13 — Hezekiah: *from morning even to night wilt thou make an end of me*
@@ -945,9 +945,9 @@ S: 18 2 Tim. ii. 15 — ὀρθοτομεῖν, *rightly dividing*; Gal. ii. 14 
 S: 20 Rom. xii. 3 — *not to think of himself more highly than he ought*
 
 ## 274
-S: 6 Ps. cxviii. 25 — *save now, I beseech thee* — the Hosanna, which the page also sets in Hebrew
-S: 23 Ps. lxxix. 12 — *render unto our neighbours sevenfold into their bosom*
-S: 25 Ps. xxv. 13 — *his seed shall inherit the earth*
+S: 6 Ps. cxvii. 25 — *save now, I beseech thee* — the Hosanna, on the Vulgate's numbering of the psalm; the page sets it in Hebrew too
+S: 23 Ps. lxxix. 13 — *render unto our neighbours seven-fold into their bosom*; Prayer Book numbering
+S: 25 Ps. xxv. 12 — *his seed shall inherit the land*; Prayer Book numbering
 S: 26 Ps. xli. 1 — *blessed is he that considereth the poor*
 R: 6 **The Hosanna stands here in Hebrew on the printed page** — `הצליחה נא`, *hoshi'ah-na*, Ps. cxviii. 25 — one of the few places the 1853 let Andrewes' third script through. It is the cry the crowds took up on Palm Sunday, and he uses it as the hinge of the intercession: the word is a petition (*save now*) before it is an acclamation.
 
@@ -1039,7 +1039,7 @@ S: 25 Matt. xxv. 34 — *then shall the King say unto them on his right hand*
 
 ## 284
 S: 1 Luke xxiii. 43 — *to day shalt thou be with me in paradise*; Luke xvi. 22 — *carried by the angels into Abraham's bosom*
-S: 13 Eph. vi. 18 — *praying always with all prayer*, which crowns the armour
+S: 13 Eph. vi. 14 — the whole armour, which prayer crowns at verse 18
 S: 16 John xv. 16 — *that your fruit should remain*
 S: 18 Ps. xvii. 15 — *I shall be satisfied, when I awake, with thy likeness*
 S: 19 2 Kings xx. 6 — *I will add unto thy days fifteen years*
