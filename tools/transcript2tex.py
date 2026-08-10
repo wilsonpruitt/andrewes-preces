@@ -101,6 +101,83 @@ def note_tex(entries):
     return r"\\[1pt]".join(out)
 
 
+def noted_lines(entries):
+    """The sense-lines an entry list anchors to, from each entry's leading figure.
+
+    ⚠ This is what makes the anchor VISIBLE. Every five lines is a ruler, not an
+    anchor: a note on line 27 is unfindable if the margin only prints 25 and 30,
+    because the reader must count and nothing on 27 says a note is there to be
+    found. Lines named here always print their own figure.
+
+    Handles a range ("27–28 punct. post ..." anchors both lines), since the
+    apparatus states one where a reading spans a line-break.
+    """
+    out = []
+    for e in entries:
+        m = re.match(r"^(\d+)", e)
+        if m and int(m.group(1)) not in out:
+            out.append(int(m.group(1)))
+    return sorted(out)
+
+
+def roman(n: int) -> str:
+    """Lowercase roman for the marker. Anchors are roman so they can never be read
+    as the arabic line-figures in the margin — Wilson's point: two series in one
+    alphabet would confuse."""
+    vals = [(1000, "m"), (900, "cm"), (500, "d"), (400, "cd"), (100, "c"),
+            (90, "xc"), (50, "l"), (40, "xl"), (10, "x"), (9, "ix"),
+            (5, "v"), (4, "iv"), (1, "i")]
+    out = ""
+    for v, s in vals:
+        while n >= v:
+            out += s
+            n -= v
+    return out
+
+
+def by_line(entries):
+    """Group entries by their leading line figure, in line order.
+
+    ⚠ Grouped, not one marker per entry: printed 34 has two references on line 6,
+    and two adjacent superscripts on one line-end reads as a typographic accident.
+    One line, one marker, and the band gathers what that line carries.
+
+    ⚠ Returns each entry WHOLE, leading figure included, and lets the caller decide
+    whether to keep it: the apparatus cites "27–28" and the scripture band does not.
+    ⚠ The figure may be a RANGE ("27–28 punct. post ..."), so the pattern must not
+    demand whitespace straight after the digits — an earlier version did, and would
+    have dropped every ranged apparatus entry without a word.
+    """
+    order, groups = [], {}
+    for e in entries:
+        m = re.match(r"^(\d+)(?:\s*[–-]\s*\d+)?(?:\s|$)", e)
+        if not m:
+            continue
+        ln = int(m.group(1))
+        if ln not in groups:
+            groups[ln] = []
+            order.append(ln)
+        groups[ln].append(e)
+    return [(ln, groups[ln]) for ln in sorted(order)]
+
+
+def apparatus_band(entries):
+    r"""The verso foot, keyed by the same roman marker that stands in the text.
+
+    ⚠ The apparatus keeps its ARABIC line figure as well, and that is not
+    redundancy: "34. 27" is the citation form the 1853's own apparatus uses and
+    the form CLASS-A-ledger.md is written in, so an entry that dropped it would
+    no longer be checkable against the ledger it came from. The roman finds the
+    line; the arabic cites it.
+    """
+    parts = []
+    for i, (_, items) in enumerate(by_line(entries), start=1):
+        for j, item in enumerate(items):
+            mark = r"\textsuperscript{%s}\," % roman(i) if j == 0 else r"\hphantom{x}"
+            parts.append(mark + note_tex([item]))
+    return r"\\[1pt]".join(parts)
+
+
 def recto_band(page_notes):
     r"""The recto foot: scripture context first, then explanatory notes.
 
@@ -117,16 +194,18 @@ def recto_band(page_notes):
     r = page_notes.get("R", [])
     blocks = []
     if s:
-        # ⚠ A leading integer is the SENSE-LINE the note anchors to, and it is set
-        # bold so the eye can find it — without it fourteen tags are a list the
-        # reader cannot map onto the page above. tools/ref_index.py derives these.
-        def anchored(e):
-            m = re.match(r"^(\d+)\s+(.*)$", e)
-            if not m:
-                return note_tex([e])
-            return r"\textbf{%s}~%s" % (m.group(1), note_tex([m.group(2)]))
-        blocks.append(r"{\scriptsize " + r" \textperiodcentered\ ".join(
-            anchored(e) for e in s) + r"\par}")
+        # Each group opens with the ROMAN marker that stands at that line's end
+        # above, so a reader matches by looking rather than by counting. The
+        # arabic line figure is left to the margin; repeating it here would put
+        # both series in the band and undo the point of using two alphabets.
+        parts = []
+        for i, (_, items) in enumerate(by_line(s), start=1):
+            # the arabic figure is the margin's job here, so drop it from the text
+            bare = [re.sub(r"^\d+\s+", "", x) for x in items]
+            parts.append(r"\textsuperscript{%s}\,%s" % (
+                roman(i), "; ".join(note_tex([x]) for x in bare)))
+        blocks.append(r"{\scriptsize " + r" \textperiodcentered\ ".join(parts)
+                      + r"\par}")
     if r:
         blocks.append(note_tex(r))
     return r"\\[3pt]".join(blocks)
@@ -278,7 +357,8 @@ def leaf(n: int, slot, en_frag: str | None, body_frag: str | None, verso=False):
 
 
 def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None,
-              single=False, toc: str | None = None, vnotes="", rnotes=""):
+              single=False, toc: str | None = None, vnotes="", rnotes="",
+              vlines=(), rlines=()):
     """One Loeb unit: originals on the verso, the full English on the recto.
 
     The unit is the 1853 OPENING in Part I — Greek and Latin side by side on one
@@ -292,7 +372,8 @@ def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None,
     \\fitstart/\\fitend would both land on the same page and report no overflow.
     Measuring the box is the only honest instrument here.
     """
-    out = [r"\versoalign", r"\markright{%d}" % n]
+    out = [r"\versoalign", r"\markright{%d}" % n,
+           r"\setnoted{%s}" % ",".join(str(x) for x in vlines)]
     if toc:
         # After the page break, so the entry records the leaf the section opens on.
         out.append(r"\addcontentsline{toc}{section}{%s}" % toc)
@@ -318,6 +399,7 @@ def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None,
     out.append(r"\clearpage")
     if en:
         out.append(r"\markright{%d}" % n)
+        out.append(r"\setnoted{%s}" % ",".join(str(x) for x in rlines))
         if mode == "title":
             out.append(r"\titleleaf{%d}{\input{fragments/%s}}" % (n, en))
         elif rnotes and not mode:
@@ -367,15 +449,18 @@ def build_loeb(parts, pages, have):
             body += [r"%% ---------- opening %d | %d ----------" % (n, n + 1)]
             body += loeb_unit(n, frag(f"gr{n:03d}"), frag(f"la{n + 1:03d}"),
                               frag(f"en{n:03d}"), toc=toc,
-                              vnotes=note_tex(v),
-                              rnotes=recto_band(notes.get(n, {})))
+                              vnotes=apparatus_band(v), vlines=noted_lines(v),
+                              rnotes=recto_band(notes.get(n, {})),
+                              rlines=noted_lines(notes.get(n, {}).get("S", [])))
             skip.add(n + 1)
         else:
             body += [r"%% ---------- printed %d ----------" % n]
             body += loeb_unit(n, frag(f"{slot['layer']}{n:03d}"), None,
                               frag(f"en{n:03d}"), single=True, toc=toc,
-                              vnotes=note_tex(notes.get(n, {}).get("V", [])),
-                              rnotes=recto_band(notes.get(n, {})))
+                              vnotes=apparatus_band(notes.get(n, {}).get("V", [])),
+                              vlines=noted_lines(notes.get(n, {}).get("V", [])),
+                              rnotes=recto_band(notes.get(n, {})),
+                              rlines=noted_lines(notes.get(n, {}).get("S", [])))
     return "\n".join(body)
 
 

@@ -31,21 +31,65 @@
 \newcounter{plline}\newcounter{plmod}
 \newif\ifplnum \plnumfalse
 \newcommand{\plreset}{\setcounter{plline}{0}\setcounter{plmod}{0}}
+
+% ⚠ EVERY FIVE LINES IS NOT AN ANCHOR — it is a RULER. A note keyed to line 27 is
+% unfindable if the margin only prints 25 and 30: the reader must count, and
+% nothing on line 27 says a note is there to count towards. Wilson, on the second
+% sample: "there is still no visible anchor."
+%
+% So there are TWO devices, and they are deliberately different alphabets:
+%   · the MARGIN carries ARABIC line figures — the ruler, and the 1853's own
+%     PAGE. LINE coordinate, which the apparatus has always cited;
+%   · the LINE-END carries a ROMAN superscript — the anchor, which says "there is
+%     a note on me" at the place the eye already is.
+% Roman against arabic so the two can never be read as the same series. The band
+% below repeats the roman, so a marker is matched by looking, not by counting.
+%
+% A line that carries a note prints its arabic figure too, whatever the every-five
+% rule says — the ruler should not go silent exactly where it is wanted.
+\newcommand{\notedlines}{}
+\newcommand{\setnoted}[1]{\renewcommand{\notedlines}{#1}}
+\newif\ifplnoted
+\newcounter{plpos}\newcounter{plfound}
+\makeatletter
+% Walks the noted-line list and records BOTH that this line is noted and its
+% position in the list, which is the roman numeral the band will repeat.
+\newcommand{\plcheck}[1]{\plnotedfalse
+  \setcounter{plpos}{0}\setcounter{plfound}{0}%
+  \def\pl@empty{}\ifx\notedlines\pl@empty\else
+    \@for\pl@x:=\notedlines\do{\stepcounter{plpos}%
+      \ifnum\pl@x=#1\relax\plnotedtrue\setcounter{plfound}{\value{plpos}}\fi}%
+  \fi}
+\makeatother
+
 % ⚠ NOT \numexpr modulo: \numexpr divides with ROUNDING, so n/5*5=n is true for
 % n=3 as well as n=5. Count down in a second counter instead.
 \newcommand{\plnumber}{%
   \ifplnum
     \stepcounter{plline}\stepcounter{plmod}%
+    \plcheck{\value{plline}}%
+    % ⚠ EVERY FIVE ONLY. An earlier pass also printed a figure on every noted
+    % line, which was right while the arabic WAS the anchor and became clutter
+    % the moment the roman marker took that job — printed 34 came out with
+    % figures on eighteen of thirty lines. The two devices divide cleanly: roman
+    % anchors, arabic measures.
     \ifnum\value{plmod}=5
       \setcounter{plmod}{0}%
       \llap{{\tiny\color{rulegray}\theplline}\hspace{0.6em}}%
     \fi
   \fi}
+
+% The roman marker, set at the END of the line — \plcheck has already run for this
+% line inside \plnumber, so \ifplnoted and \plfound still hold its values.
+\newcommand{\plmark}{%
+  \ifplnum\ifplnoted
+    \textsuperscript{\normalfont\romannumeral\value{plfound}}%
+  \fi\fi}
 % The number laps into the margin BEFORE the line's own indent, so it sits at the
 % block's left edge whatever the indent level — otherwise a deeply indented line
 % would carry its figure into the middle of the column.
 \newcommand{\pl}[2]{\par\noindent\hangindent=\plhang\hangafter=1
-  \plnumber\hspace*{#1em}#2}
+  \plnumber\hspace*{#1em}#2\plmark}
 % vertical breathing space between prayer paragraphs
 \newcommand{\parasep}{\par\vspace{0.55\baselineskip}}
 % small-caps language label used by the stacked layout
