@@ -1577,3 +1577,29 @@ S: 18 2 Cor. v. 18 — *who hath reconciled us to himself by Jesus Christ*
 S: 19 1 Kings viii. 39 — Solomon at the dedication: *hear thou in heaven, and forgive*
 S: 21 Ps. li. 9 — *hide thy face from my sins*
 S: 26 Ps. lxxxv. 2 — *thou hast covered all their sin*
+
+## 329
+S: 1 Ps. xix. 12 — *cleanse thou me from secret faults*
+S: 4 Isa. xliv. 22 — *I have blotted out thy transgressions as a cloud*, asked here as *Dele*, blot thou out
+S: 7 Luke x. 35 — the Samaritan to the host: *take care of him*
+S: 11 Matt. xii. 20 — *a bruised reed shall he not break, and smoking flax shall he not quench*
+S: 16 Ps. cxix. 106 — *I have sworn, and I will perform it*
+S: 18 2 Cor. vii. 11 — the marks of godly sorrow, here made the penitent's own purposes
+R: 18 ⚠ **The same six Greek words have now done two different jobs on three consecutive leaves.** At printed 326 Paul's marks of godly sorrow — *ἀγανάκτησις, φόβος, ἐπιπόθησις, ζῆλος, σπουδή, ἀπολογία* — were the **affections** repentance feels, listed under impersonal verbs. Here they are the **resolutions** it makes, and the verbs are first person singular and active: *I have sworn, I have longed, I desire, I am zealous, I am earnest, I plead.* **Paul's list is not being repeated; it is being conjugated.** ⚠ The pass has now recorded five texts used twice and never for the same thing, and this is the largest of them — six words at once.
+S: 23 Isa. lv. 7 — *let the wicked forsake his way, and the unrighteous man his thoughts*
+S: 24 2 Tim. ii. 19 — *let every one that nameth the name of Christ depart from iniquity*
+S: 25 1 Pet. iv. 3 — *the time past of our life may suffice us*
+
+## 330
+S: 1 Lam. iii. 40 — *let us search and try our ways, and turn again to the LORD*
+S: 7 Hos. ii. 6 — *I will hedge up thy way with thorns*, said of a wife to be kept from her lovers
+S: 10 Rom. vii. 19 — *the good that I would I do not*
+S: 11 Isa. xxxvii. 3 — Hezekiah to Isaiah, with Sennacherib at the gate: *the children are come to the birth, and there is not strength to bring forth*
+S: 12 Luke xxiv. 38 — the risen Christ to the eleven: *why do thoughts arise in your hearts?*
+S: 14 Rom. vii. 23 — *bringing me into captivity to the law of sin*
+S: 15 Isa. xxxviii. 14 — Hezekiah sick: *I am oppressed; undertake for me*
+S: 18 Ps. lxx. 1 — *make haste, O God, to deliver me*
+R: 18 **The ladder of help begins with the words every hour of the Office begins with.** *Deus in adjutorium* is the versicle Andrewes said several times a day, and the first four rungs each set a Greek imperative beside the opening words of a psalm — *βοήθει* with *O God, make speed to help me*, *ἀνάληψαι* with *Save me, O God*, *ἀντιλαβοῦ* with *Let God arise*, *ἐπίστρεψον* with *Arise, O Lord*. **The Greek names the act and the Latin names the psalm it is asked in**, so a reader who knows the psalter hears four whole psalms behind four words. ⚠ The last four rungs turn the request inward — *open mine ears, lighten mine eyes, confirm my hands*: having asked God to open His eyes and incline His ear, the prayer asks the same two things for itself.
+S: 24 Isa. xxxvii. 17 — Hezekiah spreading the letter before the LORD: *open thine eyes, and see*
+S: 27 Job xxxvi. 10 — Elihu: *he openeth also their ear to discipline*
+S: 29 Neh. vi. 9 — Nehemiah at the wall: *strengthen my hands*
