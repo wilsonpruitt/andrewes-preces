@@ -10,7 +10,42 @@
 
 % a sense-line: #1 = indent in em, #2 = text; long lines wrap with hanging indent
 \newlength{\plhang}\setlength{\plhang}{5em}
-\newcommand{\pl}[2]{\par\noindent\hangindent=\plhang\hangafter=1\hspace*{#1em}#2}
+
+% ---- sense-line numbering, which is what ANCHORS both foot-bands ----------
+% The 1853's own apparatus keys every reading as PAGE. LINE ("34. 27"), and our
+% transcripts are line-faithful, so OUR SENSE-LINE COUNT IS ITS LINE COUNT.
+% Verified at printed 34: Τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς is line 27, exactly
+% as class A says. The apparatus was already speaking this coordinate; the page
+% simply was not showing it.
+%
+% ⚠ ONE NUMBERING SERVES ALL THREE COLUMNS. Part I's Latin recto is line-for-line
+% with its Greek verso, and our English is line-keyed to the Greek — verified at
+% printed 34, where Greek 27 and English 27 are the same line and both pages run
+% to 30. So the number set beside the Greek reads across the whole opening, and
+% the Latin is deliberately NOT numbered: a second set of figures on the same
+% leaf would say the same thing twice.
+%
+% ⚠ Numbering counts \pl calls, i.e. SENSE-lines, not typeset lines. That is the
+% correct unit and it is also the only stable one — 839 of Part I's lines turn in
+% the two columns, and a turned line must not take a number of its own.
+\newcounter{plline}\newcounter{plmod}
+\newif\ifplnum \plnumfalse
+\newcommand{\plreset}{\setcounter{plline}{0}\setcounter{plmod}{0}}
+% ⚠ NOT \numexpr modulo: \numexpr divides with ROUNDING, so n/5*5=n is true for
+% n=3 as well as n=5. Count down in a second counter instead.
+\newcommand{\plnumber}{%
+  \ifplnum
+    \stepcounter{plline}\stepcounter{plmod}%
+    \ifnum\value{plmod}=5
+      \setcounter{plmod}{0}%
+      \llap{{\tiny\color{rulegray}\theplline}\hspace{0.6em}}%
+    \fi
+  \fi}
+% The number laps into the margin BEFORE the line's own indent, so it sits at the
+% block's left edge whatever the indent level — otherwise a deeply indented line
+% would carry its figure into the middle of the column.
+\newcommand{\pl}[2]{\par\noindent\hangindent=\plhang\hangafter=1
+  \plnumber\hspace*{#1em}#2}
 % vertical breathing space between prayer paragraphs
 \newcommand{\parasep}{\par\vspace{0.55\baselineskip}}
 % small-caps language label used by the stacked layout

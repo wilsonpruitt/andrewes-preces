@@ -33,10 +33,12 @@
 \newcommand{\originals}[3]{%
   \setbox0=\vbox{\noindent
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#2
+      \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#3
+      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
+      % the Greek's figures read across and a second set would repeat them.
+      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
     \end{minipage}\par}%
   % ⚠ \ht0 ALONE IS WRONG HERE and silently reported ~5.7pt for every Part I
   % verso until 2026-08-09. This vbox's content is ONE LINE of two tall boxes, so
@@ -46,12 +48,12 @@
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0\relax}\box0}
 
 \newcommand{\originalsone}[3]{%
-  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}#2}%
+  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2}%
   \immediate\write\fitfile{H O #1 \the\ht0}%
   \ifthenelse{\equal{#3}{epigraph}}{\dropto{0.16}\box0}{\box0}}
 
 \newcommand{\enleaf}[3]{%
-  \setbox0=\vbox{\hsize=\textwidth\small#2}%
+  \setbox0=\vbox{\hsize=\textwidth\small\plreset\plnumtrue #2}%
   \immediate\write\fitfile{H E #1 \the\ht0}%
   \ifthenelse{\equal{#3}{epigraph}}{\dropto{0.16}\box0}{\box0}}
 
@@ -88,23 +90,25 @@
 \newcommand{\originalsn}[4]{%
   \setbox0=\vbox{\noindent
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#2
+      \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#3
+      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
+      % the Greek's figures read across and a second set would repeat them.
+      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
     \end{minipage}\par}%
   \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0+\ht2+\dp2\relax}%
   \bandleaf{\box0}{\box2}}
 
 \newcommand{\originalsonen}[4]{%
-  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}#2}%
+  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2}%
   \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\ht2+\dp2\relax}%
   \bandleaf{\box0}{\box2}}
 
 \newcommand{\enleafn}[4]{%
-  \setbox0=\vbox{\hsize=\textwidth\small#2}%
+  \setbox0=\vbox{\hsize=\textwidth\small\plreset\plnumtrue #2}%
   \setbox2=\vbox{\hsize=\textwidth\notesband{#4}}%
   \immediate\write\fitfile{H E #1 \the\dimexpr\ht0+\ht2+\dp2\relax}%
   \bandleaf{\box0}{\box2}}
@@ -320,7 +324,7 @@
 \originalsn{34}{\input{fragments/gr034}}{\input{fragments/la035}}{27 \textup{Τὰ ἔργα}] \textup{τὸ πλάσμα} \emph{apogr.} — \emph{cf. Lat.} \textup{Figmenta}, \emph{quod ex neutro fonte alio fluere potest}\\[1pt]27–28 \emph{punct. post} \textup{παριδῇς} \emph{del. apogr.} · \textup{ὁμοίωμα}] \textup{ὁμοίωμα.} \emph{apogr.}}
 \clearpage
 \markright{34}
-\enleafn{34}{\input{fragments/en034}}{}{{\scriptsize \textbf{Job xxxiii. 27} Elihu, on the man brought back from the pit, who says \emph{I have sinned and it profited me not} \textperiodcentered\ \textbf{Rom. ii. 1} to the man who judges another and does the same: \emph{thou art inexcusable, O man} \textperiodcentered\ \textbf{[Tit. iii. 11]} the plate's second reference: \emph{condemned of himself} — Andrewes' \textup{αὐτοκατάκριτος} \textperiodcentered\ \textbf{Hos. xiii. 9} the LORD to Israel: \emph{thou hast destroyed thyself} \textperiodcentered\ \textbf{Dan. ix. 7} Daniel praying in the exile, at the hour of the evening sacrifice \textperiodcentered\ \textbf{Neh. ix. 33} the Levites' confession, made standing while the Law is read \textperiodcentered\ \textbf{Ps. xxxix. 7} David, having been dumb with silence \textperiodcentered\ \textbf{Ps. lxxxix. 46} Ethan, on the shortness of the time God has made men for \textperiodcentered\ \textbf{Ps. cxxxviii. 8} \emph{despise not the works of thine own hands} \textperiodcentered\ \textbf{Gen. i. 26, 27} the making of man, in the image \textperiodcentered\ \textbf{1 Cor. vi. 20} \emph{ye are bought with a price} \textperiodcentered\ \textbf{Ps. c. 3} \emph{we are his people, and the sheep of his pasture} \textperiodcentered\ \textbf{Ps. lxxxix. 47} \emph{wherefore hast thou made all men in vain?}\par}\\[3pt]\textbf{A pun the English Bible cannot keep.} Andrewes asks \emph{what is my expectation} and answers \emph{Substantia mea apud te est}, then four lines later \emph{Memorare quæ mea substantia}. Both are the Vulgate — Ps. xxxviii. 8 and lxxxviii. 48 — and both turn on \textbf{substantia}, which is why the two psalms can be set one on top of the other. The Authorised Version renders the first \emph{my hope is in thee} and the second \emph{remember how short my time is}, and the join disappears. This is what CONVENTIONS §9 is for, and it is the argument for giving the references their situation rather than their English text: the text is already above.\\[1pt]\textup{Figmenta} \textbf{is the evidence that this Latin column is a witness and not a shadow.} The printed Greek reads \emph{the works of thy hands}, and the Vulgate of Ps. cxxxviii. 8 reads \emph{opera manuum tuarum}; the Latin here reads neither. \emph{Figmenta} — the thing moulded — can only render a Greek text that read \textup{τὸ πλάσμα}, which is what the manuscript reads and what the printed page does not. The 1853 editor said of his Latin only that he \emph{seemed} to have made it himself. He was too modest.}
+\enleafn{34}{\input{fragments/en034}}{}{{\scriptsize \textbf{1}~Job xxxiii. 27 — Elihu, on the man brought back from the pit: \emph{I have sinned, and it profited me not} \textperiodcentered\ \textbf{6}~Rom. ii. 1 — to the man who judges another and does the same \textperiodcentered\ \textbf{6}~[Tit. iii. 11] — \emph{condemned of himself}: Andrewes' \textup{αὐτοκατάκριτος} \textperiodcentered\ \textbf{7}~Hos. xiii. 9 — the LORD to Israel: \emph{thou hast destroyed thyself} \textperiodcentered\ \textbf{9}~Dan. ix. 7 — Daniel praying in the exile, at the hour of the evening sacrifice \textperiodcentered\ \textbf{13}~Neh. ix. 33 — the Levites' confession, made while the Law is read \textperiodcentered\ \textbf{16}~Ps. xxxix. 7 — David, having first been dumb with silence \textperiodcentered\ \textbf{20}~Ps. lxxxix. 46 — Ethan, on how short a time God has made men for \textperiodcentered\ \textbf{21}~Ps. cxxxviii. 8 — \emph{despise not the works of thine own hands} \textperiodcentered\ \textbf{22}~Gen. i. 27 — the making of man, in the image \textperiodcentered\ \textbf{23}~1 Cor. vi. 20 — \emph{ye are bought with a price} \textperiodcentered\ \textbf{25}~Ps. c. 3 — \emph{we are his people, and the sheep of his pasture} \textperiodcentered\ \textbf{27}~Ps. cxxxviii. 8 — the verse returns; the apparatus opposite turns on this line \textperiodcentered\ \textbf{28}~Gen. i. 26 — \emph{let us make man in our image} \textperiodcentered\ \textbf{29}~Ps. lxxxix. 47 — \emph{wherefore hast thou made all men in vain?}\par}\\[3pt]\textbf{A pun the English Bible cannot keep.} Andrewes asks \emph{what is my expectation} and answers \emph{Substantia mea apud te est}, then four lines later \emph{Memorare quæ mea substantia}. Both are the Vulgate — Ps. xxxviii. 8 and lxxxviii. 48 — and both turn on \textbf{substantia}, which is why the two psalms can be set one on top of the other. The Authorised Version renders the first \emph{my hope is in thee} and the second \emph{remember how short my time is}, and the join disappears. This is what CONVENTIONS §9 is for, and it is the argument for giving the references their situation rather than their English text: the text is already above.\\[1pt]\textup{Figmenta} \textbf{is the evidence that this Latin column is a witness and not a shadow.} The printed Greek reads \emph{the works of thy hands}, and the Vulgate of Ps. cxxxviii. 8 reads \emph{opera manuum tuarum}; the Latin here reads neither. \emph{Figmenta} — the thing moulded — can only render a Greek text that read \textup{τὸ πλάσμα}, which is what the manuscript reads and what the printed page does not. The 1853 editor said of his Latin only that he \emph{seemed} to have made it himself. He was too modest.}
 \clearpage
 % ---------- opening 36 | 37 ----------
 \versoalign

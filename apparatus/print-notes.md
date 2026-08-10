@@ -26,19 +26,21 @@ R: <one explanatory note, recto foot — keyed to a lemma>
 ## 34
 V: 27 `Τὰ ἔργα`] `τὸ πλάσμα` *apogr.* — *cf. Lat.* `Figmenta`, *quod ex neutro fonte alio fluere potest*
 V: 27–28 *punct. post* `παριδῇς` *del. apogr.* · `ὁμοίωμα`] `ὁμοίωμα.` *apogr.*
-S: **Job xxxiii. 27** Elihu, on the man brought back from the pit, who says *I have sinned and it profited me not*
-S: **Rom. ii. 1** to the man who judges another and does the same: *thou art inexcusable, O man*
-S: **[Tit. iii. 11]** the plate's second reference: *condemned of himself* — Andrewes' `αὐτοκατάκριτος`
-S: **Hos. xiii. 9** the LORD to Israel: *thou hast destroyed thyself*
-S: **Dan. ix. 7** Daniel praying in the exile, at the hour of the evening sacrifice
-S: **Neh. ix. 33** the Levites' confession, made standing while the Law is read
-S: **Ps. xxxix. 7** David, having been dumb with silence
-S: **Ps. lxxxix. 46** Ethan, on the shortness of the time God has made men for
-S: **Ps. cxxxviii. 8** *despise not the works of thine own hands*
-S: **Gen. i. 26, 27** the making of man, in the image
-S: **1 Cor. vi. 20** *ye are bought with a price*
-S: **Ps. c. 3** *we are his people, and the sheep of his pasture*
-S: **Ps. lxxxix. 47** *wherefore hast thou made all men in vain?*
+S: 1 Job xxxiii. 27 — Elihu, on the man brought back from the pit: *I have sinned, and it profited me not*
+S: 6 Rom. ii. 1 — to the man who judges another and does the same
+S: 6 [Tit. iii. 11] — *condemned of himself*: Andrewes' `αὐτοκατάκριτος`
+S: 7 Hos. xiii. 9 — the LORD to Israel: *thou hast destroyed thyself*
+S: 9 Dan. ix. 7 — Daniel praying in the exile, at the hour of the evening sacrifice
+S: 13 Neh. ix. 33 — the Levites' confession, made while the Law is read
+S: 16 Ps. xxxix. 7 — David, having first been dumb with silence
+S: 20 Ps. lxxxix. 46 — Ethan, on how short a time God has made men for
+S: 21 Ps. cxxxviii. 8 — *despise not the works of thine own hands*
+S: 22 Gen. i. 27 — the making of man, in the image
+S: 23 1 Cor. vi. 20 — *ye are bought with a price*
+S: 25 Ps. c. 3 — *we are his people, and the sheep of his pasture*
+S: 27 Ps. cxxxviii. 8 — the verse returns; the apparatus opposite turns on this line
+S: 28 Gen. i. 26 — *let us make man in our image*
+S: 29 Ps. lxxxix. 47 — *wherefore hast thou made all men in vain?*
 R: **A pun the English Bible cannot keep.** Andrewes asks *what is my expectation* and answers *Substantia mea apud te est*, then four lines later *Memorare quæ mea substantia*. Both are the Vulgate — Ps. xxxviii. 8 and lxxxviii. 48 — and both turn on **substantia**, which is why the two psalms can be set one on top of the other. The Authorised Version renders the first *my hope is in thee* and the second *remember how short my time is*, and the join disappears. This is what CONVENTIONS §9 is for, and it is the argument for giving the references their situation rather than their English text: the text is already above.
 R: `Figmenta` **is the evidence that this Latin column is a witness and not a shadow.** The printed Greek reads *the works of thy hands*, and the Vulgate of Ps. cxxxviii. 8 reads *opera manuum tuarum*; the Latin here reads neither. *Figmenta* — the thing moulded — can only render a Greek text that read `τὸ πλάσμα`, which is what the manuscript reads and what the printed page does not. The 1853 editor said of his Latin only that he *seemed* to have made it himself. He was too modest.
 

@@ -117,8 +117,16 @@ def recto_band(page_notes):
     r = page_notes.get("R", [])
     blocks = []
     if s:
+        # ⚠ A leading integer is the SENSE-LINE the note anchors to, and it is set
+        # bold so the eye can find it — without it fourteen tags are a list the
+        # reader cannot map onto the page above. tools/ref_index.py derives these.
+        def anchored(e):
+            m = re.match(r"^(\d+)\s+(.*)$", e)
+            if not m:
+                return note_tex([e])
+            return r"\textbf{%s}~%s" % (m.group(1), note_tex([m.group(2)]))
         blocks.append(r"{\scriptsize " + r" \textperiodcentered\ ".join(
-            note_tex([e]) for e in s) + r"\par}")
+            anchored(e) for e in s) + r"\par}")
     if r:
         blocks.append(note_tex(r))
     return r"\\[3pt]".join(blocks)
@@ -623,10 +631,12 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
 \newcommand{\originals}[3]{%
   \setbox0=\vbox{\noindent
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#2
+      \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#3
+      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
+      % the Greek's figures read across and a second set would repeat them.
+      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
     \end{minipage}\par}%
   % ⚠ \ht0 ALONE IS WRONG HERE and silently reported ~5.7pt for every Part I
   % verso until 2026-08-09. This vbox's content is ONE LINE of two tall boxes, so
@@ -636,12 +646,12 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0\relax}\box0}
 
 \newcommand{\originalsone}[3]{%
-  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}#2}%
+  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2}%
   \immediate\write\fitfile{H O #1 \the\ht0}%
   \ifthenelse{\equal{#3}{epigraph}}{\dropto{0.16}\box0}{\box0}}
 
 \newcommand{\enleaf}[3]{%
-  \setbox0=\vbox{\hsize=\textwidth\small#2}%
+  \setbox0=\vbox{\hsize=\textwidth\small\plreset\plnumtrue #2}%
   \immediate\write\fitfile{H E #1 \the\ht0}%
   \ifthenelse{\equal{#3}{epigraph}}{\dropto{0.16}\box0}{\box0}}
 
@@ -678,23 +688,25 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
 \newcommand{\originalsn}[4]{%
   \setbox0=\vbox{\noindent
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#2
+      \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#3
+      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
+      % the Greek's figures read across and a second set would repeat them.
+      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
     \end{minipage}\par}%
   \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0+\ht2+\dp2\relax}%
   \bandleaf{\box0}{\box2}}
 
 \newcommand{\originalsonen}[4]{%
-  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}#2}%
+  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2}%
   \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\ht2+\dp2\relax}%
   \bandleaf{\box0}{\box2}}
 
 \newcommand{\enleafn}[4]{%
-  \setbox0=\vbox{\hsize=\textwidth\small#2}%
+  \setbox0=\vbox{\hsize=\textwidth\small\plreset\plnumtrue #2}%
   \setbox2=\vbox{\hsize=\textwidth\notesband{#4}}%
   \immediate\write\fitfile{H E #1 \the\dimexpr\ht0+\ht2+\dp2\relax}%
   \bandleaf{\box0}{\box2}}
