@@ -362,3 +362,53 @@ S: 19 Ps. xc. 17 — *establish thou the work of our hands upon us*
 
 ## 128
 S: 14 Isa. lxiv. 2 — *that the nations may tremble at thy presence*
+
+## 130
+S: 3 Ps. xc. 14 — *O satisfy us early with thy mercy*
+S: 6 Gen. i. 20 — **the work of the fifth day**: the moving creature that hath life
+S: 8 Ps. cxlviii. 10 — *creeping things, and flying fowl*
+S: 10 Gen. i. 22 — *be fruitful, and multiply*
+S: 13 Ps. cviii. 5 — *thy glory above all the earth*
+S: 17 Col. iii. 2 — *set your affection on things above, not on things on the earth*
+
+## 132
+S: 8 Lam. v. 21 — *turn thou us unto thee, O LORD, and we shall be turned*
+S: 12 Dan. ix. 5 — Daniel's confession: *even by departing from thy precepts*
+
+## 134
+S: 3 Jas. iii. 2 — *in many things we offend all*
+S: 5 Jas. ii. 13 — *judgment without mercy to him that hath shewed no mercy*
+S: 7 1 John i. 8 — *if we say that we have no sin, we deceive ourselves*
+S: 12 1 John ii. 1 — *we have an advocate with the Father*
+S: 22 Ps. lxxvii. 7 — *will the Lord cast off for ever?*
+S: 27 Heb. xii. 1 — *the sin which doth so easily beset us*
+S: 29 Jas. i. 21 — *superfluity of naughtiness*
+R: 12 **He doubles the preposition, and the doubling is the argument.** *Advocatum ad te apud te habeo* — an advocate **to** thee and **with** thee: the one pleaded before is the one pleaded to, and both are God. It is the court figure the book keeps returning to, and the English holds both prepositions rather than smoothing them into one.
+
+## 136
+S: 1 1 John ii. 16 — *the pride of life*
+S: 6 Matt. v. 3 — *blessed are the poor in spirit; for theirs is the kingdom of heaven*
+S: 25 Heb. xi. 6 — *a rewarder of them that diligently seek him*
+S: 26 Job xix. 25 — *I know that my redeemer liveth*
+S: 27 Matt. xvi. 16 — Peter at Cæsarea Philippi: *thou art the Christ, the Son of the living God*
+S: 28 John iv. 42 — the Samaritans: *this is indeed the Christ, the Saviour of the world*
+S: 30 1 Tim. i. 15 — *of whom I am chief*
+S: 32 Acts xv. 11 — Peter at the council: *we shall be saved, even as they*
+R: 26 **Three confessions in a row, and not one of them from the same quarter.** Job's *I know that my redeemer liveth* comes from outside Israel altogether; Peter's *thou art the Christ* from the chief of the apostles; the Samaritans' *this is indeed the Saviour of the world* from foreigners who had believed on the word of a woman. Andrewes sets them one under another without comment, and the arrangement says what no one of them says alone.
+
+## 138
+S: 2 Job xix. 25 — the verse continuing: *whom I shall see for myself*
+S: 4 Ps. xxvii. 15 — *to see the goodness of the Lord in the land of the living*
+S: 6 Ps. xxxiii. 20 — *our soul waiteth for the LORD*
+S: 11 Ps. xxxiii. 21 — *let thy mercy be upon us, according as we hope in thee*
+R: 4 ⚠ **`Psal. xxvii. 15` is not an error: it is the Prayer Book's numbering.** The Authorised Version has this verse at xxvii. 13; the BCP Psalter, which divides the psalm differently, has it at 15 — and the BCP is the book Andrewes had to hand, as printed 433 shows twice over. **Do not "correct" it.** The volume moves between the two numberings without warning, and only reading the verse tells you which is in use.
+
+## 140
+S: 18 2 Cor. xiii. 14 — the apostolic grace, which closes the day
+
+## 144
+S: 18 2 Sam. vii. 18 — David, sitting before the LORD: *who am I, O Lord GOD?*
+S: 20 Ps. cxvi. 12 — *what shall I render unto the LORD for all his benefits?*
+
+## 146
+S: 9 Rev. iv. 11 — *for thy pleasure they are and were created*
