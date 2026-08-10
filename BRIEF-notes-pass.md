@@ -47,7 +47,7 @@ None was visible in the built PDF, and two of the three corrupted **committed** 
 
 ⚠ **`--continuations` is now part of the pre-flight for a new stretch, beside `audit_missing_books`.** NOTES-CONVENTIONS §11a.
 
-⚠⚠ **It exposed 130 references on 61 pages ALREADY WRITTEN — worklist at `BACKFILL-continuations.md`.** The seven Beatitudes at printed 136, Daniel's prayer at 132/134, the six days at 305, Peter's denial at 310, eleven on the Passion catalogue at 313. **Untagged is not automatically wrong** (§3, §8) — but where an `R:` note *counts* something, **the count came out of the defective index, so re-read the prose and not only the tags.** This is the third time a tool fix has meant re-reading committed work.
+✅ **The backfill is CLOSED** (`BACKFILL-continuations.md`) — 62 pages adjudicated, 227 continuations accounted for. **Most needed nothing**: 66 continue a quotation the band already tags at its head, and the rest are brace catalogues (§3a), leaves at capacity (§8), or lines whose own words give the reference. **Four pages took a note instead of tags** — where the English lines *are* the verses, a tag sets the verse under the verse. ⚠⚠ **One substantive find, printed 110: `Vers. 24` stands against the words of Rom. vii. 25**, on a page whose marks are otherwise line-exact. Kept as printed, neither reading claimed.
 
 ## 2. The working loop, in order
 

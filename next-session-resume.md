@@ -598,3 +598,25 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 ⚠ **All three leaves overran and were trimmed. The useful lesson: small edits inside a wrapped line do not reduce height — only removing a whole wrapped line does.** The best cuts were principled: the S tags had been reprinting words the English lines already give, against the content rule, and now give the occasion instead.
 
 **NEXT: printed 348.**
+
+
+---
+
+## 2026-08-10 (fourth pass, Opus 5) — the continuation fix and its backfill, both closed
+
+**✅ `ref_index` resolves `Vers.` and `Ibid.`; 227 continuation references now enter the index, and the backfill they exposed is DONE.** Ninth instance of the silent-shortfall class and by far the largest. `--continuations` is now pre-flight for a new stretch (NOTES-CONVENTIONS §11a); it flags any antecedent on the previous page or more than six lines back, and **drops rather than guesses** when there is none.
+
+⚠⚠ **Three further defects were found WHILE DOING THE BACKFILL, not before it — and one of them was silently wrong rather than merely short.** `Ibid.` alone repeats the antecedent entire, but **`Ibid. N` means the same book and chapter at verse N**; the first version read the keyword and threw the number away, so **three references resolved to the WRONG VERSE while looking perfectly resolved** (`Ibid. 5` at printed 53 gave Rev. ii. 1). Verse lists were also being truncated (`*Vers.* 55, 56` kept only 55), and one list is separated by a **period** — `*Vers.* 4. 6.` at printed 153, whose widening was verified by its changing exactly one reference in the volume. **A checker's first output is not evidence, and that now applies to a checker written an hour earlier.**
+
+**The backfill came to less than its 135-reference headline, and that is the useful part.** 66 references continue a quotation the band already tags at its head; the rest were correct as they stood — brace catalogues where §3a rules the scripture band empty (305, 306, 307, 316, 318), leaves at capacity where §8's SELECT governs (42, 154, 242), lines whose own words give the reference (319, 320, 329, 344). ⚠ **Four pages needed a NOTE and not tags**, and this is the reusable rule: **where the plate marks every verse of a continuous quotation and the English lines ARE those verses, a tag sets the verse under the verse.** What is missing in that case is the sentence telling the reader he has entered one passage.
+
+**Findings the backfill produced:**
+- ⚠⚠ **printed 110 — `*Vers.* 24` stands against the words of Rom. vii. 25.** *Infelix ego homo* / *Quis me liberabit* are v. 24; *Gratia Deo per Jesum Christum*, the line carrying the figure, is v. 25. **The page's other marks are line-exact**, so either the figure is one short or it covers the whole movement. **Kept as printed, neither reading claimed** (§3c).
+- **printed 52 — Rev. ii. 5 was genuinely missing**, the threat to remove the candlestick, two lines after the candlesticks are named as His. One of the three that had been resolving to the wrong verse.
+- ⚠⚠ **printed 309–314 is a FOUR-GOSPEL HARMONY** — Matthew xxvi→xxvii, John xviii→xix, Luke xxii→xxiii, Mark xiv→xv, walked forward in step, each leaf drawing on three or four at once. **He is not following one evangelist and supplementing him.** The density was unmeasurable until now because `Vers.`/`Ibid.` carry most of it. **Introduction material.**
+- **printed 136 — the Beatitudes are turned from blessings into PETITIONS**, governed by *Da mihi, Domine*: he asks for the mourning and the persecution, not the promises.
+- **printed 134 — 1 John ii. 2 turned from indicative to petition**: John says Christ *is* the propitiation; the page asks *let him be* the propitiation **for my sins**, *who is also for the whole world*. The world keeps the indicative and the man asks for himself.
+- ⚠ **printed 156 — a THIRD instance of the pronoun pattern and the sharpest**: Ps. lxxxv. 4 is *Converte **nos***; the plate sets *Converte **me*** and **leaves *noster* and *a nobis* plural around it.** He puts himself alone under the verb of turning and leaves the congregation in possession of the mercy.
+- **printed 132 — Daniel ix. 5–19 whole and in order**, where Part II quarries it out of order (ix. 19 at 339, ix. 16 at 343). **Neither conformed to the other.**
+
+**NEXT: printed 348.** 110 pages remain. Build 619 pages, 0 TeX errors, 0 of 595 units too tall.
