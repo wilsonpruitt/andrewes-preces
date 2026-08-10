@@ -26,7 +26,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from ref_index import MARK, index  # noqa: E402
+from ref_index import COMMENT, MARK, index  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -53,8 +53,16 @@ def page_lines(page, pattern):
             if raw.startswith("## "):
                 cur = None
                 continue
-            if cur == page and raw.strip():
-                out.append(raw.strip())
+            # ⚠⚠ A COMMENT-ONLY LINE IS NOT A SENSE-LINE — the same rule as
+            # `ref_index.index` and `proof2tex.render_line`, and it has to be the
+            # same rule or this worksheet numbers the English differently from
+            # the page the reader holds. Printed 136 carries a `<!-- two-column
+            # Beatitudes -->` note at its seventh line; counting it pushed every
+            # English figure below it down by one, so a tag keyed off this sheet
+            # marked the line under the one it describes.
+            line = COMMENT.sub("", raw).strip()
+            if cur == page and line:
+                out.append(line)
         found.extend(out)
     return found
 

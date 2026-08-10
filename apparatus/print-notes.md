@@ -68,6 +68,7 @@ V: 27 `Figmenta`] *Vulg.* `opera manuum tuarum`; *ex Gr.* `πλάσμα` *pendet
 S: 1 Ps. xxx. 9 — *what profit is there in my blood, when I go down to the pit?*
 S: 2 Ps. xxxv. 19 — *let not mine enemies wrongfully rejoice over me*
 S: 6 Ps. lxxxiv. 9 — *look upon the face of thine anointed*
+S: 7 Zech. ix. 11 — the blood of the covenant, *by which I have sent forth thy prisoners out of the pit*
 S: 8 1 John ii. 2 — the propitiation for the sins of the whole world
 S: 9 Luke xviii. 13 — the publican, standing afar off: *God be merciful to me a sinner*
 S: 11 1 Tim. i. 15 — Paul, of sinners *of whom I am chief*
@@ -80,6 +81,7 @@ S: 28 Dan. ix. 19 — Daniel's plea in the exile: *for thine own sake, O my God*
 V: 3 `μεριμνῶ`] *in marg. Hebr.* `אדאג` *apogr.*
 S: 1 Ps. li. 3 — *my sin is ever before me*
 S: 2 Job vii. 11 — *I will speak in the bitterness of my soul*
+S: 4 Isa. xxx. 15 — a promise refused: *in returning and rest shall ye be saved… and ye would not*
 S: 5 2 Cor. vii. 11 — the fruits of godly sorrow: *yea, what indignation*
 S: 8 1 Cor. ix. 27 — *I keep under my body, and bring it into subjection*
 S: 16 1 Sam. xxv. 31 — Abigail to David: that this be *no grief unto thee, nor offence of heart*
@@ -173,6 +175,7 @@ S: 15 Rom. xiii. 2 — whoso resisteth the power resisteth the ordinance of God
 S: 16 1 Pet. ii. 13 — submit to *every ordinance of man*
 S: 18 Ps. lxviii. 30 — *scatter thou the people that delight in war*
 S: 20 Ps. xlvi. 9 — *he maketh wars to cease unto the end of the earth*
+S: 22 Isa. li. 5 — *the isles shall wait upon me, and on mine arm shall they trust*
 
 ## 56
 S: 14 1 Tim. ii. 2 — that we may lead a quiet life *in all godliness and honesty*
@@ -246,6 +249,7 @@ S: 27 1 Thess. iv. 6 — the archangel's voice at the descending
 
 ## 90
 S: 4 Col. i. 16 — *thrones, dominions, principalities, powers*, the orders this column names
+S: 6 Isa. vi. 3 — the seraphim above the throne, crying *Holy, holy, holy*
 
 ## 82
 R: 26 **Andrewes is praying for the places he himself served, under their etymologies.** *The Southern Spring* is **Southwell** and *the Western Monastery* is **Westminster**, as the Latin column says outright (*sc. Southwell*, *sc. Westmonasterii*); with St Paul's between them these are his own prebends and his deanery. The English keeps the descriptive form because the Greek does, and the identification sits where Andrewes put it, on the facing page.
@@ -275,7 +279,7 @@ S: 10 Luke xviii. 13 — the publican, standing afar off
 S: 11 1 Tim. i. 15 — Paul, *of whom I am chief*
 S: 14 Luke xv. 18 — the prodigal: *make me as one of thy hired servants*
 S: 24 Ps. xxx. 9 — *thou hast turned for me my mourning into dancing*
-S: 32 2 Cor. vii. 11 — the seven marks of godly sorrow, which this column sets out
+S: 31 2 Cor. vii. 11 — the seven marks of godly sorrow, which this column sets out
 R: 25 ⚠ **Under these seven Greek words for sin the manuscript sets a Hebrew column, and the 1853 left it out.** The apograph gives `יצר` · `שגגה` · `אשם` · `חטאה` · `פשע` · `עון` · `תועבה` — *yetzer, shegagah, asham, ḥaṭṭa'ah, pesha, avon, to'evah*, the standard rabbinic vocabulary of sin, set as a lexicon beneath the Greek. **It is not in the printed book at all.** ⚠ And the first of them is the word Andrewes glosses `יצר טוב`, the good inclination, at printed 76: so his *φαντασία* is being read through the rabbinic doctrine of the two inclinations, which is a fact about his theology and not a footnote about his text. Recorded here; not restored to the page.
 
 ## 98
@@ -287,22 +291,27 @@ S: 22 Ps. cxxi. 5 — *the Lord is thy keeper; the Lord is thy shade upon thy ri
 ## 102
 S: 2 Rom. vii. 24 — *O wretched man that I am*
 S: 11 2 Sam. vii. 28 — David after the promise: *thou art that God, and thy words be true*
+S: 12 Neh. ix. 31 — *thou art a gracious and merciful God*, said of a people not consumed
 S: 13 Rom. v. 20 — *where sin abounded, grace did much more abound*
 S: 15 Tit. iii. 4 — *the kindness and love of God our Saviour toward man appeared*
 S: 17 2 Cor. x. 1 — *the meekness and gentleness of Christ*
 S: 19 Rom. ii. 4 — *the riches of his goodness and forbearance and longsuffering*
 S: 24 Col. iii. 12 — *put on therefore, as the elect of God, bowels of mercies*
 S: 26 Jas. v. 11 — *the Lord is very pitiful, and of tender mercy*
+S: 27 Mic. vii. 18 — *who is a God like unto thee, that passeth by the transgression of the remnant?*
 S: 28 Acts xvii. 30 — *the times of this ignorance God winked at*
+S: 29 Isa. lvii. 11 — the Vulgate's *I, keeping silence and as it were not seeing*, where the AV has *held my peace*
 R: 11 **This is a catalogue of the Names of mercy, each with its proof-text**, and the proof-texts are doing the work a lexicon would: *bonitas* from Samuel, *charitas* from Romans, *hominum dilectio* from Titus — the Greek φιλανθρωπία — down to the *viscera* of James. The page is closer to a concordance than to a prayer, and it is the ground the next page prays from.
 
 ## 104
 S: 1 Neh. ix. 28 — *many times didst thou deliver them*
+S: 3 Lam. iii. 33 — *he doth not afflict willingly, nor grieve the children of men*
 S: 4 Ps. lxxviii. 39 — *he stirred not up all his wrath*
 S: 5 Ps. ciii. 10 — *he hath not dealt with us after our sins*
 S: 7 Hab. iii. 2 — *in wrath remember mercy*
 S: 8 Joel ii. 13 — *slow to anger, and of great kindness, and repenteth him of the evil*
 S: 9 Isa. xl. 2 — *she hath received of the LORD's hand double for all her sins*
+R: 3 **`*Thren.*` is Lamentations**, the Vulgate titling the book *Threni*, the Greek for the same thing — the dirges. It is the 1853's usual form and the band gives the English name, so the two differ on the opening by title only. The Latin here is the Vulgate's *non enim humiliavit ex corde suo*, punishing **not from the heart**, which is a stronger thing than the AV's *willingly* and is why the line reads *not of thine own will*.
 
 ## 106
 S: 3 Ps. lxiii. 7 — *because thou hast been my help*
@@ -313,6 +322,7 @@ S: 18 Gen. i. 18 — *to divide the light from the darkness*
 R: 3 **The same psalm, correctly numbered here.** At printed 92 *Ad te de luce vigilo* was referred to `Psal. xliii. 1`; here `Psal. lxiii. 7, 8` stands right. The volume therefore knows the psalm's number and mis-set it fourteen leaves earlier — which is the argument for calling that one a compositor's slip rather than Andrewes' own reckoning.
 
 ## 108
+S: 3 Isa. lxiv. 5, 6 — *we all do fade as a leaf; our iniquities, like the wind, have taken us away*
 S: 13 Jer. xiv. 7 — *our backslidings are many; we have sinned against thee*
 S: 23 Jer. xxxi. 34 — *I will remember their sin no more*
 S: 25 Rom. vii. 14 — *carnal, sold under sin*
@@ -332,12 +342,12 @@ R: 27 **Two verses of the same shape, set one under the other.** *My sins are no
 S: 3 Ps. lxix. 6 — *let not those that seek thee be confounded for my sake, O God of Israel*
 
 ## 114
-S: 11 Gal. iii. 10 — *cursed is every one that continueth not in all things*
+S: 9 Gal. iii. 10 — *cursed is every one that continueth not in all things*
 S: 12 1 Cor. xv. 56 — *the sting of death is sin*
 S: 15 1 Cor. xv. 20 — *the firstfruits of them that slept*
-S: 17 Heb. vii. 25 — *he ever liveth to make intercession for them*
-S: 19 Rom. ii. 6 — *who will render to every man according to his deeds*
-S: 20 Luke xxiv. 49 — *until ye be endued with power from on high*
+S: 15 Heb. vii. 25 — *he ever liveth to make intercession for them*
+S: 17 Rom. ii. 6 — *who will render to every man according to his deeds*
+S: 18 Luke xxiv. 49 — *until ye be endued with power from on high*
 R: 11 **The Creed again, but each article answered by what it did.** Not *he was crucified* but the cross taking away the curse of the law; not *he rose* but the firstfruits; not *he sitteth* but the appearing and interceding. Compare printed 48, where the same articles are answered by a discipline the believer owes each of them. The Creed is recited three times in Part I and never twice to the same end.
 
 ## 116
@@ -384,20 +394,20 @@ S: 5 Jas. ii. 13 — *judgment without mercy to him that hath shewed no mercy*
 S: 7 1 John i. 8 — *if we say that we have no sin, we deceive ourselves*
 S: 12 1 John ii. 1 — *we have an advocate with the Father*
 S: 22 Ps. lxxvii. 7 — *will the Lord cast off for ever?*
-S: 27 Heb. xii. 1 — *the sin which doth so easily beset us*
-S: 29 Jas. i. 21 — *superfluity of naughtiness*
+S: 26 Heb. xii. 1 — *the sin which doth so easily beset us*
+S: 28 Jas. i. 21 — *superfluity of naughtiness*
 R: 12 **He doubles the preposition, and the doubling is the argument.** *Advocatum ad te apud te habeo* — an advocate **to** thee and **with** thee: the one pleaded before is the one pleaded to, and both are God. It is the court figure the book keeps returning to, and the English holds both prepositions rather than smoothing them into one.
 
 ## 136
 S: 1 1 John ii. 16 — *the pride of life*
 S: 6 Matt. v. 3 — *blessed are the poor in spirit; for theirs is the kingdom of heaven*
-S: 25 Heb. xi. 6 — *a rewarder of them that diligently seek him*
-S: 26 Job xix. 25 — *I know that my redeemer liveth*
-S: 27 Matt. xvi. 16 — Peter at Cæsarea Philippi: *thou art the Christ, the Son of the living God*
-S: 28 John iv. 42 — the Samaritans: *this is indeed the Christ, the Saviour of the world*
-S: 30 1 Tim. i. 15 — *of whom I am chief*
-S: 32 Acts xv. 11 — Peter at the council: *we shall be saved, even as they*
-R: 26 **Three confessions in a row, and not one of them from the same quarter.** Job's *I know that my redeemer liveth* comes from outside Israel altogether; Peter's *thou art the Christ* from the chief of the apostles; the Samaritans' *this is indeed the Saviour of the world* from foreigners who had believed on the word of a woman. Andrewes sets them one under another without comment, and the arrangement says what no one of them says alone.
+S: 22 Heb. xi. 6 — *a rewarder of them that diligently seek him*
+S: 23 Job xix. 25 — *I know that my redeemer liveth*
+S: 24 Matt. xvi. 16 — Peter at Cæsarea Philippi: *thou art the Christ, the Son of the living God*
+S: 25 John iv. 42 — the Samaritans: *this is indeed the Christ, the Saviour of the world*
+S: 27 1 Tim. i. 15 — *of whom I am chief*
+S: 29 Acts xv. 11 — Peter at the council: *we shall be saved, even as they*
+R: 23 **Three confessions in a row, and not one of them from the same quarter.** Job's *I know that my redeemer liveth* comes from outside Israel altogether; Peter's *thou art the Christ* from the chief of the apostles; the Samaritans' *this is indeed the Saviour of the world* from foreigners who had believed on the word of a woman. Andrewes sets them one under another without comment, and the arrangement says what no one of them says alone.
 
 ## 138
 S: 2 Job xix. 25 — the verse continuing: *whom I shall see for myself*
@@ -410,8 +420,8 @@ R: 4 ⚠ **`Psal. xxvii. 15` is not an error: it is the Prayer Book's numbering.
 S: 18 2 Cor. xiii. 14 — the apostolic grace, which closes the day
 
 ## 144
-S: 18 2 Sam. vii. 18 — David, sitting before the LORD: *who am I, O Lord GOD?*
-S: 20 Ps. cxvi. 12 — *what shall I render unto the LORD for all his benefits?*
+S: 15 2 Sam. vii. 18 — David, sitting before the LORD: *who am I, O Lord GOD?*
+S: 17 Ps. cxvi. 12 — *what shall I render unto the LORD for all his benefits?*
 
 ## 146
 S: 9 Rev. iv. 8 — *for thy pleasure they are and were created* stands at verse 11
@@ -428,12 +438,12 @@ S: 18 Gen. ii. 8 — *and the LORD God planted a garden eastward in Eden*
 R: 12 **Seven dignities in the making of man, counted out.** A deliberation held beforehand, the divine hand set to the work, the breath of life, the image, dominion over the works, angels given charge, and a garden — each with its text. Andrewes is not retelling Genesis i but *itemising* it, and the sixth day's prayer is built on the count: what man was made with is the ground of everything the page goes on to ask.
 
 ## 150
-S: 6 2 Pet. i. 4 — *partakers of the divine nature*
-S: 7 Gen. iii. 15 — the promise of the seed that should bruise the serpent
-S: 9 Gal. iv. 4 — *when the fulness of the time was come*
-S: 18 Hos. xiii. 16 — the prophet's word of a people fallen by its own iniquity
-S: 22 Hos. xiv. 1 — *so will we render the calves of our lips*, which is verse 2
-S: 25 Joel ii. 17 — *give not thine heritage to reproach*
+S: 5 2 Pet. i. 4 — *partakers of the divine nature*
+S: 6 Gen. iii. 15 — the promise of the seed that should bruise the serpent
+S: 8 Gal. iv. 4 — *when the fulness of the time was come*
+S: 17 Hos. xiii. 16 — the prophet's word of a people fallen by its own iniquity
+S: 21 Hos. xiv. 1 — *so will we render the calves of our lips*, which is verse 2
+S: 24 Joel ii. 17 — *give not thine heritage to reproach*
 
 ## 152
 V: 8 *Græca om. apogr., quæ Hebraice leguntur*: `ואתה תעל משחת חיי` (*Ion.* ii. 7), *sub titulo* `Τοῦ Ἰωνᾶ`
@@ -448,39 +458,39 @@ R: 8 ⚠ **Here the manuscript reads HEBREW where the printed page reads Greek.*
 S: 2 Zech. iii. 2 — *is not this a brand plucked out of the fire?*
 S: 5 Luke xxiii. 34 — *Father, forgive them; for they know not what they do*
 S: 9 Acts vii. 60 — Stephen, kneeling: *lay not this sin to their charge*
-S: 14 Luke xxii. 44 — *his sweat was as it were great drops of blood*
+S: 13 Luke xxii. 44 — *his sweat was as it were great drops of blood*
 S: 16 Matt. xxvii. 29 — *a crown of thorns, and put it upon his head*
-S: 18 Heb. v. 7 — *with strong crying and tears*
+S: 17 Heb. v. 7 — *with strong crying and tears*
 S: 19 Matt. xxvii. 39 — *they that passed by reviled him, wagging their heads*
-S: 24 Ps. cxxix. 3 — *the plowers plowed upon my back*
-S: 25 Ps. xxii. 17 — *they pierced my hands and my feet*; Prayer Book numbering
+S: 23 Ps. cxxix. 3 — *the plowers plowed upon my back*
+S: 24 Ps. xxii. 17 — *they pierced my hands and my feet*; Prayer Book numbering
 S: 26 Matt. xxvii. 46 — *Eli, Eli, lama sabachthani*, at the ninth hour
-S: 29 1 Cor. xi. 24 — *this is my body, which is broken for you*
-S: 30 Matt. xxvi. 28 — at the Supper: *my blood of the new testament, which is shed for many*
-S: 32 Ps. lxxxv. 2 — *thou hast covered all their sin*
-R: 14 **The Passion assembled out of five books, and not one of them a Gospel narrative of it.** The bloody sweat and the strong crying come from Luke and Hebrews, but the plowed back, the pierced hands and feet and the covered sin come from the Psalms, and the broken body from an epistle about a supper. Andrewes builds the scene from texts that are not describing it, which is why the sequence reads as prayer and not as recital.
+S: 28 1 Cor. xi. 24 — *this is my body, which is broken for you*
+S: 29 Matt. xxvi. 28 — at the Supper: *my blood of the new testament, which is shed for many*
+S: 31 Ps. lxxxv. 2 — *thou hast covered all their sin*
+R: 13 **The Passion assembled out of five books, and not one of them a Gospel narrative of it.** The bloody sweat and the strong crying come from Luke and Hebrews, but the plowed back, the pierced hands and feet and the covered sin come from the Psalms, and the broken body from an epistle about a supper. Andrewes builds the scene from texts that are not describing it, which is why the sequence reads as prayer and not as recital.
 
 ## 156
 S: 21 Gal. v. 19 — the works of the flesh, which this column lists
 S: 26 Gal. v. 22 — the fruit of the Spirit, which the facing column answers with
 
 ## 158
-S: 8 1 Cor. xii. 8 — the gifts of the Spirit, severally divided
-S: 12 Ps. cxxxviii. 8 — *forsake not the works of thine own hands*
-S: 13 Gen. i. 26 — *because* in thine image and likeness
-S: 16 Rev. v. 9 — *because* thou hast redeemed me by thy blood
-S: 22 Tit. iii. 5 — *because* of the washing of regeneration
-S: 25 Rom. xi. 17 — *because* thou hast graffed me into the good olive tree
-S: 26 Eph. v. 30 — *because* a member of his body
-R: 13 **Five pleas, and every one of them begins *Quia*.** The prayer does not ask on the ground of need but on the ground of fact — because I am in thine image, because thou hast bought me, because thou hast washed me, because thou hast graffed me in, because I am a member. The repeated conjunction is the argument, and the English keeps it at the head of each line rather than varying it for elegance.
+S: 7 1 Cor. xii. 8 — the gifts of the Spirit, severally divided
+S: 11 Ps. cxxxviii. 8 — *forsake not the works of thine own hands*
+S: 12 Gen. i. 26 — *because* in thine image and likeness
+S: 15 Rev. v. 9 — *because* thou hast redeemed me by thy blood
+S: 21 Tit. iii. 5 — *because* of the washing of regeneration
+S: 24 Rom. xi. 17 — *because* thou hast graffed me into the good olive tree
+S: 25 Eph. v. 30 — *because* a member of his body
+R: 12 **Five pleas, and every one of them begins *Quia*.** The prayer does not ask on the ground of need but on the ground of fact — because I am in thine image, because thou hast bought me, because thou hast washed me, because thou hast graffed me in, because I am a member. The repeated conjunction is the argument, and the English keeps it at the head of each line rather than varying it for elegance.
 
 ## 160
 S: 2 Ps. cxix. 49 — *remember thy word unto thy servant, upon which thou hast caused me to hope*
 
 ## 162
-S: 21 Phil. iv. 7 — *the peace of God, which passeth all understanding*
-S: 28 2 Pet. i. 4 — *exceeding great and precious promises*
-S: 30 Acts xiv. 27 — *he had opened the door of faith unto the Gentiles*
+S: 20 Phil. iv. 7 — *the peace of God, which passeth all understanding*
+S: 27 2 Pet. i. 4 — *exceeding great and precious promises*
+S: 29 Acts xiv. 27 — *he had opened the door of faith unto the Gentiles*
 
 ## 164
 S: 1 Acts xi. 18 — *then hath God also to the Gentiles granted repentance unto life*
@@ -524,10 +534,10 @@ S: 4 Rom. viii. 26 — *groanings which cannot be uttered*
 S: 12 Ps. xxii. 4 — *our fathers trusted in thee, and were not confounded*
 
 ## 180
-S: 20 Eph. iii. 20 — *unto him that is able to do exceeding abundantly above all that we ask or think*
+S: 19 Eph. iii. 20 — *unto him that is able to do exceeding abundantly above all that we ask or think*
 
 ## 182
-S: 30 Rev. xv. 3 — the song of Moses and of the Lamb: *thy judgments are made manifest*
+S: 29 Rev. xv. 3 — the song of Moses and of the Lamb: *thy judgments are made manifest*
 
 ## 184
 S: 3 Rev. xix. 5 — *praise our God, all ye his servants, both small and great*
@@ -557,11 +567,12 @@ S: 3 Matt. vi. 6 — *enter into thy closet, and shut thy door*
 S: 5 Acts x. 9 — Peter praying on the housetop
 S: 7 Acts iii. 1 — Peter and John going up into the temple
 S: 9 Acts xxi. 5 — kneeling down on the shore, at parting
+S: 11 John xviii. 2 — the garden over Kedron, whither Jesus *ofttimes resorted with his disciples*
 S: 13 Ps. cxlix. 5 — *let them sing aloud upon their beds*
 S: 15 Mark i. 35 — *a solitary place, and there prayed*
 S: 17 1 Tim. ii. 8 — *that men pray every where*
 S: 19 Ps. xcix. 6 — *Samuel among them that call upon his name*
-R: 3 **And the places, by the same method as the hours opposite.** The closet, the housetop, the temple, the sea-shore, the bed, the wilderness — each a place where somebody in Scripture is found praying — and then *every where*, which is not a seventh place but the conclusion drawn from the six.
+R: 3 **And the places, by the same method as the hours opposite.** The closet, the housetop, the temple, the sea-shore, the garden, the bed, the wilderness — each a place where somebody in Scripture is found praying — and then *every where*, which is not an eighth place but the conclusion drawn from the seven.
 
 ## 6
 S: 2 Ps. lxv. 2 — *O thou that hearest prayer, unto thee shall all flesh come*
@@ -569,6 +580,7 @@ S: 4 Ps. li. 15 — *my mouth shall shew forth thy praise*
 S: 7 Ps. v. 7 — *in thy fear will I worship toward thy holy temple*
 S: 10 Ps. xxviii. 2 — *when I lift up my hands toward thy holy oracle*
 S: 12 Ps. xlviii. 9 — *we have thought of thy lovingkindness, in the midst of thy temple*
+S: 26 2 Chron. vi. 40 — Solomon at the dedication of the temple, on the place the Name is called upon
 
 ## 8
 S: 3 Job xxxiii. 27 — *I have sinned, and it profited me not*
@@ -585,12 +597,14 @@ S: 14 Ps. cxix. 18 — *open thou mine eyes, that I may behold wondrous things*
 S: 14 Luke xxii. 41 — *he kneeled down, and prayed*
 S: 15 Matt. xxvi. 39 — *he fell on his face, and prayed*
 S: 16 Ps. xliv. 25 — *our belly cleaveth unto the earth*
+S: 18 Ezra ix. 6 — *I am ashamed and blush to lift up my face to thee, my God*
 S: 19 Luke xviii. 13 — the publican smiting upon his breast
 S: 20 Job iv. 14 — *fear came upon me, and trembling*
 S: 21 Isa. lix. 11 — *we roar all like bears, and mourn sore like doves*
 S: 23 Ps. cxxiii. 1 — *unto thee lift I up mine eyes*; Ps. cxliii. 6 — *I stretch forth my hands unto thee*
 S: 24 1 Cor. ix. 27 — *I keep under my body*
-R: 13 **The body's part in prayer, itemised like the hours and the places.** Kneeling, prostration, the face to the ground, the smitten breast, trembling, groaning, eyes and hands lifted, the body kept under — seven postures, each with the text of somebody doing it. Three consecutive openings apply one method to the *when*, the *where* and the *how*, which is what makes this front matter a treatise and not a preface.
+R: 13 **The body's part in prayer, itemised like the hours and the places.** Kneeling, prostration, the face to the ground, the head bowed and the countenance cast down, the smitten breast, trembling, groaning, eyes and hands lifted, the body kept under — seven numbered postures, each with the text of somebody doing it, and each with the affection it belongs to set opposite in a column of its own: *Humbling, Confusion, Indignation, Fear, Sorrow, Longing, Avenging*. Three consecutive openings apply one method to the *when*, the *where* and the *how*, which is what makes this front matter a treatise and not a preface.
+R: 18 **The reference here is the 1853 editor's, in his brackets, and his contraction is ambiguous.** He writes `[*Ez.* ix. 6.]`, which in this volume could stand for either Ezekiel or Ezra — the two are elsewhere kept apart as `*Ezech.*` and `*Ezr.*` The verse is Ezra's: *I am ashamed and blush to lift up my face to thee, my God*, which is a countenance cast down and a confusion, exactly the posture and the affection the line names; Ezekiel ix. 6 is the order to slay at the sanctuary and has nothing to do with either. **The volume settles it from inside itself** — printed 171 prints the same verse in full as `*Ezr.* ix. 6, 7`, in the same penitential sense. Brightman reaches the same reading independently, tagging the sentence *Of Ezra*.
 
 ## 16
 S: 13 Ps. xxxiv. 7 — *the angel of the LORD encampeth round about them that fear him*
@@ -618,7 +632,9 @@ S: 18 Ps. xci. 6 — the Vulgate's *business that walketh in darkness*, where th
 S: 21 Ps. lxv. 8 — *thou makest the outgoings of the morning and evening to rejoice*
 S: 22 Ps. iii. 5 — *I laid me down and slept; I awaked*
 S: 25 Jer. xxxi. 26 — *my sleep was sweet unto me*
+S: 27 Isa. xliv. 22 — God to Jacob: *I have blotted out thy transgressions as a cloud*
 S: 28 1 Thess. v. 5 — *ye are all the children of light, and the children of the day*
+R: 27 **A promise about what God has done, asked back as a petition for what He has not yet done.** Isaiah's verse is spoken by God in the perfect — *Delevi ut nubem iniquitates tuas, et quasi nebulam peccata tua*, I **have** blotted out thy transgressions — and the prayer answers *Dele … et dissipa*, blot **thou** out, scatter, with the possessive turned from *thy* to *mine*. The tense and the person are both reversed, and nothing on the page marks the change. It is the same move as at printed 321, where *let it not return unto me void* — said by God of the word that goes out of His own mouth — is asked of the prayer going up from a man's; **twice in the volume a guarantee is borrowed rather than argued from.**
 
 ## 24
 S: 6 Ps. xcv. 8 — *harden not your heart*; Heb. iii. 13 — *lest any of you be hardened through the deceitfulness of sin*
@@ -633,10 +649,12 @@ R: 16 ⚠⚠ **This is the verse Part III mis-numbers, and here the volume gets 
 ## 26
 S: 7 Ps. cxix. 37 — *turn away mine eyes from beholding vanity*
 S: 9 Prov. iv. 25 — *let thine eyelids look straight before thee*
+S: 12 Isa. l. 4, 5 — the Servant: *he wakeneth morning by morning, he wakeneth mine ear*
 S: 15 Ps. cxli. 8 — *keep the door of my lips*, which is verse 3
 S: 16 Col. iv. 6 — *let your speech be alway with grace, seasoned with salt*
 S: 17 Eph. iv. 29 — *that it may minister grace unto the hearers*
 S: 19 1 Sam. xxv. 31 — Abigail: *no grief, nor offence of heart*
+S: 22 Neh. xiii. 22, 31 — Nehemiah's own refrain: *remember me, O my God, and spare me*
 S: 26 Ps. xxxi. 6 — *O LORD God of truth*; Prayer Book numbering
 S: 28 Gen. xxxiii. 5 — Jacob to Esau: *the children which God hath graciously given thy servant*
 S: 29 Ps. cxxi. 7 — *the LORD shall preserve thee from all evil*
@@ -806,17 +824,17 @@ S: 26 Ps. iv. 8 — *thou, LORD, only makest me dwell in safety*
 R: 20 **`Ad scopandum spiritum meum` — he keeps the spade.** Ps. lxxvii. 6's *my spirit made diligent search* is, in the Greek Andrewes used, a verb of digging over the ground; the evening examination is a turning of the soil, not a rummage. The same figure governs §41 in Part II, where the day's review is a **recall** of stragglers rather than a reveille. The English holds the spade in both places.
 
 ## 240
-S: 16 Rom. ix. 33 — *whosoever believeth on him shall not be ashamed*
-S: 22 Acts ii. 42 — *they continued stedfastly in the apostles' doctrine and fellowship*
-S: 23 Luke xxii. 19 — *this do in remembrance of me*
-S: 24 1 Cor. xi. 26 — *ye do shew the Lord's death till he come*
-S: 25 1 Cor. x. 16 — *the communion of the body of Christ*
-S: 27 Matt. xxvi. 28 — *shed for many for the remission of sins*
-S: 28 1 Cor. v. 7 — *Christ our passover is sacrificed for us*
-S: 29 Matt. xi. 28 — *come unto me, and I will give you rest*
-S: 30 Col. ii. 14 — *blotting out the handwriting of ordinances that was against us*
-S: 31 Heb. ix. 14 — *purge your conscience from dead works*
-S: 32 1 Pet. ii. 24 — *by whose stripes ye were healed*
+S: 15 Rom. ix. 33 — *whosoever believeth on him shall not be ashamed*
+S: 21 Acts ii. 42 — *they continued stedfastly in the apostles' doctrine and fellowship*
+S: 22 Luke xxii. 19 — *this do in remembrance of me*
+S: 23 1 Cor. xi. 26 — *ye do shew the Lord's death till he come*
+S: 24 1 Cor. x. 16 — *the communion of the body of Christ*
+S: 26 Matt. xxvi. 28 — *shed for many for the remission of sins*
+S: 27 1 Cor. v. 7 — *Christ our passover is sacrificed for us*
+S: 28 Matt. xi. 28 — *come unto me, and I will give you rest*
+S: 29 Col. ii. 14 — *blotting out the handwriting of ordinances that was against us*
+S: 30 Heb. ix. 14 — *purge your conscience from dead works*
+S: 31 1 Pet. ii. 24 — *by whose stripes ye were healed*
 R: 22 **Thirty-four names for one thing, each with its text.** From here to the foot of the next leaf Andrewes sets out what the Sacrament *is* — the token of the assembly, the memorial of the dispensation, the shewing of the death, the communion of body and blood, the remission of sins, an amulet against all that is unlucky, the quiet of conscience, the cancelling of debts — and gives every name a proof. **It is a definition by accumulation**: no one of the names is the definition, and the list does not resolve into a doctrine. That is why the page can be read by anyone who holds any of the doctrines, and why it was worth an entire meditation.
 
 ## 242

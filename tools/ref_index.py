@@ -79,6 +79,10 @@ BOOK = (r"Gen|Exod|Ex|Lev|Num|Deut|Josh|Jos|Judic|Judg|Ruth|Reg|Sam|Paralip|Para
 REF = re.compile(r"((?:\b[12I]\.?\s*)?(?:%s)\.?\s*[ivxlc]+\.?\s*[\d,\s.]*\d)" % BOOK,
                  re.I)
 MARK = re.compile(r"<!--\s*printed (\d+)")
+# The same pattern `proof2tex` strips before it decides a line is empty. Kept
+# identical to it on purpose: the index must count exactly the lines the builder
+# sets, or the band's figures and the page's ruler drift apart in silence.
+COMMENT = re.compile(r"<!--.*?-->")
 
 
 def index():
@@ -110,6 +114,18 @@ def index():
                 page = None
                 continue
             if page is None or not raw.strip():
+                continue
+            # ⚠⚠ A COMMENT-ONLY LINE IS NOT A SENSE-LINE. The transcripts carry
+            # editorial notes inline (`<!-- right brace over the three lines -->`,
+            # `<!-- print unclear: οὗ / οὐ -->`), and `proof2tex.render_line` drops
+            # them: they are not set, so they take no place in the printed column
+            # and none on the margin's ruler. Counting them here put the index
+            # AHEAD of the printed page by one for every comment above a
+            # reference — printed 115's *Cruce* is the ninth line of the Latin and
+            # was indexed as the eleventh — and since every tag takes its figure
+            # from this count, the marker landed two lines below its own text on
+            # every page that carries an inline comment. 58 pages do.
+            if not COMMENT.sub("", raw).strip():
                 continue
             line_no += 1
             seen_lines[page] = line_no
