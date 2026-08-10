@@ -1548,3 +1548,32 @@ S: 23 Jude 23 — *hating even the garment spotted by the flesh*
 S: 24 Gal. v. 13 — *use not liberty for an occasion to the flesh*
 S: 25 Jas. iv. 10 — *humble yourselves in the sight of the Lord, and he shall lift you up*
 S: 27 Jer. xxxi. 19 — Ephraim, after his turning: *I smote upon my thigh; I was ashamed*
+
+## 327
+S: 1 Jer. iv. 8 — *gird you with sackcloth, lament and howl*
+S: 2 Joel ii. 12 — *turn ye even to me with all your heart, with fasting, and with weeping*
+S: 4 Prov. xvi. 6 — *by mercy and truth iniquity is purged*
+S: 11 Ps. lxxix. 8 — *let thy tender mercies speedily prevent us: for we are brought very low*
+S: 14 Rom. viii. 32 — *how shall he not with him also freely give us all things?*
+S: 16 Acts vii. 60 — Stephen, kneeling: *lay not this sin to their charge*
+S: 17 Ps. xxxii. 2 — *blessed is the man unto whom the LORD imputeth not iniquity*
+R: 17 ⚠ **Three Greek verbs stand beside the Latin here, and they are three different ways of not counting a sin.** *Μὴ στήσῃς* is Stephen's, dying — do not **set** it up against me; *μὴ λογίσῃ* is the Septuagint's, in the psalm Paul builds imputation on — do not **reckon** it to my account; *μὴ μνησθῇς* — do not **remember** it. Judicial, mercantile, personal: **the English of the three is nearly one sentence and the Greek of them is three distinct acts**, which is why the plate keeps the Greek. ⚠ Stephen prayed his for **other men**; it is asked here for the man praying.
+S: 19 Ps. cxxx. 3 — *if thou, LORD, shouldest mark iniquities, O Lord, who shall stand?*
+S: 20 Ps. cxliii. 2 — *enter not into judgment with thy servant*
+S: 22 Ps. li. 11 — *cast me not away from thy presence*
+S: 25 Exod. xxxii. 12 — Moses on the mount: *turn from thy fierce wrath, and repent of this evil*
+R: 25 **Nine petitions in a row ask God not to act, and then the prayer turns and asks what He is.** From *hold back thine anger* to *cast me not away*, every clause is a negative. The turn comes at *Esto* — **be Thou** — with three adjectives that rhyme in the Latin and cannot in the English: *placabilis, præstabilis, exorabilis*. **They are adjectives of capacity, not of action:** the prayer stops asking God to do anything and asks that He be the kind of God who can be moved.
+S: 27 Ps. lxxvii. 7 — *will the Lord absent himself for ever? will he be no more entreated?*
+
+## 328
+R: 7 **The page divides sin into four things it does, and gives each its own ladder.** *Reatus, macula, morbus, servitus* — guilt, stain, sickness, bondage, the scholastic four-fold effect — and each carries its Greek term: guilt is **ὑπόδικον**, liable to judgement, a courtroom word; stain is **κηλίς**, a spot, with **δυσειδές** beside it. **The four are not four sins but one sin under four descriptions**, so the eleven petitions under the first are eleven ways of asking one verdict to be lifted.
+S: 9 Job xiv. 16 — the Vulgate's *parce peccatis meis*, where the AV has *dost thou not watch over my sin?*
+R: 9 ⚠⚠ **Almost every text here states in the indicative what God HAS done, and is asked back as an imperative.** Nathan told David *the LORD hath put away thy sin*, and the page prays *Transfer*; Hezekiah sang *thou hast cast all my sins behind thy back*, and it prays *Dissipa*; the psalm says *thou hast covered all their sin*, and it prays *Tege*. **The Baptist's is the clearest**: *ὁ αἴρων*, the participle that names Christ, becomes the bare imperative **αἶρε**. ⚠ **And it is not a device of one page** — printed 22 asks Isaiah's *I have blotted out thy transgressions* back as *blot thou out mine*, 321 asks of a man's prayer the promise made of God's own word. **What twice looked like a liberty is the method**, and it is nowhere argued for.
+S: 10 John i. 29 — the Baptist's *ὁ αἴρων*: *behold the Lamb of God, which taketh away the sin of the world*
+S: 11 2 Sam. xii. 13 — Nathan to David: *the LORD also hath put away thy sin*
+S: 12 Isa. xxxviii. 17 — Hezekiah's song in his sickness: *thou hast cast all my sins behind thy back*
+S: 15 Joel ii. 14 — *who knoweth if he will return and repent, and leave a blessing behind him?*
+S: 18 2 Cor. v. 18 — *who hath reconciled us to himself by Jesus Christ*
+S: 19 1 Kings viii. 39 — Solomon at the dedication: *hear thou in heaven, and forgive*
+S: 21 Ps. li. 9 — *hide thy face from my sins*
+S: 26 Ps. lxxxv. 2 — *thou hast covered all their sin*
