@@ -300,3 +300,65 @@ S: 5 Ps. ciii. 10 — *he hath not dealt with us after our sins*
 S: 7 Hab. iii. 2 — *in wrath remember mercy*
 S: 8 Joel ii. 13 — *slow to anger, and of great kindness, and repenteth him of the evil*
 S: 9 Isa. xl. 2 — *she hath received of the LORD's hand double for all her sins*
+
+## 106
+S: 3 Ps. lxiii. 7 — *because thou hast been my help*
+S: 7 Gen. i. 16 — **the work of the fourth day**: the two great lights, and the stars
+S: 8 Gen. i. 14 — *for signs, and for seasons, and for days, and years*
+S: 12 Ps. civ. 19 — *he appointed the moon for seasons*
+S: 18 Gen. i. 18 — *to divide the light from the darkness*
+R: 3 **The same psalm, correctly numbered here.** At printed 92 *Ad te de luce vigilo* was referred to `Psal. xliii. 1`; here `Psal. lxiii. 7, 8` stands right. The volume therefore knows the psalm's number and mis-set it fourteen leaves earlier — which is the argument for calling that one a compositor's slip rather than Andrewes' own reckoning.
+
+## 108
+S: 13 Jer. xiv. 7 — *our backslidings are many; we have sinned against thee*
+S: 23 Jer. xxxi. 34 — *I will remember their sin no more*
+S: 25 Rom. vii. 14 — *carnal, sold under sin*
+
+## 110
+S: 9 Rom. v. 20 — *where sin abounded, grace did much more abound*
+S: 10 Rom. ii. 4 — *the goodness of God leadeth thee to repentance*
+S: 13 2 Tim. ii. 25 — *if God peradventure will give them repentance*
+S: 19 1 Pet. i. 19 — *the precious blood of Christ, as of a lamb without blemish*
+S: 25 Acts iv. 12 — *none other name under heaven*
+S: 27 Ps. lxix. 5 — *my sins are not hid from thee*
+S: 29 Ps. xxxviii. 9 — *my groaning is not hid from thee*
+R: 9 ⚠ **The plate cites `Rom. v. 2`, and the verse is Rom. v. 20.** *Superabundavit gratia* is the Vulgate of Romans v. 20 word for word; v. 2 is *access by faith into this grace*, a different sentence. **And the volume proves it against itself**: printed 103 cites `Rom. v. 20` correctly. A dropped nought, kept as printed — the fifth place in this edition where one page corrects another.
+R: 27 **Two verses of the same shape, set one under the other.** *My sins are not hid from thee* and *my groaning is not hid from thee* are different psalms — lxix and xxxviii — and Andrewes has put them together for the repeated clause, which is how most of this book is built. The English keeps both, unvaried, so the repetition reads as the design it is.
+
+## 112
+S: 3 Ps. lxix. 6 — *let not those that seek thee be confounded for my sake, O God of Israel*
+
+## 114
+S: 11 Gal. iii. 10 — *cursed is every one that continueth not in all things*
+S: 12 1 Cor. xv. 56 — *the sting of death is sin*
+S: 15 1 Cor. xv. 20 — *the firstfruits of them that slept*
+S: 17 Heb. vii. 25 — *he ever liveth to make intercession for them*
+S: 19 Rom. ii. 6 — *who will render to every man according to his deeds*
+S: 20 Luke xxiv. 49 — *until ye be endued with power from on high*
+R: 11 **The Creed again, but each article answered by what it did.** Not *he was crucified* but the cross taking away the curse of the law; not *he rose* but the firstfruits; not *he sitteth* but the appearing and interceding. Compare printed 48, where the same articles are answered by a discipline the believer owes each of them. The Creed is recited three times in Part I and never twice to the same end.
+
+## 116
+S: 5 Ps. lii. 9 — *I will praise thee for ever, because thou hast done it*
+S: 7 Ps. xxxvi. 7 — *how excellent is thy lovingkindness, O God*
+S: 8 Ps. xiii. 5 — *I have trusted in thy mercy*
+S: 9 Ps. cxix. 116 — *let me not be ashamed of my hope*
+S: 20 Ps. lxv. 5 — the verse that has already stood at 48 and 50, again as a title
+S: 26 Ps. cxlv. 16 — *thou fillest all things living with plenteousness*
+
+## 118
+S: 4 Acts xx. 28 — *the church of God, which he hath purchased with his own blood*
+
+## 120
+S: 12 1 Tim. ii. 2 — *a quiet and peaceable life in all godliness and honesty*
+S: 22 2 Tim. ii. 15 — *rightly dividing the word of truth*
+S: 23 Gal. ii. 14 — Paul at Antioch, of those that *walked not uprightly according to the truth of the gospel*
+
+## 122
+S: 4 Ps. cxliv. 13 — *that our garners may be full, affording all manner of store*
+S: 9 1 Thess. v. 14 — *comfort the feebleminded, support the weak*
+
+## 126
+S: 19 Ps. xc. 17 — *establish thou the work of our hands upon us*
+
+## 128
+S: 14 Isa. lxiv. 2 — *that the nations may tremble at thy presence*
