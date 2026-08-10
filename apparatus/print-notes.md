@@ -207,3 +207,46 @@ S: 16 Num. vi. 24 — the Aaronic blessing, spoken over the congregation
 ## 68
 S: 10 Ezek. iii. 12 — *blessed be the glory of the LORD from his place*
 S: 12 Ps. xviii. 1 — David's catalogue of the Names: rock, fortress, deliverer, buckler, horn
+
+## 70
+S: 3 Ps. v. 3 — *in the morning will I direct my prayer unto thee, and will look up*
+S: 5 Gen. i. 6 — **the work of the second day**: the firmament in the midst of the waters
+S: 13 Ps. cxlvii. 16 — *he casteth forth his ice like morsels*
+S: 16 Ps. cxxxv. 7 — *he bringeth the wind out of his treasuries*
+S: 23 Lev. xxvi. 40 — *if they shall confess their iniquity, and the iniquity of their fathers*
+R: 5 **This is the key to the whole of Part I.** Each of the seven days opens from that day's work in Genesis, and prays out of it: the second day made the firmament, so the second day's prayer begins there and runs down through the waters above the heavens — showers, ice, dew, hail, snow, hoar-frost, winds — before it turns to confession. The days are not seven prayers that happen to fall in a week; they are the week itself, prayed through.
+
+## 72
+S: 1 Ps. xc. 8 — the Septuagint's *our lifetime in the light of thy countenance*, where the AV has *our secret sins*
+S: 5 Num. xiv. 19 — Moses after the spies: *as thou hast forgiven this people, from Egypt even until now*
+S: 11 Job vii. 20 — *why dost thou not pardon my transgression?*
+S: 14 Job xxxiii. 24 — Elihu: *deliver him from going down to the pit; I have found a ransom*
+S: 15 Matt. xv. 22 — the woman of Canaan, and her answer about the crumbs
+S: 22 Matt. xviii. 25 — the servant who had nothing to pay
+S: 24 Ps. xiii. 1 — *how long wilt thou hide thy face from me?*
+
+## 78
+S: 6 [Ps. xxxix. 8] — *and my substance is with thee*
+S: 8 Ps. xxxi. 1 — *let me never be put to confusion*
+R: 6 ⚠ **The same half-verse is cited twice in this book under two different numbers.** At printed 34 it is *Substantia mea apud te est*, referred to `Psal. xxxix. 7`; here it is the same clause referred to `[Psal. xxxix. 8]`. The difference is the numbering, not the text: **xxxix. 7 is the Authorised Version's figure and xxxix. 8 the Prayer Book's**, which runs one ahead here. And the Prayer Book's figure is the one in **square brackets** — the 1853 editor's own mark for a reference he supplied. So the plate cites Andrewes' psalm on the AV's numbering and the editor cites it on the BCP's, on two pages of one book. Both stand as printed.
+
+## 86
+S: 10 Ps. lxvii. 1 — *God be merciful unto us, and bless us, and cause his face to shine upon us*
+S: 15 Ps. vi. 9 — *the Lord hath heard my supplication*
+S: 23 Ps. vii. 9 — *God trieth the hearts and reins*
+S: 25 Luke v. 12 — the leper: *Lord, if thou wilt, thou canst make me clean*
+
+## 88
+S: 19 Ex. xxxiv. 7 — the proclamation of the Name on Sinai, whose thirteen epithets this page numbers
+S: 22 Ps. xxxiv. 1 — *his praise shall continually be in my mouth*
+S: 25 Luke ii. 14 — the angels over Bethlehem
+S: 27 1 Thess. iv. 6 — the archangel's voice at the descending
+
+## 90
+S: 4 Col. i. 16 — *thrones, dominions, principalities, powers*, the orders this column names
+
+## 82
+R: 26 **Andrewes is praying for the places he himself served, under their etymologies.** *The Southern Spring* is **Southwell** and *the Western Monastery* is **Westminster**, as the Latin column says outright (*sc. Southwell*, *sc. Westmonasterii*); with St Paul's between them these are his own prebends and his deanery. The English keeps the descriptive form because the Greek does, and the identification sits where Andrewes put it, on the facing page.
+
+## 84
+R: 1 **And these are his own three sees, in order.** Chichester (1605), Ely (1609), and *this present see* — Winchester, which the Latin glosses *sc. Winton*. ⚠ **The phrase dates the prayer**: he came to Winchester in 1619 and died in 1626, so this leaf of the Intercession was written, or last revised, in his last seven years. It is the one place in the book where the text says when it is.
