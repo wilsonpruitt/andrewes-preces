@@ -44,12 +44,29 @@ ROOT = Path(__file__).resolve().parent.parent
 # never enters the index. That is how *Ephes.* iv. 30 (printed 290, the Seal among
 # the Spirit's four titles) went missing: the page showed four titles and the index
 # offered three, and nothing anywhere said a reference had been dropped.
-BOOK = (r"Gen|Exod|Ex|Lev|Num|Deut|Jos|Judg|Ruth|Reg|Sam|Chr|Esd|Neh|Tob|Judith"
-        r"|Esth|Job|Psal|Ps|Prov|Pro|Eccl|Cant|Sap|Ecclus|Isai|Is|Jerem|Jer|Lam|Bar"
-        r"|Ezek|Dan|Hos|Os|Joel|Am|Obad|Jon|Mic|Nah|Hab|Soph|Zeph|Agg|Zach|Mal"
-        r"|Mac|Matth|Matt|Mat|Marc|Mar|Luc|Luk|Joh|Jo|Act|Rom|Cor|Galat|Gal"
+BOOK = (r"Gen|Exod|Ex|Lev|Num|Deut|Josh|Jos|Judic|Judg|Ruth|Reg|Sam|Paralip|Paral"
+        r"|Chron|Chr|Esd|Nehem|Neh|Tob|Judith"
+        r"|Esth|Job|Psal|Ps|Prov|Pro|Ecclus|Eccles|Eccl|Cant|Sap|Syr|Isai|Isa|Es|Is"
+        r"|Jerem|Jer|Thren|Lam|Bar"
+        r"|Ezech|Ezek|Ezr|Ez|Dan|Hos|Os|Joel|Amos|Am|Obad|Jon|Mich|Mic|Nah|Abac|Hab"
+        r"|Soph|Zeph|Agg|Zech|Zach|Mal"
+        r"|Mac|Matth|Matt|Mat|Marc|Mar|Luc|Luk|Joan|Joh|Jo|Act|Rom|Cor|Galat|Gal"
         r"|Ephes|Eph|Phil|Coloss|Col"
         r"|Thess|Tim|Tit|Philem|Heb|Jac|Pet|Jud|Apoc|Rev")
+# ⚠ SIXTH INSTANCE of the same silent failure, found 2026-08-10 while opening printed
+# 324: `*Thren.* iii. 59` (Threni = Lamentations) was absent, so the fourteenth and
+# last term of §17's catalogue — *And all this Thou hast seen* — was not in the index
+# at all. A volume-wide sweep of every italicised token followed by a roman numeral
+# then turned up ~70 invisible references under NINETEEN missing forms: the Vulgate's
+# `Joan` `Thren` `Ezech` `Mich` `Abac` `Judic` `Paralip`/`Paral` `Syr` (= Ecclesiasticus,
+# which the 1853 itself glosses `[i. e. *Ecclus.*]`), the contracted `Es` (= Esaias,
+# NOT Esther or Esdras — verified against all six: lxiv. 5, vi. 3, xxx. 15, li. 5,
+# lvii. 11, l. 4) and `Ez` (= Ezekiel — ix. 6, xviii. 23, xxxiii. 11), and the plain
+# English `Isa` `Josh` `Amos` `Zech` `Chron` `Nehem` `Eccles` `Ezr`.
+# ⚠ `*Servitus.*` (printed 331, a heading) and `*sec.* LXX` are NOT books and must
+# stay out: they match the token shape but not a reference. The sweep that found the
+# nineteen is worth re-running whenever a new part is opened — see the recipe in
+# `NOTES-CONVENTIONS.md` §11.
 # ⚠ `[12I]\.?` — the epistle numeral may carry its OWN period. The 1853 prints
 # both `1 *Pet.* v. 6.` (meditations) and `1. *Pet.* v. 6.` (front matter, printed
 # 18), and `2. *Sam.* ix. 8.` beside `2 *Sam.* xxiv. 16.` Without the optional dot

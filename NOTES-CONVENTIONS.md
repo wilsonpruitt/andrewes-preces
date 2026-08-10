@@ -181,4 +181,20 @@ Per [[reference_model-prudence-rubric]]: this file is the **score**; the volume 
 - **`R:` notes and divergence findings — Opus**, always.
 - **Run a section at a time.** Pilot, measure real cost and a spot-checked error rate, then extrapolate. Per [[feedback_christian-library-iterate-vol1-first]].
 
-Related: `CONVENTIONS.md` · `apparatus/print-notes.md` · `tools/ref_index.py`
+## 11. ⚠⚠ The index does not know what it cannot see — sweep before opening a new stretch
+
+`tools/ref_index.py` finds references by matching a **fixed list of book abbreviations**. A form the 1853 uses and the list omits does not raise anything: the reference never enters the index, `--stub` never offers it, `note_sheet.py` never prints it, `check_notes.py` never misses it, and **the finished leaf carries a band that looks complete**. There is no place in the pipeline where the absence shows.
+
+This has now happened **six times**. Printed 290 offered three of the Spirit's four titles because `*Ephes.*` was absent. Printed 324 lost *Et hæc omnia vidisti* — the fourteenth and last term of the confession — because `*Thren.*` was.
+
+**Run `python3.11 tools/audit_missing_books.py` before opening a new part or section.** It reports every italicised token followed by a roman numeral that the current list does not match, and each is a decision: a missing book goes into `BOOK` (**the long form before its short form**), a false positive stays out and is named in the comment there. `*Servitus.*` (a heading at printed 331) and `*sec.* LXX` are false positives and must stay out.
+
+The 2026-08-10 sweep, run at printed 324, found **71 invisible references under nineteen missing forms** — the Vulgate's `Joan` `Thren` `Ezech` `Mich` `Abac` `Judic` `Paralip`/`Paral` `Syr`, the contracted `Es` (Esaias) and `Ez` (Ezekiel), and the plain English `Isa` `Josh` `Amos` `Zech` `Chron` `Nehem` `Eccles` `Ezr`. **Fifty-two of them stood on pages whose notes were already written and committed.**
+
+⚠ **Two of those forms are contractions that look like other books, and both were verified against every occurrence before being added:** `Es.` is **Esaias**, not Esther or Esdras (lxiv. 5 · vi. 3 · xxx. 15 · li. 5 · lvii. 11 · l. 4), and `Ez.` is **Ezekiel**, not Ezra (ix. 6 · xviii. 23 · xxxiii. 11) — the volume writes Ezra `Ezr.` A guess here would have put a wrong book on a printed page.
+
+`--tags` runs the backfill audit: the recovered forms against the bands already written. ⚠ **Untagged is not the same as wrong** — §3 forbids tagging what the line above already gives and §8 requires selection on a dense page, so every hit is read before anything is written.
+
+⚠ **Part I is keyed by the OPENING.** References print on the Latin recto (odd) and the band files under the Greek verso's even number, so an audit that looks up an odd page directly finds an empty band and reports every Latin recto in Part I as untagged. The tool handles this; a hand-written check must too.
+
+Related: `CONVENTIONS.md` · `apparatus/print-notes.md` · `tools/ref_index.py` · `tools/audit_missing_books.py`
