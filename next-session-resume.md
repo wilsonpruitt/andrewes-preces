@@ -1,5 +1,32 @@
 # Next session — resume note
 
+## ▶▶ THE FRONT, as of 2026-08-10 — **the notes pass, Part II**
+
+**Done through printed 290.** Part I complete (all 131 openings); Part II §§1–6 done, printed 267–290. **Next: printed 291, §7 *Allegatio*.** Governing file is `NOTES-CONVENTIONS.md` — read it before writing a note, it is the score.
+
+**✅ THIS SESSION: §6, the *Sacrificium Vespertinum* + *Horologium* (printed 286–290)** — the walk through the canonical hours, each keyed to its Gospel event, answered by *Et serva nos*.
+- ⚠ **286 is one of the parity-flagged pages and the hand-map matters.** It is −2 because two **reference-only Latin lines** (`*Mar.* iv. 38.`, `*Gal.* iv. 19. [*Eph.* iv. 13.]`) are absorbed inline by the English. `ref_index --stub` gives the **Latin's** figures and three of them would have landed on the wrong English line. **`tools/note_sheet.py <page>` is the hand-map — it prints the refs by plate line AND the English numbered. Use it on every flagged page.** 288 and 289 are −1 for the same reason, each in one place.
+- **Findings kept:** the plate's `Psal. cxxvii. 3` is **not a slip** — *he giveth his beloved sleep* is verse 3 on the Prayer Book's numbering, 2 on the AV's, which with printed 433's two BCP figures is **a further sign of which Psalter lay open**; and *somnum sanitatis*, the sleep of soundness, is a word neither English Bible has. 287's *hora sexta dieque sexto* sets the day man was made beside the hour he was remade. 288's *legata Novi Testamenti* is the Latin law of wills, which English lost when it divided *testament* from *bequest* — and the prayer takes the remitting of sins and **expressly declines the retaining**, half of a power given whole. 289 closes on a ladder of light whose bottom rung (`Ps.` lxxiv. 16) the **1853 editor supplied in his own brackets** and whose top rung stands over the page-turn.
+
+**⚠⚠ THREE SILENT FAILURES FOUND AND FIXED — all three were invisible in the built PDF.**
+1. **`ref_index.py` was 13 references short.** The 1853 prints more than one abbreviation per book and `*Ephes.* *Matth.* *Coloss.* *Galat.* *Jerem.*` were absent from `BOOK`. **The index is where a tag's line number comes from, so a reference it cannot see is one the pass never learns exists** — printed 290 showed four titles of the Spirit and the index offered three. 1,939 → **1,952**. ✅ **Backfilled: 9 tags on 6 already-committed pages** (26, 52, 54, 102, 154, 220), all parity-checked first.
+2. **49 TeX errors on every build since the bands existed.** `recto_band` joined the two bands with `\\` straight after a `\par`. LaTeX recovers and writes the PDF, so they scrolled past; what was dropped was **the 3pt separating the scripture tags from the explanatory note**, and the two registers were running together at the foot of every leaf carrying both. Now `\par\vspace{3pt}`. **617 pages, 0 errors, 0 of 594 units too tall.**
+3. **Two `R:` notes stood in the wrong order in the file** (printed 24, 224) — the builder prints band entries in **file order**, so their markers ran out of sequence.
+
+**✅ NEW TOOL: `tools/check_notes.py`** — order (an ERROR), numbering, coverage. **Add it to every notes commit.**
+
+### ⚠⚠ THE ONE THING OWED BY WILSON OUT OF THIS SESSION — a one-sentence rule
+**Does an `S:` tag print the PLATE's chapter-and-verse, or the TRUE one?** `check_notes` finds **50 disagreements on 34 pages**, and the finished book shows the reader both figures. Three different things are mixed there and the pass has been treating them alike:
+- the plate **right on the Prayer Book's numbering** and the tag silently converting it to the AV's (printed 26: plate `Psal. xxxi. 6`, tag `Ps. xxxi. 5` — and BCP 6 *is* the verse). **§6 of NOTES-CONVENTIONS already forbids this.**
+- the plate **genuinely misprinted** and the tag right (same page: plate `cxli. 8`, tag `cxli. 3`, which is verse 3 in AV, BCP and Vulgate alike) — but §7.1 says the note may not be *phrased as a correction of the page*; the true verse gets **named**, in the open.
+- the **1853 editor's own bracketed slip** (`[1 Cor. viii. 12]` → 2 Cor. at printed 62), which is already handled properly and is the model.
+
+**Twelve of the fifty cite a book or chapter not on the page at all** — a larger claim than a verse off by one. **Nothing may be auto-fixed from the checker.** Full statement: `NOTES-CONVENTIONS.md` §6, the boxed OPEN block. **Until it is ruled, new tags carry the PLATE's figure and name the system**, which is what 286's `Ps. cxxvii. 3` does.
+
+**Remaining in the notes pass:** printed 291 → 395 (Part II §§7–43, ~1,071 refs) and Part III (~191). Then the pre-print list, which is an **images** problem, not a collation one.
+
+---
+
 ## ▶▶ THE FRONT, as of 2026-08-09 — read this block, then skip to whichever section it sends you to
 
 **The book is built and complete.** Primary text (all three parts, both layers) · apparatus pass · Brightman collation · the Loeb layout ruled and built · **front matter** (half-title, title, colophon, contents, preface) and **back matter** (appendix on Andrewes' sources). **617 leaves, 0 units too tall.** ⚠ Everything below the next horizontal rule was written **before** the front and back matter existed and does not know about them.
