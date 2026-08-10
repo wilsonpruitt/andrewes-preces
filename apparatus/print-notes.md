@@ -639,3 +639,94 @@ S: 7 Ps. cxxi. 8 — *from this time forth, and even for evermore*
 S: 9 Neh. i. 11 — Nehemiah before the king: *grant him mercy in the sight of this man*
 S: 11 Ps. lxx. 1 — *make haste to help me, O LORD*
 S: 14 Ps. lxxxvi. 16 — *save the son of thine handmaid*
+
+## 192
+S: 19 Isa. xxxviii. 12 — Hezekiah in his sickness: *from day even to night wilt thou make an end of me*
+S: 23 Ps. lxxi. 18 — *now also when I am old and grayheaded, O God, forsake me not*
+S: 25 Ps. lxvi. 8 — *and suffereth not our feet to be moved*
+
+## 198
+S: 19 Ps. ciii. 10 — *nor rewarded us according to our iniquities*
+
+## 200
+S: 18 Rev. vi. 16 — *hide us from the face of him that sitteth on the throne*
+S: 19 Matt. xxv. 33 — the goats set on the left hand
+S: 22 2 Pet. ii. 4 — *cast them down to hell, and delivered them into chains of darkness*
+S: 23 Matt. xxv. 30 — *cast ye the unprofitable servant into outer darkness*
+S: 26 Rev. xiv. 11 — *the smoke of their torment ascendeth up for ever*
+
+## 202
+S: 4 Mark xvi. 14 — *he upbraided them with their unbelief and hardness of heart*
+S: 5 Eph. iv. 19 — *who being past feeling*
+S: 6 Mark iii. 5 — *grieved for the hardness of their hearts*
+S: 8 1 Tim. iv. 2 — *having their conscience seared with a hot iron*
+S: 9 Rom. i. 28 — *God gave them over to a reprobate mind*
+S: 10 Matt. xii. 32 — the word against the Holy Ghost, which shall not be forgiven
+S: 11 1 John v. 16 — *there is a sin unto death*
+S: 25 2 Pet. i. 20 — *no prophecy of the scripture is of any private interpretation*
+S: 26 1 Tim. vi. 20 — *profane and vain babblings*
+S: 27 1 Tim. i. 3 — *that they teach no other doctrine*
+S: 29 1 Tim. vi. 4 — *questions and strifes of words*
+
+## 204
+S: 3 Acts xii. 22 — Herod hailed as a god, and eaten of worms
+S: 4 Acts xxiv. 27 — Felix, *willing to shew the Jews a pleasure*
+S: 6 2 Sam. vi. 16 — Michal despising David as he danced before the ark
+S: 7 1 Sam. ii. 13 — the fleshhook of Hophni, taking the priests' portion by force
+S: 8 2 Kings xi. 1 — Athaliah destroying all the seed royal
+S: 10 Acts viii. 18 — Simon offering money for the gift; Matt. xxvi. 15 — Judas' thirty pieces
+S: 12 1 Tim. iii. 6 — *not a novice, lest being lifted up with pride*
+S: 13 Hos. iv. 4 — *this people are as they that strive with the priest*
+S: 17 2 Sam. xv. 31 — Ahithophel's counsel, prayed into foolishness
+S: 20 1 Kings xxi. 15 — the judges of Jezreel, and Naboth's vineyard
+S: 22 Num. xxv. 5 — the plague at Baal-peor
+S: 23 Josh. vii. 26 — the valley of Achor, where Achan was stoned
+R: 6 **This page names disasters by a single figure and expects the story to come with it.** *Hophni's fleshhook*, *Michal's contempt*, *Athaliah's plundering*, *Ahithophel's counsel*, *the judges of Jezreel*, *the torrents of Belial*, *the plague of Peor*, *the valley of Achor* — each is one or two words standing for a whole history, and the deprecation works only if the reader supplies it. Nowhere else in the volume does so much depend on knowing what a name is for; without the notes below, the English of this page is a list of proper nouns.
+
+## 208
+S: 7 Ps. cvi. 5 — *that I may rejoice in the gladness of thy nation*
+S: 8 1 Pet. v. 1 — *a partaker of the glory that shall be revealed*
+S: 10 Job xxxiii. 26 — *he shall see his face with joy*
+S: 13 Matt. xxv. 34 — *Come, ye blessed of my Father*
+S: 15 1 Thess. iv. 17 — *caught up together with them in the clouds*
+
+## 210
+S: 4 Heb. xii. 28 — *let us serve God acceptably with reverence and godly fear*
+S: 7 2 Cor. vi. 1 — *that ye receive not the grace of God in vain*
+S: 8 Heb. xii. 15 — *lest any man fail of the grace of God*
+S: 9 1 Tim. iv. 14 — *neglect not the gift that is in thee*
+S: 10 Gal. v. 4 — *ye are fallen from grace*
+S: 11 2 Tim. i. 6 — *stir up the gift of God which is in thee*
+S: 12 2 Pet. iii. 18 — *grow in grace*
+S: 16 1 Thess. iii. 10 — *might perfect that which is lacking in your faith*
+S: 18 Luke xvii. 5 — *increase our faith*; Heb. iii. 6 — *the rejoicing of the hope firm unto the end*
+S: 20 Isa. xlii. 3 — *the smoking flax shall he not quench*
+S: 22 Rom. v. 5 — *the love of God is shed abroad in our hearts*
+S: 27 Jas. iv. 6 — *he giveth grace unto the humble*
+S: 30 Ps. lxxxvi. 11 — *unite my heart to fear thy name*
+R: 7 **Seven verbs of grace in seven lines, and they make a single argument.** Not to receive it in vain, not to fail of it, not to neglect it, not to fall from it — then to stir it up, to grow in it, to continue in it. Four negatives and three positives, each with its own epistle, mounting from the least a man can do to the most. The English keeps them as seven separate lines because the ladder is the point.
+
+## 212
+S: 1 Job iv. 6 — *is not this thy fear, thy confidence?*
+S: 5 Matt. vii. 12 — *whatsoever ye would that men should do to you, do ye even so to them*
+S: 7 Rom. xii. 3 — *not to think of himself more highly than he ought, but to think soberly*
+S: 11 Luke i. 79 — *to guide our feet into the way of peace*
+S: 13 2 Tim. ii. 15 — *rightly dividing the word of truth*; Gal. ii. 14 — *walked not uprightly*
+S: 14 1 Thess. v. 11 — *edify one another*
+S: 15 Rom. xv. 6 — *that ye may with one mind and one mouth glorify God*
+S: 18 Phil. iii. 16 — *whereto we have already attained, let us walk by the same rule*
+S: 19 1 Cor. xiv. 40 — *let all things be done decently and in order*
+S: 21 Col. ii. 5 — *your order, and the stedfastness of your faith*
+
+## 214
+S: 2 Ps. lxv. 11 — *thou crownest the year with thy goodness*
+S: 4 Ps. cxlv. 15 — *thou givest them their meat in due season*
+S: 9 Deut. xxxiii. 13 — Moses blessing Joseph: *the dew, and the deep that coucheth beneath*
+
+## 216
+S: 13 Ps. cxliv. 14 — *that there be no complaining in our streets*
+S: 19 Ps. xxvii. 4 — *to behold the beauty of the LORD, and to enquire in his temple*
+S: 28 Prov. xxx. 8 — Agur: *give me neither poverty nor riches*
+
+## 218
+S: 1 Phil. iv. 11 — *I have learned, in whatsoever state I am, therewith to be content*
