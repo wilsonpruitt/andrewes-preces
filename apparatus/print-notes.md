@@ -155,6 +155,7 @@ S: 1 Rom. xiv. 9 — *that he might be Lord both of the dead and living*
 S: 6 Ps. ix. 9 — a refuge *in times of trouble*
 S: 9 John i. 14 — *full of grace and truth*
 S: 10 1 Thess. iii. 2 — Timothy sent to stablish them concerning their faith
+S: 12 Gal. vi. 1 — *ye which are spiritual, restore such an one in the spirit of meekness*
 S: 14 Ps. xxviii. 9 — *save thy people, and bless thine inheritance*
 S: 17 Ps. lxxiv. 2 — *the congregation which thou hast purchased of old*
 S: 19 Acts iv. 32 — *of one heart and of one soul*
@@ -166,6 +167,7 @@ S: 27 Rev. iii. 2 — *strengthen the things which remain, that are ready to die
 S: 4 Matt. ix. 38 — *send forth labourers into his harvest*
 S: 5 1 Cor. ix. 13 — they which wait at the altar are partakers with the altar
 S: 7 2 Tim. ii. 15 — *rightly dividing the word of truth*
+S: 8 Gal. ii. 14 — Paul at Antioch: *they walked not uprightly according to the truth of the gospel*
 S: 10 Heb. xiii. 17 — *obey them that have the rule over you, and submit yourselves*
 S: 15 Rom. xiii. 2 — whoso resisteth the power resisteth the ordinance of God
 S: 16 1 Pet. ii. 13 — submit to *every ordinance of man*
@@ -289,6 +291,7 @@ S: 13 Rom. v. 20 — *where sin abounded, grace did much more abound*
 S: 15 Tit. iii. 4 — *the kindness and love of God our Saviour toward man appeared*
 S: 17 2 Cor. x. 1 — *the meekness and gentleness of Christ*
 S: 19 Rom. ii. 4 — *the riches of his goodness and forbearance and longsuffering*
+S: 24 Col. iii. 12 — *put on therefore, as the elect of God, bowels of mercies*
 S: 26 Jas. v. 11 — *the Lord is very pitiful, and of tender mercy*
 S: 28 Acts xvii. 30 — *the times of this ignorance God winked at*
 R: 11 **This is a catalogue of the Names of mercy, each with its proof-text**, and the proof-texts are doing the work a lexicon would: *bonitas* from Samuel, *charitas* from Romans, *hominum dilectio* from Titus — the Greek φιλανθρωπία — down to the *viscera* of James. The page is closer to a concordance than to a prayer, and it is the ground the next page prays from.
@@ -446,10 +449,14 @@ S: 2 Zech. iii. 2 — *is not this a brand plucked out of the fire?*
 S: 5 Luke xxiii. 34 — *Father, forgive them; for they know not what they do*
 S: 9 Acts vii. 60 — Stephen, kneeling: *lay not this sin to their charge*
 S: 14 Luke xxii. 44 — *his sweat was as it were great drops of blood*
+S: 16 Matt. xxvii. 29 — *a crown of thorns, and put it upon his head*
 S: 18 Heb. v. 7 — *with strong crying and tears*
+S: 19 Matt. xxvii. 39 — *they that passed by reviled him, wagging their heads*
 S: 24 Ps. cxxix. 3 — *the plowers plowed upon my back*
 S: 25 Ps. xxii. 16 — *they pierced my hands and my feet*
+S: 26 Matt. xxvii. 46 — *Eli, Eli, lama sabachthani*, at the ninth hour
 S: 29 1 Cor. xi. 24 — *this is my body, which is broken for you*
+S: 30 Matt. xxvi. 28 — at the Supper: *my blood of the new testament, which is shed for many*
 S: 32 Ps. lxxxv. 2 — *thou hast covered all their sin*
 R: 14 **The Passion assembled out of five books, and not one of them a Gospel narrative of it.** The bloody sweat and the strong crying come from Luke and Hebrews, but the plowed back, the pierced hands and feet and the covered sin come from the Psalms, and the broken body from an epistle about a supper. Andrewes builds the scene from texts that are not describing it, which is why the sequence reads as prayer and not as recital.
 
@@ -620,13 +627,14 @@ S: 14 Matt. vi. 34 — *sufficient unto the day is the evil thereof*
 S: 16 Ps. lxxviii. 33 — *their years in trouble*
 S: 17 Ps. xix. 2 — *day unto day uttereth speech*
 S: 22 Ps. cxliii. 8 — *for I lift up my soul unto thee*
-R: 16 ⚠⚠ **This is the verse Part III mis-numbers, and here the volume gets it right.** *Anni mei in luctu* stands at printed **409** under `Psal. xl. 9`, where the note has to say the reference is wrong; here the same half-verse is referred correctly to **`Ps. lxxviii. 33`**. So the edition proves its own misprint across three hundred and eighty pages — and it confirms, from inside the book, a reading that was otherwise established only from Brightman. **Both kept as printed.**
 R: 12 **Two lines here take the Vulgate against the Prayer Book, and the English follows the Vulgate.** *Negotium perambulans in tenebris* and *dæmonium meridianum* — the business that walks in darkness and the noonday demon — are what Andrewes wrote; Coverdale has *pestilence* and *the sickness that destroyeth in the noon-day*. CONVENTIONS §9 makes the BCP our crib, and yields wherever he reaches past it, as he does here.
+R: 16 ⚠⚠ **This is the verse Part III mis-numbers, and here the volume gets it right.** *Anni mei in luctu* stands at printed **409** under `Psal. xl. 9`, where the note has to say the reference is wrong; here the same half-verse is referred correctly to **`Ps. lxxviii. 33`**. So the edition proves its own misprint across three hundred and eighty pages — and it confirms, from inside the book, a reading that was otherwise established only from Brightman. **Both kept as printed.**
 
 ## 26
 S: 7 Ps. cxix. 37 — *turn away mine eyes from beholding vanity*
 S: 9 Prov. iv. 25 — *let thine eyelids look straight before thee*
 S: 15 Ps. cxli. 3 — *keep the door of my lips*
+S: 16 Col. iv. 6 — *let your speech be alway with grace, seasoned with salt*
 S: 17 Eph. iv. 29 — *that it may minister grace unto the hearers*
 S: 19 1 Sam. xxv. 31 — Abigail: *no grief, nor offence of heart*
 S: 26 Ps. xxxi. 5 — *O LORD God of truth*
@@ -735,6 +743,7 @@ S: 1 Phil. iv. 11 — *I have learned, in whatsoever state I am, therewith to be
 S: 13 Ps. lxxi. 9 — *cast me not off in the time of old age*
 S: 18 Isa. xlvi. 4 — *even to hoar hairs will I carry you*
 S: 20 Luke xxiv. 29 — the two at Emmaus: *abide with us; for it is toward evening*
+S: 22 Jer. vi. 4 — *woe unto us! for the day goeth away, for the shadows of the evening are stretched out*
 S: 24 2 Cor. xii. 9 — *my strength is made perfect in weakness*
 
 ## 222
@@ -754,8 +763,8 @@ S: 22 Matt. xviii. 22 — *until seventy times seven*
 S: 23 Jer. v. 30 — *a wonderful and horrible thing is committed in the land*
 S: 25 Isa. xxx. 15 — *in returning and rest shall ye be saved*
 S: 27 Deut. xxx. 2 — *and shalt return unto the LORD thy God with all thine heart*
-R: 20 **Two sevens, set against each other.** *A just man falleth seven times* is the measure of a day's failure; *until seventy times seven* is the measure of the forgiveness asked for it. Andrewes puts them two lines apart and lets the arithmetic do the work — the second number is not merely larger, it is the first one multiplied, which is the point Christ was making to Peter.
 R: 2 ⚠ **`Psal. xlii. 10` is the Prayer Book's figure, not a slip.** The Authorised Version has *my prayer unto the God of my life* at xlii. **8**; the BCP Psalter numbers it 10. The same verse is cited the same way at printed **433**, four hundred pages later — so the book is consistent in this, and it is further evidence that the Prayer Book Psalter was physically to hand. **Do not correct it.**
+R: 20 **Two sevens, set against each other.** *A just man falleth seven times* is the measure of a day's failure; *until seventy times seven* is the measure of the forgiveness asked for it. Andrewes puts them two lines apart and lets the arithmetic do the work — the second number is not merely larger, it is the first one multiplied, which is the point Christ was making to Peter.
 
 ## 226
 S: 4 Ps. cxxx. 1 — *out of the depths have I cried unto thee*
@@ -1039,3 +1048,73 @@ S: 19 2 Kings xx. 6 — *I will add unto thy days fifteen years*
 S: 6 Ps. cxxxii. 15 — *I will abundantly bless her provision*
 S: 8 Ps. cxlvii. 14 — *filleth thee with the finest of the wheat*
 S: 11 Ps. cxlvii. 13 — *he hath blessed thy children within thee*
+
+## 286
+S: 3 Ps. cxix. 55 — *I have thought upon thy Name, O LORD, in the night*
+S: 6 Job xxxv. 10 — Elihu: none asketh *Where is God my maker, who giveth songs in the night?*
+S: 8 Ps. lxv. 8 — the harvest psalm: the outgoings of the morning and evening made to rejoice
+S: 9 Ps. cxxvii. 3 — *he giveth his beloved sleep*, verse 3 on the Prayer Book's numbering
+S: 11 Acts i. 7 — the Ascension: *it is not for you to know the times or the seasons*
+S: 12 Mark iv. 38 — the disciples wake Christ in the storm
+S: 15 Luke ii. 8 — the shepherds in the field by night, which fixes the hour of the Nativity
+S: 16 Titus iii. 5 — *the washing of regeneration, and renewing of the Holy Ghost*
+S: 17 Gal. iv. 19 — Paul in travail again *until Christ be formed in you*; Eph. iv. 13 — *unto a perfect man*
+S: 20 Mark xvi. 2 — the women at the sepulchre, *at the rising of the sun*
+S: 21 Rom. vi. 4 — the baptismal argument: *even so we also should walk in newness of life*
+R: 9 **The plate's *cxxvii. 3* is not a slip.** On the Prayer Book's numbering *he giveth his beloved sleep* is verse 3; the Authorised Version makes it verse 2. With the two Prayer Book references at printed 433 this is a further sign of which Psalter lay open. And Andrewes does not ask simply for sleep: *somnum sanitatis*, the sleep of soundness — the health that sleep is the evidence of, rather than the sleep itself. Neither English Bible has the word, and our English keeps it.
+R: 11 **The hours are Roman, counted from sunrise.** The third is about nine in the morning, the sixth noon, the ninth about three in the afternoon, and the *Horologium* walks them in order, giving each the Gospel event that falls there. A reader counting from midnight will put Pentecost before dawn and the darkness over the land in the small hours. Andrewes explains none of it, because his reader did not need it explained.
+
+## 287
+S: 2 Acts ii. 15 — Peter at Pentecost: *it is but the third hour of the day*
+S: 3 Ps. li. 11 — David's Miserere: *take not thy Holy Spirit from me*
+S: 7 Matt. xxvii. 45 — the darkness from the sixth hour unto the ninth
+S: 9 Col. ii. 14 — the handwriting that was against us, blotted out and nailed to the cross
+S: 12 Acts x. 9, 11 — Peter on the housetop at the sixth hour; the sheet let down from heaven
+S: 13 Gal. ii. 15 — Paul to Peter at Antioch: *sinners of the Gentiles*
+S: 14 Acts x. 16 — the sheet received up again into heaven
+S: 17 John iv. 52 — the nobleman's son: *at the seventh hour the fever left him*
+S: 22 Mark xv. 34 — at the ninth hour, *Eloi, Eloi, lama sabachthani*; Heb. ii. 9 — *that he should taste death for every man*
+S: 23 Col. iii. 5 — *mortify therefore your members which are upon the earth*
+S: 26 Acts iii. 1 — Peter and John go up to the temple *at the hour of prayer, being the ninth hour*
+R: 6 **The sixth hour and the sixth day are one figure.** *Hora sexta dieque sexto* — man was made on the sixth day and remade at the sixth hour; Andrewes sets the two sixes side by side and leaves the join to the reader, as he leaves every join in this office. The hour is doing double duty on this page besides: the sixth is the darkness over the land and, five lines later, Peter's housetop vision. That is the *Horologium*'s method throughout — an hour is not one event but everything the Gospels put there.
+
+## 288
+S: 2 John i. 41 — Andrew, having found Him, to his brother Simon: *we have found the Messias*
+S: 8 Matt. xx. 6 — the householder at the eleventh hour: *why stand ye here all the day idle?*
+S: 14 John xiii. 2 — *and supper being ended*, at the washing of the feet
+S: 17 1 Cor. xi. 29 — *eateth and drinketh damnation to himself, not discerning the Lord's body*
+S: 20 Mark xv. 42 — *when the even was come*, Joseph of Arimathea asks for the body
+S: 26 John xx. 22, 23 — the risen Christ breathes on them: *whose soever sins ye remit*
+R: 16 **The bequests of the New Testament — *legata Novi Testamenti*, and the Latin says what English cannot.** *Testamentum* is at once the covenant and the last will, so the Supper is the reading of a will and what it conveys are *legata*, legacies. English divided the word long ago: a testament is a book, a bequest is a legacy, and *the legacies of the new covenant* would sound like a figure of speech where the Latin is simply the law of wills. Our English keeps *bequests* rather than spending the double sense to make the covenant plain.
+R: 28 **He asks for half of a power that was given whole.** John xx. 23 confers both the remitting of sins and the retaining, and the prayer takes the one and expressly declines the other — *sed quoad remissionem, ne ad retentionem, Domine*. Nothing on the page argues the asymmetry; it is enacted rather than defended, as the eleventh-hour stanza above enacts its own and asks the wage of a full day after standing idle through all of it.
+
+## 289
+S: 1 Ps. cxix. 62 — *at midnight I will rise to give thanks unto thee*
+S: 2 Acts xvi. 25 — Paul and Silas at midnight in the prison at Philippi
+S: 3 Job xxxv. 10 — Elihu: *who giveth songs in the night*
+S: 4 Ps. lxiii. 6 — *when I remember thee upon my bed*
+S: 9 Matt. xxv. 6 — the ten virgins: *at midnight there was a cry made*
+S: 14 Matt. xxvi. 74 — Peter's third denial, and immediately the cock crew
+S: 20 Matt. xxiv. 50 — *in a day when he looketh not for him, and in an hour that he is not aware of*; Luke xii. 46 — the same, of the unfaithful steward
+S: 24 Ps. xliii. 3 — *O send out thy light*; Ps. lxxiv. 16 — *thou hast prepared the light and the sun*
+S: 25 Matt. v. 45 — *he maketh his sun to rise on the evil and on the good*
+S: 26 Eph. iv. 18 — the Gentiles, *the blindness of their heart*
+S: 27 Ps. iv. 6 — *Lord, lift thou up the light of thy countenance upon us*
+S: 28 Ps. xxxvi. 9 — *in thy light shall we see light*
+R: 24 **The office ends on a ladder of light, and it is built from two psalms the editor had to finish.** The plate cites *Ps.* xliii. 3 for *Qui emittis lucem, creas auroram*, and only the first half is there — *O send out thy light* is Ps. xliii, but *createst the dawn* is Ps. lxxiv. 16, which the 1853 editor supplied in his own square brackets. From there the rungs mount without a break: light sent out, the sun on good and evil, the mind's blindness enlightened, the countenance lifted, light seen in light — and the last rung stands on the next page, *and at the last, in the light of grace, the light of glory*. The page-turn is the 1853's, not the ladder's.
+
+## 290
+S: 2 Ps. cxxxvi. 25 — the psalm of *his mercy endureth for ever*, at the last mercy it names: food to all flesh
+S: 4 Ps. lxxi. 5 — an old man's prayer: *thou art my trust from my youth*
+S: 5 Acts xiv. 17 — Paul at Lystra: God *filling our hearts with food and gladness*
+S: 6 Heb. xiii. 9 — *that the heart be stablished with grace, not with meats*
+S: 10 Ps. cii. 11 — *my days are gone like a shadow*
+S: 12 Eccles. xi. 8 — the Preacher to the young man: *the days of darkness, for they shall be many*
+S: 14 John ix. 4 — at the healing of the man born blind: *the night cometh, when no man can work*
+S: 16 Matt. xxv. 30 — the unprofitable servant, *cast into outer darkness*
+S: 18 Luke xxiv. 29 — Emmaus: *abide with us, for it is toward evening*
+S: 24 John xiv. 16 — *another Comforter*, the ἄλλος the plate keeps in Greek
+S: 25 1 John ii. 27 — *the anointing which ye have received of him*
+S: 26 Eph. iv. 30 — *the holy Spirit of God, whereby ye are sealed*
+S: 27 2 Cor. v. 5 — *the earnest of the Spirit*; and i. 22, the sealing and the earnest together
+R: 24 **ἄλλος is left standing in Greek because the word is the argument.** John xiv. 16 promises *another* Comforter, and Greek has a word for another-of-the-same-kind as against another-of-a-different-sort; this is the first, and the whole doctrine of the Spirit as a second Advocate beside the one ascended rests on it. Andrewes prints the bare adjective in Greek beside the Latin title and lets it carry the weight, which is why the English apposes it rather than absorbing it into *another*. The four titles it heads — Paraclete, Unction, Seal, Earnest — are the New Testament's names for the Spirit set out as a schema, the same device as the *Opera* brace above, and the evening office ends not in petition but in a list.
