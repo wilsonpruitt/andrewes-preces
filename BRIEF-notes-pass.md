@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 324 → 436)
+# BRIEF — finishing the notes pass (printed 327 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -14,15 +14,15 @@
 
 ⚠ The reference counts the old version of this table gave are now understated — the index was blind to 76 references (§1b), so every per-page count taken before 2026-08-10 was low. Re-run `ref_index.py --all` rather than trusting a number written down earlier.
 
-**51 of the 134 carry no references at all.** An empty band is a correct outcome — see §3 below.
+**Many of the remaining leaves carry no references at all**, and from §18 onward whole runs are brace catalogue. **An empty band is a correct outcome** — see §3 below.
 
 The build is whole and stays whole: **617 pages, 0 TeX errors, 0 of 594 units too tall.** Keep it that way; `--fit` is not optional.
 
 ---
 
-## 1b. ⚠⚠ Two tool defects found 2026-08-10 opening printed 324 — both fixed, one backfill outstanding
+## 1b. ⚠⚠ Three tool defects found 2026-08-10 opening printed 324 — all fixed, backfill closed
 
-Neither was visible in the built PDF, and both corrupted **committed** work. They are the fifth and sixth of their kind, and the pattern is always the same: a tool quietly reports less, or reports wrong, and every downstream check agrees with it.
+None was visible in the built PDF, and two of the three corrupted **committed** work. They are the fifth, sixth and seventh of their kind, and the pattern is always the same: a tool quietly reports less, or reports wrong, and every downstream check agrees with it.
 
 1. **`ref_index` could not see nineteen book abbreviations** — `*Thren.*` `*Joan.*` `*Ezech.*` `*Mich.*` `*Es.*` `*Ez.*` `*Syr.*` and twelve more, **71 references invisible**, 52 of them on pages already written. Fixed; the sweep is now `tools/audit_missing_books.py` and **NOTES-CONVENTIONS §11 — run it before opening any new stretch.**
 2. **`ref_index` and `note_sheet` counted the transcripts' inline `<!-- ... -->` comments as sense-lines**, which the builder drops. On the **58 pages** that carry one, the index ran ahead of the printed page, so the marker printed *below* the line it describes. **51 tags and 3 notes on 15 pages re-anchored**, each verified against the English. `check_lineparity` was never affected — it counts `\pl` in the built fragments, so it measures the real page, and it is what proved the renumbering right.
