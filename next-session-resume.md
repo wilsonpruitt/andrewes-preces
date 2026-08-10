@@ -32,13 +32,22 @@ These are the openings whose **Latin recto and English run different line counts
 - ⚠ **THE TELL:** on a parity-mismatched page, **tag line == plate line** means it was probably keyed off `--stub` and never hand-mapped. Not proof — read the English — but it found all three.
 - Five numbering cases on these pages also came to the plate's figure: `Ps. xvi. 9` (18), `Ps. xxxii. 6` and `Ps. cxxx. 30` (40), `Ps. lxvi. 8` and `Ps. lxxi. 15` (192). **`cxxx. 30` is a plain misprint — the psalm has eight verses.**
 
-### ▶ Notes pass now through printed 293. **NEXT: printed 294**, §7 *Allegatio* continues (it runs 291–299 top).
+### ▶ Notes pass now through printed 299 — **§7 *Allegatio* is COMPLETE. NEXT: printed 300**, §8 *Confessio Laudis* (299 mid–303 top).
+⚠⚠ **FOURTH SILENT FAILURE, caught one page before it bit: `ref_index` restarted its line count at every page marker, but 40 PAGES ARE MARKED MORE THAN ONCE** (a section closing and the next opening on the same leaf) **and the builder concatenates both blocks into one fragment.** So every reference in a page's *second* block was numbered relative to that block — printed 299 has a 24-line fragment and the index reported 1…18 then **5, 6**: eighteen lines adrift, **pointing at real lines**, so the marker would have looked right. Now continuous across the page. **None of the 40 has notes yet** (verified, not assumed: 275 is double-marked, inside the finished 267–285 stretch, and carries no tags). ⚠ **Every page from 300 on is more likely than not to be one of the 40 — §8 alone spans 299/303.**
 §7 is a **six-part forensic plea** (*Ex parte Dei* … *Ex parte consequentis boni*), each head a chain of scripture. **The governing note: these are GROUNDS, not devotions** — heads [3]–[5] run the Names of the Persons as *reasons the plea must succeed*, and two are forensic outright (an Advocate is counsel, an Intercessor files the motion). ⚠ **§3's "don't tag what the line above already gives" bites hard here** — the English already names and quotes most titles, so tag the situation or skip.
 - **291's opening argument** is Isaiah's *opus alienum*: shewing mercy is God's proper work, punishing a work strange to him. The plea opens by claiming **mercy is the judge's own business**, not that the prisoner deserves it.
 - ⚠ **293 brings back the verse the LATIN QUESTION turned on.** Printed 34 renders `Ps.` cxxxviii. 8 as ***Figmenta* manuum tuarum** (reachable only from a Greek reading πλάσμα — the apograph's); here in Part II it is plain ***Opus***. Not a conflict (Part II has no Greek to answer), but **it belongs in the introduction's case.**
 - Three more **Prayer Book** confirmations on 293 alone (`Ps. xxv. 5`, `lxxxix. 48`).
 
-**Remaining in the notes pass:** printed 294 → 395 (Part II §§7–43, ~1,071 refs) and Part III (~191). Then the pre-print list, which is an **images** problem, not a collation one.
+### §7's findings (printed 291–299), all kept
+- **The plea is a plea at law, and the notes say so.** Heads [3]–[5] run the Names of the Persons as *grounds*, two forensic outright (Advocate = counsel, Intercessor = files the motion). **291 opens on Isaiah's *opus alienum*** — mercy is the judge's own work, punishing a work strange to him.
+- **294:** the disciples' *carest thou not that we perish?* is taken over as a ground and answered in the same line, ***Imo pertinet*** — the same verse serves the hour of prayer at 286, and **the *Preces* never uses a text twice for the same thing.** And the head turns on a concessive twice: *servus inutilis, servus **tamen**; filius perditus, **tamen** filius* — nothing claimed about the pleader's worth, only that the relation survives the failure.
+- **296:** the plate reads *orationem **servi Tui***, the **Vulgate against both English Psalters** (which have *thy people*) — and the plea is one man in the first person, so it is load-bearing. **§9 yields.** Also the only head resting on something the pleader has *done* (*because we forgive*) — and Andrewes prints the objection to his own case immediately after it.
+- **297: the volume proves another of its own misprints, the FOURTH time** — `Psal. cxxx. 3` correct here against printed 40's `cxxx. 30`, in a psalm of eight verses. Both stand as printed.
+- ⚠⚠ **295 is a COUNTER-INSTANCE on the Prayer-Book question and it is KEPT.** *A wind that passeth away* is verse **39** in the AV and **40** in the BCP, and the plate prints **39**. The BCP-to-hand evidence is real but **not uniform**, and an introduction claiming otherwise is answerable for this page.
+- **299:** *from kindred* — the plea names the **Son of David** and then cites **David sparing Shimei**; the argument that the son will do as the father did is made entirely by juxtaposition.
+
+**Remaining in the notes pass:** printed 300 → 395 (Part II §§7–43, ~1,071 refs) and Part III (~191). Then the pre-print list, which is an **images** problem, not a collation one.
 
 ---
 
