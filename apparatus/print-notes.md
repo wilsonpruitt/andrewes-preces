@@ -730,3 +730,68 @@ S: 28 Prov. xxx. 8 — Agur: *give me neither poverty nor riches*
 
 ## 218
 S: 1 Phil. iv. 11 — *I have learned, in whatsoever state I am, therewith to be content*
+
+## 220
+S: 13 Ps. lxxi. 9 — *cast me not off in the time of old age*
+S: 18 Isa. xlvi. 4 — *even to hoar hairs will I carry you*
+S: 20 Luke xxiv. 29 — the two at Emmaus: *abide with us; for it is toward evening*
+S: 24 2 Cor. xii. 9 — *my strength is made perfect in weakness*
+
+## 222
+S: 18 Eccl. xi. 8 — *let him remember the days of darkness; for they shall be many*
+S: 19 Matt. xxii. 13 — *bind him hand and foot, and cast him into outer darkness*
+S: 27 Ps. cxxxiv. 2 — *lift up your hands in the sanctuary, and bless the LORD*
+
+## 224
+S: 2 Ps. xlii. 10 — *my prayer unto the God of my life*
+S: 4 Ps. lxiii. 4 — *I will lift up my hands in thy name*
+S: 8 Ps. cxli. 2 — *the lifting up of my hands as the evening sacrifice*
+S: 12 Job xxxv. 10 — *God my maker, who giveth songs in the night*
+S: 15 Isa. xxxviii. 12 — Hezekiah again: *from day even to night wilt thou make an end of me*
+S: 19 Ecclus. v. 5 — *add not sin unto sin*
+S: 20 Prov. xxiv. 16 — *a just man falleth seven times, and riseth up again*
+S: 22 Matt. xviii. 22 — *until seventy times seven*
+S: 23 Jer. v. 30 — *a wonderful and horrible thing is committed in the land*
+S: 25 Isa. xxx. 15 — *in returning and rest shall ye be saved*
+S: 27 Deut. xxx. 2 — *and shalt return unto the LORD thy God with all thine heart*
+R: 20 **Two sevens, set against each other.** *A just man falleth seven times* is the measure of a day's failure; *until seventy times seven* is the measure of the forgiveness asked for it. Andrewes puts them two lines apart and lets the arithmetic do the work — the second number is not merely larger, it is the first one multiplied, which is the point Christ was making to Peter.
+R: 2 ⚠ **`Psal. xlii. 10` is the Prayer Book's figure, not a slip.** The Authorised Version has *my prayer unto the God of my life* at xlii. **8**; the BCP Psalter numbers it 10. The same verse is cited the same way at printed **433**, four hundred pages later — so the book is consistent in this, and it is further evidence that the Prayer Book Psalter was physically to hand. **Do not correct it.**
+
+## 226
+S: 4 Ps. cxxx. 1 — *out of the depths have I cried unto thee*
+S: 13 Ps. xli. 4 — *heal my soul; for I have sinned against thee*
+S: 16 Ps. li. 1 — *blot out mine iniquity*
+S: 23 Ps. xxv. 17 — *bring thou me out of my distresses*
+S: 25 Ps. xix. 12 — secret faults, and the Septuagint's *strange sins*
+S: 26 Wisd. iv. 12 — *the wandering of concupiscence doth undermine the simple mind*
+S: 27 Matt. xii. 36 — *every idle word that men shall speak*
+
+## 228
+S: 4 Hos. xiii. 9 — *O Israel, thou hast destroyed thyself*
+S: 8 Ps. ciii. 10 — *nor rewarded us according to our iniquities*
+S: 10 Ps. lxxix. 9 — *for the glory of thy name*
+S: 18 Ps. xiii. 3 — *lest I sleep the sleep of death*
+S: 20 Ps. xci. 6 — the Vulgate's *business that walketh in darkness*
+S: 24 Ps. cxxi. 4 — *he that keepeth Israel shall neither slumber nor sleep*
+S: 27 Ps. cvi. 4 — *visit me with thy salvation*
+S: 28 Job xxxiii. 15 — *in a dream, in a vision of the night, when deep sleep falleth upon men*
+
+## 230
+S: 9 Ps. xxxviii. 7 — *my loins are filled with a loathsome disease*
+S: 10 Ps. xvi. 7 — *my reins also instruct me in the night seasons*
+S: 22 Ps. ciii. 14 — *he knoweth our frame; he remembereth that we are dust*
+S: 25 Ps. xvii. 8 — *hide me under the shadow of thy wings*
+S: 27 Ps. xxxii. 6 — *in a time when thou mayest be found*
+S: 28 Ps. lxiii. 1 — *early will I seek thee*
+R: 28 **The psalm the volume mis-numbered at printed 92 stands here correctly as `lxiii. 1`** — the third page to give it right, after 106. The book's own consistency is what convicts the one page that differs.
+
+## 234
+S: 12 Ps. xxxi. 5 — *O LORD God of truth*
+S: 15 Gen. xxxiii. 5 — Jacob to Esau: *the children which God hath graciously given*
+S: 17 Ps. cxxxix. 2 — *thou knowest my downsitting and mine uprising*
+S: 18 Ps. cxxi. 8 — *from this time forth, and even for evermore*
+S: 19 Ps. lxiii. 6 — *when I remember thee upon my bed*
+S: 20 Ps. lxxvii. 6 — *my spirit made diligent search*
+S: 22 Ps. cxxxix. 18 — *when I awake, I am still with thee*
+S: 26 Ps. iv. 8 — *thou, LORD, only makest me dwell in safety*
+R: 20 **`Ad scopandum spiritum meum` — he keeps the spade.** Ps. lxxvii. 6's *my spirit made diligent search* is, in the Greek Andrewes used, a verb of digging over the ground; the evening examination is a turning of the soil, not a rummage. The same figure governs §41 in Part II, where the day's review is a **recall** of stragglers rather than a reveille. The English holds the spade in both places.
