@@ -508,3 +508,17 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 **Build after all of it: 617 pages, 0 TeX errors, 0 of 594 units too tall.**
 
 **NEXT: 30 recovered references still untagged on 25 written pages** (`audit_missing_books.py --tags`), then **printed 324**, whose sheet is clean and whose band is four tags of §17's close plus the *Aggravatio* scheme — which carries no references at all — and the first two cells of the brace catalogue, which per §3 take `R:` notes and no scripture band.
+
+**Backfill closed, and printed 324–326 written.** 48 of the 52 recovered references tagged or accounted for across 22 pages; the 4 skips are principled (printed 155 ×2, 243 at budget with the situation already in the line; 321 a brace catalogue). ⚠ **The audit itself had a false-positive class**: `*Syr.* [i. e. *Ecclus.*] ii. 11` — the 1853 glossing its own siglum in place — made the `i` of *i. e.* read as the chapter, so two correctly tagged references at 293 and 320 were reported missing. Fixed in the tool.
+
+⚠ **Printed 320's `Ecclus. ii. 18` was tagged one line high** — an ordinary slip, unrelated to the comment bug; the other six tags on that leaf are exact. Found only by comparing the band against the corrected index page by page.
+
+**A seventh index gap, found writing 326:** `[*Jud.* 23]`. A one-chapter book is cited by verse alone and `REF` required a roman chapter, so five Jude references had never entered the index. ⚠ **`*Jud.*` is Judges with a roman chapter and Jude with a bare verse** — the numeral decides, and the chapter form is tried first, so no exception list is needed. Three stood on written pages and are backfilled (printed 29, 141, 280).
+
+**Printed 324** — §17's confession ends on a silence, and it is the find of the leaf: thirteen admissions in the first person, then *And all this Thou hast seen. And Thou hast held Thy peace.* Jeremiah asks God to judge **because** He has seen; the psalm's silence is followed in its own verse by *thou thoughtest that I was altogether such an one as thyself*. **The catalogue closes leaving it undecided whether the silence is mercy or evidence.** Below it the leaf stops praying: *Aggravatio*'s nine heads are the scholastic circumstances of an act, with no proof-text among them, and from line 20 the brace catalogue runs to the end of §18 — empty scripture band by decision, per §3. ⚠ *Thren.* iii. 59, the reference that was invisible at the start of the day, is the fourteenth term.
+
+**Printed 325** — sixteen heads, sixteen **antitheses**: axes to place a sin along, not a list of sins. Head twelve's anger-and-concupiscence is the schoolmen's *irascibilis*/*concupiscibilis*, the passionate soul cut in two. ⚠ **The gravest distinction on the leaf carries no reference** — *by one not yet called* against *by one already called* — set down as flatly as sleeping against waking two lines below.
+
+**Printed 326 — the find is grammatical.** The section is headed *Pœnitet*, *it repenteth me*, and the five verbs under it are impersonals too: *Dolet, Pudet, Piget, Horret, Tædet*. **In Latin the man is the subject of none of them** — repentance is something that happens to him. The second list then turns to nouns of action, every one a thing he does. **The page makes its turn in the grammar before it makes it in the words.**
+
+**NEXT: printed 327.** Build after all of it: 617 pages, 0 TeX errors, 0 of 594 units too tall.

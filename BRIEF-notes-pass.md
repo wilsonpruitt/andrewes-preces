@@ -8,14 +8,11 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–323**, every unit, no gaps. **982 `S:` tags and 122 `R:` notes across 167 pages.** (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–326**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 134 pages, 622 references.**
+**Remaining: 131 pages.** Part II, printed **327–395**; Part III, printed 398–436. **NEXT IS PRINTED 327.**
 
-| | pages | refs |
-|---|---|---|
-| Part II, printed 324–395 | 95 | 434 |
-| Part III, printed 398–436 | 39 | 188 |
+⚠ The reference counts the old version of this table gave are now understated — the index was blind to 76 references (§1b), so every per-page count taken before 2026-08-10 was low. Re-run `ref_index.py --all` rather than trusting a number written down earlier.
 
 **51 of the 134 carry no references at all.** An empty band is a correct outcome — see §3 below.
 
@@ -32,7 +29,11 @@ Neither was visible in the built PDF, and both corrupted **committed** work. The
 
 ⚠ **The lesson for the rest of the pass:** these tools agree with each other by construction, so agreement between them is not evidence. **The English text of the line is the evidence.** The `--stub` tell in §4 is the same lesson in a different dress.
 
-⚠ **OUTSTANDING: 30 recovered references on 25 already-written pages still carry no tag** — `python3.11 tools/audit_missing_books.py --tags` prints them. Untagged is not automatically wrong (§3, §8), so each is read before anything is written. Twenty-two are backfilled already, one of which corrected two `R:` notes whose enumerations had silently dropped an item the index never showed them: printed 4 listed six places of prayer where the plate has seven (the garden was missing), and printed 14 listed the postures without the bowed head.
+✅ **THE BACKFILL IS DONE — 48 tagged or accounted for across 22 pages, 4 deliberate skips** (printed 155 ×2 and 243, where the band is at budget and the English line gives the situation outright; 321, a brace catalogue whose cells print their own references). The audit that reports them is — `python3.11 tools/audit_missing_books.py --tags` — untagged is not automatically wrong (§3, §8), so each was read before anything was written.
+
+⚠⚠ **THREE `R:` NOTES WERE WRONG IN SUBSTANCE, not merely short a tag** — they had *enumerated* their pages out of the defective index. Printed 4 listed six places of prayer where the plate has seven (the garden); printed 14 listed the postures without the bowed head; **printed 154 claimed the Passion catalogue was drawn from five books, 'not one of them a Gospel narrative of it', when John xix is exactly that.** All three rewritten. **Where a note counts something, it counted what the tool showed it — so a tool fix means re-reading the prose, not just the tags.**
+
+⚠ **A SEVENTH gap, found at printed 326:** a one-chapter book is cited by verse alone and `REF` demanded a roman chapter, so five Jude references were invisible. **`*Jud.*` is two books here** — Judges with a roman chapter, Jude with a bare verse.
 
 ⚠ **`*Ez.*` is a trap.** At printed 15 it is **Ezra** ix. 6 — *I am ashamed and blush to lift up my face* — not Ezekiel: the volume prints the same verse as `*Ezr.* ix. 6, 7` at printed 171, and Brightman tags the sentence *Of Ezra*. At printed 78 and 84 the same contraction **is** Ezekiel. Expand it from the sense every time, never from the letter.
 
