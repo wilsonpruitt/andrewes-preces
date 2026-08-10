@@ -24,7 +24,21 @@ The tag is a **caption on the reference the plate prints**. Differences go into 
 ### ⚠ How the count moved, because the first three numbers were wrong and the method is the lesson
 **76 → 35 → 20.** The checker's first version compared a tag against **every reference anywhere on its page**, and most of what it reported was noise — printed 2 tags `Ps. cxix. 164`, the plate carries `Ps. cxix. 62`, same psalm, different verse, no relationship. **Same book and chapter is not the same reference.** Three further false classes had to go before the list could be trusted: the parity gate must use **the column carrying the references** (the Latin recto in Part I, not the Greek verso); a tag may **add** a reference from another book on a line that already carries one; and the 1853 prints **multi-verse references** (`*Mat.* viii. 2, 8.`) whose second number was invisible. **Do not act on a checker's first output — make it wrong in a way you can see, then narrow it.**
 
-**Remaining in the notes pass:** printed 291 → 395 (Part II §§7–43, ~1,071 refs) and Part III (~191). Then the pre-print list, which is an **images** problem, not a collation one.
+### ✅ THE COLUMNS ARE CHECKED (2026-08-10) — **three of the twenty had markers on the wrong lines**
+These are the openings whose **Latin recto and English run different line counts**, so a tag's line number and the plate's are different counts and `check_notes` reports them UNCHECKED. They had never been looked at. Tool: **`tools/audit_unsafe_pages.py`**.
+- ⚠ **printed 14 — six of eight tags off by one.** The English merges the two-line psalm quotation at Latin 16–17, so from there English = Latin − 1 and the tags were keyed to the Latin. `1 Cor. ix. 27` pointed at line 25 of a **24-line page**; Job iv. 14's *fear came upon me, and trembling* sat on "5. Groaning" instead of "4. Trembling". **Every posture in the list was labelled with the text of the posture below it.**
+- ⚠ **printed 18 — seven tags** (the English splits *Jesus Christ / our Lord*, so from Latin 9 on English runs +1). **printed 192 — three tags** (Latin +1 from its line 19).
+- ✅ **The other seventeen are sound**, and why matters: **40, 48, 62, 64, 86, 214, 262 were correctly HAND-MAPPED** (their tag lines deliberately differ from the plate's), and **6, 8, 68, 82, 128, 258** equal the plate's but are still right because their columns diverge only **after the last tagged line**.
+- ⚠ **THE TELL:** on a parity-mismatched page, **tag line == plate line** means it was probably keyed off `--stub` and never hand-mapped. Not proof — read the English — but it found all three.
+- Five numbering cases on these pages also came to the plate's figure: `Ps. xvi. 9` (18), `Ps. xxxii. 6` and `Ps. cxxx. 30` (40), `Ps. lxvi. 8` and `Ps. lxxi. 15` (192). **`cxxx. 30` is a plain misprint — the psalm has eight verses.**
+
+### ▶ Notes pass now through printed 293. **NEXT: printed 294**, §7 *Allegatio* continues (it runs 291–299 top).
+§7 is a **six-part forensic plea** (*Ex parte Dei* … *Ex parte consequentis boni*), each head a chain of scripture. **The governing note: these are GROUNDS, not devotions** — heads [3]–[5] run the Names of the Persons as *reasons the plea must succeed*, and two are forensic outright (an Advocate is counsel, an Intercessor files the motion). ⚠ **§3's "don't tag what the line above already gives" bites hard here** — the English already names and quotes most titles, so tag the situation or skip.
+- **291's opening argument** is Isaiah's *opus alienum*: shewing mercy is God's proper work, punishing a work strange to him. The plea opens by claiming **mercy is the judge's own business**, not that the prisoner deserves it.
+- ⚠ **293 brings back the verse the LATIN QUESTION turned on.** Printed 34 renders `Ps.` cxxxviii. 8 as ***Figmenta* manuum tuarum** (reachable only from a Greek reading πλάσμα — the apograph's); here in Part II it is plain ***Opus***. Not a conflict (Part II has no Greek to answer), but **it belongs in the introduction's case.**
+- Three more **Prayer Book** confirmations on 293 alone (`Ps. xxv. 5`, `lxxxix. 48`).
+
+**Remaining in the notes pass:** printed 294 → 395 (Part II §§7–43, ~1,071 refs) and Part III (~191). Then the pre-print list, which is an **images** problem, not a collation one.
 
 ---
 
