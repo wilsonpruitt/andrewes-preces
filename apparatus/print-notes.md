@@ -847,6 +847,17 @@ S: 22 Ps. cxxxix. 18 — *when I awake, I am still with thee*
 S: 26 Ps. iv. 8 — *thou, LORD, only makest me dwell in safety*
 R: 20 **`Ad scopandum spiritum meum` — he keeps the spade.** Ps. lxxvii. 6's *my spirit made diligent search* is, in the Greek Andrewes used, a verb of digging over the ground; the evening examination is a turning of the soil, not a rummage. The same figure governs §41 in Part II, where the day's review is a **recall** of stragglers rather than a reveille. The English holds the spade in both places.
 
+## 238
+S: 4 Matt. viii. 8 — the centurion at Capernaum: *Lord, I am not worthy that thou shouldest come under my roof*. ⚠ **The prayer opens by taking a soldier's words about his house and applying them to a soul**, which is why the roof of the next line is the roof of a house that is not a house.
+S: 9 `Vers. 20` — the plate's continuation reference, i.e. **Matt. viii. 20**, twelve verses on from the centurion: *the Son of man hath not where to lay his head*. ⚠⚠ **The complaint is Christ's own and it is turned round.** He had nowhere to lay his head in the world; the prayer says there is no fit place to lay it *here either*, in me. **The same verse is made to indict the man praying**, and the two references are joined for that purpose — which is only visible once you know that `Vers.` means the book last named.
+S: 11 Luke ii. 7 — *and laid him in a manger; because there was no room for them in the inn*
+S: 13 Matt. xxvi. 6 — *in Bethany, in the house of Simon the leper*
+S: 16 Luke vii. 37 — *a woman in the city, which was a sinner … brought an alabaster box of ointment*
+S: 18 `Vers. 38` — i.e. **Luke vii. 38**, the next verse: *began to wash his feet with tears … and kissed his feet*. The plate cites the mouth's own act to justify the words *impurum et execrandum os ejus*.
+S: 20 Luke xxiii. 43 — *To day shalt thou be with me in paradise*
+R: 4 ⚠⚠ **The page is a legal brief made of precedents, and every one of them is a place Christ was received by the unfit.** A cave and a manger, a leper's house, a sinful woman, her mouth, a thief on a cross — five occasions, five citations, and the conclusion drawn from them is *Digneris ipse et me*, **vouchsafe me also**. **He is not asking for an exception; he is arguing from a settled practice.** ⚠ It is the same method as §23's catena four hundred pages later, and the same as the ladder of unworthiness at printed 338, **which is likewise built entirely out of approaches that succeeded.**
+R: 9 ⚠⚠ **Everything in this note was invisible until 2026-08-10.** The Google scan photographed 238 and 239 as one spread and cut the Latin recto after some fifteen characters a line, so **all seven of these references — and the vocative `DOMINE,` — were simply not in the transcript**, and no tool could report what it had never been shown. The leaf was restored from the University of Toronto scan (`SOURCE-IMAGES.md`). ⚠ **Two of the seven are `Vers.` continuation references, a form `ref_index` still cannot resolve; there are 179 of them in the volume.**
+
 ## 240
 S: 15 Rom. ix. 33 — *whosoever believeth on him shall not be ashamed*
 S: 21 Acts ii. 42 — *they continued stedfastly in the apostles' doctrine and fellowship*

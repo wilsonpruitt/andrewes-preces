@@ -616,35 +616,36 @@ Peregrinos, | Onustos.
 Καταδέξασθαι εἰς τὴν ἀφὴν καὶ μετοχὴν
     τῶν ἀχράντων, ἐξαισίων, ζωοποιῶν,
 
-<!-- printed 239 (PDF 258, right half) — Latin. WATCH: only the RIGHT edge of the photographed spread; each line is cut off past its first ~15 chars. Transcribed verbatim as far as legible, [?] = cut off. NEEDS a non-Google digitization before print (cf. printed 210). Do NOT reconstruct from the Greek. -->
+<!-- printed 239 (PDF 258, right half in the Google frame) — Latin. ✅ RESTORED IN FULL 2026-08-10 from the University of Toronto scan (archive.org `precesprivataequ00andruoft`, leaf 0267), which photographs SINGLE LEAVES and is complete to the right margin; see SOURCE-IMAGES.md. Every [?] is gone and nothing is conjectured — the leaf is legible end to end. The Google frame had photographed 238+239 as one spread and cut every line after ~15 chars. WHAT THE CUT HAD HIDDEN: the whole vocative line DOMINE, (dropped entirely, so the page was a line short); SEVEN references, none of which ref_index could ever see; `furem` misread as `furen`; and `Protritum,` truncated SILENTLY, with no [?] to warn anyone. INDENT LEVELS ARE UNCHANGED and that is deliberate — they follow CONVENTIONS §7's line-keying to the Greek verso 238 (identical from line 4 onward) and the plate independently confirms lines 1–3. The plate's OWN optical indents are deeper and uneven; measured from the leftmost text column, in ems: 0 · 3.4 · 7.0 · 0 · 3.5 · 7.0 · 10.6 · 0.1 · 10.5 · 9.1 · 0.2 · 10.8 · 5.5 · 3.7 · 10.7 · 3.8 · 7.4 · 9.1 · 4.2 · 7.5 · 9.1 · 0.5 · 2.3. Recorded for print; NOT encoded as levels, because encoding them would break the three-column finger-tracking §7 requires. -->
 
 [IN EUCHARISTIA.]
 
-[(1.) [?]]
+[(1.) ANTE SUSCEPTIONEM.]
 
-Non sum dignus, ne[?]
-    ut intres sub so[?]
-        Domus anim[?]
-Quoniam tota desola[?]
-    nec habes apud [?]
-        in quo recli[?]
-        Sed ut [?]
-in stabulo et præsepi[?]
-        reclinar[?]
-        Ut non d[?]
-in domum Simonis L[?]
-        Ut non [?]
-mei similem a[?]
-    cum accederet et [?]
-        Nec ho[?]
-impurum et exec[?]
-    neque furen[?]
-        confitente[?]
-Digneris ipse et [?]
-    Protritum,
-        et indign[?]
-Recipere ad contactu[?]
-    Immaculati, excell[?]
+DOMINE,
+Non sum dignus, neque idoneus,   *Matt.* viii. 8.
+    ut intres sub sordidum tectum
+        Domus animæ meæ,
+Quoniam tota desolata est, et ruinosa,
+    nec habes apud me locum aptum,
+        in quo reclines caput tuum.   [*Vers.* 20.]
+        Sed ut dignatus es
+in stabulo et præsepi brutorum animalium
+        reclinare;   *Luc.* ii. 7.
+        Ut non dedignatus es
+in domum Simonis Leprosi recipi;   *Matt.* xxvi. 6.
+        Ut non recusasti
+mei similem adulteram peccatricem,
+    cum accederet et tangeret Te;   *Luc.* vii. 37.
+        Nec horruisti
+impurum et execrandum os ejus,   *Vers.* 38.
+    neque furem in Cruce,
+        confitentem Tibi;   *Luc.* xxiii. 43.
+Digneris ipse et me
+    Protritum, miserum,
+        et indignum admodum Peccatorem,
+Recipere ad contactum et participationem
+    Immaculati, excellentis, vivifici,
 
 <!-- printed 240 (PDF 259) — Greek. Offset now +19. -->
 
