@@ -110,3 +110,20 @@ python3.11 tools/check_notes.py <page> <page>
 ⚠ `--continuations` flags every resolution whose antecedent is on the previous page or more than six lines back.
 **A long quotation walking up one chapter (Dan. ix, Matt. v, Ps. lxxxv) is the innocent case; anything else is not.**
 
+
+---
+
+## ▶ PROGRESS (2026-08-10)
+
+**Done — 16 pages, and with them ~110 of the 135 references:**
+
+| pages | what was actually needed |
+|---|---|
+| **136 · 132 · 134 · 156** | ⚠ **Not tags — a NOTE.** On each, the plate marks every verse of a continuous quotation and the English lines *are* those verses, so a tag would set the verse under the verse. What was missing was the sentence telling the reader he has entered one passage. |
+| **309–314** (the Passion, 97 continuations) | ⚠⚠ **One note for the whole run: it is a FOUR-GOSPEL HARMONY** walked forward in step. Placed at 314 because 310 and 312 were already at the leaf's capacity. |
+| **305 · 306** | ⚠ **No change.** Brace catalogues: the references print inside the cells and §3a already rules the scripture band empty. |
+| **52 · 24** | ⚠ **A real gap and a real note.** 52 was missing **Rev. ii. 5** — the threat to remove the candlestick, two lines after the candlesticks are named as His, and quite distinct from the ii. 1 already tagged. 24 needed a note: **Psalm cxliii runs across three leaves** and only v. 8 was tagged.|
+
+**⚠ THE RULE THE FIRST SIXTEEN ESTABLISH:** where the continuations are **a continuous run from one chapter**, the answer is one note and no tags — §3 and the content rule both forbid setting the verse under the verse. Where a continuation is **an isolated verse doing its own work** (52's Rev. ii. 5), it wants a tag. **Decide which by reading the English lines, not by counting.**
+
+**Remaining: ~46 pages, ~25 references**, nearly all of them one or two per page. ⚠ **They are NOT a uniform class** — printed 52 proved that, so the remainder cannot be closed in bulk without reading each.

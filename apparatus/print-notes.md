@@ -162,6 +162,7 @@ S: 14 Ps. xxviii. 9 — *save thy people, and bless thine inheritance*
 S: 17 Ps. lxxiv. 2 — *the congregation which thou hast purchased of old*
 S: 19 Acts iv. 32 — *of one heart and of one soul*
 S: 21 Rev. ii. 1 — he that walketh in the midst of the seven golden candlesticks
+S: 23 `Ibid. 5` — the plate's continuation, i.e. **Rev. ii. 5**: *remember therefore from whence thou art fallen, and repent, and do the first works; or else I will come unto thee quickly, and will remove thy candlestick out of his place.* ⚠ **Two lines after the candlesticks are named as His, the threat is to take one away.**
 S: 24 Tit. i. 5 — *set in order the things that are wanting*
 S: 27 Rev. iii. 2 — *strengthen the things which remain, that are ready to die*
 
@@ -665,6 +666,7 @@ S: 14 Matt. vi. 34 — *sufficient unto the day is the evil thereof*
 S: 16 Ps. lxxviii. 33 — *their years in trouble*
 S: 17 Ps. xix. 2 — *day unto day uttereth speech*
 S: 22 Ps. cxliii. 8 — *for I lift up my soul unto thee*
+R: 22 ⚠ **Psalm cxliii does not stop here — it runs on across the next two openings**, the plate marking *Vers.* 9 and 10 below and *Vers.* 11 on printed 27. **One psalm carries the morning prayer over three leaves**, and a reader who meets only the tagged verse 8 will take it for a single borrowed line.
 R: 12 **Two lines here take the Vulgate against the Prayer Book, and the English follows the Vulgate.** *Negotium perambulans in tenebris* and *dæmonium meridianum* — the business that walks in darkness and the noonday demon — are what Andrewes wrote; Coverdale has *pestilence* and *the sickness that destroyeth in the noon-day*. CONVENTIONS §9 makes the BCP our crib, and yields wherever he reaches past it, as he does here.
 R: 16 ⚠⚠ **This is the verse Part III mis-numbers, and here the volume gets it right.** *Anni mei in luctu* stands at printed **409** under `Psal. xl. 9`, where the note has to say the reference is wrong; here the same half-verse is referred correctly to **`Ps. lxxviii. 33`**. So the edition proves its own misprint across three hundred and eighty pages — and it confirms, from inside the book, a reading that was otherwise established only from Brightman. **Both kept as printed.**
 
