@@ -93,7 +93,7 @@ escam in tempore.  Aperi Tu manum Tuam, et imple
 6. Longe fac ab occasione peccandi viam meam: ne
         appropinquem ad ostia domus ejus.   [*Prov.* v. 8.]
 7. Ne mittas nobis Angelum crudelem: sed longe
-        amoveantur a domibus nostris omnia m[?]
+        amoveantur a domibus nostris omnia mala.   [*Prov.*
         xvii. 11. 13.]
 
 <!-- printed 354 (PDF 377), top — Latin; §26's last set -->
@@ -121,7 +121,7 @@ escam in tempore.  Aperi Tu manum Tuam, et imple
 
 1. **The form is the argument.** Six sets of seven, keyed to the seven petitions of the Pater noster printed immediately before them at the end of §25. Read down any column of sevens and the Lord's Prayer is visible: hallowing of the Name (1), the Kingdom/reign (2), the will done (3), bread (4), forgiveness (5), temptation (6), deliverance from evil (7). **The correspondence is loose in places and must not be tightened** — set III's 3 (*In ore Tuo ingrediemur*) and set V's 2 (*Per Te reges regnant*) sit oddly against their petitions, and set I has a supernumerary line after 6 (*Et ne apprehendant nos mala*, Ps. xl. 12) with no number at all. Transcribed as printed; no numbering supplied.
 
-2. **⚠ PRINTING DEFECT at V. 7 (printed 353, foot) — not a scan artifact.** The line runs *sed longe / amoveantur a domibus nostris omnia m* and stops mid-word; the next line is the bare reference *xvii. 11. 13.]* with its book name lost. **Confirmed against the OCR text layer** (`raw/preces1853_djvu.txt`), which reads the same broken *omnia m* and the same orphaned *xvii. 11. 13.]* — so the loss is in the 1853 plate (or this printing of it), not in the Google imaging. Reconstruction is near-certain from the reference: **Prov. xvii. 11** ("a cruel messenger shall be sent against him") supplies the *Angelum crudelem*, **Prov. xvii. 13** ("evil shall not depart from his house") supplies the missing clause — i.e. *omnia m[ala. Prov.]*. **Latin left unrepaired**; the English supplies the sense in brackets and says so. Same class as the §23 defect at the 339/340 join — **restore from Brightman/Harley before print** (add to the watch list).
+2. ✅ **THERE IS NO DEFECT AT V. 7 — RESTORED 2026-08-10, and the old note here was wrong in the most instructive way.** The line reads in full on the University of Toronto scan (leaf 0393, gathering signature `Z Z`, catchword `AND. PRECES.`): ***amoveantur a domibus nostris omnia mala. [Prov. xvii. 11. 13.]*** ⚠⚠ **It was a Google-scan artifact, not a printing defect — and the OCR 'confirmation' was worthless, because the OCR was made FROM THAT SAME SCAN.** Two views of one bad source agreed with each other and were taken for corroboration. **The conjectural reconstruction was nevertheless exactly right**, `omnia m[ala. Prov.] xvii. 11, 13`, which is a fact about the conjecture and not a defence of the method. **Off the pre-print list.** See `SOURCE-IMAGES.md`.
 
 3. **`tribue` at V. 4 (353)** — the final letter is broken in the scan and reads as *tribuc*; the OCR reproduces the broken form. *Tribue* (imperative of *tribuo*) is certain from the syntax. Transcribed corrected, flagged here — a broken sort, not a variant.
 

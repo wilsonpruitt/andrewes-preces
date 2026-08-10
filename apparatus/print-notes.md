@@ -1819,3 +1819,28 @@ S: 21 1 Sam. iii. 18 — **Eli**, when the child Samuel had told him the whole d
 S: 23 Job xxxi. 40 — ⚠⚠ **Job's self-curse turned into the petition for daily bread by one word.** Closing his oath of innocence Job says *let thistles grow instead of wheat, and cockle instead of barley*; the plate sets *pro tritico **ne** proveniat urtica, pro hordeo **ne** lolium* — **let them NOT.** The curse a man called down on himself if he lied becomes the fourth petition.
 S: 25 Job vii. 20 — *I have sinned; what shall I do unto thee, O thou preserver of men?* — Job's words made the petition for pardon
 S: 27 Job xxxi. 1 — *I made a covenant with mine eyes* — ⚠ **but the plate widens it twice**: the covenant is made *cum sensibus meis*, with all the senses, and its object is *ut ne cogitem quidem de malo*, that he should not so much as think of evil, where Job's own concern was narrower.
+
+## 352
+S: 2 Job v. 19 — Eliphaz: *he shall deliver thee in six troubles: yea, in seven there shall no evil touch thee*
+R: 4 ⚠⚠ **Set III opens the seven again, and its first petition is a thing engraved, not said.** *Sanctitas Domino* — **HOLINESS TO THE LORD** — is the inscription cut on the golden plate of the high priest's mitre, worn on the forehead. **For *hallowed be thy Name* the page does not quote a prayer but a piece of metal**, and the two that follow keep the priestly setting: a **royal priesthood**, and going in and out **by the door**.
+S: 4 Exod. xxviii. 36 — the golden plate of the mitre, *graven, like the engravings of a signet, HOLINESS TO THE LORD*
+S: 5 1 Pet. ii. 9 — *ye are a chosen generation, a royal priesthood, an holy nation*
+S: 6 John x. 9 — *I am the door: by me if any man enter in, he shall be saved, and shall go in and out*
+S: 9 Matt. iv. 4 — ⚠⚠ **the petition for daily bread said in the words that refuse bread.** Christ to the tempter: *man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.* **This is the second time in two leaves that the fourth petition is made out of a text against bread** — set II built it from Job's self-curse of thistles for wheat. **The petition is never simply asked.**
+S: 11 Ps. xxv. 18 — *look upon mine affliction and my pain; and forgive all my sins*
+S: 12 Ps. xcv. 8 — *harden not your heart, as in the provocation*; Heb. xii. 15 — *lest any root of bitterness springing up trouble you*. ⚠ **Two texts for the sixth petition, and both name a place in the wilderness where a people went wrong.**
+S: 15 2 Sam. xxiv. 16 — the angel stretching out his hand upon Jerusalem, and the LORD saying *It is enough: stay now thine hand*
+S: 19 Ps. cxiii. 2 — *blessed be the name of the LORD from this time forth and for evermore*. ⚠ **It opened set II on the leaf before and opens set IV here: the one verse the sets reuse is the one that blesses the Name**, which is the petition they all begin from.
+S: 22 Ps. cxlii. 5 — *thou art my refuge and my portion in the land of the living*
+S: 26 Ps. cxliii. 10 — *thy spirit is good; lead me into the land of righteousness*
+
+## 353
+S: 2 Ps. cxlv. 15 — *thou givest them their meat in due season*; Ps. cxlv. 16 — *thou openest thine hand, and satisfiest the desire of every living thing*
+S: 5 Ps. li. 1 — *have mercy upon me, O God, according to thy lovingkindness*
+S: 7 Ps. lxxxix. 23 — *the enemy shall not exact upon him; nor the son of wickedness afflict him*
+R: 11 ⚠⚠ **Set V says the whole prayer out of the WISDOM books, almost all of it Proverbs** — where sets I and II used men speaking in a story, this one uses a book of sentences. ⚠ **And its fourth petition is at last the natural one.** After Job's self-curse at 351 and *man shall not live by bread alone* at 352, set V reaches **Agur's** *feed me with food convenient for me* — **the one place in Scripture where a man asks for exactly daily bread. Three leaves, three treatments, and the plain sense comes last.**
+S: 12 Prov. xviii. 10 — *the name of the LORD is a strong tower: the righteous runneth into it, and is safe*
+S: 15 Prov. viii. 15 — *by me kings reign*; Prov. xxi. 1 — *the king's heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will*. ⚠ **`Flecte ad bonum` is in neither verse — the page adds the petition to the two texts.**
+R: 17 ⚠ **Prov. xix. 21 turned into the third petition, borrowing the Pater Noster's own verb.** The proverb states a fact — *there are many devices in a man's heart; nevertheless the counsel of the LORD, that shall stand* — and the page asks it: *let there not be many devices in our hearts; but let thy counsel stand, **et fiat***. **`Fiat` is the word of *thy will be done*, imported into the proverb standing in for it.**
+S: 21 Prov. xxx. 7 — **Agur**: *two things have I required of thee; deny me them not before I die*; Prov. xxx. 8 — *give me neither poverty nor riches; feed me with food convenient for me*
+S: 25 Prov. xx. 9 — *who can say, I have made my heart clean?*; Ps. xli. 5 — the plate's figure, which is ⚠ **the Vulgate's verse-number under the Hebrew psalm-number**: the AV and the Prayer Book have it at xli. 4, *heal my soul; for I have sinned against thee*. **Second page to show that hybrid**, after printed 344.

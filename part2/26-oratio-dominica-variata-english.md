@@ -92,7 +92,7 @@ their meat in due season.  Open thou thine hand, and fill
 6. Remove my way far from the occasion of sinning: that I
         come not nigh the doors of her house.   [Prov. 5:8]
 7. Send not unto us a cruel Angel: but let far
-        be removed from our houses all e[vils.   Prov.]
+        be removed from our houses all evils.   [Prov.
         17:11, 13]
 
 <!-- printed 354 (PDF 377), top — §26's last set -->
@@ -122,7 +122,7 @@ their meat in due season.  Open thou thine hand, and fill
 
 2. **The seven-fold correspondence is loose and stays loose.** Hallowing (1), kingdom (2), will (3), bread (4), forgiveness (5), temptation (6), deliverance (7) can be traced down every set, but III. 3 and V. 2 sit awkwardly against theirs, and set I has an unnumbered eighth line (*And let not evils take hold upon us*, Ps. 40:12). Nothing has been renumbered or re-ordered to improve the fit.
 
-3. **⚠ The 1853 printing is defective at V. 7** — the Latin breaks off at *omnia m* and the reference has lost its book name (*xvii. 11. 13.*). Confirmed against the scan's own OCR, so the loss is in the plate, not the imaging. The English supplies the near-certain reconstruction in brackets — **all e[vils. Prov.] 17:11, 13** — from Prov. 17:11 ("a cruel messenger shall be sent against him," which gives the *cruel Angel*) and 17:13 ("evil shall not depart from his house"). **The Latin page is left unrepaired**; restore from Brightman/Harley before print.
+3. ✅ **The 1853 is NOT defective at V. 7 — restored 2026-08-10; the brackets are struck.** The Latin reads *omnia mala. [Prov. xvii. 11. 13.]* entire on the Toronto scan (leaf 0393). ⚠⚠ **The defect was in the Google imaging alone, and the OCR that 'confirmed' it was made from that same scan** — two views of one bad source agreeing. The reconstruction had been right: Prov. xvii. 11 gives the *cruel messenger* and xvii. 13 the evil that shall not depart from his house.
 
 4. **`In ore Tuo ingrediemur` (III. 3) translated as printed: "By thy mouth shall we go in and go out."** The reference (John 10:9, "I am the door") wants *ostio*, "door" — and the sentence would then read "By thy door shall we go in and out," which is what the citation demands. But *ore* also answers Num. 27:21 ("at his word shall they go out and come in"). Not repaired, and the English does not pick a side; see the transcript flag.
 
