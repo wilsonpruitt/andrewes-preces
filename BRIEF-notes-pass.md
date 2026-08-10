@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 355 → 436)
+# BRIEF — finishing the notes pass (printed 357 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,9 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–354**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–356**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 103 pages.** Part II, printed **355–395**; Part III, printed 398–436. **NEXT IS PRINTED 355.**
+**Remaining: 101 pages.** Part II, printed **357–395**; Part III, printed 398–436. **NEXT IS PRINTED 357.**
 
 ⚠⚠ **§26 (351–354) is the section to know: the Lord's Prayer said SIX TIMES OVER, petition by petition, in other men's words — and the later sets are each quarried from one region of Scripture (IV Psalms, V Proverbs, VI Prophets).** The fourth petition is never simply asked: Job's self-curse negated (351), *not by bread alone* (352), Agur at last (353). ⚠ **`check_notes` cannot see the second verse of a combined figure** — write `2 Cor. i. 4 — …; 2 Cor. i. 5 — …`, never `2 Cor. i. 4, 5`.
 

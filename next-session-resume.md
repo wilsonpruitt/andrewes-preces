@@ -619,7 +619,7 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 - ⚠ **printed 156 — a THIRD instance of the pronoun pattern and the sharpest**: Ps. lxxxv. 4 is *Converte **nos***; the plate sets *Converte **me*** and **leaves *noster* and *a nobis* plural around it.** He puts himself alone under the verb of turning and leaves the congregation in possession of the mercy.
 - **printed 132 — Daniel ix. 5–19 whole and in order**, where Part II quarries it out of order (ix. 19 at 339, ix. 16 at 343). **Neither conformed to the other.**
 
-**NEXT: printed 355.** 106 pages remain. Build 619 pages, 0 TeX errors, 0 of 595 units too tall.
+**NEXT: printed 357.** 106 pages remain. Build 619 pages, 0 TeX errors, 0 of 595 units too tall.
 
 
 ## 2026-08-10 (cont.) — printed 348–351: the scheme, and the prayer said in other men's words
@@ -631,7 +631,7 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 
 ⚠ **Two S tags were repaired this session for a reason worth remembering: a combined figure (`2 Cor. i. 4, 5`, `Eph. iii. 20, 21`) HIDES the second verse from `check_notes`.** Name each verse separately.
 
-**NEXT: printed 355.**
+**NEXT: printed 357.**
 
 
 ## 2026-08-10 (cont.) — printed 352–354, and a watch item that dissolved
@@ -650,4 +650,20 @@ The line that "broke off mid-word at *omnia m*" reads entire on the Toronto scan
 
 ⚠⚠⚠ **AND THE REASON IT WAS BELIEVED IS THE LESSON: our note said "confirmed a PLATE defect against the OCR" — but the OCR is generated FROM THAT SAME GOOGLE SCAN.** Two views of one bad source agreed and were taken for corroboration. **This is now the THIRD time in one session (239, 210, 353) that a defect laid to the plate turned out to be the camera.** `_djvu.txt` **cannot be an independent witness to its own imaging**; only a different scan can settle plate-versus-camera. Recorded in `SOURCE-IMAGES.md`. (The bracketed conjecture had been exactly right — a fact about that conjecture, not a defence of the method.)
 
-**NEXT: printed 355.**
+**NEXT: printed 357.**
+
+
+## 2026-08-10 (cont.) — printed 355–356: FIVE marks of the Greek rite in eight leaves
+
+⚠⚠⚠ **This stretch has quietly assembled an introduction argument. Within eight leaves the Latin pages carry FIVE independent marks of the EASTERN rite:**
+1. **349** — the movement of the **anaphora**: a *spiritual sacrifice* offered on a *spiritual Altar*, then the Spirit asked to be **sent down in return**, which is an **epiclesis**.
+2. **349** — ***voluntary and involuntary***, ἑκουσίων καὶ ἀκουσίων, **a formula no English rite has**.
+3. **350** — the **doxology** to the Lord's Prayer, absent from the Vulgate at Matt. vi. 13 and from the Roman rite.
+4. **355** — ⚠⚠ ***Carbo duplicis naturæ*, the COAL OF THE TWOFOLD NATURE**, a title for Christ that **is not in Isaiah**: the prophet's coal read as wood and fire at once, and so God and man at once, the tongs being what handles what cannot be touched. **This is the ἄνθραξ of the Eastern liturgies, where the same coal is what the communicant receives — a whole Christology carried in one noun.**
+5. **356** — ⚠ **he does not merely cite the Greek Psalter, he PRAYS in it**: Ps. xxvi. 8 stands in Latin at the door and returns fourteen lines later in Greek. **A separated doublet; the English renders both identically and neither line may be dropped.**
+
+**Other finds:**
+- **355 — Ps. lxxxi. 10 is God's own command answered as though obeyed.** *Open thy mouth wide, and I will fill it* → *Dilato os meum, Domine: **Tu imple***. **The condition is reported as performed and the promise called in** — not the usual indicative-made-imperative but **a promise TAKEN UP with its half discharged.** ⚠ `Eph. i. 8` carried in the band under §6 (the line wants **i. 18**); already on the running list.
+- **356 — Thomas at the temple door.** ⚠⚠ At the entrance of a building where nothing is to be seen, the worshipper says the words of **the one apostle who insisted on seeing** — *my Lord and my God* — **and the next line is the blessing on those who do not.** ⚠ `Ps. xxxii. 6` follows the **Prayer Book** numbering (AV has it at 5) — **a third system on show**, beside the plain Vulgate and the 344/353 hybrid.
+
+**NEXT: printed 357.**

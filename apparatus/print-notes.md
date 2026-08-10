@@ -1868,3 +1868,15 @@ S: 18 Eph. vi. 19 — Paul asking prayer for himself: *that utterance may be giv
 R: 19 ⚠⚠ **Ps. lxxxi. 10 is God's own command, answered as though it had been obeyed.** *Open thy mouth wide, and I will fill it* — the psalm; *Dilato os meum, Domine: **Tu imple*** — **I have opened my mouth wide: do thou fill it.** The condition is reported as performed and the promise called in. ⚠ **Not an indicative made imperative, but a promise TAKEN UP and its half discharged.**
 S: 19 Ps. lxxxi. 10 — *open thy mouth wide, and I will fill it*
 S: 28 Ps. xxviii. 2 — *when I lift up my hands toward thy holy oracle*
+
+## 356
+S: 1 Ps. xlviii. 9 — *we have thought of thy lovingkindness, O God, in the midst of thy temple*
+S: 10 Ps. xxvi. 8 — *LORD, I have loved the habitation of thy house, and the place where thine honour dwelleth*
+S: 12 Ps. xxvi. 7 — *that I may publish with the voice of thanksgiving, and tell of all thy wondrous works*
+S: 17 Ps. xxvii. 4 — *one thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life*
+S: 20 Ps. xxvii. 8 — *when thou saidst, Seek ye my face; my heart said unto thee, Thy face, LORD, will I seek*
+S: 21 Ps. cxviii. 19 — *open to me the gates of righteousness: I will go into them, and I will praise the LORD*
+R: 23 ⚠⚠ **The same verse is said twice on this leaf, once in each language** — Ps. xxvi. 8 stands in Latin at the door, *Domine, dilexi decorem domus Tuæ*, and returns fourteen lines later in **Greek**, Κύριε, ἠγάπησα εὐπρέπειαν οἴκου σου. **The English renders both identically**, which is the rule for a separated doublet; it is not a gloss and neither line may be dropped. ⚠ **He does not merely cite the Greek Psalter — he prays in it**, which joins the coal at 355, the anaphora and the Greek formula at 349, and the doxology at 350.
+S: 26 John xx. 28 — **Thomas**, who would not believe till he had seen: *my Lord and my God*. ⚠⚠ **At the door of a building where nothing is to be seen, the worshipper says the words of the one apostle who insisted on seeing** — and the next line is the blessing on those who do not.
+S: 27 John xx. 29 — *blessed are they that have not seen, and yet have believed*
+S: 29 Ps. xxxii. 6 — the plate's figure. ⚠ *I said, I will confess my sins unto the LORD* stands at **verse 5** in the Authorised Version and at **6** in the Prayer Book Psalter, which is what the plate follows here — **a third numbering system on show in this volume**, beside the plain Vulgate and the hybrid at 344 and 353.
