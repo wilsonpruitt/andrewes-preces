@@ -62,6 +62,7 @@ This follows the author's own practice. At printed 425 his catena tags each text
 `S: 21 Ps. cxxxviii. 8 — *despise not the works of thine own hands*` is a perfectly good tag. It says what the verse is and claims nothing it cannot support.
 
 ### What NOT to tag
+- ⚠⚠ **THE BRACE CATALOGUE — an `S:` band on these leaves is pure duplication.** From §10 (*Confessio Laudum*, printed 305) on, whole pages are single sentences governed by a standing *Pro*, set as `{ a, [ref] / b, [ref] / c, [ref] }` — **the plate prints its own reference inside each cell and our English keeps it there**, so a tag beneath repeats what the reader already has, on the same line. Printed 306 has four sense-lines carrying twelve references this way. **Write `R:` notes and leave the scripture band empty; that is the right outcome, not a gap.** What such a page actually needs is the technical vocabulary opened — *exinanitio* for κένωσις, *apprehensio seminis Abraham*, *œconomia*, *Therapeutæ* — which is `R:` work. Say so once in the first note of the section, so the empty foot reads as a decision.
 - **A reference whose situation the line above already gives.** If the English says who is speaking, the tag is noise.
 - **A repeat within the same page** — tag it once, at its first line; the second occurrence takes a marker only if something has changed (as at printed 34, where Ps. cxxxviii. 8 returns and the apparatus turns on the second one).
 - **Anything requiring a guess about the 1853's numbering.** See §6.
