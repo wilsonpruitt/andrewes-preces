@@ -425,6 +425,7 @@ R: 4 ⚠ **`Psal. xxvii. 15` is not an error: it is the Prayer Book's numbering.
 
 ## 140
 S: 18 2 Cor. xiii. 14 — the apostolic grace, which closes the day
+S: 26 Jude 24, 25 — *to the only wise God our Saviour be glory and majesty, dominion and power*
 
 ## 144
 S: 15 2 Sam. vii. 18 — David, sitting before the LORD: *who am I, O Lord GOD?*
@@ -677,6 +678,7 @@ S: 28 Gen. xxxiii. 5 — Jacob to Esau: *the children which God hath graciously 
 S: 29 Ps. cxxi. 7 — *the LORD shall preserve thee from all evil*
 
 ## 28
+S: 4 Jude 24 — the doxology: *him that is able to keep you from falling*
 S: 5 2 Tim. i. 18 — *that he may find mercy of the Lord in that day*
 S: 7 Ps. cxxi. 8 — *from this time forth, and even for evermore*
 S: 9 Neh. i. 11 — Nehemiah before the king: *grant him mercy in the sight of this man*
@@ -1060,6 +1062,7 @@ S: 10 Ps. xliv. 1 — *our fathers have told us, what work thou didst in their d
 S: 22 Rev. vi. 16 — *hide us from the face of him that sitteth on the throne*
 S: 23 Matt. xxv. 33 — the goats set on the left hand
 S: 26 Matt. viii. 12 — *cast out into outer darkness*
+S: 27 Jude 6 — the angels that kept not their first estate, *reserved in everlasting chains*
 
 ## 281
 S: 2 Rev. xiv. 11 — *the smoke of their torment ascendeth up for ever*
@@ -1530,3 +1533,18 @@ R: 3 ⚠ **The fourteenth term of the confession is not a sin but a silence.** T
 R: 5 **From here the page stops praying and starts weighing.** *Aggravatio* is the confessor's technical term, and the nine heads are the **circumstances** by which a sin's gravity is reckoned in the manuals — its measure, quality, iteration, continuance, the person, the manner, the moving cause, the time, the place — the *quis, quid, ubi, quibus auxiliis, cur, quomodo, quando* that the schoolmen took from the rhetoricians' analysis of an act and the confessors took from the schoolmen. ⚠ **Not one of the nine carries a proof-text, and the scripture band below is empty for the rest of this leaf; that is the right outcome, not a gap** — the page is an instrument, and an instrument is not argued from Scripture. The four that follow, *folly, ingratitude, hardness, contempt*, are aggravations of another kind: not circumstances of the deed but the mind it was done in.
 R: 20 **The kinds of sin, and the pairs are the argument.** Each numbered head sets two terms against each other inside a brace and prints its own reference in the cell, so the English keeps them there and the band below has nothing to add. **Isaiah's pair is one image, not two sins**: *woe unto them that draw iniquity with cords of vanity, and sin as it were with a cart rope* — the thread first and the cable after, the same haulage grown strong enough to be seen. The second pair divides sins of **need** from sins of **excess** — the Vulgate's *necessitates cordis mei* against the *superfluity of naughtiness* in James — which is why what looks like a list of sixteen kinds is really a list of sixteen antitheses.
 
+## 325
+R: 1 **The sixteen kinds are sixteen antitheses, and the brace is the argument.** Every head sets two terms against each other — omission against commission, inward against outward, ignorant against knowing, once against often, hidden against manifest — so what looks like a list of sins is a set of axes along which one sin can be placed. **The plate prints its references inside the cells and the English keeps them there, so the scripture band stays empty for this leaf.** The first head takes Paul for both its halves at once: *what I would, that do I not; but what I hate, that do I* is a single sentence containing the not-doing and the doing, which is why one reference serves a pair.
+R: 10 **Anger and concupiscence are not two sins here but the two appetites.** The division is the schoolmen's *irascibilis* and *concupiscibilis*, the passionate part of the soul cut in two, so head twelve is not naming wrath and lust among the rest but sorting every sin by which appetite carried it. The inner brace then divides concupiscence itself, *of the flesh* from *of the world*.
+R: 11 ⚠ **The gravest distinction on the page carries no reference, because it needed none.** *By one not yet called* against *by one already called* — sin before the calling and sin after it — was a commonplace of the manuals and of the epistles that speak of those once enlightened. It is set down as flatly as the difference between sleeping and waking two lines below, and the plate leaves the reader to supply what hangs on it.
+
+## 326
+S: 14 2 Cor. vii. 11 — the marks of godly sorrow, which both columns of this page are numbering
+S: 15 Rom. vi. 21 — *what fruit had ye then in those things whereof ye are now ashamed?*
+R: 14 ⚠⚠ **Five impersonal verbs under a sixth, and then the grammar changes.** The section is headed *Pœnitet* — *it repenteth me* — and the five under it are impersonals too: *Dolet, Pudet, Piget, Horret, Tædet*, it grieves, it shames, it vexes, it horrifies, it wearies. **In Latin the man is the subject of none of them.** Repentance, in the first list, is something that happens to him, and each is given the Greek noun of the affection and the thing it is felt for — sorrow for the wounds, shame for the stains, indignation for the guilt, fear for the punishment, weariness of the yoke. **Then the second list turns to nouns of action** — self-judgement, self-avenging, hatred, flight from occasions, self-humbling, the smiting of the breast and of the thigh — and every one is a thing he does. The page moves from what repentance suffers to what repentance performs, and it makes the turn in the grammar before it makes it in the words.
+S: 18 Matt. xi. 28 — *come unto me, all ye that labour and are heavy laden*
+S: 21 1 Cor. xi. 31 — *if we would judge ourselves, we should not be judged*
+S: 23 Jude 23 — *hating even the garment spotted by the flesh*
+S: 24 Gal. v. 13 — *use not liberty for an occasion to the flesh*
+S: 25 Jas. iv. 10 — *humble yourselves in the sight of the Lord, and he shall lift you up*
+S: 27 Jer. xxxi. 19 — Ephraim, after his turning: *I smote upon my thigh; I was ashamed*

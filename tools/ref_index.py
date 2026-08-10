@@ -76,8 +76,18 @@ BOOK = (r"Gen|Exod|Ex|Lev|Num|Deut|Josh|Jos|Judic|Judg|Ruth|Reg|Sam|Paralip|Para
 # ⚠ `\b` before the numeral is load-bearing once the period is optional: with
 # re.I, `[12I]\.?` otherwise matches the final letter of `ELI.` and indexes
 # `[*Matth.* xxvii. 46.]` at printed 155 as **1** Matthew.
-REF = re.compile(r"((?:\b[12I]\.?\s*)?(?:%s)\.?\s*[ivxlc]+\.?\s*[\d,\s.]*\d)" % BOOK,
-                 re.I)
+# ⚠ A ONE-CHAPTER BOOK IS CITED BY VERSE ALONE, and the main pattern cannot see it:
+# it requires a roman chapter. `[*Jud.* 23.]` — *hating even the garment spotted by
+# the flesh*, the fifth mark of repentance at printed 326 — matched nothing, and so
+# did Jude 6, 20, 24 and 24, 25. ⚠⚠ `*Jud.*` IS TWO BOOKS IN THIS VOLUME: with a
+# roman chapter it is JUDGES (`*Jud.* ix. 23`, the evil spirit between Abimelech and
+# the men of Shechem, printed 282), and with a bare verse it is JUDE. The chapter
+# form is tried first, so the distinction falls out of the numeral and needs no list.
+CHAPTERLESS = r"Jud|Philem|Obad|Abd"
+REF = re.compile(
+    r"((?:\b[12I]\.?\s*)?(?:%s)\.?\s*[ivxlc]+\.?\s*[\d,\s.]*\d"
+    r"|(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d[\d,\s]*\d|(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d)"
+    % (BOOK, CHAPTERLESS, CHAPTERLESS), re.I)
 MARK = re.compile(r"<!--\s*printed (\d+)")
 # The same pattern `proof2tex` strips before it decides a line is empty. Kept
 # identical to it on purpose: the index must count exactly the lines the builder
