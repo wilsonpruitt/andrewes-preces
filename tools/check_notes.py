@@ -183,12 +183,20 @@ def main():
         pages = [p for p in pages if args.lo <= p <= hi]
 
     # the plate's own citations, by page and by line
+    # ⚠ EXPAND MULTI-VERSE REFERENCES. The 1853 prints `*Mat.* viii. 2, 8.` and
+    # `*Act.* x. 9, 11.` — one reference naming two verses — and reading only the
+    # first number makes the second invisible. Both tags on Matt. viii were
+    # reported as disagreeing with a plate that cites exactly what they cite.
     plate = {}
     for p, rows in idx.items():
         for ln, ref in rows:
             c = citation(ref)
-            if c:
-                plate.setdefault(p, {}).setdefault(ln, set()).add(c)
+            if not c:
+                continue
+            plate.setdefault(p, {}).setdefault(ln, set()).add(c)
+            tail = ref[ref.index(str(c[3])) + len(str(c[3])):]
+            for extra in re.findall(r"[,&]\s*(\d+)", tail):
+                plate[p][ln].add((c[0], c[1], c[2], int(extra)))
 
     order_bad, missing, mismatch = [], [], []
     supplied, unchecked = [], []
@@ -237,10 +245,21 @@ def main():
                 if not c:
                     continue
                 tagged.add(c)
+                # ⚠ Only a SAME-BOOK difference is a disagreement. A line may
+                # carry the plate's reference and a second one the pass supplied
+                # from a different book entirely — printed 210 line 18 is the
+                # plate's Luke xvii. 5 plus our Heb. iii. 6, which is an addition,
+                # not a contradiction. Flagging those as numbering errors would
+                # send an editorial pass to change a figure that is not wrong.
+                same_book = [x for x in here if x[:2] == c[:2]]
                 if not here:
                     supplied.append((p, ln, m.group(0).strip()))
-                elif c not in here:
-                    mismatch.append((p, ln, m.group(0).strip(), sorted(here)))
+                elif c in here:
+                    pass
+                elif same_book:
+                    mismatch.append((p, ln, m.group(0).strip(), sorted(same_book)))
+                else:
+                    supplied.append((p, ln, m.group(0).strip()))
 
         on_plate = set()
         for s in by_line.values():
