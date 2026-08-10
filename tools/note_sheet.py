@@ -32,6 +32,17 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def page_lines(page, pattern):
+    """Every sense-line of a printed page, in the order the BUILDER lays them out.
+
+    ⚠⚠ ACCUMULATE ACROSS FILES, never return the first that matches. 40 pages are
+    marked in more than one section — a section closing and the next opening on
+    the same leaf — and the builder concatenates both blocks into one fragment.
+    An earlier version returned as soon as one file had content, so printed 303
+    showed 14 English lines where the fragment has 26, and every line of the
+    Confessio in Angelis was invisible to the worksheet. The same fault in
+    ref_index.py numbered that page's second block from 1 again.
+    """
+    found = []
     for f in sorted(ROOT.glob(pattern)):
         cur, out = None, []
         for raw in f.read_text().splitlines():
@@ -44,9 +55,8 @@ def page_lines(page, pattern):
                 continue
             if cur == page and raw.strip():
                 out.append(raw.strip())
-        if out:
-            return out
-    return []
+        found.extend(out)
+    return found
 
 
 def sheet(n, idx):

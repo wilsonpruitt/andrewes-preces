@@ -1234,3 +1234,52 @@ S: 18 John iii. 17 — *God sent not his Son into the world to condemn the world
 S: 23 John xvii. 5 — the high-priestly prayer, before the Passion
 S: 24 Gen. xiv. 18 — Melchizedek, priest of the most high God
 R: 11 **From kindred: the plea addresses the Son of David, and then cites what David did.** The Canaanite woman's *have mercy on me, O thou Son of David* names the kinship; the next text is David himself sparing Shimei — the man who had cursed him — on the day he came back over Jordan. The argument is that the son will do as the father did, and it is made entirely by putting the two verses next to each other. The head that follows, *from office*, drops kinship for job description: the Spirit is upon Him **because** He was anointed to heal the broken-hearted, so mercy is not a favour asked but the work He was sent to do.
+
+## 300
+S: 4 Gen. xxi. 33 — Abraham at Beersheba, after the well was sworn for
+S: 7 Jer. xxiii. 24 — against the prophets who say they have dreamed
+S: 9 Ps. cxxxix. 7 — *whither shall I go then from thy spirit?*
+S: 12 John xxi. 17 — Peter, asked the third time: *Lord, thou knowest all things*
+S: 13 1 Kings viii. 39 — Solomon at the dedication of the temple
+S: 15 Luke i. 37 — Gabriel to Mary, of her cousin Elisabeth
+S: 16 Gen. xvii. 1 — to Abram at ninety-nine years old
+S: 20 Rom. xi. 33 — the close of the argument on Israel, where Paul breaks off into praise
+S: 22 Ps. cxvii. 2 — the shortest psalm, entire in two verses
+R: 4 **A schoolman's list of the attributes, proved entirely out of stories.** Eternity, omnipresence, omniscience, omnipotence, the depth of wisdom, unshaken truth — the headings could stand in any scholastic handbook, and not one of them is proved by a definition. Eternity is Abraham planting a grove at Beersheba; omniscience is Peter on the shore, asked a third time; omnipotence is Gabriel in a house in Nazareth; and the God who knows all hearts is quoted from Solomon's prayer at the temple. The *Confessio* argues like a schoolman and evidences like a preacher.
+R: 22 ⚠ **The same numeral means two different psalms in this volume, and this page proves it.** Here `*Psal.* cxvii. 2` is right on the Authorised Version's numbering — Ps. cxvii has two verses and this is the second. At printed 274 the plate cites `*Ps.* cxvii. 25` for the Hosanna, which is impossible on that numbering and can only be the **Vulgate's** cxvii, our cxviii. Neither is an error; the 1853 simply does not hold to one Psalter's numbers, which is why every note in this edition that touches a psalm number says which system it means, and why the plate's own figure is never altered.
+
+## 301
+S: 2 Matt. xxiv. 35 — on the Mount of Olives, of the end
+S: 4 Ps. cxi. 3 — *his righteousness endureth for ever*
+S: 6 Ps. xlii. 7 — *deep calleth unto deep at the noise of thy waterspouts*
+S: 9 2 Cor. x. 1 — Paul, beginning his defence of himself to Corinth
+S: 10 Gen. xviii. 32 — Abraham's last plea for Sodom, come down to ten
+S: 12 Acts xvii. 30 — Paul on Mars' hill, of the times of ignorance
+S: 14 Rom. ii. 4 — to the man who judges another and does the same
+S: 17 Ps. lxxviii. 38 — of the generation in the wilderness, forgiven again
+S: 20 Hos. vi. 4 — *what shall I do unto thee?*, asked of both kingdoms
+S: 22 Neh. ix. 28, 30 — the Levites' confession, while the Law is read
+R: 6 **A verse about drowning, read of mercy.** *Abyssus abyssum invocat* — deep calleth unto deep — is spoken in Ps. xlii by a man going under: the waterspouts, the waves and billows passing over him. Andrewes sets it beneath the heading *The Fountain, the Ocean, the Deep of mercy*, so the two deeps become the depth of misery and the depth of pity, each calling to the other. The reading is not in the psalm and he does not argue for it; he places the verse and lets the heading do the work, which is how most of this catalogue proceeds.
+
+## 302
+S: 2 Ps. ciii. 10 — *he hath not dealt with us after our sins*
+S: 4 Isa. xl. 2 — the opening of the book of comfort: *speak ye comfortably to Jerusalem*
+S: 6 Ps. ciii. 13 — *like as a father pitieth his own children*
+S: 8 Joel ii. 13 — *rend your heart, and not your garments*
+S: 11 Ps. ciii. 9 — *he will not alway be chiding*
+S: 13 Matt. xviii. 32 — the lord to the unmerciful servant
+S: 16 2 Cor. v. 19 — *not imputing their trespasses unto them*
+S: 20 Luke xv. 22, 23 — the father to his servants, before the son can finish his speech
+S: 23 Luke vi. 35 — *he is kind unto the unthankful and to the evil*
+R: 17 **Propitiation is proved by a parable, and by the part of it where nobody speaks.** The heading is the most technical word in the catalogue, and under it Andrewes sets not a sacrifice but the best robe, the ring, the fatted calf — the father's instructions to his servants, given while the son is still reciting the confession he had prepared. What the heading calls propitiation the text shows as an interruption.
+R: 21 **Χρηστός is left in Greek because the word is one letter from the Name.** *Chrestos* means kind, useful, serviceable, and it stands so close to *Christos* that ancient writers inside and outside the Church confused the two on purpose and by accident. Andrewes prints the Greek as the heading and lets the Latin gloss follow; the English apposes it rather than translating it away, because *Kind* alone loses the reason this attribute is set among the names of Christ at all.
+
+## 303
+S: 2 Matt. xx. 9 — the labourers hired at the eleventh hour, paid a whole day's wage
+S: 3 Luke xxiii. 43 — to the thief, on the day itself
+S: 14 Exod. xv. 11 — the Song of the Sea, sung on the far bank
+S: 17 Heb. i. 14 — *are they not all ministering spirits, sent forth to minister?*
+S: 19 1 Thess. iv. 16 — *with the voice of the archangel, and with the trump of God*
+S: 21 1 Pet. iii. 22 — *angels and authorities and powers being made subject unto him*
+R: 4 **Fourteen works of mercy in seven pairs, set in two columns so that each is answered across the page.** The blind enlightened and the prisoners loosed; the naked clothed and the fallen raised; the scattered gathered and the living fed; the hungry sustained and the dead quickened. Every one is a scriptural participle with its own reference, and the whole table is a single sentence still governed by the *Propter* four pages back — these are not petitions but reasons for praise. The English keeps the two columns and the references the plate prints inside them, so the tags below add nothing where the page already says everything.
+R: 15 **The confession turns here from what God does to whom He does it by.** *Confessio in Angelis* — God glorified **in** His angels — and the nine orders follow in rank, each with its office: angels bear the charge of men, archangels announce the greater things, virtues work wonders, powers hold off the demons, principalities govern, dominions give, thrones judge. The governing *in* is the whole point and is kept through every heading: the orders are not praised, God is praised in them.
