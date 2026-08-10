@@ -394,11 +394,13 @@ S: 6 Ezek. xxxiii. 11 — the watchman's charge: *why will ye die, O house of Is
 S: 8 Lam. v. 21 — *turn thou us unto thee, O LORD, and we shall be turned*
 S: 10 Ezek. xviii. 30 — *so iniquity shall not be your ruin*
 S: 12 Dan. ix. 5 — Daniel's confession: *even by departing from thy precepts*
+R: 12 ⚠⚠ **From here to the foot of the next leaf the page is Daniel's prayer, ix. 5–19, quoted straight through**, and the plate marks every verse of it — `[*Vers.* 7.]` `8.` `16.` `17.` `18.` `19.` **They are not tagged one by one because the English lines are the verses**; what the reader needs is to know he has entered a single prayer and not a catena. It is the great penitential prayer of the exile, made while Daniel was reading Jeremiah and counting the seventy years. ⚠⚠ **And the volume comes back to it in Part II out of order** — `ix. 19` closes §22 at printed 339 and `ix. 16` opens the intercession at printed 343, **the later verse first.** Part I prints the prayer whole and in sequence; Part II quarries it. **Neither is conformed to the other.**
 
 ## 134
 S: 3 Jas. iii. 2 — *in many things we offend all*
 S: 5 Jas. ii. 13 — *judgment without mercy to him that hath shewed no mercy*
 S: 7 1 John i. 8 — *if we say that we have no sin, we deceive ourselves*
+R: 8 ⚠⚠ **Lines 6–15 run 1 John i. 8 to ii. 2 continuously** — the confession, the promise to the confessing, the Advocate, the propitiation — and the plate marks the verses as it goes. ⚠⚠ **But the last clause is not quoted, it is ASKED.** John writes that Christ **is** the propitiation for our sins, *and not for ours only, but for the sins of the whole world*; the page turns the indicative into a petition — ***let him be*** the propitiation for **my** sins, *who is also for the whole world*. **The world keeps the indicative and the man asks for himself.** It is the method of printed 22 and 332 working inside a single sentence of Scripture.
 S: 12 1 John ii. 1 — *we have an advocate with the Father*
 S: 22 Ps. lxxvii. 7 — *will the Lord cast off for ever?*
 S: 26 Heb. xii. 1 — *the sin which doth so easily beset us*
@@ -408,6 +410,7 @@ R: 12 **He doubles the preposition, and the doubling is the argument.** *Advocat
 ## 136
 S: 1 1 John ii. 16 — *the pride of life*
 S: 6 Matt. v. 3 — *blessed are the poor in spirit; for theirs is the kingdom of heaven*
+R: 7 ⚠⚠ **The whole ladder is the Beatitudes, Matt. v. 3–12, and the plate marks every rung** — but they are not tagged one by one, because **the English lines ARE the Beatitudes** and a tag would set the verse under the verse. ⚠⚠ **What has been done to them is the point: they are turned from blessings into PETITIONS, and what is asked for is the CONDITION, not the promise.** Christ says *blessed are they that mourn*; the page asks **to mourn**, to hunger, to be persecuted — and the whole list is governed by *Da mihi, Domine*, **Give me, O Lord**, standing under it at line 18. **He asks to be given the poverty, not the kingdom.**
 S: 22 Heb. xi. 6 — *a rewarder of them that diligently seek him*
 S: 23 Job xix. 25 — *I know that my redeemer liveth*
 S: 24 Matt. xvi. 16 — Peter at Cæsarea Philippi: *thou art the Christ, the Son of the living God*
@@ -481,6 +484,7 @@ S: 31 Ps. lxxxv. 2 — *thou hast covered all their sin*
 R: 13 **The Passion assembled out of six books, and half of it proved from texts that are not narrating it.** The thorns, the revilings, the strong cry, the neck under the cross and the pierced heart come from Matthew and John, who were telling the story; but the plowed back is the Psalter's *the plowers plowed upon my back*, the pierced hands and feet are Psalm xxii, the covered sin is Psalm lxxxv, the strong crying and tears are an epistle's account of Christ's prayers, and the broken body an epistle about a supper. **Half the members of the catalogue are proved from outside the Passion narratives**, which is why the sequence reads as prayer and not as recital — the same method as printed 313, where the nailing is proved from after the resurrection, out of Thomas's mouth.
 
 ## 156
+R: 3 ⚠⚠ **The psalm says *turn US* and the plate says *turn ME* — and changes nothing else in the line.** Ps. lxxxv. 4 is *Converte **nos**, Deus salutaris noster, et averte iram tuam a nobis*; the page sets *Converte **me**, Deus salutaris **noster**, et averte iram tuam a **nobis**.* **One pronoun is made singular and the two around it are left plural**, so he puts himself alone under the verb of turning and leaves the congregation in possession of the mercy. ⚠ Lines 1–10 are Ps. lxxxv. 3–7 quoted whole, every verse marked by the plate, so the verses are not tagged one by one. ⚠⚠ **Third instance of the pronoun pattern** — with printed 342's *adauge **mihi** fidem* for the apostles' *nobis*, and 343's *in diebus **nostris*** for Hezekiah's *meis* — **and the only one where the change is partial inside a single line.**
 S: 20 Gal. v. 19 — the works of the flesh, which this column lists
 S: 24 Gal. v. 22 — the fruit of the Spirit, which the facing column answers with
 S: 28 Isa. xi. 2 — the gifts resting upon the rod out of the stem of Jesse
