@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 332 → 436)
+# BRIEF — finishing the notes pass (printed 340 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,9 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–331**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–339**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 126 pages.** Part II, printed **332–395**; Part III, printed 398–436. **NEXT IS PRINTED 332.**
+**Remaining: 118 pages.** Part II, printed **340–395**; Part III, printed 398–436. **NEXT IS PRINTED 340.**
 
 ⚠ The reference counts the old version of this table gave are now understated — the index was blind to 76 references (§1b), so every per-page count taken before 2026-08-10 was low. Re-run `ref_index.py --all` rather than trusting a number written down earlier.
 
@@ -100,9 +100,14 @@ These recur, and each is a thing a careless pass destroys.
 
 4. **The volume corroborating its own misprints.** Four cases: `Job xiv. 4` at 323 against 406's `xiv. 14`; `Psal. cxxx. 3` at 297 against 40's `cxxx. 30`; `Is. xxxviii. 15` in §37 against Part III's `xxxiii. 15`; printed 25 confirming the reading at 409. **The corroborating witness is the book, which beats any conjecture — expect more of these in Part III, which is where several of the errors live.**
 
-5. **Greek that cannot be flattened.** 319's ladder of ὑπερ- compounds is the clearest case in Part II for the whole edition. Also Ἐπίκλησις/Παράκλησις at 317, Χρηστός at 302, ῥαπίσματι at 311, ἄλλος at 290, and ⚠ **Ἄγνωστοι βάσανοι at 314 — the one item in a forty-item catalogue with no proof-text, and the blank is the point.**
+5. ⚠⚠ **THE INDICATIVE TURNED IMPERATIVE — the method, established 2026-08-10 and now the single most useful thing to read a leaf with.** Andrewes builds petitions by taking the record of what God **has done** and asking it back as a command. Nathan's *the LORD hath put away thy sin* prayed as *Transfer*; Hezekiah's *thou hast cast all my sins behind thy back* as *Dissipa*; the psalm's *thou hast covered all their sin* as *Tege*; the Baptist's participle **ὁ αἴρων** as the bare imperative **αἶρε**.
+   - **The volume proves it on one verse**: Isaiah xliv. 22 stands at printed 22 as *Dele … blot thou out MINE* and at printed 332 in God's own indicative, *I blot out … thine iniquities*. Same verse, both ways, neither place noting the other.
+   - **And once in the Greek itself**: Matthew's *οὐ κατεάξει*, he shall not break, is printed at 334 as *μὴ κατεάξῃς*, break thou not.
+   - The relatives of it are everywhere — a text spoken **outward** taken **inward** (Stephen's prayer for other men at 327; Paul's oath about his kinsmen at 335), a promise **borrowed** rather than argued from (321, 22). **When a leaf quotes a promise, always check the mood and the person before writing the tag.**
 
-6. **The Psalter is not one Psalter.** Proved twice from inside single texts: `xxii. 17`/`xxii. 16` (154 vs 312) and `xxxix. 14`/`xxxix. 12` (261 vs 322), plus `cxvii. 25` (Vulgate, 274) against `cxvii. 2` (AV, 300) and 295's AV-numbered `lxxviii. 39`. **An introduction claiming a single Psalter throughout is answerable for these pages.**
+6. **Greek that cannot be flattened.** 319's ladder of ὑπερ- compounds is the clearest case in Part II for the whole edition. Also Ἐπίκλησις/Παράκλησις at 317, Χρηστός at 302, ῥαπίσματι at 311, ἄλλος at 290, and ⚠ **Ἄγνωστοι βάσανοι at 314 — the one item in a forty-item catalogue with no proof-text, and the blank is the point.**
+
+7. **The Psalter is not one Psalter.** Proved twice from inside single texts: `xxii. 17`/`xxii. 16` (154 vs 312) and `xxxix. 14`/`xxxix. 12` (261 vs 322), plus `cxvii. 25` (Vulgate, 274) against `cxvii. 2` (AV, 300) and 295's AV-numbered `lxxviii. 39`. **An introduction claiming a single Psalter throughout is answerable for these pages.**
 
 ---
 
