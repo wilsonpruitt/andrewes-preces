@@ -93,11 +93,11 @@ R: 3 The manuscript glosses this line in **Hebrew**, and the 1853 dropped it —
 
 ## 40
 S: 1 Ps. vi. 1 — *rebuke me not in thine indignation*
-S: 4 Ps. xxxii. 5 — *thou forgavest the iniquity of my sin*; the Greek here follows the Septuagint's *ungodliness of my heart*
+S: 4 Ps. xxxii. 6 — *and so thou forgavest the wickedness of my sin*; Prayer Book numbering, and the Greek follows the Septuagint's *ungodliness of my heart*
 S: 6 Ps. xxxviii. 9 — *my groaning is not hid from thee*
 S: 10 Ps. li. 1 — *blot out my transgressions*
 S: 13 Ps. cii. 13 — *the set time is come*
-S: 15 Ps. cxxx. 3 — *if thou shouldest mark iniquities, O Lord, who shall stand?*
+S: 15 Ps. cxxx. 30 — *if thou shouldest mark iniquities, O Lord, who shall stand?*, which is verse 3; the psalm has but eight
 S: 17 Ps. cxliii. 2 — *in thy sight shall no man living be justified*
 S: 19 Ps. cxix. 48 — *thy commandments, which I have loved*
 S: 25 Isa. xxvi. 13 — *other lords beside thee have had dominion over us*
@@ -584,25 +584,25 @@ S: 14 Ps. cxix. 18 — *open thou mine eyes, that I may behold wondrous things*
 ## 14
 S: 14 Luke xxii. 41 — *he kneeled down, and prayed*
 S: 15 Matt. xxvi. 39 — *he fell on his face, and prayed*
-S: 17 Ps. xliv. 25 — *our belly cleaveth unto the earth*
-S: 20 Luke xviii. 13 — the publican smiting upon his breast
-S: 21 Job iv. 14 — *fear came upon me, and trembling*
-S: 22 Isa. lix. 11 — *we roar all like bears, and mourn sore like doves*
-S: 24 Ps. cxxiii. 1 — *unto thee lift I up mine eyes*; Ps. cxliii. 6 — *I stretch forth my hands unto thee*
-S: 25 1 Cor. ix. 27 — *I keep under my body*
-R: 14 **The body's part in prayer, itemised like the hours and the places.** Kneeling, prostration, the face to the ground, the smitten breast, trembling, groaning, eyes and hands lifted, the body kept under — seven postures, each with the text of somebody doing it. Three consecutive openings apply one method to the *when*, the *where* and the *how*, which is what makes this front matter a treatise and not a preface.
+S: 16 Ps. xliv. 25 — *our belly cleaveth unto the earth*
+S: 19 Luke xviii. 13 — the publican smiting upon his breast
+S: 20 Job iv. 14 — *fear came upon me, and trembling*
+S: 21 Isa. lix. 11 — *we roar all like bears, and mourn sore like doves*
+S: 23 Ps. cxxiii. 1 — *unto thee lift I up mine eyes*; Ps. cxliii. 6 — *I stretch forth my hands unto thee*
+S: 24 1 Cor. ix. 27 — *I keep under my body*
+R: 13 **The body's part in prayer, itemised like the hours and the places.** Kneeling, prostration, the face to the ground, the smitten breast, trembling, groaning, eyes and hands lifted, the body kept under — seven postures, each with the text of somebody doing it. Three consecutive openings apply one method to the *when*, the *where* and the *how*, which is what makes this front matter a treatise and not a preface.
 
 ## 16
 S: 13 Ps. xxxiv. 7 — *the angel of the LORD encampeth round about them that fear him*
 
 ## 18
-S: 3 Phil. iv. 8 — *whatsoever things are true, whatsoever things are honest*
-S: 12 Ps. xvi. 8 — *I have set the LORD always before me*
-S: 13 Ps. xxv. 1 — *unto thee, O LORD, do I lift up my soul*
-S: 14 Ps. xcv. 6 — *let us kneel before the LORD our maker*
-S: 15 1 Pet. v. 6 — *humble yourselves under the mighty hand of God*
-S: 17 Ps. cxliii. 6 — *my soul thirsteth after thee, as a thirsty land*
-S: 25 Ps. xxii. 6 — *I am a worm, and no man*; 2 Sam. ix. 8 — Mephibosheth: *such a dead dog as I am*
+S: 2 Phil. iv. 8 — *whatsoever things are true, whatsoever things are honest*
+S: 13 Ps. xvi. 9 — *I have set God always before me*; Prayer Book numbering
+S: 14 Ps. xxv. 1 — *unto thee, O LORD, do I lift up my soul*
+S: 15 Ps. xcv. 6 — *let us kneel before the LORD our maker*
+S: 16 1 Pet. v. 6 — *humble yourselves under the mighty hand of God*
+S: 18 Ps. cxliii. 6 — *my soul thirsteth after thee, as a thirsty land*
+S: 26 Ps. xxii. 6 — *I am a worm, and no man*; 2 Sam. ix. 8 — Mephibosheth: *such a dead dog as I am*
 
 ## 20
 S: 1 Ps. cxxxviii. 8 — *forsake not the works of thine own hands*
@@ -649,9 +649,9 @@ S: 11 Ps. lxx. 1 — *make haste to help me, O LORD*
 S: 14 Ps. lxxxvi. 16 — *save the son of thine handmaid*
 
 ## 192
-S: 19 Isa. xxxviii. 12 — Hezekiah in his sickness: *from day even to night wilt thou make an end of me*
-S: 23 Ps. lxxi. 18 — *now also when I am old and grayheaded, O God, forsake me not*
-S: 25 Ps. lxvi. 8 — *and suffereth not our feet to be moved*
+S: 18 Isa. xxxviii. 12 — Hezekiah in his sickness: *from day even to night wilt thou make an end of me*
+S: 22 Ps. lxxi. 15 — *usque ad senectam et senium*, the prayer of old age
+S: 24 Ps. lxvi. 8 — *who holdeth our soul in life, and suffereth not our feet to slip*; Prayer Book numbering
 
 ## 198
 S: 19 Ps. ciii. 10 — *nor rewarded us according to our iniquities*
