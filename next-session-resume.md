@@ -4,7 +4,7 @@
 
 **The notes pass is the current and only front, and it is now written up to be picked up cold.** The brief carries the state, the working loop, the four rules that decide what you write, the per-page hazard lists for everything that remains, and the patterns to watch for. **Read it and `NOTES-CONVENTIONS.md`; you do not need this file to start.**
 
-**Done: printed 2–344, every unit, no gaps.** **Remaining: 113 pages** (Part II 345–395, then Part III 398–436). Build holds at **617 pages, 0 TeX errors, 0 of 594 units too tall**.
+**Done: printed 2–347, every unit, no gaps.** **Remaining: 110 pages** (Part II 348–395, then Part III 398–436). Build holds at **617 pages, 0 TeX errors, 0 of 594 units too tall**.
 
 Everything below is the **history**: how the rules were arrived at, what each stretch found, and the decisions already ruled. Consult it when the brief points here; do not read it front to back.
 
@@ -551,7 +551,7 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 - **334** takes **Achan's** confession as its form, the one confession in Scripture that names the deed in detail: the page takes the formula and not the outcome.
 - **331** asks to be *hurt* — *ure renes*, *confige carnes* — where the AV has an examination and the Vulgate a wound.
 
-**NEXT: printed 345.** 113 pages remain (Part II to 395, then Part III 398–436). Build: 617 pages, 0 TeX errors, 0 of 594 units too tall. Working tree clean, nothing pushed.
+**NEXT: printed 348.** 110 pages remain (Part II to 395, then Part III 398–436). Build: 617 pages, 0 TeX errors, 0 of 594 units too tall. Working tree clean, nothing pushed.
 
 ---
 
@@ -572,3 +572,29 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 ⚠ **All five leaves overran on the first build** (worst 341 at 604pt against the leaf's 531) and were trimmed to fit **without dropping a finding**, per the brief's rule. Prose was compressed; nothing was cut. **Build re-verified after trimming: 617 pages, 0 TeX errors, 0 overfull boxes, 0 of 594 units too tall.** `check_notes` clean on all five (the coverage warnings on 341/342/344 are the deliberate §3a/§3b selections, each reference named inside an `R:` note).
 
 **NEXT: printed 345.** ⚠ §23 closes at the top of 345 and a fresh all-caps **CONFESSIO LAUDIS** (§24) opens mid-page — **345 is one of the doubly-marked pages**, so check `grep -c "<!-- printed 345 " part2/*transcript.md` before keying it.
+
+---
+
+## 2026-08-10 (third pass, Opus 5) — the source images, two restorations, the Hebrew re-read, and printed 345–347
+
+**✅✅ THE DIGITIZATION QUESTION IS ANSWERED AND IT COST NOTHING — see [`SOURCE-IMAGES.md`](SOURCE-IMAGES.md).** Three free non-Google scans; the **University of Toronto 1853** (`precesprivataequ00andruoft`) replaces the Google copy as the default. ⚠ **The Google copy is 1-bit BITONAL** — that is why the faint strokes were never there to recover. ⚠ **Toronto has duplicate leaves too** (0306 repeats printed 272) and its offset runs +18 → +42; **verify every leaf by eye.** ⚠ **Do not commission reprographics.**
+
+**✅ printed 239 and printed 210 are both RESTORED, and the second one was never damaged at all** — 210's ink-smear exists only in the Google scan. Every `[?]` on both leaves is now read and confirmed against the facing Latin.
+
+⚠⚠⚠ **THE LESSON OF BOTH LEAVES, and it generalises: a damaged zone produces SILENT errors as well as marked ones.** 239 hid a truncated `Protritum,` with no `[?]`; 210 hid **three**, one a change of sense — **`ζητοῦντάς` for `φοβουμένους`** (*them that seek thee* → *them that FEAR thee*, settled by the Latin's *timentes*, and it makes the couplet one thought), plus `καὶ ἐμοὶ` for `καί μοι` and an acute for a grave. **A marked `[?]` is honest; a confident misreading in a damaged zone is not.** 239 also hid a whole line (`DOMINE,` — restoring it closed a Part I parity mismatch) and **seven references**, which is why that opening had no band at all.
+
+⚠⚠ **NEW TOOL GAP, NOT FIXED: `ref_index` cannot resolve `Vers.` continuation references — there are 179 in the volume.** Ninth of this class and the largest. Both on 239 are substantive (`Vers. 20` = Matt. viii. 20). **Coverage checks on every page carrying one have been silently short.**
+
+**✅ THE HEBREW RE-READ IS DONE and every form was already right — nothing changed.** Confirmed at native resolution: `סיג התורה` (42), the Hosanna pair (274), `לך דומיה תהלה` (383), the garble (386), `אדאג` (38. 3, **now secure on its sorts, not only on sense**), `יצר טוב` (76. 4), `תהום`·`תוהו`·`בוהו` (92), the seven-word column (96. 25), `ואתה תעל משחת חיי` (152. 8).
+
+⚠⚠ **Two pre-print items closed outright by the re-read.** (1) **The Latin question's one load-bearing word is unambiguous** — `pro τὰ ἔργα lege τὸ πλάσμα`. **It may go into an introduction now.** (2) **The dot-marks are resolved** — an ascending count 1–5 that **pairs across the two columns** (μετὰ carries μὴ διαφθείρῃς's 2; διὰ carries Ὡσαννὰ's 3), so they are the apograph's way of matching column-ii items to column-i items, not a bare numbering.
+
+⚠ **386's mechanism is now explicable**: the next word is `התועלת`, and *tocheleth* / *ha-to'eleth* differ by one consonant — **the compositor mangled the first into a version of its neighbour.** Still a plate defect; no scan repairs it.
+
+⚠ **A band error found and fixed:** the 274 note quoted `הצליחה נא` and glossed it *hoshi'ah-na*. **They are the two halves of one verse** — and the half English kept as *Hosanna* is a petition, while its twin, asking for success, dropped out of the liturgy entirely.
+
+**Notes pass, printed 345–347.** ⚠⚠⚠ **The find is `Divisio` at 347: the book explaining its own shape.** Not a prayer but an analysis of what a prayer contains — and **most of its terms are the actual section headings of this volume** (*Confessio peccatorum · fidei · laudis · Deprecatio · Intercessio · Supplicatio · Gratiarum actio · Commendatio*), **so the page is a table of contents for a book that never prints one.** Introduction material. ⚠⚠ **And it proves a ` | ` table does not always mean an antithesis** — the *Divisio* is ONE list wrapped into two columns, proved at the join, where `Deprecatio` sits at the foot of the left column and its own members at the head of the right. **Read across it marries the address to sin. Check the join before reading any table across.** Other finds: 345's doxology grid sets **twelve** terms where the two cited verses yield seven (the rest from Rev. vii. 10, 12); §24's estate-catalogue is **the Roman law of persons**, and stands again at 428 **with the antitheses stripped out**; 346's *mali corvi malum ovum* is a Greek proverb, `non expositus` the technical word for a child exposed, `mechanicus` a manual labourer.
+
+⚠ **All three leaves overran and were trimmed. The useful lesson: small edits inside a wrapped line do not reduce height — only removing a whole wrapped line does.** The best cuts were principled: the S tags had been reprinting words the English lines already give, against the content rule, and now give the occasion instead.
+
+**NEXT: printed 348.**
