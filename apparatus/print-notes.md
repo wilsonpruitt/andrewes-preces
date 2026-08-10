@@ -12,6 +12,8 @@ R: <one explanatory note, recto foot — keyed to a lemma>
 
 `V:` and `R:` may repeat. Markdown `*em*` and `**bold**` are honoured; backticks mark a lemma and are set upright.
 
+> **▶ The rules are frozen in [`../NOTES-CONVENTIONS.md`](../NOTES-CONVENTIONS.md). Read it before writing a single entry here** — form, the safety rule for uncertain attributions, the psalm-numbering trap, the per-leaf budget and the working loop all live there, not in this file.
+
 ## The division of labour, which is the whole point of having two bands
 
 - **`V:` — the verso foot carries the APPARATUS CRITICUS**, against the originals it belongs to. Terse, sigla, line-numbered, mostly Latin conventions. Its material is `CLASS-A-ledger.md` (the Wright apograph), `CLASS-B-unit-boundaries.md` (Andrewes' own spacing), and class C (Drake's marginalia). ⚠ **The apograph runs *usque ad pag. 250*, so `V:` can only exist for printed 2–250** — Parts II–III have no manuscript witness and their verso foot carries plate defects only, or nothing.
