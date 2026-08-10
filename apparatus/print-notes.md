@@ -1118,3 +1118,41 @@ S: 25 1 John ii. 27 — *the anointing which ye have received of him*
 S: 26 Eph. iv. 30 — *the holy Spirit of God, whereby ye are sealed*
 S: 27 2 Cor. v. 5 — *the earnest of the Spirit*; and i. 22, the sealing and the earnest together
 R: 24 **ἄλλος is left standing in Greek because the word is the argument.** John xiv. 16 promises *another* Comforter, and Greek has a word for another-of-the-same-kind as against another-of-a-different-sort; this is the first, and the whole doctrine of the Spirit as a second Advocate beside the one ascended rests on it. Andrewes prints the bare adjective in Greek beside the Latin title and lets it carry the weight, which is why the English apposes it rather than absorbing it into *another*. The four titles it heads — Paraclete, Unction, Seal, Earnest — are the New Testament's names for the Spirit set out as a schema, the same device as the *Opera* brace above, and the evening office ends not in petition but in a list.
+
+## 291
+S: 15 Ps. ciii. 8–12 — the great mercy-psalm, taken five verses together
+S: 17 Ps. lxxxvi. 5 — *plenteous in mercy unto all them that call upon thee*
+S: 19 Ps. cxlv. 9 — *his mercies are over all his works*
+S: 20 Mic. vii. 18 — the prophet's close: *he delighteth in mercy*
+S: 21 2 Cor. i. 3 — *the Father of mercies, and the God of all comfort*
+S: 22 Ps. lix. 17 — *God is my defence, and the God of my mercy*
+S: 23 Isa. xxviii. 21 — *that he may do his work, his strange work*
+R: 23 **The plea's first ground is that punishment is not what God is for.** Isaiah says God rises up *ut faciat opus suum, alienum opus suum* — to do his work, his strange work — and Andrewes braces the two halves so the asymmetry is visible on the page: shewing mercy is his *own* work, punishing a work *strange and foreign* to him. The whole *Allegatio* is a plea at law, and this is the opening argument: not that the prisoner deserves mercy, but that mercy is the judge's proper business and severity his borrowed one.
+
+## 292
+S: 2 Num. xiv. 17, 18 — Moses pleading for Israel after the spies, when God would have disinherited them
+S: 5 John xx. 17 — the risen Christ to Mary Magdalene
+S: 9 John i. 29 — the Baptist, seeing Him come
+S: 10 Job xix. 25 — Job on the ash-heap, answering his comforters
+S: 11 John iv. 42 — the Samaritans of Sychar, after two days
+S: 13 1 John ii. 1 — *if any man sin*, which is the condition the Advocate answers
+S: 14 Heb. vii. 25 — *he ever liveth to make intercession for them*
+S: 18 Matt. iii. 16 — the Baptism in Jordan
+S: 23 Ps. cxix. 49 — *remember thy word unto thy servant*
+S: 24 Titus i. 2 — *God, that cannot lie, promised before the world began*
+S: 25 Heb. vi. 17 — the oath sworn to Abraham, God swearing by Himself for want of a greater
+R: 3 **These are not devotions but GROUNDS, and the difference is the whole section.** Heads [3]–[5] run through the Names of the Father, of Christ and of the Spirit — Lamb, Redeemer, Saviour, Mediator, Advocate, Intercessor, High Priest; Dove, Unction, Comforter — and each is entered as a reason why the plea must succeed. Two of them are forensic terms outright: an *Advocate* is counsel and an *Intercessor* files the motion. A reader who takes the list for a litany of titles will miss that Andrewes is arguing, and arguing from who his judge is rather than from anything he has to offer.
+
+## 293
+S: 2 Rom. iii. 3 — *shall their unbelief make the faith of God without effect?*
+S: 4 2 Tim. ii. 13 — *if we believe not, yet he abideth faithful*
+S: 7 Ps. xxii. 4 — the psalm of the Passion, where it turns from the sufferer to the fathers
+S: 9 Ps. xxv. 5 — *thy tender mercies, which have been ever of old*; Prayer Book numbering
+S: 10 Ps. lxxxix. 48 — *Lord, where are thy old loving-kindnesses?*; Prayer Book numbering
+S: 12 Ecclus. ii. 11 — Ben Sira to the young man: *look at the generations of old, and see*
+S: 18 Ps. cxxxviii. 8 — *forsake not the works of thine own hands*
+S: 20 Isa. lxiv. 8 — *we are the clay, and thou our potter*
+S: 21 Wisd. xi. 25 — *thou hatest nothing that thou hast made*
+S: 24 Gen. i. 26 — the sixth day: *let us make man in our image, after our likeness*
+R: 12 **`*Syr.*` is Ecclesiasticus, and the gloss is the editor's.** The plate cites the book as *Syr.* — for Sirach — and `[i. e. *Ecclus.*]` in square brackets is the 1853 editor supplying the familiar name, not Andrewes. The distinction is kept everywhere in this edition: printed in the plate, supplied by the editor, owed to a later scholar are three different weights of evidence, and only the first says anything about Andrewes.
+R: 18 ⚠ **The verse the Latin question turned on returns here, and reads differently.** At printed 34 the Latin renders this same *Ps.* cxxxviii. 8 as ***Figmenta* manuum tuarum** — a word that answers neither the printed Greek (τὰ ἔργα) nor the Vulgate (*opera manuum tuarum*), and can only come from a Greek text reading πλάσμα, which is what the Wright apograph reads. It is the strongest single evidence that the 1853's Latin is not merely construed from its own Greek. Here in Part II the same verse is plain ***Opus* manuum Tuarum**. The two are not in conflict — Part I sets a Latin against a Greek and Part II has no Greek to answer — but the contrast is worth a reader's eye, and it belongs to the introduction's case rather than to a correction of either page.
