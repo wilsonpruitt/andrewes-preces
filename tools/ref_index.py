@@ -65,14 +65,27 @@ MARK = re.compile(r"<!--\s*printed (\d+)")
 
 
 def index():
-    """printed page -> [(line number, reference as printed)]"""
+    """printed page -> [(line number, reference as printed)]
+
+    ⚠⚠ LINE NUMBERS RUN CONTINUOUSLY ACROSS A PAGE THAT IS MARKED TWICE. 49 pages
+    are marked in more than one section file — a section closing and the next
+    opening on the same leaf — and the BUILDER concatenates both blocks into one
+    fragment, so the page's sense-lines run 1..N straight through. An earlier
+    version restarted the count at every marker, so every reference in a page's
+    SECOND block was numbered relative to that block: on printed 299, where the
+    Allegatio ends and the Confessio Laudis opens lower down, the fragment has 24
+    lines and the index reported 1..18 and then 5, 6 — eighteen lines adrift, and
+    pointing at real lines, so nothing looked wrong.
+    """
     out = {}
+    seen_lines = {}
     for path in sorted(glob.glob(str(ROOT / "part*" / "*-transcript.md"))):
         page, line_no = None, 0
         for raw in Path(path).read_text().splitlines():
             m = MARK.match(raw.strip())
             if m:
-                page, line_no = int(m.group(1)), 0
+                page = int(m.group(1))
+                line_no = seen_lines.get(page, 0)
                 out.setdefault(page, [])
                 continue
             # The trailing apparatus prose is not part of the page.
@@ -82,6 +95,7 @@ def index():
             if page is None or not raw.strip():
                 continue
             line_no += 1
+            seen_lines[page] = line_no
             clean = re.sub(r"[*`\[\]]", "", raw)
             for ref in REF.findall(clean):
                 out[page].append((line_no, re.sub(r"\s+", " ", ref).strip()))

@@ -1156,3 +1156,81 @@ S: 21 Wisd. xi. 25 — *thou hatest nothing that thou hast made*
 S: 24 Gen. i. 26 — the sixth day: *let us make man in our image, after our likeness*
 R: 12 **`*Syr.*` is Ecclesiasticus, and the gloss is the editor's.** The plate cites the book as *Syr.* — for Sirach — and `[i. e. *Ecclus.*]` in square brackets is the 1853 editor supplying the familiar name, not Andrewes. The distinction is kept everywhere in this edition: printed in the plate, supplied by the editor, owed to a later scholar are three different weights of evidence, and only the first says anything about Andrewes.
 R: 18 ⚠ **The verse the Latin question turned on returns here, and reads differently.** At printed 34 the Latin renders this same *Ps.* cxxxviii. 8 as ***Figmenta* manuum tuarum** — a word that answers neither the printed Greek (τὰ ἔργα) nor the Vulgate (*opera manuum tuarum*), and can only come from a Greek text reading πλάσμα, which is what the Wright apograph reads. It is the strongest single evidence that the 1853's Latin is not merely construed from its own Greek. Here in Part II the same verse is plain ***Opus* manuum Tuarum**. The two are not in conflict — Part I sets a Latin against a Greek and Part II has no Greek to answer — but the contrast is worth a reader's eye, and it belongs to the introduction's case rather than to a correction of either page.
+
+## 294
+S: 2 Col. iii. 10 — the new man *renewed in knowledge after the image of him that created him*
+S: 4 1 Cor. vi. 20 — *ye are not your own, for ye are bought with a price*
+S: 6 1 Pet. i. 19 — *a lamb without blemish and without spot*
+S: 9 Jer. xiv. 9 — the great drought, the prophet pleading: *we are called by thy name; leave us not*
+S: 10 Dan. ix. 19 — Daniel at the evening sacrifice, on the seventy years
+S: 11 Acts ix. 15 — the Lord to Ananias of Saul: *he is a chosen vessel unto me*
+S: 14 1 Cor. vi. 15 — the argument against fornication, that the body is a member of Christ
+S: 18 Ps. cxix. 94 — *I am thine, oh save me*
+S: 20 Ps. cxvi. 16 — *I am thy servant, and the son of thine handmaid*
+S: 22 Mark iv. 38 — the disciples wake Him in the storm: *carest thou not that we perish?*
+S: 23 Luke xvii. 10 — *we are unprofitable servants*
+S: 24 Luke xv. 24 — the father of the prodigal: *this my son was dead, and is alive again*
+R: 22 **A reproach turned into a plea, and answered in the same line.** The disciples' *carest thou not that we perish?* is spoken in fear and something like accusation; Andrewes takes the question over as a ground of pleading and then answers it himself — *Imo pertinet*, nay, Thou carest. He does the same with the storm at printed 286, where the verse serves the hour of prayer rather than the plea. The *Preces* uses a text more than once and never for the same thing twice.
+R: 23 **The whole head turns on a concessive, twice.** *Servus inutilis, servus tamen. Filius perditus, tamen filius.* An unprofitable servant, yet a servant; a lost son, yet a son. Nothing is claimed about the pleader's worth — the argument is that the relation survives the failure, which is why the two texts chosen are the ones where a servant is called useless and a son is called dead. The English keeps *yet* in both, because the plea is carried entirely by that word.
+
+## 295
+S: 4 Ps. vi. 2 — the first of the penitential psalms: *have mercy upon me, for I am weak*
+S: 5 Ps. lxxxix. 47 — *remember how short my time is*
+S: 7 Ps. lxxviii. 39 — of the generation in the wilderness, that God spared them
+S: 9 Ps. ciii. 14 — *he knoweth whereof we are made*
+S: 15 Ps. lxxix. 8 — after the temple was defiled: *we are brought very low*
+S: 17 Ps. cvi. 44 — the psalm of Israel's repeated rebellions, at the point where He hears anyway
+S: 21 Ps. li. 17 — David's Miserere: *a broken and a contrite heart*
+S: 23 Ps. xxxviii. 18 — *I will declare mine iniquity; I will be sorry for my sin*
+R: 5 **The same Vulgate line as printed 34, doing different work.** There *Memorare quæ mea substantia* was stacked against *Substantia mea apud te est* four lines above it, and the whole join depended on the shared *substantia* — a pun the Authorised Version dissolves, rendering one *my hope is in thee* and the other *remember how short my time is*. Here the verse stands alone, pleading the weakness of nature, and there is no join to protect; so the English can be plain where at 34 it had to keep the word.
+R: 7 ⚠ **A counter-instance worth keeping, on the question of which Psalter was to hand.** Printed 433's two references are right only on the Prayer Book's numbering, and this pass has since found nine more places where the plate counts with the BCP against the AV. This is not one of them: *a wind that passeth away* is verse **39** in the Authorised Version and **40** in the Prayer Book Psalter, and the plate prints 39. The evidence is real but it is not uniform, and an introduction that claims the 1853 counts by the Prayer Book throughout will be answerable for this page.
+
+## 296
+S: 2 Ps. lxxxvi. 3 — *I cry unto thee daily*
+S: 3 Ps. lxxx. 4 — *how long wilt thou be angry at the prayer of thy servant?*
+S: 4 Matt. xviii. 32 — the lord to the unmerciful servant: *I forgave thee all that debt*
+S: 6 Luke vi. 37 — *forgive, and ye shall be forgiven*
+S: 10 Mark xi. 25 — *when ye stand praying, forgive*
+S: 15 Ps. cxix. 20 — *my soul breaketh for the longing that it hath unto thy judgments*
+S: 18 Neh. i. 11 — Nehemiah praying before he speaks to the king
+S: 20 Luke xii. 47 — the servant that knew his lord's will and did it not
+R: 3 **The plate reads *servi Tui*, and that is the Vulgate against both English Psalters.** Ps. lxxx. 4 has *the prayer of thy people* in the Authorised Version and in the Prayer Book alike; the Vulgate has *orationem servi tui*, thy servant's prayer, and Andrewes takes it. The difference is not decorative — the whole *Allegatio* is one man pleading in the first person, and a plea about *thy people* would loosen it at the point where it needs to be tightest. The English keeps *thy servant*, which is CONVENTIONS §9 yielding where he reaches past the received Psalter.
+R: 5 **The only ground in the plea that rests on something the pleader has done — and he argues the other side of it himself.** Every other head pleads God's nature, God's names, God's promise, or the pleader's weakness. This one pleads a condition met: *because we forgive.* And the next lines print the reverse without softening it — *but if ye forgive not, neither will your Father forgive you.* A plea at law that enters the strongest objection to its own case is doing something a devotion would not; the head is not a claim of merit but a reminder of terms.
+
+## 297
+S: 1 Ps. xxx. 9 — *what profit is there in my blood?*
+S: 3 Ps. vi. 5 — *in the grave who shall give thee thanks?*
+S: 5 Ps. lxxxviii. 10 — the darkest of the psalms, which ends without comfort
+S: 13 Isa. xxxviii. 18 — Hezekiah's writing, after his sickness and recovery
+S: 16 Ps. lxxxix. 46 — Ethan: how short a time God has made men for
+S: 19 Ps. cxliii. 2 — *enter not into judgment with thy servant*
+S: 21 Ps. cxxx. 3 — *if thou, LORD, shouldest mark iniquities*
+S: 23 Job ix. 3 — Job answering Bildad: *he cannot answer him one of a thousand*
+S: 27 Joel ii. 17 — the priests weeping between the porch and the altar
+R: 1 **The head pleads from the silence of Sheol, and its title says how to read it.** Five texts in a row argue that the dead do not praise God, so that God Himself loses by the pleader's death — the grave cannot praise, the dust cannot declare the truth, they that go down into the pit cannot hope for it. This is the Old Testament's view of the dead, and Andrewes neither corrects it nor builds doctrine on it: the head is headed *No profit [to God]*, and it is an argument advanced in a plea, not a statement of what he believes about the resurrection. Isaiah's answer stands two lines later in his own catena — *the living, the living, he shall praise thee.*
+R: 21 ⚠ **The volume proves another of its own misprints, and this is the fourth time.** Here `*Psal.* cxxx. 3` is cited correctly for *if thou shouldest mark iniquities*; at printed 40 the same verse is cited `*Psal.* cxxx. 30`, in a psalm that has eight verses. Both stand as printed. The pattern is now well established — printed 25 confirming the reading at 409, §17 confirming `Job. xiv. 4` against Part III's `xiv. 14`, §37 confirming `Is. xxxviii. 15` — and it is worth more than any conjecture, because the corroborating witness is the book itself.
+
+## 298
+S: 3 Ps. lxxiv. 18 — the psalm written after the sanctuary was burned
+S: 5 Exod. xxxii. 12 — Moses after the golden calf: *wherefore should the Egyptians speak?*
+S: 9 Num. xiv. 16 — Moses after the spies, foretelling what the nations will say
+S: 13 Ps. lxxix. 9 — *help us, O God of our salvation, for the glory of thy name*
+S: 19 Ps. li. 13 — David's Miserere, at its turn outward: *then will I teach transgressors thy ways*
+S: 24 1 Tim. i. 16 — Paul on his own case: *a pattern to them which should hereafter believe*
+R: 5 **Two pleas of Moses, and they are the Bible's own precedent for this whole argument.** After the golden calf and again after the spies, Moses turns God's threat aside not by defending Israel but by asking what Egypt and Canaan will say — that God brought them out for mischief, or could not bring them in. Andrewes sets the two side by side and lets them do the same work here: the evil that would follow is not the pleader's ruin but the reproach of the Name. It is the hinge of the *Allegatio*, and the next head turns the same argument over — the **good** that would follow, thanksgiving, the conversion of others, and a pattern for those who come after.
+
+## 299
+S: 2 Isa. xliii. 25 — *I, even I, am he that blotteth out thy transgressions for mine own sake*
+S: 4 Dan. ix. 19 — Daniel: *defer not, for thine own sake, O my God*
+S: 5 Rom. iii. 25 — *whom God hath set forth to be a propitiation through faith in his blood*
+S: 6 Ps. lxxxiv. 9 — *behold, O God our shield, and look upon the face of thine anointed*
+S: 7 Ps. cxxxii. 10 — *turn not away the face of thine anointed*
+S: 9 Matt. xv. 22 — the woman of Canaan, crying after Him
+S: 11 2 Sam. xix. 23 — David sparing Shimei on the day he came back over Jordan
+S: 13 Isa. lxi. 1 — the text Christ read at Nazareth
+S: 15 Luke iv. 18 — and read it of Himself
+S: 16 Matt. ix. 13 — at Matthew's table: *I came not to call the righteous, but sinners*
+S: 18 John iii. 17 — *God sent not his Son into the world to condemn the world*
+S: 23 John xvii. 5 — the high-priestly prayer, before the Passion
+S: 24 Gen. xiv. 18 — Melchizedek, priest of the most high God
+R: 11 **From kindred: the plea addresses the Son of David, and then cites what David did.** The Canaanite woman's *have mercy on me, O thou Son of David* names the kinship; the next text is David himself sparing Shimei — the man who had cursed him — on the day he came back over Jordan. The argument is that the son will do as the father did, and it is made entirely by putting the two verses next to each other. The head that follows, *from office*, drops kinship for job description: the Spirit is upon Him **because** He was anointed to heal the broken-hearted, so mercy is not a favour asked but the work He was sent to do.
