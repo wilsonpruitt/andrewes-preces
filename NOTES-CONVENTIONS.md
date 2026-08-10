@@ -95,6 +95,18 @@ The Psalter is a trap in this book and every note touching it must say which num
 
 **So: name the system whenever it could be read two ways**, and never "correct" a reference into agreement with a numbering the plate was not using.
 
+### ⚠⚠ OPEN, and Wilson's to rule (raised 2026-08-10) — the tags have been quietly renumbering the plate
+
+`tools/check_notes.py` reports **50 places on 34 pages where a tag's chapter-and-verse disagrees with the reference printed above it**, and a reader of the finished book sees both. Three quite different things are mixed together there and the pass has been treating them alike:
+
+1. **The plate is RIGHT on the Prayer Book's numbering** and the tag silently converted it to the AV's — printed 26 tags `Ps. xxxi. 5` where the plate prints `Psal. xxxi. 6`, and BCP verse 6 *is* `Into thy hands I commend my spirit`. §6 above forbids exactly this.
+2. **The plate is genuinely misprinted** — printed 26 also tags `Ps. cxli. 3` against the plate's `cxli. 8`, and *keep the door of my lips* is verse 3 in AV, BCP and Vulgate alike. Here the tag is right, but §7.1 says the note may not be *phrased as a correction of the page*: the true verse gets **named**, in the open.
+3. **The reference is the 1853 EDITOR's**, in his brackets, and the slip is his — the `[1 Cor. viii. 12]` → 2 Cor. at printed 62, which is already handled properly, with brackets kept and an `R:` note that says whose slip it is.
+
+**Twelve of the fifty cite a book/chapter that is not on the page at all**, which is a different and larger claim than a verse being off by one.
+
+The question for Wilson is one sentence: **does an `S:` tag print the plate's figure, or the true one?** Whichever way it goes, the other two classes still need their `R:` note, and nothing may be auto-fixed from the checker's output. **Until it is ruled, new tags carry the PLATE's figure and name the system** — which is what printed 286's `Ps. cxxvii. 3` does.
+
 ## 7. The never-rules
 
 1. **No note is ever a repair.** The plate stands as printed above, always. An apparatus entry records what another witness reads; a note records what the reader needs. Neither may be phrased as a correction *of the page*.
@@ -121,8 +133,13 @@ The Psalter is a trap in this book and every note touching it must say which num
 
 ```
 python3.11 tools/check_lineparity.py        # ⚠ FIRST: is this page safe to key by line?
+python3.11 tools/note_sheet.py 286          # the worksheet: refs BY PLATE LINE + the
+                                            #   English NUMBERED. On a page the parity
+                                            #   check flagged, this is the hand-map —
+                                            #   key to the English figures, not the stub's.
 python3.11 tools/ref_index.py --stub 35     # scaffold: line numbers + refs, ready to fill
 #   ... write one clause per reference into apparatus/print-notes.md ...
+python3.11 tools/check_notes.py 286 290     # ⚠ order (ERROR) · numbering · coverage
 python3.11 tools/transcript2tex.py --part 1
 cd prototypes && xelatex part1-loeb.tex && xelatex part1-loeb.tex   # twice, for the contents
 python3.11 tools/transcript2tex.py --fit 1  # ⚠ --fit alone reads the WHOLE-VOLUME record
