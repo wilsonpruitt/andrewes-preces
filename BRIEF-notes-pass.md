@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 327 → 436)
+# BRIEF — finishing the notes pass (printed 332 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,9 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–326**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–331**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 131 pages.** Part II, printed **327–395**; Part III, printed 398–436. **NEXT IS PRINTED 327.**
+**Remaining: 126 pages.** Part II, printed **332–395**; Part III, printed 398–436. **NEXT IS PRINTED 332.**
 
 ⚠ The reference counts the old version of this table gave are now understated — the index was blind to 76 references (§1b), so every per-page count taken before 2026-08-10 was low. Re-run `ref_index.py --all` rather than trusting a number written down earlier.
 
