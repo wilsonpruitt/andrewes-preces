@@ -61,8 +61,8 @@ p. 12. lin. 16.   pro φροντιστήριον lege συνέδριον.
         {··} μὴ διαφθείρῃς
         {∴} Ὡσαννὰ            ἐν ὑψίστοις.
                                 ἐπιγείοις.
-        {·?} Δειλινὴ
-        {·?} ἐπιλύχνιος.
+        {⁘} Δειλινὴ
+        {⁙} ἐπιλύχνιος.
                 Hæc omnia (a p. 10. lin. 3, ad p. 14. lin. 11. col. ii.)
                 indicem quendam precum constituere videntur.
                 Vide pp. 186, 190, 198, 208, 214, 220, et for-
@@ -440,9 +440,9 @@ p. 246. lin. 13.   συνειδήσεως] συνηθείας.
 
 1. **Extent.** Class A = apparatus [i]–vi (printed pp. 6–242). Class B = vii–ix (printed pp. 2–250). Class C = ix–x (printed pp. 4–246). The whole apparatus is **PDF 482–493**, twelve pages; `notae-marginales-transcript.md` carries [xi]–xii and the `FINIS`. ⚠ **The brief mapped the *Notæ* as PDF 492–495; they end at 493.** PDF 494 and 495 are blank (measured: 146 and 31 dark pixels), 496 is library end matter.
 
-2. **⚠ NEW WATCH ITEM — the dot-marks.** The apograph's prayer-index marks (apparatus ii and iii) are dot-groups. At printed 76. 10–13 the series is legible and clearly a **count**: `·` Ἰησοῦν, `··` Χριστὸν, `∴` Υἱὸν αὐτοῦ μονογενῆ, `⸬` Κύριον ἡμῶν — one, two, three, four. At apparatus ii the same system indexes Ἀλληλούϊα · μετὰ · διὰ · μὴ διαφθείρῃς · Ὡσαννὰ · Δειλινὴ · ἐπιλύχνιος, **but the arrangement of the later marks cannot be resolved at 200 dpi** and is transcribed `{·?}`. These marks are the manuscript's own index to the prayers; **a guessed arrangement would corrupt an index, so none has been guessed.** Needs a 600-dpi read. **Added to the pre-print verification list.**
+2. ✅ **RESOLVED 2026-08-10 — the dot-marks are read.** They were transcribed `{·?}` because they could not be counted at 200 dpi. Re-read on the University of Toronto scan (leaf 0480, apparatus ii, native resolution; see `SOURCE-IMAGES.md`) they are unambiguous, and **they are an ascending count**: `·` Ἀλληλούϊα **1** · `··` μὴ διαφθείρῃς **2** · `∴` Ὡσαννὰ **3** · `⁘` Δειλινὴ **4** · `⁙` ἐπιλύχνιος **5**. ⚠⚠ **And the count does more than number — it PAIRS ACROSS THE TWO COLUMNS.** The column-ii entries carry the marks of their column-i partners: `··` μετὰ has the **2** of μὴ διαφθείρῃς, and `∴` διὰ has the **3** of Ὡσαννὰ. **So the marks are not a bare list-numbering; they are how the apograph tells the reader which column-ii item belongs to which column-i item** — which is exactly what the surrounding rubric (*col. ii. … legenda sunt, ad hunc modum*) is instructing. The same system counts one-two-three-four at printed 76. 10–13. **Off the pre-print list.**
 
-3. **⚠ Hebrew confidence.** All Hebrew here is read at 200 dpi, where ד/ר, ב/כ and ה/ח are not always separable. The least certain form is `אדאג` at printed 38. 3 — the reading is secure *on sense* (it must render `μεριμνῶ`) but not on the sorts. `יצר טוב`, `תהום`, `תוהו`, `בוהו`, `אל תשחית`, `הצילני` and the printed 96 column are clearer, and `ואתה תעל משחת חיי` (152. 8) is confirmed by the MS's own heading `Τοῦ Ἰωνᾶ` two lines above and by the 1853's own Latin gloss at printed 198. **Every form needs re-reading at 600 dpi before it is set in type.**
+3. ✅ **Hebrew confidence — THE RE-READ IS DONE (2026-08-10), and every form is confirmed.** Re-read on the Toronto scan (`SOURCE-IMAGES.md`): `אדאג` at 38. 3 (leaf 0480) — **the form that was secure only on sense is now secure on the sorts too**, and the ד is a dalet, not a resh, which the sense had required (אדאג, *I am anxious*, for `μεριμνῶ`); `יצר טוב` at 76. 4 and `תהום` · `תוהו` · `בוהו` at 92 (leaf 0481); the seven-word column at 96. 25 — `יצר` · `שגגה` · `אשם` · `חטאה` · `פשע` · `עון` · `תועבה` (leaf 0482), all seven letter for letter; and `ואתה תעל משחת חיי` at 152. 8 (leaf 0483). **No transcription changed. The 200-dpi readings were all correct.** ⚠ Not yet re-read, because none of it is set anywhere: the `אל תשחית` / `הצילני` / `תעל משחת` / `חיי` cluster at 198–202 and `יראתי כסלתי` at 212. 1.
 
 4. **The 1853 discloses its own conjectures** at printed 100. 10, 104. 6, 202 and 242. 6, and the manuscript overrules all of them. Recorded in `CLASS-A-ledger.md` §3, applied nowhere.
 

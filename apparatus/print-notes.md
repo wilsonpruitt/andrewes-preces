@@ -21,7 +21,7 @@ R: <one explanatory note, recto foot — keyed to a lemma>
 
 ⚠ **The bands never argue with the page above them.** The plate stands as printed on the verso in every case; an apparatus entry records what another witness reads, and a note records what the reader needs. **Neither is a repair**, and no entry here may be phrased as one.
 
-⚠ **All Hebrew below is read at 200 dpi and must be re-read at 600 dpi before it is set.** Look-alike sorts (ד/ר, ב/כ, ה/ח) are not always separable at this resolution.
+✅ **THE HEBREW RE-READ IS DONE (2026-08-10).** Every Hebrew form this file sets was re-read on the University of Toronto scan (`SOURCE-IMAGES.md`) at native resolution and **every one is confirmed letter for letter; nothing was changed.** That covers `סיג התורה` (printed 42), the Hosanna pair at 274, `לך דומיה תהלה` (383), the garbled word at 386, and in the apparatus `אדאג` (38. 3), the seven-word column (96. 25) and `ואתה תעל משחת חיי` (152. 8). ⚠ The old warning here — that the look-alike sorts ד/ר, ב/כ, ה/ח were not separable — **no longer applies to anything this file sets**, but it still applies to any Hebrew added later from the 200-dpi images.
 
 ---
 
@@ -1002,11 +1002,11 @@ S: 18 2 Tim. ii. 15 — ὀρθοτομεῖν, *rightly dividing*; Gal. ii. 14 
 S: 20 Rom. xii. 3 — *not to think of himself more highly than he ought*
 
 ## 274
-S: 6 Ps. cxvii. 25 — *save now, I beseech thee* — the Hosanna, on the Vulgate's numbering of the psalm; the page sets it in Hebrew too
+S: 6 Ps. cxvii. 25 — the plate's figure, which is the **Vulgate's** numbering of the psalm our Bibles call cxviii: *Save now, I beseech thee, O LORD: O LORD, I beseech thee, send now prosperity.* ⚠ **One verse supplies both lines**, and the reference stands under the second because it covers the pair.
 S: 23 Ps. lxxix. 13 — *render unto our neighbours seven-fold into their bosom*; Prayer Book numbering
 S: 25 Ps. xxv. 12 — *his seed shall inherit the land*; Prayer Book numbering
 S: 26 Ps. xli. 1 — *blessed is he that considereth the poor*
-R: 6 **The Hosanna stands here in Hebrew on the printed page** — `הצליחה נא`, *hoshi'ah-na*, Ps. cxviii. 25 — one of the few places the 1853 let Andrewes' third script through. It is the cry the crowds took up on Palm Sunday, and he uses it as the hinge of the intercession: the word is a petition (*save now*) before it is an acclamation.
+R: 6 ⚠⚠ **Two lines of Hebrew, and they are the two halves of one verse.** `הושיעה נא`, *hoshi'ah-na*, **save now** — the cry the crowds took up on Palm Sunday, which English kept as **Hosanna**; and `הצליחה נא`, *hatzlichah-na*, **prosper now**, which English never kept at all. The plate gives each half its own Latin line — *salvum fac* and *prosperare* — and prints the reference once, under the second. ⚠ **The half we made an acclamation of is a petition**, and its twin, which asks for success, dropped out of the liturgy entirely. One of the few places the 1853 let Andrewes' third script through. ✅ Both words re-read at native resolution 2026-08-10 and confirmed letter for letter.
 
 ## 275
 S: 23 Ps. cxlv. 10 — *all thy works praise thee, and thy saints give thanks unto thee*

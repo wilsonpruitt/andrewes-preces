@@ -97,7 +97,7 @@ That is the standard Hebrew vocabulary of sin — *yetzer, shegagah, asham, chat
 1. The edition's claim to carry four scripts is **understated, not overstated**. Andrewes' Hebrew was systematic where the 1853 shows it as occasional.
 2. The `יצר` at 96. 25 and the `יצר טוב` at 76. 4 mean Andrewes was **reading his own *φαντασία* through the rabbinic doctrine of the two inclinations.** That is a substantive theological finding about the *Preces*, not a textual footnote.
 3. **Whether to restore any of it is a decision about what edition this is** — a faithful reprint of the 1853, or a critical text of Andrewes. The project has never had to answer that question before, because until now the two coincided.
-4. ⚠ **All Hebrew here is read at 200 dpi and the look-alike sorts (ד/ר, ב/כ, ה/ח) are not always separable.** `אדאג` (38. 3) is the least certain — the reading is secure on sense (it must render *μεριμνῶ*) but the third sort is not crisp. **Every Hebrew form above needs re-reading at 600 dpi before it is printed anywhere.**
+4. ✅ **All Hebrew here was RE-READ at native resolution on the Toronto scan, 2026-08-10, and every form is confirmed — nothing changed.** The look-alike sorts (ד/ר, ב/כ, ה/ח) are cleanly separable there. `אדאג` at 38. 3, which had been secure on sense but not on its sorts, is now secure on both. ⚠ Still unread because nothing sets them: the `אל תשחית` / `הצילני` cluster at 198–202 and `יראתי כסלתי` at 212. 1. See `SOURCE-IMAGES.md`.
 
 ---
 

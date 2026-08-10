@@ -30,7 +30,11 @@ https://iiif.archive.org/image/iiif/3/precesprivataequ00andruoft%2fprecesprivata
 
 `NNNN` is the zero-padded leaf. Swap `full` for `x,y,w,h` to crop. **IIIF 3 wants `max`, not `full`, in the size slot.**
 
-⚠ **The offset is NOT constant and is not ours.** Measured: leaf `0257` = printed **229** (+28), leaf `0238` = printed **212** (+26). **Verify every leaf by eye against its printed page number, exactly as with the Google PDF.** Do not port our `STRUCTURE.md` offsets — they belong to a different scan with different duplicates.
+⚠⚠ **THE TORONTO SCAN HAS DUPLICATE LEAVES TOO, and its offset is NOT ours.** This was proved the hard way: leaf `0306` re-photographs printed **272**, already shot at `0304`. Measured anchors — `0060`=42 (+18) · `0064`=46 · `0238`=212 (+26) · `0257`=229 (+28) · `0267`=239 (+28) · `0301`=271 (+30) · `0308`=274 (+34) · `0411`=369 (+42). **The offset climbs from +18 to +42 and jumps 4 in a single spread.** **Verify every leaf by eye against its printed page number, exactly as with the Google PDF.** Do not port `STRUCTURE.md`'s offsets — they belong to a different scan with different duplicates.
+
+⚠ **Apparatus offset is separate and simple: Toronto leaf = Google PDF − 3.** Verified: leaf `0482` = apparatus **iv** = PDF 485. So apparatus [i]=0479, ii=0480, iii=0481, iv=0482, v=0483.
+
+⚠ **There is no text layer** — `_djvu.txt` is empty (0 bytes), so you cannot grep your way to a page. Probe headers instead; stacking several header strips into one image with PIL makes it one look rather than six.
 
 ⚠ **Focus varies leaf to leaf** (2008 Canon 5D). Printed 212 is soft; printed 239 and the leaf at `0236` are crisp. **It is uniformly better in *tone*, not uniformly better in *sharpness*.** Check the leaf you actually need before concluding anything from it.
 
@@ -90,3 +94,24 @@ The 1853 apparatus is headed **EX APOGRAPHO SAMUELIS WRIGHT, APUD COLL. PEMB. CA
 ⚠ **So the digitization closes 1 outright, should close 2, confirms 3, and does not touch 4.** The earlier note that "a digitization unblocks the entire remaining pre-print list at once" was **too optimistic** — 414 was never an 1853-imaging problem.
 
 ⚠ **`apparatus/print-notes.md` still carries its standing warning that all Hebrew was read at 200 dpi and must be re-read before it is set.** That re-read is now possible and has not been done.
+
+
+---
+
+## What the scan has actually settled (2026-08-10)
+
+Every item below was read on the Toronto scan at native resolution and checked against our transcripts. **Nothing in our transcription of any of it turned out to be wrong.**
+
+| item | leaf | result |
+|---|---|---|
+| **printed 239**, the cut-off Latin recto | `0267` | ✅ **CLOSED.** Read entire. Restored — and it had hidden a whole line (`DOMINE,`), seven references, `furem`-for-*furen*, and a silent truncation. Closed a Part I parity mismatch. |
+| **printed 386**, the garbled Hebrew | `0428` | ✅ **Confirmed a PLATE defect** — `חזתלת` stands exactly so at 400 ppi. ⚠⚠ **And the mechanism is now visible: the very next word is `התועלת`.** The compositor was setting two near-identical words in succession — *tocheleth* and *ha-to'eleth*, which differ by one consonant — **and garbled the first into a mangling of the second.** That is a far better account than random transposition, and it is only visible when both words are legible together. |
+| **printed 42** `סיג התורה` · **274** the Hosanna pair · **383** `לך דומיה תהלה` | `0060` · `0308` · `0425` | ✅ All confirmed letter for letter. |
+| apparatus **`אדאג`** (38. 3) | `0480` | ✅ Confirmed — **secure on its sorts now, not only on sense.** |
+| apparatus **`יצר טוב`** (76. 4) · **`תהום`·`תוהו`·`בוהו`** (92) | `0481` | ✅ Confirmed. |
+| apparatus **seven-word column** (96. 25) | `0482` | ✅ All seven confirmed; our transcript of the page, including the second column of seven Greek words, is complete and exact. |
+| apparatus **`ואתה תעל משחת חיי`** (152. 8) | `0483` | ✅ Confirmed. |
+| ⚠⚠ **THE LATIN QUESTION's one load-bearing word** | `0480` | ✅ **`pro τὰ ἔργα lege τὸ πλάσμα` is unambiguous.** The argument may now go into an introduction. **Off the pre-print list.** |
+| ⚠⚠ **the dot-marks**, unresolvable at 200 dpi | `0480` | ✅ **RESOLVED — an ascending count, 1 to 5, that PAIRS ACROSS THE COLUMNS** (μετὰ carries μὴ διαφθείρῃς's 2; διὰ carries Ὡσαννὰ's 3). **Off the pre-print list.** |
+
+**Still open:** printed **210**'s ink smear (expected easy — it is a Google artifact; leaf not yet pinned, the offset drifts near there) and printed **414**'s cento, which needs *Brightman's* page images and not a better 1853. The `אל תשחית`/`הצילני` cluster at 198–202 and `יראתי כסלתי` at 212. 1 are unread only because nothing sets them.
