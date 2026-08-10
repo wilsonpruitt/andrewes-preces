@@ -4,7 +4,7 @@
 
 **The notes pass is the current and only front, and it is now written up to be picked up cold.** The brief carries the state, the working loop, the four rules that decide what you write, the per-page hazard lists for everything that remains, and the patterns to watch for. **Read it and `NOTES-CONVENTIONS.md`; you do not need this file to start.**
 
-**Done: printed 2–323, every unit, no gaps** — 982 `S:` tags, 122 `R:` notes, 167 pages. **Remaining: 134 pages, 622 references** (Part II 324–395, then Part III 398–436). Build holds at **617 pages, 0 TeX errors, 0 of 594 units too tall**.
+**Done: printed 2–344, every unit, no gaps.** **Remaining: 113 pages** (Part II 345–395, then Part III 398–436). Build holds at **617 pages, 0 TeX errors, 0 of 594 units too tall**.
 
 Everything below is the **history**: how the rules were arrived at, what each stretch found, and the decisions already ruled. Consult it when the brief points here; do not read it front to back.
 
@@ -551,4 +551,24 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 - **334** takes **Achan's** confession as its form, the one confession in Scripture that names the deed in detail: the page takes the formula and not the outcome.
 - **331** asks to be *hurt* — *ure renes*, *confige carnes* — where the AV has an examination and the Vulgate a wound.
 
-**NEXT: printed 340.** 118 pages remain (Part II to 395, then Part III 398–436). Build: 617 pages, 0 TeX errors, 0 of 594 units too tall. Working tree clean, nothing pushed.
+**NEXT: printed 345.** 113 pages remain (Part II to 395, then Part III 398–436). Build: 617 pages, 0 TeX errors, 0 of 594 units too tall. Working tree clean, nothing pushed.
+
+---
+
+## 2026-08-10 (later, Opus 5) — notes pass, printed 340–344 (§23, five leaves)
+
+**The method finding, which is the reusable part: §23 QUARRIES its vocabulary out of the Vulgate of the verse it prints beside it.** Three consecutive leaves are built the same way — the six agent-nouns of the economy of grace at 340 (*mundator* ← Tit. ii. 14 *mundaret*; *liberator* ← Heb. ii. 15 *liberaret*; *triumphator* ← Col. ii. 15 *triumphans*; *præcursor* ← Heb. vi. 20, the word's only NT occurrence), the four cells of the unction at 341 (*compunctio* ← Acts ii. 37 *compuncti sunt corde*; *diffusio charitatis* ← Rom. v. 5 *caritas Dei diffusa est*), and the nine epithets of *fides* at 342, **every one of which is the adjective its own verse attaches to the word**. The definition of faith is a concordance of the word, not a description of the thing.
+
+⚠⚠ **The habit is EVIDENCE, and it convicted a misprint one leaf after it was established.** At 341 the cell *liquida scientia* is referenced `2 *Cor.* ii. 6`, which concerns a man punished by the many and has nothing to do with knowledge; **2 Cor. iv. 6 reads *ad illuminationem scientiæ claritatis Dei* and supplies *scientia* exactly as the other three cells are supplied.** A single wrong numeral, ii for iv. **Kept as printed, true verse named in the band** (§6). It joins the running list. **Use the quarrying habit before conjecturing anything in what remains.**
+
+⚠ **Two departures at 340 that are introduction material.** Of the six titles, exactly two are *not* their verse's word, and both point elsewhere: `Advocatus` is not in Rom. viii. 34 (*interpellat*) but at 1 John ii. 1; and `Instaurator fidei nostræ` stands where Heb. xii. 2 reads *consummator* — *instaurare* being the verb of **Eph. i. 10**, *instaurare omnia in Christo*. **At the second Advent the title is the restorer of all things, not the finisher of our faith.** The English keeps "finisher" (the reference is to Hebrews, and Part III renders it so under the identical-Latin rule) — **the note carries the finding, the translation is unchanged.**
+
+⚠ **A PRONOUN PATTERN across two consecutive leaves, in opposite directions, neither marked.** 342 sets Luke xvii. 5's *adauge **nobis** fidem* — the twelve asking together — as *adauge **mihi***; 343 sets Is. xxxix. 8's *in diebus **meis***, Hezekiah's most self-regarding sentence, as *in diebus **nostris***. **A corporate prayer taken into the closet, and a private complacency made an intercession.** Same family as the outward-taken-inward cases at 327 and 335 (brief §5.5).
+
+**Other finds.** 341's Abaddon table: **the braces are one enemy and his translation** (Hebrew *Satan* / Latin *Adversarius*; Greek *Diabolus* / Latin *Calumniator*), so the table has five names for one adversary, not nine — and **three of the five pairs are a courtroom**, each answered by the answering office rather than by greater power. `Abaddon` ↔ `JESUS` is a Hebrew antithesis (destruction against salvation), the only row in capitals. 343 closes on **Ps. xvii. 15 unmarked**, verbatim Vulgate, and takes up **Dan. ix. 16** after the volume printed ix. 19 of the same prayer at 339 — **Daniel's intercession in reverse.** 344's psalm-catena numbers **hybrid** — the Vulgate's verse-figure under the Hebrew psalm-number (lxxxix. 16 = AV 15; lvii. 12 = AV 11) — **a fourth kind of numbering** after the plain AV (300), plain Vulgate (274) and BCP (433). 344 also runs *in conspectu **Angelorum*** against both English Psalters' *gods*, and the English follows the plate: the case CONVENTIONS §9 exists for, not a departure from it.
+
+**Band shape.** 344 carries **four `R:` notes and no scripture band at all** — every line is a psalm quoted whole with its reference beside it, so a tag would set the verse under the verse (the content rule). **Said so in the leaf's first note**, per §3a's practice for the brace catalogue. `Jer. l. 24` at 342 protected in the band as a **roman fifty**, so no later pass "corrects" it to Jer. i.
+
+⚠ **All five leaves overran on the first build** (worst 341 at 604pt against the leaf's 531) and were trimmed to fit **without dropping a finding**, per the brief's rule. Prose was compressed; nothing was cut. **Build re-verified after trimming: 617 pages, 0 TeX errors, 0 overfull boxes, 0 of 594 units too tall.** `check_notes` clean on all five (the coverage warnings on 341/342/344 are the deliberate §3a/§3b selections, each reference named inside an `R:` note).
+
+**NEXT: printed 345.** ⚠ §23 closes at the top of 345 and a fresh all-caps **CONFESSIO LAUDIS** (§24) opens mid-page — **345 is one of the doubly-marked pages**, so check `grep -c "<!-- printed 345 " part2/*transcript.md` before keying it.

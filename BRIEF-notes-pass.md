@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 340 → 436)
+# BRIEF — finishing the notes pass (printed 345 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,11 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–339**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–344**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 118 pages.** Part II, printed **340–395**; Part III, printed 398–436. **NEXT IS PRINTED 340.**
+**Remaining: 113 pages.** Part II, printed **345–395**; Part III, printed 398–436. **NEXT IS PRINTED 345.**
+
+⚠ **§23 (through 345 top) taught the pass its sharpest tool: the section QUARRIES its vocabulary from the Vulgate of the verse it prints beside it** — the six titles at 340, the four cells at 341, the nine epithets of *fides* at 342. **Once established, the habit is evidence**: it convicted `2 Cor. ii. 6` at 341 as a wrong numeral for iv. 6. Watch for it in what remains, and use it before conjecturing.
 
 ⚠ The reference counts the old version of this table gave are now understated — the index was blind to 76 references (§1b), so every per-page count taken before 2026-08-10 was low. Re-run `ref_index.py --all` rather than trusting a number written down earlier.
 
