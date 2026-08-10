@@ -10,16 +10,17 @@ dense catalogue leaves (313 has eleven, and it is a Passion catalogue whose band
 ⚠ **And where a note COUNTS something, re-read the prose, not just the tags.** That is how three `R:` notes were
 found wrong in substance after the missing-books fix: they had enumerated their pages out of a defective index.
 
-**130 newly-visible references on 61 pages already written.**
+**135 newly-visible references on 62 pages already written.**
 
 | page | n | references the index could not see |
 |---|---|---|
+| **10** | 2 | ps 119:133, ps 119:36 |
 | **24** | 2 | ps 143:10, ps 143:9 |
 | **26** | 1 | ps 143:11 |
 | **28** | 1 | ps 86:17 |
 | **42** | 2 | 1 cor 14:26, 1 pet 4:16 |
 | **46** | 1 | 1 pet 3:3 |
-| **52** | 1 | rom 14:8 |
+| **52** | 2 | rev 2:5, rom 14:8 |
 | **60** | 1 | mt 5:46 |
 | **70** | 1 | gen 1:7 |
 | **72** | 2 | mt 15:27, ps 13:2 |
@@ -31,7 +32,7 @@ found wrong in substance after the missing-books fix: they had enumerated their 
 | **116** | 1 | ps 65:12 |
 | **132** | 5 | dan 9:16, dan 9:17, dan 9:18, dan 9:7, dan 9:8 |
 | **134** | 4 | 1 jn 1:9, 1 jn 2:2, dan 9:19, ps 77:10 |
-| **136** | 7 | mt 5:10, mt 5:4, mt 5:5, mt 5:6, mt 5:7, mt 5:8, mt 5:9 |
+| **136** | 8 | mt 5:10, mt 5:12, mt 5:4, mt 5:5, mt 5:6, mt 5:7, mt 5:8, mt 5:9 |
 | **148** | 1 | gen 1:28 |
 | **152** | 2 | jon 2:4, jon 2:7 |
 | **154** | 3 | lk 23:42, mt 27:30, mt 27:34 |
@@ -61,7 +62,7 @@ found wrong in substance after the missing-books fix: they had enumerated their 
 | **307** | 1 | mt 4:2 |
 | **309** | 1 | jn 19:17 |
 | **310** | 7 | mt 26:33, mt 26:49, mt 26:55, mt 26:56, mt 26:70, mt 26:72, mt 26:74 |
-| **311** | 3 | jn 19:17, lk 22:64, lk 23:11 |
+| **311** | 4 | jn 19:17, lk 22:64, lk 23:11, mt 26:56 |
 | **312** | 3 | lk 23:7, mt 27:30, mt 27:34 |
 | **313** | 11 | jn 19:15, jn 19:16, jn 19:17, jn 19:29, mk 15:24, mk 15:29, mk 15:32, mt 27:28, mt 27:30, mt 27:31, mt 27:43 |
 | **314** | 1 | jn 19:30 |
@@ -75,6 +76,15 @@ found wrong in substance after the missing-books fix: they had enumerated their 
 | **335** | 1 | rom 9:2 |
 | **342** | 1 | eph 1:14 |
 | **344** | 1 | ps 89:17 |
+
+## ⚠ Three that were resolving to the WRONG VERSE, not merely missing
+
+Found 2026-08-10 while working the backfill: **`Ibid.` alone repeats the antecedent entire, but `Ibid. N` does not** —
+it means the same book and chapter at verse N, exactly like `Vers.` The first version of the fix read the keyword and threw
+the number away, so `Ibid. 5` (printed 53) resolved to Rev. ii. **1**, and `Ibid. 36` / `Ibid. 133` (printed 11) both
+resolved to Psal. cxix. **18**. **They looked perfectly resolved.** Multi-verse forms — `*Vers.* 55, 56`, `10, 12`, `7, 8`,
+`8, 9` — were also losing their second verse. Both fixed. ⚠ **The lesson is the pass's own: a checker's first output is not
+evidence, and that applies to a checker written an hour ago.**
 
 ## The ones most likely to be real omissions
 
@@ -99,3 +109,4 @@ python3.11 tools/check_notes.py <page> <page>
 
 ⚠ `--continuations` flags every resolution whose antecedent is on the previous page or more than six lines back.
 **A long quotation walking up one chapter (Dan. ix, Matt. v, Ps. lxxxv) is the innocent case; anything else is not.**
+

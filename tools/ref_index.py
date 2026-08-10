@@ -111,7 +111,12 @@ REF = re.compile(
 # back to it, and a continuation with NO antecedent in its file is dropped with a
 # warning rather than attached to something far away. Read that list before
 # trusting a coverage report on a page that carries one.
-CONT = re.compile(r"\b(?:Vers\.\s*(\d+)|(Ibid)\.)", re.I)
+# ⚠ `Ibid.` ALONE repeats the antecedent entire; `Ibid. 133` does NOT — it means
+# the same book and chapter at verse 133, exactly like `Vers.` An earlier version
+# of this pattern read the keyword and threw the number away, so three references
+# resolved to the wrong verse while looking perfectly resolved. Both keywords take
+# an optional verse LIST: the 1853 prints `*Vers.* 55, 56` and `*Vers.* 10, 12`.
+CONT = re.compile(r"\b(Vers|Ibid)\.\s*(\d+(?:\s*,\s*\d+)*)?", re.I)
 # The antecedent's book and chapter, i.e. everything up to and including the
 # roman numeral. A chapterless antecedent (Jude 20) cannot mother a `Vers.` and
 # is refused rather than guessed at.
@@ -184,15 +189,20 @@ def index():
                     out[page].append((line_no, ref))
                     last[0] = (ref, page, line_no, ordinal)
                     continue
-                verse, ibid = val.group(1), val.group(2)
+                word, verses = val.group(1).lower(), val.group(2)
+                if word == "vers" and not verses:
+                    print(f"⚠ {Path(path).name}: printed {page} line {line_no}: "
+                          f"bare `Vers.` with no verse — DROPPED, not guessed",
+                          file=sys.stderr)
+                    continue
                 if last[0] is None:
                     print(f"⚠ {Path(path).name}: printed {page} line {line_no}: "
                           f"`{val.group(0)}` has no antecedent — DROPPED, not guessed",
                           file=sys.stderr)
                     continue
                 ante, ap, al, ao = last[0]
-                if ibid:
-                    resolved = ante
+                if not verses:                      # bare `Ibid.` = the whole thing
+                    resolved_list = [ante]
                 else:
                     stem = STEM.match(ante)
                     if not stem:
@@ -200,10 +210,13 @@ def index():
                               f"`{val.group(0)}` follows `{ante}`, which has no roman "
                               f"chapter — DROPPED, not guessed", file=sys.stderr)
                         continue
-                    resolved = f"{stem.group(1).strip()} {verse}"
-                out[page].append((line_no, resolved))
-                CONTINUATIONS.append((page, line_no, val.group(0), resolved,
-                                      ante, ordinal - ao, ap != page))
+                    book_chap = stem.group(1).strip()
+                    resolved_list = [f"{book_chap} {v.strip()}"
+                                     for v in verses.split(",")]
+                for resolved in resolved_list:
+                    out[page].append((line_no, resolved))
+                    CONTINUATIONS.append((page, line_no, val.group(0), resolved,
+                                          ante, ordinal - ao, ap != page))
     return out
 
 
