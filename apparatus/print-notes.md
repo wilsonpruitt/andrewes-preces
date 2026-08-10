@@ -412,3 +412,77 @@ S: 20 Ps. cxvi. 12 — *what shall I render unto the LORD for all his benefits?*
 
 ## 146
 S: 9 Rev. iv. 11 — *for thy pleasure they are and were created*
+
+## 148
+S: 3 Ps. lxxxviii. 13 — *in the morning shall my prayer prevent thee*
+S: 6 Gen. i. 25 — **the work of the sixth day**: the beast of the earth after his kind
+S: 9 Gen. i. 26 — *let us make man in our image*
+S: 13 Ps. cxxxviii. 8 — the divine hand set to its own work
+S: 14 Gen. ii. 7 — *and breathed into his nostrils the breath of life*
+S: 16 Ps. viii. 6 — *thou madest him to have dominion*
+S: 17 Ps. xci. 11 — *he shall give his angels charge over thee*
+S: 18 Gen. ii. 8 — *and the LORD God planted a garden eastward in Eden*
+R: 12 **Seven dignities in the making of man, counted out.** A deliberation held beforehand, the divine hand set to the work, the breath of life, the image, dominion over the works, angels given charge, and a garden — each with its text. Andrewes is not retelling Genesis i but *itemising* it, and the sixth day's prayer is built on the count: what man was made with is the ground of everything the page goes on to ask.
+
+## 150
+S: 6 2 Pet. i. 4 — *partakers of the divine nature*
+S: 7 Gen. iii. 15 — the promise of the seed that should bruise the serpent
+S: 9 Gal. iv. 4 — *when the fulness of the time was come*
+S: 18 Hos. xiii. 16 — the prophet's word of a people fallen by its own iniquity
+S: 22 Hos. xiv. 2 — *so will we render the calves of our lips*
+S: 25 Joel ii. 17 — *give not thine heritage to reproach*
+
+## 152
+V: 8 *Græca om. apogr., quæ Hebraice leguntur*: `ואתה תעל משחת חיי` (*Ion.* ii. 7), *sub titulo* `Τοῦ Ἰωνᾶ`
+S: 1 Amos vii. 5 — Amos staying the judgment: *O Lord GOD, cease, I beseech thee*
+S: 3 Jonah ii. 8 — *they that observe lying vanities forsake their own mercy*
+S: 25 Zech. iii. 3 — Joshua the high priest in filthy garments, and Satan at his right hand
+S: 26 Zech. ix. 11 — *by the blood of thy covenant*
+S: 30 Ps. li. 2 — *cleanse me from my sin*
+R: 8 ⚠ **Here the manuscript reads HEBREW where the printed page reads Greek.** The apograph gives `ואתה תעל משחת חיי` — Jonah ii. 7, *thou hast brought up my life from corruption* — under its own heading, *Of Jonah*; the 1853 set the Greek instead. This is the sharpest of the thirteen places where the printed book quietly drops Andrewes' third script, because here the Hebrew is not a gloss beside the text but **the text itself**. Recorded, not restored.
+
+## 154
+S: 2 Zech. iii. 2 — *is not this a brand plucked out of the fire?*
+S: 5 Luke xxiii. 34 — *Father, forgive them; for they know not what they do*
+S: 9 Acts vii. 60 — Stephen, kneeling: *lay not this sin to their charge*
+S: 14 Luke xxii. 44 — *his sweat was as it were great drops of blood*
+S: 18 Heb. v. 7 — *with strong crying and tears*
+S: 24 Ps. cxxix. 3 — *the plowers plowed upon my back*
+S: 25 Ps. xxii. 16 — *they pierced my hands and my feet*
+S: 29 1 Cor. xi. 24 — *this is my body, which is broken for you*
+S: 32 Ps. lxxxv. 2 — *thou hast covered all their sin*
+R: 14 **The Passion assembled out of five books, and not one of them a Gospel narrative of it.** The bloody sweat and the strong crying come from Luke and Hebrews, but the plowed back, the pierced hands and feet and the covered sin come from the Psalms, and the broken body from an epistle about a supper. Andrewes builds the scene from texts that are not describing it, which is why the sequence reads as prayer and not as recital.
+
+## 156
+S: 21 Gal. v. 19 — the works of the flesh, which this column lists
+S: 26 Gal. v. 22 — the fruit of the Spirit, which the facing column answers with
+
+## 158
+S: 8 1 Cor. xii. 8 — the gifts of the Spirit, severally divided
+S: 12 Ps. cxxxviii. 8 — *forsake not the works of thine own hands*
+S: 13 Gen. i. 26 — *because* in thine image and likeness
+S: 16 Rev. v. 9 — *because* thou hast redeemed me by thy blood
+S: 22 Tit. iii. 5 — *because* of the washing of regeneration
+S: 25 Rom. xi. 17 — *because* thou hast graffed me into the good olive tree
+S: 26 Eph. v. 30 — *because* a member of his body
+R: 13 **Five pleas, and every one of them begins *Quia*.** The prayer does not ask on the ground of need but on the ground of fact — because I am in thine image, because thou hast bought me, because thou hast washed me, because thou hast graffed me in, because I am a member. The repeated conjunction is the argument, and the English keeps it at the head of each line rather than varying it for elegance.
+
+## 160
+S: 2 Ps. cxix. 49 — *remember thy word unto thy servant, upon which thou hast caused me to hope*
+
+## 162
+S: 21 Phil. iv. 7 — *the peace of God, which passeth all understanding*
+S: 28 2 Pet. i. 4 — *exceeding great and precious promises*
+S: 30 Acts xiv. 27 — *he had opened the door of faith unto the Gentiles*
+
+## 164
+S: 1 Acts xi. 18 — *then hath God also to the Gentiles granted repentance unto life*
+S: 4 Heb. ii. 16 — *he took on him the seed of Abraham*
+S: 8 Gal. iii. 13 — *being made a curse for us*
+S: 15 2 Pet. i. 4 — *partakers of the divine nature*
+S: 19 Heb. ii. 4 — *with divers miracles, and gifts of the Holy Ghost*
+S: 25 Rom. xvi. 26 — *for the obedience of faith*
+
+## 166
+S: 10 Rev. v. 9 — *out of every kindred, and tongue, and people, and nation*
+S: 22 Rev. vii. 10 — *salvation to our God which sitteth upon the throne*
