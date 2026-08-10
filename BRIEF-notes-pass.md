@@ -23,6 +23,19 @@ The build is whole and stays whole: **617 pages, 0 TeX errors, 0 of 594 units to
 
 ---
 
+## 1b. ⚠⚠ Two tool defects found 2026-08-10 opening printed 324 — both fixed, one backfill outstanding
+
+Neither was visible in the built PDF, and both corrupted **committed** work. They are the fifth and sixth of their kind, and the pattern is always the same: a tool quietly reports less, or reports wrong, and every downstream check agrees with it.
+
+1. **`ref_index` could not see nineteen book abbreviations** — `*Thren.*` `*Joan.*` `*Ezech.*` `*Mich.*` `*Es.*` `*Ez.*` `*Syr.*` and twelve more, **71 references invisible**, 52 of them on pages already written. Fixed; the sweep is now `tools/audit_missing_books.py` and **NOTES-CONVENTIONS §11 — run it before opening any new stretch.**
+2. **`ref_index` and `note_sheet` counted the transcripts' inline `<!-- ... -->` comments as sense-lines**, which the builder drops. On the **58 pages** that carry one, the index ran ahead of the printed page, so the marker printed *below* the line it describes. **51 tags and 3 notes on 15 pages re-anchored**, each verified against the English. `check_lineparity` was never affected — it counts `\pl` in the built fragments, so it measures the real page, and it is what proved the renumbering right.
+
+⚠ **The lesson for the rest of the pass:** these tools agree with each other by construction, so agreement between them is not evidence. **The English text of the line is the evidence.** The `--stub` tell in §4 is the same lesson in a different dress.
+
+⚠ **OUTSTANDING: 30 recovered references on 25 already-written pages still carry no tag** — `python3.11 tools/audit_missing_books.py --tags` prints them. Untagged is not automatically wrong (§3, §8), so each is read before anything is written. Twenty-two are backfilled already, one of which corrected two `R:` notes whose enumerations had silently dropped an item the index never showed them: printed 4 listed six places of prayer where the plate has seven (the garden was missing), and printed 14 listed the postures without the bowed head.
+
+⚠ **`*Ez.*` is a trap.** At printed 15 it is **Ezra** ix. 6 — *I am ashamed and blush to lift up my face* — not Ezekiel: the volume prints the same verse as `*Ezr.* ix. 6, 7` at printed 171, and Brightman tags the sentence *Of Ezra*. At printed 78 and 84 the same contraction **is** Ezekiel. Expand it from the sense every time, never from the letter.
+
 ## 2. The working loop, in order
 
 ```

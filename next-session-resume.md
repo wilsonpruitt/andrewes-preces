@@ -482,3 +482,29 @@ The full Part II + III section map, offset-anchor table, and layer-per-section a
 - 2026-07-17 (Opus 4.8, earlier): Evening Office transcript printed 220–251 COMPLETE both layers (parity 16/16). Discovered + flagged the photographed-spread anomaly at PDF 258 (238+239 in one frame; Latin 239 cut off; offset +20→+19). Encoded the big communion catalogues (Εἰς {…} / Ad {…}), the Luke-3 catechism with brace-joined addressees, the Righteousness/Mercies two-column offering. Then started `part1/meditations-transcript.md`: Meditation I (252–259, Day of Judgement) + Meditation II (260–263, Human Frailty) COMPLETE both layers (parity 6/6). Part I transcription now finished end-to-end. NEXT = Evening + Meditations ENGLISH, then Part II.
 
 (Earlier session log preserved in git history; see prior resume notes and M3-HANDOFF.md.)
+
+---
+
+## 2026-08-10 (second session of the day) — the notes pass stopped at its own tooling
+
+Opening printed 324 to write its band, the first reference on the page — `*Thren.* iii. 59`, the fourteenth and last term of §17's confession, *And all this Thou hast seen* — was not in `ref_index`'s output. It is printed plainly on the plate. Nothing had gone wrong; the tool simply did not know the abbreviation, and there is no place in the pipeline where that shows.
+
+**Two defects, both fixed, both had already damaged committed pages.**
+
+**One — nineteen missing book forms, 71 invisible references.** A volume-wide sweep of every italicised token followed by a roman numeral found the Vulgate's `Joan` `Thren` `Ezech` `Mich` `Abac` `Judic` `Paralip`/`Paral` `Syr`, the contracted `Es` and `Ez`, and the plain English `Isa` `Josh` `Amos` `Zech` `Chron` `Nehem` `Eccles` `Ezr`. 52 of the 71 stood on pages whose notes were already written. The sweep is now `tools/audit_missing_books.py` and a rule (NOTES-CONVENTIONS §11).
+
+⚠ **The damage was not only missing tags.** Two `R:` notes had *enumerated* their pages from the index and silently dropped an item: printed 4's note listed six places where somebody in Scripture is found praying and the plate has **seven** — the garden was missing, because `*Joan.* xviii. 2` was invisible — and printed 14's list of postures had no bowed head, because `*Ez.* ix. 6` was. Both corrected. **Where a note counts something, it counted what the tool showed it.**
+
+⚠ **`*Ez.*` is Ezra at printed 15 and Ezekiel at 78 and 84.** *Vultus demissio · Confusio* is Ezra ix. 6, *I am ashamed and blush to lift up my face to thee*; the volume prints that verse in full as `*Ezr.* ix. 6, 7` at printed 171, and Brightman independently tags the sentence *Of Ezra*. Ezekiel ix. 6 is the order to slay at the sanctuary and fits neither the posture nor the affection. The tag says Ezra and an `R:` note carries the argument, since the plate above reads `[*Ez.*]`.
+
+**Two — the index counted editorial comments as sense-lines.** Worse, because it was silent in the other direction: every figure was plausible. The transcripts carry inline notes (`<!-- right brace over the three lines -->`), `proof2tex.render_line` drops them, and both `ref_index` and `note_sheet` counted them. **58 printed pages carry one.** On those the index ran ahead of the printed page, so the roman marker printed *below* its own text — printed 115's *Cruce* is the ninth line of the Latin and was tagged as the eleventh. **51 tags and 3 `R:` notes on 15 pages re-anchored**, worst printed 240, where eleven consecutive tags in the thirty-four names for the Eucharist were off by one, and printed 136, where the three confessions were off by three.
+
+⚠ **`check_lineparity` was never affected and is why the fix could be trusted**: it counts `\pl` calls in the **built fragments**, so it has always been measuring the page the reader gets. Its list of 20 mismatched openings held good through all of this. **A tool that reads the build is worth more than one that reads the source.**
+
+⚠ **Every renumbering was checked against the English, not the arithmetic** — printed 136's `Job xix. 25` lands on *I know that my Redeemer liveth*, 240's `Luke xxii. 19` on *a memorial of the Dispensation*. Printed 210 looked affected by the shift map and is not: its tags key off the Latin recto, which carries no comments. **The arithmetic proposed 126 changes; 54 survived contact with the text.**
+
+**Backfill: 22 references tagged on 12 pages** (printed 4 · 6 · 14 · 22 · 26 · 36 · 38 · 54 · 90 · 102 · 104 · 108), with three new `R:` notes — the *Threni* title, the Ezra contraction, and printed 22's **Isaiah xliv. 22 asked backwards**: God's *Delevi ut nubem iniquitates tuas* — I **have** blotted out **thy** transgressions — answered as *Dele … et dissipa*, blot **thou** out **mine**. Tense and person both reversed, nothing on the page marking it. **Second instance in the volume of a guarantee borrowed rather than argued from**, after printed 321's *non redeat ad me vacua*.
+
+**Build after all of it: 617 pages, 0 TeX errors, 0 of 594 units too tall.**
+
+**NEXT: 30 recovered references still untagged on 25 written pages** (`audit_missing_books.py --tags`), then **printed 324**, whose sheet is clean and whose band is four tags of §17's close plus the *Aggravatio* scheme — which carries no references at all — and the first two cells of the brace catalogue, which per §3 take `R:` notes and no scripture band.
