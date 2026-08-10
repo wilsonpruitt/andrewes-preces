@@ -161,20 +161,29 @@ def by_line(entries):
     return [(ln, groups[ln]) for ln in sorted(order)]
 
 
-def apparatus_band(entries):
-    r"""The verso foot, keyed by the same roman marker that stands in the text.
+def apparatus_band(gr_entries, la_entries=()):
+    r"""The verso foot, keyed by the roman markers standing in the two columns.
 
-    ⚠ The apparatus keeps its ARABIC line figure as well, and that is not
-    redundancy: "34. 27" is the citation form the 1853's own apparatus uses and
-    the form CLASS-A-ledger.md is written in, so an entry that dropped it would
-    no longer be checkable against the ledger it came from. The roman finds the
-    line; the arabic cites it.
+    ⚠ The GREEK column's entries are numbered first and the LATIN column's follow,
+    so the series is continuous across the leaf and a roman is unique on the page.
+    They must NOT be merged and sorted by line number: the two columns have
+    independent line counts (20 of Part I's 131 openings differ), so a Latin line 5
+    and a Greek line 27 are unrelated, and sorting them together would handof the
+    Latin entry a roman that points into the Greek.
+
+    ⚠ Each entry keeps its ARABIC line figure. "34. 27" is the citation form
+    CLASS-A-ledger.md is written in, so an entry that dropped it would stop being
+    checkable against the ledger it came from. The roman finds the line; the
+    arabic cites it.
     """
-    parts = []
-    for i, (_, items) in enumerate(by_line(entries), start=1):
-        for j, item in enumerate(items):
-            mark = r"\textsuperscript{%s}\," % roman(i) if j == 0 else r"\hphantom{x}"
-            parts.append(mark + note_tex([item]))
+    parts, i = [], 0
+    for group in (gr_entries, la_entries):
+        for _, items in by_line(group):
+            i += 1
+            for j, item in enumerate(items):
+                mark = (r"\textsuperscript{%s}\," % roman(i) if j == 0
+                        else r"\hphantom{x}")
+                parts.append(mark + note_tex([item]))
     return r"\\[1pt]".join(parts)
 
 
@@ -377,7 +386,7 @@ def leaf(n: int, slot, en_frag: str | None, body_frag: str | None, verso=False):
 
 def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None,
               single=False, toc: str | None = None, vnotes="", rnotes="",
-              vlines=(), rlines=()):
+              vlines=(), rlines=(), vlines_b=(), voffset=0):
     """One Loeb unit: originals on the verso, the full English on the recto.
 
     The unit is the 1853 OPENING in Part I — Greek and Latin side by side on one
@@ -412,7 +421,9 @@ def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None,
         gr_in = r"\input{fragments/%s}" % gr if gr else ""
         la_in = r"\input{fragments/%s}" % la if la else ""
         if vnotes:
-            out.append(r"\originalsn{%d}{%s}{%s}{%s}" % (n, gr_in, la_in, vnotes))
+            out.append(r"\originalsn{%d}{%s}{%s}{%s}{%s}{%d}" % (
+                n, gr_in, la_in, vnotes,
+                ",".join(str(x) for x in vlines_b), voffset))
         else:
             out.append(r"\originals{%d}{%s}{%s}" % (n, gr_in, la_in))
     out.append(r"\clearpage")
@@ -463,12 +474,17 @@ def build_loeb(parts, pages, have):
             # The verso holds BOTH printed pages of the opening, so it carries
             # the apparatus of both. The recto holds one English page and its
             # notes are the notes of the Greek page it translates.
-            v = (notes.get(n, {}).get("V", [])
-                 + notes.get(n + 1, {}).get("V", []))
+            # ⚠ split by COLUMN, not merged: an entry filed under the odd page
+            # belongs to the Latin recto and is numbered on the Latin's own lines.
+            v_gr = notes.get(n, {}).get("V", [])
+            v_la = notes.get(n + 1, {}).get("V", [])
             body += [r"%% ---------- opening %d | %d ----------" % (n, n + 1)]
             body += loeb_unit(n, frag(f"gr{n:03d}"), frag(f"la{n + 1:03d}"),
                               frag(f"en{n:03d}"), toc=toc,
-                              vnotes=apparatus_band(v), vlines=noted_lines(v),
+                              vnotes=apparatus_band(v_gr, v_la),
+                              vlines=noted_lines(v_gr),
+                              vlines_b=noted_lines(v_la),
+                              voffset=len(by_line(v_gr)),
                               rnotes=recto_band(notes.get(n, {})),
                               rlines=noted_lines(notes.get(n, {}).get("S", [])
                                                  + notes.get(n, {}).get("R", [])))
@@ -740,9 +756,8 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
       \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
-      % the Greek's figures read across and a second set would repeat them.
-      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
+      \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue
+      \setnoted{}#3
     \end{minipage}\par}%
   % ⚠ \ht0 ALONE IS WRONG HERE and silently reported ~5.7pt for every Part I
   % verso until 2026-08-09. This vbox's content is ONE LINE of two tall boxes, so
@@ -791,15 +806,19 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
 % Compose a leaf whose body sits at the top and whose band sits at the foot.
 \newcommand{\bandleaf}[2]{\vbox to \textheight{#1\vfill#2}}
 
-\newcommand{\originalsn}[4]{%
+% #5 = the Latin column's own noted lines, #6 = how many romans the Greek column
+% already spent, so the series runs on rather than restarting at i.
+\newcommand{\originalsn}[6]{%
   \setbox0=\vbox{\noindent
     \begin{minipage}[t]{0.485\textwidth}
       \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
-      % the Greek's figures read across and a second set would repeat them.
-      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
+      % ⚠ numbered on ITS OWN count — see the preamble. It is NOT reliably
+      % line-for-line with the Greek: 20 of Part I's 131 openings differ, by as
+      % much as six lines, because the plate turns its own long lines.
+      \footnotesize\setlength{\plhang}{1.5em}%
+      \setnotedcol{#5}{#6}\plreset\plnumtrue #3
     \end{minipage}\par}%
   \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0+\ht2+\dp2\relax}%

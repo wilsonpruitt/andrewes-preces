@@ -33,10 +33,12 @@
 \newcommand{\originals}[3]{%
   \setbox0=\vbox{\noindent
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#2
+      \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      \footnotesize\setlength{\plhang}{1.5em}#3
+      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
+      % the Greek's figures read across and a second set would repeat them.
+      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
     \end{minipage}\par}%
   % ⚠ \ht0 ALONE IS WRONG HERE and silently reported ~5.7pt for every Part I
   % verso until 2026-08-09. This vbox's content is ONE LINE of two tall boxes, so
@@ -46,14 +48,70 @@
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0\relax}\box0}
 
 \newcommand{\originalsone}[3]{%
-  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}#2}%
+  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2}%
   \immediate\write\fitfile{H O #1 \the\ht0}%
   \ifthenelse{\equal{#3}{epigraph}}{\dropto{0.16}\box0}{\box0}}
 
 \newcommand{\enleaf}[3]{%
-  \setbox0=\vbox{\hsize=\textwidth\small#2}%
+  \setbox0=\vbox{\hsize=\textwidth\small\plreset\plnumtrue #2}%
   \immediate\write\fitfile{H E #1 \the\ht0}%
   \ifthenelse{\equal{#3}{epigraph}}{\dropto{0.16}\box0}{\box0}}
+
+% ---- the two foot-bands -------------------------------------------------
+% The Loeb leaves roughly 44% of every leaf empty, and a Loeb's foot is where an
+% apparatus belongs. The verso band carries the apparatus criticus against the
+% originals; the recto band carries explanatory notes against the English.
+%
+% ⚠ The band is set at the FOOT, which means the leaf must be composed as a box
+% of exactly \textheight with \vfill between body and band. \vfil alone will not
+% do it: the preamble sets \raggedbottom, whose own bottom glue competes with it
+% and lands the band a third of the way up. Same trap as the display leaves.
+%
+% ⚠ The band is measured INTO the fit record (\dimexpr body + band), not beside
+% it. A band that overruns is exactly as silent as a minipage that overruns, and
+% the point of the instrument is that nothing is unmeasured — which is how Part
+% I's verso went 131 leaves without ever being tested.
+% ⚠ The \par after the rule is load-bearing: without it the rule is just an inline
+% box and the band's first word sets on the same line as the rule.
+\newcommand{\bandrule}{\par\vspace{5pt}%
+  {\noindent\color{rulegray}\rule{0.28\textwidth}{0.4pt}\par}\vspace{3.5pt}}
+
+\newcommand{\apparatusband}[1]{%
+  \bandrule{\scriptsize\setlength{\parindent}{0pt}\setlength{\parskip}{1pt}%
+    \raggedright #1\par}}
+
+\newcommand{\notesband}[1]{%
+  \bandrule{\footnotesize\setlength{\parindent}{0pt}\setlength{\parskip}{2pt}%
+    #1\par}}
+
+% Compose a leaf whose body sits at the top and whose band sits at the foot.
+\newcommand{\bandleaf}[2]{\vbox to \textheight{#1\vfill#2}}
+
+\newcommand{\originalsn}[4]{%
+  \setbox0=\vbox{\noindent
+    \begin{minipage}[t]{0.485\textwidth}
+      \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.485\textwidth}
+      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
+      % the Greek's figures read across and a second set would repeat them.
+      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
+    \end{minipage}\par}%
+  \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
+  \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0+\ht2+\dp2\relax}%
+  \bandleaf{\box0}{\box2}}
+
+\newcommand{\originalsonen}[4]{%
+  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2}%
+  \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
+  \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\ht2+\dp2\relax}%
+  \bandleaf{\box0}{\box2}}
+
+\newcommand{\enleafn}[4]{%
+  \setbox0=\vbox{\hsize=\textwidth\small\plreset\plnumtrue #2}%
+  \setbox2=\vbox{\hsize=\textwidth\notesband{#4}}%
+  \immediate\write\fitfile{H E #1 \the\dimexpr\ht0+\ht2+\dp2\relax}%
+  \bandleaf{\box0}{\box2}}
 
 % Place a display block a fixed way down the leaf. NOT \vfil: the preamble sets
 % \raggedbottom, whose own bottom glue competes with any \vfil pair and lands the
@@ -124,1078 +182,1342 @@
 % ---------- printed 1 ----------
 \versoalign
 \markright{1}
+\setnoted{}
 \addcontentsline{toc}{section}{Front Matter}
 \titleleaf{1}{\input{fragments/gr001}}
 \clearpage
 \markright{1}
+\setnoted{}
 \titleleaf{1}{\input{fragments/en001}}
 \clearpage
 % ---------- opening 2 | 3 ----------
 \versoalign
 \markright{2}
+\setnoted{}
 \originals{2}{\input{fragments/gr002}}{\input{fragments/la003}}
 \clearpage
 \markright{2}
+\setnoted{}
 \enleaf{2}{\input{fragments/en002}}{}
 \clearpage
 % ---------- opening 4 | 5 ----------
 \versoalign
 \markright{4}
+\setnoted{}
 \originals{4}{\input{fragments/gr004}}{\input{fragments/la005}}
 \clearpage
 \markright{4}
+\setnoted{}
 \enleaf{4}{\input{fragments/en004}}{}
 \clearpage
 % ---------- opening 6 | 7 ----------
 \versoalign
 \markright{6}
+\setnoted{}
 \originals{6}{\input{fragments/gr006}}{\input{fragments/la007}}
 \clearpage
 \markright{6}
+\setnoted{}
 \enleaf{6}{\input{fragments/en006}}{}
 \clearpage
 % ---------- opening 8 | 9 ----------
 \versoalign
 \markright{8}
+\setnoted{}
 \originals{8}{\input{fragments/gr008}}{\input{fragments/la009}}
 \clearpage
 \markright{8}
+\setnoted{}
 \enleaf{8}{\input{fragments/en008}}{}
 \clearpage
 % ---------- opening 10 | 11 ----------
 \versoalign
 \markright{10}
+\setnoted{}
 \originals{10}{\input{fragments/gr010}}{\input{fragments/la011}}
 \clearpage
 \markright{10}
+\setnoted{}
 \enleaf{10}{\input{fragments/en010}}{}
 \clearpage
 % ---------- opening 12 | 13 ----------
 \versoalign
 \markright{12}
+\setnoted{}
 \originals{12}{\input{fragments/gr012}}{\input{fragments/la013}}
 \clearpage
 \markright{12}
+\setnoted{}
 \enleaf{12}{\input{fragments/en012}}{}
 \clearpage
 % ---------- opening 14 | 15 ----------
 \versoalign
 \markright{14}
+\setnoted{}
 \originals{14}{\input{fragments/gr014}}{\input{fragments/la015}}
 \clearpage
 \markright{14}
+\setnoted{}
 \enleaf{14}{\input{fragments/en014}}{}
 \clearpage
 % ---------- opening 16 | 17 ----------
 \versoalign
 \markright{16}
+\setnoted{}
 \originals{16}{\input{fragments/gr016}}{\input{fragments/la017}}
 \clearpage
 \markright{16}
+\setnoted{}
 \enleaf{16}{\input{fragments/en016}}{}
 \clearpage
 % ---------- opening 18 | 19 ----------
 \versoalign
 \markright{18}
+\setnoted{}
 \originals{18}{\input{fragments/gr018}}{\input{fragments/la019}}
 \clearpage
 \markright{18}
+\setnoted{}
 \enleaf{18}{\input{fragments/en018}}{}
 \clearpage
 % ---------- opening 20 | 21 ----------
 \versoalign
 \markright{20}
+\setnoted{}
 \originals{20}{\input{fragments/gr020}}{\input{fragments/la021}}
 \clearpage
 \markright{20}
+\setnoted{}
 \enleaf{20}{\input{fragments/en020}}{}
 \clearpage
 % ---------- opening 22 | 23 ----------
 \versoalign
 \markright{22}
+\setnoted{}
 \originals{22}{\input{fragments/gr022}}{\input{fragments/la023}}
 \clearpage
 \markright{22}
+\setnoted{}
 \enleaf{22}{\input{fragments/en022}}{}
 \clearpage
 % ---------- opening 24 | 25 ----------
 \versoalign
 \markright{24}
+\setnoted{}
 \originals{24}{\input{fragments/gr024}}{\input{fragments/la025}}
 \clearpage
 \markright{24}
+\setnoted{}
 \enleaf{24}{\input{fragments/en024}}{}
 \clearpage
 % ---------- opening 26 | 27 ----------
 \versoalign
 \markright{26}
+\setnoted{}
 \originals{26}{\input{fragments/gr026}}{\input{fragments/la027}}
 \clearpage
 \markright{26}
+\setnoted{}
 \enleaf{26}{\input{fragments/en026}}{}
 \clearpage
 % ---------- opening 28 | 29 ----------
 \versoalign
 \markright{28}
+\setnoted{}
 \originals{28}{\input{fragments/gr028}}{\input{fragments/la029}}
 \clearpage
 \markright{28}
+\setnoted{}
 \enleaf{28}{\input{fragments/en028}}{}
 \clearpage
 \sethead{The First Day}
 % ---------- opening 30 | 31 ----------
 \versoalign
 \markright{30}
+\setnoted{}
 \addcontentsline{toc}{section}{The First Day}
 \originals{30}{\input{fragments/gr030}}{\input{fragments/la031}}
 \clearpage
 \markright{30}
+\setnoted{}
 \enleaf{30}{\input{fragments/en030}}{}
 \clearpage
 % ---------- opening 32 | 33 ----------
 \versoalign
 \markright{32}
+\setnoted{}
 \originals{32}{\input{fragments/gr032}}{\input{fragments/la033}}
 \clearpage
 \markright{32}
+\setnoted{}
 \enleaf{32}{\input{fragments/en032}}{}
 \clearpage
 % ---------- opening 34 | 35 ----------
 \versoalign
 \markright{34}
-\originals{34}{\input{fragments/gr034}}{\input{fragments/la035}}
+\setnoted{27}
+\originalsn{34}{\input{fragments/gr034}}{\input{fragments/la035}}{\textsuperscript{i}\,27 \textup{Τὰ ἔργα}] \textup{τὸ πλάσμα} \emph{apogr.} — \emph{cf. Lat.} \textup{Figmenta}, \emph{quod ex neutro fonte alio fluere potest}\\[1pt]\hphantom{x}27–28 \emph{punct. post} \textup{παριδῇς} \emph{del. apogr.} · \textup{ὁμοίωμα}] \textup{ὁμοίωμα.} \emph{apogr.}}
 \clearpage
 \markright{34}
-\enleaf{34}{\input{fragments/en034}}{}
+\setnoted{1,6,7,9,13,16,20,21,22,23,25,27,28,29}
+\enleafn{34}{\input{fragments/en034}}{}{{\scriptsize \textsuperscript{i}\,Job xxxiii. 27 — Elihu, on the man brought back from the pit \textperiodcentered\ \textsuperscript{ii}\,Rom. ii. 1 — to the man who judges another and does the same; [Tit. iii. 11] — \emph{condemned of himself}: Andrewes' \textup{αὐτοκατάκριτος} \textperiodcentered\ \textsuperscript{iii}\,Hos. xiii. 9 — the LORD to Israel: \emph{thou hast destroyed thyself} \textperiodcentered\ \textsuperscript{iv}\,Dan. ix. 7 — Daniel in the exile, at the evening sacrifice \textperiodcentered\ \textsuperscript{v}\,Neh. ix. 33 — the Levites' confession, while the Law is read \textperiodcentered\ \textsuperscript{vi}\,Ps. xxxix. 7 — David, having first been dumb with silence \textperiodcentered\ \textsuperscript{vii}\,Ps. lxxxix. 46 — Ethan: how short a time God has made men for \textperiodcentered\ \textsuperscript{viii}\,Ps. cxxxviii. 8 — \emph{despise not the works of thine own hands} \textperiodcentered\ \textsuperscript{ix}\,Gen. i. 27 — the making of man, in the image \textperiodcentered\ \textsuperscript{x}\,1 Cor. vi. 20 — \emph{ye are bought with a price} \textperiodcentered\ \textsuperscript{xi}\,Ps. c. 3 — \emph{we are his people, and the sheep of his pasture} \textperiodcentered\ \textsuperscript{xii}\,Ps. cxxxviii. 8 — the verse returns; see the apparatus opposite \textperiodcentered\ \textsuperscript{xiii}\,Gen. i. 26 — \emph{let us make man in our image} \textperiodcentered\ \textsuperscript{xiv}\,Ps. lxxxix. 47 — \emph{wherefore hast thou made all men in vain?}\par}\\[3pt]\textsuperscript{vi}\,\textbf{A pun the English Bible cannot keep.} Andrewes asks \emph{what is my expectation} and answers \emph{Substantia mea apud te est}, then four lines later \emph{Memorare quæ mea substantia}. Both are the Vulgate — Ps. xxxviii. 8 and lxxxviii. 48 — and both turn on \textbf{substantia}, which is why the two psalms can be set one on top of the other. The Authorised Version renders the first \emph{my hope is in thee} and the second \emph{remember how short my time is}, and the join disappears.\\[1pt]\textsuperscript{xii}\,\textup{Figmenta} \textbf{is the evidence that this Latin column is a witness and not a shadow.} The printed Greek reads \emph{the works of thy hands}, and the Vulgate of Ps. cxxxviii. 8 reads \emph{opera manuum tuarum}; the Latin here reads neither. \emph{Figmenta} — the thing moulded — can only render a Greek text that read \textup{τὸ πλάσμα}, which is what the manuscript reads and what the printed page does not. The 1853 editor said of his Latin only that he \emph{seemed} to have made it himself. He was too modest.}
 \clearpage
 % ---------- opening 36 | 37 ----------
 \versoalign
 \markright{36}
+\setnoted{}
 \originals{36}{\input{fragments/gr036}}{\input{fragments/la037}}
 \clearpage
 \markright{36}
+\setnoted{}
 \enleaf{36}{\input{fragments/en036}}{}
 \clearpage
 % ---------- opening 38 | 39 ----------
 \versoalign
 \markright{38}
-\originals{38}{\input{fragments/gr038}}{\input{fragments/la039}}
+\setnoted{3}
+\originalsn{38}{\input{fragments/gr038}}{\input{fragments/la039}}{\textsuperscript{i}\,3 \textup{μεριμνῶ}] \emph{in marg. Hebr.} \textup{\RL{אדאג}} \emph{apogr.}}
 \clearpage
 \markright{38}
-\enleaf{38}{\input{fragments/en038}}{}
+\setnoted{}
+\enleafn{38}{\input{fragments/en038}}{}{The manuscript glosses this line in \textbf{Hebrew}, and the 1853 dropped it — the first of some thirteen places where it does so. The edition \textbf{records the loss and does not repair it}: the page above is the printed book, not the manuscript behind it. What the Hebrew shows is that Andrewes' third script was systematic where his printed editions make it look occasional.}
 \clearpage
 % ---------- opening 40 | 41 ----------
 \versoalign
 \markright{40}
+\setnoted{}
 \originals{40}{\input{fragments/gr040}}{\input{fragments/la041}}
 \clearpage
 \markright{40}
+\setnoted{}
 \enleaf{40}{\input{fragments/en040}}{}
 \clearpage
 % ---------- opening 42 | 43 ----------
 \versoalign
 \markright{42}
-\originals{42}{\input{fragments/gr042}}{\input{fragments/la043}}
+\setnoted{4}
+\originalsn{42}{\input{fragments/gr042}}{\input{fragments/la043}}{\textsuperscript{i}\,4 \emph{sqq.} \textup{αὐτοῖς}] \textup{αὐτῶν} \emph{apogr.}}
 \clearpage
 \markright{42}
-\enleaf{42}{\input{fragments/en042}}{}
+\setnoted{}
+\enleafn{42}{\input{fragments/en042}}{}{The Hebrew in the heading — \textup{\RL{סיג התורה}}, \emph{a fence about the Law} — \textbf{is on the printed page}, not supplied. It is one of the few places the 1853 let Andrewes' Hebrew stand, and it is worth noticing beside the note at 38 opposite: what survived here is a rabbinic tag, and what was dropped there was a gloss on his own word.}
 \clearpage
 % ---------- opening 44 | 45 ----------
 \versoalign
 \markright{44}
+\setnoted{}
 \originals{44}{\input{fragments/gr044}}{\input{fragments/la045}}
 \clearpage
 \markright{44}
+\setnoted{}
 \enleaf{44}{\input{fragments/en044}}{}
 \clearpage
 % ---------- opening 46 | 47 ----------
 \versoalign
 \markright{46}
+\setnoted{}
 \originals{46}{\input{fragments/gr046}}{\input{fragments/la047}}
 \clearpage
 \markright{46}
+\setnoted{}
 \enleaf{46}{\input{fragments/en046}}{}
 \clearpage
 % ---------- opening 48 | 49 ----------
 \versoalign
 \markright{48}
+\setnoted{}
 \originals{48}{\input{fragments/gr048}}{\input{fragments/la049}}
 \clearpage
 \markright{48}
+\setnoted{}
 \enleaf{48}{\input{fragments/en048}}{}
 \clearpage
 % ---------- opening 50 | 51 ----------
 \versoalign
 \markright{50}
-\originals{50}{\input{fragments/gr050}}{\input{fragments/la051}}
+\setnoted{18}
+\originalsn{50}{\input{fragments/gr050}}{\input{fragments/la051}}{\textsuperscript{i}\,18 \textup{προσδοκίας}] \textup{ἐλπίδος} \emph{apogr.}; \emph{cf. Lat.} \textup{exspectatione} \emph{cum ed.}}
 \clearpage
 \markright{50}
-\enleaf{50}{\input{fragments/en050}}{}
+\setnoted{}
+\enleafn{50}{\input{fragments/en050}}{}{Here the Latin sides with \textbf{the printed page} against the manuscript, which is the necessary counterweight to the note at 34. The Latin column is an independent witness, not a better one: it agrees with the print five times for every two it agrees with the manuscript, and it settles nothing by itself.}
 \clearpage
 % ---------- opening 52 | 53 ----------
 \versoalign
 \markright{52}
-\originals{52}{\input{fragments/gr052}}{\input{fragments/la053}}
+\setnoted{16}
+\originalsn{52}{\input{fragments/gr052}}{\input{fragments/la053}}{\textsuperscript{i}\,16 \emph{add.} \textup{καὶ ἐσθήσω} \emph{apogr.}}
 \clearpage
 \markright{52}
+\setnoted{}
 \enleaf{52}{\input{fragments/en052}}{}
 \clearpage
 % ---------- opening 54 | 55 ----------
 \versoalign
 \markright{54}
+\setnoted{}
 \originals{54}{\input{fragments/gr054}}{\input{fragments/la055}}
 \clearpage
 \markright{54}
+\setnoted{}
 \enleaf{54}{\input{fragments/en054}}{}
 \clearpage
 % ---------- opening 56 | 57 ----------
 \versoalign
 \markright{56}
+\setnoted{}
 \originals{56}{\input{fragments/gr056}}{\input{fragments/la057}}
 \clearpage
 \markright{56}
+\setnoted{}
 \enleaf{56}{\input{fragments/en056}}{}
 \clearpage
 % ---------- opening 58 | 59 ----------
 \versoalign
 \markright{58}
+\setnoted{}
 \originals{58}{\input{fragments/gr058}}{\input{fragments/la059}}
 \clearpage
 \markright{58}
+\setnoted{}
 \enleaf{58}{\input{fragments/en058}}{}
 \clearpage
 % ---------- opening 60 | 61 ----------
 \versoalign
 \markright{60}
+\setnoted{}
 \originals{60}{\input{fragments/gr060}}{\input{fragments/la061}}
 \clearpage
 \markright{60}
+\setnoted{}
 \enleaf{60}{\input{fragments/en060}}{}
 \clearpage
 % ---------- opening 62 | 63 ----------
 \versoalign
 \markright{62}
+\setnoted{}
 \originals{62}{\input{fragments/gr062}}{\input{fragments/la063}}
 \clearpage
 \markright{62}
+\setnoted{}
 \enleaf{62}{\input{fragments/en062}}{}
 \clearpage
 % ---------- opening 64 | 65 ----------
 \versoalign
 \markright{64}
+\setnoted{}
 \originals{64}{\input{fragments/gr064}}{\input{fragments/la065}}
 \clearpage
 \markright{64}
+\setnoted{}
 \enleaf{64}{\input{fragments/en064}}{}
 \clearpage
 % ---------- opening 66 | 67 ----------
 \versoalign
 \markright{66}
+\setnoted{}
 \originals{66}{\input{fragments/gr066}}{\input{fragments/la067}}
 \clearpage
 \markright{66}
+\setnoted{}
 \enleaf{66}{\input{fragments/en066}}{}
 \clearpage
 % ---------- opening 68 | 69 ----------
 \versoalign
 \markright{68}
+\setnoted{}
 \originals{68}{\input{fragments/gr068}}{\input{fragments/la069}}
 \clearpage
 \markright{68}
+\setnoted{}
 \enleaf{68}{\input{fragments/en068}}{}
 \clearpage
 \sethead{The Second Day}
 % ---------- opening 70 | 71 ----------
 \versoalign
 \markright{70}
+\setnoted{}
 \addcontentsline{toc}{section}{The Second Day}
 \originals{70}{\input{fragments/gr070}}{\input{fragments/la071}}
 \clearpage
 \markright{70}
+\setnoted{}
 \enleaf{70}{\input{fragments/en070}}{}
 \clearpage
 % ---------- opening 72 | 73 ----------
 \versoalign
 \markright{72}
+\setnoted{}
 \originals{72}{\input{fragments/gr072}}{\input{fragments/la073}}
 \clearpage
 \markright{72}
+\setnoted{}
 \enleaf{72}{\input{fragments/en072}}{}
 \clearpage
 % ---------- opening 74 | 75 ----------
 \versoalign
 \markright{74}
+\setnoted{}
 \originals{74}{\input{fragments/gr074}}{\input{fragments/la075}}
 \clearpage
 \markright{74}
+\setnoted{}
 \enleaf{74}{\input{fragments/en074}}{}
 \clearpage
 % ---------- opening 76 | 77 ----------
 \versoalign
 \markright{76}
+\setnoted{}
 \originals{76}{\input{fragments/gr076}}{\input{fragments/la077}}
 \clearpage
 \markright{76}
+\setnoted{}
 \enleaf{76}{\input{fragments/en076}}{}
 \clearpage
 % ---------- opening 78 | 79 ----------
 \versoalign
 \markright{78}
+\setnoted{}
 \originals{78}{\input{fragments/gr078}}{\input{fragments/la079}}
 \clearpage
 \markright{78}
+\setnoted{}
 \enleaf{78}{\input{fragments/en078}}{}
 \clearpage
 % ---------- opening 80 | 81 ----------
 \versoalign
 \markright{80}
+\setnoted{}
 \originals{80}{\input{fragments/gr080}}{\input{fragments/la081}}
 \clearpage
 \markright{80}
+\setnoted{}
 \enleaf{80}{\input{fragments/en080}}{}
 \clearpage
 % ---------- opening 82 | 83 ----------
 \versoalign
 \markright{82}
+\setnoted{}
 \originals{82}{\input{fragments/gr082}}{\input{fragments/la083}}
 \clearpage
 \markright{82}
+\setnoted{}
 \enleaf{82}{\input{fragments/en082}}{}
 \clearpage
 % ---------- opening 84 | 85 ----------
 \versoalign
 \markright{84}
+\setnoted{}
 \originals{84}{\input{fragments/gr084}}{\input{fragments/la085}}
 \clearpage
 \markright{84}
+\setnoted{}
 \enleaf{84}{\input{fragments/en084}}{}
 \clearpage
 % ---------- opening 86 | 87 ----------
 \versoalign
 \markright{86}
+\setnoted{}
 \originals{86}{\input{fragments/gr086}}{\input{fragments/la087}}
 \clearpage
 \markright{86}
+\setnoted{}
 \enleaf{86}{\input{fragments/en086}}{}
 \clearpage
 % ---------- opening 88 | 89 ----------
 \versoalign
 \markright{88}
+\setnoted{}
 \originals{88}{\input{fragments/gr088}}{\input{fragments/la089}}
 \clearpage
 \markright{88}
+\setnoted{}
 \enleaf{88}{\input{fragments/en088}}{}
 \clearpage
 % ---------- opening 90 | 91 ----------
 \versoalign
 \markright{90}
+\setnoted{}
 \originals{90}{\input{fragments/gr090}}{\input{fragments/la091}}
 \clearpage
 \markright{90}
+\setnoted{}
 \enleaf{90}{\input{fragments/en090}}{}
 \clearpage
 \sethead{The Third Day}
 % ---------- opening 92 | 93 ----------
 \versoalign
 \markright{92}
+\setnoted{}
 \addcontentsline{toc}{section}{The Third Day}
 \originals{92}{\input{fragments/gr092}}{\input{fragments/la093}}
 \clearpage
 \markright{92}
+\setnoted{}
 \enleaf{92}{\input{fragments/en092}}{}
 \clearpage
 % ---------- opening 94 | 95 ----------
 \versoalign
 \markright{94}
+\setnoted{}
 \originals{94}{\input{fragments/gr094}}{\input{fragments/la095}}
 \clearpage
 \markright{94}
+\setnoted{}
 \enleaf{94}{\input{fragments/en094}}{}
 \clearpage
 % ---------- opening 96 | 97 ----------
 \versoalign
 \markright{96}
+\setnoted{}
 \originals{96}{\input{fragments/gr096}}{\input{fragments/la097}}
 \clearpage
 \markright{96}
+\setnoted{}
 \enleaf{96}{\input{fragments/en096}}{}
 \clearpage
 % ---------- opening 98 | 99 ----------
 \versoalign
 \markright{98}
+\setnoted{}
 \originals{98}{\input{fragments/gr098}}{\input{fragments/la099}}
 \clearpage
 \markright{98}
+\setnoted{}
 \enleaf{98}{\input{fragments/en098}}{}
 \clearpage
 % ---------- opening 100 | 101 ----------
 \versoalign
 \markright{100}
+\setnoted{}
 \originals{100}{\input{fragments/gr100}}{\input{fragments/la101}}
 \clearpage
 \markright{100}
+\setnoted{}
 \enleaf{100}{\input{fragments/en100}}{}
 \clearpage
 % ---------- opening 102 | 103 ----------
 \versoalign
 \markright{102}
+\setnoted{}
 \originals{102}{\input{fragments/gr102}}{\input{fragments/la103}}
 \clearpage
 \markright{102}
+\setnoted{}
 \enleaf{102}{\input{fragments/en102}}{}
 \clearpage
 % ---------- opening 104 | 105 ----------
 \versoalign
 \markright{104}
+\setnoted{}
 \originals{104}{\input{fragments/gr104}}{\input{fragments/la105}}
 \clearpage
 \markright{104}
+\setnoted{}
 \enleaf{104}{\input{fragments/en104}}{}
 \clearpage
 \sethead{The Fourth Day}
 % ---------- opening 106 | 107 ----------
 \versoalign
 \markright{106}
+\setnoted{}
 \addcontentsline{toc}{section}{The Fourth Day}
 \originals{106}{\input{fragments/gr106}}{\input{fragments/la107}}
 \clearpage
 \markright{106}
+\setnoted{}
 \enleaf{106}{\input{fragments/en106}}{}
 \clearpage
 % ---------- opening 108 | 109 ----------
 \versoalign
 \markright{108}
+\setnoted{}
 \originals{108}{\input{fragments/gr108}}{\input{fragments/la109}}
 \clearpage
 \markright{108}
+\setnoted{}
 \enleaf{108}{\input{fragments/en108}}{}
 \clearpage
 % ---------- opening 110 | 111 ----------
 \versoalign
 \markright{110}
+\setnoted{}
 \originals{110}{\input{fragments/gr110}}{\input{fragments/la111}}
 \clearpage
 \markright{110}
+\setnoted{}
 \enleaf{110}{\input{fragments/en110}}{}
 \clearpage
 % ---------- opening 112 | 113 ----------
 \versoalign
 \markright{112}
+\setnoted{}
 \originals{112}{\input{fragments/gr112}}{\input{fragments/la113}}
 \clearpage
 \markright{112}
+\setnoted{}
 \enleaf{112}{\input{fragments/en112}}{}
 \clearpage
 % ---------- opening 114 | 115 ----------
 \versoalign
 \markright{114}
+\setnoted{}
 \originals{114}{\input{fragments/gr114}}{\input{fragments/la115}}
 \clearpage
 \markright{114}
+\setnoted{}
 \enleaf{114}{\input{fragments/en114}}{}
 \clearpage
 % ---------- opening 116 | 117 ----------
 \versoalign
 \markright{116}
+\setnoted{}
 \originals{116}{\input{fragments/gr116}}{\input{fragments/la117}}
 \clearpage
 \markright{116}
+\setnoted{}
 \enleaf{116}{\input{fragments/en116}}{}
 \clearpage
 % ---------- opening 118 | 119 ----------
 \versoalign
 \markright{118}
+\setnoted{}
 \originals{118}{\input{fragments/gr118}}{\input{fragments/la119}}
 \clearpage
 \markright{118}
+\setnoted{}
 \enleaf{118}{\input{fragments/en118}}{}
 \clearpage
 % ---------- opening 120 | 121 ----------
 \versoalign
 \markright{120}
+\setnoted{}
 \originals{120}{\input{fragments/gr120}}{\input{fragments/la121}}
 \clearpage
 \markright{120}
+\setnoted{}
 \enleaf{120}{\input{fragments/en120}}{}
 \clearpage
 % ---------- opening 122 | 123 ----------
 \versoalign
 \markright{122}
+\setnoted{}
 \originals{122}{\input{fragments/gr122}}{\input{fragments/la123}}
 \clearpage
 \markright{122}
+\setnoted{}
 \enleaf{122}{\input{fragments/en122}}{}
 \clearpage
 % ---------- opening 124 | 125 ----------
 \versoalign
 \markright{124}
+\setnoted{}
 \originals{124}{\input{fragments/gr124}}{\input{fragments/la125}}
 \clearpage
 \markright{124}
+\setnoted{}
 \enleaf{124}{\input{fragments/en124}}{}
 \clearpage
 % ---------- opening 126 | 127 ----------
 \versoalign
 \markright{126}
+\setnoted{}
 \originals{126}{\input{fragments/gr126}}{\input{fragments/la127}}
 \clearpage
 \markright{126}
+\setnoted{}
 \enleaf{126}{\input{fragments/en126}}{}
 \clearpage
 % ---------- opening 128 | 129 ----------
 \versoalign
 \markright{128}
+\setnoted{}
 \originals{128}{\input{fragments/gr128}}{\input{fragments/la129}}
 \clearpage
 \markright{128}
+\setnoted{}
 \enleaf{128}{\input{fragments/en128}}{}
 \clearpage
 \sethead{The Fifth Day}
 % ---------- opening 130 | 131 ----------
 \versoalign
 \markright{130}
+\setnoted{}
 \addcontentsline{toc}{section}{The Fifth Day}
 \originals{130}{\input{fragments/gr130}}{\input{fragments/la131}}
 \clearpage
 \markright{130}
+\setnoted{}
 \enleaf{130}{\input{fragments/en130}}{}
 \clearpage
 % ---------- opening 132 | 133 ----------
 \versoalign
 \markright{132}
+\setnoted{}
 \originals{132}{\input{fragments/gr132}}{\input{fragments/la133}}
 \clearpage
 \markright{132}
+\setnoted{}
 \enleaf{132}{\input{fragments/en132}}{}
 \clearpage
 % ---------- opening 134 | 135 ----------
 \versoalign
 \markright{134}
+\setnoted{}
 \originals{134}{\input{fragments/gr134}}{\input{fragments/la135}}
 \clearpage
 \markright{134}
+\setnoted{}
 \enleaf{134}{\input{fragments/en134}}{}
 \clearpage
 % ---------- opening 136 | 137 ----------
 \versoalign
 \markright{136}
+\setnoted{}
 \originals{136}{\input{fragments/gr136}}{\input{fragments/la137}}
 \clearpage
 \markright{136}
+\setnoted{}
 \enleaf{136}{\input{fragments/en136}}{}
 \clearpage
 % ---------- opening 138 | 139 ----------
 \versoalign
 \markright{138}
+\setnoted{}
 \originals{138}{\input{fragments/gr138}}{\input{fragments/la139}}
 \clearpage
 \markright{138}
+\setnoted{}
 \enleaf{138}{\input{fragments/en138}}{}
 \clearpage
 % ---------- opening 140 | 141 ----------
 \versoalign
 \markright{140}
+\setnoted{}
 \originals{140}{\input{fragments/gr140}}{\input{fragments/la141}}
 \clearpage
 \markright{140}
+\setnoted{}
 \enleaf{140}{\input{fragments/en140}}{}
 \clearpage
 % ---------- opening 142 | 143 ----------
 \versoalign
 \markright{142}
+\setnoted{}
 \originals{142}{\input{fragments/gr142}}{\input{fragments/la143}}
 \clearpage
 \markright{142}
+\setnoted{}
 \enleaf{142}{\input{fragments/en142}}{}
 \clearpage
 % ---------- opening 144 | 145 ----------
 \versoalign
 \markright{144}
+\setnoted{}
 \originals{144}{\input{fragments/gr144}}{\input{fragments/la145}}
 \clearpage
 \markright{144}
+\setnoted{}
 \enleaf{144}{\input{fragments/en144}}{}
 \clearpage
 % ---------- opening 146 | 147 ----------
 \versoalign
 \markright{146}
+\setnoted{}
 \originals{146}{\input{fragments/gr146}}{\input{fragments/la147}}
 \clearpage
 \markright{146}
+\setnoted{}
 \enleaf{146}{\input{fragments/en146}}{}
 \clearpage
 \sethead{The Sixth Day}
 % ---------- opening 148 | 149 ----------
 \versoalign
 \markright{148}
+\setnoted{}
 \addcontentsline{toc}{section}{The Sixth Day}
 \originals{148}{\input{fragments/gr148}}{\input{fragments/la149}}
 \clearpage
 \markright{148}
+\setnoted{}
 \enleaf{148}{\input{fragments/en148}}{}
 \clearpage
 % ---------- opening 150 | 151 ----------
 \versoalign
 \markright{150}
+\setnoted{}
 \originals{150}{\input{fragments/gr150}}{\input{fragments/la151}}
 \clearpage
 \markright{150}
+\setnoted{}
 \enleaf{150}{\input{fragments/en150}}{}
 \clearpage
 % ---------- opening 152 | 153 ----------
 \versoalign
 \markright{152}
+\setnoted{}
 \originals{152}{\input{fragments/gr152}}{\input{fragments/la153}}
 \clearpage
 \markright{152}
+\setnoted{}
 \enleaf{152}{\input{fragments/en152}}{}
 \clearpage
 % ---------- opening 154 | 155 ----------
 \versoalign
 \markright{154}
+\setnoted{}
 \originals{154}{\input{fragments/gr154}}{\input{fragments/la155}}
 \clearpage
 \markright{154}
+\setnoted{}
 \enleaf{154}{\input{fragments/en154}}{}
 \clearpage
 % ---------- opening 156 | 157 ----------
 \versoalign
 \markright{156}
+\setnoted{}
 \originals{156}{\input{fragments/gr156}}{\input{fragments/la157}}
 \clearpage
 \markright{156}
+\setnoted{}
 \enleaf{156}{\input{fragments/en156}}{}
 \clearpage
 % ---------- opening 158 | 159 ----------
 \versoalign
 \markright{158}
+\setnoted{}
 \originals{158}{\input{fragments/gr158}}{\input{fragments/la159}}
 \clearpage
 \markright{158}
+\setnoted{}
 \enleaf{158}{\input{fragments/en158}}{}
 \clearpage
 % ---------- opening 160 | 161 ----------
 \versoalign
 \markright{160}
+\setnoted{}
 \originals{160}{\input{fragments/gr160}}{\input{fragments/la161}}
 \clearpage
 \markright{160}
+\setnoted{}
 \enleaf{160}{\input{fragments/en160}}{}
 \clearpage
 % ---------- opening 162 | 163 ----------
 \versoalign
 \markright{162}
+\setnoted{}
 \originals{162}{\input{fragments/gr162}}{\input{fragments/la163}}
 \clearpage
 \markright{162}
+\setnoted{}
 \enleaf{162}{\input{fragments/en162}}{}
 \clearpage
 % ---------- opening 164 | 165 ----------
 \versoalign
 \markright{164}
+\setnoted{}
 \originals{164}{\input{fragments/gr164}}{\input{fragments/la165}}
 \clearpage
 \markright{164}
+\setnoted{}
 \enleaf{164}{\input{fragments/en164}}{}
 \clearpage
 % ---------- opening 166 | 167 ----------
 \versoalign
 \markright{166}
+\setnoted{}
 \originals{166}{\input{fragments/gr166}}{\input{fragments/la167}}
 \clearpage
 \markright{166}
+\setnoted{}
 \enleaf{166}{\input{fragments/en166}}{}
 \clearpage
 \sethead{The Seventh Day}
 % ---------- opening 168 | 169 ----------
 \versoalign
 \markright{168}
+\setnoted{}
 \addcontentsline{toc}{section}{The Seventh Day}
 \originals{168}{\input{fragments/gr168}}{\input{fragments/la169}}
 \clearpage
 \markright{168}
+\setnoted{}
 \enleaf{168}{\input{fragments/en168}}{}
 \clearpage
 % ---------- opening 170 | 171 ----------
 \versoalign
 \markright{170}
+\setnoted{}
 \originals{170}{\input{fragments/gr170}}{\input{fragments/la171}}
 \clearpage
 \markright{170}
+\setnoted{}
 \enleaf{170}{\input{fragments/en170}}{}
 \clearpage
 % ---------- opening 172 | 173 ----------
 \versoalign
 \markright{172}
+\setnoted{}
 \originals{172}{\input{fragments/gr172}}{\input{fragments/la173}}
 \clearpage
 \markright{172}
+\setnoted{}
 \enleaf{172}{\input{fragments/en172}}{}
 \clearpage
 % ---------- opening 174 | 175 ----------
 \versoalign
 \markright{174}
+\setnoted{}
 \originals{174}{\input{fragments/gr174}}{\input{fragments/la175}}
 \clearpage
 \markright{174}
+\setnoted{}
 \enleaf{174}{\input{fragments/en174}}{}
 \clearpage
 % ---------- opening 176 | 177 ----------
 \versoalign
 \markright{176}
+\setnoted{}
 \originals{176}{\input{fragments/gr176}}{\input{fragments/la177}}
 \clearpage
 \markright{176}
+\setnoted{}
 \enleaf{176}{\input{fragments/en176}}{}
 \clearpage
 % ---------- opening 178 | 179 ----------
 \versoalign
 \markright{178}
+\setnoted{}
 \originals{178}{\input{fragments/gr178}}{\input{fragments/la179}}
 \clearpage
 \markright{178}
+\setnoted{}
 \enleaf{178}{\input{fragments/en178}}{}
 \clearpage
 % ---------- opening 180 | 181 ----------
 \versoalign
 \markright{180}
+\setnoted{}
 \originals{180}{\input{fragments/gr180}}{\input{fragments/la181}}
 \clearpage
 \markright{180}
+\setnoted{}
 \enleaf{180}{\input{fragments/en180}}{}
 \clearpage
 % ---------- opening 182 | 183 ----------
 \versoalign
 \markright{182}
+\setnoted{}
 \originals{182}{\input{fragments/gr182}}{\input{fragments/la183}}
 \clearpage
 \markright{182}
+\setnoted{}
 \enleaf{182}{\input{fragments/en182}}{}
 \clearpage
 % ---------- opening 184 | 185 ----------
 \versoalign
 \markright{184}
+\setnoted{}
 \originals{184}{\input{fragments/gr184}}{\input{fragments/la185}}
 \clearpage
 \markright{184}
+\setnoted{}
 \enleaf{184}{\input{fragments/en184}}{}
 \clearpage
 % ---------- opening 186 | 187 ----------
 \versoalign
 \markright{186}
+\setnoted{}
 \originals{186}{\input{fragments/gr186}}{\input{fragments/la187}}
 \clearpage
 \markright{186}
+\setnoted{}
 \enleaf{186}{\input{fragments/en186}}{}
 \clearpage
 % ---------- opening 188 | 189 ----------
 \versoalign
 \markright{188}
+\setnoted{}
 \originals{188}{\input{fragments/gr188}}{\input{fragments/la189}}
 \clearpage
 \markright{188}
+\setnoted{}
 \enleaf{188}{\input{fragments/en188}}{}
 \clearpage
 % ---------- opening 190 | 191 ----------
 \versoalign
 \markright{190}
+\setnoted{}
 \originals{190}{\input{fragments/gr190}}{\input{fragments/la191}}
 \clearpage
 \markright{190}
+\setnoted{}
 \enleaf{190}{\input{fragments/en190}}{}
 \clearpage
 % ---------- opening 192 | 193 ----------
 \versoalign
 \markright{192}
+\setnoted{}
 \originals{192}{\input{fragments/gr192}}{\input{fragments/la193}}
 \clearpage
 \markright{192}
+\setnoted{}
 \enleaf{192}{\input{fragments/en192}}{}
 \clearpage
 % ---------- opening 194 | 195 ----------
 \versoalign
 \markright{194}
+\setnoted{}
 \originals{194}{\input{fragments/gr194}}{\input{fragments/la195}}
 \clearpage
 \markright{194}
+\setnoted{}
 \enleaf{194}{\input{fragments/en194}}{}
 \clearpage
 % ---------- opening 196 | 197 ----------
 \versoalign
 \markright{196}
+\setnoted{}
 \originals{196}{\input{fragments/gr196}}{\input{fragments/la197}}
 \clearpage
 \markright{196}
+\setnoted{}
 \enleaf{196}{\input{fragments/en196}}{}
 \clearpage
 \sethead{Deprecation and Hosannas}
 % ---------- opening 198 | 199 ----------
 \versoalign
 \markright{198}
+\setnoted{}
 \addcontentsline{toc}{section}{Deprecation and Hosannas}
 \originals{198}{\input{fragments/gr198}}{\input{fragments/la199}}
 \clearpage
 \markright{198}
+\setnoted{}
 \enleaf{198}{\input{fragments/en198}}{}
 \clearpage
 % ---------- opening 200 | 201 ----------
 \versoalign
 \markright{200}
+\setnoted{}
 \originals{200}{\input{fragments/gr200}}{\input{fragments/la201}}
 \clearpage
 \markright{200}
+\setnoted{}
 \enleaf{200}{\input{fragments/en200}}{}
 \clearpage
 % ---------- opening 202 | 203 ----------
 \versoalign
 \markright{202}
+\setnoted{}
 \originals{202}{\input{fragments/gr202}}{\input{fragments/la203}}
 \clearpage
 \markright{202}
+\setnoted{}
 \enleaf{202}{\input{fragments/en202}}{}
 \clearpage
 % ---------- opening 204 | 205 ----------
 \versoalign
 \markright{204}
+\setnoted{}
 \originals{204}{\input{fragments/gr204}}{\input{fragments/la205}}
 \clearpage
 \markright{204}
+\setnoted{}
 \enleaf{204}{\input{fragments/en204}}{}
 \clearpage
 % ---------- opening 206 | 207 ----------
 \versoalign
 \markright{206}
+\setnoted{}
 \originals{206}{\input{fragments/gr206}}{\input{fragments/la207}}
 \clearpage
 \markright{206}
+\setnoted{}
 \enleaf{206}{\input{fragments/en206}}{}
 \clearpage
 % ---------- opening 208 | 209 ----------
 \versoalign
 \markright{208}
+\setnoted{}
 \originals{208}{\input{fragments/gr208}}{\input{fragments/la209}}
 \clearpage
 \markright{208}
+\setnoted{}
 \enleaf{208}{\input{fragments/en208}}{}
 \clearpage
 % ---------- opening 210 | 211 ----------
 \versoalign
 \markright{210}
+\setnoted{}
 \originals{210}{\input{fragments/gr210}}{\input{fragments/la211}}
 \clearpage
 \markright{210}
+\setnoted{}
 \enleaf{210}{\input{fragments/en210}}{}
 \clearpage
 % ---------- opening 212 | 213 ----------
 \versoalign
 \markright{212}
+\setnoted{}
 \originals{212}{\input{fragments/gr212}}{\input{fragments/la213}}
 \clearpage
 \markright{212}
+\setnoted{}
 \enleaf{212}{\input{fragments/en212}}{}
 \clearpage
 % ---------- opening 214 | 215 ----------
 \versoalign
 \markright{214}
+\setnoted{}
 \originals{214}{\input{fragments/gr214}}{\input{fragments/la215}}
 \clearpage
 \markright{214}
+\setnoted{}
 \enleaf{214}{\input{fragments/en214}}{}
 \clearpage
 % ---------- opening 216 | 217 ----------
 \versoalign
 \markright{216}
+\setnoted{}
 \originals{216}{\input{fragments/gr216}}{\input{fragments/la217}}
 \clearpage
 \markright{216}
+\setnoted{}
 \enleaf{216}{\input{fragments/en216}}{}
 \clearpage
 % ---------- opening 218 | 219 ----------
 \versoalign
 \markright{218}
+\setnoted{}
 \originals{218}{\input{fragments/gr218}}{\input{fragments/la219}}
 \clearpage
 \markright{218}
+\setnoted{}
 \enleaf{218}{\input{fragments/en218}}{}
 \clearpage
 \sethead{The Evening Office}
 % ---------- opening 220 | 221 ----------
 \versoalign
 \markright{220}
+\setnoted{}
 \addcontentsline{toc}{section}{The Evening Office}
 \originals{220}{\input{fragments/gr220}}{\input{fragments/la221}}
 \clearpage
 \markright{220}
+\setnoted{}
 \enleaf{220}{\input{fragments/en220}}{}
 \clearpage
 % ---------- opening 222 | 223 ----------
 \versoalign
 \markright{222}
+\setnoted{}
 \originals{222}{\input{fragments/gr222}}{\input{fragments/la223}}
 \clearpage
 \markright{222}
+\setnoted{}
 \enleaf{222}{\input{fragments/en222}}{}
 \clearpage
 % ---------- opening 224 | 225 ----------
 \versoalign
 \markright{224}
+\setnoted{}
 \originals{224}{\input{fragments/gr224}}{\input{fragments/la225}}
 \clearpage
 \markright{224}
+\setnoted{}
 \enleaf{224}{\input{fragments/en224}}{}
 \clearpage
 % ---------- opening 226 | 227 ----------
 \versoalign
 \markright{226}
+\setnoted{}
 \originals{226}{\input{fragments/gr226}}{\input{fragments/la227}}
 \clearpage
 \markright{226}
+\setnoted{}
 \enleaf{226}{\input{fragments/en226}}{}
 \clearpage
 % ---------- opening 228 | 229 ----------
 \versoalign
 \markright{228}
+\setnoted{}
 \originals{228}{\input{fragments/gr228}}{\input{fragments/la229}}
 \clearpage
 \markright{228}
+\setnoted{}
 \enleaf{228}{\input{fragments/en228}}{}
 \clearpage
 % ---------- opening 230 | 231 ----------
 \versoalign
 \markright{230}
+\setnoted{}
 \originals{230}{\input{fragments/gr230}}{\input{fragments/la231}}
 \clearpage
 \markright{230}
+\setnoted{}
 \enleaf{230}{\input{fragments/en230}}{}
 \clearpage
 % ---------- opening 232 | 233 ----------
 \versoalign
 \markright{232}
+\setnoted{}
 \originals{232}{\input{fragments/gr232}}{\input{fragments/la233}}
 \clearpage
 \markright{232}
+\setnoted{}
 \enleaf{232}{\input{fragments/en232}}{}
 \clearpage
 % ---------- opening 234 | 235 ----------
 \versoalign
 \markright{234}
+\setnoted{}
 \originals{234}{\input{fragments/gr234}}{\input{fragments/la235}}
 \clearpage
 \markright{234}
+\setnoted{}
 \enleaf{234}{\input{fragments/en234}}{}
 \clearpage
 % ---------- opening 236 | 237 ----------
 \versoalign
 \markright{236}
+\setnoted{}
 \originals{236}{\input{fragments/gr236}}{\input{fragments/la237}}
 \clearpage
 \markright{236}
+\setnoted{}
 \enleaf{236}{\input{fragments/en236}}{}
 \clearpage
 % ---------- opening 238 | 239 ----------
 \versoalign
 \markright{238}
+\setnoted{}
 \originals{238}{\input{fragments/gr238}}{\input{fragments/la239}}
 \clearpage
 \markright{238}
+\setnoted{}
 \enleaf{238}{\input{fragments/en238}}{}
 \clearpage
 % ---------- opening 240 | 241 ----------
 \versoalign
 \markright{240}
+\setnoted{}
 \originals{240}{\input{fragments/gr240}}{\input{fragments/la241}}
 \clearpage
 \markright{240}
+\setnoted{}
 \enleaf{240}{\input{fragments/en240}}{}
 \clearpage
 % ---------- opening 242 | 243 ----------
 \versoalign
 \markright{242}
+\setnoted{}
 \originals{242}{\input{fragments/gr242}}{\input{fragments/la243}}
 \clearpage
 \markright{242}
+\setnoted{}
 \enleaf{242}{\input{fragments/en242}}{}
 \clearpage
 % ---------- opening 244 | 245 ----------
 \versoalign
 \markright{244}
+\setnoted{}
 \originals{244}{\input{fragments/gr244}}{\input{fragments/la245}}
 \clearpage
 \markright{244}
+\setnoted{}
 \enleaf{244}{\input{fragments/en244}}{}
 \clearpage
 % ---------- opening 246 | 247 ----------
 \versoalign
 \markright{246}
+\setnoted{}
 \originals{246}{\input{fragments/gr246}}{\input{fragments/la247}}
 \clearpage
 \markright{246}
+\setnoted{}
 \enleaf{246}{\input{fragments/en246}}{}
 \clearpage
 % ---------- opening 248 | 249 ----------
 \versoalign
 \markright{248}
+\setnoted{}
 \originals{248}{\input{fragments/gr248}}{\input{fragments/la249}}
 \clearpage
 \markright{248}
+\setnoted{}
 \enleaf{248}{\input{fragments/en248}}{}
 \clearpage
 % ---------- opening 250 | 251 ----------
 \versoalign
 \markright{250}
+\setnoted{}
 \originals{250}{\input{fragments/gr250}}{\input{fragments/la251}}
 \clearpage
 \markright{250}
+\setnoted{}
 \enleaf{250}{\input{fragments/en250}}{}
 \clearpage
 \sethead{The Meditations}
 % ---------- opening 252 | 253 ----------
 \versoalign
 \markright{252}
+\setnoted{}
 \addcontentsline{toc}{section}{The Meditations}
 \originals{252}{\input{fragments/gr252}}{\input{fragments/la253}}
 \clearpage
 \markright{252}
+\setnoted{}
 \enleaf{252}{\input{fragments/en252}}{}
 \clearpage
 % ---------- opening 254 | 255 ----------
 \versoalign
 \markright{254}
+\setnoted{}
 \originals{254}{\input{fragments/gr254}}{\input{fragments/la255}}
 \clearpage
 \markright{254}
+\setnoted{}
 \enleaf{254}{\input{fragments/en254}}{}
 \clearpage
 % ---------- opening 256 | 257 ----------
 \versoalign
 \markright{256}
+\setnoted{}
 \originals{256}{\input{fragments/gr256}}{\input{fragments/la257}}
 \clearpage
 \markright{256}
+\setnoted{}
 \enleaf{256}{\input{fragments/en256}}{}
 \clearpage
 % ---------- opening 258 | 259 ----------
 \versoalign
 \markright{258}
+\setnoted{}
 \originals{258}{\input{fragments/gr258}}{\input{fragments/la259}}
 \clearpage
 \markright{258}
+\setnoted{}
 \enleaf{258}{\input{fragments/en258}}{}
 \clearpage
 % ---------- opening 260 | 261 ----------
 \versoalign
 \markright{260}
+\setnoted{}
 \originals{260}{\input{fragments/gr260}}{\input{fragments/la261}}
 \clearpage
 \markright{260}
+\setnoted{}
 \enleaf{260}{\input{fragments/en260}}{}
 \clearpage
 % ---------- opening 262 | 263 ----------
 \versoalign
 \markright{262}
+\setnoted{}
 \originals{262}{\input{fragments/gr262}}{\input{fragments/la263}}
 \clearpage
 \markright{262}
+\setnoted{}
 \enleaf{262}{\input{fragments/en262}}{}
 \clearpage
 \parthead{Part II --- Preces Quotidianae}
@@ -1203,1106 +1525,1360 @@
 % ---------- printed 267 ----------
 \versoalign
 \markright{267}
+\setnoted{}
 \addcontentsline{toc}{section}{§1 \emph{Duo in me cognosco}}
 \originalsone{267}{\input{fragments/la267}}{}
 \clearpage
 \markright{267}
+\setnoted{}
 \enleaf{267}{\input{fragments/en267}}{}
 \clearpage
 % ---------- printed 268 ----------
 \versoalign
 \markright{268}
+\setnoted{}
 \originalsone{268}{\input{fragments/la268}}{}
 \clearpage
 \markright{268}
+\setnoted{}
 \enleaf{268}{\input{fragments/en268}}{}
 \clearpage
 % ---------- printed 269 ----------
 \versoalign
 \markright{269}
+\setnoted{}
 \originalsone{269}{\input{fragments/la269}}{}
 \clearpage
 \markright{269}
+\setnoted{}
 \enleaf{269}{\input{fragments/en269}}{}
 \clearpage
 \sethead{§2 \emph{Preces Matutinæ}}
 % ---------- printed 270 ----------
 \versoalign
 \markright{270}
+\setnoted{}
 \addcontentsline{toc}{section}{§2 \emph{Preces Matutinæ}}
 \originalsone{270}{\input{fragments/la270}}{}
 \clearpage
 \markright{270}
+\setnoted{}
 \enleaf{270}{\input{fragments/en270}}{}
 \clearpage
 % ---------- printed 271 ----------
 \versoalign
 \markright{271}
+\setnoted{}
 \originalsone{271}{\input{fragments/la271}}{}
 \clearpage
 \markright{271}
+\setnoted{}
 \enleaf{271}{\input{fragments/en271}}{}
 \clearpage
 % ---------- printed 272 ----------
 \versoalign
 \markright{272}
+\setnoted{}
 \originalsone{272}{\input{fragments/la272}}{}
 \clearpage
 \markright{272}
+\setnoted{}
 \enleaf{272}{\input{fragments/en272}}{}
 \clearpage
 \sethead{§3 \emph{Intercessio}}
 % ---------- printed 273 ----------
 \versoalign
 \markright{273}
+\setnoted{}
 \addcontentsline{toc}{section}{§3 \emph{Intercessio}}
 \originalsone{273}{\input{fragments/la273}}{}
 \clearpage
 \markright{273}
+\setnoted{}
 \enleaf{273}{\input{fragments/en273}}{}
 \clearpage
 % ---------- printed 274 ----------
 \versoalign
 \markright{274}
+\setnoted{}
 \originalsone{274}{\input{fragments/la274}}{}
 \clearpage
 \markright{274}
+\setnoted{}
 \enleaf{274}{\input{fragments/en274}}{}
 \clearpage
 % ---------- printed 275 ----------
 \versoalign
 \markright{275}
+\setnoted{}
 \originalsone{275}{\input{fragments/la275}}{}
 \clearpage
 \markright{275}
+\setnoted{}
 \enleaf{275}{\input{fragments/en275}}{}
 \clearpage
 \sethead{§4 \emph{Gratiarum Actio}}
 % ---------- printed 276 ----------
 \versoalign
 \markright{276}
+\setnoted{}
 \addcontentsline{toc}{section}{§4 \emph{Gratiarum Actio}}
 \originalsone{276}{\input{fragments/la276}}{}
 \clearpage
 \markright{276}
+\setnoted{}
 \enleaf{276}{\input{fragments/en276}}{}
 \clearpage
 % ---------- printed 277 ----------
 \versoalign
 \markright{277}
+\setnoted{}
 \originalsone{277}{\input{fragments/la277}}{}
 \clearpage
 \markright{277}
+\setnoted{}
 \enleaf{277}{\input{fragments/en277}}{}
 \clearpage
 % ---------- printed 278 ----------
 \versoalign
 \markright{278}
+\setnoted{}
 \originalsone{278}{\input{fragments/la278}}{}
 \clearpage
 \markright{278}
+\setnoted{}
 \enleaf{278}{\input{fragments/en278}}{}
 \clearpage
 % ---------- printed 279 ----------
 \versoalign
 \markright{279}
+\setnoted{}
 \originalsone{279}{\input{fragments/la279}}{}
 \clearpage
 \markright{279}
+\setnoted{}
 \enleaf{279}{\input{fragments/en279}}{}
 \clearpage
 \sethead{§5 \emph{Deprecatio}}
 % ---------- printed 280 ----------
 \versoalign
 \markright{280}
+\setnoted{}
 \addcontentsline{toc}{section}{§5 \emph{Deprecatio} (\emph{Ne perdas})}
 \originalsone{280}{\input{fragments/la280}}{}
 \clearpage
 \markright{280}
+\setnoted{}
 \enleaf{280}{\input{fragments/en280}}{}
 \clearpage
 % ---------- printed 281 ----------
 \versoalign
 \markright{281}
+\setnoted{}
 \originalsone{281}{\input{fragments/la281}}{}
 \clearpage
 \markright{281}
+\setnoted{}
 \enleaf{281}{\input{fragments/en281}}{}
 \clearpage
 % ---------- printed 282 ----------
 \versoalign
 \markright{282}
+\setnoted{}
 \originalsone{282}{\input{fragments/la282}}{}
 \clearpage
 \markright{282}
+\setnoted{}
 \enleaf{282}{\input{fragments/en282}}{}
 \clearpage
 % ---------- printed 283 ----------
 \versoalign
 \markright{283}
+\setnoted{}
 \originalsone{283}{\input{fragments/la283}}{}
 \clearpage
 \markright{283}
+\setnoted{}
 \enleaf{283}{\input{fragments/en283}}{}
 \clearpage
 % ---------- printed 284 ----------
 \versoalign
 \markright{284}
+\setnoted{}
 \originalsone{284}{\input{fragments/la284}}{}
 \clearpage
 \markright{284}
+\setnoted{}
 \enleaf{284}{\input{fragments/en284}}{}
 \clearpage
 % ---------- printed 285 ----------
 \versoalign
 \markright{285}
+\setnoted{}
 \originalsone{285}{\input{fragments/la285}}{}
 \clearpage
 \markright{285}
+\setnoted{}
 \enleaf{285}{\input{fragments/en285}}{}
 \clearpage
 \sethead{§6 \emph{Sacrificium Vespertinum}}
 % ---------- printed 286 ----------
 \versoalign
 \markright{286}
+\setnoted{}
 \addcontentsline{toc}{section}{§6 \emph{Sacrificium Vespertinum} + \emph{Horologium}}
 \originalsone{286}{\input{fragments/la286}}{}
 \clearpage
 \markright{286}
+\setnoted{}
 \enleaf{286}{\input{fragments/en286}}{}
 \clearpage
 % ---------- printed 287 ----------
 \versoalign
 \markright{287}
+\setnoted{}
 \originalsone{287}{\input{fragments/la287}}{}
 \clearpage
 \markright{287}
+\setnoted{}
 \enleaf{287}{\input{fragments/en287}}{}
 \clearpage
 % ---------- printed 288 ----------
 \versoalign
 \markright{288}
+\setnoted{}
 \originalsone{288}{\input{fragments/la288}}{}
 \clearpage
 \markright{288}
+\setnoted{}
 \enleaf{288}{\input{fragments/en288}}{}
 \clearpage
 % ---------- printed 289 ----------
 \versoalign
 \markright{289}
+\setnoted{}
 \originalsone{289}{\input{fragments/la289}}{}
 \clearpage
 \markright{289}
+\setnoted{}
 \enleaf{289}{\input{fragments/en289}}{}
 \clearpage
 % ---------- printed 290 ----------
 \versoalign
 \markright{290}
+\setnoted{}
 \originalsone{290}{\input{fragments/la290}}{}
 \clearpage
 \markright{290}
+\setnoted{}
 \enleaf{290}{\input{fragments/en290}}{}
 \clearpage
 \sethead{§7 \emph{Allegatio}}
 % ---------- printed 291 ----------
 \versoalign
 \markright{291}
+\setnoted{}
 \addcontentsline{toc}{section}{§7 \emph{Allegatio} (the Pleading)}
 \originalsone{291}{\input{fragments/la291}}{}
 \clearpage
 \markright{291}
+\setnoted{}
 \enleaf{291}{\input{fragments/en291}}{}
 \clearpage
 % ---------- printed 292 ----------
 \versoalign
 \markright{292}
+\setnoted{}
 \originalsone{292}{\input{fragments/la292}}{}
 \clearpage
 \markright{292}
+\setnoted{}
 \enleaf{292}{\input{fragments/en292}}{}
 \clearpage
 % ---------- printed 293 ----------
 \versoalign
 \markright{293}
+\setnoted{}
 \originalsone{293}{\input{fragments/la293}}{}
 \clearpage
 \markright{293}
+\setnoted{}
 \enleaf{293}{\input{fragments/en293}}{}
 \clearpage
 % ---------- printed 294 ----------
 \versoalign
 \markright{294}
+\setnoted{}
 \originalsone{294}{\input{fragments/la294}}{}
 \clearpage
 \markright{294}
+\setnoted{}
 \enleaf{294}{\input{fragments/en294}}{}
 \clearpage
 % ---------- printed 295 ----------
 \versoalign
 \markright{295}
+\setnoted{}
 \originalsone{295}{\input{fragments/la295}}{}
 \clearpage
 \markright{295}
+\setnoted{}
 \enleaf{295}{\input{fragments/en295}}{}
 \clearpage
 % ---------- printed 296 ----------
 \versoalign
 \markright{296}
+\setnoted{}
 \originalsone{296}{\input{fragments/la296}}{}
 \clearpage
 \markright{296}
+\setnoted{}
 \enleaf{296}{\input{fragments/en296}}{}
 \clearpage
 % ---------- printed 297 ----------
 \versoalign
 \markright{297}
+\setnoted{}
 \originalsone{297}{\input{fragments/la297}}{}
 \clearpage
 \markright{297}
+\setnoted{}
 \enleaf{297}{\input{fragments/en297}}{}
 \clearpage
 % ---------- printed 298 ----------
 \versoalign
 \markright{298}
+\setnoted{}
 \originalsone{298}{\input{fragments/la298}}{}
 \clearpage
 \markright{298}
+\setnoted{}
 \enleaf{298}{\input{fragments/en298}}{}
 \clearpage
 % ---------- printed 299 ----------
 \versoalign
 \markright{299}
+\setnoted{}
 \originalsone{299}{\input{fragments/la299}}{}
 \clearpage
 \markright{299}
+\setnoted{}
 \enleaf{299}{\input{fragments/en299}}{}
 \clearpage
 \sethead{§8 \emph{Confessio Laudis}}
 % ---------- printed 300 ----------
 \versoalign
 \markright{300}
+\setnoted{}
 \addcontentsline{toc}{section}{§8 \emph{Confessio Laudis}}
 \originalsone{300}{\input{fragments/la300}}{}
 \clearpage
 \markright{300}
+\setnoted{}
 \enleaf{300}{\input{fragments/en300}}{}
 \clearpage
 % ---------- printed 301 ----------
 \versoalign
 \markright{301}
+\setnoted{}
 \originalsone{301}{\input{fragments/la301}}{}
 \clearpage
 \markright{301}
+\setnoted{}
 \enleaf{301}{\input{fragments/en301}}{}
 \clearpage
 % ---------- printed 302 ----------
 \versoalign
 \markright{302}
+\setnoted{}
 \originalsone{302}{\input{fragments/la302}}{}
 \clearpage
 \markright{302}
+\setnoted{}
 \enleaf{302}{\input{fragments/en302}}{}
 \clearpage
 % ---------- printed 303 ----------
 \versoalign
 \markright{303}
+\setnoted{}
 \originalsone{303}{\input{fragments/la303}}{}
 \clearpage
 \markright{303}
+\setnoted{}
 \enleaf{303}{\input{fragments/en303}}{}
 \clearpage
 \sethead{§9 \emph{Confessio} [in Angelis et Sanctis]}
 % ---------- printed 304 ----------
 \versoalign
 \markright{304}
+\setnoted{}
 \addcontentsline{toc}{section}{§9 \emph{Confessio} [in Angelis et Sanctis]}
 \originalsone{304}{\input{fragments/la304}}{}
 \clearpage
 \markright{304}
+\setnoted{}
 \enleaf{304}{\input{fragments/en304}}{}
 \clearpage
 % ---------- printed 305 ----------
 \versoalign
 \markright{305}
+\setnoted{}
 \originalsone{305}{\input{fragments/la305}}{}
 \clearpage
 \markright{305}
+\setnoted{}
 \enleaf{305}{\input{fragments/en305}}{}
 \clearpage
 \sethead{§10 \emph{Confessio Laudum}}
 % ---------- printed 306 ----------
 \versoalign
 \markright{306}
+\setnoted{}
 \addcontentsline{toc}{section}{§10 \emph{Confessio Laudum}}
 \originalsone{306}{\input{fragments/la306}}{}
 \clearpage
 \markright{306}
+\setnoted{}
 \enleaf{306}{\input{fragments/en306}}{}
 \clearpage
 % ---------- printed 307 ----------
 \versoalign
 \markright{307}
+\setnoted{}
 \originalsone{307}{\input{fragments/la307}}{}
 \clearpage
 \markright{307}
+\setnoted{}
 \enleaf{307}{\input{fragments/en307}}{}
 \clearpage
 % ---------- printed 308 ----------
 \versoalign
 \markright{308}
+\setnoted{}
 \originalsone{308}{\input{fragments/la308}}{}
 \clearpage
 \markright{308}
+\setnoted{}
 \enleaf{308}{\input{fragments/en308}}{}
 \clearpage
 % ---------- printed 309 ----------
 \versoalign
 \markright{309}
+\setnoted{}
 \originalsone{309}{\input{fragments/la309}}{}
 \clearpage
 \markright{309}
+\setnoted{}
 \enleaf{309}{\input{fragments/en309}}{}
 \clearpage
 \sethead{§11 \emph{Pro morte Christi}}
 % ---------- printed 310 ----------
 \versoalign
 \markright{310}
+\setnoted{}
 \addcontentsline{toc}{section}{§11 \emph{Pro morte Christi}}
 \originalsone{310}{\input{fragments/la310}}{}
 \clearpage
 \markright{310}
+\setnoted{}
 \enleaf{310}{\input{fragments/en310}}{}
 \clearpage
 % ---------- printed 311 ----------
 \versoalign
 \markright{311}
+\setnoted{}
 \originalsone{311}{\input{fragments/la311}}{}
 \clearpage
 \markright{311}
+\setnoted{}
 \enleaf{311}{\input{fragments/en311}}{}
 \clearpage
 % ---------- printed 312 ----------
 \versoalign
 \markright{312}
+\setnoted{}
 \originalsone{312}{\input{fragments/la312}}{}
 \clearpage
 \markright{312}
+\setnoted{}
 \enleaf{312}{\input{fragments/en312}}{}
 \clearpage
 % ---------- printed 313 ----------
 \versoalign
 \markright{313}
+\setnoted{}
 \originalsone{313}{\input{fragments/la313}}{}
 \clearpage
 \markright{313}
+\setnoted{}
 \enleaf{313}{\input{fragments/en313}}{}
 \clearpage
 % ---------- printed 314 ----------
 \versoalign
 \markright{314}
+\setnoted{}
 \originalsone{314}{\input{fragments/la314}}{}
 \clearpage
 \markright{314}
+\setnoted{}
 \enleaf{314}{\input{fragments/en314}}{}
 \clearpage
 % ---------- printed 315 ----------
 \versoalign
 \markright{315}
+\setnoted{}
 \originalsone{315}{\input{fragments/la315}}{}
 \clearpage
 \markright{315}
+\setnoted{}
 \enleaf{315}{\input{fragments/en315}}{}
 \clearpage
 \sethead{§12 \emph{Transfiguratio}}
 % ---------- printed 316 ----------
 \versoalign
 \markright{316}
+\setnoted{}
 \addcontentsline{toc}{section}{§12 \emph{Transfiguratio}}
 \originalsone{316}{\input{fragments/la316}}{}
 \clearpage
 \markright{316}
+\setnoted{}
 \enleaf{316}{\input{fragments/en316}}{}
 \clearpage
 \sethead{§13 \emph{Confessio Laudum}}
 % ---------- printed 317 ----------
 \versoalign
 \markright{317}
+\setnoted{}
 \addcontentsline{toc}{section}{§13 \emph{Confessio Laudum — Pro Spiritu Sancto}}
 \originalsone{317}{\input{fragments/la317}}{}
 \clearpage
 \markright{317}
+\setnoted{}
 \enleaf{317}{\input{fragments/en317}}{}
 \clearpage
 % ---------- printed 318 ----------
 \versoalign
 \markright{318}
+\setnoted{}
 \originalsone{318}{\input{fragments/la318}}{}
 \clearpage
 \markright{318}
+\setnoted{}
 \enleaf{318}{\input{fragments/en318}}{}
 \clearpage
 \sethead{§14 \emph{Triumphus misericordiæ}}
 % ---------- printed 319 ----------
 \versoalign
 \markright{319}
+\setnoted{}
 \addcontentsline{toc}{section}{§14 \emph{Triumphus misericordiæ}}
 \originalsone{319}{\input{fragments/la319}}{}
 \clearpage
 \markright{319}
+\setnoted{}
 \enleaf{319}{\input{fragments/en319}}{}
 \clearpage
 % ---------- printed 320 ----------
 \versoalign
 \markright{320}
+\setnoted{}
 \originalsone{320}{\input{fragments/la320}}{}
 \clearpage
 \markright{320}
+\setnoted{}
 \enleaf{320}{\input{fragments/en320}}{}
 \clearpage
 \sethead{§15 \emph{Præoratio}}
 % ---------- printed 321 ----------
 \versoalign
 \markright{321}
+\setnoted{}
 \addcontentsline{toc}{section}{§15 \emph{Præoratio} + \emph{Deprecatio}}
 \originalsone{321}{\input{fragments/la321}}{}
 \clearpage
 \markright{321}
+\setnoted{}
 \enleaf{321}{\input{fragments/en321}}{}
 \clearpage
 % ---------- printed 322 ----------
 \versoalign
 \markright{322}
+\setnoted{}
 \originalsone{322}{\input{fragments/la322}}{}
 \clearpage
 \markright{322}
+\setnoted{}
 \enleaf{322}{\input{fragments/en322}}{}
 \clearpage
 \sethead{§16 \emph{Allegatio}}
 % ---------- printed 323 ----------
 \versoalign
 \markright{323}
+\setnoted{}
 \addcontentsline{toc}{section}{§16 \emph{Allegatio} (fragilitatis humanæ)}
 \originalsone{323}{\input{fragments/la323}}{}
 \clearpage
 \markright{323}
+\setnoted{}
 \enleaf{323}{\input{fragments/en323}}{}
 \clearpage
 \sethead{§17 \emph{Peccatorum Confessio}}
 % ---------- printed 324 ----------
 \versoalign
 \markright{324}
+\setnoted{}
 \addcontentsline{toc}{section}{§17 \emph{Peccatorum Confessio}}
 \originalsone{324}{\input{fragments/la324}}{}
 \clearpage
 \markright{324}
+\setnoted{}
 \enleaf{324}{\input{fragments/en324}}{}
 \clearpage
 \sethead{§18 \emph{Aggravatio}}
 % ---------- printed 325 ----------
 \versoalign
 \markright{325}
+\setnoted{}
 \addcontentsline{toc}{section}{§18 \emph{Aggravatio} + \emph{Peccati Species}}
 \originalsone{325}{\input{fragments/la325}}{}
 \clearpage
 \markright{325}
+\setnoted{}
 \enleaf{325}{\input{fragments/en325}}{}
 \clearpage
 % ---------- printed 326 ----------
 \versoalign
 \markright{326}
+\setnoted{}
 \originalsone{326}{\input{fragments/la326}}{}
 \clearpage
 \markright{326}
+\setnoted{}
 \enleaf{326}{\input{fragments/en326}}{}
 \clearpage
 \sethead{§19 \emph{Pœnitet}}
 % ---------- printed 327 ----------
 \versoalign
 \markright{327}
+\setnoted{}
 \addcontentsline{toc}{section}{§19 \emph{Pœnitet}}
 \originalsone{327}{\input{fragments/la327}}{}
 \clearpage
 \markright{327}
+\setnoted{}
 \enleaf{327}{\input{fragments/en327}}{}
 \clearpage
 \sethead{§20 \emph{Miserere}}
 % ---------- printed 328 ----------
 \versoalign
 \markright{328}
+\setnoted{}
 \addcontentsline{toc}{section}{§20 \emph{Miserere}}
 \originalsone{328}{\input{fragments/la328}}{}
 \clearpage
 \markright{328}
+\setnoted{}
 \enleaf{328}{\input{fragments/en328}}{}
 \clearpage
 % ---------- printed 329 ----------
 \versoalign
 \markright{329}
+\setnoted{}
 \originalsone{329}{\input{fragments/la329}}{}
 \clearpage
 \markright{329}
+\setnoted{}
 \enleaf{329}{\input{fragments/en329}}{}
 \clearpage
 % ---------- printed 330 ----------
 \versoalign
 \markright{330}
+\setnoted{}
 \originalsone{330}{\input{fragments/la330}}{}
 \clearpage
 \markright{330}
+\setnoted{}
 \enleaf{330}{\input{fragments/en330}}{}
 \clearpage
 % ---------- printed 331 ----------
 \versoalign
 \markright{331}
+\setnoted{}
 \originalsone{331}{\input{fragments/la331}}{}
 \clearpage
 \markright{331}
+\setnoted{}
 \enleaf{331}{\input{fragments/en331}}{}
 \clearpage
 \sethead{§21 \emph{Quies animæ}}
 % ---------- printed 332 ----------
 \versoalign
 \markright{332}
+\setnoted{}
 \addcontentsline{toc}{section}{§21 \emph{Quies animæ}}
 \originalsone{332}{\input{fragments/la332}}{}
 \clearpage
 \markright{332}
+\setnoted{}
 \enleaf{332}{\input{fragments/en332}}{}
 \clearpage
 % ---------- printed 333 ----------
 \versoalign
 \markright{333}
+\setnoted{}
 \originalsone{333}{\input{fragments/la333}}{}
 \clearpage
 \markright{333}
+\setnoted{}
 \enleaf{333}{\input{fragments/en333}}{}
 \clearpage
 \sethead{§22 \emph{Confessio Peccati}}
 % ---------- printed 334 ----------
 \versoalign
 \markright{334}
+\setnoted{}
 \addcontentsline{toc}{section}{§22 \emph{Confessio Peccati}}
 \originalsone{334}{\input{fragments/la334}}{}
 \clearpage
 \markright{334}
+\setnoted{}
 \enleaf{334}{\input{fragments/en334}}{}
 \clearpage
 % ---------- printed 335 ----------
 \versoalign
 \markright{335}
+\setnoted{}
 \originalsone{335}{\input{fragments/la335}}{}
 \clearpage
 \markright{335}
+\setnoted{}
 \enleaf{335}{\input{fragments/en335}}{}
 \clearpage
 % ---------- printed 336 ----------
 \versoalign
 \markright{336}
+\setnoted{}
 \originalsone{336}{\input{fragments/la336}}{}
 \clearpage
 \markright{336}
+\setnoted{}
 \enleaf{336}{\input{fragments/en336}}{}
 \clearpage
 % ---------- printed 337 ----------
 \versoalign
 \markright{337}
+\setnoted{}
 \originalsone{337}{\input{fragments/la337}}{}
 \clearpage
 \markright{337}
+\setnoted{}
 \enleaf{337}{\input{fragments/en337}}{}
 \clearpage
 % ---------- printed 338 ----------
 \versoalign
 \markright{338}
+\setnoted{}
 \originalsone{338}{\input{fragments/la338}}{}
 \clearpage
 \markright{338}
+\setnoted{}
 \enleaf{338}{\input{fragments/en338}}{}
 \clearpage
 % ---------- printed 339 ----------
 \versoalign
 \markright{339}
+\setnoted{}
 \originalsone{339}{\input{fragments/la339}}{}
 \clearpage
 \markright{339}
+\setnoted{}
 \enleaf{339}{\input{fragments/en339}}{}
 \clearpage
 \sethead{§23 \emph{In magnum pietatis sacramentum}}
 % ---------- printed 340 ----------
 \versoalign
 \markright{340}
+\setnoted{}
 \addcontentsline{toc}{section}{§23 \emph{In magnum pietatis sacramentum}}
 \originalsone{340}{\input{fragments/la340}}{}
 \clearpage
 \markright{340}
+\setnoted{}
 \enleaf{340}{\input{fragments/en340}}{}
 \clearpage
 % ---------- printed 341 ----------
 \versoalign
 \markright{341}
+\setnoted{}
 \originalsone{341}{\input{fragments/la341}}{}
 \clearpage
 \markright{341}
+\setnoted{}
 \enleaf{341}{\input{fragments/en341}}{}
 \clearpage
 % ---------- printed 342 ----------
 \versoalign
 \markright{342}
+\setnoted{}
 \originalsone{342}{\input{fragments/la342}}{}
 \clearpage
 \markright{342}
+\setnoted{}
 \enleaf{342}{\input{fragments/en342}}{}
 \clearpage
 % ---------- printed 343 ----------
 \versoalign
 \markright{343}
+\setnoted{}
 \originalsone{343}{\input{fragments/la343}}{}
 \clearpage
 \markright{343}
+\setnoted{}
 \enleaf{343}{\input{fragments/en343}}{}
 \clearpage
 % ---------- printed 344 ----------
 \versoalign
 \markright{344}
+\setnoted{}
 \originalsone{344}{\input{fragments/la344}}{}
 \clearpage
 \markright{344}
+\setnoted{}
 \enleaf{344}{\input{fragments/en344}}{}
 \clearpage
 % ---------- printed 345 ----------
 \versoalign
 \markright{345}
+\setnoted{}
 \originalsone{345}{\input{fragments/la345}}{}
 \clearpage
 \markright{345}
+\setnoted{}
 \enleaf{345}{\input{fragments/en345}}{}
 \clearpage
 \sethead{§24 \emph{Confessio Laudis}}
 % ---------- printed 346 ----------
 \versoalign
 \markright{346}
+\setnoted{}
 \addcontentsline{toc}{section}{§24 \emph{Confessio Laudis}}
 \originalsone{346}{\input{fragments/la346}}{}
 \clearpage
 \markright{346}
+\setnoted{}
 \enleaf{346}{\input{fragments/en346}}{}
 \clearpage
 % ---------- printed 347 ----------
 \versoalign
 \markright{347}
+\setnoted{}
 \originalsone{347}{\input{fragments/la347}}{}
 \clearpage
 \markright{347}
+\setnoted{}
 \enleaf{347}{\input{fragments/en347}}{}
 \clearpage
 % ---------- printed 348 ----------
 \versoalign
 \markright{348}
+\setnoted{}
 \originalsone{348}{\input{fragments/la348}}{}
 \clearpage
 \markright{348}
+\setnoted{}
 \enleaf{348}{\input{fragments/en348}}{}
 \clearpage
 \sethead{§25 \emph{Confessio Peccati et Protestatio Gratitudinis}}
 % ---------- printed 349 ----------
 \versoalign
 \markright{349}
+\setnoted{}
 \addcontentsline{toc}{section}{§25 \emph{Confessio Peccati et Protestatio Gratitudinis}}
 \originalsone{349}{\input{fragments/la349}}{}
 \clearpage
 \markright{349}
+\setnoted{}
 \enleaf{349}{\input{fragments/en349}}{}
 \clearpage
 % ---------- printed 350 ----------
 \versoalign
 \markright{350}
+\setnoted{}
 \originalsone{350}{\input{fragments/la350}}{}
 \clearpage
 \markright{350}
+\setnoted{}
 \enleaf{350}{\input{fragments/en350}}{}
 \clearpage
 \sethead{§26 \emph{Oratio Dominica Variata}}
 % ---------- printed 351 ----------
 \versoalign
 \markright{351}
+\setnoted{}
 \addcontentsline{toc}{section}{§26 \emph{Oratio Dominica Variata}}
 \originalsone{351}{\input{fragments/la351}}{}
 \clearpage
 \markright{351}
+\setnoted{}
 \enleaf{351}{\input{fragments/en351}}{}
 \clearpage
 % ---------- printed 352 ----------
 \versoalign
 \markright{352}
+\setnoted{}
 \originalsone{352}{\input{fragments/la352}}{}
 \clearpage
 \markright{352}
+\setnoted{}
 \enleaf{352}{\input{fragments/en352}}{}
 \clearpage
 % ---------- printed 353 ----------
 \versoalign
 \markright{353}
+\setnoted{}
 \originalsone{353}{\input{fragments/la353}}{}
 \clearpage
 \markright{353}
+\setnoted{}
 \enleaf{353}{\input{fragments/en353}}{}
 \clearpage
 % ---------- printed 354 ----------
 \versoalign
 \markright{354}
+\setnoted{}
 \originalsone{354}{\input{fragments/la354}}{}
 \clearpage
 \markright{354}
+\setnoted{}
 \enleaf{354}{\input{fragments/en354}}{}
 \clearpage
 \sethead{§27 \emph{In Prædicatione}}
 % ---------- printed 355 ----------
 \versoalign
 \markright{355}
+\setnoted{}
 \addcontentsline{toc}{section}{§27 \emph{In Prædicatione · Ad Verbum · Ad Templi ingressum}}
 \originalsone{355}{\input{fragments/la355}}{}
 \clearpage
 \markright{355}
+\setnoted{}
 \enleaf{355}{\input{fragments/en355}}{}
 \clearpage
 % ---------- printed 356 ----------
 \versoalign
 \markright{356}
+\setnoted{}
 \originalsone{356}{\input{fragments/la356}}{}
 \clearpage
 \markright{356}
+\setnoted{}
 \enleaf{356}{\input{fragments/en356}}{}
 \clearpage
 \sethead{§28 \emph{[Θωμᾶς}}
 % ---------- printed 357 ----------
 \versoalign
 \markright{357}
+\setnoted{}
 \addcontentsline{toc}{section}{§28 \emph{[Θωμᾶς — Pœnitetne?]}}
 \originalsone{357}{\input{fragments/la357}}{}
 \clearpage
 \markright{357}
+\setnoted{}
 \enleaf{357}{\input{fragments/en357}}{}
 \clearpage
 \sethead{§29 \emph{Actus Adorationis}}
 % ---------- printed 358 ----------
 \versoalign
 \markright{358}
+\setnoted{}
 \addcontentsline{toc}{section}{§29 \emph{Actus Adorationis}}
 \originalsone{358}{\input{fragments/la358}}{}
 \clearpage
 \markright{358}
+\setnoted{}
 \enleaf{358}{\input{fragments/en358}}{}
 \clearpage
 % ---------- printed 359 ----------
 \versoalign
 \markright{359}
+\setnoted{}
 \originalsone{359}{\input{fragments/la359}}{}
 \clearpage
 \markright{359}
+\setnoted{}
 \enleaf{359}{\input{fragments/en359}}{}
 \clearpage
 \sethead{§30 \emph{Oratio peregre profecturi}}
 % ---------- printed 360 ----------
 \versoalign
 \markright{360}
+\setnoted{}
 \addcontentsline{toc}{section}{§30 \emph{Oratio peregre profecturi · Septem Opera Misericordiæ}}
 \originalsone{360}{\input{fragments/la360}}{}
 \clearpage
 \markright{360}
+\setnoted{}
 \enleaf{360}{\input{fragments/en360}}{}
 \clearpage
 \sethead{§31 \emph{Πατὲρ ἡμῶν}}
 % ---------- printed 361 ----------
 \versoalign
 \markright{361}
+\setnoted{}
 \addcontentsline{toc}{section}{§31 \emph{Πατὲρ ἡμῶν} (the Lord's Prayer, petition by petition)}
 \originalsone{361}{\input{fragments/la361}}{}
 \clearpage
 \markright{361}
+\setnoted{}
 \enleaf{361}{\input{fragments/en361}}{}
 \clearpage
 % ---------- printed 362 ----------
 \versoalign
 \markright{362}
+\setnoted{}
 \originalsone{362}{\input{fragments/la362}}{}
 \clearpage
 \markright{362}
+\setnoted{}
 \enleaf{362}{\input{fragments/en362}}{}
 \clearpage
 % ---------- printed 363 ----------
 \versoalign
 \markright{363}
+\setnoted{}
 \originalsone{363}{\input{fragments/la363}}{}
 \clearpage
 \markright{363}
+\setnoted{}
 \enleaf{363}{\input{fragments/en363}}{}
 \clearpage
 \sethead{§32 \emph{Articulorum Fidei Ἀνακεφαλαίωσις}}
 % ---------- printed 364 ----------
 \versoalign
 \markright{364}
+\setnoted{}
 \addcontentsline{toc}{section}{§32 \emph{Articulorum Fidei Ἀνακεφαλαίωσις · Interpellatio Eucharistica}}
 \originalsone{364}{\input{fragments/gr364}}{}
 \clearpage
 \markright{364}
+\setnoted{}
 \enleaf{364}{\input{fragments/en364}}{}
 \clearpage
 \sethead{§33 \emph{Sicut patres, et nos libera, Domine}}
 % ---------- printed 365 ----------
 \versoalign
 \markright{365}
+\setnoted{}
 \addcontentsline{toc}{section}{§33 \emph{Sicut patres, et nos libera, Domine}}
 \originalsone{365}{\input{fragments/gr365}}{}
 \clearpage
 \markright{365}
+\setnoted{}
 \enleaf{365}{\input{fragments/en365}}{}
 \clearpage
 \sethead{§34 \emph{Præparatio ad Εὐλογίαν}}
 % ---------- printed 366 ----------
 \versoalign
 \markright{366}
+\setnoted{}
 \addcontentsline{toc}{section}{§34 \emph{Præparatio ad Εὐλογίαν}}
 \originalsone{366}{\input{fragments/la366}}{}
 \clearpage
 \markright{366}
+\setnoted{}
 \enleaf{366}{\input{fragments/en366}}{}
 \clearpage
 % ---------- printed 367 ----------
 \versoalign
 \markright{367}
+\setnoted{}
 \originalsone{367}{\input{fragments/la367}}{}
 \clearpage
 \markright{367}
+\setnoted{}
 \enleaf{367}{\input{fragments/en367}}{}
 \clearpage
 % ---------- printed 368 ----------
 \versoalign
 \markright{368}
+\setnoted{}
 \originalsone{368}{\input{fragments/gr368}}{}
 \clearpage
 \markright{368}
+\setnoted{}
 \enleaf{368}{\input{fragments/en368}}{}
 \clearpage
 % ---------- printed 369 ----------
 \versoalign
 \markright{369}
+\setnoted{}
 \originalsone{369}{\input{fragments/gr369}}{}
 \clearpage
 \markright{369}
+\setnoted{}
 \enleaf{369}{\input{fragments/en369}}{}
 \clearpage
 \sethead{§35 \emph{Oratio Tho. Bradwardini}}
 % ---------- printed 370 ----------
 \versoalign
 \markright{370}
+\setnoted{}
 \addcontentsline{toc}{section}{§35 \emph{Oratio Tho. Bradwardini}}
 \originalsone{370}{\input{fragments/la370}}{}
 \clearpage
 \markright{370}
+\setnoted{}
 \enleaf{370}{\input{fragments/en370}}{}
 \clearpage
 \sethead{§36 [\emph{Pro} intercession, headless]}
 % ---------- printed 371 ----------
 \versoalign
 \markright{371}
+\setnoted{}
 \addcontentsline{toc}{section}{§36 [\emph{Pro} intercession, headless] + \emph{De Pœnitentia}}
 \originalsone{371}{\input{fragments/la371}}{}
 \clearpage
 \markright{371}
+\setnoted{}
 \enleaf{371}{\input{fragments/en371}}{}
 \clearpage
 % ---------- printed 372 ----------
 \versoalign
 \markright{372}
+\setnoted{}
 \originalsone{372}{\input{fragments/la372}}{}
 \clearpage
 \markright{372}
+\setnoted{}
 \enleaf{372}{\input{fragments/en372}}{}
 \clearpage
 \sethead{§37 \emph{Confessio Peccatorum}}
 % ---------- printed 373 ----------
 \versoalign
 \markright{373}
+\setnoted{}
 \addcontentsline{toc}{section}{§37 \emph{Confessio Peccatorum}}
 \originalsone{373}{\input{fragments/la373}}{}
 \clearpage
 \markright{373}
+\setnoted{}
 \enleaf{373}{\input{fragments/en373}}{}
 \clearpage
 % ---------- printed 374 ----------
 \versoalign
 \markright{374}
+\setnoted{}
 \originalsone{374}{\input{fragments/la374}}{}
 \clearpage
 \markright{374}
+\setnoted{}
 \enleaf{374}{\input{fragments/en374}}{}
 \clearpage
 % ---------- printed 375 ----------
 \versoalign
 \markright{375}
+\setnoted{}
 \originalsone{375}{\input{fragments/la375}}{}
 \clearpage
 \markright{375}
+\setnoted{}
 \enleaf{375}{\input{fragments/en375}}{}
 \clearpage
 % ---------- printed 376 ----------
 \versoalign
 \markright{376}
+\setnoted{}
 \originalsone{376}{\input{fragments/la376}}{}
 \clearpage
 \markright{376}
+\setnoted{}
 \enleaf{376}{\input{fragments/en376}}{}
 \clearpage
 % ---------- printed 377 ----------
 \versoalign
 \markright{377}
+\setnoted{}
 \originalsone{377}{\input{fragments/la377}}{}
 \clearpage
 \markright{377}
+\setnoted{}
 \enleaf{377}{\input{fragments/en377}}{}
 \clearpage
 % ---------- printed 378 ----------
 \versoalign
 \markright{378}
+\setnoted{}
 \originalsone{378}{\input{fragments/la378}}{}
 \clearpage
 \markright{378}
+\setnoted{}
 \enleaf{378}{\input{fragments/en378}}{}
 \clearpage
 % ---------- printed 379 ----------
 \versoalign
 \markright{379}
+\setnoted{}
 \originalsone{379}{\input{fragments/la379}}{}
 \clearpage
 \markright{379}
+\setnoted{}
 \enleaf{379}{\input{fragments/en379}}{}
 \clearpage
 \sethead{§38 \emph{Oratiuncula post Confessionem}}
 % ---------- printed 380 ----------
 \versoalign
 \markright{380}
+\setnoted{}
 \addcontentsline{toc}{section}{§38 \emph{Oratiuncula post Confessionem} + \emph{Oratio Præparatoria}}
 \originalsone{380}{\input{fragments/la380}}{}
 \clearpage
 \markright{380}
+\setnoted{}
 \enleaf{380}{\input{fragments/en380}}{}
 \clearpage
 \sethead{§39 \emph{Ante Concionem Cautela cum Precatione ex Fulgentii l…}}
 % ---------- printed 381 ----------
 \versoalign
 \markright{381}
+\setnoted{}
 \addcontentsline{toc}{section}{§39 \emph{Ante Concionem Cautela cum Precatione ex Fulgentii l. i. ad Mon.}}
 \originalsone{381}{\input{fragments/la381}}{}
 \clearpage
 \markright{381}
+\setnoted{}
 \enleaf{381}{\input{fragments/en381}}{}
 \clearpage
 \sethead{§40 Ἀφορμαὶ \emph{Meditationum}}
 % ---------- printed 382 ----------
 \versoalign
 \markright{382}
+\setnoted{}
 \addcontentsline{toc}{section}{§40 Ἀφορμαὶ \emph{Meditationum} (three catenæ: ante Preces Pœnitentiales · ante Intercessionum · ante Εὐχαριστίαν ἢ Εὐλογίαν)}
 \originalsone{382}{\input{fragments/la382}}{}
 \clearpage
 \markright{382}
+\setnoted{}
 \enleaf{382}{\input{fragments/en382}}{}
 \clearpage
 % ---------- printed 383 ----------
 \versoalign
 \markright{383}
+\setnoted{}
 \originalsone{383}{\input{fragments/la383}}{}
 \clearpage
 \markright{383}
+\setnoted{}
 \enleaf{383}{\input{fragments/en383}}{}
 \clearpage
 % ---------- printed 384 ----------
 \versoalign
 \markright{384}
+\setnoted{}
 \originalsone{384}{\input{fragments/la384}}{}
 \clearpage
 \markright{384}
+\setnoted{}
 \enleaf{384}{\input{fragments/en384}}{}
 \clearpage
 \sethead{§41 \emph{Oratio præparatoria ante} Εὐλογίαν}
 % ---------- printed 385 ----------
 \versoalign
 \markright{385}
+\setnoted{}
 \addcontentsline{toc}{section}{§41 \emph{Oratio præparatoria ante} Εὐλογίαν + \emph{Monita et Meditationes præparatoriæ in Vespertina ad Deum elevatione mentis} (→ \emph{Scrutinium et Inquisitio, vel Examen})}
 \originalsone{385}{\input{fragments/la385}}{}
 \clearpage
 \markright{385}
+\setnoted{}
 \enleaf{385}{\input{fragments/en385}}{}
 \clearpage
 % ---------- printed 386 ----------
 \versoalign
 \markright{386}
+\setnoted{}
 \originalsone{386}{\input{fragments/la386}}{}
 \clearpage
 \markright{386}
+\setnoted{}
 \enleaf{386}{\input{fragments/en386}}{}
 \clearpage
 % ---------- printed 387 ----------
 \versoalign
 \markright{387}
+\setnoted{}
 \originalsone{387}{\input{fragments/la387}}{}
 \clearpage
 \markright{387}
+\setnoted{}
 \enleaf{387}{\input{fragments/en387}}{}
 \clearpage
 \sethead{§42 ΥΜΝΟΣ ΕΩΘΙΝΟΣ / \emph{Hymnus Matutinus}}
 % ---------- printed 388 ----------
 \versoalign
 \markright{388}
+\setnoted{}
 \addcontentsline{toc}{section}{§42 ΥΜΝΟΣ ΕΩΘΙΝΟΣ / \emph{Hymnus Matutinus} + ΥΜΝΟΣ ΕΣΠΕΡΙΝΟΣ / \emph{Hymnus Vespertinus}}
 \originalsone{388}{\input{fragments/gr388}}{}
 \clearpage
 \markright{388}
+\setnoted{}
 \enleaf{388}{\input{fragments/en388}}{}
 \clearpage
 % ---------- printed 389 ----------
 \versoalign
 \markright{389}
+\setnoted{}
 \originalsone{389}{\input{fragments/la389}}{}
 \clearpage
 % ---------- printed 390 ----------
 \versoalign
 \markright{390}
+\setnoted{}
 \originalsone{390}{\input{fragments/gr390}}{}
 \clearpage
 \markright{390}
+\setnoted{}
 \enleaf{390}{\input{fragments/en390}}{}
 \clearpage
 % ---------- printed 391 ----------
 \versoalign
 \markright{391}
+\setnoted{}
 \originalsone{391}{\input{fragments/la391}}{}
 \clearpage
 \sethead{§43 ΕΙΣ ΤΗΝ ΤΟΥ ΧΡΙΣΤΟΥ ΣΤΑΥΡΩΣΙΝ, Μονοστροφικά / \emph{In Chr…}}
 % ---------- printed 392 ----------
 \versoalign
 \markright{392}
+\setnoted{}
 \addcontentsline{toc}{section}{§43 ΕΙΣ ΤΗΝ ΤΟΥ ΧΡΙΣΤΟΥ ΣΤΑΥΡΩΣΙΝ, Μονοστροφικά / \emph{In Christum Crucifixum, Monostrophica}}
 \originalsone{392}{\input{fragments/gr392}}{}
 \clearpage
 \markright{392}
+\setnoted{}
 \enleaf{392}{\input{fragments/en392}}{}
 \clearpage
 % ---------- printed 393 ----------
 \versoalign
 \markright{393}
+\setnoted{}
 \originalsone{393}{\input{fragments/la393}}{}
 \clearpage
 % ---------- printed 394 ----------
 \versoalign
 \markright{394}
+\setnoted{}
 \originalsone{394}{\input{fragments/gr394}}{}
 \clearpage
 \markright{394}
+\setnoted{}
 \enleaf{394}{\input{fragments/en394}}{}
 \clearpage
 % ---------- printed 395 ----------
 \versoalign
 \markright{395}
+\setnoted{}
 \originalsone{395}{\input{fragments/la395}}{}
 \clearpage
 \parthead{Part III --- Confessio Fidei and after}
@@ -2310,324 +2886,402 @@
 % ---------- printed 398 ----------
 \versoalign
 \markright{398}
+\setnoted{}
 \addcontentsline{toc}{section}{§1 \emph{Confessio Fidei}}
 \originalsone{398}{\input{fragments/la398}}{epigraph}
 \clearpage
 \markright{398}
+\setnoted{}
 \enleaf{398}{\input{fragments/en398}}{epigraph}
 \clearpage
 % ---------- printed 399 ----------
 \versoalign
 \markright{399}
+\setnoted{}
 \originalsone{399}{\input{fragments/la399}}{}
 \clearpage
 \markright{399}
+\setnoted{}
 \enleaf{399}{\input{fragments/en399}}{}
 \clearpage
 % ---------- printed 400 ----------
 \versoalign
 \markright{400}
+\setnoted{}
 \originalsone{400}{\input{fragments/la400}}{}
 \clearpage
 \markright{400}
+\setnoted{}
 \enleaf{400}{\input{fragments/en400}}{}
 \clearpage
 % ---------- printed 401 ----------
 \versoalign
 \markright{401}
+\setnoted{}
 \originalsone{401}{\input{fragments/la401}}{}
 \clearpage
 \markright{401}
+\setnoted{}
 \enleaf{401}{\input{fragments/en401}}{}
 \clearpage
 % ---------- printed 402 ----------
 \versoalign
 \markright{402}
+\setnoted{}
 \originalsone{402}{\input{fragments/la402}}{}
 \clearpage
 \markright{402}
+\setnoted{}
 \enleaf{402}{\input{fragments/en402}}{}
 \clearpage
 % ---------- printed 403 ----------
 \versoalign
 \markright{403}
+\setnoted{}
 \originalsone{403}{\input{fragments/la403}}{}
 \clearpage
 \markright{403}
+\setnoted{}
 \enleaf{403}{\input{fragments/en403}}{}
 \clearpage
 % ---------- printed 404 ----------
 \versoalign
 \markright{404}
+\setnoted{}
 \originalsone{404}{\input{fragments/la404}}{}
 \clearpage
 \markright{404}
+\setnoted{}
 \enleaf{404}{\input{fragments/en404}}{}
 \clearpage
 % ---------- printed 405 ----------
 \versoalign
 \markright{405}
+\setnoted{}
 \originalsone{405}{\input{fragments/la405}}{}
 \clearpage
 \markright{405}
+\setnoted{}
 \enleaf{405}{\input{fragments/en405}}{}
 \clearpage
 % ---------- printed 406 ----------
 \versoalign
 \markright{406}
+\setnoted{}
 \originalsone{406}{\input{fragments/gr406}}{}
 \clearpage
 \markright{406}
+\setnoted{}
 \enleaf{406}{\input{fragments/en406}}{}
 \clearpage
 \sethead{§2 \emph{Confessio Peccatorum}}
 % ---------- printed 407 ----------
 \versoalign
 \markright{407}
+\setnoted{}
 \addcontentsline{toc}{section}{§2 \emph{Confessio Peccatorum}}
 \originalsone{407}{\input{fragments/la407}}{}
 \clearpage
 \markright{407}
+\setnoted{}
 \enleaf{407}{\input{fragments/en407}}{}
 \clearpage
 % ---------- printed 408 ----------
 \versoalign
 \markright{408}
+\setnoted{}
 \originalsone{408}{\input{fragments/la408}}{}
 \clearpage
 \markright{408}
+\setnoted{}
 \enleaf{408}{\input{fragments/en408}}{}
 \clearpage
 % ---------- printed 409 ----------
 \versoalign
 \markright{409}
+\setnoted{}
 \originalsone{409}{\input{fragments/la409}}{}
 \clearpage
 \markright{409}
+\setnoted{}
 \enleaf{409}{\input{fragments/en409}}{}
 \clearpage
 % ---------- printed 410 ----------
 \versoalign
 \markright{410}
+\setnoted{}
 \originalsone{410}{\input{fragments/la410}}{}
 \clearpage
 \markright{410}
+\setnoted{}
 \enleaf{410}{\input{fragments/en410}}{}
 \clearpage
 % ---------- printed 411 ----------
 \versoalign
 \markright{411}
+\setnoted{}
 \originalsone{411}{\input{fragments/la411}}{}
 \clearpage
 \markright{411}
+\setnoted{}
 \enleaf{411}{\input{fragments/en411}}{}
 \clearpage
 % ---------- printed 412 ----------
 \versoalign
 \markright{412}
+\setnoted{}
 \originalsone{412}{\input{fragments/la412}}{}
 \clearpage
 \markright{412}
+\setnoted{}
 \enleaf{412}{\input{fragments/en412}}{}
 \clearpage
 % ---------- printed 413 ----------
 \versoalign
 \markright{413}
+\setnoted{}
 \originalsone{413}{\input{fragments/la413}}{}
 \clearpage
 \markright{413}
+\setnoted{}
 \enleaf{413}{\input{fragments/en413}}{}
 \clearpage
 % ---------- printed 414 ----------
 \versoalign
 \markright{414}
+\setnoted{}
 \originalsone{414}{\input{fragments/la414}}{}
 \clearpage
 \markright{414}
+\setnoted{}
 \enleaf{414}{\input{fragments/en414}}{}
 \clearpage
 % ---------- printed 415 ----------
 \versoalign
 \markright{415}
+\setnoted{}
 \originalsone{415}{\input{fragments/la415}}{}
 \clearpage
 \markright{415}
+\setnoted{}
 \enleaf{415}{\input{fragments/en415}}{}
 \clearpage
 % ---------- printed 416 ----------
 \versoalign
 \markright{416}
+\setnoted{}
 \originalsone{416}{\input{fragments/la416}}{}
 \clearpage
 \markright{416}
+\setnoted{}
 \enleaf{416}{\input{fragments/en416}}{}
 \clearpage
 \sethead{§3 \emph{Misericordia Dei}}
 % ---------- printed 417 ----------
 \versoalign
 \markright{417}
+\setnoted{}
 \addcontentsline{toc}{section}{§3 \emph{Misericordia Dei}}
 \originalsone{417}{\input{fragments/la417}}{}
 \clearpage
 \markright{417}
+\setnoted{}
 \enleaf{417}{\input{fragments/en417}}{}
 \clearpage
 % ---------- printed 418 ----------
 \versoalign
 \markright{418}
+\setnoted{}
 \originalsone{418}{\input{fragments/la418}}{}
 \clearpage
 \markright{418}
+\setnoted{}
 \enleaf{418}{\input{fragments/en418}}{}
 \clearpage
 % ---------- printed 419 ----------
 \versoalign
 \markright{419}
+\setnoted{}
 \originalsone{419}{\input{fragments/la419}}{}
 \clearpage
 \markright{419}
+\setnoted{}
 \enleaf{419}{\input{fragments/en419}}{}
 \clearpage
 % ---------- printed 420 ----------
 \versoalign
 \markright{420}
+\setnoted{}
 \originalsone{420}{\input{fragments/la420}}{}
 \clearpage
 \markright{420}
+\setnoted{}
 \enleaf{420}{\input{fragments/en420}}{}
 \clearpage
 % ---------- printed 421 ----------
 \versoalign
 \markright{421}
+\setnoted{}
 \originalsone{421}{\input{fragments/la421}}{}
 \clearpage
 \markright{421}
+\setnoted{}
 \enleaf{421}{\input{fragments/en421}}{}
 \clearpage
 % ---------- printed 422 ----------
 \versoalign
 \markright{422}
+\setnoted{}
 \originalsone{422}{\input{fragments/la422}}{}
 \clearpage
 \markright{422}
+\setnoted{}
 \enleaf{422}{\input{fragments/en422}}{}
 \clearpage
 % ---------- printed 423 ----------
 \versoalign
 \markright{423}
+\setnoted{}
 \originalsone{423}{\input{fragments/la423}}{}
 \clearpage
 \markright{423}
+\setnoted{}
 \enleaf{423}{\input{fragments/en423}}{}
 \clearpage
 % ---------- printed 424 ----------
 \versoalign
 \markright{424}
+\setnoted{}
 \originalsone{424}{\input{fragments/la424}}{}
 \clearpage
 \markright{424}
+\setnoted{}
 \enleaf{424}{\input{fragments/en424}}{}
 \clearpage
 % ---------- printed 425 ----------
 \versoalign
 \markright{425}
+\setnoted{}
 \originalsone{425}{\input{fragments/gr425}}{}
 \clearpage
 \markright{425}
+\setnoted{}
 \enleaf{425}{\input{fragments/en425}}{}
 \clearpage
 \sethead{§4 \emph{Gratiarum Actio}}
 % ---------- printed 426 ----------
 \versoalign
 \markright{426}
+\setnoted{}
 \addcontentsline{toc}{section}{§4 \emph{Gratiarum Actio}}
 \originalsone{426}{\input{fragments/la426}}{}
 \clearpage
 \markright{426}
+\setnoted{}
 \enleaf{426}{\input{fragments/en426}}{}
 \clearpage
 % ---------- printed 427 ----------
 \versoalign
 \markright{427}
+\setnoted{}
 \originalsone{427}{\input{fragments/la427}}{}
 \clearpage
 \markright{427}
+\setnoted{}
 \enleaf{427}{\input{fragments/en427}}{}
 \clearpage
 % ---------- printed 428 ----------
 \versoalign
 \markright{428}
+\setnoted{}
 \originalsone{428}{\input{fragments/la428}}{}
 \clearpage
 \markright{428}
+\setnoted{}
 \enleaf{428}{\input{fragments/en428}}{}
 \clearpage
 % ---------- printed 429 ----------
 \versoalign
 \markright{429}
+\setnoted{}
 \originalsone{429}{\input{fragments/la429}}{}
 \clearpage
 \markright{429}
+\setnoted{}
 \enleaf{429}{\input{fragments/en429}}{}
 \clearpage
 % ---------- printed 430 ----------
 \versoalign
 \markright{430}
+\setnoted{}
 \originalsone{430}{\input{fragments/la430}}{}
 \clearpage
 \markright{430}
+\setnoted{}
 \enleaf{430}{\input{fragments/en430}}{}
 \clearpage
 % ---------- printed 431 ----------
 \versoalign
 \markright{431}
+\setnoted{}
 \originalsone{431}{\input{fragments/gr431}}{}
 \clearpage
 \markright{431}
+\setnoted{}
 \enleaf{431}{\input{fragments/en431}}{}
 \clearpage
 \sethead{§5 \emph{Matutinæ Preces}}
 % ---------- printed 432 ----------
 \versoalign
 \markright{432}
+\setnoted{}
 \addcontentsline{toc}{section}{§5 \emph{Matutinæ Preces}}
 \originalsone{432}{\input{fragments/la432}}{}
 \clearpage
 \markright{432}
+\setnoted{}
 \enleaf{432}{\input{fragments/en432}}{}
 \clearpage
 \sethead{§6 \emph{Vespertinæ Preces}}
 % ---------- printed 433 ----------
 \versoalign
 \markright{433}
+\setnoted{}
 \addcontentsline{toc}{section}{§6 \emph{Vespertinæ Preces}}
 \originalsone{433}{\input{fragments/la433}}{}
 \clearpage
 \markright{433}
+\setnoted{}
 \enleaf{433}{\input{fragments/en433}}{}
 \clearpage
 % ---------- printed 434 ----------
 \versoalign
 \markright{434}
+\setnoted{}
 \originalsone{434}{\input{fragments/la434}}{}
 \clearpage
 \markright{434}
+\setnoted{}
 \enleaf{434}{\input{fragments/en434}}{}
 \clearpage
 % ---------- printed 435 ----------
 \versoalign
 \markright{435}
+\setnoted{}
 \originalsone{435}{\input{fragments/la435}}{}
 \clearpage
 \markright{435}
+\setnoted{}
 \enleaf{435}{\input{fragments/en435}}{}
 \clearpage
 % ---------- printed 436 ----------
 \versoalign
 \markright{436}
+\setnoted{}
 \originalsone{436}{\input{fragments/la436}}{}
 \clearpage
 \markright{436}
+\setnoted{}
 \enleaf{436}{\input{fragments/en436}}{}
 \clearpage
 

@@ -36,9 +36,8 @@
       \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
-      % the Greek's figures read across and a second set would repeat them.
-      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
+      \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue
+      \setnoted{}#3
     \end{minipage}\par}%
   % ⚠ \ht0 ALONE IS WRONG HERE and silently reported ~5.7pt for every Part I
   % verso until 2026-08-09. This vbox's content is ONE LINE of two tall boxes, so
@@ -87,15 +86,19 @@
 % Compose a leaf whose body sits at the top and whose band sits at the foot.
 \newcommand{\bandleaf}[2]{\vbox to \textheight{#1\vfill#2}}
 
-\newcommand{\originalsn}[4]{%
+% #5 = the Latin column's own noted lines, #6 = how many romans the Greek column
+% already spent, so the series runs on rather than restarting at i.
+\newcommand{\originalsn}[6]{%
   \setbox0=\vbox{\noindent
     \begin{minipage}[t]{0.485\textwidth}
       \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
-      % the Greek's figures read across and a second set would repeat them.
-      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
+      % ⚠ numbered on ITS OWN count — see the preamble. It is NOT reliably
+      % line-for-line with the Greek: 20 of Part I's 131 openings differ, by as
+      % much as six lines, because the plate turns its own long lines.
+      \footnotesize\setlength{\plhang}{1.5em}%
+      \setnotedcol{#5}{#6}\plreset\plnumtrue #3
     \end{minipage}\par}%
   \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0+\ht2+\dp2\relax}%
@@ -356,7 +359,7 @@
 \versoalign
 \markright{34}
 \setnoted{27}
-\originalsn{34}{\input{fragments/gr034}}{\input{fragments/la035}}{\textsuperscript{i}\,27 \textup{Τὰ ἔργα}] \textup{τὸ πλάσμα} \emph{apogr.} — \emph{cf. Lat.} \textup{Figmenta}, \emph{quod ex neutro fonte alio fluere potest}\\[1pt]\hphantom{x}27–28 \emph{punct. post} \textup{παριδῇς} \emph{del. apogr.} · \textup{ὁμοίωμα}] \textup{ὁμοίωμα.} \emph{apogr.}}
+\originalsn{34}{\input{fragments/gr034}}{\input{fragments/la035}}{\textsuperscript{i}\,27 \textup{Τὰ ἔργα}] \textup{τὸ πλάσμα} \emph{apogr.} — \emph{cf. Lat.} \textup{Figmenta}, \emph{quod ex neutro fonte alio fluere potest}\\[1pt]\hphantom{x}27–28 \emph{punct. post} \textup{παριδῇς} \emph{del. apogr.} · \textup{ὁμοίωμα}] \textup{ὁμοίωμα.} \emph{apogr.}\\[1pt]\textsuperscript{ii}\,27 \textup{Figmenta}] \emph{Vulg.} \textup{opera manuum tuarum}; \emph{ex Gr.} \textup{πλάσμα} \emph{pendet, non ex textu impresso}}{27}{1}
 \clearpage
 \markright{34}
 \setnoted{1,6,7,9,13,16,20,21,22,23,25,27,28,29}
@@ -376,7 +379,7 @@
 \versoalign
 \markright{38}
 \setnoted{3}
-\originalsn{38}{\input{fragments/gr038}}{\input{fragments/la039}}{\textsuperscript{i}\,3 \textup{μεριμνῶ}] \emph{in marg. Hebr.} \textup{\RL{אדאג}} \emph{apogr.}}
+\originalsn{38}{\input{fragments/gr038}}{\input{fragments/la039}}{\textsuperscript{i}\,3 \textup{μεριμνῶ}] \emph{in marg. Hebr.} \textup{\RL{אדאג}} \emph{apogr.}}{}{1}
 \clearpage
 \markright{38}
 \setnoted{}
@@ -396,7 +399,7 @@
 \versoalign
 \markright{42}
 \setnoted{4}
-\originalsn{42}{\input{fragments/gr042}}{\input{fragments/la043}}{\textsuperscript{i}\,4 \emph{sqq.} \textup{αὐτοῖς}] \textup{αὐτῶν} \emph{apogr.}}
+\originalsn{42}{\input{fragments/gr042}}{\input{fragments/la043}}{\textsuperscript{i}\,4 \emph{sqq.} \textup{αὐτοῖς}] \textup{αὐτῶν} \emph{apogr.}}{}{1}
 \clearpage
 \markright{42}
 \setnoted{}
@@ -436,7 +439,7 @@
 \versoalign
 \markright{50}
 \setnoted{18}
-\originalsn{50}{\input{fragments/gr050}}{\input{fragments/la051}}{\textsuperscript{i}\,18 \textup{προσδοκίας}] \textup{ἐλπίδος} \emph{apogr.}; \emph{cf. Lat.} \textup{exspectatione} \emph{cum ed.}}
+\originalsn{50}{\input{fragments/gr050}}{\input{fragments/la051}}{\textsuperscript{i}\,18 \textup{προσδοκίας}] \textup{ἐλπίδος} \emph{apogr.}; \emph{cf. Lat.} \textup{exspectatione} \emph{cum ed.}}{}{1}
 \clearpage
 \markright{50}
 \setnoted{}
@@ -446,7 +449,7 @@
 \versoalign
 \markright{52}
 \setnoted{16}
-\originalsn{52}{\input{fragments/gr052}}{\input{fragments/la053}}{\textsuperscript{i}\,16 \emph{add.} \textup{καὶ ἐσθήσω} \emph{apogr.}}
+\originalsn{52}{\input{fragments/gr052}}{\input{fragments/la053}}{\textsuperscript{i}\,16 \emph{add.} \textup{καὶ ἐσθήσω} \emph{apogr.}}{}{1}
 \clearpage
 \markright{52}
 \setnoted{}

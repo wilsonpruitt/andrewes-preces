@@ -47,8 +47,22 @@
 %
 % A line that carries a note prints its arabic figure too, whatever the every-five
 % rule says — the ruler should not go silent exactly where it is wanted.
+% ⚠ THE LATIN COLUMN IS NUMBERED ON ITS OWN COUNT, and this was got wrong first
+% time. The Latin was left unnumbered on the ground that it is line-for-line with
+% the Greek so a second set of figures would repeat them. tools/check_lineparity.py
+% shows that is true of 111 of Part I's 131 openings and FALSE of 20 — the plate
+% turns its own long lines and the Latin is the wordier column, so it can run five
+% or six lines longer than its Greek (printed 48/49, 62/63, 142/143). One set of
+% figures would therefore have named the wrong Latin line on one opening in seven,
+% and nothing on the page would have shown it.
+%
+% The MARKER SERIES still runs continuously across the leaf: the Greek's noted
+% lines take i…k and the Latin's take k+1…m, so a roman is unique on the page and
+% the band needs no column label. \setnotedcol carries the offset.
 \newcommand{\notedlines}{}
-\newcommand{\setnoted}[1]{\renewcommand{\notedlines}{#1}}
+\newcounter{plofs}
+\newcommand{\setnoted}[1]{\renewcommand{\notedlines}{#1}\setcounter{plofs}{0}}
+\newcommand{\setnotedcol}[2]{\renewcommand{\notedlines}{#1}\setcounter{plofs}{#2}}
 \newif\ifplnoted
 \newcounter{plpos}\newcounter{plfound}
 \makeatletter
@@ -83,7 +97,8 @@
 % line inside \plnumber, so \ifplnoted and \plfound still hold its values.
 \newcommand{\plmark}{%
   \ifplnum\ifplnoted
-    \textsuperscript{\normalfont\romannumeral\value{plfound}}%
+    \textsuperscript{\normalfont
+      \romannumeral\numexpr\value{plfound}+\value{plofs}\relax}%
   \fi\fi}
 % The number laps into the margin BEFORE the line's own indent, so it sits at the
 % block's left edge whatever the indent level — otherwise a deeply indented line

@@ -31,7 +31,11 @@ Rules that follow, and they are not negotiable because the reader's trust in the
 2. **One marker series per leaf, across `S:` and `R:` together.** A line carrying both a tag and a note gets one roman meaning the same thing in both registers. Numbering the streams separately would put two different **i**'s on one page.
 3. **Never invent a line number.** Take it from `python3.11 tools/ref_index.py <page>`. A note pointing at the wrong line is worse than no note.
 4. **An `R:` note about the PAGE rather than a line is written without a leading figure** and set without a marker. There is no line to send the reader to, and manufacturing one misstates where the comment belongs.
-5. ⚠ **In Part I the references are printed on the LATIN recto and the note goes on the ENGLISH recto of the same opening.** This is sound because the Latin is line-for-line with the Greek and the English is line-keyed to the Greek — line N is the same line in all three. Verified at printed 34/35 (both pages run to 30 lines). **Re-verify by eye on any section where parity was not recorded as line-exact.**
+5. ⚠⚠ **THE THREE COLUMNS DO NOT SHARE ONE NUMBERING. Each column is numbered on its own count.** An earlier draft of this file said the opposite, on the strength of one verified page; `tools/check_lineparity.py` disproved it. **The Latin recto is line-for-line with its Greek verso in 111 of Part I's 131 openings and NOT in 20** — the plate turns its own long lines and the Latin is the wordier column, so it can run five or six lines longer (printed 48/49, 62/63, 142/143 all +5 or +6). One set of figures would have named the wrong Latin line on one opening in seven, and **nothing on the page would have shown it.**
+   - The **marker series still runs continuously across the leaf** — the Greek's noted lines take i…k, the Latin's take k+1…m — so a roman is unique on a page and the band needs no column label.
+   - A `V:` entry is filed under **the printed page it belongs to**: an entry under an odd page is a Latin-recto entry and is numbered on the Latin's own lines.
+6. ⚠ **In Part I the references are printed on the LATIN recto and the `S:` note goes on the ENGLISH recto of the same opening.** That is sound where the columns agree, but **run `check_lineparity.py` and consult its list before keying notes on any page in it**. English-vs-original mismatches at printed **1 · 12 · 18 · 62 · 68 · 196 · 238 · 246 · 286 · 288 · 289 · 308 · 370 · 380 · 381 · 386 · 388**.
+7. ⚠ **A PROSE page cannot take line-keyed notes at all.** Where the 1853 sets continuous prose the English cannot be line-keyed and is not — printed **370** is 26 lines of Latin against 3 of English (Bradwardine), 380 and 381 likewise. On those pages write **page-level `R:` notes without a leading figure**; they are set without a marker, which is correct.
 
 ## 3. `S:` — the scripture tags
 
@@ -116,6 +120,7 @@ The Psalter is a trap in this book and every note touching it must say which num
 ## 9. The working loop
 
 ```
+python3.11 tools/check_lineparity.py        # ⚠ FIRST: is this page safe to key by line?
 python3.11 tools/ref_index.py --stub 35     # scaffold: line numbers + refs, ready to fill
 #   ... write one clause per reference into apparatus/print-notes.md ...
 python3.11 tools/transcript2tex.py --part 1

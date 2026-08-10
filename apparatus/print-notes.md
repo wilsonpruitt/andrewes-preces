@@ -46,6 +46,9 @@ S: 29 Ps. lxxxix. 47 — *wherefore hast thou made all men in vain?*
 R: 16 **A pun the English Bible cannot keep.** Andrewes asks *what is my expectation* and answers *Substantia mea apud te est*, then four lines later *Memorare quæ mea substantia*. Both are the Vulgate — Ps. xxxviii. 8 and lxxxviii. 48 — and both turn on **substantia**, which is why the two psalms can be set one on top of the other. The Authorised Version renders the first *my hope is in thee* and the second *remember how short my time is*, and the join disappears.
 R: 27 `Figmenta` **is the evidence that this Latin column is a witness and not a shadow.** The printed Greek reads *the works of thy hands*, and the Vulgate of Ps. cxxxviii. 8 reads *opera manuum tuarum*; the Latin here reads neither. *Figmenta* — the thing moulded — can only render a Greek text that read `τὸ πλάσμα`, which is what the manuscript reads and what the printed page does not. The 1853 editor said of his Latin only that he *seemed* to have made it himself. He was too modest.
 
+## 35
+V: 27 `Figmenta`] *Vulg.* `opera manuum tuarum`; *ex Gr.* `πλάσμα` *pendet, non ex textu impresso*
+
 ## 38
 V: 3 `μεριμνῶ`] *in marg. Hebr.* `אדאג` *apogr.*
 R: The manuscript glosses this line in **Hebrew**, and the 1853 dropped it — the first of some thirteen places where it does so. The edition **records the loss and does not repair it**: the page above is the printed book, not the manuscript behind it. What the Hebrew shows is that Andrewes' third script was systematic where his printed editions make it look occasional.
