@@ -1,6 +1,6 @@
 # Part I, after the seven days — Deprecation + Hosannas — English (Wroot Press translation)
 
-Translated from the Greek of the 1853 text (`deprecation-transcript.md`), line-keyed page by page to the Greek leaves; the Latin recto consulted as first witness. Register per `CONVENTIONS.md` §8–10. Scripture refs stay on the Latin layer; divergences, the biblical-exemplar names, and the scan-damaged leaf (printed 210) are flagged at the end. Three sections: the **ΠΑΤΕΡ ὁ κτίσας** deprecation (an averting-prayer against sin, judgement, and every temporal evil), **HOSANNA IN THE HIGHEST** (the heavenly counterpart), and **HOSANNA ON EARTH** (the earthly counterpart).
+Translated from the Greek of the 1853 text (`deprecation-transcript.md`), line-keyed page by page to the Greek leaves; the Latin recto consulted as first witness. Register per `CONVENTIONS.md` §8–10. Scripture refs stay on the Latin layer; divergences, the biblical-exemplar names, and the once scan-damaged leaf (printed 210, now restored) are flagged at the end. Three sections: the **ΠΑΤΕΡ ὁ κτίσας** deprecation (an averting-prayer against sin, judgement, and every temporal evil), **HOSANNA IN THE HIGHEST** (the heavenly counterpart), and **HOSANNA ON EARTH** (the earthly counterpart).
 
 <!-- printed 198 — English of the Greek page -->
 
@@ -171,38 +171,38 @@ beneath the feet of thy chosen,
         And that this may be,
 
 <!-- printed 210 — English of the Greek page -->
-<!-- The Greek leaf is ink-damaged down the left margin (see the transcript); the leading connective of most lines is illegible, marked [?] here as there. The construal is secured by the Latin (printed 211); the bracketed virtue-labels [Of faith]/[Of hope]/[Of charity] render the smeared Πίστεως / Ἐλπίδος / Ἀγάπης. -->
+<!-- ✅ RESTORED 2026-08-10. The ink-smear was an artifact of the Google scan, not a defect of the plate; the leaf is clean on the Toronto copy (leaf 0236) and every [?] is now read, not conjectured. All brackets are struck: the virtue-labels stood in the plate as Πίστεως / Ἐλπίδος / Ἀγάπης exactly as the Latin had predicted, and they are set flush like the Greek, not indented. ⚠ One rendering CHANGED IN SENSE: "them that seek thee" was a misreading of φοβουμένους and is now "them that fear thee" — which the Latin's *timentes* settles, and which makes the line and its answer one thought (fear → let my heart rejoice to fear thee). -->
 
-[?]† grace in thy sight,
+Let me find† grace in thy sight,
         that I may have grace,
-    [?] to serve thee acceptably,
+    to serve thee acceptably,
         with reverence and godly fear.
-[?] also a second grace,
-        [?] that grace,
+Let me find also a second grace,
+        even that grace,
         that I receive it not in vain,
         that I fail not of it.
-[?] not to neglect it,
-        [?] to fall away from it.
+Yea rather, not to neglect it,
+        so as to fall away from it.
         But to stir it up,
-        [?] to grow therein.
-[?] to abide therein,
+        so as to grow therein.
+Yea rather, to abide therein,
         until the ending
         of my life.
-[?] make up unto me that which is lacking
+And oh! make up unto me that which is lacking
         of thy gifts:
-    [Of faith:]        add unto my little faith.
-    [Of hope:]        stablish my trembling hope.
-    [Of charity:]        kindle its smoking flax.
-        [?] in my heart
+Of faith:        add unto my little faith.
+Of hope:        stablish my trembling hope.
+Of charity:        kindle its smoking flax.
+        Pour out in my heart
         thy love,
-        [?] that I,
-        [?] the friend in thee,
+        that thee,
+        the friend in thee,
             the enemy for thy sake,
-            may love.
-[Thou that] givest grace unto the lowly,
+            I may love.
+Thou that givest grace unto the lowly,
         give me also grace to be lowly.
-[Thou that] never forsakest them that seek thee,
-        [let] my heart [rejoice] to fear thee,
+Thou that never forsakest them that fear thee,
+        let my heart rejoice to fear thee,
 
 <!-- printed 212 — English of the Greek page -->
 
@@ -318,5 +318,5 @@ nothing earthly, temporal, corruptible
 
 ## Lost words
 
-**†1 — printed 210 (Greek verso).** A vertical ink-smear down the left margin of the only extant (Google) scan takes the **leading connective of most lines**; every one is `[?]` in both layers. **Not a plate defect — a scan defect**, so a clean image recovers it. The construal is secure meanwhile from the clean Latin on printed 211 (find grace → keep it → the theological virtues → love friend-in-God and enemy-for-God), and the three smeared petition-labels are supplied from the Latin as **[Of faith] / [Of hope] / [Of charity]**.
+**†1 — printed 210 (Greek verso). ✅ THE DAMAGE IS GONE, AND IT WAS NEVER THE BOOK'S.** The vertical ink-smear that took the leading connective of most lines was an artifact of the **Google scan**, not a defect of the plate — the University of Toronto copy (leaf 0236) shows a clean left margin. **All eighteen `[?]` marks are now read rather than conjectured**, and every one is independently confirmed by the Latin on printed 211: *Inveniam* = Εὑρῶ, *Imo vero* = Μενοῦνγε, *Et oh!* = Καὶ ὦ, *Lætetur* = εὐφρανθήτω, and *Fidei / Spei / Charitatis* = **Πίστεως / Ἐλπίδος / Ἀγάπης**, exactly as this note had predicted. ⚠⚠ **The smear had also produced three errors in text the transcriber took to be legible, none of them flagged** — and one of them changed the sense: the Greek reads **φοβουμένους**, *them that FEAR thee*, not ζητοῦντάς, *them that seek thee* (settled by the Latin's *timentes*), so the petition and its answer are one thought — *thou that never forsakest them that fear thee, let my heart rejoice to fear thee*. The other two were **καί μοι** for καὶ ἐμοὶ (Latin *et mihi*; καί takes its acute precisely because μοι is enclitic) and **ἀνιεὶς** for ἀνιείς. ⚠ **A marked `[?]` is honest; a silent misreading in a damaged zone is not**, and this leaf produced both. ⚠ Two plate irregularities are kept as printed and are **not** scan artifacts: `αὐτης` unaccented where the same word two lines above carries its circumflex, and `τόν φίλον ἔν σοι` accenting both the article and the proclitic. See `SOURCE-IMAGES.md`.
 **To recover:** a non-Google digitization of the leaf. ⚠ **Brightman cannot help here and must not be sent for** — he prints no Greek (CONVENTIONS §12), so he can supply the sense, which we already have, and never the words.

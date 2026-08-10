@@ -746,13 +746,14 @@ S: 9 1 Tim. iv. 14 — *neglect not the gift that is in thee*
 S: 10 Gal. v. 4 — *ye are fallen from grace*
 S: 11 2 Tim. i. 6 — *stir up the gift of God which is in thee*
 S: 12 2 Pet. iii. 18 — *grow in grace*
+S: 13 `[Act. xiii. 43]` — the 1853 editor's own bracketed reference: Paul and Barnabas *persuaded them to continue in the grace of God*. ⚠ **It is the seventh and last rung of the ladder below, and the only one the plate did not print for itself.**
 S: 16 1 Thess. iii. 10 — *might perfect that which is lacking in your faith*
 S: 18 Luke xvii. 5 — *increase our faith*; Heb. iii. 6 — *the rejoicing of the hope firm unto the end*
 S: 20 Isa. xlii. 3 — *the smoking flax shall he not quench*
 S: 22 Rom. v. 5 — *the love of God is shed abroad in our hearts*
 S: 27 Jas. iv. 6 — *he giveth grace unto the humble*
 S: 30 Ps. lxxxvi. 11 — *unite my heart to fear thy name*
-R: 7 **Seven verbs of grace in seven lines, and they make a single argument.** Not to receive it in vain, not to fail of it, not to neglect it, not to fall from it — then to stir it up, to grow in it, to continue in it. Four negatives and three positives, each with its own epistle, mounting from the least a man can do to the most. The English keeps them as seven separate lines because the ladder is the point.
+R: 7 ⚠ **Seven verbs of grace in seven lines, and they make a single argument.** Not to receive it in vain, not to fail of it, not to neglect it, not to fall from it — then to stir it up, to grow in it, to continue in it. Four negatives and three positives, each with its own epistle, mounting from the least a man can do to the most. The English keeps them as seven separate lines because the ladder is the point.
 
 ## 212
 S: 1 Job iv. 6 — *is not this thy fear, thy confidence?*

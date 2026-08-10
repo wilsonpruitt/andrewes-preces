@@ -89,7 +89,7 @@ The 1853 apparatus is headed **EX APOGRAPHO SAMUELIS WRIGHT, APUD COLL. PEMB. CA
 | | item | status |
 |---|---|---|
 | 1 | **printed 239**, Latin recto cut off by the one-frame spread photograph | ✅ **CLOSED AND RESTORED** (Wilson's go, 2026-08-10). Read entire on Toronto leaf `0267`; the transcript now carries the full page and the band is written at `print-notes.md` ## 238. |
-| 2 | **printed 210**, left-margin ink smear | **Open, expected easy.** The smear is a Google-scan artifact, so Toronto should simply not have it. Leaf not yet pinned — the offset drifts, find it by eye near `0236`. |
+| 2 | **printed 210**, left-margin ink smear | ✅ **CLOSED AND RESTORED** (leaf `0236`). **The smear is not on the plate at all** — a pure Google-scan artifact; Toronto's left margin is clean. All 18 `[?]` read, every one confirmed by the facing Latin. ⚠ **It had also caused three SILENT errors**, one of them a change of sense. |
 | 3 | **printed 386**, the garbled Hebrew `חזתלת` | ✅ **Re-read and confirmed a *plate* defect**, as expected — no scan can repair it. ⚠ **But the re-read produced the mechanism**: the next word is `התועלת`, and the compositor mangled *tocheleth* into a version of its near-identical neighbour. See the foot of this file. |
 | 4 | **printed 414**, the `Job. xxv. 3` cento | **Open, and Toronto is the wrong tool** — this needs *Brightman's* page images (he marks Hebrew by italics and italics don't survive OCR), not a better 1853. |
 
@@ -116,4 +116,6 @@ Every item below was read on the Toronto scan at native resolution and checked a
 | ⚠⚠ **THE LATIN QUESTION's one load-bearing word** | `0480` | ✅ **`pro τὰ ἔργα lege τὸ πλάσμα` is unambiguous.** The argument may now go into an introduction. **Off the pre-print list.** |
 | ⚠⚠ **the dot-marks**, unresolvable at 200 dpi | `0480` | ✅ **RESOLVED — an ascending count, 1 to 5, that PAIRS ACROSS THE COLUMNS** (μετὰ carries μὴ διαφθείρῃς's 2; διὰ carries Ὡσαννὰ's 3). **Off the pre-print list.** |
 
-**Still open:** printed **210**'s ink smear (expected easy — it is a Google artifact; leaf not yet pinned, the offset drifts near there) and printed **414**'s cento, which needs *Brightman's* page images and not a better 1853. The `אל תשחית`/`הצילני` cluster at 198–202 and `יראתי כסלתי` at 212. 1 are unread only because nothing sets them.
+| **printed 210**, the ink-smeared Greek verso | `0236` | ✅ **CLOSED.** ⚠⚠ **The smear does not exist on the plate** — it is an artifact of the Google copy alone. All 18 `[?]` restored and confirmed word for word by the Latin on 211 (*Inveniam*=Εὑρῶ · *Imo vero*=Μενοῦνγε · *Et oh!*=Καὶ ὦ · *Lætetur*=εὐφρανθήτω · *Fidei/Spei/Charitatis*=Πίστεως/Ἐλπίδος/Ἀγάπης). ⚠⚠ **And it had produced three SILENT errors in text believed legible** — `ζητοῦντάς` for **φοβουμένους** (a change of SENSE: *them that seek thee* → *them that fear thee*, settled by *timentes*), `καὶ ἐμοὶ` for **καί μοι**, `ἀνιείς` for **ἀνιεὶς**. Two genuine plate irregularities kept as printed: unaccented `αὐτης`, and `τόν φίλον ἔν σοι` accenting article and proclitic. |
+
+**Still open: printed 414's cento alone**, and it needs *Brightman's* page images, not a better 1853. The `אל תשחית`/`הצילני` cluster at 198–202 and `יראתי כסלתי` at 212. 1 are unread only because nothing sets them.
