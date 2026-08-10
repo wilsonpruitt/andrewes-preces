@@ -79,9 +79,10 @@ def load_notes():
         if m:
             page = int(m.group(1))
             continue
-        m = re.match(r"^([VR]): (.+)$", line)
+        m = re.match(r"^([VRS]): (.+)$", line)
         if m and page is not None:
-            notes.setdefault(page, {"V": [], "R": []})[m.group(1)].append(m.group(2))
+            notes.setdefault(page, {"V": [], "R": [], "S": []})[
+                m.group(1)].append(m.group(2))
     return notes
 
 
@@ -98,6 +99,29 @@ def note_tex(entries):
         t = HEBREW.sub(lambda m: r"\RL{%s}" % m.group(0), t)
         out.append(t)
     return r"\\[1pt]".join(out)
+
+
+def recto_band(page_notes):
+    r"""The recto foot: scripture context first, then explanatory notes.
+
+    ⚠ The two are set DIFFERENTLY on purpose. `S:` entries run in, separated by
+    ·, because there can be fourteen of them on one page and a stack of fourteen
+    stanzas would swamp the English above; `R:` entries are paragraphs, because
+    there is rarely more than one and it has something to say.
+
+    ⚠ Scripture context lives on the RECTO though the 1853 prints its references
+    on the LATIN side. The reference belongs to the original; the *situation* it
+    came from belongs to the reader, and the reader is on the recto.
+    """
+    s = page_notes.get("S", [])
+    r = page_notes.get("R", [])
+    blocks = []
+    if s:
+        blocks.append(r"{\scriptsize " + r" \textperiodcentered\ ".join(
+            note_tex([e]) for e in s) + r"\par}")
+    if r:
+        blocks.append(note_tex(r))
+    return r"\\[3pt]".join(blocks)
 
 # The M2 sample split three pages at a unit boundary so prototype B could show a
 # mid-page break. proto-{a,b,c}.tex still \input those a/b fragments by name, so
@@ -336,14 +360,14 @@ def build_loeb(parts, pages, have):
             body += loeb_unit(n, frag(f"gr{n:03d}"), frag(f"la{n + 1:03d}"),
                               frag(f"en{n:03d}"), toc=toc,
                               vnotes=note_tex(v),
-                              rnotes=note_tex(notes.get(n, {}).get("R", [])))
+                              rnotes=recto_band(notes.get(n, {})))
             skip.add(n + 1)
         else:
             body += [r"%% ---------- printed %d ----------" % n]
             body += loeb_unit(n, frag(f"{slot['layer']}{n:03d}"), None,
                               frag(f"en{n:03d}"), single=True, toc=toc,
                               vnotes=note_tex(notes.get(n, {}).get("V", [])),
-                              rnotes=note_tex(notes.get(n, {}).get("R", [])))
+                              rnotes=recto_band(notes.get(n, {})))
     return "\n".join(body)
 
 
