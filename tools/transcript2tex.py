@@ -51,11 +51,53 @@ import re
 from pathlib import Path
 
 from proof2tex import (
-    OUT_DIR, PART_TITLES, ROOT, parse_pages, render_block, render_line,
+    HEBREW, OUT_DIR, PART_TITLES, ROOT, parse_pages, render_block, render_line,
     sections_for, tex_escape, tex_inline,
 )
 
 FRAG = OUT_DIR / "fragments"
+NOTES_SRC = ROOT / "apparatus" / "print-notes.md"
+
+
+def load_notes():
+    """The two foot-bands, keyed by printed page: `V:` apparatus (verso foot),
+    `R:` explanatory note (recto foot). Source is apparatus/print-notes.md.
+
+    ⚠ These bands exist because the Loeb leaves roughly 44%% of every leaf empty
+    and a Loeb's foot is where an apparatus belongs — but they are NOT filler.
+    Nothing here may be phrased as a repair: the plate stands as printed above,
+    an apparatus entry records another witness, a note tells the reader what the
+    flags already know. See the head of print-notes.md.
+    """
+    notes = {}
+    if not NOTES_SRC.exists():
+        return notes
+    page = None
+    for raw in NOTES_SRC.read_text().splitlines():
+        line = raw.strip()
+        m = re.match(r"^## (\d+)$", line)
+        if m:
+            page = int(m.group(1))
+            continue
+        m = re.match(r"^([VR]): (.+)$", line)
+        if m and page is not None:
+            notes.setdefault(page, {"V": [], "R": []})[m.group(1)].append(m.group(2))
+    return notes
+
+
+def note_tex(entries):
+    r"""One band's worth of entries. Backticks mark a lemma and are set upright —
+    `tex_inline` handles *em* and **bold** but knows nothing of them."""
+    out = []
+    for e in entries:
+        t = tex_inline(e)
+        t = re.sub(r"`([^`]+)`", r"\\textup{\1}", t)
+        # Hebrew is right-to-left and needs bidi's \RL, exactly as in the page
+        # fragments — an apparatus entry is the likeliest place in the book to
+        # carry a bare Hebrew word, since class A is where the dropped Hebrew is.
+        t = HEBREW.sub(lambda m: r"\RL{%s}" % m.group(0), t)
+        out.append(t)
+    return r"\\[1pt]".join(out)
 
 # The M2 sample split three pages at a unit boundary so prototype B could show a
 # mid-page break. proto-{a,b,c}.tex still \input those a/b fragments by name, so
@@ -204,7 +246,7 @@ def leaf(n: int, slot, en_frag: str | None, body_frag: str | None, verso=False):
 
 
 def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None,
-              single=False, toc: str | None = None):
+              single=False, toc: str | None = None, vnotes="", rnotes=""):
     """One Loeb unit: originals on the verso, the full English on the recto.
 
     The unit is the 1853 OPENING in Part I — Greek and Latin side by side on one
@@ -227,18 +269,28 @@ def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None,
         out.append(r"\titleleaf{%d}{\input{fragments/%s}%s}" % (
             n, gr, r"\parasep\input{fragments/%s}" % la if la else ""))
     elif single:
-        out.append(r"\originalsone{%d}{\input{fragments/%s}}{%s}"
-                   % (n, gr or la, mode or ""))
+        # A display leaf is composed, not flowed, so it never takes a band.
+        if vnotes and not mode:
+            out.append(r"\originalsonen{%d}{\input{fragments/%s}}{}{%s}"
+                       % (n, gr or la, vnotes))
+        else:
+            out.append(r"\originalsone{%d}{\input{fragments/%s}}{%s}"
+                       % (n, gr or la, mode or ""))
     else:
-        out.append(r"\originals{%d}{%s}{%s}" % (
-            n,
-            r"\input{fragments/%s}" % gr if gr else "",
-            r"\input{fragments/%s}" % la if la else ""))
+        gr_in = r"\input{fragments/%s}" % gr if gr else ""
+        la_in = r"\input{fragments/%s}" % la if la else ""
+        if vnotes:
+            out.append(r"\originalsn{%d}{%s}{%s}{%s}" % (n, gr_in, la_in, vnotes))
+        else:
+            out.append(r"\originals{%d}{%s}{%s}" % (n, gr_in, la_in))
     out.append(r"\clearpage")
     if en:
         out.append(r"\markright{%d}" % n)
         if mode == "title":
             out.append(r"\titleleaf{%d}{\input{fragments/%s}}" % (n, en))
+        elif rnotes and not mode:
+            out.append(r"\enleafn{%d}{\input{fragments/%s}}{}{%s}"
+                       % (n, en, rnotes))
         else:
             out.append(r"\enleaf{%d}{\input{fragments/%s}}{%s}"
                        % (n, en, mode or ""))
@@ -248,6 +300,7 @@ def loeb_unit(n: int, gr: str | None, la: str | None, en: str | None,
 
 def build_loeb(parts, pages, have):
     body, part_seen, label_seen = [], None, None
+    notes = load_notes()
     skip = set()
     for n in sorted(pages):
         if n in skip:
@@ -274,14 +327,23 @@ def build_loeb(parts, pages, have):
             and recto and recto["layer"] == "la" and recto["part"] == 1
         )
         if paired:
+            # The verso holds BOTH printed pages of the opening, so it carries
+            # the apparatus of both. The recto holds one English page and its
+            # notes are the notes of the Greek page it translates.
+            v = (notes.get(n, {}).get("V", [])
+                 + notes.get(n + 1, {}).get("V", []))
             body += [r"%% ---------- opening %d | %d ----------" % (n, n + 1)]
             body += loeb_unit(n, frag(f"gr{n:03d}"), frag(f"la{n + 1:03d}"),
-                              frag(f"en{n:03d}"), toc=toc)
+                              frag(f"en{n:03d}"), toc=toc,
+                              vnotes=note_tex(v),
+                              rnotes=note_tex(notes.get(n, {}).get("R", [])))
             skip.add(n + 1)
         else:
             body += [r"%% ---------- printed %d ----------" % n]
             body += loeb_unit(n, frag(f"{slot['layer']}{n:03d}"), None,
-                              frag(f"en{n:03d}"), single=True, toc=toc)
+                              frag(f"en{n:03d}"), single=True, toc=toc,
+                              vnotes=note_tex(notes.get(n, {}).get("V", [])),
+                              rnotes=note_tex(notes.get(n, {}).get("R", [])))
     return "\n".join(body)
 
 
@@ -558,6 +620,60 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
   \setbox0=\vbox{\hsize=\textwidth\small#2}%
   \immediate\write\fitfile{H E #1 \the\ht0}%
   \ifthenelse{\equal{#3}{epigraph}}{\dropto{0.16}\box0}{\box0}}
+
+% ---- the two foot-bands -------------------------------------------------
+% The Loeb leaves roughly 44% of every leaf empty, and a Loeb's foot is where an
+% apparatus belongs. The verso band carries the apparatus criticus against the
+% originals; the recto band carries explanatory notes against the English.
+%
+% ⚠ The band is set at the FOOT, which means the leaf must be composed as a box
+% of exactly \textheight with \vfill between body and band. \vfil alone will not
+% do it: the preamble sets \raggedbottom, whose own bottom glue competes with it
+% and lands the band a third of the way up. Same trap as the display leaves.
+%
+% ⚠ The band is measured INTO the fit record (\dimexpr body + band), not beside
+% it. A band that overruns is exactly as silent as a minipage that overruns, and
+% the point of the instrument is that nothing is unmeasured — which is how Part
+% I's verso went 131 leaves without ever being tested.
+% ⚠ The \par after the rule is load-bearing: without it the rule is just an inline
+% box and the band's first word sets on the same line as the rule.
+\newcommand{\bandrule}{\par\vspace{5pt}%
+  {\noindent\color{rulegray}\rule{0.28\textwidth}{0.4pt}\par}\vspace{3.5pt}}
+
+\newcommand{\apparatusband}[1]{%
+  \bandrule{\scriptsize\setlength{\parindent}{0pt}\setlength{\parskip}{1pt}%
+    \raggedright #1\par}}
+
+\newcommand{\notesband}[1]{%
+  \bandrule{\footnotesize\setlength{\parindent}{0pt}\setlength{\parskip}{2pt}%
+    #1\par}}
+
+% Compose a leaf whose body sits at the top and whose band sits at the foot.
+\newcommand{\bandleaf}[2]{\vbox to \textheight{#1\vfill#2}}
+
+\newcommand{\originalsn}[4]{%
+  \setbox0=\vbox{\noindent
+    \begin{minipage}[t]{0.485\textwidth}
+      \footnotesize\setlength{\plhang}{1.5em}#2
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.485\textwidth}
+      \footnotesize\setlength{\plhang}{1.5em}#3
+    \end{minipage}\par}%
+  \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
+  \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0+\ht2+\dp2\relax}%
+  \bandleaf{\box0}{\box2}}
+
+\newcommand{\originalsonen}[4]{%
+  \setbox0=\vbox{\hsize=\textwidth\footnotesize\setlength{\plhang}{1.5em}#2}%
+  \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
+  \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\ht2+\dp2\relax}%
+  \bandleaf{\box0}{\box2}}
+
+\newcommand{\enleafn}[4]{%
+  \setbox0=\vbox{\hsize=\textwidth\small#2}%
+  \setbox2=\vbox{\hsize=\textwidth\notesband{#4}}%
+  \immediate\write\fitfile{H E #1 \the\dimexpr\ht0+\ht2+\dp2\relax}%
+  \bandleaf{\box0}{\box2}}
 
 % Place a display block a fixed way down the leaf. NOT \vfil: the preamble sets
 % \raggedbottom, whose own bottom glue competes with any \vfil pair and lands the
