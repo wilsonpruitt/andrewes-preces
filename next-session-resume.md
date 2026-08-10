@@ -15,13 +15,14 @@
 
 **✅ NEW TOOL: `tools/check_notes.py`** — order (an ERROR), numbering, coverage. **Add it to every notes commit.**
 
-### ⚠⚠ THE ONE THING OWED BY WILSON OUT OF THIS SESSION — a one-sentence rule
-**Does an `S:` tag print the PLATE's chapter-and-verse, or the TRUE one?** `check_notes` finds **50 disagreements on 34 pages**, and the finished book shows the reader both figures. Three different things are mixed there and the pass has been treating them alike:
-- the plate **right on the Prayer Book's numbering** and the tag silently converting it to the AV's (printed 26: plate `Psal. xxxi. 6`, tag `Ps. xxxi. 5` — and BCP 6 *is* the verse). **§6 of NOTES-CONVENTIONS already forbids this.**
-- the plate **genuinely misprinted** and the tag right (same page: plate `cxli. 8`, tag `cxli. 3`, which is verse 3 in AV, BCP and Vulgate alike) — but §7.1 says the note may not be *phrased as a correction of the page*; the true verse gets **named**, in the open.
-- the **1853 editor's own bracketed slip** (`[1 Cor. viii. 12]` → 2 Cor. at printed 62), which is already handled properly and is the model.
+### ✅✅ RULED BY WILSON 2026-08-10 — **an `S:` tag prints the PLATE's chapter-and-verse, always.** Applied; 0 outstanding
+The tag is a **caption on the reference the plate prints**. Differences go into the tag's clause, never into its figure — **plate right on another numbering → name the system · plate misprinted → name the true verse · editor's bracketed slip → keep his brackets, `R:` note says whose · NOT CERTAIN → give the substance and claim nothing** (§3's safety rule, and the row to reach for). Table + reasoning: `NOTES-CONVENTIONS.md` §6.
+- **20 tags rewritten. `check_notes` reports 0 disagreements.** Nine were the **Prayer Book's** numbering converted to the AV's; three are kept-as-printed with the true verse named (`Ps. cxli. 8`→3, `Psal. xliii. 1`→lxiii, `Rom. v. 2`→20 — **the last two were already on the findings list and the band had been silently correcting them**).
+- ⚠ **The sharpest is printed 274's Hosanna: `Ps. cxvii. 25` is the VULGATE's numbering** for the AV's cxviii. Given §9's argument about which Psalter Andrewes had physically to hand, **silently normalising his psalm numbers is the one thing this edition should least want to do.**
+- ⚠⚠ **The checker CANNOT see 20 pages** whose columns are on different line counts (`6 8 14 18 40 48 62 64 68 82 86 128 184 192 214 258 262 286 288 289`). **Their tags have never been compared with the plate at all** — the largest remaining hole in the notes pass.
 
-**Twelve of the fifty cite a book or chapter not on the page at all** — a larger claim than a verse off by one. **Nothing may be auto-fixed from the checker.** Full statement: `NOTES-CONVENTIONS.md` §6, the boxed OPEN block. **Until it is ruled, new tags carry the PLATE's figure and name the system**, which is what 286's `Ps. cxxvii. 3` does.
+### ⚠ How the count moved, because the first three numbers were wrong and the method is the lesson
+**76 → 35 → 20.** The checker's first version compared a tag against **every reference anywhere on its page**, and most of what it reported was noise — printed 2 tags `Ps. cxix. 164`, the plate carries `Ps. cxix. 62`, same psalm, different verse, no relationship. **Same book and chapter is not the same reference.** Three further false classes had to go before the list could be trusted: the parity gate must use **the column carrying the references** (the Latin recto in Part I, not the Greek verso); a tag may **add** a reference from another book on a line that already carries one; and the 1853 prints **multi-verse references** (`*Mat.* viii. 2, 8.`) whose second number was invisible. **Do not act on a checker's first output — make it wrong in a way you can see, then narrow it.**
 
 **Remaining in the notes pass:** printed 291 → 395 (Part II §§7–43, ~1,071 refs) and Part III (~191). Then the pre-print list, which is an **images** problem, not a collation one.
 
