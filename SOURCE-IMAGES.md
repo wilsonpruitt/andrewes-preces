@@ -84,11 +84,13 @@ The 1853 apparatus is headed **EX APOGRAPHO SAMUELIS WRIGHT, APUD COLL. PEMB. CA
 
 ## Status of the four blocked watch items
 
+⚠ **Superseded in part — see "What the scan has actually settled" at the foot of this file.** Items 1 and 3 have since been acted on.
+
 | | item | status |
 |---|---|---|
-| 1 | **printed 239**, Latin recto cut off by the one-frame spread photograph | ✅ **CLOSED — read entire and legible** on Toronto leaf `0267`, every line complete to the right margin. ⚠ **The transcript still carries the `[?]`s; restoring them is Wilson's call, not the notes pass's.** |
+| 1 | **printed 239**, Latin recto cut off by the one-frame spread photograph | ✅ **CLOSED AND RESTORED** (Wilson's go, 2026-08-10). Read entire on Toronto leaf `0267`; the transcript now carries the full page and the band is written at `print-notes.md` ## 238. |
 | 2 | **printed 210**, left-margin ink smear | **Open, expected easy.** The smear is a Google-scan artifact, so Toronto should simply not have it. Leaf not yet pinned — the offset drifts, find it by eye near `0236`. |
-| 3 | **printed 386**, the garbled Hebrew `חזתלת` | **Open — and a better scan cannot repair it.** Confirmed a *plate* defect (the Google duplicate at PDF 423 reads the same five garbled letters). Toronto buys **certainty about the sorts**, not a reading. The reading stands on Andrewes' own facing Latin *Ecce spes*. |
+| 3 | **printed 386**, the garbled Hebrew `חזתלת` | ✅ **Re-read and confirmed a *plate* defect**, as expected — no scan can repair it. ⚠ **But the re-read produced the mechanism**: the next word is `התועלת`, and the compositor mangled *tocheleth* into a version of its near-identical neighbour. See the foot of this file. |
 | 4 | **printed 414**, the `Job. xxv. 3` cento | **Open, and Toronto is the wrong tool** — this needs *Brightman's* page images (he marks Hebrew by italics and italics don't survive OCR), not a better 1853. |
 
 ⚠ **So the digitization closes 1 outright, should close 2, confirms 3, and does not touch 4.** The earlier note that "a digitization unblocks the entire remaining pre-print list at once" was **too optimistic** — 414 was never an 1853-imaging problem.
