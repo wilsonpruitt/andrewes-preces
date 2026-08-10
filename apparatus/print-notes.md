@@ -486,3 +486,50 @@ S: 25 Rom. xvi. 26 — *for the obedience of faith*
 ## 166
 S: 10 Rev. v. 9 — *out of every kindred, and tongue, and people, and nation*
 S: 22 Rev. vii. 10 — *salvation to our God which sitteth upon the throne*
+
+## 168
+S: 11 Gen. ii. 2 — **the work of the seventh day**: God rested, and blessed and sanctified it
+
+## 172
+S: 2 Matt. viii. 8 — the centurion: *speak the word only, and my servant shall be healed*
+S: 3 Matt. viii. 25 — the disciples in the storm: *Lord, save us*
+S: 4 Mark iv. 38 — *carest thou not that we perish?*
+S: 5 Matt. ix. 2 — to the man sick of the palsy: *thy sins be forgiven thee*
+S: 6 Luke xvii. 13 — the ten lepers, standing afar off
+S: 7 Mark x. 47 — blind Bartimæus by the wayside
+S: 10 Mark vii. 34 — to the deaf man: *Ephphatha, that is, Be opened*
+S: 12 Luke xiii. 12 — to the bowed woman: *thou art loosed from thine infirmity*
+S: 13 Ps. xxxv. 3 — *say unto my soul, I am thy salvation*
+S: 14 2 Cor. xii. 9 — *my grace is sufficient for thee*
+R: 2 **The whole page is one request, asked ten times: *say it to me*.** Andrewes goes through the Gospels collecting the words Christ spoke to particular people — *be opened* to the deaf man, *thou art loosed* to the bowed woman, *thy sins be forgiven thee* to the palsied, *my grace is sufficient* to Paul — and asks for each of them in the first person. He is not recalling the miracles; he is asking to be the one they were said to. The Psalm and the Epistle at the foot are admitted on the same terms, as words spoken to somebody.
+
+## 176
+S: 4 Ps. ciii. 13 — *like as a father pitieth his children*
+S: 8 Ps. cxxiii. 2 — *as the eyes of servants look unto the hand of their masters*
+S: 12 Mark vii. 28 — the Syrophenician woman: *yet the dogs under the table eat of the children's crumbs*
+S: 17 1 Tim. i. 15 — *Christ Jesus came into the world to save sinners*
+S: 22 Matt. xviii. 11 — *the Son of man is come to save that which was lost*
+S: 25 Gen. ii. 7 — *and man became a living soul*
+
+## 178
+S: 1 2 Cor. vi. 1 — *that ye receive not the grace of God in vain*
+S: 4 Rom. viii. 26 — *groanings which cannot be uttered*
+S: 12 Ps. xxii. 4 — *our fathers trusted in thee, and were not confounded*
+
+## 180
+S: 20 Eph. iii. 20 — *unto him that is able to do exceeding abundantly above all that we ask or think*
+
+## 182
+S: 30 Rev. xv. 3 — the song of Moses and of the Lamb: *thy judgments are made manifest*
+
+## 184
+S: 3 Rev. xix. 5 — *praise our God, all ye his servants, both small and great*
+S: 20 Rev. xxi. 4 — *for the former things are passed away*
+R: 20 ⚠ **The manuscript has its largest silence immediately after this line.** Andrewes' own book leaves **three blank leaves** here — six blank pages, more than it leaves anywhere else — and the next thing in it is the great personal intercession that the 1853 prints on the following leaf. The printed page runs straight on. What the blank leaves mean is not settled: they may mark the end of the seven days, or room left for matter never written. **Nothing has been re-cut on the strength of them**; the division is recorded here and in `apparatus/CLASS-B-unit-boundaries.md`, which is where a decision about it would have to be argued.
+
+## 190
+S: 6 Ps. lxv. 1 — *unto thee shall the vow be performed*
+S: 9 Rev. iv. 11 — *thou art worthy, O Lord, to receive glory and honour and power*
+S: 12 Ps. lxv. 2 — *O thou that hearest prayer, unto thee shall all flesh come*
+S: 19 Ps. cxlv. 10 — *all thy works shall praise thee*
+S: 22 Ps. li. 15 — *my mouth shall shew forth thy praise*
