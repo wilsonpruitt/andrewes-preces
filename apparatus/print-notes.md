@@ -1617,3 +1617,23 @@ S: 17 Gen. xxii. 14 — Abraham naming the place: *in the mount of the LORD it s
 S: 21 Exod. xxxiv. 6, 7 — the Name proclaimed to Moses in the cleft of the rock
 S: 22 Lev. xxvi. 29 — the covenant curses, and the promise of return hidden in them
 S: 28 Deut. xxx. 1, 2, 3, 6 — the restoration clause: *the LORD thy God will circumcise thine heart*
+
+## 332
+S: 2 Ps. xlii. 12 — *hope thou in God: for I shall yet praise him*
+S: 11 Ps. ciii. 9 — *he will not always chide, neither keepeth he his anger for ever*
+R: 19 ⚠⚠ **The direction of speech reverses here, and it is the answer to the *Miserere*.** For six leaves the man has been speaking — asking, resolving, confessing. From *Mercy that triumpheth* to the end of the section **God speaks**, in the first person, and the prayer says nothing at all: *I am he that blotteth out thine iniquities* · *I will bear* · *before they call, I will hear*. The petitions are not answered one by one; they are answered by being **stopped**, and the man is left listening to promises he has spent six leaves turning into requests.
+S: 22 Isa. i. 18, 19 — *though your sins be as scarlet, they shall be as white as snow*
+S: 26 Isa. xlii. 3 — *a bruised reed shall he not break*, the verse Matthew quotes at printed 329
+S: 28 Isa. xliii. 25 — *I, even I, am he that blotteth out thy transgressions for mine own sake*
+S: 30 Isa. xliv. 22 — *I have blotted out thy transgressions as a cloud*, standing here as God speaks it
+R: 30 ⚠⚠ **The volume proves its own method from inside itself, on one verse.** Isaiah xliv. 22 stands at printed 22 as *Dele … et dissipa* — **blot thou out MINE**, an imperative in the man's mouth — and it stands here in the indicative and in God's, *I blot out, as a cloud, thine iniquities*, with *return unto me, and I will redeem thee* left attached. **Same verse, both ways, in one book**, and neither place notes the other. What printed 328 shows as a habit is confirmed here by the plainest possible witness: the edition never has to argue that the imperatives are turned indicatives, because the book turns one back.
+
+## 333
+S: 1 Isa. xlvi. 4 — *even to your old age I am he; and even to hoar hairs will I carry you*
+S: 4 Isa. liii. 4 — *surely he hath borne our griefs, and carried our sorrows*
+R: 4 **The Servant song is the only text in the catena quoted whole.** Everything around it is a single verse — a promise, a question, a clause — but Isaiah liii is given three verses running, wounded, bruised, the chastisement, the stripes, and the sheep gone astray. **The chapter is not cited for a sentence; it is set down as the ground the rest of the promises stand on**, and it is placed at the centre of the section rather than at its head.
+S: 13 Isa. lxv. 24 — *before they call, I will answer; and while they are yet speaking, I will hear*
+S: 16 Ezek. xviii. 23 — *have I any pleasure at all that the wicked should die?*
+S: 22 Ezek. xxxiii. 11 — *as I live, saith the Lord GOD, I have no pleasure in the death of the wicked*
+R: 22 ⚠ **Ezekiel says this twice and the page prints both times, not one.** Chapter xviii asks it as a question and chapter xxxiii swears it as an oath — *as I live* — and the two stand here nine lines apart with their surrounding verses, the turning, the ruin, the wicked who departs and lives. **The repetition is the prophet's own and the leaf keeps it.** A later hand tidying the duplication would delete an oath.
+S: 30 Isa. lv. 7 — *let him return unto the LORD, and he will have mercy upon him*
