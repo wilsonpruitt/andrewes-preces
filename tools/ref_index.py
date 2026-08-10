@@ -29,6 +29,7 @@ with the Greek and the English is line-keyed to the Greek: line N is the same li
 on all three. Verified at printed 34/35.
 """
 import argparse
+import sys
 import glob
 import re
 from collections import Counter
@@ -88,6 +89,34 @@ REF = re.compile(
     r"((?:\b[12I]\.?\s*)?(?:%s)\.?\s*[ivxlc]+\.?\s*[\d,\s.]*\d"
     r"|(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d[\d,\s]*\d|(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d)"
     % (BOOK, CHAPTERLESS, CHAPTERLESS), re.I)
+# ⚠⚠ NINTH INSTANCE of the silent-shortfall failure, and the LARGEST — found
+# 2026-08-10 while restoring printed 239. The 1853 cites a second verse from the
+# book and chapter it has just named by printing `*Vers.* N`, and repeats a
+# reference entire by printing `*Ibid.*` These are references, they are on the
+# page, and this index could not see ONE of them: there are ~180 in the volume.
+# Every coverage check on every page carrying one has therefore been silently
+# short, exactly as with the nineteen missing books — the tool reported less and
+# every downstream check agreed with it.
+#
+# A continuation is resolved from THE MOST RECENT FULL REFERENCE, scanning left
+# to right and carrying across lines and pages within a section file:
+#   `*Matt.* viii. 8.` … `[*Vers.* 20.]`  ->  Matt. viii. 20   (book+chapter kept)
+#   `*Psal.* li. 1.` … `[*Ibid.*]`        ->  Psal. li. 1      (the whole thing)
+# The resolved text is what enters the index, so `citation()` parses it and the
+# coverage check can match a tag that names the real verse. The printed form is
+# still visible to the eye in `note_sheet`, which shows the source line beside it.
+#
+# ⚠ THE RESOLUTION IS THE DANGEROUS PART, so it is inspectable and it refuses to
+# guess: `--continuations` prints every one with its antecedent and the distance
+# back to it, and a continuation with NO antecedent in its file is dropped with a
+# warning rather than attached to something far away. Read that list before
+# trusting a coverage report on a page that carries one.
+CONT = re.compile(r"\b(?:Vers\.\s*(\d+)|(Ibid)\.)", re.I)
+# The antecedent's book and chapter, i.e. everything up to and including the
+# roman numeral. A chapterless antecedent (Jude 20) cannot mother a `Vers.` and
+# is refused rather than guessed at.
+STEM = re.compile(r"^(.*?[ivxlc]+\.?\s*)\d[\d,\s.]*$", re.I)
+CONTINUATIONS = []
 MARK = re.compile(r"<!--\s*printed (\d+)")
 # The same pattern `proof2tex` strips before it decides a line is empty. Kept
 # identical to it on purpose: the index must count exactly the lines the builder
@@ -111,7 +140,8 @@ def index():
     out = {}
     seen_lines = {}
     for path in sorted(glob.glob(str(ROOT / "part*" / "*-transcript.md"))):
-        page, line_no = None, 0
+        page, line_no, ordinal = None, 0, 0
+        last = [None]   # most recent full reference; reset per file
         for raw in Path(path).read_text().splitlines():
             m = MARK.match(raw.strip())
             if m:
@@ -138,10 +168,42 @@ def index():
             if not COMMENT.sub("", raw).strip():
                 continue
             line_no += 1
+            ordinal += 1   # monotonic across the file; page numbers are not
             seen_lines[page] = line_no
             clean = re.sub(r"[*`\[\]]", "", raw)
-            for ref in REF.findall(clean):
-                out[page].append((line_no, re.sub(r"\s+", " ", ref).strip()))
+            # ⚠ Scanned left to right with BOTH patterns interleaved, because a
+            # continuation's antecedent is often on its own line — printed 342
+            # sets `Sigilli [Eph. i. 13.] / et / Arrhabonis. [Vers. 14.]` on one
+            # line, and a two-pass scan would resolve the Vers. against whatever
+            # stood on the line before.
+            events = [(m.start(), "full", m.group(0)) for m in REF.finditer(clean)]
+            events += [(m.start(), "cont", m) for m in CONT.finditer(clean)]
+            for pos, kind, val in sorted(events, key=lambda e: e[0]):
+                if kind == "full":
+                    ref = re.sub(r"\s+", " ", val).strip()
+                    out[page].append((line_no, ref))
+                    last[0] = (ref, page, line_no, ordinal)
+                    continue
+                verse, ibid = val.group(1), val.group(2)
+                if last[0] is None:
+                    print(f"⚠ {Path(path).name}: printed {page} line {line_no}: "
+                          f"`{val.group(0)}` has no antecedent — DROPPED, not guessed",
+                          file=sys.stderr)
+                    continue
+                ante, ap, al, ao = last[0]
+                if ibid:
+                    resolved = ante
+                else:
+                    stem = STEM.match(ante)
+                    if not stem:
+                        print(f"⚠ {Path(path).name}: printed {page} line {line_no}: "
+                              f"`{val.group(0)}` follows `{ante}`, which has no roman "
+                              f"chapter — DROPPED, not guessed", file=sys.stderr)
+                        continue
+                    resolved = f"{stem.group(1).strip()} {verse}"
+                out[page].append((line_no, resolved))
+                CONTINUATIONS.append((page, line_no, val.group(0), resolved,
+                                      ante, ordinal - ao, ap != page))
     return out
 
 
@@ -149,10 +211,29 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("page", nargs="?", type=int)
     ap.add_argument("--all", action="store_true")
+    ap.add_argument("--continuations", action="store_true",
+                    help="every resolved Vers./Ibid. with its antecedent")
     ap.add_argument("--stub", type=int,
                     help="emit print-notes.md S: lines for this page")
     args = ap.parse_args()
     idx = index()
+
+    if args.continuations:
+        print(f"{len(CONTINUATIONS)} continuation references resolved\n")
+        far = 0
+        for pg, ln, printed, resolved, ante, dist, crossed in CONTINUATIONS:
+            where = "same line" if dist == 0 else f"{dist} line{'s' if dist > 1 else ''} back"
+            if crossed:
+                where += ", ON THE PREVIOUS PAGE"
+            flag = "  ⚠ CHECK" if (crossed or dist > 6) else ""
+            if flag:
+                far += 1
+            print(f"  printed {pg:>3} line {ln:>3}  {printed:<12} -> "
+                  f"{resolved:<22} (from `{ante}`, {where}){flag}")
+        print(f"\n⚠ {far} need an eye: the antecedent is on the previous page, or "
+              f"more than 6 lines back.\n  A long quotation walking up one chapter "
+              f"(Dan. ix, Matt. v) is the innocent case; anything else is not.")
+        return
 
     if args.stub:
         # In Part I the refs sit on the Latin recto; the note belongs to the

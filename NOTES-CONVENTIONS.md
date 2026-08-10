@@ -189,6 +189,22 @@ This has now happened **six times**. Printed 290 offered three of the Spirit's f
 
 **Run `python3.11 tools/audit_missing_books.py` before opening a new part or section.** It reports every italicised token followed by a roman numeral that the current list does not match, and each is a decision: a missing book goes into `BOOK` (**the long form before its short form**), a false positive stays out and is named in the comment there. `*Servitus.*` (a heading at printed 331) and `*sec.* LXX` are false positives and must stay out.
 
+### 11a. ⚠⚠ The same failure, ninth instance and the largest — CONTINUATION references
+
+The abbreviation list was only half the blindness. The 1853 also cites **a second verse of the book and chapter it has just named** by printing `*Vers.* N`, and repeats a reference entire by printing `*Ibid.*` — and the index could not see **one** of them. There are **221** in the volume.
+
+**Fixed 2026-08-10.** A continuation is resolved from the most recent full reference, scanning left to right and carrying across lines and pages within a section file; the resolved text is what enters the index, so a tag naming the real verse now matches. ⚠ **The printed form is what a tag must still show** — `` `Vers. 20` — i.e. Matt. viii. 20 `` — because §6 rules that a tag prints the plate's figure and puts the difference in its clause.
+
+⚠⚠ **The resolution is the dangerous part, so read it before you trust it:**
+
+```
+python3.11 tools/ref_index.py --continuations
+```
+
+It prints every resolved reference with its antecedent and the distance back, and **flags any whose antecedent is on the previous page or more than six lines back**. A long quotation walking up one chapter — Dan. ix, Matt. v, Ps. lxxxv — is the innocent case, and Part I's references sit on the Latin rectos so a leaf-back antecedent is normal there. **Anything else wants an eye.** A continuation with no antecedent at all is **dropped with a warning, never attached to something far away.**
+
+⚠ **The cost of the nine years of blindness: 130 references on 61 pages already written.** The worklist is `BACKFILL-continuations.md`. **Untagged is not automatically wrong** (§3, §8) — but where an `R:` note *counts* something, the count came out of the defective index, so **re-read the prose and not only the tags**.
+
 The 2026-08-10 sweep, run at printed 324, found **71 invisible references under nineteen missing forms** — the Vulgate's `Joan` `Thren` `Ezech` `Mich` `Abac` `Judic` `Paralip`/`Paral` `Syr`, the contracted `Es` (Esaias) and `Ez` (Ezekiel), and the plain English `Isa` `Josh` `Amos` `Zech` `Chron` `Nehem` `Eccles` `Ezr`. **Fifty-two of them stood on pages whose notes were already written and committed.**
 
 ⚠ **Two of those forms are contractions that look like other books, and both were verified against every occurrence before being added:** `Es.` is **Esaias**, not Esther or Esdras (lxiv. 5 · vi. 3 · xxx. 15 · li. 5 · lvii. 11 · l. 4), and `Ez.` is **Ezekiel**, not Ezra (ix. 6 · xviii. 23 · xxxiii. 11) — the volume writes Ezra `Ezr.` A guess here would have put a wrong book on a printed page.
