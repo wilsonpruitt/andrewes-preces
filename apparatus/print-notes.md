@@ -983,3 +983,59 @@ S: 21 Isa. ii. 4 — *their spears into pruninghooks*
 S: 26 Tit. iii. 5 — *the renewing of the Holy Ghost*
 S: 28 Wisd. xi. 23 — *thou winkest at the sins of men, because they should amend*
 S: 30 Isa. xxx. 18 — *therefore will the LORD wait, that he may be gracious unto you*
+
+## 279
+S: 1 Rom. ii. 5 — *after thy hardness and impenitent heart*
+S: 2 Acts ii. 37 — at Pentecost: *they were pricked in their heart*
+S: 3 Deut. xxxii. 29 — *that they would consider their latter end*
+S: 4 Heb. x. 2 — *the worshippers once purged should have had no more conscience of sins*
+S: 5 Hos. ii. 15 — *the valley of Achor for a door of hope*
+S: 8 1 John i. 9 — *he is faithful and just to forgive us our sins*; Matt. xviii. 32 — *I forgave thee all that debt*; John xx. 23 — *whose soever sins ye remit*; Matt. xvi. 19 — *the keys of the kingdom*
+S: 11 Isa. xxxviii. 12 — Hezekiah: *from day even to night wilt thou make an end of me*
+S: 12 Ps. cii. 24 — *take me not away in the midst of my days*
+
+## 280
+S: 4 Isa. lxiii. 15 — *look down from heaven, and behold from the habitation of thy holiness*
+S: 5 Ps. cxiii. 5 — *who dwelleth on high, and humbleth himself to behold*
+S: 10 Ps. xliv. 1 — *our fathers have told us, what work thou didst in their days*
+S: 22 Rev. vi. 16 — *hide us from the face of him that sitteth on the throne*
+S: 23 Matt. xxv. 33 — the goats set on the left hand
+S: 26 Matt. viii. 12 — *cast out into outer darkness*
+
+## 281
+S: 2 Rev. xiv. 11 — *the smoke of their torment ascendeth up for ever*
+S: 8 Eph. iv. 18 — *the blindness of their heart*
+S: 10 Prov. vii. 13 — the strange woman, *with an impudent face*; Isa. xlviii. 4 — *thy brow brass*
+S: 11 1 Tim. iv. 2 — *conscience seared with a hot iron*
+S: 13 Tit. i. 16 — *unto every good work reprobate*
+S: 15 1 John v. 16 — *a sin unto death*
+S: 16 Matt. xii. 32 — the word against the Holy Ghost
+R: 10 **A soft forehead and a hard one, and both are prayed against.** Proverbs gives the *impudent face* of the strange woman; Isaiah gives the brow of brass. Andrewes braces them as the two ways a face can fail — shamelessness that feels nothing and obstinacy that yields nothing — and asks to be delivered from either. The English keeps the brace rather than choosing.
+
+## 282
+S: 15 1 Tim. vi. 5 — *men of corrupt minds, and destitute of the truth*
+S: 16 Hos. xi. 5 — *the Assyrian shall be his king, because they refused to return*
+S: 17 1 Kings xii. 27 — Jeroboam, who feared the people would return to Jerusalem
+S: 18 1 Kings xii. 13 — Rehoboam, who answered the people roughly
+S: 20 Judg. ix. 23 — *God sent an evil spirit between Abimelech and the men of Shechem*
+S: 22 Ps. cxx. 2 — *deliver my soul from lying lips*; Ps. xci. 3 — *the snare of the fowler*
+R: 16 **Four names for four ways a people is lost, and none of them is explained.** Asshur is the foreign power a nation is given over to; Jeroboam the ruler who divides worship to keep a throne; Rehoboam the ruler who answers roughly and loses ten tribes; the evil spirit of Shechem the discord God sends between a man and his own city. As at printed 204, the deprecation depends entirely on the reader knowing the histories, and the English can only name them.
+
+## 283
+S: 4 2 Cor. vii. 1 — *all filthiness of the flesh and spirit*
+S: 9 2 Sam. xxiv. 16 — the angel at the threshingfloor: *it is enough; stay now thine hand*
+S: 22 Matt. xxv. 21 — *enter thou into the joy of thy lord*
+S: 23 John xvi. 24 — *that your joy may be full*
+S: 25 Matt. xxv. 34 — *then shall the King say unto them on his right hand*
+
+## 284
+S: 1 Luke xxiii. 43 — *to day shalt thou be with me in paradise*; Luke xvi. 22 — *carried by the angels into Abraham's bosom*
+S: 13 Eph. vi. 18 — *praying always with all prayer*, which crowns the armour
+S: 16 John xv. 16 — *that your fruit should remain*
+S: 18 Ps. xvii. 15 — *I shall be satisfied, when I awake, with thy likeness*
+S: 19 2 Kings xx. 6 — *I will add unto thy days fifteen years*
+
+## 285
+S: 6 Ps. cxxxii. 15 — *I will abundantly bless her provision*
+S: 8 Ps. cxlvii. 14 — *filleth thee with the finest of the wheat*
+S: 11 Ps. cxlvii. 13 — *he hath blessed thy children within thee*
