@@ -1857,3 +1857,14 @@ S: 17 Luke v. 5 — Peter at the draught of fishes: *Master, we have toiled all 
 R: 18 ⚠⚠ **A new section opens with a key, the plainest statement in the volume of how Andrewes reads a miracle.** Five pairs read across: the world is the sea, men the fishes, the Church the boat, the preacher the fisherman, the Word the net. **The draught of fishes set out as a working diagram for a man about to preach**, hung on Peter's *we have toiled all the night and taken nothing*. ⚠ **This table IS read across** — unlike the `Divisio` at 347.
 S: 27 2 Cor. iii. 14 — *the vail untaken away in the reading of the old testament*
 S: 29 Ps. cxix. 12 — *blessed art thou, O LORD: teach me thy statutes*
+
+## 355
+S: 2 1 Sam. x. 26 — of the band that went with Saul: *whose hearts God had touched*
+S: 3 Eph. i. 8 — the plate's figure. ⚠ **The line wants Eph. i. 18**, *the eyes of your understanding being enlightened*, which is what *illumina sensus cordis* renders; i. 8 is *he hath abounded toward us in all wisdom and prudence*. **Kept as printed** — it stands on the volume's running list of wrong references with `[Jer. l. 24.]` and `[Dan. vi. 4.]`
+S: 4 Ps. li. 15 — *O Lord, open thou my lips*; Ps. lxxi. 8 — *let my mouth be filled with thy praise*. ⚠ **Ps. li. 15 returns alone nine lines below** — the one verse this page says twice, and the page is about nothing but the mouth.
+R: 8 ⚠⚠ **`Carbo duplicis naturæ` — the COAL OF THE TWOFOLD NATURE — is a title for Christ, and it is not in Isaiah.** The prophet's coal, taken from the altar with tongs and laid on his mouth, is read as **the coal that is wood and fire at once, and so God and man at once**; the tongs are what handles what cannot be touched. ⚠ **The reading is Greek** — the ἄνθραξ of the Eastern liturgies, where the same coal is what the communicant receives — **the fourth mark of that rite in six leaves**, after 349's anaphora and *voluntary and involuntary* and 350's doxology, **and the strongest, because it carries a whole Christology in one noun.**
+S: 17 Isa. l. 4 — *the Lord GOD hath given me the tongue of the learned, that I should know how to speak a word in season*; Eph. iv. 29 — *that it may minister grace unto the hearers*
+S: 18 Eph. vi. 19 — Paul asking prayer for himself: *that utterance may be given unto me, that I may open my mouth boldly*
+R: 19 ⚠⚠ **Ps. lxxxi. 10 is God's own command, answered as though it had been obeyed.** *Open thy mouth wide, and I will fill it* — the psalm; *Dilato os meum, Domine: **Tu imple*** — **I have opened my mouth wide: do thou fill it.** The condition is reported as performed and the promise called in. ⚠ **Not an indicative made imperative, but a promise TAKEN UP and its half discharged.**
+S: 19 Ps. lxxxi. 10 — *open thy mouth wide, and I will fill it*
+S: 28 Ps. xxviii. 2 — *when I lift up my hands toward thy holy oracle*
