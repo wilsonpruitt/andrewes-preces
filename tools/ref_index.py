@@ -36,10 +36,19 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
+# ⚠ The 1853 does not hold to ONE abbreviation per book: it prints *Matth.* beside
+# *Matt.*, *Coloss.* beside *Col.*, *Ephes.*, *Galat.*, *Jerem.* Every long form must
+# be listed in its own right and BEFORE its short form. Python backtracks into a
+# later alternative when the first one fails, so short-first is not fatal — but a
+# long form that is absent altogether matches nothing and the reference simply
+# never enters the index. That is how *Ephes.* iv. 30 (printed 290, the Seal among
+# the Spirit's four titles) went missing: the page showed four titles and the index
+# offered three, and nothing anywhere said a reference had been dropped.
 BOOK = (r"Gen|Exod|Ex|Lev|Num|Deut|Jos|Judg|Ruth|Reg|Sam|Chr|Esd|Neh|Tob|Judith"
-        r"|Esth|Job|Psal|Ps|Prov|Pro|Eccl|Cant|Sap|Ecclus|Isai|Is|Jer|Lam|Bar"
+        r"|Esth|Job|Psal|Ps|Prov|Pro|Eccl|Cant|Sap|Ecclus|Isai|Is|Jerem|Jer|Lam|Bar"
         r"|Ezek|Dan|Hos|Os|Joel|Am|Obad|Jon|Mic|Nah|Hab|Soph|Zeph|Agg|Zach|Mal"
-        r"|Mac|Matt|Mat|Marc|Mar|Luc|Luk|Joh|Jo|Act|Rom|Cor|Gal|Eph|Phil|Col"
+        r"|Mac|Matth|Matt|Mat|Marc|Mar|Luc|Luk|Joh|Jo|Act|Rom|Cor|Galat|Gal"
+        r"|Ephes|Eph|Phil|Coloss|Col"
         r"|Thess|Tim|Tit|Philem|Heb|Jac|Pet|Jud|Apoc|Rev")
 REF = re.compile(r"((?:[12I]\s*)?(?:%s)\.?\s*[ivxlc]+\.?\s*[\d,\s.]*\d)" % BOOK,
                  re.I)

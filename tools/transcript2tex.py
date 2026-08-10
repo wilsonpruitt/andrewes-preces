@@ -236,7 +236,14 @@ def recto_band(page_notes):
             else:
                 out.append(note_tex([re.sub(r"^\d+\s+", "", e)]))
         blocks.append(r"\\[1pt]".join(out))
-    return r"\\[3pt]".join(blocks)
+    # ⚠ `\par\vspace`, NOT `\\[3pt]`. The scripture block above closes with `\par`
+    # (it is set inside a `{\scriptsize …\par}` group), and a `\\` straight after a
+    # `\par` is "There's no line here to end" — 49 of them across the volume, one
+    # for every leaf carrying BOTH bands. LaTeX recovers, so the build reported a
+    # PDF and the errors scrolled past; what it silently dropped was the 3pt that
+    # separates the scripture tags from the explanatory note, and the two bands
+    # were running together at the foot of every such page.
+    return r"\par\vspace{3pt}".join(blocks)
 
 # The M2 sample split three pages at a unit boundary so prototype B could show a
 # mid-page break. proto-{a,b,c}.tex still \input those a/b fragments by name, so
