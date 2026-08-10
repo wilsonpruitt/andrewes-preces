@@ -167,6 +167,8 @@ python3.11 tools/transcript2tex.py --fit 1  # ⚠ --fit alone reads the WHOLE-VO
 
 ⚠ **`--fit` is not optional.** The band is measured *into* the fit record, so an overrun is named; it is not visible any other way, because a box that overruns does so in silence. **A page that reports too tall is trimmed before the commit, never left.**
 
+⚠⚠ **`--fit` READS A FILE THAT ONLY XELATEX WRITES.** The Python build regenerates the TeX and the fragments; the `.fit` record is written during the LaTeX run. So `transcript2tex.py` followed straight by `--fit` **reports the PREVIOUS run's measurements** and will show a page you have just trimmed as still too tall — or, far worse, show a page you have just filled as still fitting. **Always xelatex (twice) between the build and the measurement.**
+
 ⚠ **`--fit` with no argument reads `volume-loeb.fit`.** After a `--part 1` build you must say `--fit 1` or you are reading a stale file and will believe a page fits when it does not.
 
 ## 10. Model and scope
