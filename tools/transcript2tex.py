@@ -192,6 +192,14 @@ def recto_band(page_notes):
     """
     s = page_notes.get("S", [])
     r = page_notes.get("R", [])
+    # ⚠ ONE MARKER SERIES OVER BOTH STREAMS. The roman a note carries is the
+    # position of ITS LINE among all the lines this leaf annotates — scripture
+    # tags and explanatory notes together — so a line carrying both gets ONE
+    # roman and it means the same thing in both registers. Numbering the streams
+    # separately would put two different i's on one page.
+    series = {ln: i for i, ln in enumerate(
+        sorted({ln for ln, _ in by_line(s)} | {ln for ln, _ in by_line(r)}),
+        start=1)}
     blocks = []
     if s:
         # Each group opens with the ROMAN marker that stands at that line's end
@@ -199,15 +207,26 @@ def recto_band(page_notes):
         # arabic line figure is left to the margin; repeating it here would put
         # both series in the band and undo the point of using two alphabets.
         parts = []
-        for i, (_, items) in enumerate(by_line(s), start=1):
+        for ln, items in by_line(s):
             # the arabic figure is the margin's job here, so drop it from the text
             bare = [re.sub(r"^\d+\s+", "", x) for x in items]
             parts.append(r"\textsuperscript{%s}\,%s" % (
-                roman(i), "; ".join(note_tex([x]) for x in bare)))
+                roman(series[ln]), "; ".join(note_tex([x]) for x in bare)))
         blocks.append(r"{\scriptsize " + r" \textperiodcentered\ ".join(parts)
                       + r"\par}")
     if r:
-        blocks.append(note_tex(r))
+        # An R: entry may open with a line figure, in which case it takes that
+        # line's roman and the reader can walk from the marker to the note. One
+        # that does not is a note about the PAGE, and is set without a marker.
+        out = []
+        for e in r:
+            m = re.match(r"^(\d+)\s+(.*)$", e)
+            if m and int(m.group(1)) in series:
+                out.append(r"\textsuperscript{%s}\,%s" % (
+                    roman(series[int(m.group(1))]), note_tex([m.group(2)])))
+            else:
+                out.append(note_tex([re.sub(r"^\d+\s+", "", e)]))
+        blocks.append(r"\\[1pt]".join(out))
     return r"\\[3pt]".join(blocks)
 
 # The M2 sample split three pages at a unit boundary so prototype B could show a
@@ -451,7 +470,8 @@ def build_loeb(parts, pages, have):
                               frag(f"en{n:03d}"), toc=toc,
                               vnotes=apparatus_band(v), vlines=noted_lines(v),
                               rnotes=recto_band(notes.get(n, {})),
-                              rlines=noted_lines(notes.get(n, {}).get("S", [])))
+                              rlines=noted_lines(notes.get(n, {}).get("S", [])
+                                                 + notes.get(n, {}).get("R", [])))
             skip.add(n + 1)
         else:
             body += [r"%% ---------- printed %d ----------" % n]
@@ -460,7 +480,8 @@ def build_loeb(parts, pages, have):
                               vnotes=apparatus_band(notes.get(n, {}).get("V", [])),
                               vlines=noted_lines(notes.get(n, {}).get("V", [])),
                               rnotes=recto_band(notes.get(n, {})),
-                              rlines=noted_lines(notes.get(n, {}).get("S", [])))
+                              rlines=noted_lines(notes.get(n, {}).get("S", [])
+                                                 + notes.get(n, {}).get("R", [])))
     return "\n".join(body)
 
 
