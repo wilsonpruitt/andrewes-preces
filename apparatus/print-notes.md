@@ -1637,3 +1637,24 @@ S: 16 Ezek. xviii. 23 — *have I any pleasure at all that the wicked should die
 S: 22 Ezek. xxxiii. 11 — *as I live, saith the Lord GOD, I have no pleasure in the death of the wicked*
 R: 22 ⚠ **Ezekiel says this twice and the page prints both times, not one.** Chapter xviii asks it as a question and chapter xxxiii swears it as an oath — *as I live* — and the two stand here nine lines apart with their surrounding verses, the turning, the ruin, the wicked who departs and lives. **The repetition is the prophet's own and the leaf keeps it.** A later hand tidying the duplication would delete an oath.
 S: 30 Isa. lv. 7 — *let him return unto the LORD, and he will have mercy upon him*
+
+## 334
+S: 3 Ps. lxix. 5 — *my sins are not hid from thee*
+S: 6 Job xxxi. 33 — Job's oath of clearing: *if I covered my transgressions as Adam*
+S: 8 Ps. cxli. 4 — *incline not my heart to any evil thing, to practise wicked works*
+S: 14 Ps. cxix. 176 — *I have gone astray like a lost sheep*
+S: 15 Jer. xxxi. 18 — Ephraim: *as a bullock unaccustomed to the yoke*
+S: 16 Prov. xxvi. 11 — *as a dog returneth to his vomit, so a fool returneth to his folly*
+S: 17 2 Pet. ii. 22 — Peter quoting that proverb and adding the washed sow
+S: 19 Josh. vii. 19, 20 — Joshua to Achan: *give glory to the LORD, and make confession* — and Achan's *thus and thus have I done*
+R: 19 **The confession borrows the words of a man who was stoned for the sin he confessed.** Achan's *I have sinned, and thus and thus have I done* is used here as the form of an honest confession, and it is, precisely: the one confession in Scripture that names the deed in detail. **The page takes the formula and not the outcome.** ⚠ The valley of Achor, where that story ends, has already been prayed against twice in this volume, at printed 205 and 282; here the man who made it is spoken with rather than deprecated.
+S: 21 Matt. xii. 20 — Matthew's *he shall not break*, printed here as *break thou not*
+R: 21 ⚠⚠ **Here the turn from indicative to imperative is visible IN THE GREEK, and the plate does it in the open.** Matthew writes *κάλαμον συντετριμμένον οὐ κατεάξει* — he **shall** not break the bruised reed, a statement about Christ. The plate prints *κάλαμον συντετριμμένον* **μὴ κατεάξῃς** — a prohibition addressed to Him. ⚠ **This verse has now stood on three consecutive leaves and never twice the same way**: at printed 329 as *Extirpa*, at 332 as Isaiah's own promise in God's mouth, and here as a petition in the second person. **Whatever else the notes record about this edition's method, it can be shown on one verse in three openings**, and the third of them shows it in the original.
+
+## 335
+S: 6 Rom. ix. 1 — Paul swearing to his grief for his kinsmen: *my conscience also bearing me witness*
+R: 6 ⚠ **Paul's oath was sworn about other men's damnation and is taken here for the speaker's own sin.** *I say the truth in Christ, I lie not, my conscience also bearing me witness* — Paul is about to say he could wish himself accursed **for his brethren**. The page keeps the oath and its solemnity entire and changes what is sworn to: *that I have so sinned against thee.* **Fourth text in Part II turned inward that was spoken outward**, and as always nothing on the page marks the change.
+S: 10 Job vii. 20 — *I am become a burden to myself*
+S: 11 Ps. li. 17 — *a broken and a contrite heart, O God, thou wilt not despise*; Rom. viii. 26 — *groanings which cannot be uttered*
+S: 12 Isa. xxiv. 16 — *my leanness, my leanness, woe unto me*; Rom. ii. 5 — *after thy hardness and impenitent heart*; Jer. ix. 1 — *oh that mine head were waters*
+S: 18 2 Cor. vii. 11 — the *indignation* among the marks of godly sorrow, on its fourth leaf running
