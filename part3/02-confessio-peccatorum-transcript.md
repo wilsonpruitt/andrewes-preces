@@ -379,13 +379,13 @@ Ut in illis ostenderes excellentiam miserationis Tuæ;
    - **`1 Cor. xi. 30.` (413)** for *Sed dijudico ipse me* — 1 Cor. xi. **31**.
    All six verified against the OCR, so none is a misreading of the plate. They join the running list (`[Jer. l. 24.]` §23, `[Eph. i. 8.]` §27, `[Dan. vi. 4.]` §28, `[Psal. cxix. 114.]` §34, `ante Intercessionum` §40, `Epistola xxvii. lib. x.` §42, `peccata meam` Part III §1).
 
-5. **SIX FURTHER REFERENCES ARE DOUBTFUL and are left as questions, not asserted as errors** — either the line is a cento rather than a quotation, or the miss is a single digit that could as easily be the MS's as the compositor's. All read as printed and confirmed in the OCR. **Do not "correct" any of them on a later pass; verify them against Harley 6616 first.**
-   - `*Psal.* xl. 9.` (409) for *Defecerunt in vanitate dies mei, et anni in anxietate cordis* — closer to Ps. xxxi. 10 (Vulg. xxx. 11).
-   - `*Job.* xxx. 33.` (412) for *non abscondo peccatum, sicut Adam* — the verse is Job xxxi. 33.
-   - `liii. 13.` (415) for *Numquid cognoscentur in tenebris mirabilia Tua* — the verse is Ps. lxxxviii. 12; whether the compositor dropped `lxxx` cannot be told from these files.
-   - `*Is.* xliii. 24.` (415) for *propter Temetipsum dimittis peccata* — the verse is Isaiah xliii. 25.
-   - `*Job.* xxv. 3.` (414) — a cento of Job xxv. 4–5 and iv. 18.
-   - `*Num.* xiv. 7.` (416) — Moses' plea is Num. xiv. 17–19.
+5. **SIX FURTHER REFERENCES WERE DOUBTFUL. ✅ FIVE ARE NOW CLOSED and one is improved (Brightman retry, 2026-08-09) — all still kept exactly as printed.** The plate is never mended; what follows records what each reference *should* say. Full ledger: the English file's "retry pass" section and `apparatus/BRIGHTMAN-collation.md` §3b.
+   - `*Psal.* xl. 9.` (409) for *Defecerunt in vanitate dies mei, et anni in anxietate cordis* — **✅ Ps. lxxviii. 33** (Vulg. lxxvii. 33, where *Defecerunt in vanitate dies* is verbatim). ⚠⚠ **This REVERSES the note's old guess of Ps. xxxi. 10 (Vulg. xxx. 11), which was wrong** — xxxi. 10 has no second half answering *anni in anxietate*. Brightman cites lxxviii. 33 twice, independently.
+   - `*Job.* xxx. 33.` (412) for *non abscondo peccatum, sicut Adam* — **✅ Job xxxi. 33, CONFIRMED** by Brightman.
+   - `liii. 13.` (415) for *Numquid cognoscentur in tenebris mirabilia Tua* — **✅ Ps. lxxxviii. 12, CONFIRMED** by Brightman. The *verse* is settled; **the mechanism of the corruption is not**, and no dropped-`lxxx` claim should be asserted.
+   - `*Is.* xliii. 24.` (415) for *propter Temetipsum dimittis peccata* — **✅ Isaiah xliii. 25, CONFIRMED** by Brightman's margin.
+   - `*Num.* xiv. 7.` (416) — **✅ Num. xiv. 17–19, CORROBORATED**; Brightman cites xiv. 17, 18 for the same plea.
+   - `*Job.* xxv. 3.` (414) — ⚠ **STILL OPEN, and the old note overstated it.** Not simply "a cento of Job xxv. 4–5 and iv. 18": Brightman tags the *infans unius diei* clause to **Job xiv (vulg.)**, whose LXX reads "though his life be but a day" — which Job xxv. 4 does not say. Likely **Job xiv. 4–5 (vulg.) + xxv. 5 + iv. 18**. His margin's figures are OCR-noisy; **needs his page image. On the pre-print list.**
 
 6. **The double brace at printed 412.** *Pulvis / Ventus / Caro* are gathered by a right-facing brace and *fragilis / levis / dissolutus* by a left-facing one — two brace columns facing each other, the §32/§36 ` | ` exception. Encoded row-wise. The natural pairing runs **across** (dust is frail, wind is light, flesh dissolves), but the double brace deliberately makes every member available to every other; the English keeps the rows and does not close the figure.
 

@@ -1,5 +1,25 @@
 # Next session — resume note
 
+## ▶▶ THE FRONT, as of 2026-08-09 — read this block, then skip to whichever section it sends you to
+
+**The book is built and complete.** Primary text (all three parts, both layers) · apparatus pass · Brightman collation · the Loeb layout ruled and built · **front matter** (half-title, title, colophon, contents, preface) and **back matter** (appendix on Andrewes' sources). **617 leaves, 0 units too tall.** ⚠ Everything below the next horizontal rule was written **before** the front and back matter existed and does not know about them.
+
+**✅ DONE THIS SESSION (2026-08-09): the Brightman RETRY pass — Part III §2's reference list is now fully adjudicated, 8 of 8.** Ledger: `apparatus/BRIGHTMAN-collation.md` **§3b**.
+- **⚠⚠ One of our own conjectures was WRONG and is corrected:** printed 409's `*Psal.* xl. 9.` is **Ps. lxxviii. 33**, not the Ps. xxxi. 10 our note proposed — proved by Brightman twice over *and* by the Latin, which is verbatim Vulgate Ps. lxxvii. 33. **A plausible conjecture is not a collation; this one survived two passes before a witness was asked.**
+- Both 2026-08-04 no-hits closed (`Marc. iv. 28` → Mark iv. **38**; `1 Cor. xi. 30` → 1 Cor. xi. **31**), and four more doubtful references confirmed.
+- **⚠ THE METHOD, which is the reusable part: search Brightman by the SCRIPTURE WORDING our English shares with him — never by the Latin (he prints none) and never by our own phrasing (his is his own).** Find one line of a section and his whole rendering of it is contiguous; every neighbouring reference then comes free. Our 409–416 is his pp. 146–149. **Far cheaper than the 2026-08-04 pass. Use this shape for any further lookup.**
+- ⚠ `*Job.* xxv. 3.` (414) is **improved but NOT closed** — he tags the *infans unius diei* clause to **Job xiv (vulg.)**, not Job xxv, so the cento is probably three sources, not two. Needs his page image.
+- ⚠ **Corrected a stale header:** §3a said "Nothing applied." It has in fact all been applied to the **English** layers since. **Nothing was ever applied to a TRANSCRIPT, and that is the rule that matters.**
+
+**▶ WHAT THE RESIDUE NOW IS, and it changed shape:** printed 210 · 239 · 386's Hebrew · 414's cento · `p. 207` · 370/371's missing heading. **Four of those six are blocked on the same thing — a non-Google digitization, plus Brightman's page images for anything in italics. Brightman by text is now near exhausted; further text-only lookups have low expected yield.** The pre-print list is an **images** problem, not a collation one.
+
+**▶ Candidate next fronts, in the order I'd rank them:**
+1. **The preface** (`prototypes/front/preface.tex`) — still a draft in my words, and it is the one part of the finished book that is placeholder prose. Wilson's voice is the blocker, not research.
+2. **The source images** — commissioning or locating a non-Google 600-dpi digitization would unblock the entire remaining pre-print list at once.
+3. **Book A / Book B** — still unruled; working direction is "start with Book A, not a lock." Nothing currently waits on it.
+
+---
+
 > **▶ READ [`BRIEF-finish-primary-and-apparatus.md`](BRIEF-finish-primary-and-apparatus.md) FIRST.** Its **Deliverable 1 (printed 431–436) is now DONE**; what stands is **Deliverable 2, the *Variae Lectiones* apparatus pass**, and with it **⚠ the Latin question** — the apparatus preface says the Greek-only apograph lacks the Latin *quam Editor ipse confecisse videtur*, which bears on the whole Prototype B mirror. **Surface it, do not act on it.** The brief also carries the decisive class-A test that can close the question, and the `apparatus/` file layout to produce.
 
 ## ▶ CURRENT FRONT — **BOTH LAYOUT DECISIONS ARE RULED (2026-08-05); the older editorial one still stands**
