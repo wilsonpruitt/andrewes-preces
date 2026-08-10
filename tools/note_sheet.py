@@ -53,8 +53,15 @@ def sheet(n, idx):
     en = page_lines(n, "part*/*-english.md")
     if not en:
         return
-    refs = [(l, r, n) for l, r in idx.get(n, [])] + \
-           [(l, r, n + 1) for l, r in idx.get(n + 1, [])]
+    # ⚠ ONLY PART I PAIRS. There the unit is the 1853 OPENING — an even Greek
+    # verso with its own odd Latin recto — and the references are printed on the
+    # Latin side, so both pages feed one sheet. In Parts II--III every printed
+    # page is its own unit with the English facing it, and pulling in n+1 would
+    # file the NEXT page's references under this one. That would have corrupted
+    # every sheet in Part II, silently, since the notes still land somewhere.
+    refs = [(l, r, n) for l, r in idx.get(n, [])]
+    if n <= 263 and n % 2 == 0:
+        refs += [(l, r, n + 1) for l, r in idx.get(n + 1, [])]
     print(f"\n{'=' * 72}\n=== opening {n}/{n + 1} — {len(en)} English lines, "
           f"{len(refs)} references\n{'=' * 72}")
     print("--- references, by the line of the page they are PRINTED on ---")
@@ -73,7 +80,9 @@ def main():
     ap.add_argument("last", type=int, nargs="?")
     a = ap.parse_args()
     idx = index()
-    for n in range(a.first, (a.last or a.first) + 1, 2):
+    # Part I advances by openings; Parts II--III by single pages.
+    step = 2 if a.first <= 263 else 1
+    for n in range(a.first, (a.last or a.first) + 1, step):
         sheet(n, idx)
 
 
