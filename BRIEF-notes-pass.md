@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 348 → 436)
+# BRIEF — finishing the notes pass (printed 352 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,9 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–347**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–351**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 110 pages.** Part II, printed **348–395**; Part III, printed 398–436. **NEXT IS PRINTED 348.**
+**Remaining: 106 pages.** Part II, printed **352–395**; Part III, printed 398–436. **NEXT IS PRINTED 352.**
 
 ⚠⚠ **Printed 347 changed what this pass knows about the book: `Divisio` is the volume's own analysis of what a prayer contains, and most of its terms are the section headings of the book itself.** Introduction material, and the key to why the volume is ordered as it is. ⚠ **It also proved that a ` | ` table does NOT always mean an antithesis** — the *Divisio* is one list wrapped into two columns. **Check the join before reading any table across.**
 
