@@ -533,3 +533,109 @@ S: 9 Rev. iv. 11 — *thou art worthy, O Lord, to receive glory and honour and p
 S: 12 Ps. lxv. 2 — *O thou that hearest prayer, unto thee shall all flesh come*
 S: 19 Ps. cxlv. 10 — *all thy works shall praise thee*
 S: 22 Ps. li. 15 — *my mouth shall shew forth thy praise*
+
+## 2
+S: 3 Luke xviii. 1 — *men ought always to pray, and not to faint*
+S: 4 1 Thess. v. 17 — *pray without ceasing*
+S: 8 Dan. vi. 10 — Daniel kneeling three times a day, as he did aforetime
+S: 11 Ps. cxix. 164 — *seven times a day do I praise thee*
+S: 17 Gen. xxiv. 63 — Isaac going out to meditate at the eventide
+S: 19 Ps. cxix. 62 — *at midnight I will rise to give thanks unto thee*
+S: 22 Ex. xx. 24 — *in all places where I record my name I will come unto thee*
+S: 24 Ps. cxi. 1 — *in the assembly of the upright, and in the congregation*
+R: 11 **The canonical hours, built out of Scripture rather than out of a breviary.** *Seven times a day do I praise thee* sets the number, and each of the seven is then given a text that shows somebody praying at that hour: Mark's *a great while before day*, the psalmist's morning watches, the third hour at Pentecost, Peter's sixth hour on the housetop, the ninth hour at the Beautiful Gate, Isaac at eventide, the night watches — with midnight added from the same psalm that set the number. **The office is being derived, not inherited**, and that is the argument of the whole opening.
+
+## 4
+S: 3 Matt. vi. 6 — *enter into thy closet, and shut thy door*
+S: 5 Acts x. 9 — Peter praying on the housetop
+S: 7 Acts iii. 1 — Peter and John going up into the temple
+S: 9 Acts xxi. 5 — kneeling down on the shore, at parting
+S: 13 Ps. cxlix. 5 — *let them sing aloud upon their beds*
+S: 15 Mark i. 35 — *a solitary place, and there prayed*
+S: 17 1 Tim. ii. 8 — *that men pray every where*
+S: 19 Ps. xcix. 6 — *Samuel among them that call upon his name*
+R: 3 **And the places, by the same method as the hours opposite.** The closet, the housetop, the temple, the sea-shore, the bed, the wilderness — each a place where somebody in Scripture is found praying — and then *every where*, which is not a seventh place but the conclusion drawn from the six.
+
+## 6
+S: 2 Ps. lxv. 2 — *O thou that hearest prayer, unto thee shall all flesh come*
+S: 4 Ps. li. 15 — *my mouth shall shew forth thy praise*
+S: 7 Ps. v. 7 — *in thy fear will I worship toward thy holy temple*
+S: 10 Ps. xxviii. 2 — *when I lift up my hands toward thy holy oracle*
+S: 12 Ps. xlviii. 9 — *we have thought of thy lovingkindness, in the midst of thy temple*
+
+## 8
+S: 3 Job xxxiii. 27 — *I have sinned, and it profited me not*
+S: 20 1 Kings viii. 28 — Solomon at the dedication: *have respect unto the prayer of thy servant*
+S: 28 Luke xviii. 13 — *God be merciful to me a sinner*
+
+## 10
+S: 2 Ps. lxxvi. 10 — *the remainder of wrath shalt thou restrain*
+S: 8 Mark ix. 24 — *Lord, I believe; help thou mine unbelief*
+S: 12 Ps. xxxix. 7 — *and my substance is with thee*
+S: 14 Ps. cxix. 18 — *open thou mine eyes, that I may behold wondrous things*
+
+## 14
+S: 14 Luke xxii. 41 — *he kneeled down, and prayed*
+S: 15 Matt. xxvi. 39 — *he fell on his face, and prayed*
+S: 17 Ps. xliv. 25 — *our belly cleaveth unto the earth*
+S: 20 Luke xviii. 13 — the publican smiting upon his breast
+S: 21 Job iv. 14 — *fear came upon me, and trembling*
+S: 22 Isa. lix. 11 — *we roar all like bears, and mourn sore like doves*
+S: 24 Ps. cxxiii. 1 — *unto thee lift I up mine eyes*; Ps. cxliii. 6 — *I stretch forth my hands unto thee*
+S: 25 1 Cor. ix. 27 — *I keep under my body*
+R: 14 **The body's part in prayer, itemised like the hours and the places.** Kneeling, prostration, the face to the ground, the smitten breast, trembling, groaning, eyes and hands lifted, the body kept under — seven postures, each with the text of somebody doing it. Three consecutive openings apply one method to the *when*, the *where* and the *how*, which is what makes this front matter a treatise and not a preface.
+
+## 16
+S: 13 Ps. xxxiv. 7 — *the angel of the LORD encampeth round about them that fear him*
+
+## 18
+S: 3 Phil. iv. 8 — *whatsoever things are true, whatsoever things are honest*
+S: 12 Ps. xvi. 8 — *I have set the LORD always before me*
+S: 13 Ps. xxv. 1 — *unto thee, O LORD, do I lift up my soul*
+S: 14 Ps. xcv. 6 — *let us kneel before the LORD our maker*
+S: 15 1 Pet. v. 6 — *humble yourselves under the mighty hand of God*
+S: 17 Ps. cxliii. 6 — *my soul thirsteth after thee, as a thirsty land*
+S: 25 Ps. xxii. 6 — *I am a worm, and no man*; 2 Sam. ix. 8 — Mephibosheth: *such a dead dog as I am*
+
+## 20
+S: 1 Ps. cxxxviii. 8 — *forsake not the works of thine own hands*
+S: 2 Gen. i. 27 — despise not thine own image
+S: 5 Matt. viii. 8 — *speak the word only, and I shall be cleansed*
+
+## 22
+S: 7 Ps. xc. 13 — *let it repent thee concerning thy servants*
+S: 11 Amos v. 8 — *that turneth the shadow of death into the morning*
+S: 12 Ps. civ. 30 — *thou renewest the face of the earth*
+S: 16 Ps. xiii. 3 — *lest I sleep the sleep of death*
+S: 18 Ps. xci. 6 — the Vulgate's *business that walketh in darkness*, where the BCP has *pestilence*
+S: 21 Ps. lxv. 8 — *thou makest the outgoings of the morning and evening to rejoice*
+S: 22 Ps. iii. 5 — *I laid me down and slept; I awaked*
+S: 25 Jer. xxxi. 26 — *my sleep was sweet unto me*
+S: 28 1 Thess. v. 5 — *ye are all the children of light, and the children of the day*
+
+## 24
+S: 6 Ps. xcv. 8 — *harden not your heart*; Heb. iii. 13 — *lest any of you be hardened through the deceitfulness of sin*
+S: 12 Ps. xci. 6 — the Vulgate's *noonday demon*, where the BCP has *the sickness that destroyeth in the noon-day*
+S: 14 Matt. vi. 34 — *sufficient unto the day is the evil thereof*
+S: 16 Ps. lxxviii. 33 — *their years in trouble*
+S: 17 Ps. xix. 2 — *day unto day uttereth speech*
+S: 22 Ps. cxliii. 8 — *for I lift up my soul unto thee*
+R: 16 ⚠⚠ **This is the verse Part III mis-numbers, and here the volume gets it right.** *Anni mei in luctu* stands at printed **409** under `Psal. xl. 9`, where the note has to say the reference is wrong; here the same half-verse is referred correctly to **`Ps. lxxviii. 33`**. So the edition proves its own misprint across three hundred and eighty pages — and it confirms, from inside the book, a reading that was otherwise established only from Brightman. **Both kept as printed.**
+R: 12 **Two lines here take the Vulgate against the Prayer Book, and the English follows the Vulgate.** *Negotium perambulans in tenebris* and *dæmonium meridianum* — the business that walks in darkness and the noonday demon — are what Andrewes wrote; Coverdale has *pestilence* and *the sickness that destroyeth in the noon-day*. CONVENTIONS §9 makes the BCP our crib, and yields wherever he reaches past it, as he does here.
+
+## 26
+S: 7 Ps. cxix. 37 — *turn away mine eyes from beholding vanity*
+S: 9 Prov. iv. 25 — *let thine eyelids look straight before thee*
+S: 15 Ps. cxli. 3 — *keep the door of my lips*
+S: 17 Eph. iv. 29 — *that it may minister grace unto the hearers*
+S: 19 1 Sam. xxv. 31 — Abigail: *no grief, nor offence of heart*
+S: 26 Ps. xxxi. 5 — *O LORD God of truth*
+S: 28 Gen. xxxiii. 5 — Jacob to Esau: *the children which God hath graciously given thy servant*
+S: 29 Ps. cxxi. 7 — *the LORD shall preserve thee from all evil*
+
+## 28
+S: 5 2 Tim. i. 18 — *that he may find mercy of the Lord in that day*
+S: 7 Ps. cxxi. 8 — *from this time forth, and even for evermore*
+S: 9 Neh. i. 11 — Nehemiah before the king: *grant him mercy in the sight of this man*
+S: 11 Ps. lxx. 1 — *make haste to help me, O LORD*
+S: 14 Ps. lxxxvi. 16 — *save the son of thine handmaid*
