@@ -1,8 +1,18 @@
 # Next session — resume note
 
-## ▶▶ THE FRONT, as of 2026-08-10 — **the notes pass, Part II**
+## ▶▶▶ START HERE — **[`BRIEF-notes-pass.md`](BRIEF-notes-pass.md)**
 
-**Done through printed 290.** Part I complete (all 131 openings); Part II §§1–6 done, printed 267–290. **Next: printed 291, §7 *Allegatio*.** Governing file is `NOTES-CONVENTIONS.md` — read it before writing a note, it is the score.
+**The notes pass is the current and only front, and it is now written up to be picked up cold.** The brief carries the state, the working loop, the four rules that decide what you write, the per-page hazard lists for everything that remains, and the patterns to watch for. **Read it and `NOTES-CONVENTIONS.md`; you do not need this file to start.**
+
+**Done: printed 2–323, every unit, no gaps** — 982 `S:` tags, 122 `R:` notes, 167 pages. **Remaining: 134 pages, 622 references** (Part II 324–395, then Part III 398–436). Build holds at **617 pages, 0 TeX errors, 0 of 594 units too tall**.
+
+Everything below is the **history**: how the rules were arrived at, what each stretch found, and the decisions already ruled. Consult it when the brief points here; do not read it front to back.
+
+---
+
+## ▶▶ SESSION LOG — 2026-08-10, the notes pass reaches printed 323
+
+**Started the session at printed 285.** Part I complete (all 131 openings); Part II §§1–6 done, printed 267–285.
 
 **✅ THIS SESSION: §6, the *Sacrificium Vespertinum* + *Horologium* (printed 286–290)** — the walk through the canonical hours, each keyed to its Gospel event, answered by *Et serva nos*.
 - ⚠ **286 is one of the parity-flagged pages and the hand-map matters.** It is −2 because two **reference-only Latin lines** (`*Mar.* iv. 38.`, `*Gal.* iv. 19. [*Eph.* iv. 13.]`) are absorbed inline by the English. `ref_index --stub` gives the **Latin's** figures and three of them would have landed on the wrong English line. **`tools/note_sheet.py <page>` is the hand-map — it prints the refs by plate line AND the English numbered. Use it on every flagged page.** 288 and 289 are −1 for the same reason, each in one place.

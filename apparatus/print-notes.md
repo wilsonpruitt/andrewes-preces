@@ -951,6 +951,12 @@ S: 25 Ps. xxv. 12 — *his seed shall inherit the land*; Prayer Book numbering
 S: 26 Ps. xli. 1 — *blessed is he that considereth the poor*
 R: 6 **The Hosanna stands here in Hebrew on the printed page** — `הצליחה נא`, *hoshi'ah-na*, Ps. cxviii. 25 — one of the few places the 1853 let Andrewes' third script through. It is the cry the crowds took up on Palm Sunday, and he uses it as the hinge of the intercession: the word is a petition (*save now*) before it is an acclamation.
 
+## 275
+S: 23 Ps. cxlv. 10 — *all thy works praise thee, and thy saints give thanks unto thee*
+S: 25 Ps. xcii. 1 — the psalm *for the Sabbath day*
+S: 29 Ps. cxlv. 1 — *I will magnify thee, O God my King*
+R: 21 **The Thanksgiving opens on the Sabbath psalm, and it opens where the intercession stopped.** The petitions above end *we beseech Thee, hear us, O Lord* — eight numbered asks, the last of them for the pleader and his kindred together — and then, on the same leaf, the section changes and the same voice begins to give thanks. **The 1853 sets both on one page and this edition keeps them there**; the join is the point, and a reader who meets *Thanksgiving* at the head of a fresh leaf loses it. Ps. xcii is titled *for the Sabbath day*, so the praise begins on the day appointed for it — morning loving-kindness and night-season truth in the next breath.
+
 ## 276
 S: 5 Rom. iv. 17 — *calleth those things which be not as though they were*
 S: 7 Col. i. 16 — *visible and invisible*

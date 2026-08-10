@@ -4,7 +4,7 @@ Wroot Press edition of the 1853 Parker printing (1675 Sheldonian text). This rep
 
 ## Session protocol
 
-1. Read `next-session-resume.md` FIRST — it names the current front and next action.
+1. **The current front is the NOTES PASS. Read [`BRIEF-notes-pass.md`](BRIEF-notes-pass.md) FIRST** — it is written to be picked up cold and carries the state, the working loop, the rules, the per-page hazard lists and the patterns to watch. Then `NOTES-CONVENTIONS.md`, which governs every note. `next-session-resume.md` is the **history** behind both — consult it when the brief points there, don't read it front to back.
 2. Then `M3-HANDOFF.md` (the volume-run recipe) and `CONVENTIONS.md` (transcription + translation rules). Follow them exactly; do not re-derive or drift. `STRUCTURE.md` has the volume map and page-offset anchors.
 3. Day 1 files (`part1/day1-transcript.md`, `part1/day1-english.md`) are the format reference — match them precisely.
 
