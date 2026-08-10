@@ -41,9 +41,19 @@ None was visible in the built PDF, and two of the three corrupted **committed** 
 
 ⚠ **`*Ez.*` is a trap.** At printed 15 it is **Ezra** ix. 6 — *I am ashamed and blush to lift up my face* — not Ezekiel: the volume prints the same verse as `*Ezr.* ix. 6, 7` at printed 171, and Brightman tags the sentence *Of Ezra*. At printed 78 and 84 the same contraction **is** Ezekiel. Expand it from the sense every time, never from the letter.
 
+## 1c. ⚠⚠ TENTH-CLASS FIX, 2026-08-10 — `Vers.` and `Ibid.` are now resolved, and there is a BACKFILL
+
+`ref_index` could not see a single **continuation reference** — `*Vers.* N` (a second verse of the book and chapter just named) or `*Ibid.*` There are **221** in the volume. Fixed; the resolution is inspectable with **`python3.11 tools/ref_index.py --continuations`**, which flags any antecedent on the previous page or more than six lines back, and **drops rather than guesses** when there is none.
+
+⚠ **`--continuations` is now part of the pre-flight for a new stretch, beside `audit_missing_books`.** NOTES-CONVENTIONS §11a.
+
+⚠⚠ **It exposed 130 references on 61 pages ALREADY WRITTEN — worklist at `BACKFILL-continuations.md`.** The seven Beatitudes at printed 136, Daniel's prayer at 132/134, the six days at 305, Peter's denial at 310, eleven on the Passion catalogue at 313. **Untagged is not automatically wrong** (§3, §8) — but where an `R:` note *counts* something, **the count came out of the defective index, so re-read the prose and not only the tags.** This is the third time a tool fix has meant re-reading committed work.
+
 ## 2. The working loop, in order
 
 ```
+python3.11 tools/audit_missing_books.py         # can the index see every book here?
+python3.11 tools/ref_index.py --continuations   # are its Vers./Ibid. resolutions sane?
 python3.11 tools/check_lineparity.py            # is this page safe to key by line?
 python3.11 tools/note_sheet.py 324              # refs by PLATE line + English NUMBERED
 #   ... write S:/R: entries into apparatus/print-notes.md ...
