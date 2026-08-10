@@ -36,9 +36,8 @@
       \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
-      % the Greek's figures read across and a second set would repeat them.
-      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
+      \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue
+      \setnoted{}#3
     \end{minipage}\par}%
   % ⚠ \ht0 ALONE IS WRONG HERE and silently reported ~5.7pt for every Part I
   % verso until 2026-08-09. This vbox's content is ONE LINE of two tall boxes, so
@@ -87,15 +86,19 @@
 % Compose a leaf whose body sits at the top and whose band sits at the foot.
 \newcommand{\bandleaf}[2]{\vbox to \textheight{#1\vfill#2}}
 
-\newcommand{\originalsn}[4]{%
+% #5 = the Latin column's own noted lines, #6 = how many romans the Greek column
+% already spent, so the series runs on rather than restarting at i.
+\newcommand{\originalsn}[6]{%
   \setbox0=\vbox{\noindent
     \begin{minipage}[t]{0.485\textwidth}
       \footnotesize\setlength{\plhang}{1.5em}\plreset\plnumtrue #2
     \end{minipage}\hfill
     \begin{minipage}[t]{0.485\textwidth}
-      % ⚠ deliberately NOT numbered: line-for-line with the Greek beside it, so
-      % the Greek's figures read across and a second set would repeat them.
-      \footnotesize\setlength{\plhang}{1.5em}\plnumfalse #3
+      % ⚠ numbered on ITS OWN count — see the preamble. It is NOT reliably
+      % line-for-line with the Greek: 20 of Part I's 131 openings differ, by as
+      % much as six lines, because the plate turns its own long lines.
+      \footnotesize\setlength{\plhang}{1.5em}%
+      \setnotedcol{#5}{#6}\plreset\plnumtrue #3
     \end{minipage}\par}%
   \setbox2=\vbox{\hsize=\textwidth\apparatusband{#4}}%
   \immediate\write\fitfile{H O #1 \the\dimexpr\ht0+\dp0+\ht2+\dp2\relax}%
@@ -197,8 +200,8 @@
 \originals{2}{\input{fragments/gr002}}{\input{fragments/la003}}
 \clearpage
 \markright{2}
-\setnoted{}
-\enleaf{2}{\input{fragments/en002}}{}
+\setnoted{3,4,8,11,17,19,22,24}
+\enleafn{2}{\input{fragments/en002}}{}{{\scriptsize \textsuperscript{i}\,Luke xviii. 1 — \emph{men ought always to pray, and not to faint} \textperiodcentered\ \textsuperscript{ii}\,1 Thess. v. 17 — \emph{pray without ceasing} \textperiodcentered\ \textsuperscript{iii}\,Dan. vi. 10 — Daniel kneeling three times a day, as he did aforetime \textperiodcentered\ \textsuperscript{iv}\,Ps. cxix. 164 — \emph{seven times a day do I praise thee} \textperiodcentered\ \textsuperscript{v}\,Gen. xxiv. 63 — Isaac going out to meditate at the eventide \textperiodcentered\ \textsuperscript{vi}\,Ps. cxix. 62 — \emph{at midnight I will rise to give thanks unto thee} \textperiodcentered\ \textsuperscript{vii}\,Ex. xx. 24 — \emph{in all places where I record my name I will come unto thee} \textperiodcentered\ \textsuperscript{viii}\,Ps. cxi. 1 — \emph{in the assembly of the upright, and in the congregation}\par}\\[3pt]\textsuperscript{iv}\,\textbf{The canonical hours, built out of Scripture rather than out of a breviary.} \emph{Seven times a day do I praise thee} sets the number, and each of the seven is then given a text that shows somebody praying at that hour: Mark's \emph{a great while before day}, the psalmist's morning watches, the third hour at Pentecost, Peter's sixth hour on the housetop, the ninth hour at the Beautiful Gate, Isaac at eventide, the night watches — with midnight added from the same psalm that set the number. \textbf{The office is being derived, not inherited}, and that is the argument of the whole opening.}
 \clearpage
 % ---------- opening 4 | 5 ----------
 \versoalign
@@ -207,8 +210,8 @@
 \originals{4}{\input{fragments/gr004}}{\input{fragments/la005}}
 \clearpage
 \markright{4}
-\setnoted{}
-\enleaf{4}{\input{fragments/en004}}{}
+\setnoted{3,5,7,9,13,15,17,19}
+\enleafn{4}{\input{fragments/en004}}{}{{\scriptsize \textsuperscript{i}\,Matt. vi. 6 — \emph{enter into thy closet, and shut thy door} \textperiodcentered\ \textsuperscript{ii}\,Acts x. 9 — Peter praying on the housetop \textperiodcentered\ \textsuperscript{iii}\,Acts iii. 1 — Peter and John going up into the temple \textperiodcentered\ \textsuperscript{iv}\,Acts xxi. 5 — kneeling down on the shore, at parting \textperiodcentered\ \textsuperscript{v}\,Ps. cxlix. 5 — \emph{let them sing aloud upon their beds} \textperiodcentered\ \textsuperscript{vi}\,Mark i. 35 — \emph{a solitary place, and there prayed} \textperiodcentered\ \textsuperscript{vii}\,1 Tim. ii. 8 — \emph{that men pray every where} \textperiodcentered\ \textsuperscript{viii}\,Ps. xcix. 6 — \emph{Samuel among them that call upon his name}\par}\\[3pt]\textsuperscript{i}\,\textbf{And the places, by the same method as the hours opposite.} The closet, the housetop, the temple, the sea-shore, the bed, the wilderness — each a place where somebody in Scripture is found praying — and then \emph{every where}, which is not a seventh place but the conclusion drawn from the six.}
 \clearpage
 % ---------- opening 6 | 7 ----------
 \versoalign
@@ -217,8 +220,8 @@
 \originals{6}{\input{fragments/gr006}}{\input{fragments/la007}}
 \clearpage
 \markright{6}
-\setnoted{}
-\enleaf{6}{\input{fragments/en006}}{}
+\setnoted{2,4,7,10,12}
+\enleafn{6}{\input{fragments/en006}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxv. 2 — \emph{O thou that hearest prayer, unto thee shall all flesh come} \textperiodcentered\ \textsuperscript{ii}\,Ps. li. 15 — \emph{my mouth shall shew forth thy praise} \textperiodcentered\ \textsuperscript{iii}\,Ps. v. 7 — \emph{in thy fear will I worship toward thy holy temple} \textperiodcentered\ \textsuperscript{iv}\,Ps. xxviii. 2 — \emph{when I lift up my hands toward thy holy oracle} \textperiodcentered\ \textsuperscript{v}\,Ps. xlviii. 9 — \emph{we have thought of thy lovingkindness, in the midst of thy temple}\par}}
 \clearpage
 % ---------- opening 8 | 9 ----------
 \versoalign
@@ -227,8 +230,8 @@
 \originals{8}{\input{fragments/gr008}}{\input{fragments/la009}}
 \clearpage
 \markright{8}
-\setnoted{}
-\enleaf{8}{\input{fragments/en008}}{}
+\setnoted{3,20,28}
+\enleafn{8}{\input{fragments/en008}}{}{{\scriptsize \textsuperscript{i}\,Job xxxiii. 27 — \emph{I have sinned, and it profited me not} \textperiodcentered\ \textsuperscript{ii}\,1 Kings viii. 28 — Solomon at the dedication: \emph{have respect unto the prayer of thy servant} \textperiodcentered\ \textsuperscript{iii}\,Luke xviii. 13 — \emph{God be merciful to me a sinner}\par}}
 \clearpage
 % ---------- opening 10 | 11 ----------
 \versoalign
@@ -237,8 +240,8 @@
 \originals{10}{\input{fragments/gr010}}{\input{fragments/la011}}
 \clearpage
 \markright{10}
-\setnoted{}
-\enleaf{10}{\input{fragments/en010}}{}
+\setnoted{2,8,12,14}
+\enleafn{10}{\input{fragments/en010}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxxvi. 10 — \emph{the remainder of wrath shalt thou restrain} \textperiodcentered\ \textsuperscript{ii}\,Mark ix. 24 — \emph{Lord, I believe; help thou mine unbelief} \textperiodcentered\ \textsuperscript{iii}\,Ps. xxxix. 7 — \emph{and my substance is with thee} \textperiodcentered\ \textsuperscript{iv}\,Ps. cxix. 18 — \emph{open thou mine eyes, that I may behold wondrous things}\par}}
 \clearpage
 % ---------- opening 12 | 13 ----------
 \versoalign
@@ -257,8 +260,8 @@
 \originals{14}{\input{fragments/gr014}}{\input{fragments/la015}}
 \clearpage
 \markright{14}
-\setnoted{}
-\enleaf{14}{\input{fragments/en014}}{}
+\setnoted{14,15,17,20,21,22,24,25}
+\enleafn{14}{\input{fragments/en014}}{}{{\scriptsize \textsuperscript{i}\,Luke xxii. 41 — \emph{he kneeled down, and prayed} \textperiodcentered\ \textsuperscript{ii}\,Matt. xxvi. 39 — \emph{he fell on his face, and prayed} \textperiodcentered\ \textsuperscript{iii}\,Ps. xliv. 25 — \emph{our belly cleaveth unto the earth} \textperiodcentered\ \textsuperscript{iv}\,Luke xviii. 13 — the publican smiting upon his breast \textperiodcentered\ \textsuperscript{v}\,Job iv. 14 — \emph{fear came upon me, and trembling} \textperiodcentered\ \textsuperscript{vi}\,Isa. lix. 11 — \emph{we roar all like bears, and mourn sore like doves} \textperiodcentered\ \textsuperscript{vii}\,Ps. cxxiii. 1 — \emph{unto thee lift I up mine eyes}; Ps. cxliii. 6 — \emph{I stretch forth my hands unto thee} \textperiodcentered\ \textsuperscript{viii}\,1 Cor. ix. 27 — \emph{I keep under my body}\par}\\[3pt]\textsuperscript{i}\,\textbf{The body's part in prayer, itemised like the hours and the places.} Kneeling, prostration, the face to the ground, the smitten breast, trembling, groaning, eyes and hands lifted, the body kept under — seven postures, each with the text of somebody doing it. Three consecutive openings apply one method to the \emph{when}, the \emph{where} and the \emph{how}, which is what makes this front matter a treatise and not a preface.}
 \clearpage
 % ---------- opening 16 | 17 ----------
 \versoalign
@@ -267,8 +270,8 @@
 \originals{16}{\input{fragments/gr016}}{\input{fragments/la017}}
 \clearpage
 \markright{16}
-\setnoted{}
-\enleaf{16}{\input{fragments/en016}}{}
+\setnoted{13}
+\enleafn{16}{\input{fragments/en016}}{}{{\scriptsize \textsuperscript{i}\,Ps. xxxiv. 7 — \emph{the angel of the LORD encampeth round about them that fear him}\par}}
 \clearpage
 % ---------- opening 18 | 19 ----------
 \versoalign
@@ -277,8 +280,8 @@
 \originals{18}{\input{fragments/gr018}}{\input{fragments/la019}}
 \clearpage
 \markright{18}
-\setnoted{}
-\enleaf{18}{\input{fragments/en018}}{}
+\setnoted{3,12,13,14,15,17,25}
+\enleafn{18}{\input{fragments/en018}}{}{{\scriptsize \textsuperscript{i}\,Phil. iv. 8 — \emph{whatsoever things are true, whatsoever things are honest} \textperiodcentered\ \textsuperscript{ii}\,Ps. xvi. 8 — \emph{I have set the LORD always before me} \textperiodcentered\ \textsuperscript{iii}\,Ps. xxv. 1 — \emph{unto thee, O LORD, do I lift up my soul} \textperiodcentered\ \textsuperscript{iv}\,Ps. xcv. 6 — \emph{let us kneel before the LORD our maker} \textperiodcentered\ \textsuperscript{v}\,1 Pet. v. 6 — \emph{humble yourselves under the mighty hand of God} \textperiodcentered\ \textsuperscript{vi}\,Ps. cxliii. 6 — \emph{my soul thirsteth after thee, as a thirsty land} \textperiodcentered\ \textsuperscript{vii}\,Ps. xxii. 6 — \emph{I am a worm, and no man}; 2 Sam. ix. 8 — Mephibosheth: \emph{such a dead dog as I am}\par}}
 \clearpage
 % ---------- opening 20 | 21 ----------
 \versoalign
@@ -287,8 +290,8 @@
 \originals{20}{\input{fragments/gr020}}{\input{fragments/la021}}
 \clearpage
 \markright{20}
-\setnoted{}
-\enleaf{20}{\input{fragments/en020}}{}
+\setnoted{1,2,5}
+\enleafn{20}{\input{fragments/en020}}{}{{\scriptsize \textsuperscript{i}\,Ps. cxxxviii. 8 — \emph{forsake not the works of thine own hands} \textperiodcentered\ \textsuperscript{ii}\,Gen. i. 27 — despise not thine own image \textperiodcentered\ \textsuperscript{iii}\,Matt. viii. 8 — \emph{speak the word only, and I shall be cleansed}\par}}
 \clearpage
 % ---------- opening 22 | 23 ----------
 \versoalign
@@ -297,8 +300,8 @@
 \originals{22}{\input{fragments/gr022}}{\input{fragments/la023}}
 \clearpage
 \markright{22}
-\setnoted{}
-\enleaf{22}{\input{fragments/en022}}{}
+\setnoted{7,11,12,16,18,21,22,25,28}
+\enleafn{22}{\input{fragments/en022}}{}{{\scriptsize \textsuperscript{i}\,Ps. xc. 13 — \emph{let it repent thee concerning thy servants} \textperiodcentered\ \textsuperscript{ii}\,Amos v. 8 — \emph{that turneth the shadow of death into the morning} \textperiodcentered\ \textsuperscript{iii}\,Ps. civ. 30 — \emph{thou renewest the face of the earth} \textperiodcentered\ \textsuperscript{iv}\,Ps. xiii. 3 — \emph{lest I sleep the sleep of death} \textperiodcentered\ \textsuperscript{v}\,Ps. xci. 6 — the Vulgate's \emph{business that walketh in darkness}, where the BCP has \emph{pestilence} \textperiodcentered\ \textsuperscript{vi}\,Ps. lxv. 8 — \emph{thou makest the outgoings of the morning and evening to rejoice} \textperiodcentered\ \textsuperscript{vii}\,Ps. iii. 5 — \emph{I laid me down and slept; I awaked} \textperiodcentered\ \textsuperscript{viii}\,Jer. xxxi. 26 — \emph{my sleep was sweet unto me} \textperiodcentered\ \textsuperscript{ix}\,1 Thess. v. 5 — \emph{ye are all the children of light, and the children of the day}\par}}
 \clearpage
 % ---------- opening 24 | 25 ----------
 \versoalign
@@ -307,8 +310,8 @@
 \originals{24}{\input{fragments/gr024}}{\input{fragments/la025}}
 \clearpage
 \markright{24}
-\setnoted{}
-\enleaf{24}{\input{fragments/en024}}{}
+\setnoted{6,12,14,16,17,22}
+\enleafn{24}{\input{fragments/en024}}{}{{\scriptsize \textsuperscript{i}\,Ps. xcv. 8 — \emph{harden not your heart}; Heb. iii. 13 — \emph{lest any of you be hardened through the deceitfulness of sin} \textperiodcentered\ \textsuperscript{ii}\,Ps. xci. 6 — the Vulgate's \emph{noonday demon}, where the BCP has \emph{the sickness that destroyeth in the noon-day} \textperiodcentered\ \textsuperscript{iii}\,Matt. vi. 34 — \emph{sufficient unto the day is the evil thereof} \textperiodcentered\ \textsuperscript{iv}\,Ps. lxxviii. 33 — \emph{their years in trouble} \textperiodcentered\ \textsuperscript{v}\,Ps. xix. 2 — \emph{day unto day uttereth speech} \textperiodcentered\ \textsuperscript{vi}\,Ps. cxliii. 8 — \emph{for I lift up my soul unto thee}\par}\\[3pt]\textsuperscript{iv}\,⚠⚠ \textbf{This is the verse Part III mis-numbers, and here the volume gets it right.} \emph{Anni mei in luctu} stands at printed \textbf{409} under \textup{Psal. xl. 9}, where the note has to say the reference is wrong; here the same half-verse is referred correctly to \textbf{\textup{Ps. lxxviii. 33}}. So the edition proves its own misprint across three hundred and eighty pages — and it confirms, from inside the book, a reading that was otherwise established only from Brightman. \textbf{Both kept as printed.}\\[1pt]\textsuperscript{ii}\,\textbf{Two lines here take the Vulgate against the Prayer Book, and the English follows the Vulgate.} \emph{Negotium perambulans in tenebris} and \emph{dæmonium meridianum} — the business that walks in darkness and the noonday demon — are what Andrewes wrote; Coverdale has \emph{pestilence} and \emph{the sickness that destroyeth in the noon-day}. CONVENTIONS §9 makes the BCP our crib, and yields wherever he reaches past it, as he does here.}
 \clearpage
 % ---------- opening 26 | 27 ----------
 \versoalign
@@ -317,8 +320,8 @@
 \originals{26}{\input{fragments/gr026}}{\input{fragments/la027}}
 \clearpage
 \markright{26}
-\setnoted{}
-\enleaf{26}{\input{fragments/en026}}{}
+\setnoted{7,9,15,17,19,26,28,29}
+\enleafn{26}{\input{fragments/en026}}{}{{\scriptsize \textsuperscript{i}\,Ps. cxix. 37 — \emph{turn away mine eyes from beholding vanity} \textperiodcentered\ \textsuperscript{ii}\,Prov. iv. 25 — \emph{let thine eyelids look straight before thee} \textperiodcentered\ \textsuperscript{iii}\,Ps. cxli. 3 — \emph{keep the door of my lips} \textperiodcentered\ \textsuperscript{iv}\,Eph. iv. 29 — \emph{that it may minister grace unto the hearers} \textperiodcentered\ \textsuperscript{v}\,1 Sam. xxv. 31 — Abigail: \emph{no grief, nor offence of heart} \textperiodcentered\ \textsuperscript{vi}\,Ps. xxxi. 5 — \emph{O LORD God of truth} \textperiodcentered\ \textsuperscript{vii}\,Gen. xxxiii. 5 — Jacob to Esau: \emph{the children which God hath graciously given thy servant} \textperiodcentered\ \textsuperscript{viii}\,Ps. cxxi. 7 — \emph{the LORD shall preserve thee from all evil}\par}}
 \clearpage
 % ---------- opening 28 | 29 ----------
 \versoalign
@@ -327,8 +330,8 @@
 \originals{28}{\input{fragments/gr028}}{\input{fragments/la029}}
 \clearpage
 \markright{28}
-\setnoted{}
-\enleaf{28}{\input{fragments/en028}}{}
+\setnoted{5,7,9,11,14}
+\enleafn{28}{\input{fragments/en028}}{}{{\scriptsize \textsuperscript{i}\,2 Tim. i. 18 — \emph{that he may find mercy of the Lord in that day} \textperiodcentered\ \textsuperscript{ii}\,Ps. cxxi. 8 — \emph{from this time forth, and even for evermore} \textperiodcentered\ \textsuperscript{iii}\,Neh. i. 11 — Nehemiah before the king: \emph{grant him mercy in the sight of this man} \textperiodcentered\ \textsuperscript{iv}\,Ps. lxx. 1 — \emph{make haste to help me, O LORD} \textperiodcentered\ \textsuperscript{v}\,Ps. lxxxvi. 16 — \emph{save the son of thine handmaid}\par}}
 \clearpage
 \sethead{The First Day}
 % ---------- opening 30 | 31 ----------
@@ -339,8 +342,8 @@
 \originals{30}{\input{fragments/gr030}}{\input{fragments/la031}}
 \clearpage
 \markright{30}
-\setnoted{}
-\enleaf{30}{\input{fragments/en030}}{}
+\setnoted{4,7,13,14,22,24}
+\enleafn{30}{\input{fragments/en030}}{}{{\scriptsize \textsuperscript{i}\,Luke i. 78 — Zacharias at the Benedictus: \emph{the dayspring from on high} \textperiodcentered\ \textsuperscript{ii}\,Gen. i. 3 — the first word spoken over the creation: \emph{let there be light} \textperiodcentered\ \textsuperscript{iii}\,Rom. i. 19 — \emph{that which may be known of God is manifest in them} \textperiodcentered\ \textsuperscript{iv}\,Luke x. 26 — Christ to the lawyer: \emph{what is written in the law?} \textperiodcentered\ \textsuperscript{v}\,Ps. cxviii. 27 — \emph{bind the sacrifice with cords, unto the horns of the altar} \textperiodcentered\ \textsuperscript{vi}\,Rom. vi. 4 — buried with him by baptism, to walk in newness of life\par}}
 \clearpage
 % ---------- opening 32 | 33 ----------
 \versoalign
@@ -349,18 +352,18 @@
 \originals{32}{\input{fragments/gr032}}{\input{fragments/la033}}
 \clearpage
 \markright{32}
-\setnoted{}
-\enleaf{32}{\input{fragments/en032}}{}
+\setnoted{10,16,19,22,24,25,26,28,29}
+\enleafn{32}{\input{fragments/en032}}{}{{\scriptsize \textsuperscript{i}\,Heb. xiii. 20 — the epistle's closing blessing, on the God who brought again the great Shepherd \textperiodcentered\ \textsuperscript{ii}\,Ex. xxxiv. 6 — the LORD proclaiming his own Name to Moses in the cleft of the rock; Num. xiv. 18 — Moses pleading that same Name after the spies \textperiodcentered\ \textsuperscript{iii}\,Rom. vii. 24 — \emph{O wretched man that I am} \textperiodcentered\ \textsuperscript{iv}\,Jon. ii. 8 — Jonah out of the fish's belly: \emph{they that observe lying vanities} \textperiodcentered\ \textsuperscript{v}\,Ps. cxli. 4 — the plate marks its reading as the Septuagint's \textperiodcentered\ \textsuperscript{vi}\,Josh. vii. 19 — Joshua to Achan: \emph{give glory to the LORD, and make confession} \textperiodcentered\ \textsuperscript{vii}\,Ps. xxxii. 5 — \emph{I acknowledged my sin unto thee} \textperiodcentered\ \textsuperscript{viii}\,Josh. vii. 20 — Achan's answer: \emph{indeed I have sinned} \textperiodcentered\ \textsuperscript{ix}\,Jer. viii. 6 — \emph{no man repented him, saying, What have I done?}\par}\\[3pt]\textsuperscript{vi}\,\textbf{Both halves of the exchange at Ai, three lines apart.} Joshua charges Achan to \emph{give glory to the LORD and make confession}; Achan answers \emph{thus and thus have I done}. Here the charge and the confession are alike the penitent's own words, with Ps. xxxii. 5 set between them — neither half meaning in the prayer what it meant in the history. The re-cutting is the composition.}
 \clearpage
 % ---------- opening 34 | 35 ----------
 \versoalign
 \markright{34}
 \setnoted{27}
-\originalsn{34}{\input{fragments/gr034}}{\input{fragments/la035}}{\textsuperscript{i}\,27 \textup{Τὰ ἔργα}] \textup{τὸ πλάσμα} \emph{apogr.} — \emph{cf. Lat.} \textup{Figmenta}, \emph{quod ex neutro fonte alio fluere potest}\\[1pt]\hphantom{x}27–28 \emph{punct. post} \textup{παριδῇς} \emph{del. apogr.} · \textup{ὁμοίωμα}] \textup{ὁμοίωμα.} \emph{apogr.}}
+\originalsn{34}{\input{fragments/gr034}}{\input{fragments/la035}}{\textsuperscript{i}\,27 \textup{Τὰ ἔργα}] \textup{τὸ πλάσμα} \emph{apogr.} — \emph{cf. Lat.} \textup{Figmenta}, \emph{quod ex neutro fonte alio fluere potest}\\[1pt]\hphantom{x}27–28 \emph{punct. post} \textup{παριδῇς} \emph{del. apogr.} · \textup{ὁμοίωμα}] \textup{ὁμοίωμα.} \emph{apogr.}\\[1pt]\textsuperscript{ii}\,27 \textup{Figmenta}] \emph{Vulg.} \textup{opera manuum tuarum}; \emph{ex Gr.} \textup{πλάσμα} \emph{pendet, non ex textu impresso}}{27}{1}
 \clearpage
 \markright{34}
-\setnoted{1,6,7,9,13,16,20,21,22,23,25,27,28,29}
-\enleafn{34}{\input{fragments/en034}}{}{{\scriptsize \textsuperscript{i}\,Job xxxiii. 27 — Elihu, on the man brought back from the pit \textperiodcentered\ \textsuperscript{ii}\,Rom. ii. 1 — to the man who judges another and does the same; [Tit. iii. 11] — \emph{condemned of himself}: Andrewes' \textup{αὐτοκατάκριτος} \textperiodcentered\ \textsuperscript{iii}\,Hos. xiii. 9 — the LORD to Israel: \emph{thou hast destroyed thyself} \textperiodcentered\ \textsuperscript{iv}\,Dan. ix. 7 — Daniel in the exile, at the evening sacrifice \textperiodcentered\ \textsuperscript{v}\,Neh. ix. 33 — the Levites' confession, while the Law is read \textperiodcentered\ \textsuperscript{vi}\,Ps. xxxix. 7 — David, having first been dumb with silence \textperiodcentered\ \textsuperscript{vii}\,Ps. lxxxix. 46 — Ethan: how short a time God has made men for \textperiodcentered\ \textsuperscript{viii}\,Ps. cxxxviii. 8 — \emph{despise not the works of thine own hands} \textperiodcentered\ \textsuperscript{ix}\,Gen. i. 27 — the making of man, in the image \textperiodcentered\ \textsuperscript{x}\,1 Cor. vi. 20 — \emph{ye are bought with a price} \textperiodcentered\ \textsuperscript{xi}\,Ps. c. 3 — \emph{we are his people, and the sheep of his pasture} \textperiodcentered\ \textsuperscript{xii}\,Ps. cxxxviii. 8 — the verse returns; see the apparatus opposite \textperiodcentered\ \textsuperscript{xiii}\,Gen. i. 26 — \emph{let us make man in our image} \textperiodcentered\ \textsuperscript{xiv}\,Ps. lxxxix. 47 — \emph{wherefore hast thou made all men in vain?}\par}\\[3pt]\textsuperscript{vi}\,\textbf{A pun the English Bible cannot keep.} Andrewes asks \emph{what is my expectation} and answers \emph{Substantia mea apud te est}, then four lines later \emph{Memorare quæ mea substantia}. Both are the Vulgate — Ps. xxxviii. 8 and lxxxviii. 48 — and both turn on \textbf{substantia}, which is why the two psalms can be set one on top of the other. The Authorised Version renders the first \emph{my hope is in thee} and the second \emph{remember how short my time is}, and the join disappears.\\[1pt]\textsuperscript{xii}\,\textup{Figmenta} \textbf{is the evidence that this Latin column is a witness and not a shadow.} The printed Greek reads \emph{the works of thy hands}, and the Vulgate of Ps. cxxxviii. 8 reads \emph{opera manuum tuarum}; the Latin here reads neither. \emph{Figmenta} — the thing moulded — can only render a Greek text that read \textup{τὸ πλάσμα}, which is what the manuscript reads and what the printed page does not. The 1853 editor said of his Latin only that he \emph{seemed} to have made it himself. He was too modest.}
+\setnoted{1,6,7,9,13,16,20,23,27,29}
+\enleafn{34}{\input{fragments/en034}}{}{{\scriptsize \textsuperscript{i}\,Job xxxiii. 27 — Elihu, on the man brought back from the pit \textperiodcentered\ \textsuperscript{ii}\,Rom. ii. 1 — to the man who judges another and does the same; [Tit. iii. 11] — \emph{condemned of himself} \textperiodcentered\ \textsuperscript{iii}\,Hos. xiii. 9 — the LORD to Israel: \emph{thou hast destroyed thyself} \textperiodcentered\ \textsuperscript{iv}\,Dan. ix. 7 — Daniel in the exile, at the evening sacrifice \textperiodcentered\ \textsuperscript{v}\,Neh. ix. 33 — the Levites' confession, while the Law is read \textperiodcentered\ \textsuperscript{vi}\,Ps. xxxix. 7 — David, having first been dumb with silence \textperiodcentered\ \textsuperscript{vii}\,Ps. lxxxix. 46 — Ethan: how short a time God has made men for \textperiodcentered\ \textsuperscript{viii}\,1 Cor. vi. 20 — \emph{ye are bought with a price} \textperiodcentered\ \textsuperscript{x}\,Ps. lxxxix. 47 — \emph{wherefore hast thou made all men in vain?}\par}\\[3pt]\textsuperscript{i}\,\textbf{The Greek and the Latin part company in the first line.} The Greek says \emph{thou hast chastened me for the things wherein I sinned}; the Latin gives \emph{Non recepi} and refers it to Job xxxiii. 27, \emph{it profited me not}. They are not renderings of one another. The English follows the Greek, per CONVENTIONS §6, and the Latin stands as the independent witness it is — see the note at 27 below.\\[1pt]\textsuperscript{vi}\,\textbf{A pun the English Bible cannot keep.} Andrewes asks \emph{what is my expectation} and answers \emph{Substantia mea apud te est}, then four lines later \emph{Memorare quæ mea substantia}. Both are the Vulgate — Ps. xxxviii. 8 and lxxxviii. 48 — and both turn on \textbf{substantia}, which is why the two psalms can be set one on top of the other. The Authorised Version renders the first \emph{my hope is in thee} and the second \emph{remember how short my time is}, and the join disappears.\\[1pt]\textsuperscript{ix}\,\textup{Figmenta} \textbf{is the evidence that this Latin column is a witness and not a shadow.} The printed Greek reads \emph{the works of thy hands}, and the Vulgate of Ps. cxxxviii. 8 reads \emph{opera manuum tuarum}; the Latin here reads neither. \emph{Figmenta} — the thing moulded — can only render a Greek text that read \textup{τὸ πλάσμα}, which is what the manuscript reads and what the printed page does not.}
 \clearpage
 % ---------- opening 36 | 37 ----------
 \versoalign
@@ -369,18 +372,18 @@
 \originals{36}{\input{fragments/gr036}}{\input{fragments/la037}}
 \clearpage
 \markright{36}
-\setnoted{}
-\enleaf{36}{\input{fragments/en036}}{}
+\setnoted{1,2,6,8,9,11,13,18,22,28}
+\enleafn{36}{\input{fragments/en036}}{}{{\scriptsize \textsuperscript{i}\,Ps. xxx. 9 — \emph{what profit is there in my blood, when I go down to the pit?} \textperiodcentered\ \textsuperscript{ii}\,Ps. xxxv. 19 — \emph{let not mine enemies wrongfully rejoice over me} \textperiodcentered\ \textsuperscript{iii}\,Ps. lxxxiv. 9 — \emph{look upon the face of thine anointed} \textperiodcentered\ \textsuperscript{iv}\,1 John ii. 2 — the propitiation for the sins of the whole world \textperiodcentered\ \textsuperscript{v}\,Luke xviii. 13 — the publican, standing afar off: \emph{God be merciful to me a sinner} \textperiodcentered\ \textsuperscript{vi}\,1 Tim. i. 15 — Paul, of sinners \emph{of whom I am chief} \textperiodcentered\ \textsuperscript{vii}\,Ps. xxv. 11 — \emph{pardon mine iniquity; for it is great} \textperiodcentered\ \textsuperscript{viii}\,Acts iv. 12 — \emph{none other name under heaven whereby we must be saved} \textperiodcentered\ \textsuperscript{ix}\,Rom. viii. 26 — the Spirit's \emph{groanings which cannot be uttered} \textperiodcentered\ \textsuperscript{x}\,Dan. ix. 19 — Daniel's plea in the exile: \emph{for thine own sake, O my God}\par}}
 \clearpage
 % ---------- opening 38 | 39 ----------
 \versoalign
 \markright{38}
 \setnoted{3}
-\originalsn{38}{\input{fragments/gr038}}{\input{fragments/la039}}{\textsuperscript{i}\,3 \textup{μεριμνῶ}] \emph{in marg. Hebr.} \textup{\RL{אדאג}} \emph{apogr.}}
+\originalsn{38}{\input{fragments/gr038}}{\input{fragments/la039}}{\textsuperscript{i}\,3 \textup{μεριμνῶ}] \emph{in marg. Hebr.} \textup{\RL{אדאג}} \emph{apogr.}}{}{1}
 \clearpage
 \markright{38}
-\setnoted{}
-\enleafn{38}{\input{fragments/en038}}{}{The manuscript glosses this line in \textbf{Hebrew}, and the 1853 dropped it — the first of some thirteen places where it does so. The edition \textbf{records the loss and does not repair it}: the page above is the printed book, not the manuscript behind it. What the Hebrew shows is that Andrewes' third script was systematic where his printed editions make it look occasional.}
+\setnoted{1,2,3,5,8,16,18,22,23,24,26,28}
+\enleafn{38}{\input{fragments/en038}}{}{{\scriptsize \textsuperscript{i}\,Ps. li. 3 — \emph{my sin is ever before me} \textperiodcentered\ \textsuperscript{ii}\,Job vii. 11 — \emph{I will speak in the bitterness of my soul} \textperiodcentered\ \textsuperscript{iv}\,2 Cor. vii. 11 — the fruits of godly sorrow: \emph{yea, what indignation} \textperiodcentered\ \textsuperscript{v}\,1 Cor. ix. 27 — \emph{I keep under my body, and bring it into subjection} \textperiodcentered\ \textsuperscript{vi}\,1 Sam. xxv. 31 — Abigail to David: that this be \emph{no grief unto thee, nor offence of heart} \textperiodcentered\ \textsuperscript{vii}\,Ps. xix. 12 — secret faults; and at 13 the Septuagint's \emph{strange sins} where the AV has \emph{presumptuous} \textperiodcentered\ \textsuperscript{viii}\,Matt. ix. 2 — to the man sick of the palsy: \emph{son, be of good cheer} \textperiodcentered\ \textsuperscript{ix}\,2 Cor. xii. 9 — \emph{my grace is sufficient for thee} \textperiodcentered\ \textsuperscript{x}\,Ps. xxxv. 3 — \emph{say unto my soul, I am thy salvation} \textperiodcentered\ \textsuperscript{xi}\,Ps. xlii. 11 — \emph{why art thou disquieted within me?} \textperiodcentered\ \textsuperscript{xii}\,Ps. cxvi. 7 — \emph{return unto thy rest, O my soul}\par}\\[3pt]\textsuperscript{iii}\,The manuscript glosses this line in \textbf{Hebrew}, and the 1853 dropped it — the first of some thirteen places where it does so. The edition \textbf{records the loss and does not repair it}: the page above is the printed book, not the manuscript behind it.}
 \clearpage
 % ---------- opening 40 | 41 ----------
 \versoalign
@@ -389,18 +392,18 @@
 \originals{40}{\input{fragments/gr040}}{\input{fragments/la041}}
 \clearpage
 \markright{40}
-\setnoted{}
-\enleaf{40}{\input{fragments/en040}}{}
+\setnoted{1,4,6,10,13,15,17,19,25,26,28}
+\enleafn{40}{\input{fragments/en040}}{}{{\scriptsize \textsuperscript{i}\,Ps. vi. 1 — \emph{rebuke me not in thine indignation} \textperiodcentered\ \textsuperscript{ii}\,Ps. xxxii. 5 — \emph{thou forgavest the iniquity of my sin}; the Greek here follows the Septuagint's \emph{ungodliness of my heart} \textperiodcentered\ \textsuperscript{iii}\,Ps. xxxviii. 9 — \emph{my groaning is not hid from thee} \textperiodcentered\ \textsuperscript{iv}\,Ps. li. 1 — \emph{blot out my transgressions} \textperiodcentered\ \textsuperscript{v}\,Ps. cii. 13 — \emph{the set time is come} \textperiodcentered\ \textsuperscript{vi}\,Ps. cxxx. 3 — \emph{if thou shouldest mark iniquities, O Lord, who shall stand?} \textperiodcentered\ \textsuperscript{vii}\,Ps. cxliii. 2 — \emph{in thy sight shall no man living be justified} \textperiodcentered\ \textsuperscript{viii}\,Ps. cxix. 48 — \emph{thy commandments, which I have loved} \textperiodcentered\ \textsuperscript{ix}\,Isa. xxvi. 13 — \emph{other lords beside thee have had dominion over us} \textperiodcentered\ \textsuperscript{x}\,Ps. lxxiii. 25 — \emph{whom have I in heaven but thee?} \textperiodcentered\ \textsuperscript{xi}\,John iv. 24 — \emph{in spirit and in truth}\par}\\[3pt]\textsuperscript{vi}\,\textbf{The plate cites \textup{Psal. cxxx. 30}, and the psalm has eight verses.} The line is verse \textbf{3}. Kept as printed and not mended, with the rest of the volume's wrong references; the reading is not in doubt, only the figure.}
 \clearpage
 % ---------- opening 42 | 43 ----------
 \versoalign
 \markright{42}
-\setnoted{4}
-\originalsn{42}{\input{fragments/gr042}}{\input{fragments/la043}}{\textsuperscript{i}\,4 \emph{sqq.} \textup{αὐτοῖς}] \textup{αὐτῶν} \emph{apogr.}}
+\setnoted{}
+\originals{42}{\input{fragments/gr042}}{\input{fragments/la043}}
 \clearpage
 \markright{42}
-\setnoted{}
-\enleafn{42}{\input{fragments/en042}}{}{The Hebrew in the heading — \textup{\RL{סיג התורה}}, \emph{a fence about the Law} — \textbf{is on the printed page}, not supplied. It is one of the few places the 1853 let Andrewes' Hebrew stand, and it is worth noticing beside the note at 38 opposite: what survived here is a rabbinic tag, and what was dropped there was a gloss on his own word.}
+\setnoted{4,14,15,18,19,21,25}
+\enleafn{42}{\input{fragments/en042}}{}{{\scriptsize \textsuperscript{i}\,Heb. xiii. 7 — \emph{them which have the rule over you} \textperiodcentered\ \textsuperscript{ii}\,Gen. iii. 15 — the first promise: the seed that bruises the serpent's head \textperiodcentered\ \textsuperscript{iii}\,Deut. xxxii. 29 — \emph{O that they would consider their latter end} \textperiodcentered\ \textsuperscript{iv}\,Matt. xx. 6 — the labourers found standing idle in the market-place \textperiodcentered\ \textsuperscript{v}\,Ps. xxvi. 4 — \emph{I have not sat with vain persons}; Tit. iii. 10 — a heretic, after the first and second admonition, rejected \textperiodcentered\ \textsuperscript{vi}\,Job xxxi. 1 — \emph{I made a covenant with mine eyes} \textperiodcentered\ \textsuperscript{vii}\,Hos. ii. 6 — \emph{I will hedge up thy way with thorns}\par}\\[3pt]The Hebrew in the heading — \textup{\RL{סיג התורה}}, \emph{a fence about the Law} — \textbf{is on the printed page}, not supplied; one of the few places the 1853 let Andrewes' Hebrew stand. ⚠ \textbf{And the page ends by quoting the fence.} The last resolution is Hosea's \emph{I will hedge up thy way with thorns}, so a rabbinic phrase for the Law's protective hedge opens the page and a prophet's hedge closes it. The twenty-odd resolutions between are what the fence is made of.}
 \clearpage
 % ---------- opening 44 | 45 ----------
 \versoalign
@@ -409,8 +412,8 @@
 \originals{44}{\input{fragments/gr044}}{\input{fragments/la045}}
 \clearpage
 \markright{44}
-\setnoted{}
-\enleaf{44}{\input{fragments/en044}}{}
+\setnoted{4,5,11,24}
+\enleafn{44}{\input{fragments/en044}}{}{{\scriptsize \textsuperscript{i}\,Ps. xxxii. 9 — \emph{be ye not as the horse and mule, which have no understanding} \textperiodcentered\ \textsuperscript{ii}\,Luke xiv. 23 — the master of the feast: \emph{compel them to come in} \textperiodcentered\ \textsuperscript{iii}\,Eph. i. 10 — that he might gather together in one all things in Christ \textperiodcentered\ \textsuperscript{iv}\,Tit. ii. 14 — \emph{a peculiar people}; Phil. iii. 20 — whose citizenship is in heaven\par}}
 \clearpage
 % ---------- opening 46 | 47 ----------
 \versoalign
@@ -419,8 +422,8 @@
 \originals{46}{\input{fragments/gr046}}{\input{fragments/la047}}
 \clearpage
 \markright{46}
-\setnoted{}
-\enleaf{46}{\input{fragments/en046}}{}
+\setnoted{1,11,12,16,24}
+\enleafn{46}{\input{fragments/en046}}{}{{\scriptsize \textsuperscript{i}\,2 Thess. ii. 13 — chosen \emph{through sanctification of the Spirit and belief of the truth}; 1 Pet. iii. 2 — the conversation that is beheld \textperiodcentered\ \textsuperscript{ii}\,Mark ix. 24 — the father of the possessed boy: \emph{help thou mine unbelief} \textperiodcentered\ \textsuperscript{iii}\,Luke xvii. 5 — the apostles: \emph{increase our faith} \textperiodcentered\ \textsuperscript{iv}\,1 Pet. iv. 19 — commit the keeping of their souls to him in well-doing \textperiodcentered\ \textsuperscript{v}\,Gal. v. 24 — they that are Christ's have crucified the flesh\par}}
 \clearpage
 % ---------- opening 48 | 49 ----------
 \versoalign
@@ -429,28 +432,28 @@
 \originals{48}{\input{fragments/gr048}}{\input{fragments/la049}}
 \clearpage
 \markright{48}
-\setnoted{}
-\enleaf{48}{\input{fragments/en048}}{}
+\setnoted{1,5,6,9,20}
+\enleafn{48}{\input{fragments/en048}}{}{{\scriptsize \textsuperscript{i}\,Col. iii. 5 — \emph{mortify therefore your members which are upon the earth} \textperiodcentered\ \textsuperscript{ii}\,Rom. vi. 4 — raised up to walk in newness of life \textperiodcentered\ \textsuperscript{iii}\,Col. iii. 2 — \emph{set your affection on things above} \textperiodcentered\ \textsuperscript{iv}\,1 Cor. xi. 31 — \emph{if we would judge ourselves, we should not be judged} \textperiodcentered\ \textsuperscript{v}\,Ps. lxv. 5 — \emph{the confidence of all the ends of the earth, and of them that are afar off upon the sea}\par}\\[3pt]This page sets the articles of the Creed against a discipline answering each — his death against mortifying the flesh, his burial against burying evil devices, and so down to the judgment. ⚠ \textbf{The Latin column runs six lines longer than the Greek here}, because its table cells turn onto second lines; the two columns are numbered independently.}
 \clearpage
 % ---------- opening 50 | 51 ----------
 \versoalign
 \markright{50}
 \setnoted{18}
-\originalsn{50}{\input{fragments/gr050}}{\input{fragments/la051}}{\textsuperscript{i}\,18 \textup{προσδοκίας}] \textup{ἐλπίδος} \emph{apogr.}; \emph{cf. Lat.} \textup{exspectatione} \emph{cum ed.}}
+\originalsn{50}{\input{fragments/gr050}}{\input{fragments/la051}}{\textsuperscript{i}\,18 \textup{προσδοκίας}] \textup{ἐλπίδος} \emph{apogr.}; \emph{cf. Lat.} \textup{exspectatione} \emph{cum ed.}}{}{1}
 \clearpage
 \markright{50}
-\setnoted{}
-\enleafn{50}{\input{fragments/en050}}{}{Here the Latin sides with \textbf{the printed page} against the manuscript, which is the necessary counterweight to the note at 34. The Latin column is an independent witness, not a better one: it agrees with the print five times for every two it agrees with the manuscript, and it settles nothing by itself.}
+\setnoted{4,5,7,10,16,17,18,20,24}
+\enleafn{50}{\input{fragments/en050}}{}{{\scriptsize \textsuperscript{i}\,Ps. xxii. 4 — \emph{our fathers trusted in thee, and were not confounded} \textperiodcentered\ \textsuperscript{ii}\,Ps. lxxi. 4 — \emph{thou art my hope from my youth} \textperiodcentered\ \textsuperscript{iii}\,Ps. xxii. 9 — \emph{thou art he that took me out of the womb} \textperiodcentered\ \textsuperscript{iv}\,Ps. cxlii. 5 — \emph{my portion in the land of the living} \textperiodcentered\ \textsuperscript{v}\,Ps. cxix. 116 — \emph{let me not be ashamed of my hope} \textperiodcentered\ \textsuperscript{vi}\,Ps. lxv. 5 — the same verse as at 48 above, now made a title: \emph{O hope of all the ends of the earth} \textperiodcentered\ \textsuperscript{viii}\,Job vii. 20 — \emph{O thou preserver of men} \textperiodcentered\ \textsuperscript{ix}\,Rom. xi. 32 — \emph{that he might have mercy upon all}\par}\\[3pt]\textsuperscript{vii}\,Here the Latin sides with \textbf{the printed page} against the manuscript, which is the necessary counterweight to the note at 34. The Latin column is an independent witness, not a better one: it agrees with the print five times for every two it agrees with the manuscript, and it settles nothing by itself.}
 \clearpage
 % ---------- opening 52 | 53 ----------
 \versoalign
 \markright{52}
 \setnoted{16}
-\originalsn{52}{\input{fragments/gr052}}{\input{fragments/la053}}{\textsuperscript{i}\,16 \emph{add.} \textup{καὶ ἐσθήσω} \emph{apogr.}}
+\originalsn{52}{\input{fragments/gr052}}{\input{fragments/la053}}{\textsuperscript{i}\,16 \emph{add.} \textup{καὶ ἐσθήσω} \emph{apogr.}}{}{1}
 \clearpage
 \markright{52}
-\setnoted{}
-\enleaf{52}{\input{fragments/en052}}{}
+\setnoted{1,6,9,10,14,17,19,21,24,27}
+\enleafn{52}{\input{fragments/en052}}{}{{\scriptsize \textsuperscript{i}\,Rom. xiv. 9 — \emph{that he might be Lord both of the dead and living} \textperiodcentered\ \textsuperscript{ii}\,Ps. ix. 9 — a refuge \emph{in times of trouble} \textperiodcentered\ \textsuperscript{iii}\,John i. 14 — \emph{full of grace and truth} \textperiodcentered\ \textsuperscript{iv}\,1 Thess. iii. 2 — Timothy sent to stablish them concerning their faith \textperiodcentered\ \textsuperscript{v}\,Ps. xxviii. 9 — \emph{save thy people, and bless thine inheritance} \textperiodcentered\ \textsuperscript{vi}\,Ps. lxxiv. 2 — \emph{the congregation which thou hast purchased of old} \textperiodcentered\ \textsuperscript{vii}\,Acts iv. 32 — \emph{of one heart and of one soul} \textperiodcentered\ \textsuperscript{viii}\,Rev. ii. 1 — he that walketh in the midst of the seven golden candlesticks \textperiodcentered\ \textsuperscript{ix}\,Tit. i. 5 — \emph{set in order the things that are wanting} \textperiodcentered\ \textsuperscript{x}\,Rev. iii. 2 — \emph{strengthen the things which remain, that are ready to die}\par}}
 \clearpage
 % ---------- opening 54 | 55 ----------
 \versoalign
@@ -459,8 +462,8 @@
 \originals{54}{\input{fragments/gr054}}{\input{fragments/la055}}
 \clearpage
 \markright{54}
-\setnoted{}
-\enleaf{54}{\input{fragments/en054}}{}
+\setnoted{4,5,7,10,15,16,18,20}
+\enleafn{54}{\input{fragments/en054}}{}{{\scriptsize \textsuperscript{i}\,Matt. ix. 38 — \emph{send forth labourers into his harvest} \textperiodcentered\ \textsuperscript{ii}\,1 Cor. ix. 13 — they which wait at the altar are partakers with the altar \textperiodcentered\ \textsuperscript{iii}\,2 Tim. ii. 15 — \emph{rightly dividing the word of truth} \textperiodcentered\ \textsuperscript{iv}\,Heb. xiii. 17 — \emph{obey them that have the rule over you, and submit yourselves} \textperiodcentered\ \textsuperscript{v}\,Rom. xiii. 2 — whoso resisteth the power resisteth the ordinance of God \textperiodcentered\ \textsuperscript{vi}\,1 Pet. ii. 13 — submit to \emph{every ordinance of man} \textperiodcentered\ \textsuperscript{vii}\,Ps. lxviii. 30 — \emph{scatter thou the people that delight in war} \textperiodcentered\ \textsuperscript{viii}\,Ps. xlvi. 9 — \emph{he maketh wars to cease unto the end of the earth}\par}}
 \clearpage
 % ---------- opening 56 | 57 ----------
 \versoalign
@@ -469,8 +472,8 @@
 \originals{56}{\input{fragments/gr056}}{\input{fragments/la057}}
 \clearpage
 \markright{56}
-\setnoted{}
-\enleaf{56}{\input{fragments/en056}}{}
+\setnoted{14,15,20,23}
+\enleafn{56}{\input{fragments/en056}}{}{{\scriptsize \textsuperscript{i}\,1 Tim. ii. 2 — that we may lead a quiet life \emph{in all godliness and honesty} \textperiodcentered\ \textsuperscript{ii}\,Rom. xiii. 1 — \emph{the powers that be are ordained of God} \textperiodcentered\ \textsuperscript{iii}\,2 Cor. xiii. 8 — \emph{we can do nothing against the truth, but for the truth} \textperiodcentered\ \textsuperscript{iv}\,1 Tim. v. 21 — observe these things \emph{without preferring one before another}\par}}
 \clearpage
 % ---------- opening 58 | 59 ----------
 \versoalign
@@ -479,8 +482,8 @@
 \originals{58}{\input{fragments/gr058}}{\input{fragments/la059}}
 \clearpage
 \markright{58}
-\setnoted{}
-\enleaf{58}{\input{fragments/en058}}{}
+\setnoted{3,16,17,18,20}
+\enleafn{58}{\input{fragments/en058}}{}{{\scriptsize \textsuperscript{i}\,Rom. xiii. 5 — subject \emph{not only for wrath, but also for conscience sake} \textperiodcentered\ \textsuperscript{ii}\,Luke ii. 52 — in favour \emph{with God and man} \textperiodcentered\ \textsuperscript{iii}\,1 Tim. v. 8 — he that provideth not for his own is worse than an infidel \textperiodcentered\ \textsuperscript{iv}\,2 Tim. iii. 3 — of the last days: men \emph{without natural affection} \textperiodcentered\ \textsuperscript{v}\,Rom. ix. 3 — Paul, who could wish himself accursed for his kinsmen\par}}
 \clearpage
 % ---------- opening 60 | 61 ----------
 \versoalign
@@ -489,8 +492,8 @@
 \originals{60}{\input{fragments/gr060}}{\input{fragments/la061}}
 \clearpage
 \markright{60}
-\setnoted{}
-\enleaf{60}{\input{fragments/en060}}{}
+\setnoted{3,5,9,11,15,16,17}
+\enleafn{60}{\input{fragments/en060}}{}{{\scriptsize \textsuperscript{i}\,Ps. xli. 2 — \emph{deliver him not unto the will of his enemies} \textperiodcentered\ \textsuperscript{ii}\,1 Tim. v. 8 — the same verse as at 58, now turned upon the household \textperiodcentered\ \textsuperscript{iii}\,Luke x. 5 — \emph{if the son of peace be there, your peace shall rest upon it} \textperiodcentered\ \textsuperscript{iv}\,Matt. v. 20 — except your righteousness exceed \textperiodcentered\ \textsuperscript{v}\,Prov. xxvii. 10 — \emph{thine own friend, and thy father's friend, forsake not} \textperiodcentered\ \textsuperscript{vi}\,Rom. xii. 21 — \emph{overcome evil with good} \textperiodcentered\ \textsuperscript{vii}\,Matt. v. 44 — \emph{pray for them which despitefully use you}\par}}
 \clearpage
 % ---------- opening 62 | 63 ----------
 \versoalign
@@ -499,8 +502,8 @@
 \originals{62}{\input{fragments/gr062}}{\input{fragments/la063}}
 \clearpage
 \markright{62}
-\setnoted{}
-\enleaf{62}{\input{fragments/en062}}{}
+\setnoted{3,10,19}
+\enleafn{62}{\input{fragments/en062}}{}{{\scriptsize \textsuperscript{i}\,[2 Cor. viii. 12] — \emph{if there be first a willing mind, it is accepted} \textperiodcentered\ \textsuperscript{ii}\,Ps. cii. 13 — \emph{the set time is come}, as at 40 above \textperiodcentered\ \textsuperscript{iii}\,Acts v. 16 — them that were vexed with unclean spirits, brought to the apostles\par}\\[3pt]\textsuperscript{i}\,\textbf{The plate's \textup{[1 Cor. viii. 12]} is the 1853 EDITOR's reference, and it is wrong.} \emph{Qui voluntatem promptam acceptam habes} is \textbf{2 Cor. viii. 12} — \emph{if there be first a willing mind, it is accepted}. The square brackets are the editor's own mark for a reference he supplied, so this is his slip and not Andrewes', which is why it is worth saying: the three kinds of attribution in this book — printed in the plate, supplied by the editor, owed to a later scholar — do not carry equal weight, and only the first is evidence about Andrewes. Kept as printed.}
 \clearpage
 % ---------- opening 64 | 65 ----------
 \versoalign
@@ -509,8 +512,8 @@
 \originals{64}{\input{fragments/gr064}}{\input{fragments/la065}}
 \clearpage
 \markright{64}
-\setnoted{}
-\enleaf{64}{\input{fragments/en064}}{}
+\setnoted{14,16}
+\enleafn{64}{\input{fragments/en064}}{}{{\scriptsize \textsuperscript{i}\,Ps. xxxvi. 7 — \emph{the children of men shall put their trust under the shadow of thy wings} \textperiodcentered\ \textsuperscript{ii}\,Num. vi. 24 — the Aaronic blessing, spoken over the congregation\par}}
 \clearpage
 % ---------- opening 66 | 67 ----------
 \versoalign
@@ -529,8 +532,8 @@
 \originals{68}{\input{fragments/gr068}}{\input{fragments/la069}}
 \clearpage
 \markright{68}
-\setnoted{}
-\enleaf{68}{\input{fragments/en068}}{}
+\setnoted{10,12}
+\enleafn{68}{\input{fragments/en068}}{}{{\scriptsize \textsuperscript{i}\,Ezek. iii. 12 — \emph{blessed be the glory of the LORD from his place} \textperiodcentered\ \textsuperscript{ii}\,Ps. xviii. 1 — David's catalogue of the Names: rock, fortress, deliverer, buckler, horn\par}}
 \clearpage
 \sethead{The Second Day}
 % ---------- opening 70 | 71 ----------
@@ -541,8 +544,8 @@
 \originals{70}{\input{fragments/gr070}}{\input{fragments/la071}}
 \clearpage
 \markright{70}
-\setnoted{}
-\enleaf{70}{\input{fragments/en070}}{}
+\setnoted{3,5,13,16,23}
+\enleafn{70}{\input{fragments/en070}}{}{{\scriptsize \textsuperscript{i}\,Ps. v. 3 — \emph{in the morning will I direct my prayer unto thee, and will look up} \textperiodcentered\ \textsuperscript{ii}\,Gen. i. 6 — \textbf{the work of the second day}: the firmament in the midst of the waters \textperiodcentered\ \textsuperscript{iii}\,Ps. cxlvii. 16 — \emph{he casteth forth his ice like morsels} \textperiodcentered\ \textsuperscript{iv}\,Ps. cxxxv. 7 — \emph{he bringeth the wind out of his treasuries} \textperiodcentered\ \textsuperscript{v}\,Lev. xxvi. 40 — \emph{if they shall confess their iniquity, and the iniquity of their fathers}\par}\\[3pt]\textsuperscript{ii}\,\textbf{This is the key to the whole of Part I.} Each of the seven days opens from that day's work in Genesis, and prays out of it: the second day made the firmament, so the second day's prayer begins there and runs down through the waters above the heavens — showers, ice, dew, hail, snow, hoar-frost, winds — before it turns to confession. The days are not seven prayers that happen to fall in a week; they are the week itself, prayed through.}
 \clearpage
 % ---------- opening 72 | 73 ----------
 \versoalign
@@ -551,8 +554,8 @@
 \originals{72}{\input{fragments/gr072}}{\input{fragments/la073}}
 \clearpage
 \markright{72}
-\setnoted{}
-\enleaf{72}{\input{fragments/en072}}{}
+\setnoted{1,5,11,14,15,22,24}
+\enleafn{72}{\input{fragments/en072}}{}{{\scriptsize \textsuperscript{i}\,Ps. xc. 8 — the Septuagint's \emph{our lifetime in the light of thy countenance}, where the AV has \emph{our secret sins} \textperiodcentered\ \textsuperscript{ii}\,Num. xiv. 19 — Moses after the spies: \emph{as thou hast forgiven this people, from Egypt even until now} \textperiodcentered\ \textsuperscript{iii}\,Job vii. 20 — \emph{why dost thou not pardon my transgression?} \textperiodcentered\ \textsuperscript{iv}\,Job xxxiii. 24 — Elihu: \emph{deliver him from going down to the pit; I have found a ransom} \textperiodcentered\ \textsuperscript{v}\,Matt. xv. 22 — the woman of Canaan, and her answer about the crumbs \textperiodcentered\ \textsuperscript{vi}\,Matt. xviii. 25 — the servant who had nothing to pay \textperiodcentered\ \textsuperscript{vii}\,Ps. xiii. 1 — \emph{how long wilt thou hide thy face from me?}\par}}
 \clearpage
 % ---------- opening 74 | 75 ----------
 \versoalign
@@ -581,8 +584,8 @@
 \originals{78}{\input{fragments/gr078}}{\input{fragments/la079}}
 \clearpage
 \markright{78}
-\setnoted{}
-\enleaf{78}{\input{fragments/en078}}{}
+\setnoted{6,8}
+\enleafn{78}{\input{fragments/en078}}{}{{\scriptsize \textsuperscript{i}\,[Ps. xxxix. 8] — \emph{and my substance is with thee} \textperiodcentered\ \textsuperscript{ii}\,Ps. xxxi. 1 — \emph{let me never be put to confusion}\par}\\[3pt]\textsuperscript{i}\,⚠ \textbf{The same half-verse is cited twice in this book under two different numbers.} At printed 34 it is \emph{Substantia mea apud te est}, referred to \textup{Psal. xxxix. 7}; here it is the same clause referred to \textup{[Psal. xxxix. 8]}. The difference is the numbering, not the text: \textbf{xxxix. 7 is the Authorised Version's figure and xxxix. 8 the Prayer Book's}, which runs one ahead here. And the Prayer Book's figure is the one in \textbf{square brackets} — the 1853 editor's own mark for a reference he supplied. So the plate cites Andrewes' psalm on the AV's numbering and the editor cites it on the BCP's, on two pages of one book. Both stand as printed.}
 \clearpage
 % ---------- opening 80 | 81 ----------
 \versoalign
@@ -601,8 +604,8 @@
 \originals{82}{\input{fragments/gr082}}{\input{fragments/la083}}
 \clearpage
 \markright{82}
-\setnoted{}
-\enleaf{82}{\input{fragments/en082}}{}
+\setnoted{26}
+\enleafn{82}{\input{fragments/en082}}{}{\textsuperscript{i}\,\textbf{Andrewes is praying for the places he himself served, under their etymologies.} \emph{The Southern Spring} is \textbf{Southwell} and \emph{the Western Monastery} is \textbf{Westminster}, as the Latin column says outright (\emph{sc. Southwell}, \emph{sc. Westmonasterii}); with St Paul's between them these are his own prebends and his deanery. The English keeps the descriptive form because the Greek does, and the identification sits where Andrewes put it, on the facing page.}
 \clearpage
 % ---------- opening 84 | 85 ----------
 \versoalign
@@ -611,8 +614,8 @@
 \originals{84}{\input{fragments/gr084}}{\input{fragments/la085}}
 \clearpage
 \markright{84}
-\setnoted{}
-\enleaf{84}{\input{fragments/en084}}{}
+\setnoted{1}
+\enleafn{84}{\input{fragments/en084}}{}{\textsuperscript{i}\,\textbf{And these are his own three sees, in order.} Chichester (1605), Ely (1609), and \emph{this present see} — Winchester, which the Latin glosses \emph{sc. Winton}. ⚠ \textbf{The phrase dates the prayer}: he came to Winchester in 1619 and died in 1626, so this leaf of the Intercession was written, or last revised, in his last seven years. It is the one place in the book where the text says when it is.}
 \clearpage
 % ---------- opening 86 | 87 ----------
 \versoalign
@@ -621,8 +624,8 @@
 \originals{86}{\input{fragments/gr086}}{\input{fragments/la087}}
 \clearpage
 \markright{86}
-\setnoted{}
-\enleaf{86}{\input{fragments/en086}}{}
+\setnoted{10,15,23,25}
+\enleafn{86}{\input{fragments/en086}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxvii. 1 — \emph{God be merciful unto us, and bless us, and cause his face to shine upon us} \textperiodcentered\ \textsuperscript{ii}\,Ps. vi. 9 — \emph{the Lord hath heard my supplication} \textperiodcentered\ \textsuperscript{iii}\,Ps. vii. 9 — \emph{God trieth the hearts and reins} \textperiodcentered\ \textsuperscript{iv}\,Luke v. 12 — the leper: \emph{Lord, if thou wilt, thou canst make me clean}\par}}
 \clearpage
 % ---------- opening 88 | 89 ----------
 \versoalign
@@ -631,8 +634,8 @@
 \originals{88}{\input{fragments/gr088}}{\input{fragments/la089}}
 \clearpage
 \markright{88}
-\setnoted{}
-\enleaf{88}{\input{fragments/en088}}{}
+\setnoted{19,22,25,27}
+\enleafn{88}{\input{fragments/en088}}{}{{\scriptsize \textsuperscript{i}\,Ex. xxxiv. 7 — the proclamation of the Name on Sinai, whose thirteen epithets this page numbers \textperiodcentered\ \textsuperscript{ii}\,Ps. xxxiv. 1 — \emph{his praise shall continually be in my mouth} \textperiodcentered\ \textsuperscript{iii}\,Luke ii. 14 — the angels over Bethlehem \textperiodcentered\ \textsuperscript{iv}\,1 Thess. iv. 6 — the archangel's voice at the descending\par}}
 \clearpage
 % ---------- opening 90 | 91 ----------
 \versoalign
@@ -641,8 +644,8 @@
 \originals{90}{\input{fragments/gr090}}{\input{fragments/la091}}
 \clearpage
 \markright{90}
-\setnoted{}
-\enleaf{90}{\input{fragments/en090}}{}
+\setnoted{4}
+\enleafn{90}{\input{fragments/en090}}{}{{\scriptsize \textsuperscript{i}\,Col. i. 16 — \emph{thrones, dominions, principalities, powers}, the orders this column names\par}}
 \clearpage
 \sethead{The Third Day}
 % ---------- opening 92 | 93 ----------
@@ -653,8 +656,8 @@
 \originals{92}{\input{fragments/gr092}}{\input{fragments/la093}}
 \clearpage
 \markright{92}
-\setnoted{}
-\enleaf{92}{\input{fragments/en092}}{}
+\setnoted{3,6,10}
+\enleafn{92}{\input{fragments/en092}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxiii. 1 — \emph{O God, thou art my God; early will I seek thee} \textperiodcentered\ \textsuperscript{ii}\,Gen. i. 9 — \textbf{the work of the third day}: the waters gathered, and the dry land appearing \textperiodcentered\ \textsuperscript{iii}\,Ps. xxxiii. 7 — the Septuagint's \emph{as in a wineskin}, where the AV has \emph{as an heap}\par}\\[3pt]\textsuperscript{i}\,⚠ \textbf{The plate cites \textup{Psal. xliii. 1}, and the verse is Psalm lxiii. 1.} \emph{Ad te de luce vigilo} is the Vulgate of Ps. lxii. 2, the AV's \emph{early will I seek thee}; Ps. xliii. 1 is \emph{judge me, O God, and plead my cause}, which is not this line. The likeliest mechanism is a dropped letter — \textup{xliii} for \textup{lxiii} — the same slip the volume makes at printed 411, where \textup{lxviii} stands for \textup{lxxviii}. Kept as printed.}
 \clearpage
 % ---------- opening 94 | 95 ----------
 \versoalign
@@ -663,18 +666,18 @@
 \originals{94}{\input{fragments/gr094}}{\input{fragments/la095}}
 \clearpage
 \markright{94}
-\setnoted{}
-\enleaf{94}{\input{fragments/en094}}{}
+\setnoted{4,6,11,15,19,21}
+\enleafn{94}{\input{fragments/en094}}{}{{\scriptsize \textsuperscript{i}\,Joel ii. 30 — \emph{blood, and fire, and pillars of smoke} \textperiodcentered\ \textsuperscript{ii}\,Ps. xix. 12 — \emph{cleanse thou me from secret faults} \textperiodcentered\ \textsuperscript{iii}\,Ps. xxv. 11 — \emph{pardon mine iniquity; for it is great} \textperiodcentered\ \textsuperscript{iv}\,Ps. xl. 12 — \emph{my heart faileth me} \textperiodcentered\ \textsuperscript{v}\,Ps. xvii. 7 — \emph{O thou that savest by thy right hand them which put their trust in thee} \textperiodcentered\ \textsuperscript{vi}\,Ps. xli. 4 — \emph{heal my soul; for I have sinned against thee}\par}}
 \clearpage
 % ---------- opening 96 | 97 ----------
 \versoalign
 \markright{96}
-\setnoted{}
-\originals{96}{\input{fragments/gr096}}{\input{fragments/la097}}
+\setnoted{25}
+\originalsn{96}{\input{fragments/gr096}}{\input{fragments/la097}}{\textsuperscript{i}\,25 \emph{voces Hebrææ Græcis respondentes in altero} στοίχῳ \emph{subjiciuntur apogr.}: \textup{\RL{יצר}} · \textup{\RL{שגגה}} · \textup{\RL{אשם}} · \textup{\RL{חטאה}} · \textup{\RL{פשע}} · \textup{\RL{עון}} · \textup{\RL{תועבה}}}{}{1}
 \clearpage
 \markright{96}
-\setnoted{}
-\enleaf{96}{\input{fragments/en096}}{}
+\setnoted{7,9,10,11,14,24,25,32}
+\enleafn{96}{\input{fragments/en096}}{}{{\scriptsize \textsuperscript{i}\,1 Kings viii. 47 — Solomon at the dedication, praying for those who repent in the land of their captivity \textperiodcentered\ \textsuperscript{ii}\,Ps. xli. 4 — the verse of line 21 opposite, turned into the third person \textperiodcentered\ \textsuperscript{iii}\,Luke xviii. 13 — the publican, standing afar off \textperiodcentered\ \textsuperscript{iv}\,1 Tim. i. 15 — Paul, \emph{of whom I am chief} \textperiodcentered\ \textsuperscript{v}\,Luke xv. 18 — the prodigal: \emph{make me as one of thy hired servants} \textperiodcentered\ \textsuperscript{vi}\,Ps. xxx. 9 — \emph{thou hast turned for me my mourning into dancing} \textperiodcentered\ \textsuperscript{viii}\,2 Cor. vii. 11 — the seven marks of godly sorrow, which this column sets out\par}\\[3pt]\textsuperscript{vii}\,⚠ \textbf{Under these seven Greek words for sin the manuscript sets a Hebrew column, and the 1853 left it out.} The apograph gives \textup{\RL{יצר}} · \textup{\RL{שגגה}} · \textup{\RL{אשם}} · \textup{\RL{חטאה}} · \textup{\RL{פשע}} · \textup{\RL{עון}} · \textup{\RL{תועבה}} — \emph{yetzer, shegagah, asham, ḥaṭṭa'ah, pesha, avon, to'evah}, the standard rabbinic vocabulary of sin, set as a lexicon beneath the Greek. \textbf{It is not in the printed book at all.} ⚠ And the first of them is the word Andrewes glosses \textup{\RL{יצר טוב}}, the good inclination, at printed 76: so his \emph{φαντασία} is being read through the rabbinic doctrine of the two inclinations, which is a fact about his theology and not a footnote about his text. Recorded here; not restored to the page.}
 \clearpage
 % ---------- opening 98 | 99 ----------
 \versoalign
@@ -683,8 +686,8 @@
 \originals{98}{\input{fragments/gr098}}{\input{fragments/la099}}
 \clearpage
 \markright{98}
-\setnoted{}
-\enleaf{98}{\input{fragments/en098}}{}
+\setnoted{19}
+\enleafn{98}{\input{fragments/en098}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxv. 5 — \emph{the confidence of all the ends of the earth, and of them that are afar off upon the sea}\par}}
 \clearpage
 % ---------- opening 100 | 101 ----------
 \versoalign
@@ -693,8 +696,8 @@
 \originals{100}{\input{fragments/gr100}}{\input{fragments/la101}}
 \clearpage
 \markright{100}
-\setnoted{}
-\enleaf{100}{\input{fragments/en100}}{}
+\setnoted{22}
+\enleafn{100}{\input{fragments/en100}}{}{{\scriptsize \textsuperscript{i}\,Ps. cxxi. 5 — \emph{the Lord is thy keeper; the Lord is thy shade upon thy right hand}\par}}
 \clearpage
 % ---------- opening 102 | 103 ----------
 \versoalign
@@ -703,8 +706,8 @@
 \originals{102}{\input{fragments/gr102}}{\input{fragments/la103}}
 \clearpage
 \markright{102}
-\setnoted{}
-\enleaf{102}{\input{fragments/en102}}{}
+\setnoted{2,11,13,15,17,19,26,28}
+\enleafn{102}{\input{fragments/en102}}{}{{\scriptsize \textsuperscript{i}\,Rom. vii. 24 — \emph{O wretched man that I am} \textperiodcentered\ \textsuperscript{ii}\,2 Sam. vii. 28 — David after the promise: \emph{thou art that God, and thy words be true} \textperiodcentered\ \textsuperscript{iii}\,Rom. v. 20 — \emph{where sin abounded, grace did much more abound} \textperiodcentered\ \textsuperscript{iv}\,Tit. iii. 4 — \emph{the kindness and love of God our Saviour toward man appeared} \textperiodcentered\ \textsuperscript{v}\,2 Cor. x. 1 — \emph{the meekness and gentleness of Christ} \textperiodcentered\ \textsuperscript{vi}\,Rom. ii. 4 — \emph{the riches of his goodness and forbearance and longsuffering} \textperiodcentered\ \textsuperscript{vii}\,Jas. v. 11 — \emph{the Lord is very pitiful, and of tender mercy} \textperiodcentered\ \textsuperscript{viii}\,Acts xvii. 30 — \emph{the times of this ignorance God winked at}\par}\\[3pt]\textsuperscript{ii}\,\textbf{This is a catalogue of the Names of mercy, each with its proof-text}, and the proof-texts are doing the work a lexicon would: \emph{bonitas} from Samuel, \emph{charitas} from Romans, \emph{hominum dilectio} from Titus — the Greek φιλανθρωπία — down to the \emph{viscera} of James. The page is closer to a concordance than to a prayer, and it is the ground the next page prays from.}
 \clearpage
 % ---------- opening 104 | 105 ----------
 \versoalign
@@ -713,8 +716,8 @@
 \originals{104}{\input{fragments/gr104}}{\input{fragments/la105}}
 \clearpage
 \markright{104}
-\setnoted{}
-\enleaf{104}{\input{fragments/en104}}{}
+\setnoted{1,4,5,7,8,9}
+\enleafn{104}{\input{fragments/en104}}{}{{\scriptsize \textsuperscript{i}\,Neh. ix. 28 — \emph{many times didst thou deliver them} \textperiodcentered\ \textsuperscript{ii}\,Ps. lxxviii. 39 — \emph{he stirred not up all his wrath} \textperiodcentered\ \textsuperscript{iii}\,Ps. ciii. 10 — \emph{he hath not dealt with us after our sins} \textperiodcentered\ \textsuperscript{iv}\,Hab. iii. 2 — \emph{in wrath remember mercy} \textperiodcentered\ \textsuperscript{v}\,Joel ii. 13 — \emph{slow to anger, and of great kindness, and repenteth him of the evil} \textperiodcentered\ \textsuperscript{vi}\,Isa. xl. 2 — \emph{she hath received of the LORD's hand double for all her sins}\par}}
 \clearpage
 \sethead{The Fourth Day}
 % ---------- opening 106 | 107 ----------
@@ -725,8 +728,8 @@
 \originals{106}{\input{fragments/gr106}}{\input{fragments/la107}}
 \clearpage
 \markright{106}
-\setnoted{}
-\enleaf{106}{\input{fragments/en106}}{}
+\setnoted{3,7,8,12,18}
+\enleafn{106}{\input{fragments/en106}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxiii. 7 — \emph{because thou hast been my help} \textperiodcentered\ \textsuperscript{ii}\,Gen. i. 16 — \textbf{the work of the fourth day}: the two great lights, and the stars \textperiodcentered\ \textsuperscript{iii}\,Gen. i. 14 — \emph{for signs, and for seasons, and for days, and years} \textperiodcentered\ \textsuperscript{iv}\,Ps. civ. 19 — \emph{he appointed the moon for seasons} \textperiodcentered\ \textsuperscript{v}\,Gen. i. 18 — \emph{to divide the light from the darkness}\par}\\[3pt]\textsuperscript{i}\,\textbf{The same psalm, correctly numbered here.} At printed 92 \emph{Ad te de luce vigilo} was referred to \textup{Psal. xliii. 1}; here \textup{Psal. lxiii. 7, 8} stands right. The volume therefore knows the psalm's number and mis-set it fourteen leaves earlier — which is the argument for calling that one a compositor's slip rather than Andrewes' own reckoning.}
 \clearpage
 % ---------- opening 108 | 109 ----------
 \versoalign
@@ -735,8 +738,8 @@
 \originals{108}{\input{fragments/gr108}}{\input{fragments/la109}}
 \clearpage
 \markright{108}
-\setnoted{}
-\enleaf{108}{\input{fragments/en108}}{}
+\setnoted{13,23,25}
+\enleafn{108}{\input{fragments/en108}}{}{{\scriptsize \textsuperscript{i}\,Jer. xiv. 7 — \emph{our backslidings are many; we have sinned against thee} \textperiodcentered\ \textsuperscript{ii}\,Jer. xxxi. 34 — \emph{I will remember their sin no more} \textperiodcentered\ \textsuperscript{iii}\,Rom. vii. 14 — \emph{carnal, sold under sin}\par}}
 \clearpage
 % ---------- opening 110 | 111 ----------
 \versoalign
@@ -745,8 +748,8 @@
 \originals{110}{\input{fragments/gr110}}{\input{fragments/la111}}
 \clearpage
 \markright{110}
-\setnoted{}
-\enleaf{110}{\input{fragments/en110}}{}
+\setnoted{9,10,13,19,25,27,29}
+\enleafn{110}{\input{fragments/en110}}{}{{\scriptsize \textsuperscript{i}\,Rom. v. 20 — \emph{where sin abounded, grace did much more abound} \textperiodcentered\ \textsuperscript{ii}\,Rom. ii. 4 — \emph{the goodness of God leadeth thee to repentance} \textperiodcentered\ \textsuperscript{iii}\,2 Tim. ii. 25 — \emph{if God peradventure will give them repentance} \textperiodcentered\ \textsuperscript{iv}\,1 Pet. i. 19 — \emph{the precious blood of Christ, as of a lamb without blemish} \textperiodcentered\ \textsuperscript{v}\,Acts iv. 12 — \emph{none other name under heaven} \textperiodcentered\ \textsuperscript{vi}\,Ps. lxix. 5 — \emph{my sins are not hid from thee} \textperiodcentered\ \textsuperscript{vii}\,Ps. xxxviii. 9 — \emph{my groaning is not hid from thee}\par}\\[3pt]\textsuperscript{i}\,⚠ \textbf{The plate cites \textup{Rom. v. 2}, and the verse is Rom. v. 20.} \emph{Superabundavit gratia} is the Vulgate of Romans v. 20 word for word; v. 2 is \emph{access by faith into this grace}, a different sentence. \textbf{And the volume proves it against itself}: printed 103 cites \textup{Rom. v. 20} correctly. A dropped nought, kept as printed — the fifth place in this edition where one page corrects another.\\[1pt]\textsuperscript{vi}\,\textbf{Two verses of the same shape, set one under the other.} \emph{My sins are not hid from thee} and \emph{my groaning is not hid from thee} are different psalms — lxix and xxxviii — and Andrewes has put them together for the repeated clause, which is how most of this book is built. The English keeps both, unvaried, so the repetition reads as the design it is.}
 \clearpage
 % ---------- opening 112 | 113 ----------
 \versoalign
@@ -755,8 +758,8 @@
 \originals{112}{\input{fragments/gr112}}{\input{fragments/la113}}
 \clearpage
 \markright{112}
-\setnoted{}
-\enleaf{112}{\input{fragments/en112}}{}
+\setnoted{3}
+\enleafn{112}{\input{fragments/en112}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxix. 6 — \emph{let not those that seek thee be confounded for my sake, O God of Israel}\par}}
 \clearpage
 % ---------- opening 114 | 115 ----------
 \versoalign
@@ -765,8 +768,8 @@
 \originals{114}{\input{fragments/gr114}}{\input{fragments/la115}}
 \clearpage
 \markright{114}
-\setnoted{}
-\enleaf{114}{\input{fragments/en114}}{}
+\setnoted{11,12,15,17,19,20}
+\enleafn{114}{\input{fragments/en114}}{}{{\scriptsize \textsuperscript{i}\,Gal. iii. 10 — \emph{cursed is every one that continueth not in all things} \textperiodcentered\ \textsuperscript{ii}\,1 Cor. xv. 56 — \emph{the sting of death is sin} \textperiodcentered\ \textsuperscript{iii}\,1 Cor. xv. 20 — \emph{the firstfruits of them that slept} \textperiodcentered\ \textsuperscript{iv}\,Heb. vii. 25 — \emph{he ever liveth to make intercession for them} \textperiodcentered\ \textsuperscript{v}\,Rom. ii. 6 — \emph{who will render to every man according to his deeds} \textperiodcentered\ \textsuperscript{vi}\,Luke xxiv. 49 — \emph{until ye be endued with power from on high}\par}\\[3pt]\textsuperscript{i}\,\textbf{The Creed again, but each article answered by what it did.} Not \emph{he was crucified} but the cross taking away the curse of the law; not \emph{he rose} but the firstfruits; not \emph{he sitteth} but the appearing and interceding. Compare printed 48, where the same articles are answered by a discipline the believer owes each of them. The Creed is recited three times in Part I and never twice to the same end.}
 \clearpage
 % ---------- opening 116 | 117 ----------
 \versoalign
@@ -775,8 +778,8 @@
 \originals{116}{\input{fragments/gr116}}{\input{fragments/la117}}
 \clearpage
 \markright{116}
-\setnoted{}
-\enleaf{116}{\input{fragments/en116}}{}
+\setnoted{5,7,8,9,20,26}
+\enleafn{116}{\input{fragments/en116}}{}{{\scriptsize \textsuperscript{i}\,Ps. lii. 9 — \emph{I will praise thee for ever, because thou hast done it} \textperiodcentered\ \textsuperscript{ii}\,Ps. xxxvi. 7 — \emph{how excellent is thy lovingkindness, O God} \textperiodcentered\ \textsuperscript{iii}\,Ps. xiii. 5 — \emph{I have trusted in thy mercy} \textperiodcentered\ \textsuperscript{iv}\,Ps. cxix. 116 — \emph{let me not be ashamed of my hope} \textperiodcentered\ \textsuperscript{v}\,Ps. lxv. 5 — the verse that has already stood at 48 and 50, again as a title \textperiodcentered\ \textsuperscript{vi}\,Ps. cxlv. 16 — \emph{thou fillest all things living with plenteousness}\par}}
 \clearpage
 % ---------- opening 118 | 119 ----------
 \versoalign
@@ -785,8 +788,8 @@
 \originals{118}{\input{fragments/gr118}}{\input{fragments/la119}}
 \clearpage
 \markright{118}
-\setnoted{}
-\enleaf{118}{\input{fragments/en118}}{}
+\setnoted{4}
+\enleafn{118}{\input{fragments/en118}}{}{{\scriptsize \textsuperscript{i}\,Acts xx. 28 — \emph{the church of God, which he hath purchased with his own blood}\par}}
 \clearpage
 % ---------- opening 120 | 121 ----------
 \versoalign
@@ -795,8 +798,8 @@
 \originals{120}{\input{fragments/gr120}}{\input{fragments/la121}}
 \clearpage
 \markright{120}
-\setnoted{}
-\enleaf{120}{\input{fragments/en120}}{}
+\setnoted{12,22,23}
+\enleafn{120}{\input{fragments/en120}}{}{{\scriptsize \textsuperscript{i}\,1 Tim. ii. 2 — \emph{a quiet and peaceable life in all godliness and honesty} \textperiodcentered\ \textsuperscript{ii}\,2 Tim. ii. 15 — \emph{rightly dividing the word of truth} \textperiodcentered\ \textsuperscript{iii}\,Gal. ii. 14 — Paul at Antioch, of those that \emph{walked not uprightly according to the truth of the gospel}\par}}
 \clearpage
 % ---------- opening 122 | 123 ----------
 \versoalign
@@ -805,8 +808,8 @@
 \originals{122}{\input{fragments/gr122}}{\input{fragments/la123}}
 \clearpage
 \markright{122}
-\setnoted{}
-\enleaf{122}{\input{fragments/en122}}{}
+\setnoted{4,9}
+\enleafn{122}{\input{fragments/en122}}{}{{\scriptsize \textsuperscript{i}\,Ps. cxliv. 13 — \emph{that our garners may be full, affording all manner of store} \textperiodcentered\ \textsuperscript{ii}\,1 Thess. v. 14 — \emph{comfort the feebleminded, support the weak}\par}}
 \clearpage
 % ---------- opening 124 | 125 ----------
 \versoalign
@@ -825,8 +828,8 @@
 \originals{126}{\input{fragments/gr126}}{\input{fragments/la127}}
 \clearpage
 \markright{126}
-\setnoted{}
-\enleaf{126}{\input{fragments/en126}}{}
+\setnoted{19}
+\enleafn{126}{\input{fragments/en126}}{}{{\scriptsize \textsuperscript{i}\,Ps. xc. 17 — \emph{establish thou the work of our hands upon us}\par}}
 \clearpage
 % ---------- opening 128 | 129 ----------
 \versoalign
@@ -835,8 +838,8 @@
 \originals{128}{\input{fragments/gr128}}{\input{fragments/la129}}
 \clearpage
 \markright{128}
-\setnoted{}
-\enleaf{128}{\input{fragments/en128}}{}
+\setnoted{14}
+\enleafn{128}{\input{fragments/en128}}{}{{\scriptsize \textsuperscript{i}\,Isa. lxiv. 2 — \emph{that the nations may tremble at thy presence}\par}}
 \clearpage
 \sethead{The Fifth Day}
 % ---------- opening 130 | 131 ----------
@@ -847,8 +850,8 @@
 \originals{130}{\input{fragments/gr130}}{\input{fragments/la131}}
 \clearpage
 \markright{130}
-\setnoted{}
-\enleaf{130}{\input{fragments/en130}}{}
+\setnoted{3,6,8,10,13,17}
+\enleafn{130}{\input{fragments/en130}}{}{{\scriptsize \textsuperscript{i}\,Ps. xc. 14 — \emph{O satisfy us early with thy mercy} \textperiodcentered\ \textsuperscript{ii}\,Gen. i. 20 — \textbf{the work of the fifth day}: the moving creature that hath life \textperiodcentered\ \textsuperscript{iii}\,Ps. cxlviii. 10 — \emph{creeping things, and flying fowl} \textperiodcentered\ \textsuperscript{iv}\,Gen. i. 22 — \emph{be fruitful, and multiply} \textperiodcentered\ \textsuperscript{v}\,Ps. cviii. 5 — \emph{thy glory above all the earth} \textperiodcentered\ \textsuperscript{vi}\,Col. iii. 2 — \emph{set your affection on things above, not on things on the earth}\par}}
 \clearpage
 % ---------- opening 132 | 133 ----------
 \versoalign
@@ -857,8 +860,8 @@
 \originals{132}{\input{fragments/gr132}}{\input{fragments/la133}}
 \clearpage
 \markright{132}
-\setnoted{}
-\enleaf{132}{\input{fragments/en132}}{}
+\setnoted{8,12}
+\enleafn{132}{\input{fragments/en132}}{}{{\scriptsize \textsuperscript{i}\,Lam. v. 21 — \emph{turn thou us unto thee, O LORD, and we shall be turned} \textperiodcentered\ \textsuperscript{ii}\,Dan. ix. 5 — Daniel's confession: \emph{even by departing from thy precepts}\par}}
 \clearpage
 % ---------- opening 134 | 135 ----------
 \versoalign
@@ -867,8 +870,8 @@
 \originals{134}{\input{fragments/gr134}}{\input{fragments/la135}}
 \clearpage
 \markright{134}
-\setnoted{}
-\enleaf{134}{\input{fragments/en134}}{}
+\setnoted{3,5,7,12,22,27,29}
+\enleafn{134}{\input{fragments/en134}}{}{{\scriptsize \textsuperscript{i}\,Jas. iii. 2 — \emph{in many things we offend all} \textperiodcentered\ \textsuperscript{ii}\,Jas. ii. 13 — \emph{judgment without mercy to him that hath shewed no mercy} \textperiodcentered\ \textsuperscript{iii}\,1 John i. 8 — \emph{if we say that we have no sin, we deceive ourselves} \textperiodcentered\ \textsuperscript{iv}\,1 John ii. 1 — \emph{we have an advocate with the Father} \textperiodcentered\ \textsuperscript{v}\,Ps. lxxvii. 7 — \emph{will the Lord cast off for ever?} \textperiodcentered\ \textsuperscript{vi}\,Heb. xii. 1 — \emph{the sin which doth so easily beset us} \textperiodcentered\ \textsuperscript{vii}\,Jas. i. 21 — \emph{superfluity of naughtiness}\par}\\[3pt]\textsuperscript{iv}\,\textbf{He doubles the preposition, and the doubling is the argument.} \emph{Advocatum ad te apud te habeo} — an advocate \textbf{to} thee and \textbf{with} thee: the one pleaded before is the one pleaded to, and both are God. It is the court figure the book keeps returning to, and the English holds both prepositions rather than smoothing them into one.}
 \clearpage
 % ---------- opening 136 | 137 ----------
 \versoalign
@@ -877,8 +880,8 @@
 \originals{136}{\input{fragments/gr136}}{\input{fragments/la137}}
 \clearpage
 \markright{136}
-\setnoted{}
-\enleaf{136}{\input{fragments/en136}}{}
+\setnoted{1,6,25,26,27,28,30,32}
+\enleafn{136}{\input{fragments/en136}}{}{{\scriptsize \textsuperscript{i}\,1 John ii. 16 — \emph{the pride of life} \textperiodcentered\ \textsuperscript{ii}\,Matt. v. 3 — \emph{blessed are the poor in spirit; for theirs is the kingdom of heaven} \textperiodcentered\ \textsuperscript{iii}\,Heb. xi. 6 — \emph{a rewarder of them that diligently seek him} \textperiodcentered\ \textsuperscript{iv}\,Job xix. 25 — \emph{I know that my redeemer liveth} \textperiodcentered\ \textsuperscript{v}\,Matt. xvi. 16 — Peter at Cæsarea Philippi: \emph{thou art the Christ, the Son of the living God} \textperiodcentered\ \textsuperscript{vi}\,John iv. 42 — the Samaritans: \emph{this is indeed the Christ, the Saviour of the world} \textperiodcentered\ \textsuperscript{vii}\,1 Tim. i. 15 — \emph{of whom I am chief} \textperiodcentered\ \textsuperscript{viii}\,Acts xv. 11 — Peter at the council: \emph{we shall be saved, even as they}\par}\\[3pt]\textsuperscript{iv}\,\textbf{Three confessions in a row, and not one of them from the same quarter.} Job's \emph{I know that my redeemer liveth} comes from outside Israel altogether; Peter's \emph{thou art the Christ} from the chief of the apostles; the Samaritans' \emph{this is indeed the Saviour of the world} from foreigners who had believed on the word of a woman. Andrewes sets them one under another without comment, and the arrangement says what no one of them says alone.}
 \clearpage
 % ---------- opening 138 | 139 ----------
 \versoalign
@@ -887,8 +890,8 @@
 \originals{138}{\input{fragments/gr138}}{\input{fragments/la139}}
 \clearpage
 \markright{138}
-\setnoted{}
-\enleaf{138}{\input{fragments/en138}}{}
+\setnoted{2,4,6,11}
+\enleafn{138}{\input{fragments/en138}}{}{{\scriptsize \textsuperscript{i}\,Job xix. 25 — the verse continuing: \emph{whom I shall see for myself} \textperiodcentered\ \textsuperscript{ii}\,Ps. xxvii. 15 — \emph{to see the goodness of the Lord in the land of the living} \textperiodcentered\ \textsuperscript{iii}\,Ps. xxxiii. 20 — \emph{our soul waiteth for the LORD} \textperiodcentered\ \textsuperscript{iv}\,Ps. xxxiii. 21 — \emph{let thy mercy be upon us, according as we hope in thee}\par}\\[3pt]\textsuperscript{ii}\,⚠ \textbf{\textup{Psal. xxvii. 15} is not an error: it is the Prayer Book's numbering.} The Authorised Version has this verse at xxvii. 13; the BCP Psalter, which divides the psalm differently, has it at 15 — and the BCP is the book Andrewes had to hand, as printed 433 shows twice over. \textbf{Do not "correct" it.} The volume moves between the two numberings without warning, and only reading the verse tells you which is in use.}
 \clearpage
 % ---------- opening 140 | 141 ----------
 \versoalign
@@ -897,8 +900,8 @@
 \originals{140}{\input{fragments/gr140}}{\input{fragments/la141}}
 \clearpage
 \markright{140}
-\setnoted{}
-\enleaf{140}{\input{fragments/en140}}{}
+\setnoted{18}
+\enleafn{140}{\input{fragments/en140}}{}{{\scriptsize \textsuperscript{i}\,2 Cor. xiii. 14 — the apostolic grace, which closes the day\par}}
 \clearpage
 % ---------- opening 142 | 143 ----------
 \versoalign
@@ -917,8 +920,8 @@
 \originals{144}{\input{fragments/gr144}}{\input{fragments/la145}}
 \clearpage
 \markright{144}
-\setnoted{}
-\enleaf{144}{\input{fragments/en144}}{}
+\setnoted{18,20}
+\enleafn{144}{\input{fragments/en144}}{}{{\scriptsize \textsuperscript{i}\,2 Sam. vii. 18 — David, sitting before the LORD: \emph{who am I, O Lord GOD?} \textperiodcentered\ \textsuperscript{ii}\,Ps. cxvi. 12 — \emph{what shall I render unto the LORD for all his benefits?}\par}}
 \clearpage
 % ---------- opening 146 | 147 ----------
 \versoalign
@@ -927,8 +930,8 @@
 \originals{146}{\input{fragments/gr146}}{\input{fragments/la147}}
 \clearpage
 \markright{146}
-\setnoted{}
-\enleaf{146}{\input{fragments/en146}}{}
+\setnoted{9}
+\enleafn{146}{\input{fragments/en146}}{}{{\scriptsize \textsuperscript{i}\,Rev. iv. 11 — \emph{for thy pleasure they are and were created}\par}}
 \clearpage
 \sethead{The Sixth Day}
 % ---------- opening 148 | 149 ----------
@@ -939,8 +942,8 @@
 \originals{148}{\input{fragments/gr148}}{\input{fragments/la149}}
 \clearpage
 \markright{148}
-\setnoted{}
-\enleaf{148}{\input{fragments/en148}}{}
+\setnoted{3,6,9,12,13,14,16,17,18}
+\enleafn{148}{\input{fragments/en148}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxxxviii. 13 — \emph{in the morning shall my prayer prevent thee} \textperiodcentered\ \textsuperscript{ii}\,Gen. i. 25 — \textbf{the work of the sixth day}: the beast of the earth after his kind \textperiodcentered\ \textsuperscript{iii}\,Gen. i. 26 — \emph{let us make man in our image} \textperiodcentered\ \textsuperscript{v}\,Ps. cxxxviii. 8 — the divine hand set to its own work \textperiodcentered\ \textsuperscript{vi}\,Gen. ii. 7 — \emph{and breathed into his nostrils the breath of life} \textperiodcentered\ \textsuperscript{vii}\,Ps. viii. 6 — \emph{thou madest him to have dominion} \textperiodcentered\ \textsuperscript{viii}\,Ps. xci. 11 — \emph{he shall give his angels charge over thee} \textperiodcentered\ \textsuperscript{ix}\,Gen. ii. 8 — \emph{and the LORD God planted a garden eastward in Eden}\par}\\[3pt]\textsuperscript{iv}\,\textbf{Seven dignities in the making of man, counted out.} A deliberation held beforehand, the divine hand set to the work, the breath of life, the image, dominion over the works, angels given charge, and a garden — each with its text. Andrewes is not retelling Genesis i but \emph{itemising} it, and the sixth day's prayer is built on the count: what man was made with is the ground of everything the page goes on to ask.}
 \clearpage
 % ---------- opening 150 | 151 ----------
 \versoalign
@@ -949,18 +952,18 @@
 \originals{150}{\input{fragments/gr150}}{\input{fragments/la151}}
 \clearpage
 \markright{150}
-\setnoted{}
-\enleaf{150}{\input{fragments/en150}}{}
+\setnoted{6,7,9,18,22,25}
+\enleafn{150}{\input{fragments/en150}}{}{{\scriptsize \textsuperscript{i}\,2 Pet. i. 4 — \emph{partakers of the divine nature} \textperiodcentered\ \textsuperscript{ii}\,Gen. iii. 15 — the promise of the seed that should bruise the serpent \textperiodcentered\ \textsuperscript{iii}\,Gal. iv. 4 — \emph{when the fulness of the time was come} \textperiodcentered\ \textsuperscript{iv}\,Hos. xiii. 16 — the prophet's word of a people fallen by its own iniquity \textperiodcentered\ \textsuperscript{v}\,Hos. xiv. 2 — \emph{so will we render the calves of our lips} \textperiodcentered\ \textsuperscript{vi}\,Joel ii. 17 — \emph{give not thine heritage to reproach}\par}}
 \clearpage
 % ---------- opening 152 | 153 ----------
 \versoalign
 \markright{152}
-\setnoted{}
-\originals{152}{\input{fragments/gr152}}{\input{fragments/la153}}
+\setnoted{8}
+\originalsn{152}{\input{fragments/gr152}}{\input{fragments/la153}}{\textsuperscript{i}\,8 \emph{Græca om. apogr., quæ Hebraice leguntur}: \textup{\RL{ואתה תעל משחת חיי}} (\emph{Ion.} ii. 7), \emph{sub titulo} \textup{Τοῦ Ἰωνᾶ}}{}{1}
 \clearpage
 \markright{152}
-\setnoted{}
-\enleaf{152}{\input{fragments/en152}}{}
+\setnoted{1,3,8,25,26,30}
+\enleafn{152}{\input{fragments/en152}}{}{{\scriptsize \textsuperscript{i}\,Amos vii. 5 — Amos staying the judgment: \emph{O Lord GOD, cease, I beseech thee} \textperiodcentered\ \textsuperscript{ii}\,Jonah ii. 8 — \emph{they that observe lying vanities forsake their own mercy} \textperiodcentered\ \textsuperscript{iv}\,Zech. iii. 3 — Joshua the high priest in filthy garments, and Satan at his right hand \textperiodcentered\ \textsuperscript{v}\,Zech. ix. 11 — \emph{by the blood of thy covenant} \textperiodcentered\ \textsuperscript{vi}\,Ps. li. 2 — \emph{cleanse me from my sin}\par}\\[3pt]\textsuperscript{iii}\,⚠ \textbf{Here the manuscript reads HEBREW where the printed page reads Greek.} The apograph gives \textup{\RL{ואתה תעל משחת חיי}} — Jonah ii. 7, \emph{thou hast brought up my life from corruption} — under its own heading, \emph{Of Jonah}; the 1853 set the Greek instead. This is the sharpest of the thirteen places where the printed book quietly drops Andrewes' third script, because here the Hebrew is not a gloss beside the text but \textbf{the text itself}. Recorded, not restored.}
 \clearpage
 % ---------- opening 154 | 155 ----------
 \versoalign
@@ -969,8 +972,8 @@
 \originals{154}{\input{fragments/gr154}}{\input{fragments/la155}}
 \clearpage
 \markright{154}
-\setnoted{}
-\enleaf{154}{\input{fragments/en154}}{}
+\setnoted{2,5,9,14,18,24,25,29,32}
+\enleafn{154}{\input{fragments/en154}}{}{{\scriptsize \textsuperscript{i}\,Zech. iii. 2 — \emph{is not this a brand plucked out of the fire?} \textperiodcentered\ \textsuperscript{ii}\,Luke xxiii. 34 — \emph{Father, forgive them; for they know not what they do} \textperiodcentered\ \textsuperscript{iii}\,Acts vii. 60 — Stephen, kneeling: \emph{lay not this sin to their charge} \textperiodcentered\ \textsuperscript{iv}\,Luke xxii. 44 — \emph{his sweat was as it were great drops of blood} \textperiodcentered\ \textsuperscript{v}\,Heb. v. 7 — \emph{with strong crying and tears} \textperiodcentered\ \textsuperscript{vi}\,Ps. cxxix. 3 — \emph{the plowers plowed upon my back} \textperiodcentered\ \textsuperscript{vii}\,Ps. xxii. 16 — \emph{they pierced my hands and my feet} \textperiodcentered\ \textsuperscript{viii}\,1 Cor. xi. 24 — \emph{this is my body, which is broken for you} \textperiodcentered\ \textsuperscript{ix}\,Ps. lxxxv. 2 — \emph{thou hast covered all their sin}\par}\\[3pt]\textsuperscript{iv}\,\textbf{The Passion assembled out of five books, and not one of them a Gospel narrative of it.} The bloody sweat and the strong crying come from Luke and Hebrews, but the plowed back, the pierced hands and feet and the covered sin come from the Psalms, and the broken body from an epistle about a supper. Andrewes builds the scene from texts that are not describing it, which is why the sequence reads as prayer and not as recital.}
 \clearpage
 % ---------- opening 156 | 157 ----------
 \versoalign
@@ -979,8 +982,8 @@
 \originals{156}{\input{fragments/gr156}}{\input{fragments/la157}}
 \clearpage
 \markright{156}
-\setnoted{}
-\enleaf{156}{\input{fragments/en156}}{}
+\setnoted{21,26}
+\enleafn{156}{\input{fragments/en156}}{}{{\scriptsize \textsuperscript{i}\,Gal. v. 19 — the works of the flesh, which this column lists \textperiodcentered\ \textsuperscript{ii}\,Gal. v. 22 — the fruit of the Spirit, which the facing column answers with\par}}
 \clearpage
 % ---------- opening 158 | 159 ----------
 \versoalign
@@ -989,8 +992,8 @@
 \originals{158}{\input{fragments/gr158}}{\input{fragments/la159}}
 \clearpage
 \markright{158}
-\setnoted{}
-\enleaf{158}{\input{fragments/en158}}{}
+\setnoted{8,12,13,16,22,25,26}
+\enleafn{158}{\input{fragments/en158}}{}{{\scriptsize \textsuperscript{i}\,1 Cor. xii. 8 — the gifts of the Spirit, severally divided \textperiodcentered\ \textsuperscript{ii}\,Ps. cxxxviii. 8 — \emph{forsake not the works of thine own hands} \textperiodcentered\ \textsuperscript{iii}\,Gen. i. 26 — \emph{because} in thine image and likeness \textperiodcentered\ \textsuperscript{iv}\,Rev. v. 9 — \emph{because} thou hast redeemed me by thy blood \textperiodcentered\ \textsuperscript{v}\,Tit. iii. 5 — \emph{because} of the washing of regeneration \textperiodcentered\ \textsuperscript{vi}\,Rom. xi. 17 — \emph{because} thou hast graffed me into the good olive tree \textperiodcentered\ \textsuperscript{vii}\,Eph. v. 30 — \emph{because} a member of his body\par}\\[3pt]\textsuperscript{iii}\,*\emph{Five pleas, and every one of them begins }Quia\emph{.}* The prayer does not ask on the ground of need but on the ground of fact — because I am in thine image, because thou hast bought me, because thou hast washed me, because thou hast graffed me in, because I am a member. The repeated conjunction is the argument, and the English keeps it at the head of each line rather than varying it for elegance.}
 \clearpage
 % ---------- opening 160 | 161 ----------
 \versoalign
@@ -999,8 +1002,8 @@
 \originals{160}{\input{fragments/gr160}}{\input{fragments/la161}}
 \clearpage
 \markright{160}
-\setnoted{}
-\enleaf{160}{\input{fragments/en160}}{}
+\setnoted{2}
+\enleafn{160}{\input{fragments/en160}}{}{{\scriptsize \textsuperscript{i}\,Ps. cxix. 49 — \emph{remember thy word unto thy servant, upon which thou hast caused me to hope}\par}}
 \clearpage
 % ---------- opening 162 | 163 ----------
 \versoalign
@@ -1009,8 +1012,8 @@
 \originals{162}{\input{fragments/gr162}}{\input{fragments/la163}}
 \clearpage
 \markright{162}
-\setnoted{}
-\enleaf{162}{\input{fragments/en162}}{}
+\setnoted{21,28,30}
+\enleafn{162}{\input{fragments/en162}}{}{{\scriptsize \textsuperscript{i}\,Phil. iv. 7 — \emph{the peace of God, which passeth all understanding} \textperiodcentered\ \textsuperscript{ii}\,2 Pet. i. 4 — \emph{exceeding great and precious promises} \textperiodcentered\ \textsuperscript{iii}\,Acts xiv. 27 — \emph{he had opened the door of faith unto the Gentiles}\par}}
 \clearpage
 % ---------- opening 164 | 165 ----------
 \versoalign
@@ -1019,8 +1022,8 @@
 \originals{164}{\input{fragments/gr164}}{\input{fragments/la165}}
 \clearpage
 \markright{164}
-\setnoted{}
-\enleaf{164}{\input{fragments/en164}}{}
+\setnoted{1,4,8,15,19,25}
+\enleafn{164}{\input{fragments/en164}}{}{{\scriptsize \textsuperscript{i}\,Acts xi. 18 — \emph{then hath God also to the Gentiles granted repentance unto life} \textperiodcentered\ \textsuperscript{ii}\,Heb. ii. 16 — \emph{he took on him the seed of Abraham} \textperiodcentered\ \textsuperscript{iii}\,Gal. iii. 13 — \emph{being made a curse for us} \textperiodcentered\ \textsuperscript{iv}\,2 Pet. i. 4 — \emph{partakers of the divine nature} \textperiodcentered\ \textsuperscript{v}\,Heb. ii. 4 — \emph{with divers miracles, and gifts of the Holy Ghost} \textperiodcentered\ \textsuperscript{vi}\,Rom. xvi. 26 — \emph{for the obedience of faith}\par}}
 \clearpage
 % ---------- opening 166 | 167 ----------
 \versoalign
@@ -1029,8 +1032,8 @@
 \originals{166}{\input{fragments/gr166}}{\input{fragments/la167}}
 \clearpage
 \markright{166}
-\setnoted{}
-\enleaf{166}{\input{fragments/en166}}{}
+\setnoted{10,22}
+\enleafn{166}{\input{fragments/en166}}{}{{\scriptsize \textsuperscript{i}\,Rev. v. 9 — \emph{out of every kindred, and tongue, and people, and nation} \textperiodcentered\ \textsuperscript{ii}\,Rev. vii. 10 — \emph{salvation to our God which sitteth upon the throne}\par}}
 \clearpage
 \sethead{The Seventh Day}
 % ---------- opening 168 | 169 ----------
@@ -1041,8 +1044,8 @@
 \originals{168}{\input{fragments/gr168}}{\input{fragments/la169}}
 \clearpage
 \markright{168}
-\setnoted{}
-\enleaf{168}{\input{fragments/en168}}{}
+\setnoted{11}
+\enleafn{168}{\input{fragments/en168}}{}{{\scriptsize \textsuperscript{i}\,Gen. ii. 2 — \textbf{the work of the seventh day}: God rested, and blessed and sanctified it\par}}
 \clearpage
 % ---------- opening 170 | 171 ----------
 \versoalign
@@ -1061,8 +1064,8 @@
 \originals{172}{\input{fragments/gr172}}{\input{fragments/la173}}
 \clearpage
 \markright{172}
-\setnoted{}
-\enleaf{172}{\input{fragments/en172}}{}
+\setnoted{2,3,4,5,6,7,10,12,13,14}
+\enleafn{172}{\input{fragments/en172}}{}{{\scriptsize \textsuperscript{i}\,Matt. viii. 8 — the centurion: \emph{speak the word only, and my servant shall be healed} \textperiodcentered\ \textsuperscript{ii}\,Matt. viii. 25 — the disciples in the storm: \emph{Lord, save us} \textperiodcentered\ \textsuperscript{iii}\,Mark iv. 38 — \emph{carest thou not that we perish?} \textperiodcentered\ \textsuperscript{iv}\,Matt. ix. 2 — to the man sick of the palsy: \emph{thy sins be forgiven thee} \textperiodcentered\ \textsuperscript{v}\,Luke xvii. 13 — the ten lepers, standing afar off \textperiodcentered\ \textsuperscript{vi}\,Mark x. 47 — blind Bartimæus by the wayside \textperiodcentered\ \textsuperscript{vii}\,Mark vii. 34 — to the deaf man: \emph{Ephphatha, that is, Be opened} \textperiodcentered\ \textsuperscript{viii}\,Luke xiii. 12 — to the bowed woman: \emph{thou art loosed from thine infirmity} \textperiodcentered\ \textsuperscript{ix}\,Ps. xxxv. 3 — \emph{say unto my soul, I am thy salvation} \textperiodcentered\ \textsuperscript{x}\,2 Cor. xii. 9 — \emph{my grace is sufficient for thee}\par}\\[3pt]\textsuperscript{i}\,*\emph{The whole page is one request, asked ten times: }say it to me\emph{.}\emph{ Andrewes goes through the Gospels collecting the words Christ spoke to particular people — }be opened\emph{ to the deaf man, }thou art loosed\emph{ to the bowed woman, }thy sins be forgiven thee\emph{ to the palsied, }my grace is sufficient* to Paul — and asks for each of them in the first person. He is not recalling the miracles; he is asking to be the one they were said to. The Psalm and the Epistle at the foot are admitted on the same terms, as words spoken to somebody.}
 \clearpage
 % ---------- opening 174 | 175 ----------
 \versoalign
@@ -1081,8 +1084,8 @@
 \originals{176}{\input{fragments/gr176}}{\input{fragments/la177}}
 \clearpage
 \markright{176}
-\setnoted{}
-\enleaf{176}{\input{fragments/en176}}{}
+\setnoted{4,8,12,17,22,25}
+\enleafn{176}{\input{fragments/en176}}{}{{\scriptsize \textsuperscript{i}\,Ps. ciii. 13 — \emph{like as a father pitieth his children} \textperiodcentered\ \textsuperscript{ii}\,Ps. cxxiii. 2 — \emph{as the eyes of servants look unto the hand of their masters} \textperiodcentered\ \textsuperscript{iii}\,Mark vii. 28 — the Syrophenician woman: \emph{yet the dogs under the table eat of the children's crumbs} \textperiodcentered\ \textsuperscript{iv}\,1 Tim. i. 15 — \emph{Christ Jesus came into the world to save sinners} \textperiodcentered\ \textsuperscript{v}\,Matt. xviii. 11 — \emph{the Son of man is come to save that which was lost} \textperiodcentered\ \textsuperscript{vi}\,Gen. ii. 7 — \emph{and man became a living soul}\par}}
 \clearpage
 % ---------- opening 178 | 179 ----------
 \versoalign
@@ -1091,8 +1094,8 @@
 \originals{178}{\input{fragments/gr178}}{\input{fragments/la179}}
 \clearpage
 \markright{178}
-\setnoted{}
-\enleaf{178}{\input{fragments/en178}}{}
+\setnoted{1,4,12}
+\enleafn{178}{\input{fragments/en178}}{}{{\scriptsize \textsuperscript{i}\,2 Cor. vi. 1 — \emph{that ye receive not the grace of God in vain} \textperiodcentered\ \textsuperscript{ii}\,Rom. viii. 26 — \emph{groanings which cannot be uttered} \textperiodcentered\ \textsuperscript{iii}\,Ps. xxii. 4 — \emph{our fathers trusted in thee, and were not confounded}\par}}
 \clearpage
 % ---------- opening 180 | 181 ----------
 \versoalign
@@ -1101,8 +1104,8 @@
 \originals{180}{\input{fragments/gr180}}{\input{fragments/la181}}
 \clearpage
 \markright{180}
-\setnoted{}
-\enleaf{180}{\input{fragments/en180}}{}
+\setnoted{20}
+\enleafn{180}{\input{fragments/en180}}{}{{\scriptsize \textsuperscript{i}\,Eph. iii. 20 — \emph{unto him that is able to do exceeding abundantly above all that we ask or think}\par}}
 \clearpage
 % ---------- opening 182 | 183 ----------
 \versoalign
@@ -1111,8 +1114,8 @@
 \originals{182}{\input{fragments/gr182}}{\input{fragments/la183}}
 \clearpage
 \markright{182}
-\setnoted{}
-\enleaf{182}{\input{fragments/en182}}{}
+\setnoted{30}
+\enleafn{182}{\input{fragments/en182}}{}{{\scriptsize \textsuperscript{i}\,Rev. xv. 3 — the song of Moses and of the Lamb: \emph{thy judgments are made manifest}\par}}
 \clearpage
 % ---------- opening 184 | 185 ----------
 \versoalign
@@ -1121,8 +1124,8 @@
 \originals{184}{\input{fragments/gr184}}{\input{fragments/la185}}
 \clearpage
 \markright{184}
-\setnoted{}
-\enleaf{184}{\input{fragments/en184}}{}
+\setnoted{3,20}
+\enleafn{184}{\input{fragments/en184}}{}{{\scriptsize \textsuperscript{i}\,Rev. xix. 5 — \emph{praise our God, all ye his servants, both small and great} \textperiodcentered\ \textsuperscript{ii}\,Rev. xxi. 4 — \emph{for the former things are passed away}\par}\\[3pt]\textsuperscript{ii}\,⚠ \textbf{The manuscript has its largest silence immediately after this line.} Andrewes' own book leaves \textbf{three blank leaves} here — six blank pages, more than it leaves anywhere else — and the next thing in it is the great personal intercession that the 1853 prints on the following leaf. The printed page runs straight on. What the blank leaves mean is not settled: they may mark the end of the seven days, or room left for matter never written. \textbf{Nothing has been re-cut on the strength of them}; the division is recorded here and in \textup{apparatus/CLASS-B-unit-boundaries.md}, which is where a decision about it would have to be argued.}
 \clearpage
 % ---------- opening 186 | 187 ----------
 \versoalign
@@ -1151,8 +1154,8 @@
 \originals{190}{\input{fragments/gr190}}{\input{fragments/la191}}
 \clearpage
 \markright{190}
-\setnoted{}
-\enleaf{190}{\input{fragments/en190}}{}
+\setnoted{6,9,12,19,22}
+\enleafn{190}{\input{fragments/en190}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxv. 1 — \emph{unto thee shall the vow be performed} \textperiodcentered\ \textsuperscript{ii}\,Rev. iv. 11 — \emph{thou art worthy, O Lord, to receive glory and honour and power} \textperiodcentered\ \textsuperscript{iii}\,Ps. lxv. 2 — \emph{O thou that hearest prayer, unto thee shall all flesh come} \textperiodcentered\ \textsuperscript{iv}\,Ps. cxlv. 10 — \emph{all thy works shall praise thee} \textperiodcentered\ \textsuperscript{v}\,Ps. li. 15 — \emph{my mouth shall shew forth thy praise}\par}}
 \clearpage
 % ---------- opening 192 | 193 ----------
 \versoalign
@@ -1161,8 +1164,8 @@
 \originals{192}{\input{fragments/gr192}}{\input{fragments/la193}}
 \clearpage
 \markright{192}
-\setnoted{}
-\enleaf{192}{\input{fragments/en192}}{}
+\setnoted{19,23,25}
+\enleafn{192}{\input{fragments/en192}}{}{{\scriptsize \textsuperscript{i}\,Isa. xxxviii. 12 — Hezekiah in his sickness: \emph{from day even to night wilt thou make an end of me} \textperiodcentered\ \textsuperscript{ii}\,Ps. lxxi. 18 — \emph{now also when I am old and grayheaded, O God, forsake me not} \textperiodcentered\ \textsuperscript{iii}\,Ps. lxvi. 8 — \emph{and suffereth not our feet to be moved}\par}}
 \clearpage
 % ---------- opening 194 | 195 ----------
 \versoalign
@@ -1193,8 +1196,8 @@
 \originals{198}{\input{fragments/gr198}}{\input{fragments/la199}}
 \clearpage
 \markright{198}
-\setnoted{}
-\enleaf{198}{\input{fragments/en198}}{}
+\setnoted{19}
+\enleafn{198}{\input{fragments/en198}}{}{{\scriptsize \textsuperscript{i}\,Ps. ciii. 10 — \emph{nor rewarded us according to our iniquities}\par}}
 \clearpage
 % ---------- opening 200 | 201 ----------
 \versoalign
@@ -1203,8 +1206,8 @@
 \originals{200}{\input{fragments/gr200}}{\input{fragments/la201}}
 \clearpage
 \markright{200}
-\setnoted{}
-\enleaf{200}{\input{fragments/en200}}{}
+\setnoted{18,19,22,23,26}
+\enleafn{200}{\input{fragments/en200}}{}{{\scriptsize \textsuperscript{i}\,Rev. vi. 16 — \emph{hide us from the face of him that sitteth on the throne} \textperiodcentered\ \textsuperscript{ii}\,Matt. xxv. 33 — the goats set on the left hand \textperiodcentered\ \textsuperscript{iii}\,2 Pet. ii. 4 — \emph{cast them down to hell, and delivered them into chains of darkness} \textperiodcentered\ \textsuperscript{iv}\,Matt. xxv. 30 — \emph{cast ye the unprofitable servant into outer darkness} \textperiodcentered\ \textsuperscript{v}\,Rev. xiv. 11 — \emph{the smoke of their torment ascendeth up for ever}\par}}
 \clearpage
 % ---------- opening 202 | 203 ----------
 \versoalign
@@ -1213,8 +1216,8 @@
 \originals{202}{\input{fragments/gr202}}{\input{fragments/la203}}
 \clearpage
 \markright{202}
-\setnoted{}
-\enleaf{202}{\input{fragments/en202}}{}
+\setnoted{4,5,6,8,9,10,11,25,26,27,29}
+\enleafn{202}{\input{fragments/en202}}{}{{\scriptsize \textsuperscript{i}\,Mark xvi. 14 — \emph{he upbraided them with their unbelief and hardness of heart} \textperiodcentered\ \textsuperscript{ii}\,Eph. iv. 19 — \emph{who being past feeling} \textperiodcentered\ \textsuperscript{iii}\,Mark iii. 5 — \emph{grieved for the hardness of their hearts} \textperiodcentered\ \textsuperscript{iv}\,1 Tim. iv. 2 — \emph{having their conscience seared with a hot iron} \textperiodcentered\ \textsuperscript{v}\,Rom. i. 28 — \emph{God gave them over to a reprobate mind} \textperiodcentered\ \textsuperscript{vi}\,Matt. xii. 32 — the word against the Holy Ghost, which shall not be forgiven \textperiodcentered\ \textsuperscript{vii}\,1 John v. 16 — \emph{there is a sin unto death} \textperiodcentered\ \textsuperscript{viii}\,2 Pet. i. 20 — \emph{no prophecy of the scripture is of any private interpretation} \textperiodcentered\ \textsuperscript{ix}\,1 Tim. vi. 20 — \emph{profane and vain babblings} \textperiodcentered\ \textsuperscript{x}\,1 Tim. i. 3 — \emph{that they teach no other doctrine} \textperiodcentered\ \textsuperscript{xi}\,1 Tim. vi. 4 — \emph{questions and strifes of words}\par}}
 \clearpage
 % ---------- opening 204 | 205 ----------
 \versoalign
@@ -1223,8 +1226,8 @@
 \originals{204}{\input{fragments/gr204}}{\input{fragments/la205}}
 \clearpage
 \markright{204}
-\setnoted{}
-\enleaf{204}{\input{fragments/en204}}{}
+\setnoted{3,4,6,7,8,10,12,13,17,20,22,23}
+\enleafn{204}{\input{fragments/en204}}{}{{\scriptsize \textsuperscript{i}\,Acts xii. 22 — Herod hailed as a god, and eaten of worms \textperiodcentered\ \textsuperscript{ii}\,Acts xxiv. 27 — Felix, \emph{willing to shew the Jews a pleasure} \textperiodcentered\ \textsuperscript{iii}\,2 Sam. vi. 16 — Michal despising David as he danced before the ark \textperiodcentered\ \textsuperscript{iv}\,1 Sam. ii. 13 — the fleshhook of Hophni, taking the priests' portion by force \textperiodcentered\ \textsuperscript{v}\,2 Kings xi. 1 — Athaliah destroying all the seed royal \textperiodcentered\ \textsuperscript{vi}\,Acts viii. 18 — Simon offering money for the gift; Matt. xxvi. 15 — Judas' thirty pieces \textperiodcentered\ \textsuperscript{vii}\,1 Tim. iii. 6 — \emph{not a novice, lest being lifted up with pride} \textperiodcentered\ \textsuperscript{viii}\,Hos. iv. 4 — \emph{this people are as they that strive with the priest} \textperiodcentered\ \textsuperscript{ix}\,2 Sam. xv. 31 — Ahithophel's counsel, prayed into foolishness \textperiodcentered\ \textsuperscript{x}\,1 Kings xxi. 15 — the judges of Jezreel, and Naboth's vineyard \textperiodcentered\ \textsuperscript{xi}\,Num. xxv. 5 — the plague at Baal-peor \textperiodcentered\ \textsuperscript{xii}\,Josh. vii. 26 — the valley of Achor, where Achan was stoned\par}\\[3pt]\textsuperscript{iii}\,\textbf{This page names disasters by a single figure and expects the story to come with it.} \emph{Hophni's fleshhook}, \emph{Michal's contempt}, \emph{Athaliah's plundering}, \emph{Ahithophel's counsel}, \emph{the judges of Jezreel}, \emph{the torrents of Belial}, \emph{the plague of Peor}, \emph{the valley of Achor} — each is one or two words standing for a whole history, and the deprecation works only if the reader supplies it. Nowhere else in the volume does so much depend on knowing what a name is for; without the notes below, the English of this page is a list of proper nouns.}
 \clearpage
 % ---------- opening 206 | 207 ----------
 \versoalign
@@ -1243,8 +1246,8 @@
 \originals{208}{\input{fragments/gr208}}{\input{fragments/la209}}
 \clearpage
 \markright{208}
-\setnoted{}
-\enleaf{208}{\input{fragments/en208}}{}
+\setnoted{7,8,10,13,15}
+\enleafn{208}{\input{fragments/en208}}{}{{\scriptsize \textsuperscript{i}\,Ps. cvi. 5 — \emph{that I may rejoice in the gladness of thy nation} \textperiodcentered\ \textsuperscript{ii}\,1 Pet. v. 1 — \emph{a partaker of the glory that shall be revealed} \textperiodcentered\ \textsuperscript{iii}\,Job xxxiii. 26 — \emph{he shall see his face with joy} \textperiodcentered\ \textsuperscript{iv}\,Matt. xxv. 34 — \emph{Come, ye blessed of my Father} \textperiodcentered\ \textsuperscript{v}\,1 Thess. iv. 17 — \emph{caught up together with them in the clouds}\par}}
 \clearpage
 % ---------- opening 210 | 211 ----------
 \versoalign
@@ -1253,8 +1256,8 @@
 \originals{210}{\input{fragments/gr210}}{\input{fragments/la211}}
 \clearpage
 \markright{210}
-\setnoted{}
-\enleaf{210}{\input{fragments/en210}}{}
+\setnoted{4,7,8,9,10,11,12,16,18,20,22,27,30}
+\enleafn{210}{\input{fragments/en210}}{}{{\scriptsize \textsuperscript{i}\,Heb. xii. 28 — \emph{let us serve God acceptably with reverence and godly fear} \textperiodcentered\ \textsuperscript{ii}\,2 Cor. vi. 1 — \emph{that ye receive not the grace of God in vain} \textperiodcentered\ \textsuperscript{iii}\,Heb. xii. 15 — \emph{lest any man fail of the grace of God} \textperiodcentered\ \textsuperscript{iv}\,1 Tim. iv. 14 — \emph{neglect not the gift that is in thee} \textperiodcentered\ \textsuperscript{v}\,Gal. v. 4 — \emph{ye are fallen from grace} \textperiodcentered\ \textsuperscript{vi}\,2 Tim. i. 6 — \emph{stir up the gift of God which is in thee} \textperiodcentered\ \textsuperscript{vii}\,2 Pet. iii. 18 — \emph{grow in grace} \textperiodcentered\ \textsuperscript{viii}\,1 Thess. iii. 10 — \emph{might perfect that which is lacking in your faith} \textperiodcentered\ \textsuperscript{ix}\,Luke xvii. 5 — \emph{increase our faith}; Heb. iii. 6 — \emph{the rejoicing of the hope firm unto the end} \textperiodcentered\ \textsuperscript{x}\,Isa. xlii. 3 — \emph{the smoking flax shall he not quench} \textperiodcentered\ \textsuperscript{xi}\,Rom. v. 5 — \emph{the love of God is shed abroad in our hearts} \textperiodcentered\ \textsuperscript{xii}\,Jas. iv. 6 — \emph{he giveth grace unto the humble} \textperiodcentered\ \textsuperscript{xiii}\,Ps. lxxxvi. 11 — \emph{unite my heart to fear thy name}\par}\\[3pt]\textsuperscript{ii}\,\textbf{Seven verbs of grace in seven lines, and they make a single argument.} Not to receive it in vain, not to fail of it, not to neglect it, not to fall from it — then to stir it up, to grow in it, to continue in it. Four negatives and three positives, each with its own epistle, mounting from the least a man can do to the most. The English keeps them as seven separate lines because the ladder is the point.}
 \clearpage
 % ---------- opening 212 | 213 ----------
 \versoalign
@@ -1263,8 +1266,8 @@
 \originals{212}{\input{fragments/gr212}}{\input{fragments/la213}}
 \clearpage
 \markright{212}
-\setnoted{}
-\enleaf{212}{\input{fragments/en212}}{}
+\setnoted{1,5,7,11,13,14,15,18,19,21}
+\enleafn{212}{\input{fragments/en212}}{}{{\scriptsize \textsuperscript{i}\,Job iv. 6 — \emph{is not this thy fear, thy confidence?} \textperiodcentered\ \textsuperscript{ii}\,Matt. vii. 12 — \emph{whatsoever ye would that men should do to you, do ye even so to them} \textperiodcentered\ \textsuperscript{iii}\,Rom. xii. 3 — \emph{not to think of himself more highly than he ought, but to think soberly} \textperiodcentered\ \textsuperscript{iv}\,Luke i. 79 — \emph{to guide our feet into the way of peace} \textperiodcentered\ \textsuperscript{v}\,2 Tim. ii. 15 — \emph{rightly dividing the word of truth}; Gal. ii. 14 — \emph{walked not uprightly} \textperiodcentered\ \textsuperscript{vi}\,1 Thess. v. 11 — \emph{edify one another} \textperiodcentered\ \textsuperscript{vii}\,Rom. xv. 6 — \emph{that ye may with one mind and one mouth glorify God} \textperiodcentered\ \textsuperscript{viii}\,Phil. iii. 16 — \emph{whereto we have already attained, let us walk by the same rule} \textperiodcentered\ \textsuperscript{ix}\,1 Cor. xiv. 40 — \emph{let all things be done decently and in order} \textperiodcentered\ \textsuperscript{x}\,Col. ii. 5 — \emph{your order, and the stedfastness of your faith}\par}}
 \clearpage
 % ---------- opening 214 | 215 ----------
 \versoalign
@@ -1273,8 +1276,8 @@
 \originals{214}{\input{fragments/gr214}}{\input{fragments/la215}}
 \clearpage
 \markright{214}
-\setnoted{}
-\enleaf{214}{\input{fragments/en214}}{}
+\setnoted{2,4,9}
+\enleafn{214}{\input{fragments/en214}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxv. 11 — \emph{thou crownest the year with thy goodness} \textperiodcentered\ \textsuperscript{ii}\,Ps. cxlv. 15 — \emph{thou givest them their meat in due season} \textperiodcentered\ \textsuperscript{iii}\,Deut. xxxiii. 13 — Moses blessing Joseph: \emph{the dew, and the deep that coucheth beneath}\par}}
 \clearpage
 % ---------- opening 216 | 217 ----------
 \versoalign
@@ -1283,8 +1286,8 @@
 \originals{216}{\input{fragments/gr216}}{\input{fragments/la217}}
 \clearpage
 \markright{216}
-\setnoted{}
-\enleaf{216}{\input{fragments/en216}}{}
+\setnoted{13,19,28}
+\enleafn{216}{\input{fragments/en216}}{}{{\scriptsize \textsuperscript{i}\,Ps. cxliv. 14 — \emph{that there be no complaining in our streets} \textperiodcentered\ \textsuperscript{ii}\,Ps. xxvii. 4 — \emph{to behold the beauty of the LORD, and to enquire in his temple} \textperiodcentered\ \textsuperscript{iii}\,Prov. xxx. 8 — Agur: \emph{give me neither poverty nor riches}\par}}
 \clearpage
 % ---------- opening 218 | 219 ----------
 \versoalign
@@ -1293,8 +1296,8 @@
 \originals{218}{\input{fragments/gr218}}{\input{fragments/la219}}
 \clearpage
 \markright{218}
-\setnoted{}
-\enleaf{218}{\input{fragments/en218}}{}
+\setnoted{1}
+\enleafn{218}{\input{fragments/en218}}{}{{\scriptsize \textsuperscript{i}\,Phil. iv. 11 — \emph{I have learned, in whatsoever state I am, therewith to be content}\par}}
 \clearpage
 \sethead{The Evening Office}
 % ---------- opening 220 | 221 ----------
@@ -1305,8 +1308,8 @@
 \originals{220}{\input{fragments/gr220}}{\input{fragments/la221}}
 \clearpage
 \markright{220}
-\setnoted{}
-\enleaf{220}{\input{fragments/en220}}{}
+\setnoted{13,18,20,24}
+\enleafn{220}{\input{fragments/en220}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxxi. 9 — \emph{cast me not off in the time of old age} \textperiodcentered\ \textsuperscript{ii}\,Isa. xlvi. 4 — \emph{even to hoar hairs will I carry you} \textperiodcentered\ \textsuperscript{iii}\,Luke xxiv. 29 — the two at Emmaus: \emph{abide with us; for it is toward evening} \textperiodcentered\ \textsuperscript{iv}\,2 Cor. xii. 9 — \emph{my strength is made perfect in weakness}\par}}
 \clearpage
 % ---------- opening 222 | 223 ----------
 \versoalign
@@ -1315,8 +1318,8 @@
 \originals{222}{\input{fragments/gr222}}{\input{fragments/la223}}
 \clearpage
 \markright{222}
-\setnoted{}
-\enleaf{222}{\input{fragments/en222}}{}
+\setnoted{18,19,27}
+\enleafn{222}{\input{fragments/en222}}{}{{\scriptsize \textsuperscript{i}\,Eccl. xi. 8 — \emph{let him remember the days of darkness; for they shall be many} \textperiodcentered\ \textsuperscript{ii}\,Matt. xxii. 13 — \emph{bind him hand and foot, and cast him into outer darkness} \textperiodcentered\ \textsuperscript{iii}\,Ps. cxxxiv. 2 — \emph{lift up your hands in the sanctuary, and bless the LORD}\par}}
 \clearpage
 % ---------- opening 224 | 225 ----------
 \versoalign
@@ -1325,8 +1328,8 @@
 \originals{224}{\input{fragments/gr224}}{\input{fragments/la225}}
 \clearpage
 \markright{224}
-\setnoted{}
-\enleaf{224}{\input{fragments/en224}}{}
+\setnoted{2,4,8,12,15,19,20,22,23,25,27}
+\enleafn{224}{\input{fragments/en224}}{}{{\scriptsize \textsuperscript{i}\,Ps. xlii. 10 — \emph{my prayer unto the God of my life} \textperiodcentered\ \textsuperscript{ii}\,Ps. lxiii. 4 — \emph{I will lift up my hands in thy name} \textperiodcentered\ \textsuperscript{iii}\,Ps. cxli. 2 — \emph{the lifting up of my hands as the evening sacrifice} \textperiodcentered\ \textsuperscript{iv}\,Job xxxv. 10 — \emph{God my maker, who giveth songs in the night} \textperiodcentered\ \textsuperscript{v}\,Isa. xxxviii. 12 — Hezekiah again: \emph{from day even to night wilt thou make an end of me} \textperiodcentered\ \textsuperscript{vi}\,Ecclus. v. 5 — \emph{add not sin unto sin} \textperiodcentered\ \textsuperscript{vii}\,Prov. xxiv. 16 — \emph{a just man falleth seven times, and riseth up again} \textperiodcentered\ \textsuperscript{viii}\,Matt. xviii. 22 — \emph{until seventy times seven} \textperiodcentered\ \textsuperscript{ix}\,Jer. v. 30 — \emph{a wonderful and horrible thing is committed in the land} \textperiodcentered\ \textsuperscript{x}\,Isa. xxx. 15 — \emph{in returning and rest shall ye be saved} \textperiodcentered\ \textsuperscript{xi}\,Deut. xxx. 2 — \emph{and shalt return unto the LORD thy God with all thine heart}\par}\\[3pt]\textsuperscript{vii}\,\textbf{Two sevens, set against each other.} \emph{A just man falleth seven times} is the measure of a day's failure; \emph{until seventy times seven} is the measure of the forgiveness asked for it. Andrewes puts them two lines apart and lets the arithmetic do the work — the second number is not merely larger, it is the first one multiplied, which is the point Christ was making to Peter.\\[1pt]\textsuperscript{i}\,⚠ \textbf{\textup{Psal. xlii. 10} is the Prayer Book's figure, not a slip.} The Authorised Version has \emph{my prayer unto the God of my life} at xlii. \textbf{8}; the BCP Psalter numbers it 10. The same verse is cited the same way at printed \textbf{433}, four hundred pages later — so the book is consistent in this, and it is further evidence that the Prayer Book Psalter was physically to hand. \textbf{Do not correct it.}}
 \clearpage
 % ---------- opening 226 | 227 ----------
 \versoalign
@@ -1335,8 +1338,8 @@
 \originals{226}{\input{fragments/gr226}}{\input{fragments/la227}}
 \clearpage
 \markright{226}
-\setnoted{}
-\enleaf{226}{\input{fragments/en226}}{}
+\setnoted{4,13,16,23,25,26,27}
+\enleafn{226}{\input{fragments/en226}}{}{{\scriptsize \textsuperscript{i}\,Ps. cxxx. 1 — \emph{out of the depths have I cried unto thee} \textperiodcentered\ \textsuperscript{ii}\,Ps. xli. 4 — \emph{heal my soul; for I have sinned against thee} \textperiodcentered\ \textsuperscript{iii}\,Ps. li. 1 — \emph{blot out mine iniquity} \textperiodcentered\ \textsuperscript{iv}\,Ps. xxv. 17 — \emph{bring thou me out of my distresses} \textperiodcentered\ \textsuperscript{v}\,Ps. xix. 12 — secret faults, and the Septuagint's \emph{strange sins} \textperiodcentered\ \textsuperscript{vi}\,Wisd. iv. 12 — \emph{the wandering of concupiscence doth undermine the simple mind} \textperiodcentered\ \textsuperscript{vii}\,Matt. xii. 36 — \emph{every idle word that men shall speak}\par}}
 \clearpage
 % ---------- opening 228 | 229 ----------
 \versoalign
@@ -1345,8 +1348,8 @@
 \originals{228}{\input{fragments/gr228}}{\input{fragments/la229}}
 \clearpage
 \markright{228}
-\setnoted{}
-\enleaf{228}{\input{fragments/en228}}{}
+\setnoted{4,8,10,18,20,24,27,28}
+\enleafn{228}{\input{fragments/en228}}{}{{\scriptsize \textsuperscript{i}\,Hos. xiii. 9 — \emph{O Israel, thou hast destroyed thyself} \textperiodcentered\ \textsuperscript{ii}\,Ps. ciii. 10 — \emph{nor rewarded us according to our iniquities} \textperiodcentered\ \textsuperscript{iii}\,Ps. lxxix. 9 — \emph{for the glory of thy name} \textperiodcentered\ \textsuperscript{iv}\,Ps. xiii. 3 — \emph{lest I sleep the sleep of death} \textperiodcentered\ \textsuperscript{v}\,Ps. xci. 6 — the Vulgate's \emph{business that walketh in darkness} \textperiodcentered\ \textsuperscript{vi}\,Ps. cxxi. 4 — \emph{he that keepeth Israel shall neither slumber nor sleep} \textperiodcentered\ \textsuperscript{vii}\,Ps. cvi. 4 — \emph{visit me with thy salvation} \textperiodcentered\ \textsuperscript{viii}\,Job xxxiii. 15 — \emph{in a dream, in a vision of the night, when deep sleep falleth upon men}\par}}
 \clearpage
 % ---------- opening 230 | 231 ----------
 \versoalign
@@ -1355,8 +1358,8 @@
 \originals{230}{\input{fragments/gr230}}{\input{fragments/la231}}
 \clearpage
 \markright{230}
-\setnoted{}
-\enleaf{230}{\input{fragments/en230}}{}
+\setnoted{9,10,22,25,27,28}
+\enleafn{230}{\input{fragments/en230}}{}{{\scriptsize \textsuperscript{i}\,Ps. xxxviii. 7 — \emph{my loins are filled with a loathsome disease} \textperiodcentered\ \textsuperscript{ii}\,Ps. xvi. 7 — \emph{my reins also instruct me in the night seasons} \textperiodcentered\ \textsuperscript{iii}\,Ps. ciii. 14 — \emph{he knoweth our frame; he remembereth that we are dust} \textperiodcentered\ \textsuperscript{iv}\,Ps. xvii. 8 — \emph{hide me under the shadow of thy wings} \textperiodcentered\ \textsuperscript{v}\,Ps. xxxii. 6 — \emph{in a time when thou mayest be found} \textperiodcentered\ \textsuperscript{vi}\,Ps. lxiii. 1 — \emph{early will I seek thee}\par}\\[3pt]\textsuperscript{vi}\,\textbf{The psalm the volume mis-numbered at printed 92 stands here correctly as \textup{lxiii. 1}} — the third page to give it right, after 106. The book's own consistency is what convicts the one page that differs.}
 \clearpage
 % ---------- opening 232 | 233 ----------
 \versoalign
@@ -1375,8 +1378,8 @@
 \originals{234}{\input{fragments/gr234}}{\input{fragments/la235}}
 \clearpage
 \markright{234}
-\setnoted{}
-\enleaf{234}{\input{fragments/en234}}{}
+\setnoted{12,15,17,18,19,20,22,26}
+\enleafn{234}{\input{fragments/en234}}{}{{\scriptsize \textsuperscript{i}\,Ps. xxxi. 5 — \emph{O LORD God of truth} \textperiodcentered\ \textsuperscript{ii}\,Gen. xxxiii. 5 — Jacob to Esau: \emph{the children which God hath graciously given} \textperiodcentered\ \textsuperscript{iii}\,Ps. cxxxix. 2 — \emph{thou knowest my downsitting and mine uprising} \textperiodcentered\ \textsuperscript{iv}\,Ps. cxxi. 8 — \emph{from this time forth, and even for evermore} \textperiodcentered\ \textsuperscript{v}\,Ps. lxiii. 6 — \emph{when I remember thee upon my bed} \textperiodcentered\ \textsuperscript{vi}\,Ps. lxxvii. 6 — \emph{my spirit made diligent search} \textperiodcentered\ \textsuperscript{vii}\,Ps. cxxxix. 18 — \emph{when I awake, I am still with thee} \textperiodcentered\ \textsuperscript{viii}\,Ps. iv. 8 — \emph{thou, LORD, only makest me dwell in safety}\par}\\[3pt]\textsuperscript{vi}\,\textbf{\textup{Ad scopandum spiritum meum} — he keeps the spade.} Ps. lxxvii. 6's \emph{my spirit made diligent search} is, in the Greek Andrewes used, a verb of digging over the ground; the evening examination is a turning of the soil, not a rummage. The same figure governs §41 in Part II, where the day's review is a \textbf{recall} of stragglers rather than a reveille. The English holds the spade in both places.}
 \clearpage
 % ---------- opening 236 | 237 ----------
 \versoalign
@@ -1405,8 +1408,8 @@
 \originals{240}{\input{fragments/gr240}}{\input{fragments/la241}}
 \clearpage
 \markright{240}
-\setnoted{}
-\enleaf{240}{\input{fragments/en240}}{}
+\setnoted{16,22,23,24,25,27,28,29,30,31,32}
+\enleafn{240}{\input{fragments/en240}}{}{{\scriptsize \textsuperscript{i}\,Rom. ix. 33 — \emph{whosoever believeth on him shall not be ashamed} \textperiodcentered\ \textsuperscript{ii}\,Acts ii. 42 — \emph{they continued stedfastly in the apostles' doctrine and fellowship} \textperiodcentered\ \textsuperscript{iii}\,Luke xxii. 19 — \emph{this do in remembrance of me} \textperiodcentered\ \textsuperscript{iv}\,1 Cor. xi. 26 — \emph{ye do shew the Lord's death till he come} \textperiodcentered\ \textsuperscript{v}\,1 Cor. x. 16 — \emph{the communion of the body of Christ} \textperiodcentered\ \textsuperscript{vi}\,Matt. xxvi. 28 — \emph{shed for many for the remission of sins} \textperiodcentered\ \textsuperscript{vii}\,1 Cor. v. 7 — \emph{Christ our passover is sacrificed for us} \textperiodcentered\ \textsuperscript{viii}\,Matt. xi. 28 — \emph{come unto me, and I will give you rest} \textperiodcentered\ \textsuperscript{ix}\,Col. ii. 14 — \emph{blotting out the handwriting of ordinances that was against us} \textperiodcentered\ \textsuperscript{x}\,Heb. ix. 14 — \emph{purge your conscience from dead works} \textperiodcentered\ \textsuperscript{xi}\,1 Pet. ii. 24 — \emph{by whose stripes ye were healed}\par}\\[3pt]\textsuperscript{ii}\,\textbf{Thirty-four names for one thing, each with its text.} From here to the foot of the next leaf Andrewes sets out what the Sacrament \emph{is} — the token of the assembly, the memorial of the dispensation, the shewing of the death, the communion of body and blood, the remission of sins, an amulet against all that is unlucky, the quiet of conscience, the cancelling of debts — and gives every name a proof. \textbf{It is a definition by accumulation}: no one of the names is the definition, and the list does not resolve into a doctrine. That is why the page can be read by anyone who holds any of the doctrines, and why it was worth an entire meditation.}
 \clearpage
 % ---------- opening 242 | 243 ----------
 \versoalign
@@ -1415,8 +1418,8 @@
 \originals{242}{\input{fragments/gr242}}{\input{fragments/la243}}
 \clearpage
 \markright{242}
-\setnoted{}
-\enleaf{242}{\input{fragments/en242}}{}
+\setnoted{1,2,4,5,6,7,8,9,11,14,16,17,18}
+\enleafn{242}{\input{fragments/en242}}{}{{\scriptsize \textsuperscript{i}\,Ps. l. 5 — \emph{those that have made a covenant with me by sacrifice} \textperiodcentered\ \textsuperscript{ii}\,John vi. 27 — \emph{the meat which endureth unto everlasting life} \textperiodcentered\ \textsuperscript{iii}\,2 Cor. vii. 9 — \emph{ye sorrowed to repentance} \textperiodcentered\ \textsuperscript{iv}\,Luke xxiv. 31 — at Emmaus, \emph{their eyes were opened, and they knew him} \textperiodcentered\ \textsuperscript{v}\,John xiii. 15 — the washing of feet: \emph{I have given you an example} \textperiodcentered\ \textsuperscript{vi}\,2 Cor. i. 22 — \emph{who hath also sealed us} \textperiodcentered\ \textsuperscript{vii}\,John vi. 35 — \emph{I am the bread of life} \textperiodcentered\ \textsuperscript{viii}\,John xiii. 35 — \emph{by this shall all men know that ye are my disciples} \textperiodcentered\ \textsuperscript{ix}\,1 Pet. iv. 1 — \emph{arm yourselves likewise with the same mind} \textperiodcentered\ \textsuperscript{x}\,John vi. 56 — \emph{dwelleth in me, and I in him} \textperiodcentered\ \textsuperscript{xi}\,1 Cor. xi. 31 — \emph{if we would judge ourselves, we should not be judged} \textperiodcentered\ \textsuperscript{xii}\,Luke xxii. 20 — \emph{this cup is the new testament in my blood} \textperiodcentered\ \textsuperscript{xiii}\,John xvii. 23 — \emph{that they may be made perfect in one}\par}}
 \clearpage
 % ---------- opening 244 | 245 ----------
 \versoalign
@@ -1425,8 +1428,8 @@
 \originals{244}{\input{fragments/gr244}}{\input{fragments/la245}}
 \clearpage
 \markright{244}
-\setnoted{}
-\enleaf{244}{\input{fragments/en244}}{}
+\setnoted{21,23,30}
+\enleafn{244}{\input{fragments/en244}}{}{{\scriptsize \textsuperscript{i}\,Eph. iii. 17 — \emph{that Christ may dwell in your hearts by faith} \textperiodcentered\ \textsuperscript{ii}\,1 Cor. vi. 19 — \emph{your body is the temple of the Holy Ghost} \textperiodcentered\ \textsuperscript{iii}\,1 Cor. xi. 27 — \emph{unworthily... guilty of the body and blood of the Lord}\par}}
 \clearpage
 % ---------- opening 246 | 247 ----------
 \versoalign
@@ -1455,8 +1458,8 @@
 \originals{250}{\input{fragments/gr250}}{\input{fragments/la251}}
 \clearpage
 \markright{250}
-\setnoted{}
-\enleaf{250}{\input{fragments/en250}}{}
+\setnoted{2,6,8,9}
+\enleafn{250}{\input{fragments/en250}}{}{{\scriptsize \textsuperscript{i}\,Mark x. 17 — the rich young ruler: \emph{what shall I do that I may inherit eternal life?} \textperiodcentered\ \textsuperscript{ii}\,Acts ii. 37 — at Pentecost: \emph{men and brethren, what shall we do?} \textperiodcentered\ \textsuperscript{iii}\,Acts xvi. 30 — the gaoler at Philippi: \emph{what must I do to be saved?} \textperiodcentered\ \textsuperscript{iv}\,Luke iii. 10 — to the Baptist, three times over: \emph{what shall we do then?}\par}\\[3pt]\textsuperscript{i}\,\textbf{Four askings of one question, and the answers differ every time.} \emph{What shall I do?} is put by the rich young ruler, by the crowd at Pentecost, by the gaoler at Philippi, and three times over to the Baptist by the people, the publicans and the soldiers — and Scripture answers \emph{keep the commandments}, \emph{repent and be baptized}, \emph{believe on the Lord Jesus}, and a different practical charge to each trade. Andrewes sets them together without reconciling them.}
 \clearpage
 \sethead{The Meditations}
 % ---------- opening 252 | 253 ----------
@@ -1467,8 +1470,8 @@
 \originals{252}{\input{fragments/gr252}}{\input{fragments/la253}}
 \clearpage
 \markright{252}
-\setnoted{}
-\enleaf{252}{\input{fragments/en252}}{}
+\setnoted{6,12,14,15,23,25}
+\enleafn{252}{\input{fragments/en252}}{}{{\scriptsize \textsuperscript{i}\,Ex. xxxiv. 6 — the Name proclaimed on Sinai \textperiodcentered\ \textsuperscript{ii}\,Josh. vii. 20 — Achan: \emph{indeed I have sinned} \textperiodcentered\ \textsuperscript{iii}\,Jas. i. 14 — \emph{drawn away of his own lust, and enticed} \textperiodcentered\ \textsuperscript{iv}\,Prov. v. 12 — \emph{how have I hated instruction!} \textperiodcentered\ \textsuperscript{v}\,Job v. 1 — \emph{to which of the saints wilt thou turn?} \textperiodcentered\ \textsuperscript{vi}\,Rom. vii. 24 — \emph{who shall deliver me from the body of this death?}\par}}
 \clearpage
 % ---------- opening 254 | 255 ----------
 \versoalign
@@ -1487,8 +1490,8 @@
 \originals{256}{\input{fragments/gr256}}{\input{fragments/la257}}
 \clearpage
 \markright{256}
-\setnoted{}
-\enleaf{256}{\input{fragments/en256}}{}
+\setnoted{14,16,17,18,20,28}
+\enleafn{256}{\input{fragments/en256}}{}{{\scriptsize \textsuperscript{i}\,2 Cor. vii. 11 — the revenge that godly sorrow works \textperiodcentered\ \textsuperscript{ii}\,Luke xxiii. 34 — \emph{they know not what they do} \textperiodcentered\ \textsuperscript{iii}\,Ps. lxxiii. 22 — \emph{so foolish was I, and ignorant} \textperiodcentered\ \textsuperscript{iv}\,1 Tim. vi. 9 — \emph{foolish and hurtful lusts, which drown men in destruction} \textperiodcentered\ \textsuperscript{v}\,Job xlii. 6 — \emph{wherefore I abhor myself} \textperiodcentered\ \textsuperscript{vi}\,Ps. xliv. 15 — \emph{the shame of my face hath covered me}\par}}
 \clearpage
 % ---------- opening 258 | 259 ----------
 \versoalign
@@ -1497,8 +1500,8 @@
 \originals{258}{\input{fragments/gr258}}{\input{fragments/la259}}
 \clearpage
 \markright{258}
-\setnoted{}
-\enleaf{258}{\input{fragments/en258}}{}
+\setnoted{1,3,5,6,9,10,11,13,15,16}
+\enleafn{258}{\input{fragments/en258}}{}{{\scriptsize \textsuperscript{i}\,Tit. iii. 11 — \emph{condemned of himself} \textperiodcentered\ \textsuperscript{ii}\,Ps. cxliii. 2 — \emph{enter not into judgment with thy servant} \textperiodcentered\ \textsuperscript{iii}\,1 Pet. v. 6 — \emph{humble yourselves under the mighty hand of God} \textperiodcentered\ \textsuperscript{iv}\,Eph. iii. 14 — \emph{I bow my knees unto the Father} \textperiodcentered\ \textsuperscript{v}\,Matt. xxvi. 39 — in the garden: \emph{let this cup pass from me} \textperiodcentered\ \textsuperscript{vi}\,Ps. cxliii. 6 — \emph{I stretch forth my hands unto thee} \textperiodcentered\ \textsuperscript{vii}\,Luke xviii. 13 — the publican smote upon his breast; Jer. xxxi. 19 — Ephraim smote upon his thigh \textperiodcentered\ \textsuperscript{viii}\,Ps. cxxx. 1 — \emph{out of the depths have I cried} \textperiodcentered\ \textsuperscript{ix}\,Ps. xxxv. 10 — \emph{all my bones shall say, LORD, who is like unto thee?} \textperiodcentered\ \textsuperscript{x}\,Ps. ciii. 1 — \emph{all that is within me, bless his holy name}\par}\\[3pt]\textsuperscript{vii}\,\textbf{Two men striking themselves, and Andrewes takes both.} The publican in the Gospel \emph{smote upon his breast}; Ephraim in Jeremiah \emph{smote upon my thigh}. The brace on the page offers the reader either, and the two references stand side by side because neither gesture is the right one — the point is that repentance has a body, and Scripture shows it more than one way to move.}
 \clearpage
 % ---------- opening 260 | 261 ----------
 \versoalign
@@ -1507,8 +1510,8 @@
 \originals{260}{\input{fragments/gr260}}{\input{fragments/la261}}
 \clearpage
 \markright{260}
-\setnoted{}
-\enleaf{260}{\input{fragments/en260}}{}
+\setnoted{3,4,6,7,9,10,13,14,15,16,18,21,24}
+\enleafn{260}{\input{fragments/en260}}{}{{\scriptsize \textsuperscript{i}\,Ps. vi. 2 — \emph{have mercy upon me, O LORD; for I am weak} \textperiodcentered\ \textsuperscript{iii}\,Ps. lxxviii. 39 — \emph{a wind that passeth away, and cometh not again} \textperiodcentered\ \textsuperscript{iv}\,Isa. xl. 6 — \emph{all flesh is grass} \textperiodcentered\ \textsuperscript{v}\,Ps. ciii. 16 — \emph{the place thereof shall know it no more} \textperiodcentered\ \textsuperscript{vi}\,Gen. xviii. 27 — Abraham pleading for Sodom: \emph{I am but dust and ashes} \textperiodcentered\ \textsuperscript{vii}\,Job xvii. 14 — \emph{I have said to corruption, Thou art my father} \textperiodcentered\ \textsuperscript{viii}\,Ps. xxxix. 12 — \emph{I am a stranger with thee, and a sojourner} \textperiodcentered\ \textsuperscript{ix}\,Job iv. 19 — \emph{them that dwell in houses of clay} \textperiodcentered\ \textsuperscript{x}\,Gen. xlvii. 9 — Jacob before Pharaoh: \emph{few and evil have the days of the years of my life been} \textperiodcentered\ \textsuperscript{xi}\,Isa. xxxviii. 13 — Hezekiah: \emph{from morning even to night wilt thou make an end of me} \textperiodcentered\ \textsuperscript{xii}\,Job xiv. 1 — \emph{of few days, and full of trouble} \textperiodcentered\ \textsuperscript{xiii}\,Ps. lxxiv. 18 — \emph{remember this, that the enemy hath reproached}\par}\\[3pt]\textsuperscript{ii}\,⚠ \textbf{The same clause, two verse-numbers, three hundred pages apart.} \emph{Memorare quæ mea substantia} is referred here to \textup{Psal. lxxxix. 47} and at printed \textbf{35} to \textup{lxxxix. 46}. The Authorised Version has it at \textbf{47}, so the earlier page is the one that slipped. \textbf{Both kept as printed} — this is the seventh place where the volume settles one of its own references by citing it correctly elsewhere.}
 \clearpage
 % ---------- opening 262 | 263 ----------
 \versoalign
@@ -1517,8 +1520,8 @@
 \originals{262}{\input{fragments/gr262}}{\input{fragments/la263}}
 \clearpage
 \markright{262}
-\setnoted{}
-\enleaf{262}{\input{fragments/en262}}{}
+\setnoted{1,2,3,6,7,8,10,16}
+\enleafn{262}{\input{fragments/en262}}{}{{\scriptsize \textsuperscript{i}\,Ps. xxx. 9 — \emph{what profit is there in my blood, when I go down to the pit?} \textperiodcentered\ \textsuperscript{ii}\,Ps. li. 1 — \emph{according to the multitude of thy tender mercies} \textperiodcentered\ \textsuperscript{iii}\,Eph. i. 7 — \emph{the riches of his grace}; Eph. i. 8 — \emph{wherein he hath abounded toward us} \textperiodcentered\ \textsuperscript{iv}\,Dan. ix. 19 — \emph{defer not, for thine own sake, O my God} \textperiodcentered\ \textsuperscript{v}\,John xiv. 13 — \emph{whatsoever ye shall ask in my name} \textperiodcentered\ \textsuperscript{vi}\,1 Tim. i. 15 — \emph{of whom I am chief} \textperiodcentered\ \textsuperscript{vii}\,Jas. ii. 13 — \emph{mercy rejoiceth against judgment} \textperiodcentered\ \textsuperscript{viii}\,Dan. ix. 19 — the same verse closing the Meditation as it opened the plea\par}}
 \clearpage
 \parthead{Part II --- Preces Quotidianae}
 \sethead{§1 \emph{Duo in me cognosco}}
@@ -1530,8 +1533,8 @@
 \originalsone{267}{\input{fragments/la267}}{}
 \clearpage
 \markright{267}
-\setnoted{}
-\enleaf{267}{\input{fragments/en267}}{}
+\setnoted{6}
+\enleafn{267}{\input{fragments/en267}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxxviii. 39 — \emph{a wind that passeth away, and cometh not again}\par}}
 \clearpage
 % ---------- printed 268 ----------
 \versoalign
@@ -1562,8 +1565,8 @@
 \originalsone{270}{\input{fragments/la270}}{}
 \clearpage
 \markright{270}
-\setnoted{}
-\enleaf{270}{\input{fragments/en270}}{}
+\setnoted{2,5,7,9,11,21,23}
+\enleafn{270}{\input{fragments/en270}}{}{{\scriptsize \textsuperscript{i}\,Ps. lxv. 2 — \emph{O thou that hearest prayer, unto thee shall all flesh come} \textperiodcentered\ \textsuperscript{ii}\,Ps. lv. 17 — \emph{evening, and morning, and at noon, will I pray} \textperiodcentered\ \textsuperscript{iii}\,Ps. v. 3 — \emph{my voice shalt thou hear in the morning} \textperiodcentered\ \textsuperscript{iv}\,Ps. cxli. 2 — \emph{let my prayer be set forth before thee as incense} \textperiodcentered\ \textsuperscript{v}\,Ps. lxiii. 7 — \emph{because thou hast been my help} \textperiodcentered\ \textsuperscript{vi}\,Ps. cxxiii. 2 — \emph{until that he have mercy upon us} \textperiodcentered\ \textsuperscript{vii}\,Ps. cxix. 132 — \emph{as thou usest to do unto those that love thy name}\par}}
 \clearpage
 % ---------- printed 271 ----------
 \versoalign
@@ -1572,8 +1575,8 @@
 \originalsone{271}{\input{fragments/la271}}{}
 \clearpage
 \markright{271}
-\setnoted{}
-\enleaf{271}{\input{fragments/en271}}{}
+\setnoted{2,4,6,8,15,16,17,20,24,26,28}
+\enleafn{271}{\input{fragments/en271}}{}{{\scriptsize \textsuperscript{i}\,Ps. xci. 11 — \emph{he shall give his angels charge over thee} \textperiodcentered\ \textsuperscript{ii}\,Ps. xxv. 4 — \emph{teach me thy paths} \textperiodcentered\ \textsuperscript{iii}\,Ps. cxix. 133 — \emph{let not any iniquity have dominion over me} \textperiodcentered\ \textsuperscript{iv}\,Ps. xvii. 5 — \emph{that my footsteps slip not} \textperiodcentered\ \textsuperscript{v}\,Tit. iii. 4 — the Greek word Andrewes keeps, φιλάνθρωπε, \emph{the love of God toward man} \textperiodcentered\ \textsuperscript{vi}\,Jas. v. 11 — πολυεύσπλαγχνος, \emph{the Lord is very pitiful} \textperiodcentered\ \textsuperscript{vii}\,2 Cor. i. 3 — \emph{the Father of mercies} \textperiodcentered\ \textsuperscript{viii}\,Luke xv. 19 — the prodigal: \emph{no more worthy to be called thy son} \textperiodcentered\ \textsuperscript{ix}\,Mark ix. 24 — \emph{help thou mine unbelief} — here made \emph{help thou mine impenitence} \textperiodcentered\ \textsuperscript{x}\,Luke i. 78 — \emph{through the tender mercy of our God} \textperiodcentered\ \textsuperscript{xi}\,Eph. i. 7 — \emph{according to the riches of his grace}\par}\\[3pt]\textsuperscript{ix}\,\textbf{He alters the verse as he prays it, and the alteration is the petition.} The father in Mark cries \emph{help thou mine unbelief}; Andrewes writes \emph{adjuva Tu impœnitentiam meam} — help thou mine \textbf{impenitence}. The substitution is deliberate and is not a misquotation: what he wants help against is not doubt but hardness. The English keeps his word and the note keeps the Gospel's, because the reader needs to hear both to hear either.}
 \clearpage
 % ---------- printed 272 ----------
 \versoalign
@@ -1582,8 +1585,8 @@
 \originalsone{272}{\input{fragments/la272}}{}
 \clearpage
 \markright{272}
-\setnoted{}
-\enleaf{272}{\input{fragments/en272}}{}
+\setnoted{3,4,5,6,8,9,10,14,17,18}
+\enleafn{272}{\input{fragments/en272}}{}{{\scriptsize \textsuperscript{i}\,Eph. ii. 4 — \emph{for his great love wherewith he loved us} \textperiodcentered\ \textsuperscript{ii}\,Luke xviii. 13 — \emph{God be merciful to me a sinner} \textperiodcentered\ \textsuperscript{iii}\,1 Tim. i. 15 — \emph{of whom I am chief} \textperiodcentered\ \textsuperscript{iv}\,Ps. xlii. 7 — \emph{deep calleth unto deep} \textperiodcentered\ \textsuperscript{v}\,Rom. v. 20 — \emph{where sin abounded, grace did much more abound} \textperiodcentered\ \textsuperscript{vi}\,Rom. xii. 21 — \emph{overcome evil with good} \textperiodcentered\ \textsuperscript{vii}\,Jas. ii. 13 — \emph{mercy rejoiceth against judgment} \textperiodcentered\ \textsuperscript{viii}\,Matt. xvi. 16 — \emph{thou art the Christ, the Son of the living God} \textperiodcentered\ \textsuperscript{ix}\,John i. 29 — \emph{behold the Lamb of God, which taketh away the sin of the world} \textperiodcentered\ \textsuperscript{x}\,Luke xix. 10 — \emph{to seek and to save that which was lost}\par}\\[3pt]\textsuperscript{v}\,\textbf{\textup{Rom. v. 20} again, and cited right.} This is the third page to give the verse correctly — with printed 103 and 111's own facing evidence — against the \textup{Rom. v. 2} at printed 111. ⚠ And note what he does with it: the Vulgate's indicative \emph{superabundavit gratia}, grace \textbf{did} abound, becomes the subjunctive \emph{superabundet}, let it abound. He turns a statement of what happened into a request that it happen again.}
 \clearpage
 \sethead{§3 \emph{Intercessio}}
 % ---------- printed 273 ----------
@@ -1594,8 +1597,8 @@
 \originalsone{273}{\input{fragments/la273}}{}
 \clearpage
 \markright{273}
-\setnoted{}
-\enleaf{273}{\input{fragments/en273}}{}
+\setnoted{6,18,20}
+\enleafn{273}{\input{fragments/en273}}{}{{\scriptsize \textsuperscript{i}\,Tit. i. 5 — \emph{set in order the things that are wanting} \textperiodcentered\ \textsuperscript{ii}\,2 Tim. ii. 15 — ὀρθοτομεῖν, \emph{rightly dividing}; Gal. ii. 14 — \emph{walked not uprightly} \textperiodcentered\ \textsuperscript{iii}\,Rom. xii. 3 — \emph{not to think of himself more highly than he ought}\par}}
 \clearpage
 % ---------- printed 274 ----------
 \versoalign
@@ -1604,8 +1607,8 @@
 \originalsone{274}{\input{fragments/la274}}{}
 \clearpage
 \markright{274}
-\setnoted{}
-\enleaf{274}{\input{fragments/en274}}{}
+\setnoted{6,23,25,26}
+\enleafn{274}{\input{fragments/en274}}{}{{\scriptsize \textsuperscript{i}\,Ps. cxviii. 25 — \emph{save now, I beseech thee} — the Hosanna, which the page also sets in Hebrew \textperiodcentered\ \textsuperscript{ii}\,Ps. lxxix. 12 — \emph{render unto our neighbours sevenfold into their bosom} \textperiodcentered\ \textsuperscript{iii}\,Ps. xxv. 13 — \emph{his seed shall inherit the earth} \textperiodcentered\ \textsuperscript{iv}\,Ps. xli. 1 — \emph{blessed is he that considereth the poor}\par}\\[3pt]\textsuperscript{i}\,\textbf{The Hosanna stands here in Hebrew on the printed page} — \textup{\RL{הצליחה נא}}, \emph{hoshi'ah-na}, Ps. cxviii. 25 — one of the few places the 1853 let Andrewes' third script through. It is the cry the crowds took up on Palm Sunday, and he uses it as the hinge of the intercession: the word is a petition (\emph{save now}) before it is an acclamation.}
 \clearpage
 % ---------- printed 275 ----------
 \versoalign
@@ -1626,8 +1629,8 @@
 \originalsone{276}{\input{fragments/la276}}{}
 \clearpage
 \markright{276}
-\setnoted{}
-\enleaf{276}{\input{fragments/en276}}{}
+\setnoted{5,7,8,11,13,16,17,19,20,22,24,26}
+\enleafn{276}{\input{fragments/en276}}{}{{\scriptsize \textsuperscript{i}\,Rom. iv. 17 — \emph{calleth those things which be not as though they were} \textperiodcentered\ \textsuperscript{ii}\,Col. i. 16 — \emph{visible and invisible} \textperiodcentered\ \textsuperscript{iii}\,Heb. i. 3 — \emph{upholding all things by the word of his power} \textperiodcentered\ \textsuperscript{iv}\,Acts xiv. 17 — \emph{filling our hearts with food and gladness} \textperiodcentered\ \textsuperscript{v}\,Ps. cxix. 91 — \emph{for all are thy servants} \textperiodcentered\ \textsuperscript{vi}\,Gen. ii. 7 — \emph{the breath of life} \textperiodcentered\ \textsuperscript{vii}\,Gen. i. 26 — \emph{in our image, after our likeness} \textperiodcentered\ \textsuperscript{viii}\,Ps. viii. 6 — \emph{thou madest him to have dominion} \textperiodcentered\ \textsuperscript{ix}\,Gen. ii. 15 — \emph{and put him into the garden of Eden} \textperiodcentered\ \textsuperscript{x}\,Acts xi. 18 — \emph{granted repentance unto life} \textperiodcentered\ \textsuperscript{xi}\,Gen. iii. 15 — the promised seed; 2 Pet. i. 4 — \emph{partakers of the divine nature} \textperiodcentered\ \textsuperscript{xii}\,Rom. i. 19 — \emph{that which may be known of God}\par}}
 \clearpage
 % ---------- printed 277 ----------
 \versoalign
@@ -1636,8 +1639,8 @@
 \originalsone{277}{\input{fragments/la277}}{}
 \clearpage
 \markright{277}
-\setnoted{}
-\enleaf{277}{\input{fragments/en277}}{}
+\setnoted{3,5,7,10,13,15,16,17,21,23,28}
+\enleafn{277}{\input{fragments/en277}}{}{{\scriptsize \textsuperscript{i}\,Gal. iv. 4 — \emph{when the fulness of the time was come} \textperiodcentered\ \textsuperscript{ii}\,Heb. ii. 16 — \emph{he took on him the seed of Abraham} \textperiodcentered\ \textsuperscript{iii}\,Phil. ii. 7 — \emph{took upon him the form of a servant} \textperiodcentered\ \textsuperscript{iv}\,Eph. v. 2 — \emph{an offering and a sacrifice to God} \textperiodcentered\ \textsuperscript{v}\,Gal. iii. 13 — \emph{made a curse for us} \textperiodcentered\ \textsuperscript{vi}\,Isa. v. 4 — the vineyard: \emph{what could have been done more?} \textperiodcentered\ \textsuperscript{vii}\,2 Pet. i. 4 — \emph{partakers of the divine nature} \textperiodcentered\ \textsuperscript{viii}\,2 Cor. ii. 14 — \emph{the savour of his knowledge} \textperiodcentered\ \textsuperscript{ix}\,1 Pet. iii. 2 — \emph{your chaste conversation coupled with fear} \textperiodcentered\ \textsuperscript{x}\,Heb. xi. 37 — of those who suffered \emph{even unto blood} \textperiodcentered\ \textsuperscript{xi}\,Heb. ix. 15 — \emph{they which are called might receive the promise}\par}\\[3pt]\textsuperscript{vi}\,⚠ \textbf{Isaiah's question is asked of Christ, not of Israel.} \emph{What could have been done more to my vineyard, that I have not done in it?} is God's complaint against a people that yielded wild grapes; Andrewes turns it into praise — \emph{nihil non faciens quo facto opus erat}, leaving nothing undone that needed doing. \textbf{The reproach becomes a commendation} by changing who is speaking of whom, and that inversion is the sort of thing his method does constantly.}
 \clearpage
 % ---------- printed 278 ----------
 \versoalign
@@ -1646,8 +1649,8 @@
 \originalsone{278}{\input{fragments/la278}}{}
 \clearpage
 \markright{278}
-\setnoted{}
-\enleaf{278}{\input{fragments/en278}}{}
+\setnoted{1,3,4,6,7,9,17,19,21,26,28,30}
+\enleafn{278}{\input{fragments/en278}}{}{{\scriptsize \textsuperscript{i}\,1 Tim. iii. 15 — \emph{the pillar and ground of the truth} \textperiodcentered\ \textsuperscript{ii}\,Matt. xvi. 18 — \emph{the gates of hell shall not prevail against it} \textperiodcentered\ \textsuperscript{iii}\,1 Tim. vi. 20 — \emph{keep that which is committed to thy trust} \textperiodcentered\ \textsuperscript{iv}\,Col. ii. 5 — \emph{your order, and the stedfastness of your faith} \textperiodcentered\ \textsuperscript{v}\,2 Sam. vii. 13 — \emph{I will stablish the throne of his kingdom for ever} \textperiodcentered\ \textsuperscript{vi}\,Ps. cxlvii. 14 — \emph{filleth thee with the finest of the wheat} \textperiodcentered\ \textsuperscript{vii}\,Ps. cv. 22 — \emph{and teach his senators wisdom} \textperiodcentered\ \textsuperscript{viii}\,Jer. iii. 15 — \emph{pastors which shall feed you with knowledge and understanding} \textperiodcentered\ \textsuperscript{ix}\,Isa. ii. 4 — \emph{their spears into pruninghooks} \textperiodcentered\ \textsuperscript{x}\,Tit. iii. 5 — \emph{the renewing of the Holy Ghost} \textperiodcentered\ \textsuperscript{xi}\,Wisd. xi. 23 — \emph{thou winkest at the sins of men, because they should amend} \textperiodcentered\ \textsuperscript{xii}\,Isa. xxx. 18 — \emph{therefore will the LORD wait, that he may be gracious unto you}\par}}
 \clearpage
 % ---------- printed 279 ----------
 \versoalign

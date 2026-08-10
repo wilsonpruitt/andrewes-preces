@@ -890,3 +890,96 @@ S: 7 John xiv. 13 — *whatsoever ye shall ask in my name*
 S: 8 1 Tim. i. 15 — *of whom I am chief*
 S: 10 Jas. ii. 13 — *mercy rejoiceth against judgment*
 S: 16 Dan. ix. 19 — the same verse closing the Meditation as it opened the plea
+
+## 267
+S: 6 Ps. lxxviii. 39 — *a wind that passeth away, and cometh not again*
+
+## 270
+S: 2 Ps. lxv. 2 — *O thou that hearest prayer, unto thee shall all flesh come*
+S: 5 Ps. lv. 17 — *evening, and morning, and at noon, will I pray*
+S: 7 Ps. v. 3 — *my voice shalt thou hear in the morning*
+S: 9 Ps. cxli. 2 — *let my prayer be set forth before thee as incense*
+S: 11 Ps. lxiii. 7 — *because thou hast been my help*
+S: 21 Ps. cxxiii. 2 — *until that he have mercy upon us*
+S: 23 Ps. cxix. 132 — *as thou usest to do unto those that love thy name*
+
+## 271
+S: 2 Ps. xci. 11 — *he shall give his angels charge over thee*
+S: 4 Ps. xxv. 4 — *teach me thy paths*
+S: 6 Ps. cxix. 133 — *let not any iniquity have dominion over me*
+S: 8 Ps. xvii. 5 — *that my footsteps slip not*
+S: 15 Tit. iii. 4 — the Greek word Andrewes keeps, φιλάνθρωπε, *the love of God toward man*
+S: 16 Jas. v. 11 — πολυεύσπλαγχνος, *the Lord is very pitiful*
+S: 17 2 Cor. i. 3 — *the Father of mercies*
+S: 20 Luke xv. 19 — the prodigal: *no more worthy to be called thy son*
+S: 24 Mark ix. 24 — *help thou mine unbelief* — here made *help thou mine impenitence*
+S: 26 Luke i. 78 — *through the tender mercy of our God*
+S: 28 Eph. i. 7 — *according to the riches of his grace*
+R: 24 **He alters the verse as he prays it, and the alteration is the petition.** The father in Mark cries *help thou mine unbelief*; Andrewes writes *adjuva Tu impœnitentiam meam* — help thou mine **impenitence**. The substitution is deliberate and is not a misquotation: what he wants help against is not doubt but hardness. The English keeps his word and the note keeps the Gospel's, because the reader needs to hear both to hear either.
+
+## 272
+S: 3 Eph. ii. 4 — *for his great love wherewith he loved us*
+S: 4 Luke xviii. 13 — *God be merciful to me a sinner*
+S: 5 1 Tim. i. 15 — *of whom I am chief*
+S: 6 Ps. xlii. 7 — *deep calleth unto deep*
+S: 8 Rom. v. 20 — *where sin abounded, grace did much more abound*
+S: 9 Rom. xii. 21 — *overcome evil with good*
+S: 10 Jas. ii. 13 — *mercy rejoiceth against judgment*
+S: 14 Matt. xvi. 16 — *thou art the Christ, the Son of the living God*
+S: 17 John i. 29 — *behold the Lamb of God, which taketh away the sin of the world*
+S: 18 Luke xix. 10 — *to seek and to save that which was lost*
+R: 8 **`Rom. v. 20` again, and cited right.** This is the third page to give the verse correctly — with printed 103 and 111's own facing evidence — against the `Rom. v. 2` at printed 111. ⚠ And note what he does with it: the Vulgate's indicative *superabundavit gratia*, grace **did** abound, becomes the subjunctive *superabundet*, let it abound. He turns a statement of what happened into a request that it happen again.
+
+## 273
+S: 6 Tit. i. 5 — *set in order the things that are wanting*
+S: 18 2 Tim. ii. 15 — ὀρθοτομεῖν, *rightly dividing*; Gal. ii. 14 — *walked not uprightly*
+S: 20 Rom. xii. 3 — *not to think of himself more highly than he ought*
+
+## 274
+S: 6 Ps. cxviii. 25 — *save now, I beseech thee* — the Hosanna, which the page also sets in Hebrew
+S: 23 Ps. lxxix. 12 — *render unto our neighbours sevenfold into their bosom*
+S: 25 Ps. xxv. 13 — *his seed shall inherit the earth*
+S: 26 Ps. xli. 1 — *blessed is he that considereth the poor*
+R: 6 **The Hosanna stands here in Hebrew on the printed page** — `הצליחה נא`, *hoshi'ah-na*, Ps. cxviii. 25 — one of the few places the 1853 let Andrewes' third script through. It is the cry the crowds took up on Palm Sunday, and he uses it as the hinge of the intercession: the word is a petition (*save now*) before it is an acclamation.
+
+## 276
+S: 5 Rom. iv. 17 — *calleth those things which be not as though they were*
+S: 7 Col. i. 16 — *visible and invisible*
+S: 8 Heb. i. 3 — *upholding all things by the word of his power*
+S: 11 Acts xiv. 17 — *filling our hearts with food and gladness*
+S: 13 Ps. cxix. 91 — *for all are thy servants*
+S: 16 Gen. ii. 7 — *the breath of life*
+S: 17 Gen. i. 26 — *in our image, after our likeness*
+S: 19 Ps. viii. 6 — *thou madest him to have dominion*
+S: 20 Gen. ii. 15 — *and put him into the garden of Eden*
+S: 22 Acts xi. 18 — *granted repentance unto life*
+S: 24 Gen. iii. 15 — the promised seed; 2 Pet. i. 4 — *partakers of the divine nature*
+S: 26 Rom. i. 19 — *that which may be known of God*
+
+## 277
+S: 3 Gal. iv. 4 — *when the fulness of the time was come*
+S: 5 Heb. ii. 16 — *he took on him the seed of Abraham*
+S: 7 Phil. ii. 7 — *took upon him the form of a servant*
+S: 10 Eph. v. 2 — *an offering and a sacrifice to God*
+S: 13 Gal. iii. 13 — *made a curse for us*
+S: 15 Isa. v. 4 — the vineyard: *what could have been done more?*
+S: 16 2 Pet. i. 4 — *partakers of the divine nature*
+S: 17 2 Cor. ii. 14 — *the savour of his knowledge*
+S: 21 1 Pet. iii. 2 — *your chaste conversation coupled with fear*
+S: 23 Heb. xi. 37 — of those who suffered *even unto blood*
+S: 28 Heb. ix. 15 — *they which are called might receive the promise*
+R: 15 ⚠ **Isaiah's question is asked of Christ, not of Israel.** *What could have been done more to my vineyard, that I have not done in it?* is God's complaint against a people that yielded wild grapes; Andrewes turns it into praise — *nihil non faciens quo facto opus erat*, leaving nothing undone that needed doing. **The reproach becomes a commendation** by changing who is speaking of whom, and that inversion is the sort of thing his method does constantly.
+
+## 278
+S: 1 1 Tim. iii. 15 — *the pillar and ground of the truth*
+S: 3 Matt. xvi. 18 — *the gates of hell shall not prevail against it*
+S: 4 1 Tim. vi. 20 — *keep that which is committed to thy trust*
+S: 6 Col. ii. 5 — *your order, and the stedfastness of your faith*
+S: 7 2 Sam. vii. 13 — *I will stablish the throne of his kingdom for ever*
+S: 9 Ps. cxlvii. 14 — *filleth thee with the finest of the wheat*
+S: 17 Ps. cv. 22 — *and teach his senators wisdom*
+S: 19 Jer. iii. 15 — *pastors which shall feed you with knowledge and understanding*
+S: 21 Isa. ii. 4 — *their spears into pruninghooks*
+S: 26 Tit. iii. 5 — *the renewing of the Holy Ghost*
+S: 28 Wisd. xi. 23 — *thou winkest at the sins of men, because they should amend*
+S: 30 Isa. xxx. 18 — *therefore will the LORD wait, that he may be gracious unto you*
