@@ -1603,3 +1603,17 @@ R: 18 **The ladder of help begins with the words every hour of the Office begins
 S: 24 Isa. xxxvii. 17 — Hezekiah spreading the letter before the LORD: *open thine eyes, and see*
 S: 27 Job xxxvi. 10 — Elihu: *he openeth also their ear to discipline*
 S: 29 Neh. vi. 9 — Nehemiah at the wall: *strengthen my hands*
+
+## 331
+S: 2 Ps. xxvi. 2 — the Vulgate's *ure renes meos*, burn my reins, where the AV has *try*
+R: 2 ⚠ **Four of these petitions ask to be hurt, and the Latin Bible is why.** *Ure renes*, burn my reins, is the Vulgate where the AV has *try my reins*; *Confige carnes*, nail my flesh with thy fear, is the Vulgate where the AV has *my flesh trembleth*. **The English Bible has an examination in both places and the Latin has a wound** — and the ladder goes on in the Latin's key, the bit and bridle, the hedge of thorns.
+S: 3 Ps. cxix. 120 — the Vulgate's *nail my flesh with thy fear*, for the AV's *my flesh trembleth*
+S: 5 Ps. xxxii. 9 — *whose mouth must be held in with bit and bridle*
+S: 7 2 Pet. ii. 22 — *the dog is turned to his own vomit again*
+S: 8 1 Cor. x. 13 — *there hath no temptation taken you but such as is common to man*
+S: 15 Gen. iv. 7 — to Cain, before the murder: *sin lieth at the door*
+R: 15 ⚠ **The soul's rest is quarried out of the covenant curses, and the texts stand in canonical order.** Genesis, Exodus, Leviticus, Deuteronomy, the Psalter — sin at the door, the ten righteous, the mount where the Lord provides, the Name proclaimed in the cleft of the rock, then the two threatening chapters. **Leviticus xxvi and Deuteronomy xxx are curse-chapters**, and what he takes from them is the clause at the end of each: *until they confess*, *then shall they pray*, *I will remember my covenant*, *he will circumcise thine heart*.
+S: 17 Gen. xxii. 14 — Abraham naming the place: *in the mount of the LORD it shall be seen*
+S: 21 Exod. xxxiv. 6, 7 — the Name proclaimed to Moses in the cleft of the rock
+S: 22 Lev. xxvi. 29 — the covenant curses, and the promise of return hidden in them
+S: 28 Deut. xxx. 1, 2, 3, 6 — the restoration clause: *the LORD thy God will circumcise thine heart*
