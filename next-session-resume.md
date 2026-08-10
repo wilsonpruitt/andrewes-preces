@@ -619,7 +619,7 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 - ⚠ **printed 156 — a THIRD instance of the pronoun pattern and the sharpest**: Ps. lxxxv. 4 is *Converte **nos***; the plate sets *Converte **me*** and **leaves *noster* and *a nobis* plural around it.** He puts himself alone under the verb of turning and leaves the congregation in possession of the mercy.
 - **printed 132 — Daniel ix. 5–19 whole and in order**, where Part II quarries it out of order (ix. 19 at 339, ix. 16 at 343). **Neither conformed to the other.**
 
-**NEXT: printed 352.** 106 pages remain. Build 619 pages, 0 TeX errors, 0 of 595 units too tall.
+**NEXT: printed 355.** 106 pages remain. Build 619 pages, 0 TeX errors, 0 of 595 units too tall.
 
 
 ## 2026-08-10 (cont.) — printed 348–351: the scheme, and the prayer said in other men's words
@@ -631,4 +631,23 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 
 ⚠ **Two S tags were repaired this session for a reason worth remembering: a combined figure (`2 Cor. i. 4, 5`, `Eph. iii. 20, 21`) HIDES the second verse from `check_notes`.** Name each verse separately.
 
-**NEXT: printed 352.**
+**NEXT: printed 355.**
+
+
+## 2026-08-10 (cont.) — printed 352–354, and a watch item that dissolved
+
+⚠⚠⚠ **§26 *Oratio Dominica Variata* is now fully in view, and it is one of the volume's great structures: SIX SETS OF SEVEN, the Lord's Prayer said over and over in other men's words, never once in Andrewes' own.** ⚠ **The later sets are each quarried from ONE region of Scripture** — **IV** the Psalms, **V** Proverbs, **VI** the Prophets — where the first three range across the histories. **The prayer is said through the whole Bible, a region at a time.**
+
+⚠⚠ **THE FOURTH PETITION IS NEVER SIMPLY ASKED, and the arc runs over three leaves.** 351 builds daily bread out of **Job's self-curse negated** (*let thistles grow instead of wheat* → *pro tritico **ne** proveniat urtica*); 352 out of **the words that refuse bread** (*man shall not live by bread alone*, Christ to the tempter); 353 reaches **Agur's** *feed me with food convenient for me*, **the one place in Scripture where a man asks for exactly daily bread. The plain sense comes last.**
+
+- **352 — the first petition is a thing ENGRAVED, not said**: *Sanctitas Domino* is the inscription on the golden plate of the high priest's mitre, and the two that follow keep the priestly setting (royal priesthood; in and out by the door).
+- **353 — Prov. xix. 21 turned into the third petition, borrowing the Pater Noster's own verb**: *let thy counsel stand, **et fiat***. ⚠ And `*Psal.* xli. 5` is a **SECOND instance of the hybrid numbering** first seen at 344 — the Vulgate's verse-figure under the Hebrew psalm-number.
+- **354 — set VI is the harshest thing in the section**: *thy kingdom come* asked as *let all the nations and kings perish that serve not thy kingdom*. **Nothing earlier is spoken in that voice and the page does not soften it.** ⚠ Isa. lxiv. 9 is used here and **also at printed 109** — never conform the two. ⚠⚠ §27 opens with **a five-pair key to the draught of fishes** (world/sea, men/fishes, Church/boat, preacher/fisherman, Word/net) — **the plainest statement in the volume of how Andrewes reads a miracle, and a table that IS read across**, unlike 347's.
+
+## ✅✅ WATCH ITEM DISSOLVED — printed 353's V. 7 was never defective
+
+The line that "broke off mid-word at *omnia m*" reads entire on the Toronto scan (leaf 0393, signature `Z Z`): ***amoveantur a domibus nostris omnia mala. [Prov. xvii. 11. 13.]*** Both layers restored, brackets struck.
+
+⚠⚠⚠ **AND THE REASON IT WAS BELIEVED IS THE LESSON: our note said "confirmed a PLATE defect against the OCR" — but the OCR is generated FROM THAT SAME GOOGLE SCAN.** Two views of one bad source agreed and were taken for corroboration. **This is now the THIRD time in one session (239, 210, 353) that a defect laid to the plate turned out to be the camera.** `_djvu.txt` **cannot be an independent witness to its own imaging**; only a different scan can settle plate-versus-camera. Recorded in `SOURCE-IMAGES.md`. (The bracketed conjecture had been exactly right — a fact about that conjecture, not a defence of the method.)
+
+**NEXT: printed 355.**

@@ -1844,3 +1844,16 @@ S: 15 Prov. viii. 15 — *by me kings reign*; Prov. xxi. 1 — *the king's heart
 R: 17 ⚠ **Prov. xix. 21 turned into the third petition, borrowing the Pater Noster's own verb.** The proverb states a fact — *there are many devices in a man's heart; nevertheless the counsel of the LORD, that shall stand* — and the page asks it: *let there not be many devices in our hearts; but let thy counsel stand, **et fiat***. **`Fiat` is the word of *thy will be done*, imported into the proverb standing in for it.**
 S: 21 Prov. xxx. 7 — **Agur**: *two things have I required of thee; deny me them not before I die*; Prov. xxx. 8 — *give me neither poverty nor riches; feed me with food convenient for me*
 S: 25 Prov. xx. 9 — *who can say, I have made my heart clean?*; Ps. xli. 5 — the plate's figure, which is ⚠ **the Vulgate's verse-number under the Hebrew psalm-number**: the AV and the Prayer Book have it at xli. 4, *heal my soul; for I have sinned against thee*. **Second page to show that hybrid**, after printed 344.
+
+## 354
+R: 2 ⚠⚠ **The later sets are each quarried from ONE region of Scripture, and set VI completes the sweep** — **IV** the Psalms, **V** Proverbs, **VI** the Prophets, where the first three ranged. **The Lord's Prayer is said through the whole Bible, a region at a time.** ⚠⚠ **And set VI is the harshest**: *thy kingdom come* is asked as *let all the nations and kings perish that serve not thy kingdom*. **Nothing earlier is spoken in that voice, and the page does not soften it.**
+S: 3 Rom. ii. 24 — *the name of God is blasphemed among the Gentiles through you*
+S: 5 Isa. lx. 12 — *the nation and kingdom that will not serve thee shall perish; yea, those nations shall be utterly wasted*
+S: 7 Isa. xlvi. 10 — *my counsel shall stand, and I will do all my pleasure*
+S: 9 Isa. lv. 10 — *that it may give seed to the sower, and bread to the eater*. ⚠ **`Baculum panis`, the STAFF of bread, is not in that verse** — it is the prophets' phrase for the staff that is broken in famine, brought in here to ask that it be given.
+S: 12 Isa. lxiv. 9 — *be not wroth very sore, O LORD, neither remember iniquity for ever: behold, see, we beseech thee, we are all thy people.* ⚠ **The volume has used this verse once already, at printed 109**, in the confession — **here it is the fifth petition. Never conform the two places.**
+S: 14 Ezek. xiv. 4 — *that putteth the stumblingblock of his iniquity before his face*
+S: 17 Luke v. 5 — Peter at the draught of fishes: *Master, we have toiled all the night, and have taken nothing*
+R: 18 ⚠⚠ **A new section opens with a key, the plainest statement in the volume of how Andrewes reads a miracle.** Five pairs read across: the world is the sea, men the fishes, the Church the boat, the preacher the fisherman, the Word the net. **The draught of fishes set out as a working diagram for a man about to preach**, hung on Peter's *we have toiled all the night and taken nothing*. ⚠ **This table IS read across** — unlike the `Divisio` at 347.
+S: 27 2 Cor. iii. 14 — *the vail untaken away in the reading of the old testament*
+S: 29 Ps. cxix. 12 — *blessed art thou, O LORD: teach me thy statutes*
