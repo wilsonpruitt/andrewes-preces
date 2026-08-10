@@ -343,12 +343,14 @@ S: 3 Ps. lxix. 6 — *let not those that seek thee be confounded for my sake, O 
 
 ## 114
 S: 9 Gal. iii. 10 — *cursed is every one that continueth not in all things*
-S: 12 1 Cor. xv. 56 — *the sting of death is sin*
-S: 15 1 Cor. xv. 20 — *the firstfruits of them that slept*
+R: 9 **The Creed again, but each article answered by what it did.** Not *he was crucified* but the cross taking away the curse of the law; not *he rose* but the firstfruits; not *he sitteth* but the appearing and interceding. Compare printed 48, where the same articles are answered by a discipline the believer owes each of them. The Creed is recited three times in Part I and never twice to the same end.
+S: 10 1 Cor. xv. 56 — *the sting of death is sin*
+S: 13 1 Cor. xv. 20 — *the firstfruits of them that slept*
+S: 14 John xiv. 2 — the upper room, to troubled disciples: *I go to prepare a place for you*
 S: 15 Heb. vii. 25 — *he ever liveth to make intercession for them*
+S: 16 John xiv. 3 — *I will come again, and receive you unto myself*
 S: 17 Rom. ii. 6 — *who will render to every man according to his deeds*
 S: 18 Luke xxiv. 49 — *until ye be endued with power from on high*
-R: 11 **The Creed again, but each article answered by what it did.** Not *he was crucified* but the cross taking away the curse of the law; not *he rose* but the firstfruits; not *he sitteth* but the appearing and interceding. Compare printed 48, where the same articles are answered by a discipline the believer owes each of them. The Creed is recited three times in Part I and never twice to the same end.
 
 ## 116
 S: 5 Ps. lii. 9 — *I will praise thee for ever, because thou hast done it*
@@ -374,6 +376,7 @@ S: 9 1 Thess. v. 14 — *comfort the feebleminded, support the weak*
 S: 19 Ps. xc. 17 — *establish thou the work of our hands upon us*
 
 ## 128
+S: 3 1 Chron. xxix. 10 — David blessing the LORD before all the congregation, at the offering for the Temple
 S: 14 Isa. lxiv. 2 — *that the nations may tremble at thy presence*
 
 ## 130
@@ -382,10 +385,14 @@ S: 6 Gen. i. 20 — **the work of the fifth day**: the moving creature that hath
 S: 8 Ps. cxlviii. 10 — *creeping things, and flying fowl*
 S: 10 Gen. i. 22 — *be fruitful, and multiply*
 S: 13 Ps. cviii. 5 — *thy glory above all the earth*
+S: 15 John xii. 32 — *and I, if I be lifted up from the earth, will draw all men unto me*
 S: 17 Col. iii. 2 — *set your affection on things above, not on things on the earth*
+R: 15 ⚠ **The verse is spoken of the Cross and is asked here of the Ascension.** *If I be lifted up from the earth, I will draw all men unto me* — and John adds, in the next verse, *this he said, signifying what death he should die*, so the lifting up is the crucifixion. Andrewes hangs it under **THE THINGS OF THE ASCENSION**, immediately after *be thou exalted, O God, above the heavens*, and takes the drawing to be the ascending Christ's. He does not argue the transfer, and the English does not smooth it: the same two words carry both liftings, which is presumably why he could put the one under the other.
 
 ## 132
+S: 6 Ezek. xxxiii. 11 — the watchman's charge: *why will ye die, O house of Israel?*
 S: 8 Lam. v. 21 — *turn thou us unto thee, O LORD, and we shall be turned*
+S: 10 Ezek. xviii. 30 — *so iniquity shall not be your ruin*
 S: 12 Dan. ix. 5 — Daniel's confession: *even by departing from thy precepts*
 
 ## 134
@@ -413,7 +420,7 @@ R: 23 **Three confessions in a row, and not one of them from the same quarter.**
 S: 2 Job xix. 25 — the verse continuing: *whom I shall see for myself*
 S: 4 Ps. xxvii. 15 — *to see the goodness of the Lord in the land of the living*
 S: 6 Ps. xxxiii. 20 — *our soul waiteth for the LORD*
-S: 11 Ps. xxxiii. 21 — *let thy mercy be upon us, according as we hope in thee*
+S: 10 Ps. xxxiii. 21 — *let thy mercy be upon us, according as we hope in thee*
 R: 4 ⚠ **`Psal. xxvii. 15` is not an error: it is the Prayer Book's numbering.** The Authorised Version has this verse at xxvii. 13; the BCP Psalter, which divides the psalm differently, has it at 15 — and the BCP is the book Andrewes had to hand, as printed 433 shows twice over. **Do not "correct" it.** The volume moves between the two numberings without warning, and only reading the verse tells you which is in use.
 
 ## 140
@@ -449,6 +456,8 @@ S: 24 Joel ii. 17 — *give not thine heritage to reproach*
 V: 8 *Græca om. apogr., quæ Hebraice leguntur*: `ואתה תעל משחת חיי` (*Ion.* ii. 7), *sub titulo* `Τοῦ Ἰωνᾶ`
 S: 1 Amos vii. 5 — Amos staying the judgment: *O Lord GOD, cease, I beseech thee*
 S: 3 Jonah ii. 8 — *they that observe lying vanities forsake their own mercy*
+S: 12 Mic. vii. 18 — the closing doxology of Micah's prophecy
+S: 20 Hab. iii. 2 — Habakkuk, after his complaint of God's silence has been answered
 S: 25 Zech. iii. 3 — Joshua the high priest in filthy garments, and Satan at his right hand
 S: 26 Zech. ix. 11 — *by the blood of thy covenant*
 S: 30 Ps. li. 2 — *cleanse me from my sin*
@@ -459,20 +468,22 @@ S: 2 Zech. iii. 2 — *is not this a brand plucked out of the fire?*
 S: 5 Luke xxiii. 34 — *Father, forgive them; for they know not what they do*
 S: 9 Acts vii. 60 — Stephen, kneeling: *lay not this sin to their charge*
 S: 13 Luke xxii. 44 — *his sweat was as it were great drops of blood*
-S: 16 Matt. xxvii. 29 — *a crown of thorns, and put it upon his head*
+S: 15 Matt. xxvii. 29 — *a crown of thorns, and put it upon his head*
 S: 17 Heb. v. 7 — *with strong crying and tears*
-S: 19 Matt. xxvii. 39 — *they that passed by reviled him, wagging their heads*
+S: 18 Matt. xxvii. 39 — *they that passed by reviled him, wagging their heads*
 S: 23 Ps. cxxix. 3 — *the plowers plowed upon my back*
 S: 24 Ps. xxii. 17 — *they pierced my hands and my feet*; Prayer Book numbering
-S: 26 Matt. xxvii. 46 — *Eli, Eli, lama sabachthani*, at the ninth hour
+S: 25 Matt. xxvii. 46 — *Eli, Eli, lama sabachthani*, at the ninth hour
 S: 28 1 Cor. xi. 24 — *this is my body, which is broken for you*
 S: 29 Matt. xxvi. 28 — at the Supper: *my blood of the new testament, which is shed for many*
 S: 31 Ps. lxxxv. 2 — *thou hast covered all their sin*
-R: 13 **The Passion assembled out of five books, and not one of them a Gospel narrative of it.** The bloody sweat and the strong crying come from Luke and Hebrews, but the plowed back, the pierced hands and feet and the covered sin come from the Psalms, and the broken body from an epistle about a supper. Andrewes builds the scene from texts that are not describing it, which is why the sequence reads as prayer and not as recital.
+R: 13 **The Passion assembled out of six books, and half of it proved from texts that are not narrating it.** The thorns, the revilings, the strong cry, the neck under the cross and the pierced heart come from Matthew and John, who were telling the story; but the plowed back is the Psalter's *the plowers plowed upon my back*, the pierced hands and feet are Psalm xxii, the covered sin is Psalm lxxxv, the strong crying and tears are an epistle's account of Christ's prayers, and the broken body an epistle about a supper. **Half the members of the catalogue are proved from outside the Passion narratives**, which is why the sequence reads as prayer and not as recital — the same method as printed 313, where the nailing is proved from after the resurrection, out of Thomas's mouth.
 
 ## 156
-S: 21 Gal. v. 19 — the works of the flesh, which this column lists
-S: 26 Gal. v. 22 — the fruit of the Spirit, which the facing column answers with
+S: 20 Gal. v. 19 — the works of the flesh, which this column lists
+S: 24 Gal. v. 22 — the fruit of the Spirit, which the facing column answers with
+S: 28 Isa. xi. 2 — the gifts resting upon the rod out of the stem of Jesse
+R: 28 ⚠ **Seven gifts here, and the Hebrew yields six.** The column sets Wisdom, Understanding, Counsel, Might, Knowledge, **Godliness** and the Fear of the Lord. Isaiah's verse names *the fear of the LORD* twice, and the Vulgate and the Septuagint render the first of the two as **pietas**, godliness — so the Latin Bible counts seven where the Authorised Version, translating from the Hebrew, counts six. The sevenfold gift the Church has always numbered is the Latin Bible's, and this page has it. **The number is the Vulgate's, not a device of Andrewes'**, and it is the third register on this opening: works of the flesh, fruits of the Spirit, gifts of the Spirit, three lists that answer each other down the leaf.
 
 ## 158
 S: 7 1 Cor. xii. 8 — the gifts of the Spirit, severally divided
@@ -505,7 +516,11 @@ S: 10 Rev. v. 9 — *out of every kindred, and tongue, and people, and nation*
 S: 22 Rev. vii. 10 — *salvation to our God which sitteth upon the throne*
 
 ## 168
+S: 5 Isa. xxxiii. 2 — *be thou their arm every morning, our salvation in the time of trouble*
 S: 11 Gen. ii. 2 — **the work of the seventh day**: God rested, and blessed and sanctified it
+
+## 170
+S: 2 Ezra ix. 6, 7, 15 — Ezra at the evening sacrifice: *we cannot stand before thee because of this*
 
 ## 172
 S: 2 Matt. viii. 8 — the centurion: *speak the word only, and my servant shall be healed*
@@ -515,6 +530,7 @@ S: 5 Matt. ix. 2 — to the man sick of the palsy: *thy sins be forgiven thee*
 S: 6 Luke xvii. 13 — the ten lepers, standing afar off
 S: 7 Mark x. 47 — blind Bartimæus by the wayside
 S: 10 Mark vii. 34 — to the deaf man: *Ephphatha, that is, Be opened*
+S: 11 John v. 7 — the man at Bethesda, thirty-eight years sick: *I have no man*
 S: 12 Luke xiii. 12 — to the bowed woman: *thou art loosed from thine infirmity*
 S: 13 Ps. xxxv. 3 — *say unto my soul, I am thy salvation*
 S: 14 2 Cor. xii. 9 — *my grace is sufficient for thee*
@@ -524,6 +540,7 @@ R: 2 **The whole page is one request, asked ten times: *say it to me*.** Andrewe
 S: 4 Ps. ciii. 13 — *like as a father pitieth his children*
 S: 8 Ps. cxxiii. 2 — *as the eyes of servants look unto the hand of their masters*
 S: 12 Mark vii. 28 — the Syrophenician woman: *yet the dogs under the table eat of the children's crumbs*
+S: 14 John i. 29 — the Baptist, seeing Jesus coming: *behold the Lamb of God*
 S: 17 1 Tim. i. 15 — *Christ Jesus came into the world to save sinners*
 S: 22 Matt. xviii. 11 — *the Son of man is come to save that which was lost*
 S: 25 Gen. ii. 7 — *and man became a living soul*
@@ -700,10 +717,13 @@ S: 4 Acts xxiv. 27 — Felix, *willing to shew the Jews a pleasure*
 S: 6 2 Sam. vi. 16 — Michal despising David as he danced before the ark
 S: 7 1 Sam. ii. 13 — the fleshhook of Hophni, taking the priests' portion by force
 S: 8 2 Kings xi. 1 — Athaliah destroying all the seed royal
+S: 9 Judg. xvii. 10 — Micah hiring a Levite at ten shekels a year to be his priest
 S: 10 Acts viii. 18 — Simon offering money for the gift; Matt. xxvi. 16 — Judas, from the thirty pieces, seeking his opportunity
 S: 12 1 Tim. iii. 6 — *not a novice, lest being lifted up with pride*
 S: 13 Hos. iv. 4 — *this people are as they that strive with the priest*
 S: 17 2 Sam. xv. 31 — Ahithophel's counsel, prayed into foolishness
+S: 18 Isa. xix. 11 — *the princes of Zoan are fools*, Pharaoh's wise counsellors
+S: 19 Mic. vi. 16 — *the statutes of Omri are kept, and all the works of the house of Ahab*
 S: 20 1 Kings xxi. 15 — the judges of Jezreel, and Naboth's vineyard
 S: 22 Num. xxv. 5 — the plague at Baal-peor
 S: 23 Josh. vii. 26 — the valley of Achor, where Achan was stoned
@@ -767,6 +787,8 @@ S: 24 2 Cor. xii. 9 — *my strength is made perfect in weakness*
 ## 222
 S: 18 Eccl. xi. 8 — *let him remember the days of darkness; for they shall be many*
 S: 19 Matt. xxii. 13 — *bind him hand and foot, and cast him into outer darkness*
+S: 21 John ix. 4 — *the night cometh, when no man can work*
+R: 21 **The verse the page is built on is only cited here, at the end.** *Venit nox, quando nemo potest operari* — and the leaf's first two words, standing unmarked at the head of the page, are *Venit nox*. So the meditation opens by quoting John without saying so, runs the whole length of the page on the figure of the closing day, and only names the text where it turns the figure into a duty: **to forestall the night by working some good thing.** The reference at the foot is the plate's own, and it is the key to the leaf, printed twenty lines after the lock.
 S: 27 Ps. cxxxiv. 2 — *lift up your hands in the sanctuary, and bless the LORD*
 
 ## 224
@@ -857,6 +879,9 @@ S: 21 Eph. iii. 17 — *that Christ may dwell in your hearts by faith*
 S: 23 1 Cor. vi. 19 — *your body is the temple of the Holy Ghost*
 S: 30 1 Cor. xi. 27 — *unworthily... guilty of the body and blood of the Lord*
 
+## 248
+S: 8 2 Chron. xxx. 18, 19 — Hezekiah's prayer for those who ate the passover uncleansed
+
 ## 250
 S: 2 Mark x. 17 — the rich young ruler: *what shall I do that I may inherit eternal life?*
 S: 6 Acts ii. 37 — at Pentecost: *men and brethren, what shall we do?*
@@ -927,6 +952,7 @@ S: 5 Ps. lv. 17 — *evening, and morning, and at noon, will I pray*
 S: 7 Ps. v. 3 — *my voice shalt thou hear in the morning*
 S: 9 Ps. cxli. 2 — *let my prayer be set forth before thee as incense*
 S: 11 Ps. lxiii. 7 — *because thou hast been my help*
+S: 17 Lam. iii. 41 — *let us lift up our heart with our hands unto God*, which the prayer turns to the singular
 S: 21 Ps. cxxiii. 2 — *until that he have mercy upon us*
 S: 23 Ps. cxix. 132 — *as thou usest to do unto those that love thy name*
 
@@ -1050,6 +1076,7 @@ S: 15 1 Tim. vi. 5 — *men of corrupt minds, and destitute of the truth*
 S: 16 Hos. xi. 5 — *the Assyrian shall be his king, because they refused to return*
 S: 17 1 Kings xii. 27 — Jeroboam, who feared the people would return to Jerusalem
 S: 18 1 Kings xii. 13 — Rehoboam, who answered the people roughly
+S: 19 Josh. vii. 24 — the valley of Achor, where Achan and all that he had were brought up
 S: 20 Judg. ix. 23 — *God sent an evil spirit between Abimelech and the men of Shechem*
 S: 22 Ps. cxx. 2 — *deliver my soul from lying lips*; Ps. xci. 3 — *the snare of the fowler*
 R: 16 **Four names for four ways a people is lost, and none of them is explained.** Asshur is the foreign power a nation is given over to; Jeroboam the ruler who divides worship to keep a throne; Rehoboam the ruler who answers roughly and loses ten tribes; the evil spirit of Shechem the discord God sends between a man and his own city. As at printed 204, the deprecation depends entirely on the reader knowing the histories, and the English can only name them.
@@ -1156,6 +1183,7 @@ R: 23 **The plea's first ground is that punishment is not what God is for.** Isa
 ## 292
 S: 2 Num. xiv. 17, 18 — Moses pleading for Israel after the spies, when God would have disinherited them
 S: 5 John xx. 17 — the risen Christ to Mary Magdalene
+S: 7 Josh. vii. 9 — Joshua on his face after Ai: *what wilt thou do unto thy great name?*
 S: 9 John i. 29 — the Baptist, seeing Him come
 S: 10 Job xix. 25 — Job on the ash-heap, answering his comforters
 S: 11 John iv. 42 — the Samaritans of Sychar, after two days
@@ -1260,6 +1288,7 @@ S: 24 Gen. xiv. 18 — Melchizedek, priest of the most high God
 R: 11 **From kindred: the plea addresses the Son of David, and then cites what David did.** The Canaanite woman's *have mercy on me, O thou Son of David* names the kinship; the next text is David himself sparing Shimei — the man who had cursed him — on the day he came back over Jordan. The argument is that the son will do as the father did, and it is made entirely by putting the two verses next to each other. The head that follows, *from office*, drops kinship for job description: the Spirit is upon Him **because** He was anointed to heal the broken-hearted, so mercy is not a favour asked but the work He was sent to do.
 
 ## 300
+S: 2 Eccl. v. 8 — the Preacher, on oppression: *higher than the highest regardeth*
 S: 4 Gen. xxi. 33 — Abraham at Beersheba, after the well was sworn for
 S: 7 Jer. xxiii. 24 — against the prophets who say they have dreamed
 S: 9 Ps. cxxxix. 7 — *whither shall I go then from thy spirit?*
@@ -1267,9 +1296,9 @@ S: 12 John xxi. 17 — Peter, asked the third time: *Lord, thou knowest all thin
 S: 13 1 Kings viii. 39 — Solomon at the dedication of the temple
 S: 15 Luke i. 37 — Gabriel to Mary, of her cousin Elisabeth
 S: 16 Gen. xvii. 1 — to Abram at ninety-nine years old
-S: 20 Rom. xi. 33 — the close of the argument on Israel, where Paul breaks off into praise
+S: 20 Rom. xi. 33 — where Paul breaks off the argument on Israel into praise
 S: 22 Ps. cxvii. 2 — the shortest psalm, entire in two verses
-R: 4 **A schoolman's list of the attributes, proved entirely out of stories.** Eternity, omnipresence, omniscience, omnipotence, the depth of wisdom, unshaken truth — the headings could stand in any scholastic handbook, and not one of them is proved by a definition. Eternity is Abraham planting a grove at Beersheba; omniscience is Peter on the shore, asked a third time; omnipotence is Gabriel in a house in Nazareth; and the God who knows all hearts is quoted from Solomon's prayer at the temple. The *Confessio* argues like a schoolman and evidences like a preacher.
+R: 4 **A schoolman's list of the attributes, proved entirely out of stories.** Eternity, omnipresence, omniscience, omnipotence, the depth of wisdom, unshaken truth — the headings could stand in any scholastic handbook, and not one of them is proved by a definition. Eternity is Abraham planting a grove at Beersheba; omniscience is Peter on the shore, asked a third time; omnipotence is Gabriel in a house in Nazareth; the God who knows all hearts is quoted from Solomon's prayer. The *Confessio* argues like a schoolman and evidences like a preacher.
 R: 22 ⚠ **The same numeral means two different psalms in this volume, and this page proves it.** Here `*Psal.* cxvii. 2` is right on the Authorised Version's numbering — Ps. cxvii has two verses and this is the second. At printed 274 the plate cites `*Ps.* cxvii. 25` for the Hosanna, which is impossible on that numbering and can only be the **Vulgate's** cxvii, our cxviii. Neither is an error; the 1853 simply does not hold to one Psalter's numbers, which is why every note in this edition that touches a psalm number says which system it means, and why the plate's own figure is never altered.
 
 ## 301
@@ -1278,6 +1307,7 @@ S: 4 Ps. cxi. 3 — *his righteousness endureth for ever*
 S: 6 Ps. xlii. 7 — *deep calleth unto deep at the noise of thy waterspouts*
 S: 9 2 Cor. x. 1 — Paul, beginning his defence of himself to Corinth
 S: 10 Gen. xviii. 32 — Abraham's last plea for Sodom, come down to ten
+S: 11 Mic. vii. 18 — the closing doxology of Micah's prophecy
 S: 12 Acts xvii. 30 — Paul on Mars' hill, of the times of ignorance
 S: 14 Rom. ii. 4 — to the man who judges another and does the same
 S: 17 Ps. lxxviii. 38 — of the generation in the wilderness, forgiven again
@@ -1359,6 +1389,7 @@ R: 16 ⚠ **The second half of the list is the same material as printed 307, doi
 
 ## 310
 S: 1 Acts ii. 24 — *the pains of death*, ὠδῖνες, which are birth-pangs; Heb. xii. 2 — *despising the shame*; Gal. iii. 13 — *made a curse for us*
+S: 5 Zech. xi. 12 — the shepherd's wages weighed out: *so they weighed for my price thirty pieces of silver*
 S: 7 Mark xiii. 33 — the plate's figure; *pavere et tædere* is verbatim the Vulgate of Mark **xiv**. 33
 S: 25 Luke xxii. 53 — to those come out against Him: *this is your hour, and the power of darkness*
 R: 1 **Three words for the cross, in three languages, read across the page — and the first is a word about childbirth.** *Dolor, Pudor, Maledictum* stand against *Ὠδῖνες, Αἰσχύνη, Κατάρα*, each with its own proof-text: Acts for the pang, Hebrews for the shame, Galatians for the curse. **ὠδῖνες are birth-pangs**, the word for a woman in labour, and Peter uses it at Pentecost of the pains of death that could not hold Him. So the first of the three is not simply pain but travail — pain with an issue — which is why it can stand at the head of a catalogue that ends in resurrection. The English keeps *Pang* and the Greek beside it rather than settling for *sorrow*.
@@ -1447,7 +1478,7 @@ R: 1 ⚠⚠ **A ladder built out of Greek prefixes, and it cannot be climbed in 
 R: 17 ⚠ **Paul's four dimensions measure mercy here, and measured the WOUND at printed 315.** *Μῆκος, Πλάτος, Βάθος* — length, breadth, depth — are Eph. iii. 18's measure of the love of Christ, and Andrewes fills each from the Psalter: from everlasting **to** everlasting for the length, up to heaven and down to hell for the depth, *upon all* for the breadth. Four pages earlier the same figure was turned on the man praying — *behold the multitude, the length, the breadth, the depth of them, from the head even to the heel* — to measure his hurt. **The same Pauline measure serves the injury and the mercy, and the two passages must not be conformed or cross-referred in the text.** It is the fourth time in this Part that a text is used twice and never for the same thing.
 
 ## 320
-S: 3 Ecclus. ii. 18 — Ben Sira: *as his majesty is, so is his mercy*
+S: 4 Ecclus. ii. 18 — Ben Sira: *as his majesty is, so is his mercy*
 S: 8 Matt. x. 29 — *not one of them shall fall on the ground without your Father*
 S: 14 Luke x. 34 — the Samaritan, who bound up his wounds and set him on his own beast
 S: 17 John xxi. 15 — on the shore, asked three times for the three denials

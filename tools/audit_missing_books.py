@@ -116,8 +116,14 @@ def band_page(page):
 
 
 def audit_tags(through):
+    # ⚠ `(?:\[[^\]]*\]\s*)?` skips an EDITORIAL GLOSS standing between the book and
+    # its chapter. The 1853 explains its own siglum in place — `*Syr.* [i. e.
+    # *Ecclus.*] ii. 11` — and without this the `i` of `i. e.` is read as the
+    # chapter, so a correctly tagged reference is reported as untagged. It cost two
+    # false alarms at printed 293 and 320.
     pattern = re.compile(
-        r'\*(%s)\.?\*\s*\[?([ivxlc]+)\.\s*([\d,\s]*)' % '|'.join(RECOVERED), re.I)
+        r'\*(%s)\.?\*\s*(?:\[[^\]]*\]\s*)?\[?([ivxlc]+)\.\s*([\d,\s]*)'
+        % '|'.join(RECOVERED), re.I)
     notes = band_by_page()
     total = 0
     missing = []
