@@ -116,7 +116,11 @@ REF = re.compile(
 # of this pattern read the keyword and threw the number away, so three references
 # resolved to the wrong verse while looking perfectly resolved. Both keywords take
 # an optional verse LIST: the 1853 prints `*Vers.* 55, 56` and `*Vers.* 10, 12`.
-CONT = re.compile(r"\b(Vers|Ibid)\.\s*(\d+(?:\s*,\s*\d+)*)?", re.I)
+# ⚠ The verse list may be separated by a PERIOD as well as a comma — the 1853
+# prints `*Vers.* 4. 6.` once, at printed 153. The period form is admitted only
+# when a further number follows on the same line; widening it changed exactly
+# one reference in the volume, which is how it was verified.
+CONT = re.compile(r"\b(Vers|Ibid)\.\s*(\d+(?:\s*[,.]\s*\d+)*)?", re.I)
 # The antecedent's book and chapter, i.e. everything up to and including the
 # roman numeral. A chapterless antecedent (Jude 20) cannot mother a `Vers.` and
 # is refused rather than guessed at.
@@ -212,7 +216,7 @@ def index():
                         continue
                     book_chap = stem.group(1).strip()
                     resolved_list = [f"{book_chap} {v.strip()}"
-                                     for v in verses.split(",")]
+                                     for v in re.split(r"[,.]", verses) if v.strip()]
                 for resolved in resolved_list:
                     out[page].append((line_no, resolved))
                     CONTINUATIONS.append((page, line_no, val.group(0), resolved,

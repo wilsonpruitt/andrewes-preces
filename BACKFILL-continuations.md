@@ -113,17 +113,29 @@ python3.11 tools/check_notes.py <page> <page>
 
 ---
 
-## ▶ PROGRESS (2026-08-10)
+## ✅ COMPLETE — 2026-08-10
 
-**Done — 16 pages, and with them ~110 of the 135 references:**
+**All 62 pages adjudicated. 227 continuation references now resolve; every one of them has been accounted for.**
 
-| pages | what was actually needed |
-|---|---|
-| **136 · 132 · 134 · 156** | ⚠ **Not tags — a NOTE.** On each, the plate marks every verse of a continuous quotation and the English lines *are* those verses, so a tag would set the verse under the verse. What was missing was the sentence telling the reader he has entered one passage. |
-| **309–314** (the Passion, 97 continuations) | ⚠⚠ **One note for the whole run: it is a FOUR-GOSPEL HARMONY** walked forward in step. Placed at 314 because 310 and 312 were already at the leaf's capacity. |
-| **305 · 306** | ⚠ **No change.** Brace catalogues: the references print inside the cells and §3a already rules the scripture band empty. |
-| **52 · 24** | ⚠ **A real gap and a real note.** 52 was missing **Rev. ii. 5** — the threat to remove the candlestick, two lines after the candlesticks are named as His, and quite distinct from the ii. 1 already tagged. 24 needed a note: **Psalm cxliii runs across three leaves** and only v. 8 was tagged.|
+### What it actually came to
 
-**⚠ THE RULE THE FIRST SIXTEEN ESTABLISH:** where the continuations are **a continuous run from one chapter**, the answer is one note and no tags — §3 and the content rule both forbid setting the verse under the verse. Where a continuation is **an isolated verse doing its own work** (52's Rev. ii. 5), it wants a tag. **Decide which by reading the English lines, not by counting.**
+| outcome | count | |
+|---|---|---|
+| **A note, not tags** | 4 pages | 136 · 132 · 134 · 156 — the plate marks every verse of a continuous quotation and the English lines *are* those verses, so a tag would set the verse under the verse. |
+| **One note for a whole run** | 309–314 | 97 continuations. The Passion catalogue is a **four-gospel harmony**; the note sits at 314 because 310 and 312 were at capacity. |
+| **A real missing tag** | 2 | **52** (Rev. ii. 5, the threat to remove the candlestick) and **110** (see below). |
+| **A note the psalm needed** | 1 | **24** — Psalm cxliii runs across three leaves and only v. 8 was tagged. |
+| **Continuing a quotation the band already tags** | 66 refs | No action. §3b: the band selected at the head of the passage. |
+| **Correct as they stood** | the rest | Brace catalogues (§3a — the references print inside the cells: 305, 306, 307, 316, 318), leaves at capacity where §8's SELECT already governs (42, 154, 242), and lines whose own words give the reference (319, 320, 329, 344). |
 
-**Remaining: ~46 pages, ~25 references**, nearly all of them one or two per page. ⚠ **They are NOT a uniform class** — printed 52 proved that, so the remainder cannot be closed in bulk without reading each.
+### ⚠⚠ The one substantive find: printed 110
+
+`*Vers.* 24` stands against **the words of Rom. vii. 25.** *Infelix ego homo* and *Quis me liberabit* are verse 24; *Gratia Deo per Jesum Christum*, the line the figure is actually printed on, is verse 25. **The marks on that page are otherwise line-exact** — `Vers. 22` and `Vers. 23` each sit on their own verse. So either the figure is one short, or it covers the whole movement from the cry to the thanksgiving. **Kept as printed and neither reading claimed** (§3c). It was invisible for as long as the index could not read a continuation.
+
+### ⚠ Three tool defects found *while doing the backfill*, not before it
+
+1. **`Ibid. N` is not `Ibid.`** — bare `Ibid.` repeats the antecedent entire, but `Ibid. 5` means the same book and chapter at verse 5. The first version read the keyword and discarded the number, so **three references resolved to the wrong verse while looking perfectly resolved.**
+2. **Verse lists were truncated** — `*Vers.* 55, 56` kept only 55.
+3. **A verse list may be separated by a PERIOD** — `*Vers.* 4. 6.` at printed 153. Widening the pattern changed exactly one reference in the volume, which is how it was verified.
+
+**The lesson is the pass's own, and it now applies to the checker as well as the plate: a checker's first output is not evidence.**

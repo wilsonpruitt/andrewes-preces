@@ -329,6 +329,7 @@ S: 23 Jer. xxxi. 34 — *I will remember their sin no more*
 S: 25 Rom. vii. 14 — *carnal, sold under sin*
 
 ## 110
+S: 7 `Vers. 24` — the plate's figure, carried by a continuation the index could not read until 2026-08-10. ⚠⚠ **It stands against the words of Rom. vii. 25.** *Infelix ego homo* and *Quis me liberabit* are verse 24; *Gratia Deo per Jesum Christum*, the line the figure is printed on, is verse 25. **The marks on this page are otherwise line-exact** — `Vers. 22` and `Vers. 23` each sit on their own verse — so either the figure is one short, or it is meant to cover the whole movement from the cry to the thanksgiving. **Kept as printed, and neither reading is claimed.**
 S: 9 Rom. v. 2 — *where sin abounded, grace did much more abound*, which is verse 20
 S: 10 Rom. ii. 4 — *the goodness of God leadeth thee to repentance*
 S: 13 2 Tim. ii. 25 — *if God peradventure will give them repentance*
@@ -666,9 +667,9 @@ S: 14 Matt. vi. 34 — *sufficient unto the day is the evil thereof*
 S: 16 Ps. lxxviii. 33 — *their years in trouble*
 S: 17 Ps. xix. 2 — *day unto day uttereth speech*
 S: 22 Ps. cxliii. 8 — *for I lift up my soul unto thee*
-R: 22 ⚠ **Psalm cxliii does not stop here — it runs on across the next two openings**, the plate marking *Vers.* 9 and 10 below and *Vers.* 11 on printed 27. **One psalm carries the morning prayer over three leaves**, and a reader who meets only the tagged verse 8 will take it for a single borrowed line.
 R: 12 **Two lines here take the Vulgate against the Prayer Book, and the English follows the Vulgate.** *Negotium perambulans in tenebris* and *dæmonium meridianum* — the business that walks in darkness and the noonday demon — are what Andrewes wrote; Coverdale has *pestilence* and *the sickness that destroyeth in the noon-day*. CONVENTIONS §9 makes the BCP our crib, and yields wherever he reaches past it, as he does here.
 R: 16 ⚠⚠ **This is the verse Part III mis-numbers, and here the volume gets it right.** *Anni mei in luctu* stands at printed **409** under `Psal. xl. 9`, where the note has to say the reference is wrong; here the same half-verse is referred correctly to **`Ps. lxxviii. 33`**. So the edition proves its own misprint across three hundred and eighty pages — and it confirms, from inside the book, a reading that was otherwise established only from Brightman. **Both kept as printed.**
+R: 22 ⚠ **Psalm cxliii does not stop here — it runs on across the next two openings**, the plate marking *Vers.* 9 and 10 below and *Vers.* 11 on printed 27. **One psalm carries the morning prayer over three leaves**, and a reader who meets only the tagged verse 8 will take it for a single borrowed line.
 
 ## 26
 S: 7 Ps. cxix. 37 — *turn away mine eyes from beholding vanity*
