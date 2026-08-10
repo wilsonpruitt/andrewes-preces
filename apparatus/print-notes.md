@@ -795,3 +795,98 @@ S: 20 Ps. lxxvii. 6 — *my spirit made diligent search*
 S: 22 Ps. cxxxix. 18 — *when I awake, I am still with thee*
 S: 26 Ps. iv. 8 — *thou, LORD, only makest me dwell in safety*
 R: 20 **`Ad scopandum spiritum meum` — he keeps the spade.** Ps. lxxvii. 6's *my spirit made diligent search* is, in the Greek Andrewes used, a verb of digging over the ground; the evening examination is a turning of the soil, not a rummage. The same figure governs §41 in Part II, where the day's review is a **recall** of stragglers rather than a reveille. The English holds the spade in both places.
+
+## 240
+S: 16 Rom. ix. 33 — *whosoever believeth on him shall not be ashamed*
+S: 22 Acts ii. 42 — *they continued stedfastly in the apostles' doctrine and fellowship*
+S: 23 Luke xxii. 19 — *this do in remembrance of me*
+S: 24 1 Cor. xi. 26 — *ye do shew the Lord's death till he come*
+S: 25 1 Cor. x. 16 — *the communion of the body of Christ*
+S: 27 Matt. xxvi. 28 — *shed for many for the remission of sins*
+S: 28 1 Cor. v. 7 — *Christ our passover is sacrificed for us*
+S: 29 Matt. xi. 28 — *come unto me, and I will give you rest*
+S: 30 Col. ii. 14 — *blotting out the handwriting of ordinances that was against us*
+S: 31 Heb. ix. 14 — *purge your conscience from dead works*
+S: 32 1 Pet. ii. 24 — *by whose stripes ye were healed*
+R: 22 **Thirty-four names for one thing, each with its text.** From here to the foot of the next leaf Andrewes sets out what the Sacrament *is* — the token of the assembly, the memorial of the dispensation, the shewing of the death, the communion of body and blood, the remission of sins, an amulet against all that is unlucky, the quiet of conscience, the cancelling of debts — and gives every name a proof. **It is a definition by accumulation**: no one of the names is the definition, and the list does not resolve into a doctrine. That is why the page can be read by anyone who holds any of the doctrines, and why it was worth an entire meditation.
+
+## 242
+S: 1 Ps. l. 5 — *those that have made a covenant with me by sacrifice*
+S: 2 John vi. 27 — *the meat which endureth unto everlasting life*
+S: 4 2 Cor. vii. 9 — *ye sorrowed to repentance*
+S: 5 Luke xxiv. 31 — at Emmaus, *their eyes were opened, and they knew him*
+S: 6 John xiii. 15 — the washing of feet: *I have given you an example*
+S: 7 2 Cor. i. 22 — *who hath also sealed us*
+S: 8 John vi. 35 — *I am the bread of life*
+S: 9 John xiii. 35 — *by this shall all men know that ye are my disciples*
+S: 11 1 Pet. iv. 1 — *arm yourselves likewise with the same mind*
+S: 14 John vi. 56 — *dwelleth in me, and I in him*
+S: 16 1 Cor. xi. 31 — *if we would judge ourselves, we should not be judged*
+S: 17 Luke xxii. 20 — *this cup is the new testament in my blood*
+S: 18 John xvii. 23 — *that they may be made perfect in one*
+
+## 244
+S: 21 Eph. iii. 17 — *that Christ may dwell in your hearts by faith*
+S: 23 1 Cor. vi. 19 — *your body is the temple of the Holy Ghost*
+S: 30 1 Cor. xi. 27 — *unworthily... guilty of the body and blood of the Lord*
+
+## 250
+S: 2 Mark x. 17 — the rich young ruler: *what shall I do that I may inherit eternal life?*
+S: 6 Acts ii. 37 — at Pentecost: *men and brethren, what shall we do?*
+S: 8 Acts xvi. 30 — the gaoler at Philippi: *what must I do to be saved?*
+S: 9 Luke iii. 10 — to the Baptist, three times over: *what shall we do then?*
+R: 2 **Four askings of one question, and the answers differ every time.** *What shall I do?* is put by the rich young ruler, by the crowd at Pentecost, by the gaoler at Philippi, and three times over to the Baptist by the people, the publicans and the soldiers — and Scripture answers *keep the commandments*, *repent and be baptized*, *believe on the Lord Jesus*, and a different practical charge to each trade. Andrewes sets them together without reconciling them.
+
+## 252
+S: 6 Ex. xxxiv. 6 — the Name proclaimed on Sinai
+S: 12 Josh. vii. 20 — Achan: *indeed I have sinned*
+S: 14 Jas. i. 14 — *drawn away of his own lust, and enticed*
+S: 15 Prov. v. 12 — *how have I hated instruction!*
+S: 23 Job v. 1 — *to which of the saints wilt thou turn?*
+S: 25 Rom. vii. 24 — *who shall deliver me from the body of this death?*
+
+## 256
+S: 14 2 Cor. vii. 11 — the revenge that godly sorrow works
+S: 16 Luke xxiii. 34 — *they know not what they do*
+S: 17 Ps. lxxiii. 22 — *so foolish was I, and ignorant*
+S: 18 1 Tim. vi. 9 — *foolish and hurtful lusts, which drown men in destruction*
+S: 20 Job xlii. 6 — *wherefore I abhor myself*
+S: 28 Ps. xliv. 15 — *the shame of my face hath covered me*
+
+## 258
+S: 1 Tit. iii. 11 — *condemned of himself*
+S: 3 Ps. cxliii. 2 — *enter not into judgment with thy servant*
+S: 5 1 Pet. v. 6 — *humble yourselves under the mighty hand of God*
+S: 6 Eph. iii. 14 — *I bow my knees unto the Father*
+S: 9 Matt. xxvi. 39 — in the garden: *let this cup pass from me*
+S: 10 Ps. cxliii. 6 — *I stretch forth my hands unto thee*
+S: 11 Luke xviii. 13 — the publican smote upon his breast; Jer. xxxi. 19 — Ephraim smote upon his thigh
+S: 13 Ps. cxxx. 1 — *out of the depths have I cried*
+S: 15 Ps. xxxv. 10 — *all my bones shall say, LORD, who is like unto thee?*
+S: 16 Ps. ciii. 1 — *all that is within me, bless his holy name*
+R: 11 **Two men striking themselves, and Andrewes takes both.** The publican in the Gospel *smote upon his breast*; Ephraim in Jeremiah *smote upon my thigh*. The brace on the page offers the reader either, and the two references stand side by side because neither gesture is the right one — the point is that repentance has a body, and Scripture shows it more than one way to move.
+
+## 260
+S: 3 Ps. vi. 2 — *have mercy upon me, O LORD; for I am weak*
+S: 6 Ps. lxxviii. 39 — *a wind that passeth away, and cometh not again*
+S: 7 Isa. xl. 6 — *all flesh is grass*
+S: 9 Ps. ciii. 16 — *the place thereof shall know it no more*
+S: 10 Gen. xviii. 27 — Abraham pleading for Sodom: *I am but dust and ashes*
+S: 13 Job xvii. 14 — *I have said to corruption, Thou art my father*
+S: 14 Ps. xxxix. 12 — *I am a stranger with thee, and a sojourner*
+S: 15 Job iv. 19 — *them that dwell in houses of clay*
+S: 16 Gen. xlvii. 9 — Jacob before Pharaoh: *few and evil have the days of the years of my life been*
+S: 18 Isa. xxxviii. 13 — Hezekiah: *from morning even to night wilt thou make an end of me*
+S: 21 Job xiv. 1 — *of few days, and full of trouble*
+S: 24 Ps. lxxiv. 18 — *remember this, that the enemy hath reproached*
+R: 4 ⚠ **The same clause, two verse-numbers, three hundred pages apart.** *Memorare quæ mea substantia* is referred here to `Psal. lxxxix. 47` and at printed **35** to `lxxxix. 46`. The Authorised Version has it at **47**, so the earlier page is the one that slipped. **Both kept as printed** — this is the seventh place where the volume settles one of its own references by citing it correctly elsewhere.
+
+## 262
+S: 1 Ps. xxx. 9 — *what profit is there in my blood, when I go down to the pit?*
+S: 2 Ps. li. 1 — *according to the multitude of thy tender mercies*
+S: 3 Eph. i. 7 — *the riches of his grace*; Eph. i. 8 — *wherein he hath abounded toward us*
+S: 6 Dan. ix. 19 — *defer not, for thine own sake, O my God*
+S: 7 John xiv. 13 — *whatsoever ye shall ask in my name*
+S: 8 1 Tim. i. 15 — *of whom I am chief*
+S: 10 Jas. ii. 13 — *mercy rejoiceth against judgment*
+S: 16 Dan. ix. 19 — the same verse closing the Meditation as it opened the plea
