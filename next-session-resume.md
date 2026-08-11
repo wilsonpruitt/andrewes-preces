@@ -619,7 +619,7 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 - ⚠ **printed 156 — a THIRD instance of the pronoun pattern and the sharpest**: Ps. lxxxv. 4 is *Converte **nos***; the plate sets *Converte **me*** and **leaves *noster* and *a nobis* plural around it.** He puts himself alone under the verb of turning and leaves the congregation in possession of the mercy.
 - **printed 132 — Daniel ix. 5–19 whole and in order**, where Part II quarries it out of order (ix. 19 at 339, ix. 16 at 343). **Neither conformed to the other.**
 
-**NEXT: printed 357.** 106 pages remain. Build 619 pages, 0 TeX errors, 0 of 595 units too tall.
+**NEXT: printed 359.** 106 pages remain. Build 619 pages, 0 TeX errors, 0 of 595 units too tall.
 
 
 ## 2026-08-10 (cont.) — printed 348–351: the scheme, and the prayer said in other men's words
@@ -631,7 +631,7 @@ Opening printed 324 to write its band, the first reference on the page — `*Thr
 
 ⚠ **Two S tags were repaired this session for a reason worth remembering: a combined figure (`2 Cor. i. 4, 5`, `Eph. iii. 20, 21`) HIDES the second verse from `check_notes`.** Name each verse separately.
 
-**NEXT: printed 357.**
+**NEXT: printed 359.**
 
 
 ## 2026-08-10 (cont.) — printed 352–354, and a watch item that dissolved
@@ -650,7 +650,7 @@ The line that "broke off mid-word at *omnia m*" reads entire on the Toronto scan
 
 ⚠⚠⚠ **AND THE REASON IT WAS BELIEVED IS THE LESSON: our note said "confirmed a PLATE defect against the OCR" — but the OCR is generated FROM THAT SAME GOOGLE SCAN.** Two views of one bad source agreed and were taken for corroboration. **This is now the THIRD time in one session (239, 210, 353) that a defect laid to the plate turned out to be the camera.** `_djvu.txt` **cannot be an independent witness to its own imaging**; only a different scan can settle plate-versus-camera. Recorded in `SOURCE-IMAGES.md`. (The bracketed conjecture had been exactly right — a fact about that conjecture, not a defence of the method.)
 
-**NEXT: printed 357.**
+**NEXT: printed 359.**
 
 
 ## 2026-08-10 (cont.) — printed 355–356: FIVE marks of the Greek rite in eight leaves
@@ -666,4 +666,14 @@ The line that "broke off mid-word at *omnia m*" reads entire on the Toronto scan
 - **355 — Ps. lxxxi. 10 is God's own command answered as though obeyed.** *Open thy mouth wide, and I will fill it* → *Dilato os meum, Domine: **Tu imple***. **The condition is reported as performed and the promise called in** — not the usual indicative-made-imperative but **a promise TAKEN UP with its half discharged.** ⚠ `Eph. i. 8` carried in the band under §6 (the line wants **i. 18**); already on the running list.
 - **356 — Thomas at the temple door.** ⚠⚠ At the entrance of a building where nothing is to be seen, the worshipper says the words of **the one apostle who insisted on seeing** — *my Lord and my God* — **and the next line is the blessing on those who do not.** ⚠ `Ps. xxxii. 6` follows the **Prayer Book** numbering (AV has it at 5) — **a third system on show**, beside the plain Vulgate and the 344/353 hybrid.
 
-**NEXT: printed 357.**
+**NEXT: printed 359.**
+
+
+## 2026-08-10 (cont.) — printed 357–358
+
+- ⚠⚠⚠ **357 (§28's *Si non … tamen* ladder) — eleven pairs, every one a bargain struck DOWNWARDS.** A scriptural ceiling is set, conceded to be out of reach, and the least he will do is named instead: seven times a day like David, **or at any rate** three like Daniel; Solomon's long prayer, **or at any rate** the Publican's short one; Christ's whole night, **or at any rate** one hour. ⚠⚠ **THE FIND: the floor is repeatedly set by a BAD example.** If not on the ground in ashes, **yet not in beds**; if not in sackcloth, **yet not in purple and fine linen** — the rich man of the parable. **Where the ceiling is a saint the floor is a sinner: if I cannot be Job, let me at least not be Dives.** The ladder then abandons measure altogether — *tamen quoad potentiam*.
+  - ⚠ **Ps. lxiii. 6 supplies a WORD and not a sense**: *when I remember thee upon my bed* is the psalmist doing well, and the page takes only *lectis* from it, making the bed the thing to be avoided.
+  - Two references carried under §6, both already on the running list: **`Dan. vi. 4`** (Daniel kneeling thrice daily is **vi. 10**) and **`Deut. xxvi. 12`** (the line offers a **thirtieth** part, neither that verse's command nor any tithe). ⚠ **21 references on the leaf, densest in Part II outside the Passion; the English names its own exemplars, so the band selects under §8 and the note says so** (13 left untagged deliberately).
+- ⚠⚠ **358 (§29 *Actus Adorationis*) IS THE LITANY'S OPENING, IN LATIN — and it is the counterweight the introduction needs.** *O God the Father, of heaven · O God the Son, Redeemer of the world · O God the Holy Ghost · O holy, blessed Trinity*: **the Prayer Book's first four invocations in the Prayer Book's order.** ⚠ The Litany's un-English *of heaven* renders the very *de cœlis* standing here — **both are drawing on the same Latin.** **The volume's liturgical debts run in two directions at once; an introduction arguing only the Greek is answerable for this leaf.** ⚠ One divergence recorded without conjecture: where the Litany names the Spirit *proceeding from the Father and the Son*, this names him **the Comforter**.
+
+**NEXT: printed 359.**

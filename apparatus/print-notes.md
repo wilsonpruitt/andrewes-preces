@@ -1891,3 +1891,11 @@ S: 19 Dan. i. 8 — Daniel at the king's table, who *would not defile himself wi
 S: 22 Lev. v. 16 — the trespass offering: *he shall make amends … and shall add the fifth part thereto*
 S: 26 Deut. xxvi. 12 — the third year's tithe, *the year of tithing*. ⚠ **The line offers a THIRTIETH part** (*tricesimam partem*), which is not what that verse commands, nor any tithe. **Kept as printed and on the running list.**
 S: 28 2 Cor. viii. 3 — of the Macedonians: *to their power, yea, and beyond their power, they were willing of themselves*
+
+## 358
+R: 2 ⚠⚠ **This is the LITANY's opening, in Latin, and it is a counterweight to the Greek marks of the last eight leaves.** *O God the Father, of heaven · O God the Son, Redeemer of the world · O God the Holy Ghost · O holy, blessed Trinity* — **the Prayer Book's first four invocations, in the Prayer Book's order.** ⚠ And the English Litany's odd *of heaven*, which is not idiomatic English, is a rendering of the very *de cœlis* standing here: **both this page and the Litany are drawing on the same Latin.** **The volume's liturgical debts run in two directions at once, and an introduction that argues only the Greek will be answerable for this leaf.** ⚠ One divergence, stated without conjecture: where the Litany's third invocation names the Spirit *proceeding from the Father and the Son*, this one names him **the Comforter**.
+S: 6 Rom. viii. 32 — *he that spared not his own Son, but delivered him up for us all*
+S: 10 1 John i. 7 — *the blood of Jesus Christ his Son cleanseth us from all sin*
+S: 12 Eph. iv. 8 — *when he ascended up on high, he led captivity captive*
+S: 15 Matt. iii. 16 — *the Spirit of God descending like a dove, and lighting upon him*
+S: 17 Acts ii. 3 — *there appeared unto them cloven tongues like as of fire, and it sat upon each of them*
