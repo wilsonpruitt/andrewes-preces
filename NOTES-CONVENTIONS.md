@@ -219,22 +219,26 @@ The 2026-08-10 sweep, run at printed 324, found **71 invisible references under 
 
 Found 2026-08-11 opening printed 367. **The 1853 turns a long line, and it will turn one in the middle of a reference**: `[*Rom.* v.` stands at the end of one line and `5; viii. 24.]` at the head of the next. The book abbreviation and its numeral are then on different lines, and a per-line scan saw **neither half**. ⚠ **`audit_missing_books` cannot help here, because the book is in the list** — this is the first of the twelve that the §11 sweep was structurally unable to catch.
 
-**Seven references on five pages were invisible, and four of those pages were already written and committed**: printed 129 (`1 Chron. xxix. 12, 13`), 352 (`Psal. cxlii. 5`), 353 (`Prov. xix. 21` · `Prov. xx. 9` · `Prov. xvii. 11. 13`), 354 (`Ezech. xv. 7`), 367 (`Rom. v. 5`).
+**Eleven references on eight pages were invisible, and six of those pages were already written and committed**: printed 25 (`Rom. xiii. 13`), 129 (`1 Chron. xxix. 12, 13`), 334 (`Psal. lxix. 15`), 335 (`Psal. xxxviii. 9`), 352 (`Psal. cxlii. 5`), 353 (`Prov. xix. 21` · `Prov. xx. 9` · `Prov. xvii. 11. 13`), 354 (`Ezech. xv. 7`), 367–368 (`Rom. v. 5` · `Gal. ii. 16` · `1 Tim. ii. 5, 6`).
 
 **Two further forms came out of the same sweep and are fixed with it:**
 - ⚠ **A second CHAPTER of the book just named, cited bare after a semicolon** — `*Rom.* v. 5; viii. 24` · `*Prov.* viii. 15; xxi. 1` · `*Ps.* li. 15; lxxi. 8`. `Vers.` carries book *and* chapter (§11a); this carries only the **book**. Three in the volume, all three invisible.
 - ⚠ **A raised point for a full stop** — `*Prov.* xx· 9` at printed 353, once in the volume, and the transcript's own flag already recorded it. The index normalises it so a tag written `Prov. xx. 9` matches; **the printed form still stands in the transcript.**
 
-**The tell in the source is an opening `[` with no `]` on the same line**, and it takes one command to list every one in the volume:
+⚠⚠ **THE FIRST FIX WAS TOO NARROW, AND THE SECOND ALMOST TOO WIDE.** The tell first used was an opening `[` with no `]` on the line. **That misses every reference the 1853 prints bare** — §34's Greek pages carry no brackets at all, and `*Gal.*` / `ii. 16` and `1` / `*Tim.* ii. 5, 6` at printed 368 were still invisible after the "fix". The gate was removed so that every line break is tested, which found four more (printed 25, 334, 335 and 368) — **and manufactured five ghosts.**
+
+⚠⚠⚠ **THE GHOSTS ARE THE LESSON.** With the gate off, the bare count went **2,263 → 2,508**: a reference that already completes on its line also matches when the next line is appended, because the verse-list is greedy over spaces, so 245 were **duplicates**. And once that was guarded, five remained that were not references at all — **`am. xc. 16`, `is. xv. 2`, `os lxxviii. 38`** — the tails of *quoniam*, *nobis* and a Latin accusative, because **the book alternation had no left-hand word boundary**. Every one looked like a perfectly ordinary citation. **A widened pattern must be diffed reference by reference against the old one; its count proves nothing.**
+
+Both are fixed — `NOLETTER` guards the left edge, and a crossing is accepted only when nothing starting at that position is already a complete reference on its own line. **Read the result before trusting it:**
 
 ```
-awk -F'[' 'FNR==1{f=FILENAME} {n=gsub(/\[/,"[");m=gsub(/\]/,"]"); if(n>m) print f": "FNR": "$0}' part*/*-transcript.md
+python3.11 tools/ref_index.py --turned      # every reference recovered from a turned line
 ```
 
-**Ten in the volume; run it whenever a new part is opened**, and read each — two of the ten are not references at all but a brace turned across lines.
+**Twelve in the volume**, each printed with the text on either side of the break.
 
 ⚠⚠ **Only the match that CROSSES the boundary is taken, and it is filed under the line where the bracket opened**, which is where the eye meets it. Joining the two lines outright would be wrong: printed 353's continuation line carries `*Psal.* xli. 5.` of its own, which belongs to its own line.
 
-✅ **The backfill is CLOSED.** Volume total **2,253 → 2,263**. Of the ten recovered, **three were already tagged or already written up** — 352's `Psal. cxlii. 5` is tagged, 353's `Prov. xix. 21` has an `R:` note to itself, 355's `Ps. lxxi. 8` is tagged beside its twin. **The pass had read the plate correctly; only the tool was blind.** Two were added (printed 128's `1 Chron. xxix. 12, 13`; printed 354's `Ezech. xv. 7`, which is *I will set my face against them* asked as **set not thy face against us**). **Printed 353 is at capacity** — 4pt under its leaf — so its three remaining recoveries take a **deliberate skip** under §8, exactly as the continuation backfill did on four pages.
+✅ **The backfill is CLOSED.** Volume total **2,253 → 2,267**. Of the ten recovered, **three were already tagged or already written up** — 352's `Psal. cxlii. 5` is tagged, 353's `Prov. xix. 21` has an `R:` note to itself, 355's `Ps. lxxi. 8` is tagged beside its twin. **The pass had read the plate correctly; only the tool was blind.** Five were added — printed 128's `1 Chron. xxix. 12, 13`; 354's `Ezech. xv. 7`, which is *I will set my face against them* asked as **set not thy face against us**; and 24, 334, 335 from the widened sweep. **Printed 353 is at capacity** — 4pt under its leaf — so its three remaining recoveries take a **deliberate skip** under §8, exactly as the continuation backfill did on four pages.
 
 Related: `CONVENTIONS.md` · `apparatus/print-notes.md` · `tools/ref_index.py` · `tools/audit_missing_books.py` · `tools/audit_emphasis.py`

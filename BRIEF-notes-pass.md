@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 368 → 436)
+# BRIEF — finishing the notes pass (printed 370 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,9 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–367**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–369**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 90 pages.** Part II, printed **368–395**; Part III, printed 398–436. **NEXT IS PRINTED 368.**
+**Remaining: 88 pages.** Part II, printed **370–395**; Part III, printed 398–436. **NEXT IS PRINTED 370 — and 370 is a PROSE page**, 26 lines of Latin against 3 of English (Bradwardine's prayer), so it takes **page-level `R:` notes with no leading figure and no marker** (§2.7). 380 and 381 are the same. §35 begins there.
 
 ⚠ **365 is on §4's parity-mismatched list, and the reason turned out to be harmless**: `audit_unsafe_pages` shows **Greek 22 · Latin 0 · English 22** — the leaf is Greek-only, so the flag is the *absent Latin*, not a disagreement, and line-keying was safe. **Check the same way before assuming a flagged page needs a hand-map.**
 
@@ -50,15 +50,17 @@ python3.11 tools/audit_emphasis.py     # after any build — leaked asterisks
 
 ## 1e. ⚠⚠ TWELFTH class, found the same day opening printed 367 — a REFERENCE TURNED ACROSS A LINE
 
-**The 1853 turns a long line, and it will turn one inside a reference**: `[*Rom.* v.` ends one line, `5; viii. 24.]` opens the next. Book and numeral then sit on different lines and the per-line scan saw **neither half**. ⚠ **`audit_missing_books` was structurally unable to catch this** — the book is in the list. **Seven references on five pages were invisible, four of those pages committed.** Two further forms fell out of the same sweep: a **second chapter cited bare after a semicolon** (`*Rom.* v. 5; viii. 24`, three in the volume) and a **raised point for a full stop** (`*Prov.* xx· 9`, once). All fixed in `ref_index`; volume total **2,253 → 2,263**. Full account and the closed backfill: **NOTES-CONVENTIONS §11b.**
+**The 1853 turns a long line, and it will turn one inside a reference**: `[*Rom.* v.` ends one line, `5; viii. 24.]` opens the next. Book and numeral then sit on different lines and the per-line scan saw **neither half**. ⚠ **`audit_missing_books` was structurally unable to catch this** — the book is in the list. **Eleven references on eight pages were invisible, six of those pages committed.** Two further forms fell out of the same sweep: a **second chapter cited bare after a semicolon** (`*Rom.* v. 5; viii. 24`, three in the volume) and a **raised point for a full stop** (`*Prov.* xx· 9`, once). All fixed in `ref_index`; volume total **2,253 → 2,267**. Full account and the closed backfill: **NOTES-CONVENTIONS §11b.**
 
-**The tell is an opening `[` with no `]` on the line. Run it when you open a new part:**
+⚠⚠ **THE FIRST FIX WAS TOO NARROW AND THE SECOND ALMOST TOO WIDE — this is the part to read.** The first tell was an unclosed `[`, which **misses every reference the 1853 prints bare**: §34's Greek pages carry no brackets, and printed 368's `*Gal.*` / `ii. 16` was still invisible after the "fix". Testing every line break instead found four more — **and manufactured five ghosts**, `am. xc. 16` · `is. xv. 2` · `os lxxviii. 38`, the tails of *quoniam* and *nobis* read as Amos and Isaiah, because the book pattern had no left word-boundary. The bare count had also jumped **2,263 → 2,508** on 245 duplicates. **Every one of the ghosts looked like an ordinary citation.**
+
+**A widened pattern must be diffed reference by reference against the old one. Its count proves nothing.** Both holes are closed; read the result:
 
 ```
-awk -F'[' 'FNR==1{f=FILENAME} {n=gsub(/\[/,"[");m=gsub(/\]/,"]"); if(n>m) print f": "FNR": "$0}' part*/*-transcript.md
+python3.11 tools/ref_index.py --turned          # twelve, each with the text either side of the break
 ```
 
-✅ **The reassuring half of the finding: of the ten recovered, three were already tagged or written up.** The pass had read the plate correctly; only the tool was blind. **Read the leaf, not the worksheet.**
+✅ **The reassuring half: of the recovered references, three were already tagged or written up.** The pass had read the plate correctly; only the tool was blind. **Read the leaf, not the worksheet.**
 
 ## 1b. ⚠⚠ Three tool defects found 2026-08-10 opening printed 324 — all fixed, backfill closed
 
