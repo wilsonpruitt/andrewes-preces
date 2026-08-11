@@ -27,7 +27,7 @@ For as penitence destroyeth old sins,
                 *A Preparatory Prayer.*
 
 Lord, my heart is ready:
-        (so saith the Psalmist,   *Ps.* 108:1.)
+        (so saith the Psalmist,   *Psal.* cviii. 1.)
 But, Lord, I fear that mine is not;
     Desire it I surely do, and grieve if it be less.
 Would God it were ready!  woe is me, that it is not!
@@ -50,7 +50,8 @@ Help my disposing, and supply my preparation.
 
 5. **⚠ The four-verb frame appears here a third time, and is worded to match §§34 and 37.** *I **fear** that mine is not; **Desire** it I surely do, and **grieve** if it be less.* §34 (printed 367) printed the frame empty; §37 head VI (printed 378) filled it; here three of the four verbs return in a third setting. Consistent English across all three lets a reader see it is a habit of Andrewes' mind, not a one-off table. **No objects are carried between the three passages.**
 
-6. **`(so saith the Psalmist, Ps. 108:1.)` is kept as an aside, not made into a reference tag.** He quotes *My heart is ready* — Coverdale's wording at Ps. 108:1 — and then in the very next line doubts it of himself. The parenthesis is the hinge: the Psalmist could say it; can I?
+6. **`(so saith the Psalmist, Psal. cviii. 1.)` is kept as an aside, not made into a reference tag.** He quotes *My heart is ready* — Coverdale's wording at Ps. cviii. 1 — and then in the very next line doubts it of himself. The parenthesis is the hinge: the Psalmist could say it; can I?
+   ⚠ **Corrected 2026-08-11 (notes pass): this line had rendered the plate's `*Psal.* cviii. 1.` as `*Ps.* 108:1`** — arabic and colon, the only in-text reference in the volume's English so set. Every other reference the 1853 prints *inside* the text keeps the plate's abbreviation and roman chapter in our English (`*Psal.* li. 3.` at 391, the whole §40 catena at 381–384), and the facing recto here would have printed `*Luke* x. 41.` two lines below an arabic `108:1`. **The reference is body text, not apparatus, so it follows the plate.**
 
 7. **⚠ `I will set my sins before me, that they be not before thee` keeps *before* in both lines.** Ps. li. 3, *my sin is ever before me*, answered by Ps. li. 9, *hide thy face from my sins* — and the answer works only because the same preposition governs both. Rendering the second half "that thou mayest not see them" would state the sense and lose the argument, which is the entire logic of confession compressed into two lines.
 
