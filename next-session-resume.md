@@ -4,9 +4,40 @@
 
 **The notes pass is the current and only front, and it is now written up to be picked up cold.** The brief carries the state, the working loop, the four rules that decide what you write, the per-page hazard lists for everything that remains, and the patterns to watch for. **Read it and `NOTES-CONVENTIONS.md`; you do not need this file to start.**
 
-**Done: printed 2–379, every unit, no gaps.** **Remaining: 78 pages** (Part II 380–395, then Part III 398–436; **380 and 381 are PROSE pages**). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
+**Done: printed 2–381, every unit, no gaps.** **Remaining: 76 pages** (Part II 382–395, then Part III 398–436). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
 
 Everything below is the **history**: how the rules were arrived at, what each stretch found, and the decisions already ruled. Consult it when the brief points here; do not read it front to back.
+
+---
+
+## ▶▶ SESSION LOG — 2026-08-11 (cont.) — printed 380–381, the two prose leaves
+
+Pre-flight clean (`audit_missing_books` reports only the known `*sec.*` false positive; `--continuations` and `check_lineparity` list nothing in this stretch). `check_notes 380 381` — 0 out of order, 0 numbering disagreements, 0 untagged; both pages are on the parity-mismatch list and were hand-mapped off `note_sheet`, as expected of a prose leaf.
+
+### ⚠ A defect in OUR English layer, not the plate's — and it is a class worth a sweep
+
+Printed 380 line 6 rendered the plate's `*Psal.* cviii. 1.` as **`*Ps.* 108:1`** — arabic figures and a colon. **It is body text, not apparatus**: the 1853 prints the attribution inside the prayer (*sic Psaltes, …*), so it must follow the plate like any other word on the line. Every other in-text reference in the English does — `*Psal.* li. 3.` at 391, the whole §40 catena at 381–384 — and **the facing recto prints a roman `*Luke* x. 41.` twelve lines below the arabic one.** Corrected, and the English file's flag 6 now records it.
+
+⚠⚠ **This is a class, not an incident, and it has never been swept.** The early Part II files (`02-preces-matutinae-english.md` and its neighbours) carry bracketed arabic references — `[Ps. 65:2]` — which are a **different thing**, our own added apparatus rather than the plate's printed text, and may well be right as they stand. **But nobody has checked which is which.** A sweep for arabic-colon figures in the English layers, sorted into *the plate printed this* and *we added this*, is a cheap job and belongs on the pre-print list.
+
+### The pages
+
+- **380 — §38 ends, §39 opens.** ⚠⚠⚠ **The volume's habitual movement runs BACKWARDS here, and it is the only place so far that it does.** Everywhere else an indicative of God's is prayed back as an imperative and claimed (§5.5 of the brief). Here the indicative is **man's** — *Paratum cor meum*, my heart is ready — and Andrewes **credits it to David in the running text and then declines it of himself**: *Sed, Domine, metuo ne meum non sit*. **The quotation is used to establish that he cannot say it.**
+  - **The four-verb frame's third setting**, after §34's empty frame at 367 and §37 head VI's filled one at 378: *metuo … cupio … doleo si minus*. **Three settings in fourteen leaves; it is a habit of mind and not a schema.** English kept consistent across all three, no objects carried between them.
+  - **`Fomite` is the *fomes peccati*** — the tinder left after baptism, the schools' term — and it stands between *Occasione* and *Periculo*, **which is precisely why it must not be read as a third word for temptation.**
+  - ✅ **The Fulgentius attribution comes off the pre-print list and the note says so.** Transcription flagged that *sit prius orator, quam doctor* reads like *De Doctrina Christiana* IV and the tag might be composite. **Brightman, working independently from the sources, also gives Fulgentius of Ruspe** (his index: *Migne Patr. lat.* lxv). Two editors, one attribution, nothing mended either way.
+- **381 — §39 ends, §40 opens.** ⭐⭐ **THE FIND: the catena's first entries are the proof-text of the counsel on the half-page above them, and nothing marks the join.** Fulgentius has just argued *let him be a pray-er before he is a teacher*; §40 opens with Martha's *one thing is needful* and then **Acts vi. 4, *we will give ourselves continually to prayer, and to the ministry of the word*** — **prayer first and the word second, the order the Twelve chose when they had to choose.** A borrowed argument given its warrant four lines later, on one page, unremarked.
+  - **§40 is not a prayer** — three catenæ of ἀφορμαί before three offices — and **its band is empty from here to 384 by decision** (§3a: every entry prints its own reference in its own line). The first note of the section says so, so the empty foot reads as a decision.
+  - ⚠ **The fathers are cited by NAME ALONE** where every scripture above them carries chapter and verse. **And the first three of them answer §37**: after six leaves in which the penitent could not weep, the catena hands him *God is a hearer, not of the voice, but of the heart* and *more is wrought by groanings than by speeches*.
+  - **`Ipsam rogo` — the Truth is addressed as a person**, and our English capitalises from that point so the shift is visible.
+
+### ⚠⚠ The budget on these leaves, and what it cost
+
+**Both pages ran over on the first build — 380 by 150pt, nearly a third of the leaf.** The recto is short (17 English lines) but **two of those lines are prose paragraphs that wrap for a dozen lines apiece**, and the verso carries 26 and 29 Latin lines. **A prose leaf's band budget is far smaller than its English line-count suggests.**
+
+Five notes on 380 went to three, four on 381 to four but each cut roughly in half. ✅ **The two that went whole were the chiasmus (*penitence destroys old sins, new sins penitence*) and the *coram me / coram Te* couplet — both describing a figure the facing English shows plainly.** That is the brief's own test applied where it bites: **when a leaf is over, the cut is the note that explains what the reader can already see.** Nothing was lost.
+
+**NEXT: printed 382.**
 
 ---
 

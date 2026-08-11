@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 380 → 436)
+# BRIEF — finishing the notes pass (printed 382 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,13 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–379**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–381**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 78 pages.** Part II, printed **380–395**; Part III, printed 398–436. **NEXT IS PRINTED 380 — a PROSE page**, as is 381; both take page-level `R:` notes with no leading figure and no marker (§2.7). **Printed 370 is done and is the model for them.**
+**Remaining: 76 pages.** Part II, printed **382–395**; Part III, printed 398–436. **NEXT IS PRINTED 382.**
+
+⚠⚠ **382–384 is §40's catena and it is the hardest stretch of housekeeping left in Part II. Read that section's transcript flags before keying anything.** Three things bite at once: **(1) the offset breaks** — printed 381 is PDF 408 at **+27**, but **the spread 380/381 is scanned three times**, so printed 382 is PDF **413** at **+31**. Verify every leaf by eye; 385's signature `AND. PRECES. — 3 D` is the independent check. **(2) Four scripts, and the Hebrew at 383 is MAIN TEXT** — `לך דומיה תהלה`, Ps. lxv. 2 in the Hebrew numbering, and the entry exists *because* the Hebrew says *to thee silence is praise* where the Vulgate says *Te decet hymnus*. **The Prayer Book's wording would destroy the argument; it must not creep in.** **(3) The band stays empty to 384** — every entry prints its own reference on its own line (§3a), and 381's first note has already said so for the whole section.
+
+⚠ **Printed 380 and 381 were the last prose leaves and are done; 370 was the model.** What they taught is in §2's budget warning below — **a prose leaf's band budget is far smaller than its English line-count suggests**, because a paragraph counts as one "line" in `note_sheet` and wraps for a dozen on the page.
 
 ⚠⚠ **SIX UNMARKED LEAVES RUNNING, 374–379, and the band is empty on every one of them.** §37's whole confession is made of allusion the plate never references — Egypt's leeks, the prodigal's husks, Paul's *who hath bewitched you*, Jacob at the ford, Romans vii. 18 word for word, the Advent *Rorate cœli*. **After §36, where nearly every line printed its own reference, that is a change of habit and not an oversight.** ⚠⚠⚠ **And the volume's own earlier marked pages are the key to the unmarked ones**: printed 335's brace fastens *ariditas* to Is. xxiv. 16 and the *fountain of tears* to Jer. ix. 1, and both come back unreferenced at 376 and 378. **A concordance built from the plate's marks joins none of it.**
 
@@ -146,7 +150,7 @@ Use `tools/note_sheet.py` and hand-map. **The tell, which found three broken pag
 **⚠ Over the 14-reference budget — select:**
 `330:21 · 327:21 · 406:20 · 357:20 · 331:18 · 367:16 · 328:16 · 408:15 · 342:15 · 338:15`
 
-**⚠ Prose pages, which cannot take line-keyed notes at all** (370, 380, 381): write page-level `R:` notes with no leading figure. Printed 370 is 26 lines of Latin against 3 of English.
+**✅ Prose pages — ALL DONE** (370, 380, 381); none remains. ⚠⚠ **What they cost, for the next tight leaf: 380 built 150pt over on a recto of only seventeen `note_sheet` lines**, because two of those lines were prose paragraphs that wrap for a dozen apiece. **Five notes went to three.** The two cut whole were the closing chiasmus and the *coram me / coram Te* couplet — **both explaining a figure the facing English shows plainly, which is the cut to reach for every time.**
 
 ---
 
@@ -176,6 +180,8 @@ These recur, and each is a thing a careless pass destroys.
 ## 6. After the notes pass
 
 The pre-print list is an **images** problem, not a collation one — printed 210 · 239 · 386's garbled Hebrew · 414's cento · `p. 207` · 370/371's missing heading, four of six blocked on a non-Google 600-dpi digitization. Brightman by text is near exhausted.
+
+⚠⚠ **ONE NON-IMAGE JOB WAS ADDED 2026-08-11 and it is cheap: sweep the English layers for arabic-colon references.** Printed 380 rendered the plate's own in-text `*Psal.* cviii. 1.` as `*Ps.* 108:1` — **the only in-text reference in the volume so set**, and it was fixed. **But the early Part II files carry bracketed arabic (`[Ps. 65:2]`) which is a different thing** — our added apparatus, not the plate's printed text, and probably right as it stands. **Nobody has sorted which is which.** The rule that decides each case: **a reference the 1853 prints inside the text is body text and follows the plate; a reference we supplied is ours and follows our own convention.**
 
 **Owed by Wilson:** a push (`git push origin main`, protected); a non-Google digitization; and the preface (`prototypes/front/preface.tex`), which is still a draft in my words and is blocked on his voice, not on research.
 
