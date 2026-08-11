@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 359 → 436)
+# BRIEF — finishing the notes pass (printed 361 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,9 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–358**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–360**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 99 pages.** Part II, printed **359–395**; Part III, printed 398–436. **NEXT IS PRINTED 359.**
+**Remaining: 97 pages.** Part II, printed **361–395**; Part III, printed 398–436. **NEXT IS PRINTED 361.**
 
 ⚠⚠ **The liturgical evidence now runs BOTH WAYS and the introduction must say so.** Five marks of the Eastern rite in 349–356 (anaphora · ἑκουσίων καὶ ἀκουσίων · the Pater Noster doxology · *Carbo duplicis naturæ* · praying Ps. xxvi. 8 in Greek) — **and then 358 is the Prayer Book LITANY's opening four invocations in Latin, in the Litany's own order.** Do not argue one side only.
 
