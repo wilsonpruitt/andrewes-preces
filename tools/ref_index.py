@@ -85,10 +85,20 @@ BOOK = (r"Gen|Exod|Ex|Lev|Num|Deut|Josh|Jos|Judic|Judg|Ruth|Reg|Sam|Paralip|Para
 # the men of Shechem, printed 282), and with a bare verse it is JUDE. The chapter
 # form is tried first, so the distinction falls out of the numeral and needs no list.
 CHAPTERLESS = r"Jud|Philem|Obad|Abd"
+# ⚠⚠ `NOLETTER` is load-bearing and was added 2026-08-11. The book alternation had
+# no left-hand word boundary, so it could match the TAIL of an ordinary word: the
+# `am` of *quoniam* read as Amos, the `is` of *nobis* as Isaiah, the `os` of a Latin
+# accusative as Osee. Within one line that rarely produced a whole reference, but as
+# soon as the scan was allowed to join a turned line it manufactured five —
+# `am. xc. 16`, `is. xv. 2`, `os lxxviii. 38` — every one of them a plausible-looking
+# book-and-verse that does not exist on the page. **A widened pattern must be
+# diffed reference by reference, never trusted on its count.**
+NOLETTER = r"(?<![^\W\d_])"
 REF = re.compile(
-    r"((?:\b[12I]\.?\s*)?(?:%s)\.?\s*[ivxlc]+[.·]?\s*[\d,\s.]*\d"
-    r"|(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d[\d,\s]*\d|(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d)"
-    % (BOOK, CHAPTERLESS, CHAPTERLESS), re.I)
+    r"(%s(?:\b[12I]\.?\s*)?(?:%s)\.?\s*[ivxlc]+[.·]?\s*[\d,\s.]*\d"
+    r"|%s(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d[\d,\s]*\d"
+    r"|%s(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d)"
+    % (NOLETTER, BOOK, NOLETTER, CHAPTERLESS, NOLETTER, CHAPTERLESS), re.I)
 # ⚠⚠ NINTH INSTANCE of the silent-shortfall failure, and the LARGEST — found
 # 2026-08-10 while restoring printed 239. The 1853 cites a second verse from the
 # book and chapter it has just named by printing `*Vers.* N`, and repeats a
@@ -131,6 +141,8 @@ STEMBOOK = re.compile(r"^((?:[123I]\.?\s*)?[A-Za-z]+\.?)\s*[ivxlc]", re.I)
 # is refused rather than guessed at.
 STEM = re.compile(r"^(.*?[ivxlc]+\.?\s*)\d[\d,\s.]*$", re.I)
 CONTINUATIONS = []
+# Every reference recovered from a TURNED LINE (§11b), for `--turned`.
+TURNED = []
 MARK = re.compile(r"<!--\s*printed (\d+)")
 # The same pattern `proof2tex` strips before it decides a line is empty. Kept
 # identical to it on purpose: the index must count exactly the lines the builder
@@ -210,13 +222,22 @@ def index():
             # continuation line carries `*Psal.* xli. 5.` of its own, which belongs
             # to its own line and must not be dragged up onto the line before.
             bridge = []
-            if raw.count("[") > raw.count("]") and idx + 1 < len(all_raw):
+            if idx + 1 < len(all_raw):
                 nxt = re.sub(r"[*`\[\]]", "", COMMENT.sub("", all_raw[idx + 1]))
                 joined = clean + " " + nxt
+                # ⚠ A reference that ALREADY completes on this line also matches when
+                # the next line is appended, because the verse-list is greedy over
+                # spaces — so the naive test duplicated 245 references. A crossing is
+                # genuine only when nothing starting at that same position is a
+                # complete reference on this line by itself.
+                own = {m.start() for m in REF.finditer(clean)}
                 for m in REF.finditer(joined):
-                    if m.start() < len(clean) < m.end():
+                    if m.start() < len(clean) < m.end() and m.start() not in own:
                         bridge.append(m.group(0))
                         skip_to = m.end() - len(clean) - 1
+                        TURNED.append((page, line_no,
+                                       re.sub(r"\s+", " ", m.group(0)).strip(),
+                                       clean.strip()[-34:], nxt.strip()[:26]))
             events = [(m.start(), "full", m.group(0)) for m in REF.finditer(clean)]
             events += [(m.start(), "cont", m) for m in CONT.finditer(clean)]
             if skip_to and not bridge:
@@ -277,10 +298,21 @@ def main():
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--continuations", action="store_true",
                     help="every resolved Vers./Ibid. with its antecedent")
+    ap.add_argument("--turned", action="store_true",
+                    help="every reference recovered from a turned line (§11b)")
     ap.add_argument("--stub", type=int,
                     help="emit print-notes.md S: lines for this page")
     args = ap.parse_args()
     idx = index()
+
+    if args.turned:
+        print(f"{len(TURNED)} reference(s) recovered from a TURNED LINE\n")
+        for pg, ln, ref, before, after in TURNED:
+            print(f"  printed {pg:>3} line {ln:>3}  {ref:<20} …{before} ⏎ {after}…")
+        print("\n⚠ READ EVERY ONE. The book pattern is matched across a line break, and a\n"
+              "  widened pattern manufactures plausible references: five lowercase ghosts\n"
+              "  (`am. xc. 16`, `is. xv. 2`) appeared before the left word-boundary was added.")
+        return
 
     if args.continuations:
         print(f"{len(CONTINUATIONS)} continuation references resolved\n")
