@@ -4,7 +4,7 @@
 
 **The notes pass is the current and only front, and it is now written up to be picked up cold.** The brief carries the state, the working loop, the four rules that decide what you write, the per-page hazard lists for everything that remains, and the patterns to watch for. **Read it and `NOTES-CONVENTIONS.md`; you do not need this file to start.**
 
-**Done: printed 2–369, every unit, no gaps.** **Remaining: 88 pages** (Part II 370–395, then Part III 398–436; **370 is a PROSE page** and takes page-level notes). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
+**Done: printed 2–373, every unit, no gaps.** **Remaining: 84 pages** (Part II 374–395, then Part III 398–436; **380 and 381 are the remaining PROSE pages**). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
 
 Everything below is the **history**: how the rules were arrived at, what each stretch found, and the decisions already ruled. Consult it when the brief points here; do not read it front to back.
 
@@ -53,6 +53,15 @@ Opening printed 368 showed the first fix was **too narrow**. Its tell was an unc
 Both closed (`NOLETTER`, and a crossing accepted only where nothing at that position already completes on its own line). **Final: 2,253 → 2,267, eleven references on eight pages, six of them committed.** ✅ **Backfill closed**: 24, 128, 334, 335, 354 took tags; 353 is 4pt under its leaf and keeps its §8 skip; 352/353/355's three were already tagged or written up.
 
 ⚠⚠ **THE RULE THIS PAID FOR: a widened pattern must be diffed reference by reference against the old one. Its count proves nothing** — and `--all`'s tally moved in the *right direction* while the index was filling with ghosts. `python3.11 tools/ref_index.py --turned` now prints all twelve with the text either side of the break. **Read them.**
+
+### The pages, 370–373 — §35, §36 and §37 opened
+
+- **370 — Bradwardine, and the volume's one named borrowing.** The whole leaf is a borrowed prayer set out under its author's name with book, chapter and corollary — where eight leaves back it took Augustine's *hic ure, hic seca* without a word. ⚠ **The prose is built on one word**: *Teipsum* thirteen times, and an English that varies it destroys the prayer. ⚠⚠ **The lament is a chain in which every noun picks up the verb before it** — *amore languebo, languore mœrebo, mœrore dolebo, dolore lugebo* — four links, followed by three five-syllable adverbs. ⚠⚠⚠ **And it argues with God and then tells him what would be unworthy of him**: *Non est hoc Tuum … nullatenus congruit, nusquam decet.* (Who Bradwardine was and which edition Andrewes used are already in `prototypes/back/sources.tex`; the band does not repeat it.)
+- **371 — §36 opens HEADLESS**, mid-intercession, on a bare *Pro*. ⚠⚠ **And the list of the afflicted ends where none ends**: after the sick, the condemned and the man at sea comes *præcipue non orantibus* — **chiefly for them that pray not**, the one affliction the sufferer cannot ask about himself. Then *De Pœnitentia*, **a schema and not a prayer**, so the band selects rather than tagging every warrant.
+- **372 — the second plank, and God as suitor.** *Secunda tabula* is Jerome's technical name for penance after baptism and must not become "a second chance". ⚠ **God is made the suitor and the page counts six ways** — proclaiming · complaining · swearing · waiting · promising · threatening — an argument that he has exhausted persuasion. ⚠⚠⚠ **Hezekiah's *cum ipse fecerit*, when HE hath done it, becomes *cum ipse fecerim, fecerim, fecerim*** — one letter changes the person, and the repetition is the confession.
+- **373 — Isaiah xxxviii quarried out of order**, 15 · 17 · 16 · 17 · 14. **Part I printed Daniel's prayer whole and in sequence; Part II mines Isaiah's.** ⚠ He asks for what the verse four lines below already grants — *O utinam in amaritudine amarissima*, against the text's own *amaritudo mea facta est amarissima*. ⚠⚠⚠ **Three penitents named and answered in a different order**: looked on with the eyes that saw *the Magdalen, Peter, the Thief*; asking that with *Peter he may weep, the Thief confess, the Magdalen love*. **The acts stay with their own people and the sequence rotates by one** — not a slip, and not to be tidied into parallel.
+
+⚠ **A claim checked before it was written.** The Vulgate wording behind the *fecerim* note was asserted from memory first; the transcript's own flag and Part III's collation both confirm it independently — **and Part III's twin at printed 409 differs twice**, *hæc fecerim* once under a chapter figure one numeral short. **Neither recension is conformed to the other.**
 
 ### The pages, 365–369
 

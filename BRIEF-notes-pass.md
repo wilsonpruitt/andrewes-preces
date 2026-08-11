@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 370 → 436)
+# BRIEF — finishing the notes pass (printed 374 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,11 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–369**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–373**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 88 pages.** Part II, printed **370–395**; Part III, printed 398–436. **NEXT IS PRINTED 370 — and 370 is a PROSE page**, 26 lines of Latin against 3 of English (Bradwardine's prayer), so it takes **page-level `R:` notes with no leading figure and no marker** (§2.7). 380 and 381 are the same. §35 begins there.
+**Remaining: 84 pages.** Part II, printed **374–395**; Part III, printed 398–436. **NEXT IS PRINTED 374**, inside §37's *Confessio Peccatorum* (six numbered heads I–VI running to the foot of 379). ⚠ **380 and 381 are the remaining PROSE pages** and take page-level `R:` notes with no leading figure and no marker (§2.7) — 370 is done and is the model.
+
+⚠ **§37 is the section to know for what remains**: its whole confession is built on **Isaiah xxxviii**, Hezekiah's psalm of the sick king, **quarried out of order** (15 · 17 · 16 · 17 · 14 across 372–373) and with the person changed — the Vulgate's *cum ipse fecerit*, when **He** hath done it, becomes ***cum ipse fecerim, fecerim, fecerim***. ⚠⚠ **Part III has the twin at printed 409** and it differs twice: *hæc fecerim* **once**, under a chapter figure one numeral short. **Never conform the two.**
 
 ⚠ **365 is on §4's parity-mismatched list, and the reason turned out to be harmless**: `audit_unsafe_pages` shows **Greek 22 · Latin 0 · English 22** — the leaf is Greek-only, so the flag is the *absent Latin*, not a disagreement, and line-keying was safe. **Check the same way before assuming a flagged page needs a hand-map.**
 
