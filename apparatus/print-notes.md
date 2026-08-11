@@ -1899,3 +1899,13 @@ S: 10 1 John i. 7 — *the blood of Jesus Christ his Son cleanseth us from all s
 S: 12 Eph. iv. 8 — *when he ascended up on high, he led captivity captive*
 S: 15 Matt. iii. 16 — *the Spirit of God descending like a dove, and lighting upon him*
 S: 17 Acts ii. 3 — *there appeared unto them cloven tongues like as of fire, and it sat upon each of them*
+
+## 359
+S: 7 Rom. xiv. 9 — *to this end Christ both died, and rose, and revived, that he might be Lord both of the dead and living*
+R: 12 ⚠⚠⚠ **A prayer for the dead, in a bishop of the Church of England's private manual, in the Requiem's own words.** *Defunctis requiem et lucem perpetuam* is the *Requiem æternam dona eis, Domine, et lux perpetua luceat eis* of the Mass for the departed. ⚠ **The page has just laid the ground for it**: Christ is *Lord alike of the living and of the dead*, and the two halves of one company are named in turn — *whose we are*, whom this world yet holds in the flesh, and *whose also are they*, whom the world to come has already received unclothed of the body. **The petition then divides its gifts along that line**: to the living mercy and grace, to the departed rest and light. **The English renders it plainly and does not soften it**, which is the edition's rule and is the only honest course with a text of this kind.
+S: 19 Gen. xxiv. 7 — Abraham to his servant, before the journey for Rebekah: *he shall send his angel before thee*
+S: 20 Matt. ii. 9 — *the star, which they saw in the east, went before them*
+S: 21 Matt. xiv. 30 — Peter on the water: *beginning to sink, he cried, saying, Lord, save me*. ⚠ **The four examples are two and two: Abraham's servant and the Wise Men were GUIDED, Peter and Paul were RESCUED — one pair for the setting out, one for what may happen on the way.**
+S: 22 Acts xxvii. 44 — the wreck off Malta: *and so it came to pass, that they escaped all safe to land*
+S: 26 Ps. lxviii. 1 — *let God arise, let his enemies be scattered*
+S: 28 Ps. cxix. 115 — *I will keep the commandments of my God*
