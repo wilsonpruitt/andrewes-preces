@@ -66,15 +66,25 @@ def tex_escape(s: str) -> str:
     return s
 
 
+# ⚠ Bold may CONTAIN italic. An earlier form of this used `[^*]+` for the bold
+# body, so `**bold *italic* bold**` never matched the bold rule at all; the italic
+# rule then fired on the inner pair and on whatever stray markers were left, which
+# scrambled the emphasis AND printed a literal `*` in the band. 72 of them stood in
+# the Part II TeX alone, all in notes already committed, and nothing in the pipeline
+# looked for them. `tools/audit_emphasis.py` is the sweep that now does.
+BOLD = re.compile(r"\*\*((?:[^*]|\*(?!\*))+?)\*\*")
+ITAL = re.compile(r"\*([^*]+?)\*")
+
+
+def md_emph(t: str) -> str:
+    """Markdown emphasis -> TeX, bold first so it may enclose italic."""
+    t = BOLD.sub(r"\\textbf{\1}", t)
+    return ITAL.sub(r"\\emph{\1}", t)
+
+
 def tex_inline(s: str) -> str:
-    """Escape a scrap of source prose and honour its markdown emphasis. Section
-    headings are written like the rest of the files (`§6 *Sacrificium Vespertinum*`),
-    so escaping alone sets the asterisks as literal characters — which is what all
-    49 Part II--III headings did."""
-    t = tex_escape(s)
-    t = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", t)
-    t = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", t)
-    return t
+    """Escape a scrap of source prose and honour its markdown emphasis."""
+    return md_emph(tex_escape(s))
 
 
 def render_line(raw: str):
@@ -93,9 +103,7 @@ def render_line(raw: str):
         return "\x00%d\x00" % (len(gaps) - 1)
 
     body = GAP.sub(stash, body)
-    text = tex_escape(body)
-    text = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", text)
-    text = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", text)
+    text = md_emph(tex_escape(body))
     text = HEBREW.sub(lambda m: r"\RL{%s}" % m.group(0), text)
     text = re.sub(r"\x00(\d+)\x00",
                   lambda m: r"\hspace{%.2fem}" % (gaps[int(m.group(1))] * SPACE_EM),
