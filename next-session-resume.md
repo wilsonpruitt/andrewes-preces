@@ -4,13 +4,13 @@
 
 **The notes pass is the current and only front, and it is now written up to be picked up cold.** The brief carries the state, the working loop, the four rules that decide what you write, the per-page hazard lists for everything that remains, and the patterns to watch for. **Read it and `NOTES-CONVENTIONS.md`; you do not need this file to start.**
 
-**Done: printed 2–364, every unit, no gaps.** **Remaining: 93 pages** (Part II 365–395, then Part III 398–436). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
+**Done: printed 2–367, every unit, no gaps.** **Remaining: 90 pages** (Part II 368–395, then Part III 398–436). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
 
 Everything below is the **history**: how the rules were arrived at, what each stretch found, and the decisions already ruled. Consult it when the brief points here; do not read it front to back.
 
 ---
 
-## ▶▶ SESSION LOG — 2026-08-11, §31–§32 done (printed 361–364), and the ELEVENTH tool-blindness class
+## ▶▶ SESSION LOG — 2026-08-11, §31–§34 done (printed 361–367), and the ELEVENTH *and TWELFTH* tool-blindness classes
 
 **Started at printed 361, finished 364.** Pre-flight (`audit_missing_books` · `ref_index --continuations` · `check_lineparity`) clean for this stretch; `check_notes 361 364` reports 0 out of order, 0 numbering disagreements, 0 untagged.
 
@@ -32,6 +32,22 @@ Everything below is the **history**: how the rules were arrived at, what each st
 - **364 — the *Per {…}* pleading, a brace catalogue; band nearly empty and that is right (§3a).** The left brace is **Philippians ii turned into nouns and run backwards**, self-emptying down to the womb. ⚠⚠ **Matt. viii. 20 returns doing the opposite of what it did at printed 238** — there turned round to indict the man praying, here simply pleaded. ⚠⚠ ***Ἐξομολόγησις* is NOT confession of sin here** but acknowledgement-and-so-praise, which is why its limbs are a Song and a Psalm.
 
 ⚠ **A note verified before it was "fixed."** The committed note on the Daniel prayer says ix. 16 opens the intercession at printed 343; `ref_index 343` shows no Daniel and grep finds none in Part II outside §31. **It is right anyway** — 343's *Deprecor Te, Domine, in omni misericordia Tua, ut auferatur ira Tua* is the verse, untagged by the plate. **The note was about the text, not the mark.**
+
+### ⚠⚠⚠ THE TWELFTH CLASS, found the same day opening printed 367 — a REFERENCE TURNED ACROSS A LINE
+
+The 1853 turns a long line and **will turn one inside a reference**: `[*Rom.* v.` ends one line, `5; viii. 24.]` opens the next. Book and numeral then sit on different lines and the per-line scan saw **neither half**. ⚠ **`audit_missing_books` was structurally unable to catch it** — the book is in the list, which is what made this one different from §11. **Seven references on five pages were invisible, four of those pages already committed.** Two further forms fell out of the same sweep: a **second chapter cited bare after a semicolon** (three in the volume) and a **raised point for a full stop** (once, printed 353, and the transcript's own flag had already recorded it).
+
+Fixed in `ref_index` — only the match that **crosses the boundary** is taken, and it is filed under the line where the bracket opened, because printed 353's continuation line carries a reference of its own that must not be dragged up. **Volume total 2,253 → 2,263.** Sweep, full account and the closed backfill: **NOTES-CONVENTIONS §11b**; the one-line detector is in **BRIEF §1e**.
+
+✅ **The reassuring half: of the ten recovered, THREE WERE ALREADY TAGGED OR WRITTEN UP** — 352's `Psal. cxlii. 5` tagged, 353's `Prov. xix. 21` with an `R:` note to itself, 355's `Ps. lxxi. 8` tagged beside its twin. **The pass had read the plate correctly; only the tool was blind.** Two were added (128's `1 Chron. xxix. 12, 13`; 354's `Ezech. xv. 7` — *I will set my face against them* asked as **set not thy face against us**), and **353 is 4pt under its leaf, so its three remaining recoveries take a deliberate §8 skip.**
+
+⚠ **A band note is for the READER, not for us.** Two notes drafted this session explained that the index had been blind until 2026-08-11. That is repo history and does not belong in a printed apparatus; it came out of the band and lives here and in §11b instead.
+
+### The pages, 365–367
+
+- **365 — §33 closes.** ⚠⚠⚠ **The deliverance-catena is the *Commendatio Animæ*, the Western deathbed prayer, put into Greek** — *Libera, Domine, animam ejus, sicut liberasti Noe de diluvio · Abraham de Ur Chaldæorum · Isaac de hostia*. Andrewes keeps the form and changes three things: **Greek** for Latin; the roll carried on into the **New Testament** (the disciples in the storm, Peter, Paul); and the petition changed from *his soul* to ***us***, so a prayer for one man dying becomes one the living say daily. **The form is a Latin-West debt and the language is Greek** — the book's whole difficulty on one leaf. ⚠ The preposition drops after David and the list runs on the bare genitive: it accelerates as it lengthens, and is not restored. ⚠ **The §4 parity flag on this page is harmless** — Greek 22 · Latin 0 · English 22, so the flag is the absent Latin, not a disagreement.
+- **366 — §34.** ⚠⚠ *Domine, labia mea aperies* is **the daily office's opening versicle**, and the line above asks the same thing in the imperative, so **the prayer asks and the liturgy replies that it is already granted.** ⚠⚠ **The unworthiness sentence stands three times in Part II and no two dresses agree** — 345 (§24), here (§34), 384 (§41): *Magis deceret* · *Deceret magis* · *magis deceret*. **And one word is not a variation of dress**: 345 and 384 read *ingenita*, thine **inborn** goodness, where this leaf reads ***ingenti***, thine **exceeding** goodness. Kept as printed, neither reading claimed. ⚠ 384 carries the versicle too, so **§34 and §41 are near-twins and are not conformed.** The thanksgiving itself is the *Gloria in excelsis*' verbs closed by the Apocalypse's *Dignus es*.
+- **367 — §34's Act of Hope and Πιστεύω.** A **word-catena**, thirteen texts with *spes* in every one; the band is nearly silent under them by rule. ⚠ Four clauses that **do not finish** — *Vellem, si plus · Metuo, ne · Doleo, quod non · Gauderem, si* — each breaking off where its object would come; **nothing is supplied.** ⚠⚠⚠ **Under the Creed's own first word stand five sentences and not one is a credal article**: five men's confessions, labelled DAVID'S · PAUL'S · JOHN'S · PETER'S · NATHANAEL'S. **With §32's Ἀνακεφαλαίωσις at 363 that is two sections running that put something else where the Creed's propositions should be** — there the bare events, here other men's sentences. ⚠ **And the practice of captioning a text with whose it is, which this edition's tags follow, is the author's own** — a second instance beside the blessings at 425.
 
 ### ⚠ Recalibration for the rest of Part II
 

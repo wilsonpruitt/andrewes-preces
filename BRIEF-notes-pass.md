@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 365 → 436)
+# BRIEF — finishing the notes pass (printed 368 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,11 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–364**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–367**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 93 pages.** Part II, printed **365–395**; Part III, printed 398–436. **NEXT IS PRINTED 365 — and 365 is on the parity-mismatched list in §4, so hand-map it with `note_sheet.py` and read the `--stub` tell before keying anything.**
+**Remaining: 90 pages.** Part II, printed **368–395**; Part III, printed 398–436. **NEXT IS PRINTED 368.**
+
+⚠ **365 is on §4's parity-mismatched list, and the reason turned out to be harmless**: `audit_unsafe_pages` shows **Greek 22 · Latin 0 · English 22** — the leaf is Greek-only, so the flag is the *absent Latin*, not a disagreement, and line-keying was safe. **Check the same way before assuming a flagged page needs a hand-map.**
 
 ⚠⚠ **§32's *Interpellatio Eucharistica* (printed 363) is now the leaf to know**: *Recolo, gratias ago, admoneo, recordor, commemoro, offero, **vel peto ut offeras***. ***Admoneo* points the memorial at GOD**, and ***offero* is qualified in the same breath by *vel peto ut offeras*** — the sacrifice is offered and the offerer left an open question in one word. **With the anaphora at 349 it is the spine of any account of what rite this book came out of**, and it belongs in the introduction beside the both-ways evidence below.
 
@@ -46,6 +48,18 @@ python3.11 tools/audit_emphasis.py     # after any build — leaked asterisks
 
 ⚠ **A checker's first output is not evidence — including a checker written an hour ago.** The first version of this sweep asked "is an emphasis macro nearby?" and **under-reported**, waving through two genuinely scrambled notes.
 
+## 1e. ⚠⚠ TWELFTH class, found the same day opening printed 367 — a REFERENCE TURNED ACROSS A LINE
+
+**The 1853 turns a long line, and it will turn one inside a reference**: `[*Rom.* v.` ends one line, `5; viii. 24.]` opens the next. Book and numeral then sit on different lines and the per-line scan saw **neither half**. ⚠ **`audit_missing_books` was structurally unable to catch this** — the book is in the list. **Seven references on five pages were invisible, four of those pages committed.** Two further forms fell out of the same sweep: a **second chapter cited bare after a semicolon** (`*Rom.* v. 5; viii. 24`, three in the volume) and a **raised point for a full stop** (`*Prov.* xx· 9`, once). All fixed in `ref_index`; volume total **2,253 → 2,263**. Full account and the closed backfill: **NOTES-CONVENTIONS §11b.**
+
+**The tell is an opening `[` with no `]` on the line. Run it when you open a new part:**
+
+```
+awk -F'[' 'FNR==1{f=FILENAME} {n=gsub(/\[/,"[");m=gsub(/\]/,"]"); if(n>m) print f": "FNR": "$0}' part*/*-transcript.md
+```
+
+✅ **The reassuring half of the finding: of the ten recovered, three were already tagged or written up.** The pass had read the plate correctly; only the tool was blind. **Read the leaf, not the worksheet.**
+
 ## 1b. ⚠⚠ Three tool defects found 2026-08-10 opening printed 324 — all fixed, backfill closed
 
 None was visible in the built PDF, and two of the three corrupted **committed** work. They are the fifth, sixth and seventh of their kind, and the pattern is always the same: a tool quietly reports less, or reports wrong, and every downstream check agrees with it.
@@ -76,6 +90,7 @@ None was visible in the built PDF, and two of the three corrupted **committed** 
 ```
 python3.11 tools/audit_missing_books.py         # can the index see every book here?
 python3.11 tools/ref_index.py --continuations   # are its Vers./Ibid. resolutions sane?
+#   ... and §1e's bracket sweep when opening a new PART ...
 python3.11 tools/check_lineparity.py            # is this page safe to key by line?
 python3.11 tools/note_sheet.py 324              # refs by PLATE line + English NUMBERED
 #   ... write S:/R: entries into apparatus/print-notes.md ...
@@ -86,7 +101,9 @@ python3.11 tools/transcript2tex.py --fit
 python3.11 tools/audit_emphasis.py              # §1d — leaked asterisks
 ```
 
-⚠⚠ **THE BUDGET IS SMALLER HERE THAN §8's MEASURED CEILING.** Twelve tags plus two notes assumes a normal leaf; **these pages carry 25–30 English lines**, and four `R:` notes on a 30-line leaf ran **124pt over**. Printed 361 took four rewrites to come inside its leaf and 364 took five. ⚠ **And only removing a WHOLE WRAPPED LINE reduces the height** — 362 sat at exactly 532.67pt through two rounds of word-shaving. **On a long leaf write fewer, denser notes; do not plan to trim your way in.**
+⚠⚠ **THE BUDGET IS SMALLER HERE THAN §8's MEASURED CEILING.** Twelve tags plus two notes assumes a normal leaf; **these pages carry 25–30 English lines**, and four `R:` notes on a 30-line leaf ran **124pt over**. Printed 361 took four rewrites to come inside its leaf and 364 took five. ⚠ **And only removing a WHOLE WRAPPED LINE reduces the height** — 362 sat at exactly 532.67pt through two rounds of word-shaving, and 366 at 531.20pt through another. **On a long leaf write fewer, denser notes; do not plan to trim your way in.**
+
+⚠ **When a leaf is over and every finding looks load-bearing, the cut is nearly always a sentence that describes what the English already SHOWS.** 367's note glossed four Latin clauses the facing page translates; 366's noted a figure the reader sees plainly. **Both went, and nothing was lost** — which is §4's test applied late instead of early. **Each build cycle is ~7 minutes, so make the decisive cut the first time.**
 
 ⚠⚠ **`--fit` reads a file only XELATEX writes.** Running it straight after `transcript2tex.py` reports the *previous* run — it will show a page you just trimmed as still too tall, and, far worse, a page you just filled as still fitting. **Always xelatex between the build and the measurement.**
 

@@ -79,6 +79,8 @@ A note earns its place when it tells the reader something the facing page cannot
 - **An override of CONVENTIONS §9**, of which four are recorded.
 - **A source identification**, with its authority named (§7).
 
+⚠ **And the corollary, which is easy to forget while a tool is being fixed: a band note is for the READER, not for us.** Two notes drafted 2026-08-11 explained that `ref_index` had been blind to a turned reference until that morning. **That is repo history**: it belongs in §11b and the brief, not in a printed apparatus, where it tells the reader nothing about the page in front of him. The test is unchanged — *what does this leaf need that it cannot show?*
+
 ## 5. When the KJV *does* get printed
 
 Selectively, inside an `R:` note, and **only where Andrewes' text departs from the English Bible** — which is the case §9 already governs. Never as a systematic gloss.
@@ -213,4 +215,26 @@ The 2026-08-10 sweep, run at printed 324, found **71 invisible references under 
 
 ⚠ **Part I is keyed by the OPENING.** References print on the Latin recto (odd) and the band files under the Greek verso's even number, so an audit that looks up an odd page directly finds an empty band and reports every Latin recto in Part I as untagged. The tool handles this; a hand-written check must too.
 
-Related: `CONVENTIONS.md` · `apparatus/print-notes.md` · `tools/ref_index.py` · `tools/audit_missing_books.py`
+### 11b. ⚠⚠ TWELFTH instance — a reference BROKEN ACROSS A TURNED LINE
+
+Found 2026-08-11 opening printed 367. **The 1853 turns a long line, and it will turn one in the middle of a reference**: `[*Rom.* v.` stands at the end of one line and `5; viii. 24.]` at the head of the next. The book abbreviation and its numeral are then on different lines, and a per-line scan saw **neither half**. ⚠ **`audit_missing_books` cannot help here, because the book is in the list** — this is the first of the twelve that the §11 sweep was structurally unable to catch.
+
+**Seven references on five pages were invisible, and four of those pages were already written and committed**: printed 129 (`1 Chron. xxix. 12, 13`), 352 (`Psal. cxlii. 5`), 353 (`Prov. xix. 21` · `Prov. xx. 9` · `Prov. xvii. 11. 13`), 354 (`Ezech. xv. 7`), 367 (`Rom. v. 5`).
+
+**Two further forms came out of the same sweep and are fixed with it:**
+- ⚠ **A second CHAPTER of the book just named, cited bare after a semicolon** — `*Rom.* v. 5; viii. 24` · `*Prov.* viii. 15; xxi. 1` · `*Ps.* li. 15; lxxi. 8`. `Vers.` carries book *and* chapter (§11a); this carries only the **book**. Three in the volume, all three invisible.
+- ⚠ **A raised point for a full stop** — `*Prov.* xx· 9` at printed 353, once in the volume, and the transcript's own flag already recorded it. The index normalises it so a tag written `Prov. xx. 9` matches; **the printed form still stands in the transcript.**
+
+**The tell in the source is an opening `[` with no `]` on the same line**, and it takes one command to list every one in the volume:
+
+```
+awk -F'[' 'FNR==1{f=FILENAME} {n=gsub(/\[/,"[");m=gsub(/\]/,"]"); if(n>m) print f": "FNR": "$0}' part*/*-transcript.md
+```
+
+**Ten in the volume; run it whenever a new part is opened**, and read each — two of the ten are not references at all but a brace turned across lines.
+
+⚠⚠ **Only the match that CROSSES the boundary is taken, and it is filed under the line where the bracket opened**, which is where the eye meets it. Joining the two lines outright would be wrong: printed 353's continuation line carries `*Psal.* xli. 5.` of its own, which belongs to its own line.
+
+✅ **The backfill is CLOSED.** Volume total **2,253 → 2,263**. Of the ten recovered, **three were already tagged or already written up** — 352's `Psal. cxlii. 5` is tagged, 353's `Prov. xix. 21` has an `R:` note to itself, 355's `Ps. lxxi. 8` is tagged beside its twin. **The pass had read the plate correctly; only the tool was blind.** Two were added (printed 128's `1 Chron. xxix. 12, 13`; printed 354's `Ezech. xv. 7`, which is *I will set my face against them* asked as **set not thy face against us**). **Printed 353 is at capacity** — 4pt under its leaf — so its three remaining recoveries take a **deliberate skip** under §8, exactly as the continuation backfill did on four pages.
+
+Related: `CONVENTIONS.md` · `apparatus/print-notes.md` · `tools/ref_index.py` · `tools/audit_missing_books.py` · `tools/audit_emphasis.py`
