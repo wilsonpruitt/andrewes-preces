@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 374 → 436)
+# BRIEF — finishing the notes pass (printed 380 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,11 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–373**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–379**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 84 pages.** Part II, printed **374–395**; Part III, printed 398–436. **NEXT IS PRINTED 374**, inside §37's *Confessio Peccatorum* (six numbered heads I–VI running to the foot of 379). ⚠ **380 and 381 are the remaining PROSE pages** and take page-level `R:` notes with no leading figure and no marker (§2.7) — 370 is done and is the model.
+**Remaining: 78 pages.** Part II, printed **380–395**; Part III, printed 398–436. **NEXT IS PRINTED 380 — a PROSE page**, as is 381; both take page-level `R:` notes with no leading figure and no marker (§2.7). **Printed 370 is done and is the model for them.**
+
+⚠⚠ **SIX UNMARKED LEAVES RUNNING, 374–379, and the band is empty on every one of them.** §37's whole confession is made of allusion the plate never references — Egypt's leeks, the prodigal's husks, Paul's *who hath bewitched you*, Jacob at the ford, Romans vii. 18 word for word, the Advent *Rorate cœli*. **After §36, where nearly every line printed its own reference, that is a change of habit and not an oversight.** ⚠⚠⚠ **And the volume's own earlier marked pages are the key to the unmarked ones**: printed 335's brace fastens *ariditas* to Is. xxiv. 16 and the *fountain of tears* to Jer. ix. 1, and both come back unreferenced at 376 and 378. **A concordance built from the plate's marks joins none of it.**
 
 ⚠ **§37 is the section to know for what remains**: its whole confession is built on **Isaiah xxxviii**, Hezekiah's psalm of the sick king, **quarried out of order** (15 · 17 · 16 · 17 · 14 across 372–373) and with the person changed — the Vulgate's *cum ipse fecerit*, when **He** hath done it, becomes ***cum ipse fecerim, fecerim, fecerim***. ⚠⚠ **Part III has the twin at printed 409** and it differs twice: *hæc fecerim* **once**, under a chapter figure one numeral short. **Never conform the two.**
 

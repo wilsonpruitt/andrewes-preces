@@ -4,7 +4,7 @@
 
 **The notes pass is the current and only front, and it is now written up to be picked up cold.** The brief carries the state, the working loop, the four rules that decide what you write, the per-page hazard lists for everything that remains, and the patterns to watch for. **Read it and `NOTES-CONVENTIONS.md`; you do not need this file to start.**
 
-**Done: printed 2–373, every unit, no gaps.** **Remaining: 84 pages** (Part II 374–395, then Part III 398–436; **380 and 381 are the remaining PROSE pages**). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
+**Done: printed 2–379, every unit, no gaps.** **Remaining: 78 pages** (Part II 380–395, then Part III 398–436; **380 and 381 are PROSE pages**). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
 
 Everything below is the **history**: how the rules were arrived at, what each stretch found, and the decisions already ruled. Consult it when the brief points here; do not read it front to back.
 
@@ -53,6 +53,19 @@ Opening printed 368 showed the first fix was **too narrow**. Its tell was an unc
 Both closed (`NOLETTER`, and a crossing accepted only where nothing at that position already completes on its own line). **Final: 2,253 → 2,267, eleven references on eight pages, six of them committed.** ✅ **Backfill closed**: 24, 128, 334, 335, 354 took tags; 353 is 4pt under its leaf and keeps its §8 skip; 352/353/355's three were already tagged or written up.
 
 ⚠⚠ **THE RULE THIS PAID FOR: a widened pattern must be diffed reference by reference against the old one. Its count proves nothing** — and `--all`'s tally moved in the *right direction* while the index was filling with ghosts. `python3.11 tools/ref_index.py --turned` now prints all twelve with the text either side of the break. **Read them.**
+
+### §37 entire, printed 374–379 — SIX UNMARKED LEAVES
+
+⚠⚠ **The plate cites nothing on any of them, and the band is empty on all six.** Verified against the transcript rather than taken from the index, since two blindness classes had just been found. **§37's confession is made of allusion the plate never marks** — Egypt's leeks, the prodigal's husks, *who hath bewitched you*, Jacob at the ford, Romans vii. 18 word for word, the Advent *Rorate cœli*. **After §36, where nearly every line printed its reference, that is a change of habit.**
+
+⚠⚠⚠ **And the volume's own marked pages are the key to its unmarked ones.** Printed 335's brace fastens *ariditas* to Is. xxiv. 16 and the *fountain of tears* to Jer. ix. 1; **both come back unreferenced at 376 and 378**, and *ariditas* threads a third time into 378's *Rorate*. **A concordance built from the plate's marks joins none of it.**
+
+- **374 — two bad bargains**, both a table traded for a trough: Egypt's leeks against ***Panem Angelorum***, the prodigal's husks against the Father's table. ⚠⚠ **That phrase is 361's**, where the fourth petition *asked* for the Angels' bread; here he asks how he came to trade it away. Then *who hath bewitched me* (Paul's rebuke of the Galatians, turned inward) and *then was it better with me than now* (Hosea's wife) — **prodigal, Galatians and wife all saying *I will return*.** ⚠⚠⚠ **And 374 settles the *ingenita* question raised at 366**: 345, 374 and 384 all read *ingenita*, **inborn**; 366 alone reads *ingenti*. Three to one, still kept as printed, still nothing claimed.
+- **375 — *da mihi alium Te*.** ⚠⚠⚠ *Lord, if thou wilt that I depart from thee, **give me another Thee**; else will I not let thee go* — Jacob's own clause under an impossible condition, **so that a refusal is made to look like an obedience.** ⚠ And *Mirifica est · Mirifica misericordiam Tuam* — one word as adjective then imperative, the indicative prayed back as a command **turning on a single word instead of a verse.**
+- **376 — the drought.** *Ariditas mea, ariditas mea! væ mihi!* in Isaiah's doubled shape with the book's own noun in it. ⚠ **A man who cannot weep says everything twice.** ⚠⚠ *Extendam … quia **intendere** non possum magis* — **depth being impossible, he offers duration.**
+- **377 — the prayer argues God into consistency with his own commandment.** *Absit ut plus in nobis perfectionis esse velis, quam in Teipso est.* ⚠ **And it does the arithmetic**: seventy times seven multiplied out to **four hundred and ninety**. ⚠ The Publican quoted and bettered, with one parenthesis the sharpest thing on the leaf — he smites *that heart of mine*, **which smiteth me not enough.**
+- **378 — Romans vii. 18 word for word and unmarked**, and its verb *adjacet* already at work four leaves back. ⚠⚠ **Two water-miracles asked on one heart**: the psalm's flint turned to standing water, and twenty lines later *that I be not all flint*. Between them ***Rorate, cœli, desuper* with its object changed** — the heavens water not the Just One but *the drought of my desert*. ⚠ Four weepers, and **the Thief is gone from 373's three, because the Thief did not weep.**
+- **379 — §37 closes and §38 opens.** ⚠⚠⚠ **The self-accusation is chemistry**: *pumex*, the stone that will not hold water, then *vere calcem, in aqua frigida ferventem* — **quicklime, which seethes when cold water is poured on it** — fervent where it least behoves and dead where it behoves most. ⚠⚠⚠ **His own tears having failed, he asks a share in Christ's**: *Supersunt in illo mihi, quæ in me mihi desunt.* **A treasury-of-merits sentence in a Church of England bishop's private book**, applied to tears; rendered unsoftened, and to be expected to draw notice like the prayer for the departed at 359.
 
 ### The pages, 370–373 — §35, §36 and §37 opened
 
