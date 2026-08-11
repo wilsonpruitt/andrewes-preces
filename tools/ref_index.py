@@ -86,7 +86,7 @@ BOOK = (r"Gen|Exod|Ex|Lev|Num|Deut|Josh|Jos|Judic|Judg|Ruth|Reg|Sam|Paralip|Para
 # form is tried first, so the distinction falls out of the numeral and needs no list.
 CHAPTERLESS = r"Jud|Philem|Obad|Abd"
 REF = re.compile(
-    r"((?:\b[12I]\.?\s*)?(?:%s)\.?\s*[ivxlc]+\.?\s*[\d,\s.]*\d"
+    r"((?:\b[12I]\.?\s*)?(?:%s)\.?\s*[ivxlc]+[.·]?\s*[\d,\s.]*\d"
     r"|(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d[\d,\s]*\d|(?:\b[123I]\.?\s*)?(?:%s)\.?\s*\d)"
     % (BOOK, CHAPTERLESS, CHAPTERLESS), re.I)
 # ⚠⚠ NINTH INSTANCE of the silent-shortfall failure, and the LARGEST — found
@@ -121,6 +121,11 @@ REF = re.compile(
 # when a further number follows on the same line; widening it changed exactly
 # one reference in the volume, which is how it was verified.
 CONT = re.compile(r"\b(Vers|Ibid)\.\s*(\d+(?:\s*[,.]\s*\d+)*)?", re.I)
+# A full reference, then `; <roman>. <verse>` carrying the same book. Group 1 is
+# the reference the book is taken from, group 2 the bare chapter-and-verse.
+SEMI = re.compile(r"(?P<full>%s)\s*;\s*(?P<rest>[ivxlc]+[.·]?\s*\d[\d,\s]*)"
+                  % REF.pattern, re.I)
+STEMBOOK = re.compile(r"^((?:[123I]\.?\s*)?[A-Za-z]+\.?)\s*[ivxlc]", re.I)
 # The antecedent's book and chapter, i.e. everything up to and including the
 # roman numeral. A chapterless antecedent (Jude 20) cannot mother a `Vers.` and
 # is refused rather than guessed at.
@@ -151,7 +156,9 @@ def index():
     for path in sorted(glob.glob(str(ROOT / "part*" / "*-transcript.md"))):
         page, line_no, ordinal = None, 0, 0
         last = [None]   # most recent full reference; reset per file
-        for raw in Path(path).read_text().splitlines():
+        all_raw = Path(path).read_text().splitlines()
+        skip_to = 0     # chars of THIS line already consumed by the line above
+        for idx, raw in enumerate(all_raw):
             m = MARK.match(raw.strip())
             if m:
                 page = int(m.group(1))
@@ -185,11 +192,51 @@ def index():
             # sets `Sigilli [Eph. i. 13.] / et / Arrhabonis. [Vers. 14.]` on one
             # line, and a two-pass scan would resolve the Vers. against whatever
             # stood on the line before.
+            # ⚠⚠ TWELFTH INSTANCE of the silent-shortfall failure, found 2026-08-11
+            # opening printed 367. The 1853 turns a long line, and it will turn one
+            # INSIDE a reference — `[*Rom.* v.` at the end of one line and
+            # `5; viii. 24.]` at the head of the next. The book abbreviation and its
+            # numeral then sit on different lines and this per-line scan saw neither
+            # half: `audit_missing_books` could not help, because the book is in the
+            # list. **Seven references on five pages were invisible**, four of those
+            # pages already written and committed — 129 (`1 Chron. xxix. 12, 13`),
+            # 352 (`Psal. cxlii. 5`), 353 (`Prov. xix. 21`, `Prov. xx. 9`,
+            # `Prov. xvii. 11. 13`), 354 (`Ezech. xv. 7`), 367 (`Rom. v. 5` and
+            # `Rom. viii. 24`). The tell in the source is an opening `[` with no `]`.
+            #
+            # ⚠ ONLY THE MATCH THAT CROSSES THE BOUNDARY is taken, and it is filed
+            # under the line where the bracket OPENED, which is where the eye meets
+            # it. Joining the two lines outright would be wrong: printed 353's
+            # continuation line carries `*Psal.* xli. 5.` of its own, which belongs
+            # to its own line and must not be dragged up onto the line before.
+            bridge = []
+            if raw.count("[") > raw.count("]") and idx + 1 < len(all_raw):
+                nxt = re.sub(r"[*`\[\]]", "", COMMENT.sub("", all_raw[idx + 1]))
+                joined = clean + " " + nxt
+                for m in REF.finditer(joined):
+                    if m.start() < len(clean) < m.end():
+                        bridge.append(m.group(0))
+                        skip_to = m.end() - len(clean) - 1
             events = [(m.start(), "full", m.group(0)) for m in REF.finditer(clean)]
             events += [(m.start(), "cont", m) for m in CONT.finditer(clean)]
+            if skip_to and not bridge:
+                # this line's head was consumed by the reference turned from above
+                events = [e for e in events if e[0] >= skip_to]
+                skip_to = 0
+            events += [(len(clean) + 1, "full", b) for b in bridge]
+            # ⚠ Same class, second form: a SECOND CHAPTER of the book just named,
+            # cited bare after a semicolon — `*Rom.* v. 5; viii. 24`, `*Prov.* viii.
+            # 15; xxi. 1`, `*Ps.* li. 15; lxxi. 8`. `Vers.` carries book AND chapter
+            # and is handled below; this carries only the BOOK. Three in the volume,
+            # all three invisible, and that count is how the widening was checked.
+            for m in SEMI.finditer(joined if bridge else clean):
+                stem = STEMBOOK.match(m.group("full"))
+                if stem:
+                    events.append((min(m.start("rest"), len(clean)), "full",
+                                   "%s %s" % (stem.group(1), m.group("rest"))))
             for pos, kind, val in sorted(events, key=lambda e: e[0]):
                 if kind == "full":
-                    ref = re.sub(r"\s+", " ", val).strip()
+                    ref = re.sub(r"\s+", " ", val).replace("\u00b7", ".").strip()
                     out[page].append((line_no, ref))
                     last[0] = (ref, page, line_no, ordinal)
                     continue
