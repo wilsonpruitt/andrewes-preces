@@ -1,4 +1,4 @@
-# BRIEF — finishing the notes pass (printed 361 → 436)
+# BRIEF — finishing the notes pass (printed 365 → 436)
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -8,9 +8,11 @@
 
 ## 1. Where the work stands
 
-**Done: printed 2–360**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
+**Done: printed 2–364**, every unit, no gaps. (A tag may carry more than one reference, so the tag count is not the reference count.)
 
-**Remaining: 97 pages.** Part II, printed **361–395**; Part III, printed 398–436. **NEXT IS PRINTED 361.**
+**Remaining: 93 pages.** Part II, printed **365–395**; Part III, printed 398–436. **NEXT IS PRINTED 365 — and 365 is on the parity-mismatched list in §4, so hand-map it with `note_sheet.py` and read the `--stub` tell before keying anything.**
+
+⚠⚠ **§32's *Interpellatio Eucharistica* (printed 363) is now the leaf to know**: *Recolo, gratias ago, admoneo, recordor, commemoro, offero, **vel peto ut offeras***. ***Admoneo* points the memorial at GOD**, and ***offero* is qualified in the same breath by *vel peto ut offeras*** — the sacrifice is offered and the offerer left an open question in one word. **With the anaphora at 349 it is the spine of any account of what rite this book came out of**, and it belongs in the introduction beside the both-ways evidence below.
 
 ⚠⚠ **The liturgical evidence now runs BOTH WAYS and the introduction must say so.** Five marks of the Eastern rite in 349–356 (anaphora · ἑκουσίων καὶ ἀκουσίων · the Pater Noster doxology · *Carbo duplicis naturæ* · praying Ps. xxvi. 8 in Greek) — **and then 358 is the Prayer Book LITANY's opening four invocations in Latin, in the Litany's own order.** Do not argue one side only.
 
@@ -24,9 +26,25 @@
 
 **Many of the remaining leaves carry no references at all**, and from §18 onward whole runs are brace catalogue. **An empty band is a correct outcome** — see §3 below.
 
-The build is whole and stays whole: **617 pages, 0 TeX errors, 0 of 594 units too tall.** Keep it that way; `--fit` is not optional.
+The build is whole and stays whole: **619 pages, 0 TeX errors, 0 of 595 units too tall.** Keep it that way; `--fit` is not optional. (**6 overfull hboxes** stand, none structural and none of them a unit that fails to fit: the §42 contents heading, the preface twice, the ` | ` table at 316, the Bradwardine sources note, and 364's Greek run, which resisted two rewrites.)
 
 ---
+
+## 1d. ⚠⚠⚠ ELEVENTH tool-blindness class, found 2026-08-11 — LEAKED ASTERISKS. Fixed; a sweep now guards it
+
+`proof2tex.py` turned markdown emphasis into TeX with `re.sub(r"\*\*([^*]+)\*\*", …)`. **`[^*]+` forbids an asterisk inside bold, so `**bold *italic* bold**` never matched the bold rule** — the italic rule then fired on the leftovers, **printing a literal `*` in the band and scrambling the emphasis around it.** **72 stood in the Part II TeX alone, every one in a note already committed.**
+
+**Nothing in the pipeline looked for it**: the band looked complete, `check_notes` was happy, `--fit` said the page fitted, the PDF built without error. Fixed once in **`proof2tex.md_emph`**, which both builders import.
+
+```
+python3.11 tools/audit_emphasis.py     # after any build — leaked asterisks
+```
+
+⚠ It classifies **by where the asterisk is, not what it looks like.** The 1853's own footnote marks (202/203's *τὸν νοῦν ἀδόκιμον.\**, 388's Pliny note) live in `\pl{}{}` body lines and **must print**; an asterisk in a band or a heading is a failure. It also skips **stale artefacts** — `part1-proof.tex` &c. are from Aug 4 and *nothing regenerates them*, because the no-argument build writes only the `volume-*` files. A stale file reported defects fixed long ago and cost this session a false hunt.
+
+⚠⚠ **The fix RE-FLOWED THE WHOLE VOLUME.** Bold that had never been bold now is, so bands grew: **printed 345 went over its leaf though nobody touched it.** Expect it wherever a note nests italic inside bold, and re-measure Part III's committed pages when you next build it.
+
+⚠ **A checker's first output is not evidence — including a checker written an hour ago.** The first version of this sweep asked "is an emphasis macro nearby?" and **under-reported**, waving through two genuinely scrambled notes.
 
 ## 1b. ⚠⚠ Three tool defects found 2026-08-10 opening printed 324 — all fixed, backfill closed
 
@@ -65,7 +83,10 @@ python3.11 tools/check_notes.py 324 330         # order (ERROR) · numbering · 
 python3.11 tools/transcript2tex.py
 cd prototypes && xelatex volume-loeb.tex && xelatex volume-loeb.tex   # TWICE
 python3.11 tools/transcript2tex.py --fit
+python3.11 tools/audit_emphasis.py              # §1d — leaked asterisks
 ```
+
+⚠⚠ **THE BUDGET IS SMALLER HERE THAN §8's MEASURED CEILING.** Twelve tags plus two notes assumes a normal leaf; **these pages carry 25–30 English lines**, and four `R:` notes on a 30-line leaf ran **124pt over**. Printed 361 took four rewrites to come inside its leaf and 364 took five. ⚠ **And only removing a WHOLE WRAPPED LINE reduces the height** — 362 sat at exactly 532.67pt through two rounds of word-shaving. **On a long leaf write fewer, denser notes; do not plan to trim your way in.**
 
 ⚠⚠ **`--fit` reads a file only XELATEX writes.** Running it straight after `transcript2tex.py` reports the *previous* run — it will show a page you just trimmed as still too tall, and, far worse, a page you just filled as still fitting. **Always xelatex between the build and the measurement.**
 

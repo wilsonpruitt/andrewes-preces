@@ -4,9 +4,38 @@
 
 **The notes pass is the current and only front, and it is now written up to be picked up cold.** The brief carries the state, the working loop, the four rules that decide what you write, the per-page hazard lists for everything that remains, and the patterns to watch for. **Read it and `NOTES-CONVENTIONS.md`; you do not need this file to start.**
 
-**Done: printed 2–347, every unit, no gaps.** **Remaining: 110 pages** (Part II 348–395, then Part III 398–436). Build holds at **617 pages, 0 TeX errors, 0 of 594 units too tall**.
+**Done: printed 2–364, every unit, no gaps.** **Remaining: 93 pages** (Part II 365–395, then Part III 398–436). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
 
 Everything below is the **history**: how the rules were arrived at, what each stretch found, and the decisions already ruled. Consult it when the brief points here; do not read it front to back.
+
+---
+
+## ▶▶ SESSION LOG — 2026-08-11, §31–§32 done (printed 361–364), and the ELEVENTH tool-blindness class
+
+**Started at printed 361, finished 364.** Pre-flight (`audit_missing_books` · `ref_index --continuations` · `check_lineparity`) clean for this stretch; `check_notes 361 364` reports 0 out of order, 0 numbering disagreements, 0 untagged.
+
+### ⚠⚠⚠ THE FIND OF THE SESSION — leaked asterisks, and it corrupted work committed weeks ago
+
+`proof2tex.py` converted markdown emphasis with `re.sub(r"\*\*([^*]+)\*\*", …)`. **`[^*]+` forbids an asterisk inside bold, so `**bold *italic* bold**` never matched the bold rule at all** — the italic rule then fired on the leftovers, which **printed a literal `*` in the band and scrambled the emphasis around it.** There were **72 in the Part II TeX alone**, every one in a note already written and committed, e.g. printed 34's *Five pleas, and every one of them begins* `Quia`.
+
+- **Nothing in the pipeline looked for it.** The band looked complete, `check_notes` was happy, `--fit` said the page fitted, and the PDF built without error. **It is the same shape as §11 and §11a: a tool quietly reports wrong and every downstream check agrees with it.**
+- **Fixed once, in `proof2tex.md_emph`** (bold first, non-greedy, inner single `*` allowed), which both builders import. `tex_inline` and `render_line` now share it.
+- **✅ NEW SWEEP: `python3.11 tools/audit_emphasis.py`.** Run it after any build. It classifies **by where the asterisk is, not what it looks like** — the 1853's own footnote marks (printed 202/203's *τὸν νοῦν ἀδόκιμον.\**, 388's Pliny note) live in `\pl{}{}` body lines and must print; an asterisk in a band or a heading is a conversion failure. It also **skips stale artefacts** older than their sources.
+- ⚠⚠ **Two lessons paid for inside this one fix.** (1) **A first version of the sweep asked "is an emphasis macro nearby?" and under-reported** — it waved through two genuinely scrambled notes. *A checker's first output is not evidence, including a checker written an hour ago.* (2) **`part1-proof.tex` &c. are from Aug 4 and nothing regenerates them** — the no-argument build writes only the `volume-*` files, so a stale artefact reported defects that had been fixed and sent this session hunting a bug that was not there.
+- ⚠ **The fix RE-FLOWED THE WHOLE VOLUME.** Bold that had never been bold now is, so bands got taller: **printed 345 went over its leaf though nobody touched it** (trimmed). Expect this anywhere a note nests italic inside bold. **6 overfull hboxes remain, none of them structural** — the §42 contents heading, the preface twice, the ` | ` table at 316, the Bradwardine sources note, and 364's Greek run.
+
+### The pages
+
+- **361 — §31's petitions 2–5.** ⚠⚠ **The plate's `Dan. ix. 8` carries verse 7's words, and the volume proves it twice**: printed 35 sets the same pair at ix. 7, and printed 133 prints the two verses in order under their own `Vers.` marks. Kept as printed. ⚠ **The Hosea and the Daniel travel together and are here reversed** (35 has the Hosea first) — **and the Hosea stands in a third Latin form**, *mihi est ex me* (35) · *a me est* (Evening) · *mihi a me est* (here). ⚠ `Ps. cxxx. 3` prints **the same two lines verbatim** as printed 41's misprinted `cxxx. 30` — the closest witness the volume has against it, **a fifth case of the book corroborating its own errors.** ⚠ The fourth petition is **asked twice**: the temporal goods braced, then *panem Angelorum ad salutem æternam* — **the fourth refusal to ask it plainly and the only one that names a substitute.** The third petition dismisses John i. 13's two wills (unreferenced) and then reads the prayer's *in earth* as **his own body**: *de terra hac, quæ ego sum*.
+- **362 — petitions 5–7.** ⚠⚠⚠ **The sixth petition is re-said three times to get God out of the way of the tempting** — *Et ne inducas* (headless, no object), *ne me induci sinas*, *ne me sinas intrare*: **God leading, God permitting, and at last the man walking in himself**, the middle being Cyprian's and Augustine's *ne patiaris nos induci* and the third going past both. Ps. lxxxvi. 13's *thou HAST delivered* is asked as *Libera*; Ps. xlii. 7 is **inverted** by a purpose-clause the psalm has not. ⚠⚠ **The last petition ends in the present tense** — *this* sickness, *wherewith I wrestle*, and the business *I am entangled in*: **the same seam as the *Divisio* at 347–348.**
+- **363 — §31 closes, §32 opens.** ⚠⚠ ***The Interpellatio Eucharistica is the most doctrinally loaded line in Part II***: *Recolo, gratias ago, admoneo, recordor, commemoro, offero, **vel peto ut offeras***. ***Admoneo* points the memorial at GOD**, and ***offero* is qualified in the same breath** — **a whole controversy hangs on *vel*, and the English settles nothing.** Belongs with the anaphora at 349. ⚠ Ἀνακεφαλαίωσις is Eph. i. 10's word (Irenæus'), and what it gathers is **the Creed stripped to its events**, closing *Fac me horum participem*, not *credo*. ⚠ **Dan. ix. 16 stands three times in Part II in three Latin dresses and is tagged once** — 343 and 373 are unmarked.
+- **364 — the *Per {…}* pleading, a brace catalogue; band nearly empty and that is right (§3a).** The left brace is **Philippians ii turned into nouns and run backwards**, self-emptying down to the womb. ⚠⚠ **Matt. viii. 20 returns doing the opposite of what it did at printed 238** — there turned round to indict the man praying, here simply pleaded. ⚠⚠ ***Ἐξομολόγησις* is NOT confession of sin here** but acknowledgement-and-so-praise, which is why its limbs are a Song and a Psalm.
+
+⚠ **A note verified before it was "fixed."** The committed note on the Daniel prayer says ix. 16 opens the intercession at printed 343; `ref_index 343` shows no Daniel and grep finds none in Part II outside §31. **It is right anyway** — 343's *Deprecor Te, Domine, in omni misericordia Tua, ut auferatur ira Tua* is the verse, untagged by the plate. **The note was about the text, not the mark.**
+
+### ⚠ Recalibration for the rest of Part II
+
+**The measured "12 tags + 2 notes" ceiling assumes a normal leaf. It does not hold here.** These pages carry 25–30 English lines, so the band room is far smaller: **361 needed four rewrites to come inside its leaf, 364 five.** Four `R:` notes on a 30-line leaf ran **124pt over**. ⚠ **And only removing a whole wrapped line reduces the height** — 362 sat at exactly 532.67pt through two rounds of word-shaving. **Write fewer, denser notes on a long leaf; do not plan to trim your way in.**
 
 ---
 
