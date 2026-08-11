@@ -329,7 +329,7 @@ S: 23 Jer. xxxi. 34 — *I will remember their sin no more*
 S: 25 Rom. vii. 14 — *carnal, sold under sin*
 
 ## 110
-S: 7 `Vers. 24` — the plate's figure, carried by a continuation the index could not read until 2026-08-10. ⚠⚠ **It stands against the words of Rom. vii. 25.** *Infelix ego homo* and *Quis me liberabit* are verse 24; *Gratia Deo per Jesum Christum*, the line the figure is printed on, is verse 25. **The marks on this page are otherwise line-exact** — `Vers. 22` and `Vers. 23` each sit on their own verse — so either the figure is one short, or it is meant to cover the whole movement from the cry to the thanksgiving. **Kept as printed, and neither reading is claimed.**
+S: 7 `Vers. 24` — the plate's figure, carried by a continuation the index could not read until 2026-08-10. ⚠⚠ **It stands against the words of verse 25.** *Infelix ego homo* and *Quis me liberabit* are verse 24; *Gratia Deo per Jesum Christum*, the line the figure is printed on, is verse 25. **The marks on this page are otherwise line-exact** — `Vers. 22` and `Vers. 23` each sit on their own verse — so either the figure is one short, or it is meant to cover the whole movement from the cry to the thanksgiving. **Kept as printed, and neither reading is claimed.**
 S: 9 Rom. v. 2 — *where sin abounded, grace did much more abound*, which is verse 20
 S: 10 Rom. ii. 4 — *the goodness of God leadeth thee to repentance*
 S: 13 2 Tim. ii. 25 — *if God peradventure will give them repentance*
@@ -380,6 +380,7 @@ S: 19 Ps. xc. 17 — *establish thou the work of our hands upon us*
 ## 128
 S: 3 1 Chron. xxix. 10 — David blessing the LORD before all the congregation, at the offering for the Temple
 S: 14 Isa. lxiv. 2 — *that the nations may tremble at thy presence*
+S: 25 1 Chron. xxix. 12 — *in thine hand it is to make great, and to give strength unto all*; 1 Chron. xxix. 13 — *now therefore, our God, we thank thee, and praise thy glorious name*. ⚠ **The three lines above are David's prayer verbatim, and this closes it.**
 
 ## 130
 S: 3 Ps. xc. 14 — *O satisfy us early with thy mercy*
@@ -1853,6 +1854,7 @@ S: 7 Isa. xlvi. 10 — *my counsel shall stand, and I will do all my pleasure*
 S: 9 Isa. lv. 10 — *that it may give seed to the sower, and bread to the eater*. ⚠ **`Baculum panis`, the STAFF of bread, is not in that verse** — it is the prophets' phrase for the staff that is broken in famine, brought in here to ask that it be given.
 S: 12 Isa. lxiv. 9 — *be not wroth very sore, O LORD, neither remember iniquity for ever: behold, see, we beseech thee, we are all thy people.* ⚠ **The volume has used this verse once already, at printed 109**, in the confession — **here it is the fifth petition. Never conform the two places.**
 S: 14 Ezek. xiv. 4 — *that putteth the stumblingblock of his iniquity before his face*
+S: 15 Ezek. xv. 7 — ⚠ *I will set my face against them*, asked here as **set not thy face against us**
 S: 17 Luke v. 5 — Peter at the draught of fishes: *Master, we have toiled all the night, and have taken nothing*
 R: 18 ⚠⚠ **A new section opens with a key, the plainest statement in the volume of how Andrewes reads a miracle.** Five pairs read across: the world is the sea, men the fishes, the Church the boat, the preacher the fisherman, the Word the net. **The draught of fishes set out as a working diagram for a man about to preach**, hung on Peter's *we have toiled all the night and taken nothing*. ⚠ **This table IS read across** — unlike the `Divisio` at 347.
 S: 27 2 Cor. iii. 14 — *the vail untaken away in the reading of the old testament*
@@ -1860,7 +1862,7 @@ S: 29 Ps. cxix. 12 — *blessed art thou, O LORD: teach me thy statutes*
 
 ## 355
 S: 2 1 Sam. x. 26 — of the band that went with Saul: *whose hearts God had touched*
-S: 3 Eph. i. 8 — the plate's figure. ⚠ **The line wants Eph. i. 18**, *the eyes of your understanding being enlightened*, which is what *illumina sensus cordis* renders; i. 8 is *he hath abounded toward us in all wisdom and prudence*. **Kept as printed** — it stands on the volume's running list of wrong references with `[Jer. l. 24.]` and `[Dan. vi. 4.]`
+S: 3 Eph. i. 8 — the plate's figure. ⚠ **The line wants verse 18**, *the eyes of your understanding being enlightened*, which is what *illumina sensus cordis* renders; i. 8 is *he hath abounded toward us in all wisdom and prudence*. **Kept as printed** — it stands on the volume's running list of wrong references with `[Jer. l. 24.]` and `[Dan. vi. 4.]`
 S: 4 Ps. li. 15 — *O Lord, open thou my lips*; Ps. lxxi. 8 — *let my mouth be filled with thy praise*. ⚠ **Ps. li. 15 returns alone nine lines below** — the one verse this page says twice, and the page is about nothing but the mouth.
 R: 8 ⚠⚠ **`Carbo duplicis naturæ` — the COAL OF THE TWOFOLD NATURE — is a title for Christ, and it is not in Isaiah.** The prophet's coal, taken from the altar with tongs and laid on his mouth, is read as **the coal that is wood and fire at once, and so God and man at once**; the tongs are what handles what cannot be touched. ⚠ **The reading is Greek** — the ἄνθραξ of the Eastern liturgies, where the same coal is what the communicant receives — **the fourth mark of that rite in six leaves**, after 349's anaphora and *voluntary and involuntary* and 350's doxology, **and the strongest, because it carries a whole Christology in one noun.**
 S: 17 Isa. l. 4 — *the Lord GOD hath given me the tongue of the learned, that I should know how to speak a word in season*; Eph. iv. 29 — *that it may minister grace unto the hearers*
@@ -1949,3 +1951,24 @@ R: 11 ⚠ **Two pleas are in the words of the events themselves**, neither refer
 R: 15 ⚠⚠ ***Ἐξομολόγησις* here is NOT confession of sin** but the word's older sense, **acknowledgement and so praise**, which is why its limbs are *of Grace, a Song* and *of Praises, a Psalm*. **A reader bringing the penitential sense across from §17 misreads the close of the section.** ⚠ The line above gives prayer an affirmative and a negative form, **in Latin under Greek labels.**
 S: 18 Ps. xliv. 1 — *our fathers have told us, what work thou didst in their days, in the times of old*
 R: 18 ⚠ **§33 opens here on one Latin line and then runs Greek to the end** — twenty-one deliverances of the fathers, each a name and what he was delivered from. **The argument is the psalm's own.**
+
+## 365
+R: 1 ⚠⚠⚠ **This is the *Commendatio Animæ* — the deathbed prayer of the Western books — put into Greek.** The Latin runs *Libera, Domine, animam ejus, sicut liberasti Noe de diluvio · Abraham de Ur Chaldæorum · Isaac de hostia · Job de passionibus · tres pueros de camino ignis ardentis*, and it is among the oldest prayers the Church has, said over the dying. **Andrewes keeps the form and changes three things**: he turns it into **Greek**; he carries the roll on into the **New Testament** — the disciples in the storm, Peter in Herod's prison, Paul three times over; and he changes the petition from *his soul* to **us**, *καὶ ἡμᾶς ῥῦσαι*, so that a prayer for one man dying becomes a prayer the living say daily. ⚠⚠ **The form is a Latin-West debt and the language is Greek**, which is this book's whole difficulty on one leaf: it stands with the Litany at 358 and the memory-verses at 360 on one side, and with the anaphora at 349 on the other.
+R: 7 ⚠ **The preposition drops after David and the list runs on the bare genitive alone** — *ἀπὸ τοῦ Λαβάν* and *ἀπὸ τοῦ Σαούλ*, then *Ἠλίαν **τῆς** Ἰεζαβούλ*, *Ἐζεκίαν **τοῦ** Ῥαψάκη*, and so to the end. **The catalogue accelerates as it lengthens**, and the English quickens with it. **It is not a slip and is not restored.**
+R: 19 ⚠ **§34 opens on this page**: *Præparatio ad* Εὐλογίαν — a Latin heading with a Greek noun standing inside it — and under it *Gratiarum Actio*. **The blessing is prepared for by giving thanks first**, which is the order of the whole section.
+S: 22 Ps. xxi. 13 — the psalm's last verse: *be thou exalted, LORD, in thine own strength: so will we sing and praise thy power*
+
+## 366
+S: 2 Ps. cxlv. 10 — *all thy works shall praise thee; and thy saints shall bless thee*
+R: 4 ⚠⚠ **This is the daily office's opening versicle, and it is quoted in its own form.** *Domine, labia mea aperies, et os meum annunciabit laudem Tuam* begins Matins in the breviary and Mattins in the Prayer Book. ⚠ **The line above it asks the same thing in the imperative**, *Aperi os meum*; the versicle then answers in the **future indicative**, *aperies*, **thou shalt open**. **The prayer asks, and the liturgy replies that it is already granted.** Another debt to the Latin West.
+R: 6 ⚠⚠ **This sentence stands three times in Part II, and no two dresses agree.** Printed 345 opens §24 with it, this leaf opens §34, and printed 384 opens §41: *Magis deceret* · *Deceret magis* · *magis deceret*, and *confidens* · *confisus* · *confido*. **Three sections begin by arguing he has no right to praise, and then praise.** ⚠⚠ **One word is not a variation of dress**: 345 and 384 both read *ingenita* — thine **inborn** goodness — where this leaf reads ***ingenti***, thine **exceeding** goodness. **The English follows the plate, and neither reading is claimed.** ⚠ **384 carries the office versicle too: §34 and §41 are near-twins, and are not conformed.**
+R: 16 ⚠ **The thanksgiving is built out of two liturgies.** *Gratias ago, adoro, laudo, benedico, glorifico* is the *Gloria in excelsis* — *laudamus te, benedicimus te, adoramus te, glorificamus te* — and the sentence that follows it, *Dignus es, Domine Deus, accipere laudes et gratias*, is the Apocalypse's *Thou art worthy*.
+S: 18 Rev. iv. 11 — *thou art worthy to receive glory and honour and power*
+S: 25 Ps. xxxi. 1 — *in thee, O LORD, do I put my trust; let me never be ashamed*. ⚠ **Also the *Te Deum*'s last line**, and the Act of Hope opens on it.
+S: 26 Ps. xxii. 9 — *thou didst make me hope upon my mother's breasts*; Ps. lxxi. 5 — *thou art my trust from my youth*
+
+## 367
+S: 3 Rom. v. 5 — *hope maketh not ashamed*; Rom. viii. 24 — *we are saved by hope*. ⚠ **The plate turns the reference across a line**, `[*Rom.* v.` and `5; viii. 24.]`
+R: 6 ⚠ **The Act of Hope is a word-catena, not an argument**: thirteen texts in a row, and *spes* or *spero* stands in every one of them. **They are not steps and do not build**, and the English keeps *hope* in every line. **The band is nearly silent under them by rule** — each line prints its own reference and gives its own substance (§3). ⚠ *Si occiderit me, sperabo* — **the Vulgate's Job hopes**, where the AV's *yet will I trust in him* takes the other reading of a disputed Hebrew word.
+R: 14 ⚠ **Four clauses, and not one of them finishes.** *Vellem, si plus* · *Metuo, ne* · *Doleo, quod non* · *Gauderem, si*. **Each breaks off exactly where its object would come**, and the four are set two and two, wish against fear and grief against joy. ⚠ **The unfinished state is the point**: nothing is supplied, and the reader finishes them himself.
+R: 17 ⚠⚠⚠ **Under the Creed's own first word, *Πιστεύω*, stand five sentences and not one of them is a credal article.** They are five men's confessions, each labelled with whose it is — **DAVID'S · PAUL'S · JOHN'S · PETER'S · NATHANAEL'S**, and the plate prints each man's text under his name. ⚠⚠ **With §32's Ἀνακεφαλαίωσις at 363 this is the second section running that puts something else where the Creed's propositions should be** — there the bare events, here other men's sentences. ⚠ **The band is silent on these lines by rule** — the plate names its own speakers (§3). **The practice of captioning a text with whose it is, which this edition's tags follow, is the author's own**; see his blessings at 425.
