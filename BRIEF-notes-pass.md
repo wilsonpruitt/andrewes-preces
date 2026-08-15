@@ -191,7 +191,22 @@ These recur, and each is a thing a careless pass destroys.
 
 **Updated 2026-08-15, at the close of the notes pass.**
 
-### 6a. ⚠⚠⚠ THE ENGLISH LAYER'S REFERENCE FORM IS WRONG IN PART III, and it is bigger than the arabic-colon question
+### 6a. ✅✅ CLOSED 2026-08-15 — THE ENGLISH LAYER'S REFERENCE FORM IN PART III
+
+**Done. 242 references brought back to the plate** (`tools/refform.py`, re-runnable and idempotent). Zero arabic-colon references remain anywhere in the Part III body, and **the editor's hand is visible again**. Four states now print distinctly:
+
+```
+*Job* xiv. 14.          the plate's own
+[*Rom.* ix. 22.]        the 1853 editor supplied the whole reference
+*Ps.* lxxxix. [46.]     the editor supplied only the figure
+[*Ps.*] cxix. 81.       the plate omitted the book; we supplied it   (RULED 2026-08-15)
+```
+
+⚠ **What it paid for.** The detector's first form required an italic book token and a leading bracket, and **mis-filed 52 references as "ours" — the safe-looking direction and the wrong one**, missing the interior-bracket case that was the entire point. Widened, then diffed match by match for ghosts. **§11b again: a widened pattern's count proves nothing.**
+
+⚠ **The bare case takes chapter AND verse from the plate**, because the two layers do not always agree — printed 431's `cxix. 81.` is itself a misprint for Ps. cxix. 91. The tool reports a disagreement rather than silently preferring a side.
+
+**(superseded — the problem as it stood)**
 
 **Found while opening printed 402 and confirmed across 406–436.** Two defects, and the second is the serious one:
 
