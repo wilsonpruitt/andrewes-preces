@@ -7,7 +7,7 @@ Line-keyed English of `06-vespertinae-preces-transcript.md` (printed 433–436).
 <!-- printed 433 (PDF 478) — VESPERTINÆ PRECES heading -->
 
                         THE EVENING PRAYERS.
-[Ps. 134:3]   IN the night seasons lift up your hands in the
+*Ps.* cxxxiv. 3.   IN the night seasons lift up your hands in the
                     sanctuary, and bless the Lord.
         [Ps. 55:17]   At evening, and morning, and at noonday will I pray, and
                     that instantly; and Thou, O Lord, shalt hear my
@@ -23,12 +23,12 @@ Line-keyed English of `06-vespertinae-preces-transcript.md` (printed 433–436).
                             of the night, and givest rest to the weary,
                             and renewest strength to the fainting.
 [Job 35]   Who givest songs in the night,
-[Ps. 65:8]   And makest the outgoings of the morning
+*Ps.* lxv. 8.   And makest the outgoings of the morning
                             and of the evening to praise Thee.
         [Ps. 91:5]   Who hast delivered us from the arrow
                             that flieth by day, from the assault,
                             and from the noonday devil.
-[Isa. 38:14]   Who hast not cut off, like a weaver,
+*Isa.* xxxviii. 14.   Who hast not cut off, like a weaver,
                             our life, nor from the morning even unto
                             the evening made an end of us.
     O Lord, as day upon day,
@@ -36,7 +36,7 @@ Line-keyed English of `06-vespertinae-preces-transcript.md` (printed 433–436).
 
 <!-- printed 434 (PDF 479) — the reference column is gone -->
 
-[Prov. 24:16]   Seven times in the day the just man stumbleth,
+*Prov.* xxiv. 16.   Seven times in the day the just man stumbleth,
                     but we (miserable sinners)
                         seventy times seven.
     This day too hath had its own [evil],

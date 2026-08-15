@@ -5,32 +5,32 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
 <!-- printed 416 foot (PDF 459) -->
 
         HIS MERCY.
-[Ps. 109:20]   Sweet,
+*Ps.* cix. 20.   Sweet,
     [Ps. 69:17]   Pleasant,
     [Ps. 63:4]   Better than life.
 
 <!-- printed 417 (PDF 460) -->
 
         THE MERCY OF GOD.
-[Ps. 5:7]   Many,
+*Ps.* v. 7.   Many,
     [Ps. 51:1]   Manifold,
-[1 Pet. 4:10]   Plenteous,
-[Ps. 119:156]   Great,
+*1 Pet.* iv. 10.   Plenteous,
+*Ps.* cxix. 156.   Great,
     [Ps. 103:12]   { Broad, / the east and the west, }
     [Ps. 42:7]   Deep, a deep.
     { [Ps. 36:5] / [Ps. 108:4] }   High { unto the heavens, / above the heavens. }
     { [Ps. 25:6] / [Ps. 103:17] / [Ps. 13:6] }   Everlasting { Before, / After. }
     [Ps. 145:9]   His tender mercies are over all His works.
-[Rom. 5:20]   Over our sin,
-[Jas. 2:13]   Over His own justice.
-[Ecclus. 2:18]   According to the greatness of Him, so
+*Rom.* v. 20.   Over our sin,
+*Jas.* ii. 13.   Over His own justice.
+*Ecclus.* ii. 18.   According to the greatness of Him, so
         is His mercy with Him.
-[Ps. 71:13]   A salvation infinite, for I know no
+*Ps.* lxxi. 13.   A salvation infinite, for I know no
         end thereof.
 
         THE FATHER OF MERCIES.
-[1 Cor. 1:3]   Natural unto Him.
-[Ps. 59:18]   Mercy itself is called God.
+*1 Cor.* i. 3.   Natural unto Him.
+*Ps.* lix. 18.   Mercy itself is called God.
 *August.*   O Name, under which no man may despair.
 *Chrysos.*   Great is the gulf of my
         sins, but greater is the deep
@@ -40,62 +40,62 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
 <!-- printed 418 (PDF 461) -->
 
         { Patient, / Longsuffering, / Slow to anger, / Long refraining Himself, }
-[Wisd. 11:23]   Winking at the sins of men
+*Wisd.* xi. 23.   Winking at the sins of men
                 that they may repent.
-[Ps. 95:10]   Bearing with them forty whole years
+*Ps.* xcv. [10.]   Bearing with them forty whole years
     [Ps. 78:38]   But He was so merciful, and so gracious
         was He, and soon appeased, that He destroyed them not.
             Yea, many a time turned He His wrath away,
         and would not suffer His whole displea-
         sure to arise.
-[Luke 19:42]   O if thou also knewest.
-[Lam. 3:22]   It is of the mercies of God
+[*Luke* xix. 42.]   O if thou also knewest.
+[*Lam.* iii. 22.]   It is of the mercies of God
                 that we are not all consumed.
 
     2. Gentle in the very chastising,
         so that not even His judgment is
             void of mercy.
     The punishment is a part of the mercy,
-[Ps. 89:32]   I will visit their offences with the rod,
+*Ps.* lxxxix. 32.   I will visit their offences with the rod,
                 Yet My mercy will I not take from him.
     [Ps. 103:10]   He hath not dealt with us after our sins, nor
         rewarded us according to our wickednesses.
                 For a great sin a little
                     punishment sufficeth a father.
-[Hos. 11:8]   How shall I smite thee, Ephraim?
+*Hos.* xi. 8.   How shall I smite thee, Ephraim?
 
     3. Easiness to be entreated.   Because readily.
-[Ps. 103:9]   He is appeased, neither will He be alway chiding,
+*Ps.* ciii. 9.   He is appeased, neither will He be alway chiding,
                 nor keep His anger for ever.
 
 <!-- printed 419 (PDF 462) -->
 
-[Ps. 30:5]   His wrath is but a moment.
-[Isa. 54:8]   For a small moment have I forsaken thee, but with
+*Ps.* xxx. 5.   His wrath is but a moment.
+*Isa.* liv. 8.   For a small moment have I forsaken thee, but with
         great mercies will I gather thee.
-[Hab. 3:2]   In the very wrath He remembereth mercy, and that
+*Hab.* iii. 2.   In the very wrath He remembereth mercy, and that
         easily and sparingly.
-[Ps. 94:18]   When I said, My foot hath slipt, Thy
+*Ps.* xciv. 18.   When I said, My foot hath slipt, Thy
         mercy, O Lord, shall hold me up.
     [Ps. 32:5]   I said, I will acknowledge mine unrighteous-
         ness against myself unto the Lord, and Thou forgavest
         the wickedness of my sin.
             It is as nothing with us; for His own
         sake, said God.
-[2 Sam. 12:13]   David said, I have sinned, O Lord.
+*2 Sam.* xii. 13.   David said, I have sinned, O Lord.
             Nathan answered, The Lord also
         hath put away thy sin, thou shalt not die.
-[Joel 2:13]   The Lord is merciful, gracious, longsuffering,
+*Joel* ii. 13.   The Lord is merciful, gracious, longsuffering,
         of great mercy, and better than His
         wrath.
-[Isa. 30:18]   God waiteth, that He may have mercy upon us.
+*Isa.* xxx. 18.   God waiteth, that He may have mercy upon us.
 
     4. Fellow-suffering.   For though we deserve it,
                 yet He grieveth with us in our calamity.
-[Luke 1:78]   They are called the tender bowels of His mercy.
-[Jer. 5:11]   In which kind God is merciful
+*Luke* i. 78.   They are called the tender bowels of His mercy.
+*Jer.* v. 11.   In which kind God is merciful
         and full of compassion.
-[Ps. 106:47]   Nevertheless, when He saw their affliction,
+*Ps.* cvi. 47.   Nevertheless, when He saw their affliction,
             He had compassion upon them.
             Who not only heareth sinners, but also
         in the day of their trouble those who in the time
@@ -110,83 +110,83 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
 
     5. Pardon, and not only pardon,
                 but lavish pardon.
-[2 Sam. 13:10]   As David of his own accord brought
+*2 Sam.* xiii. 10.   As David of his own accord brought
         [2 Sam. 14:24]   Absalom back, yet at the first that he should not see his face,
                 and at the last admitted him to the kiss.
-[Luke 15:22]   As the father, when the naughty son returned, not only
+*Luke* xv. 22.   As the father, when the naughty son returned, not only
         forgave him, but made ready the best robe and the ring, and
         the fatted calf.
         [Luke 15:7]   He will have joy and triumph in heaven
         over one sinner that repenteth.
             And not over little faults only,
             But over grievous crimes.
-[Jer. 3:1]   They say commonly, If a man put away his wife,
+*Jer.* iii. 1.   They say commonly, If a man put away his wife,
         and she depart from him and become another man's,
         shall not that woman be polluted and defiled?
         Shall she return unto him again? But thou
         hast played the harlot with many lovers; yet
         return again unto Me, saith the Lord.
-[Acts 3:15, 19]   Wherewith He pardoned the disciples that forsook Him, Peter that
+*Acts* iii. 15, 19.   Wherewith He pardoned the disciples that forsook Him, Peter that
         forswore Him, the thief that blasphemed, and the Jews that
         crucified Him.
-[Luke 6:35]   He is kind unto the unthankful and to the evil.
+*Luke* vi. 35.   He is kind unto the unthankful and to the evil.
 
     6. And not pardon only, but
         grace also
 
 <!-- printed 421 (PDF 464) -->
 
-{ [Ps. 78:8] / [Ps. 23:6] / [Ps. 32:16] }   { Preventing, / Following, / Compassing about, }
+{ *Ps.* lxxviii. 8. / [Ps. 23:6] / [Ps. 32:16] }   { Preventing, / Following, / Compassing about, }
                 On every side.
 
     7. And whatsoever poor service (that grace enabling us)
         we shall have done, He rewardeth it abundantly.
-[Ps. 103:4]   He crowneth us with mercy and loving-
+*Ps.* ciii. 4.   He crowneth us with mercy and loving-
                 kindness.
     [Ps. 62:10]   He is merciful, for He rendereth unto us both according to
                 and above our good works.
-[Matt. 10:42]   Nor doth He suffer a cup of cold water to go un-
+[*Matt.* x. 42.]   Nor doth He suffer a cup of cold water to go un-
                 rewarded.
 
     8. And He is merciful not by nature only, but by practice.
-[Ps. 25:6]   He hath learned to shew mercy, and hath had the practice of it
+*Ps.* xxv. 6.   He hath learned to shew mercy, and hath had the practice of it
                 from of old.
         [ver. 1]   Rightly therefore do we so call Him.
     [Ps. 22:4]   Our fathers hoped in Thee, they trusted
         in Thy mercy, and were not confounded.
     [Ps. 77:5]   Hath God now forgotten to be merciful? and
         will He shut up His mercies within Himself?
-            It is not { a spring dried up,   [Hos. 13:15] / a hand shortened,   [Isa. 59:1] / an ear made heavy.   [Ibid.] }
+            It is not { a spring dried up,   [*Hos.* xiii. 15.] / a hand shortened,   [*Isa.* lix. 1.] / an ear made heavy.   [Ibid.] }
     [Ps. 89:48]   Lord, where are Thine old loving-kindnesses?
         [ver. 1]   I will sing of the mercies of God for ever.
         [ver. 4]   I have said, Thy mercy shall be set up
                 for ever.
 
     9. And He is merciful not by practice only, but by promise.
-[Ps. 119:49]   Thus David speaketh, O think upon Thy word
+*Ps.* cxix. 49.   Thus David speaketh, O think upon Thy word
 
 <!-- printed 422 (PDF 465) -->
 
         unto Thy servant, wherein Thou hast given me hope, and Thyself
         hast caused me to put my trust.
-[Rom. 3:3]   For what if some of them did not
+*Rom.* iii. 3.   For what if some of them did not
         believe? shall their unbelief make the faith
         of God without effect?
-[Gen. 27:33]   If Isaac would not change his word,
-[Dan. 6:8]   If the Persian would not, a heathen,
-[John 19:22]   If profane Pilate would not,
+*Gen.* xxvii. 33.   If Isaac would not change his word,
+*Dan.* vi. 8.   If the Persian would not, a heathen,
+*John* xix. 22.   If profane Pilate would not,
             Surely God never will.
-[Gen. 32:26]   I will not let Thee go, except Thou bless me.
-[Matt. 15:27]   Yet the dogs, Lord, eat of the crumbs which
+*Gen.* xxxii. 26.   I will not let Thee go, except Thou bless me.
+[*Matt.* xv. 27.]   Yet the dogs, Lord, eat of the crumbs which
                 fall from their masters' table.
 
     10. But all these things are gathered up into one in Christ.
-[2 Pet. 1:4]   In whom He hath given us exceeding great and precious
-[2 Cor. 1:19]   promises, and in whom all the promises
+*2 Pet.* i. 4.   In whom He hath given us exceeding great and precious
+*2 Cor.* i. 19.   promises, and in whom all the promises
                 of God are Yea and Amen.
                 Whom to have named was enough.
-[Matt. 15:22]   Jesu, Thou Son of David, have mercy on me.
-[Matt. 1:21]   Jesu — this is His name, because He saveth us from
+*Matt.* xv. 22.   Jesu, Thou Son of David, have mercy on me.
+*Matt.* i. 21.   Jesu — this is His name, because He saveth us from
                 our sins.
 *August.*   Lord, look not so upon my sin that
                 Thou shouldest therefore forget Thine own Name.
@@ -205,10 +205,10 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
     Say unto my soul, I am thy salvation.
 
 Nor had Thine Apostle said it in vain,
-[1 Tim. 1:15]   This is a faithful saying, and worthy of all acceptation;
+*1 Tim.* i. 15.   This is a faithful saying, and worthy of all acceptation;
         That Jesus Christ came into the world to save
         sinners, of whom I am chief.
-[Rom. 5:20]   Where sin abounded, grace did much more
+*Rom.* v. 20.   Where sin abounded, grace did much more
         abound.
     [Rom. 11:32]   God hath concluded all under sin, that
         He might have mercy upon all.
@@ -218,40 +218,40 @@ Nor had Thine Apostle said it in vain,
         for us.
 
     Nor in vain the second Apostle,
-[1 Pet. 3:18]   Christ hath once suffered for our sins,
+*1 Pet.* iii. 18.   Christ hath once suffered for our sins,
                 the just for the unjust, that He might bring us to God.
-[Jas. 2:13]   Mercy rejoiceth against judgment.
+*Jas.* ii. 13.   Mercy rejoiceth against judgment.
 
     Nor in vain the fourth,
-[1 John 2:2]   If any man sin, we have an Advocate
+*1 John* ii. 2.   If any man sin, we have an Advocate
         with the Father, Jesus Christ the righteous; and
         He is the propitiation for our sins;
             And not for ours only, but for
         the sins of the whole world.
 
     Nor in vain shalt Thou Thyself have said,
-[Matt. 11:25]   Come unto Me, all ye that labour and are heavy
+*Matt.* xi. 25.   Come unto Me, all ye that labour and are heavy
         laden, and I will refresh you.
 
 <!-- printed 424 (PDF 467) — §3 ends here -->
 
-[Luke 5:32]   I came not to call the righteous, but sinners
+*Luke* v. 32.   I came not to call the righteous, but sinners
         to repentance.
 
     These things were not said in vain,
       they cannot be.
 
-[Ps. 94:19]   Wherefore in the multitude of the sorrows in my
+*Ps.* xciv. [19.]   Wherefore in the multitude of the sorrows in my
         heart, these Thy comforts have refreshed
         my soul.
-[Heb. 4:16]   Wherefore let us come boldly unto the throne
+[*Heb.* iv. 16.]   Wherefore let us come boldly unto the throne
         of grace, that we may obtain mercy, and
         find grace to help in time of need.
-[Dan. 9:17]   Now therefore hear, O Lord our God,
+*Dan.* ix. 17.   Now therefore hear, O Lord our God,
         the prayer of Thy servant, and his supplications, and cause
         Thy face to shine.
-[Luke 18:13]   God be merciful to me a sinner.
-[Ps. 143:7]   Hear me, O Lord, and that soon, for my
+[*Luke* xviii. 13.]   God be merciful to me a sinner.
+[*Ps.* cxliii. 7.]   Hear me, O Lord, and that soon, for my
         spirit waxeth faint.
 
 <!-- printed 425 (PDF 468) begins §4, GRATIARUM ACTIO. -->

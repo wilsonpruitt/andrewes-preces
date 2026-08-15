@@ -7,28 +7,28 @@ Line-keyed English of `02-confessio-peccatorum-transcript.md` (printed 406–416
     THE CONFESSION OF SINS.
 
 I CONFESS unto Thee, O Lord,
-That I was conceived in unclean seed,   [Job 14:14]
+That I was conceived in unclean seed,   *Job* xiv. 14.
     warmed in iniquity
-    in my mother's womb,   [Ps. 51:6]
-        A root of bitterness,   [Deut. 29:18]
-        A wild vine of Sodom,   [Deut. 32:32]
-        A generation of vipers,   [Matt. 3:7]
-        A shoot of the wild olive,   [Rom. 11:24]
-        A child of wrath,   [Eph. 2:3]
-        A vessel of destruction,   [Rom. 9:22]
-Having a rebellious heart, like a deceitful bow,   [Hos. 7:16]
-A mouth as an open sepulchre,   [Ps. 5:11]
-    Bubbling out follies,   [Prov. 15:2]
-Having polluted lips,   [Isa. 6:5]
-A tongue that is a world of iniquity,   [Jas. 3:6]
-Wicked eyes, prone to lusts,   [Ecclus. 31:13]
-Uncircumcised ears, like the deaf adder,   [Jer. 6:10]
-A whore's forehead, like brass,   [Jer. 3:3]
-A hard neck, like an iron sinew,   [Isa. 48:4]
-Hands slack unto good,   [Heb. 12:12]
-Feet swift unto evil.   [Prov. 6:18]
+    in my mother's womb,   *Ps.* li. 6.
+        A root of bitterness,   *Deut.* xxix. 18.
+        A wild vine of Sodom,   *Deut.* xxxii. 32.
+        A generation of vipers,   *Matt.* iii. 7.
+        A shoot of the wild olive,   *Rom.* xi. 24.
+        A child of wrath,   *Eph.* ii. 3.
+        A vessel of destruction,   [*Rom.* ix. 22.]
+Having a rebellious heart, like a deceitful bow,   [*Hos.* vii. 16.]
+A mouth as an open sepulchre,   [*Ps.* v. 11.]
+    Bubbling out follies,   [*Prov.* xv. 2.]
+Having polluted lips,   [*Isa.* vi. 5.]
+A tongue that is a world of iniquity,   [*Jas.* iii. 6.]
+Wicked eyes, prone to lusts,   [*Ecclus.* xxxi. 13.]
+Uncircumcised ears, like the deaf adder,   [*Jer.* vi. 10.]
+A whore's forehead, like brass,   [*Jer.* iii. 3.]
+A hard neck, like an iron sinew,   [*Isa.* xlviii. 4.]
+Hands slack unto good,   [*Heb.* xii. 12.]
+Feet swift unto evil.   [*Prov.* vi. 18.]
     Whatsoever I have done
-Is either a spider's web,   [Isa. 59:5]
+Is either a spider's web,   [*Isa.* lix. 5.]
 Or a cockatrice' egg.   [Ibid.]
 
 <!-- printed 407 (PDF 448) -->
@@ -45,89 +45,89 @@ By sin, the bondslave of Satan;
         I have sinned
             Sins
     many in number, drops
-        more than the hairs of my head.   [Ps. 40:12]
+        more than the hairs of my head.   *Ps.* xl. 12.
                 Manifold in kind,
   Manifold in their places, upon every green field,
         under every leafy tree,
     Many times over, done again and again,
     As a fountain its waters,
-    So my heart its sins;   [Jer. 6:7]
+    So my heart its sins;   *Jer.* vi. 7.
 Until into a habit,
-        scarlet,   [Isa. 1:18]
-        sold;   [1 Kgs. 21:25   Rom. 7:14]
+        scarlet,   *Isa.* i. 18.
+        sold;   1 *Kgs.* xxi. 25.   *Rom.* vii. 14.
 Until into a nature,
         the leopard's spots,
-            the Ethiopian's skin;   [Jer. 13:23]
+            the Ethiopian's skin;   *Jer.* xiii. 23.
 Until I am myself not a sinner,
-        but sin.   [Mic. 1:5]
+        but sin.   *Mic.* i. 5.
 
     I have sinned
     Sins
-[Isa. 52:8]   Broad,
+*Isa.* lii. 8.   Broad,
 
 <!-- printed 408 (PDF 449) — the left-margin reference column is now running -->
 
-[Jer. 30:14]   Hard,
+*Jer.* xxx. 14.   Hard,
             [ver. 15]   In quantity great,
-[Ps. 25:11]   Long, from my mother's breasts;
-[Isa. 5:18]   Thick, cords of iniquity;
-[Hos. 9:9]   Deep,
-[Ps. 35:4]   Heavy as { a burden. / lead. }
+*Ps.* xxv. 11.   Long, from my mother's breasts;
+*Isa.* v. 18.   Thick, cords of iniquity;
+*Hos.* ix. 9.   Deep,
+*Ps.* xxxv. 4.   Heavy as { a burden. / lead. }
     Reaching to heaven itself
       with their own cry.
 
         I have sinned
     Sins
         Worst in quality,
-Because for nothing, for vanities,   [Rom. 6:21]
-  for a handful of barley, a morsel of bread;   [Ezek. 13:19]
-Because with greediness,   [Eph. 4:19]
-  sin upon sin;   [Isa. 30:1]
-Because with a hard forehead;   [Jer. 3:3]
-Because unto offence;   [Matt. 13:7]
-Because unthankful,   [Rom. 1:21]
+Because for nothing, for vanities,   *Rom.* vi. 21.
+  for a handful of barley, a morsel of bread;   *Ezek.* xiii. 19.
+Because with greediness,   *Eph.* iv. 19.
+  sin upon sin;   [*Isa.* xxx. 1.]
+Because with a hard forehead;   *Jer.* iii. 3.
+Because unto offence;   *Matt.* xiii. 7.
+Because unthankful,   *Rom.* i. 21.
         A dog to the vomit,
-        A sow to the wallowing;   [2 Pet. 2:22]
-Because a Christian.   [Gal. 2:21]
+        A sow to the wallowing;   *2 Pet.* ii. 22.
+Because a Christian.   *Gal.* ii. 21.
 
 But from thence, because
 Thou art just, and true
     are Thy judgments,
   I eat the fruits of lying.
-[Rom. 6:21]   For what fruit have I now in
+*Rom.* vi. 21.   For what fruit have I now in
     those things whereof I am ashamed?
-[Jer. 2:13]   Empty cisterns, that hold no water.
+[*Jer.* ii. 13.]   Empty cisterns, that hold no water.
 
 <!-- printed 409 (PDF 450) -->
 
-[Ps. 40:9]   My days are consumed in vanity, and my years
+*Ps.* xl. 9.   My days are consumed in vanity, and my years
         in anguish of heart.
-[Rom. 1:28]   Thou hast given me over to the desires of mine own heart, that
+[*Rom.* i. 28.]   Thou hast given me over to the desires of mine own heart, that
         I should do the things which were not convenient.
-[Ps. 38:3]   And now there is no health in my flesh because
+[*Ps.* xxxviii. 3.]   And now there is no health in my flesh because
         of Thy wrath, neither is there rest in my bones because
         of my sin.
-[Ps. 44:15]   Add to this the confusion of face that
+[*Ps.* xliv. 15.]   Add to this the confusion of face that
         is ever before mine eyes, and the shame that covereth
         my countenance.
-[Ps. 119:120]   Moreover my heart is tossed to and fro, and my flesh
+[*Ps.* cxix. 120.]   Moreover my heart is tossed to and fro, and my flesh
         trembleth for fear of Thine eternal judgments;
-[Jer. 2:19]   And last of all, a bitterness beyond bitter
+[*Jer.* ii. 19.]   And last of all, a bitterness beyond bitter
         death, that I have forsaken God, and am forsaken
         of Him.
     Woe is me, a deserter, that
         I should have done these things.
     Behold, O Lord, how vile I am become,
         and now my soul
-            loatheth my life.   [Job 10:1]
+            loatheth my life.   [*Job* x. 1.]
     I am stiff and numb with the greatness
         of my grief.
-[Isa. 33:15]   And what shall I say now? or wherein shall I open
+*Isa.* xxxiii. 15.   And what shall I say now? or wherein shall I open
         my mouth? what shall I answer, when I myself have done these things?
-    To which of the saints shall I flee?   [Job 5:1]
+    To which of the saints shall I flee?   [*Job* v. 1.]
   O wretched and unhappy man,
         who shall deliver me from the body
-            of this death?   [Rom. 7:24]
+            of this death?   [*Rom.* vii. 24.]
 When I have no more that
     I may do or say, this only remaineth,
 
@@ -137,7 +137,7 @@ When I have no more that
             Thee.
 Unworthy am I to direct them, yet
         direct them I will.
-[Ps. 130:2]   Out of the deep have I called unto Thee, O Lord;
+*Ps.* cxxx. 2.   Out of the deep have I called unto Thee, O Lord;
             Lord, hear my voice.
             If Thou, Lord, wilt be extreme to mark iniquities,
             O Lord, Lord, who may abide it?
@@ -155,29 +155,29 @@ From Thee the judge,
 Admit, O Lord, this peaceable appeal.
     If Thou admit it not, we perish.
 And, O Lord, carest Thou not, if
-        we perish?   [Mark 4:28]
-[1 Tim. 2:4]   Thou who wouldest have all men saved,
-[2 Pet. 3:9]   Thou who wouldest have none perish.
+        we perish?   [*Mark* iv. 28.]
+*1 Tim.* ii. 4.   Thou who wouldest have all men saved,
+*2 Pet.* iii. 9.   Thou who wouldest have none perish.
 
     1. Surely, O Lord, I am Thine,
-[Ps. 119:94]   oh save me.
+*Ps.* cxix. 94.   oh save me.
     [Ps. 138:10]   The work of Thine own hands, I beseech Thee,
-[Wisd. 11:25]   despise not.
+*Wisd.* xi. 25.   despise not.
 
 <!-- printed 411 (PDF 452) -->
 
-[Ps. 116:16]   Thy servant, the son of Thine handmaid,
-[Matt. 18:27]   A servant, and a waster,
+*Ps.* cxvi. 16.   Thy servant, the son of Thine handmaid,
+*Matt.* xviii. 27.   A servant, and a waster,
                 yet a servant.
     Thy son, bought namely with the price
         Of the blood of Thy Son, that
-            I might receive the adoption,   [Gal. 4:5]
+            I might receive the adoption,   [*Gal.* iv. 5.]
     Though I have lost the free birth
         of a son, yet Thou hast not lost the pity of a Father.
-[Luke 15:17]   Though a naughty son, and a prodigal,
+*Luke* xv. 17.   Though a naughty son, and a prodigal,
             yet a son for all that.
-[Dan. 9:19]   Thy Name is called upon me.
-[Heb. 11:16]   Thou art not ashamed to be called
+*Dan.* ix. 19.   Thy Name is called upon me.
+*Heb.* xi. 16.   Thou art not ashamed to be called
         our God.
     We are Christians,
         For we are bought with Thy Christ,
@@ -188,8 +188,8 @@ And, O Lord, carest Thou not, if
         If Thou wilt not spare us.
 
     2. But I am a sinner,
-[John 9:30]   And God heareth not sinners:
-[Ps. 89:46]   Yet remember, I beseech Thee, what my
+*John* ix. 30.   And God heareth not sinners:
+*Ps.* lxxxix. [46.]   Yet remember, I beseech Thee, what my
         substance is;
     [Ps. 68:39]   Call to mind that I am flesh, and a wind
         that passeth away, and cometh not again.
@@ -202,18 +202,18 @@ And, O Lord, carest Thou not, if
         { Dust, | { frail,
           Wind, | light,
           Flesh, } | dissolved. }
-[Job 13:25]   And Thou, O Lord, wilt not pursue the
+*Job* xiii. 25.   And Thou, O Lord, wilt not pursue the
         stubble.
-[1 Sam. 24:15]   Wilt Thou chase a flea?
+*1 Sam.* xxiv. 15.   Wilt Thou chase a flea?
 
     3. Thy creature,
         And now wretched,
         Yea, and a suppliant unbidden,
             Spare the suppliant.
-[2 Sam. 19:19]   David spared Shimei that cursed him,
-[1 Sam. 13:14]   And David was a man after Thine own heart,
+*2 Sam.* xix. 19.   David spared Shimei that cursed him,
+[*1 Sam.* xiii. 14.]   And David was a man after Thine own heart,
                 Do Thou therefore spare.
-[1 Kgs. 20:31]   Behold, we have heard that the kings of Israel
+[*1 Kgs.* xx. 31.]   Behold, we have heard that the kings of Israel
         are merciful; let us put therefore sackcloth upon
         our loins, and ropes upon our heads, and
         let us go out to meet him, and say, Let my soul,
@@ -221,27 +221,27 @@ And, O Lord, carest Thou not, if
             Peradventure he will save our souls.
             Is there any King of Israel
                 more merciful than Thou?
-[1 Kgs. 21:29]   Because Thou, O Lord, didst spare Ahab,
+*1 Kgs.* xxi. 29.   Because Thou, O Lord, didst spare Ahab,
         who had sold himself unto sin, when he humbled himself,
                 Spare me also, I beseech Thee.
-[Ps. 80:4]   How long wilt Thou be angry with Thy people?
+*Ps.* lxxx. 4.   How long wilt Thou be angry with Thy people?
                 With him that maketh supplication, that offereth prayers?
-[Job 30:33]   Surely, O Lord, I hide not
+*Job* xxx. 33.   Surely, O Lord, I hide not
                 my sin, as Adam,
-[Ps. 141:4]   I excuse not excuses in sin.
+*Ps.* cxli. 4.   I excuse not excuses in sin.
 
 <!-- printed 413 (PDF 456 — the complete duplicate) -->
 
         Of mine own accord I confess,
         I have sinned, I have done iniquity,
         I have dealt unjustly, I have been rebellious,
-[1 Cor. 11:30]   But I judge myself,
+*1 Cor.* xi. 30.   But I judge myself,
             I think upon it again,
             I pronounce the sentence,
-[2 Cor. 7:10]   I take vengeance myself upon myself.
+*2 Cor.* vii. 10.   I take vengeance myself upon myself.
         Spare, O Lord,
         Accept the sacrifice
-[Ps. 51:17]   Of a troubled spirit,
+[*Ps.* li. 17.]   Of a troubled spirit,
             Of a contrite heart,
         Of a disquieted soul,
         Of wounded reins,
@@ -249,37 +249,37 @@ And, O Lord, carest Thou not, if
 
     4. Against Thee have I sinned,
         And yet, O Lord, Thou wilt have mercy upon some.
-[Ps. 89:46]   Hast Thou made all the children of men here
+*Ps.* lxxxix. [46.]   Hast Thou made all the children of men here
         for nought?
-[Num. 14:15]   Shall the enemy upbraid Thee, that Thou didst create us
+*Num.* xiv. 15.   Shall the enemy upbraid Thee, that Thou didst create us
         to slay us, or, because Thou hatedst us, didst create us that Thou
         mightest destroy and blot us out; or because Thou canst not save?
-[Ps. 74:28]   Remember this, that the enemy hath
+*Ps.* lxxiv. 28.   Remember this, that the enemy hath
         reproached the Lord, and that the foolish people hath provoked
         Thy Name.
-[Rom. 3:23]   Everywhere all have sinned, and have come short of
+*Rom.* iii. 23.   Everywhere all have sinned, and have come short of
         the glory of God.
-[Job 9:3]   If Thou wilt contend in judgment, not
+*Job* ix. 3.   If Thou wilt contend in judgment, not
         even the most righteous shall be able to answer Thee one
         of a thousand.
 
 <!-- printed 414 (PDF 457) -->
 
-[Job 25:3]   Neither the infant of one day, nor the very stars
+*Job* xxv. 3.   Neither the infant of one day, nor the very stars
         are clean in Thy sight, and in Thine angels
         Thou hast beheld folly.
-[Ps. 130:3]   If Thou wilt be extreme to mark iniquities, none
+*Ps.* cxxx. 3.   If Thou wilt be extreme to mark iniquities, none
         shall abide it;
             If to enter into judgment, none shall thence
         depart justified.
-[Josh. 7:9]   And what wilt Thou do unto that great Name of Thine?
+*Josh.* vii. 9.   And what wilt Thou do unto that great Name of Thine?
             What unto those riches of Thy mercy,
-[Gal. 2:21]   What unto the blood of Thy Son?
+*Gal.* ii. 21.   What unto the blood of Thy Son?
             Shall He die for nought?
             Surely the world shall perish, except Thou multiply
             Thy mercy toward us.
                 God forbid.
-[Rom. 11:32]   Surely Thou hast concluded all under sin,
+[*Rom.* xi. 32.]   Surely Thou hast concluded all under sin,
             That Thou mightest have mercy upon all.
     Upon all { Who can acknowledge their sins, / Who have thereby deserved misery, }
         Who desire to return unto Thee with their whole heart.
@@ -296,17 +296,17 @@ That in them Thou mightest shew the excellency of Thy compassion;
 
 <!-- printed 415 (PDF 458) -->
 
-[Ps. 30:11]   For what profit is there in my blood, if
+*Ps.* xxx. 11.   For what profit is there in my blood, if
         I go down into the pit?
     [Ps. 6:5]   Shall any in death give Thee thanks?
         or shall there be any in hell to remember Thee?
     [Ps. 53:13]   Shall Thy wondrous works be known in the dark,
         or Thy righteousness in the land where all things are forgotten?
-[Isa. 38:18]   Surely the grave shall not confess Thee, neither
+*Isa.* xxxviii. 18.   Surely the grave shall not confess Thee, neither
         shall Death praise Thee, they that go down into the pit
         shall not look for Thy truth; The living,
         the living, he shall confess Thee, as I do this day.
-[Ps. 118:17]   I shall not die, but live, and
+*Ps.* cxviii. 17.   I shall not die, but live, and
                 declare the works of the Lord.
 
     6. Nay, if I know Thee well, O Lord, and
@@ -315,24 +315,24 @@ That in them Thou mightest shew the excellency of Thy compassion;
         gracious to strangers and to them that deserve nothing,
         merciful to the evil, and to them that deserve ill.
             Upon this last I take my stand.
-[Isa. 43:24]   When for no man's sake Thou canst,
+*Isa.* xliii. 24.   When for no man's sake Thou canst,
             When for nothing's sake, for
             Thine own sake Thou forgivest sins,
                 So easy art Thou to pardon.
 
     7. But David the prophet durst pray thus,
-[Ps. 119:29]   Have mercy upon me out of Thy law; as though
+*Ps.* cxix. 29.   Have mercy upon me out of Thy law; as though
         the law itself proclaimed Thee gentle.
                 And so indeed Thou art;
             Thy law from Thine own mouth soundeth thus.
-[Exod. 34:6, 7]   The Ruler, the Lord God, merciful
+*Exod.* xxxiv. [6, 7.]   The Ruler, the Lord God, merciful
         and gracious, longsuffering and of much compassion,
 
 <!-- printed 416 (PDF 459) — §2 ends mid-page; MISERICORDIA EJUS below it opens §3 -->
 
             who keepeth mercy for thousands, who
         taketh away iniquity and wickedness.
-[Num. 14:7]   And by this very word of Thine did Moses
+*Num.* xiv. 7.   And by this very word of Thine did Moses
         afterward adjure Thee, that Thou wouldest pardon the people.
 
     8. But Esaias and Abacuc dare,
@@ -342,7 +342,7 @@ That in them Thou mightest shew the excellency of Thy compassion;
 
     9. Nor was it the law and the prophets only,
         nature itself persuaded Job of this, by the leading of Thy Spirit.
-[Job 33:23]   If there be with him an Angel speaking,
+*Job* xxxiii. 23.   If there be with him an Angel speaking,
             one of a thousand, to declare unto man
             Thy righteousness,
             He will have mercy upon him, and say, Deliver him,
@@ -350,9 +350,9 @@ That in them Thou mightest shew the excellency of Thy compassion;
             For I have found wherein I may be gracious unto him.
             Then shall he pray unto God, and
                 He will be favourable.
-[Ps. 34:6]   O taste and see how gracious is
+*Ps.* xxxiv. 6.   O taste and see how gracious is
                 the Lord:
-[1 Pet. 2:3]   Blessed is the man that hopeth in Him.
+*1 Pet.* ii. 3.   Blessed is the man that hopeth in Him.
 
 ## Translator's flags
 

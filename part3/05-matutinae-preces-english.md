@@ -5,7 +5,7 @@ Line-keyed English of `05-matutinae-preces-transcript.md` (printed 431–432). *
 <!-- printed 431 (PDF 474) — MATUTINÆ PRECES heading -->
 
         THE MORNING PRAYERS.
-[Ps. 74:6]   O LORD, Thine is the day, and Thine is the night,
+*Ps.* lxxiv. 6.   O LORD, Thine is the day, and Thine is the night,
         Thou hast made the dawn and the sun.
         [Ps. 119:81]   By Thine ordinance the day abideth, for
         all things serve Thee.
@@ -24,23 +24,23 @@ Line-keyed English of `05-matutinae-preces-transcript.md` (printed 431–432). *
         [Ps. 134:4]   Who hast made sleep to pass from our
         eyes, and slumber from our eye-
         lids.
-[Isa. 44:22]   Blot out, O Lord, as the cloud of night our iniqui-
+*Isa.* xliv. 22.   Blot out, O Lord, as the cloud of night our iniqui-
         ties, and as the morning mist
         our sins.
-[1 Thess. 5:5]   Make us children of the day, and of the light.
-[Rom. 13:13]   Grant that we may walk chastely and soberly, as
+*1 Thess.* v. 5.   Make us children of the day, and of the light.
+[*Rom.* xiii. 13.]   Grant that we may walk chastely and soberly, as
         in the day.
 [Te Deum]   Vouchsafe, O Lord, to keep us this day without
         sin.
 
 <!-- printed 432 (PDF 475) -->
 
-[Ps. 91:5]   Keep us from the arrow that flieth by day, from
+*Ps.* xci. 5.   Keep us from the arrow that flieth by day, from
         the assault, and from the noonday devil.
         [ver. 3]   Deliver us from the hand of the hunters, and from the
         sharp word, from the evil of this day.
-[Luke 19:9]   This day be salvation and peace unto this house.
-[Ps. 143:8]   Make me to hear Thy mercy,
+[*Luke* xix. 9.]   This day be salvation and peace unto this house.
+*Ps.* cxliii. 8.   Make me to hear Thy mercy,
         for in Thee have I hoped.
         [ver. 9]   Shew me the way wherein I should walk,
         for unto Thee do I lift up my soul.
@@ -57,10 +57,10 @@ Line-keyed English of `05-matutinae-preces-transcript.md` (printed 431–432). *
         us; yea, the works of our hands direct Thou.
         [Ps. 141:3]   Set a watch, O Lord, before my mouth, a door
         round about my lips.
-[Col. 4:6]   Let my speech be with grace, seasoned with salt,
+*Col.* iv. 6.   Let my speech be with grace, seasoned with salt,
         that I may know how I ought to answer every
         man.
-[Ps. 19:14]   Let the words of my mouth, and the medi-
+[*Ps.* xix. 14.]   Let the words of my mouth, and the medi-
         tation of my heart, be alway acceptable in Thy sight,
         O Lord, my Redeemer.
         [Ps. 121:8]   The Lord preserve our going out and our coming

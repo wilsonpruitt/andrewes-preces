@@ -104,6 +104,16 @@ The cost objection to a critical text evaporates here. Re-cutting is expensive *
 
 ---
 
+### ✅✅ RULED by Wilson, 2026-08-15 — **BOOK A**
+
+**Book A is the book that ships**, and it is the book that is already built: the scholarly edition, originals verso and English recto (the Loeb, per the 2026-08-05 layout ruling, which superseded option 1's mirror), both foot-bands set, apparatus complete. Printed 2–436, notes pass closed.
+
+**What this settles.** The volume in `prototypes/volume-loeb.pdf` *is* Book A — nothing is re-cut, no transcript moves, and the cover, ISBN and title now have a single subject instead of two. It also takes the order of shipping in the safe direction: §5's own stated risk was that **Book B is the easier book and if it ships first the mirror may never ship.** Book A first removes that risk entirely.
+
+**What it does NOT settle**, and neither is blocking: whether Book B (the English devotional) is ever made, and §9's naming question — Book B would have had to answer for saying "translated from the Greek" when Parts II–III are translated from the Latin. **That question is Book B's and travels with it.** Option 3 remains open exactly as before: it needs the Pembroke College manuscript, and nothing here forecloses it.
+
+---
+
 ## 6. What each book costs, given what is already built
 
 | | **Book A** — the mirror | **Book B** — the devotional |

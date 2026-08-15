@@ -5,38 +5,38 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
 <!-- printed 425 (PDF 468) — GRATIARUM ACTIO heading -->
 
         THE THANKSGIVING.
-[Ps. 147:1]   A JOYFUL and a comely thing is praise.
+*Ps.* cxlvii. 1.   A JOYFUL and a comely thing is praise.
                 Unworthy before,
                 Lest I be unthankful after.
-[Prov. 10:25]   The soul that hath blessed shall be made fat.
-[Deut. 8:10]   When thou hast eaten and art full, then thou shalt
+*Prov.* x. 25.   The soul that hath blessed shall be made fat.
+*Deut.* viii. 10.   When thou hast eaten and art full, then thou shalt
         bless the Lord thy God for that good land
         which He hath given thee.
-[Exod. 18:10]   Blessed be the God of Jethro.
+*Exod.* xviii. 10.   Blessed be the God of Jethro.
         [Exod. 15:2]   Let us sing unto the Lord of Isaac and of the Israelites,
                 Thou art my God.
-[Ps. 118:28]   And I will confess unto Thee,
+*Ps.* cxviii. 28.   And I will confess unto Thee,
                 And I will exalt Thee.
-[1 Pet. 1:3]   Blessed be the God and Father of our Lord
+*1 Pet.* i. 3.   Blessed be the God and Father of our Lord
         Jesus Christ, who according to His abundant
         mercy hath begotten us again unto a lively
         hope, by the resurrection of Jesus Christ from
         the dead.
-[Eph. 1:3]   Blessed be the God and Father of our Lord
+*Eph.* i. 3.   Blessed be the God and Father of our Lord
         Jesus Christ, who hath blessed us with all spir-
         itual blessing in heavenly places in Christ.
-[Luke 1:68]   Blessed be the Lord God of Israel, who
+*Luke* i. 68.   Blessed be the Lord God of Israel, who
         hath visited and redeemed His people.
-[2 Cor. 1:3]   Blessed be the God and Father of our Lord
+*2 Cor.* i. 3.   Blessed be the God and Father of our Lord
         Jesus Christ, the Father of mercies, and the God
         [ver. 4]   of all comfort, who comforteth us in
         all our tribulation.
-[Ps. 111:1]   I will confess unto Thee, O Lord, with my whole heart,
+*Ps.* cxi. 1.   I will confess unto Thee, O Lord, with my whole heart,
         privately among the just, and in the congregation.
 
 <!-- printed 426 (PDF 469) -->
 
-[Ps. 139:13]   I will confess unto Thee, for I am wonderfully
+*Ps.* cxxxix. 13.   I will confess unto Thee, for I am wonderfully
         made, marvellous are Thy works, and my soul
         knoweth it right well.
         [ver. 14]   My bones are not hid from Thee, which
@@ -45,7 +45,7 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
         [ver. 15]   Thine eyes did see my imperfection,
         and in Thy book were all my members
         written, when as yet there was none of them.
-[Job 10:8]   Thine hands have fashioned me wholly round
+*Job* x. 8.   Thine hands have fashioned me wholly round
         about.
         [ver. 10]   Thou hast milked me out as milk,
                 And curdled me like cheese.
@@ -53,14 +53,14 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
         fenced me with bones and sinews;
         [ver. 12]   Thou hast granted me life and mercy,
         and Thy visitation hath preserved my spirit.
-[Ps. 16:7]   I will bless the Lord, who hath given me
+*Ps.* xvi. 7.   I will bless the Lord, who hath given me
         understanding.
-[Gen. 32:10]   O Lord, I am not worthy of all Thy
+*Gen.* xxxii. 10.   O Lord, I am not worthy of all Thy
         mercies, and of Thy truth, which Thou hast ful-
         filled unto Thy servant.   With my staff I passed over this
         Jordan, and now I return with two
         bands.
-[Ps. 66:8]   O bless our God, ye peoples,
+*Ps.* lxvi. 8.   O bless our God, ye peoples,
         [ver. 9]   and make the voice of His praise to be heard, who
         hath set my soul unto life, and hath not
         suffered my feet to be moved.
@@ -70,7 +70,7 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
 
 <!-- printed 427 (PDF 470) -->
 
-[Ps. 103:1]   Praise the Lord, O my soul, and all that
+*Ps.* ciii. 1.   Praise the Lord, O my soul, and all that
         is within me praise His holy Name.
     [Ps. 113:2]   Praise the Lord, O my soul, and forget
         not all His benefits.
@@ -105,11 +105,11 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
 
         of His majesty, and let all the earth be filled
         with His majesty: so be it.
-[Ps. 113:2]   Blessed be the Name of the Lord from this time
+*Ps.* cxiii. 2.   Blessed be the Name of the Lord from this time
         forth for evermore.
-[Ezek. 3:12]   Blessed be the glory of the Lord from His place.
+*Ezek.* iii. 12.   Blessed be the glory of the Lord from His place.
 
-[Rev. 4:9, 11]   Glory, honour, and blessing,
+*Rev.* iv. 9, 11.   Glory, honour, and blessing,
                 and power,
                 and Godhead, and wisdom,
     [Rev. 5:12, 13]   And might, and dominion,
