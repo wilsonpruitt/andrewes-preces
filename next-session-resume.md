@@ -2,9 +2,29 @@
 
 ## ▶▶▶ START HERE — **[`BRIEF-notes-pass.md`](BRIEF-notes-pass.md)**
 
-**The notes pass is the current and only front, and it is now written up to be picked up cold.** The brief carries the state, the working loop, the four rules that decide what you write, the per-page hazard lists for everything that remains, and the patterns to watch for. **Read it and `NOTES-CONVENTIONS.md`; you do not need this file to start.**
+## ✅✅ THE NOTES PASS IS COMPLETE — 2026-08-15
 
-**Done: printed 2–381, every unit, no gaps.** **Remaining: 76 pages** (Part II 382–395, then Part III 398–436). Build holds at **619 pages, 0 TeX errors, 0 of 595 units too tall**.
+**Printed 2–436, no gaps.** The last 76 pages (Part II 382–395, Part III 398–436) were written in one session; all **49 English rectos** between 382 and 436 carry notes. Final state: `check_notes` **0 out of order · 0 numbering disagreements** · build **619 pages, 0 TeX errors, 0 of 595 units too tall** · `audit_emphasis` clean. Content commits `bcbb21d · d2e414a · cd9bde9 · 249a4b0 · a109894`.
+
+**▶▶ THE FRONT IS NOW `BRIEF-notes-pass.md` §6, THE PRE-PRINT LIST.** Two jobs came out of this pass and neither is an images problem:
+
+1. ⚠⚠⚠ **The English layer's reference form in Part III** — arabic-colon where the plate prints roman, **and, worse, our brackets erase the 1853 editor's own brackets**, so a reader cannot tell his supplied references from the plate's. Printed 406 alone levels ten against eleven. **NOTES-CONVENTIONS §7.4 exists to prevent exactly this.** Mechanical once the rule in §6b is applied; deliberately not touched from the notes pass (§7.2).
+2. **Four plate defects newly recorded** (398's `peccata meam`, verified on the plate and previously unflagged anywhere · 427's `cxiii. 2` for `ciii. 2`, which drags four continuation figures with it · 423's `Matt. xi. 25` for xi. 28 · 425's *Isaac* crux, still open).
+
+⚠ **Nineteen earlier English rectos carry no band and that is correct** — 12 · 66 · 74 · 76 · 80 · 124 · 142 · 174 · 186 · 188 · 194 · 196 · 206 · 232 · 236 · 246 · 254 · 268 · 269. §3 forbids tagging what the line above already gives; §8 requires selection. **Do not fill them in.**
+
+⚠ **Owed by Wilson, unchanged:** a push (20 commits local, protected) · the Book A / Book B ruling (`EDITION-SHAPE.md`) · a big-burn OK before any fleet run.
+
+### What the last 76 pages found, in one line each
+
+- **The two Part II ↔ Part III twins annotated for the first time.** 398 is 380's recension (§1↔§38) and drops both the attribution *and* the *meum* that depended on it, and replaces *cupio certe* with a wish and a lament — **the desire taken out**. 409 is §37's, and where Part II stammers *fecerim, fecerim, fecerim* with no object, Part III says it once and gives it one.
+- **Six self-corroborated misprints**, every one settled from inside the book: Job xiv. 14 (406) against 323 · Psal. xl. 9 (409) against 25 · Is. xxxiii. 15 (409) against 372–373 · Marc. iv. 28 (410) against 286/294 · 1 Cor. xi. 30 (413) against 386 · cxlii/cxli. 8 (26) against 432's cxli. 3. **The corroborating witness is always the volume.**
+- **406 and 426 are the same body catalogued twice** — an anatomy of sin head to foot, and an embryology of thanksgiving — and neither page marks the other.
+- **433's two Prayer Book numerals are the hardest evidence in the book about which Psalter was on the desk**, because a wording can be remembered and a numeral has to be looked up.
+- **The volume closes on the verse it opened its day with** — *into Thy hands I commend my spirit*, at printed 26 among the morning prayers and again as the last line of all, with 435's *by the lamp burning … by the lamp quenched* two lines above making sleep and dying one act.
+- **388/390: the Gloria's two columns are two RECENSIONS**, and the 1853's asterisk rows mark, on opposite sides, where the Spirit is named. The *Φῶς ἱλαρόν* opposite is an ordinary translation. **Both rows are apparatus and must survive.**
+- **430 is a three-column page whose middle column carries one word that switches from *or* to *and*** — the seam between what is received and what is rendered. Structural, not decoration.
+- ⚠ **Two plausible findings were killed by checking, and both would have printed well.** That §40 quotes canon in Greek and deuterocanon in Latin (*Ecclus.* is Latin at 381 and Greek at 383; the Psalter alternates in three consecutive lines at 383). That 408 measures sin by Paul's four dimensions (the series ends in a *cry*, not a height). **Check the next leaf before writing the pattern down.**
 
 Everything below is the **history**: how the rules were arrived at, what each stretch found, and the decisions already ruled. Consult it when the brief points here; do not read it front to back.
 

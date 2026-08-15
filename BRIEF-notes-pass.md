@@ -1,4 +1,14 @@
-# BRIEF — finishing the notes pass (printed 382 → 436)
+# BRIEF — the notes pass ✅ COMPLETE (printed 2 → 436)
+
+# ✅✅ THE NOTES PASS IS FINISHED, 2026-08-15.
+
+**Printed 382–436 were written this session; the pass now runs 2–436 with no gaps.** All **49 English rectos** between 382 and 436 carry notes (`tools/note_sheet.py` has nothing left to open). Final state: `check_notes` **0 out of order · 0 numbering disagreements**; build **0 of 595 units too tall**; `audit_emphasis` clean.
+
+⚠ **Nineteen English rectos earlier in the volume carry no band** — 12 · 66 · 74 · 76 · 80 · 124 · 142 · 174 · 186 · 188 · 194 · 196 · 206 · 232 · 236 · 246 · 254 · 268 · 269. **These are deliberate silences, not gaps**: §3 forbids tagging what the line above already gives and §8 requires selection. **An empty band is a correct outcome. Do not "fill them in."**
+
+**▶▶ THE FRONT IS NOW §6's PRE-PRINT LIST — read that section first, not this one.** Everything below is kept as the record of how the pass was run and what it paid for.
+
+---
 
 **Written 2026-08-10 to be picked up cold.** Read this, then `NOTES-CONVENTIONS.md`. You do not need to read `next-session-resume.md` to start; it is the long history.
 
@@ -177,7 +187,35 @@ These recur, and each is a thing a careless pass destroys.
 
 ---
 
-## 6. After the notes pass
+## 6. ▶▶ THE PRE-PRINT LIST — this is the front
+
+**Updated 2026-08-15, at the close of the notes pass.**
+
+### 6a. ⚠⚠⚠ THE ENGLISH LAYER'S REFERENCE FORM IS WRONG IN PART III, and it is bigger than the arabic-colon question
+
+**Found while opening printed 402 and confirmed across 406–436.** Two defects, and the second is the serious one:
+
+1. **Arabic-colon form.** The English renders the plate's `*Job.* xiv. 14.` as `[Job 14:14]`. **The rule that decides it is already written** (below, §6b): a reference the 1853 prints *inside the text* is body text and follows the plate. **These are printed inside the text**, so the roman form is wanted. Printed 406 alone carries **21** of them.
+2. ⚠⚠ **THE 1853 EDITOR'S BRACKETS ARE BEING ERASED.** The plate distinguishes its own references (`*Job.* xiv. 14.`) from the ones its editor supplied (`[*Rom.* ix. 22.]`) — **and our English brackets both alike**, so a reader cannot tell which hand put a reference there. On printed 406 that silently levels **ten of the plate's own against eleven of the editor's**. **NOTES-CONVENTIONS §7.4 exists to keep exactly these apart**, and this is the one place in the edition that breaks it.
+
+⚠ **Neither was fixed from the notes pass, deliberately** — §7.2 / §3d: nothing there writes back to a transcript or to the English layer. **This is its own job, and it is mechanical once the rule is applied.**
+
+### 6b. The rule that decides each case (unchanged)
+
+**A reference the 1853 prints inside the text is body text and follows the plate; a reference we supplied is ours and follows our own convention.** Printed 380 rendered the plate's in-text `*Psal.* cviii. 1.` as `*Ps.* 108:1` — the only in-text reference in the volume so set, and it was fixed. The early Part II files carry bracketed arabic (`[Ps. 65:2]`) which is our added apparatus and is probably right as it stands.
+
+### 6c. Plate defects on the watch list, added by this pass
+
+- ⚠ **Printed 398 — `Ponam peccata *meam* coram me`**, feminine singular against a neuter plural; *mea* is wanted. **Verified on the plate** (`raw/end/p-439.jpg`) and recorded in the band. Not previously flagged anywhere.
+- ⚠ **Printed 427 — `cxiii. 2` for `ciii. 2`**, which drags **four bare continuation figures** (`3 · 4 · 5`) onto the wrong psalm. The volume prints `cxiii. 2` rightly at 428. **This is §11a's danger on a real page**: the continuation resolver carries the error forward in silence.
+- ⚠ **Printed 423 — `Matt. xi. 25`** where *Venite ad Me* is **xi. 28**. Unbracketed, so the plate's own.
+- ⚠ **Printed 425 — the *Isaac* crux is STILL OPEN** (`Cantemus Domino Isaac et Israelitarum`, Exod. xv. 2). Compositor's, scribe's, or a compression — **cannot be settled from these files.** Left as a question in the band.
+
+### 6d. Still an images problem
+
+The remainder is images, not collation — **printed 414's cento is the one genuinely open item** (*Job. xxv. 3* covers only part of the line; Brightman's margin is OCR-noisy and **needs his page image**). 210 · 239 · 353 · 386's Hebrew are all closed. Brightman by text is near exhausted.
+
+### 6e. The old wording of this section, kept
 
 The pre-print list is an **images** problem, not a collation one — printed 210 · 239 · 386's garbled Hebrew · 414's cento · `p. 207` · 370/371's missing heading, four of six blocked on a non-Google 600-dpi digitization. Brightman by text is near exhausted.
 
