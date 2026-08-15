@@ -200,6 +200,18 @@ These recur, and each is a thing a careless pass destroys.
 
 ⚠ **Neither was fixed from the notes pass, deliberately** — §7.2 / §3d: nothing there writes back to a transcript or to the English layer. **This is its own job, and it is mechanical once the rule is applied.**
 
+### 6a-bis. ✅ THIRTEENTH tool-blindness class — A CHARACTER WITH NO GLYPH HAS NO WIDTH (found and fixed 2026-08-15)
+
+**Printed 279 carries the 1853's own LETTERED footnote apparatus** — raised roman `a b c d` standing **before** the word each marks (*ᵃ confitenti et ᵇ roganti · ex ᶜ mysteriorum et ᵈ clavium potestate*), with the four references gathered on one full-measure line beneath. Verified on the plate (`raw/end/p-302.jpg`). **The transcripts carry them faithfully, as the Unicode modifier letters.**
+
+⚠⚠ **Cardo has no glyph for any of the four, so all sixteen dropped out of the PDF in silence.** The leaf printed the sentence with **no markers on it at all** and then a reference line **keyed to nothing** — the plate's own device deleted, in the one register a reader cannot reconstruct.
+
+⚠⚠⚠ **THE LESSON, and it is a new one: a character with no glyph has NO WIDTH, so it passes every check this repo owns.** `--fit` measured the leaf as fitting because the missing letters occupied nothing; `check_notes` and `audit_emphasis` have no opinion about glyphs; the TeX log said so only as `Missing character:`, **which nothing reads**. **935 of those lines were sitting in `volume-loeb.log` unread** (the other 919 are the notes' own ⚠, which are working notation and were never meant to print).
+
+✅ **Fixed in `proof2tex.SUPERS`**, mapping the four to `\textsuperscript{}` **after** the escaping — so the transcripts keep the plate's characters and nothing writes back to a source layer (§7.2). Verified in the PDF itself, not the TeX: all four now print in both the Latin and the English layer.
+
+⚠ **The standing check this earns:** `grep -c "Missing character" prototypes/volume-loeb.log` **after any build.** Anything there that is not the notes' own ⚠ is content being deleted from the page in silence.
+
 ### 6b. The rule that decides each case (unchanged)
 
 **A reference the 1853 prints inside the text is body text and follows the plate; a reference we supplied is ours and follows our own convention.** Printed 380 rendered the plate's in-text `*Psal.* cviii. 1.` as `*Ps.* 108:1` — the only in-text reference in the volume so set, and it was fixed. The early Part II files carry bracketed arabic (`[Ps. 65:2]`) which is our added apparatus and is probably right as it stands.

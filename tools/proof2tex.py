@@ -57,12 +57,31 @@ GAP = re.compile(r"(?<=\S)( {2,})(?=\S)")
 APPARATUS = re.compile(r"^##\s")
 
 
+# ⚠⚠ THE 1853 SETS A LETTERED FOOTNOTE APPARATUS AT PRINTED 279 — raised roman
+# a/b/c/d standing BEFORE the word each marks (`ᵃ confitenti et ᵇ roganti`), with
+# the four references gathered on one full-measure line beneath. The transcripts
+# carry them as the Unicode modifier letters, exactly as the plate sets them, and
+# CARDO HAS NO GLYPH FOR ANY OF THE FOUR — so all sixteen dropped out of the PDF
+# in silence. The leaf printed the sentence with no markers on it and then a
+# reference line keyed to nothing, which deletes the plate's own device.
+# ⚠ Nothing in the pipeline could see it: xelatex reports a missing glyph only as
+# `Missing character:` in the log, which no check reads, and the band measured and
+# fitted perfectly because a character with no glyph has no width. Found 2026-08-15
+# by grepping the log for it, not by looking at the page.
+# Mapped HERE rather than in the sources, so the transcripts keep the plate's own
+# characters and nothing writes back to a transcript (NOTES-CONVENTIONS §7.2).
+SUPERS = {"ᵃ": "a", "ᵇ": "b", "ᶜ": "c", "ᵈ": "d"}
+
+
 def tex_escape(s: str) -> str:
     s = s.replace("\\", r"\textbackslash{}")
     for c, r in [("&", r"\&"), ("%", r"\%"), ("$", r"\$"), ("#", r"\#"),
                  ("_", r"\_"), ("{", r"\{"), ("}", r"\}"), ("~", r"\~{}"),
                  ("^", r"\^{}")]:
         s = s.replace(c, r)
+    # after the escaping, so the braces and backslash introduced here survive
+    for c, r in SUPERS.items():
+        s = s.replace(c, "\\textsuperscript{%s}" % r)
     return s
 
 
