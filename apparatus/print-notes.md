@@ -329,7 +329,8 @@ S: 23 Jer. xxxi. 34 — *I will remember their sin no more*
 S: 25 Rom. vii. 14 — *carnal, sold under sin*
 
 ## 110
-S: 7 `Vers. 24` — the plate's figure, carried by a continuation the index could not read until 2026-08-10. It stands against the words of verse 25. *Infelix ego homo* and *Quis me liberabit* are verse 24; *Gratia Deo per Jesum Christum*, the line the figure is printed on, is verse 25. The marks on this page are otherwise line-exact — `Vers. 22` and `Vers. 23` each sit on their own verse — so either the figure is one short, or it is meant to cover the whole movement from the cry to the thanksgiving. Kept as printed, and neither reading is claimed.
+S: 7 `Vers. 24` — the plate's figure; the words printed on the line are verse 25
+R: 7 The marks on this page are otherwise line-exact — `Vers. 22` and `Vers. 23` each sit on their own verse — which is what makes this one worth halting on. *Infelix ego homo* and *Quis me liberabit* are verse 24; *Gratia Deo per Jesum Christum*, the line the figure is actually printed on, is verse 25. So either the figure is one short, or it is meant to cover the whole movement from the cry to the thanksgiving. Kept as printed, and neither reading is claimed.
 S: 9 Rom. v. 2 — *where sin abounded, grace did much more abound*, which is verse 20
 S: 10 Rom. ii. 4 — *the goodness of God leadeth thee to repentance*
 S: 13 2 Tim. ii. 25 — *if God peradventure will give them repentance*
@@ -866,7 +867,7 @@ S: 16 Luke vii. 37 — *a woman in the city, which was a sinner … brought an a
 S: 18 `Vers. 38` — i.e. Luke vii. 38, the next verse: *began to wash his feet with tears … and kissed his feet*. The plate cites the mouth's own act to justify the words *impurum et execrandum os ejus*.
 S: 20 Luke xxiii. 43 — *To day shalt thou be with me in paradise*
 R: 4 The page is a legal brief made of precedents, and every one of them is a place Christ was received by the unfit. A cave and a manger, a leper's house, a sinful woman, her mouth, a thief on a cross — five occasions, five citations, and the conclusion drawn from them is *Digneris ipse et me*, vouchsafe me also. He is not asking for an exception; he is arguing from a settled practice. It is the same method as §23's catena four hundred pages later, and the same as the ladder of unworthiness at printed 338, which is likewise built entirely out of approaches that succeeded.
-R: 9 Everything in this note was invisible until 2026-08-10. The Google scan photographed 238 and 239 as one spread and cut the Latin recto after some fifteen characters a line, so all seven of these references — and the vocative `DOMINE,` — were simply not in the transcript, and no tool could report what it had never been shown. The leaf was restored from the University of Toronto scan (`SOURCE-IMAGES.md`). Two of the seven are `Vers.` continuation references, a form `ref_index` still cannot resolve; there are 179 of them in the volume.
+R: 9 The ground of the plea is Christ's own homelessness, turned round. The centurion's *I am not worthy that thou shouldest come under my roof* stands above it; the reason given here is that the house is *all desolate and fallen down*, and that *thou hast with me no place worthy whereon to lay thy head* — which is the Son of man's own complaint twelve verses on in the same chapter, made a description of the soul he is being asked to come into. The plate marks it as a continuation of the centurion's verse, so the two are read as one passage.
 
 ## 240
 S: 15 Rom. ix. 33 — *whosoever believeth on him shall not be ashamed*
@@ -1259,7 +1260,7 @@ S: 17 Ps. cvi. 44 — the psalm of Israel's repeated rebellions, at the point wh
 S: 21 Ps. li. 17 — David's Miserere: *a broken and a contrite heart*
 S: 23 Ps. xxxviii. 18 — *I will declare mine iniquity; I will be sorry for my sin*
 R: 5 The same Vulgate line as printed 34, doing different work. There *Memorare quæ mea substantia* was stacked against *Substantia mea apud te est* four lines above it, and the whole join depended on the shared *substantia* — a pun the Authorised Version dissolves, rendering one *my hope is in thee* and the other *remember how short my time is*. Here the verse stands alone, pleading the weakness of nature, and there is no join to protect; so the English can be plain where at 34 it had to keep the word.
-R: 7 A counter-instance worth keeping, on the question of which Psalter was to hand. Printed 433's two references are right only on the Prayer Book's numbering, and this pass has since found nine more places where the plate counts with the BCP against the AV. This is not one of them: *a wind that passeth away* is verse 39 in the Authorised Version and 40 in the Prayer Book Psalter, and the plate prints 39. The evidence is real but it is not uniform, and an introduction that claims the 1853 counts by the Prayer Book throughout will be answerable for this page.
+R: 7 A counter-instance worth keeping, on the question of which Psalter was to hand. Printed 433's two references are right only on the Prayer Book's numbering, and nine more places in the volume count with the BCP against the AV. This is not one of them: *a wind that passeth away* is verse 39 in the Authorised Version and 40 in the Prayer Book Psalter, and the plate prints 39. The evidence is real but it is not uniform: no single Psalter accounts for the way this volume numbers.
 
 ## 296
 S: 2 Ps. lxxxvi. 3 — *I cry unto thee daily*
