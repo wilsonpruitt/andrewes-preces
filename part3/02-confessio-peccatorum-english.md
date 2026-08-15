@@ -161,7 +161,7 @@ And, O Lord, carest Thou not, if
 
     1. Surely, O Lord, I am Thine,
 *Ps.* cxix. 94.   oh save me.
-    [Ps. 138:10]   The work of Thine own hands, I beseech Thee,
+    [*Ps.*] cxxxviii. 10.   The work of Thine own hands, I beseech Thee,
 *Wisd.* xi. 25.   despise not.
 
 <!-- printed 411 (PDF 452) -->
@@ -191,9 +191,9 @@ And, O Lord, carest Thou not, if
 *John* ix. 30.   And God heareth not sinners:
 *Ps.* lxxxix. [46.]   Yet remember, I beseech Thee, what my
         substance is;
-    [Ps. 68:39]   Call to mind that I am flesh, and a wind
+    [*Ps.*] lxviii. 39.   Call to mind that I am flesh, and a wind
         that passeth away, and cometh not again.
-    [Ps. 103:14]   Know our frame, whereof we
+    [*Ps.*] ciii. 14.   Know our frame, whereof we
         are made; Remember that we are but
         dust.
 
@@ -298,9 +298,9 @@ That in them Thou mightest shew the excellency of Thy compassion;
 
 *Ps.* xxx. 11.   For what profit is there in my blood, if
         I go down into the pit?
-    [Ps. 6:5]   Shall any in death give Thee thanks?
+    [*Ps.*] vi. 5.   Shall any in death give Thee thanks?
         or shall there be any in hell to remember Thee?
-    [Ps. 53:13]   Shall Thy wondrous works be known in the dark,
+    [*Ps.*] liii. 13.   Shall Thy wondrous works be known in the dark,
         or Thy righteousness in the land where all things are forgotten?
 *Isa.* xxxviii. 18.   Surely the grave shall not confess Thee, neither
         shall Death praise Thee, they that go down into the pit

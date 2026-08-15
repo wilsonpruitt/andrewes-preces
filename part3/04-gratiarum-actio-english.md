@@ -13,7 +13,7 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
         bless the Lord thy God for that good land
         which He hath given thee.
 *Exod.* xviii. 10.   Blessed be the God of Jethro.
-        [Exod. 15:2]   Let us sing unto the Lord of Isaac and of the Israelites,
+        [*Exod.*] xv. 2.   Let us sing unto the Lord of Isaac and of the Israelites,
                 Thou art my God.
 *Ps.* cxviii. 28.   And I will confess unto Thee,
                 And I will exalt Thee.
@@ -64,7 +64,7 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
         [ver. 9]   and make the voice of His praise to be heard, who
         hath set my soul unto life, and hath not
         suffered my feet to be moved.
-    [Ps. 92:4]   For Thou, Lord, hast made me glad through Thy
+    [*Ps.*] xcii. 4.   For Thou, Lord, hast made me glad through Thy
         work, in the operations of Thy hands will I
         rejoice.
 
@@ -72,7 +72,7 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
 
 *Ps.* ciii. 1.   Praise the Lord, O my soul, and all that
         is within me praise His holy Name.
-    [Ps. 113:2]   Praise the Lord, O my soul, and forget
+    [*Ps.*] cxiii. 2.   Praise the Lord, O my soul, and forget
         not all His benefits.
         [ver. 3]   Who forgiveth all thine iniquities,
         who healeth all thine infirmities.
@@ -80,14 +80,14 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
         crowneth thee with mercy and loving-kindness.
         [ver. 5]   Who satisfieth thy desire with good things,
         and thy youth is renewed like the eagle's.
-    [Ps. 30:12]   Thou hast turned my heaviness into joy:
+    [*Ps.*] xxx. 12.   Thou hast turned my heaviness into joy:
         Thou hast put off my sackcloth, and girded
         me with gladness.
         [ver. 13]   That I may sing of Thy glory, and not be
         pricked in conscience.
             O Lord my God, I will give thanks unto
         Thee for ever.
-    [Ps. 71:18]   How great troubles hast Thou shewed me,
+    [*Ps.*] lxxi. 18.   How great troubles hast Thou shewed me,
         many and sore.   And Thou didst turn and quicken
         me, and broughtest me from the deep of the earth
         again.
@@ -98,7 +98,7 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
         [ver. 22]   Yea, and my tongue shall talk of Thy
         righteousness all the day long.   O God, who is like
         unto Thee?
-    [Ps. 72:18]   Blessed be the Lord God of Israel, who
+    [*Ps.*] lxxii. 18.   Blessed be the Lord God of Israel, who
         only doeth wondrous things, and blessed be the Name
 
 <!-- printed 428 (PDF 471) -->
@@ -112,10 +112,10 @@ Line-keyed English of `04-gratiarum-actio-transcript.md` (printed 425–430). **
 *Rev.* iv. 9, 11.   Glory, honour, and blessing,
                 and power,
                 and Godhead, and wisdom,
-    [Rev. 5:12, 13]   And might, and dominion,
-    [Rev. 7:10]   And salvation,
+    [*Rev.*] v. 12, 13.   And might, and dominion,
+    [*Rev.*] vii. 10.   And salvation,
         [ver. 12]   And love, and thanksgiving,
-    [Rev. 19:1]   And praise,
+    [*Rev.*] xix. 1.   And praise,
                 Unto the holy and undivided
                     Trinity,
             for ever and ever.   Amen.

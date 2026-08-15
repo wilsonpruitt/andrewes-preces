@@ -7,21 +7,21 @@ Line-keyed English of `05-matutinae-preces-transcript.md` (printed 431–432). *
         THE MORNING PRAYERS.
 *Ps.* lxxiv. 6.   O LORD, Thine is the day, and Thine is the night,
         Thou hast made the dawn and the sun.
-        [Ps. 119:81]   By Thine ordinance the day abideth, for
+        [*Ps.*] cxix. 81.   By Thine ordinance the day abideth, for
         all things serve Thee.
-        [Ps. 55:17]   At evening, and morning, and at noonday will I pray, and
+        [*Ps.*] lv. 17.   At evening, and morning, and at noonday will I pray, and
         that instantly; and Thou, O Lord, shalt hear the voice
         of my prayer.
-        [Ps. 5:3]   Unto Thee, O Lord, will I pray; in the morning will I stand before Thee,
+        [*Ps.*] v. 3.   Unto Thee, O Lord, will I pray; in the morning will I stand before Thee,
         and Thou shalt hear my voice.
                 Blessed art Thou, O Lord, who turn-
-        [Ps. 104:30]   est the darkness into the morning, and renewest the face
+        [*Ps.*] civ. 30.   est the darkness into the morning, and renewest the face
         of the earth.
-        [Ps. 91:5]   Who hast delivered us from the terror by night, from
+        [*Ps.*] xci. 5.   Who hast delivered us from the terror by night, from
         [ver. 6]   the thing that walketh about in darkness;
-        [Ps. 13:3]   Who hast lightened our eyes, that we sleep
+        [*Ps.*] xiii. 3.   Who hast lightened our eyes, that we sleep
         not in death.
-        [Ps. 134:4]   Who hast made sleep to pass from our
+        [*Ps.*] cxxxiv. 4.   Who hast made sleep to pass from our
         eyes, and slumber from our eye-
         lids.
 *Isa.* xliv. 22.   Blot out, O Lord, as the cloud of night our iniqui-
@@ -50,12 +50,12 @@ Line-keyed English of `05-matutinae-preces-transcript.md` (printed 431–432). *
         Thy sight, for Thou art my God.
         [ver. 12]   Let Thy good Spirit lead me forth into
         the land of uprightness.
-        [Ps. 90:16]   Look upon Thy servants, and upon their own
+        [*Ps.*] xc. 16.   Look upon Thy servants, and upon their own
         works, and let the grace and the brightness of the Lord our
         God be upon us.
                 And the works of our hands direct Thou upon
         us; yea, the works of our hands direct Thou.
-        [Ps. 141:3]   Set a watch, O Lord, before my mouth, a door
+        [*Ps.*] cxli. 3.   Set a watch, O Lord, before my mouth, a door
         round about my lips.
 *Col.* iv. 6.   Let my speech be with grace, seasoned with salt,
         that I may know how I ought to answer every
@@ -63,7 +63,7 @@ Line-keyed English of `05-matutinae-preces-transcript.md` (printed 431–432). *
 [*Ps.* xix. 14.]   Let the words of my mouth, and the medi-
         tation of my heart, be alway acceptable in Thy sight,
         O Lord, my Redeemer.
-        [Ps. 121:8]   The Lord preserve our going out and our coming
+        [*Ps.*] cxxi. 8.   The Lord preserve our going out and our coming
         in, from this time forth for evermore.  Amen.
 
 ---

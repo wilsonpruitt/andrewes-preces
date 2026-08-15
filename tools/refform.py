@@ -136,14 +136,24 @@ def main():
                         eyes.append(f"p{p} line {ti+1}: chapter disagrees — "
                                     f"plate {pm.group('chap')}. ({pchap}) vs english {chap}")
                         continue
+                    pverse = re.sub(r"\s*[,.]\s*", ", ", pm.group("verse").strip())
+                    if pverse != re.sub(r"\s*,\s*", ", ", verse.strip()):
+                        # the plate is what we follow, so its figure is the one
+                        # that prints; a disagreement is worth knowing about
+                        eyes.append(f"p{p} line {ti+1}: verse figure differs — "
+                                    f"plate {pverse} vs english {verse.strip()} "
+                                    f"(the plate's is kept)")
+                    verse = pverse
                     if not pm.group("book"):
-                        # ⚠ THE PLATE DOES NOT REPEAT THE BOOK HERE. Whether our
-                        # English may supply it, and how it should be marked as
-                        # supplied, is a CONVENTION QUESTION and Wilson's to rule.
-                        # Left exactly as it stands rather than guessed at.
+                        # ✅ RULED by Wilson 2026-08-15: where the psalm is still
+                        # running the plate omits the book, and our English SUPPLIES
+                        # it in brackets — the numerals follow the plate, the book is
+                        # ours and says so. One rule for the reader throughout:
+                        # brackets mean not the plate.
+                        tgt = f"[*{book.strip()}*] {roman(chap)}. {verse}."
+                        new = new[:em.start()] + tgt + new[em.end():]
                         tally["bare"] += 1
                         continue
-                    verse = re.sub(r"\s*,\s*", ", ", verse.strip())
                     body = f"*{book.strip()}* {roman(chap)}. {verse}."
                     if pm.group("ob"):                      # whole reference his
                         tgt = f"[{body}]"
@@ -161,7 +171,7 @@ def main():
             Path(epath).write_text("\n".join(elines) + "\n")
 
     print(f"  plate-printed, reformatted to the plate : {tally['converted']}")
-    print(f"  BARE continuation (plate omits the book): {tally['bare']}  <- Wilson's call, untouched")
+    print(f"  BARE continuation, book supplied [*Bk.*]: {tally['bare']}")
     print(f"  OURS (plate prints nothing there), left : {tally['ours']}")
     print(f"  need eyes                               : {tally['eyes']}")
     for e in eyes[:40]:

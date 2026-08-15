@@ -9,13 +9,13 @@ Line-keyed English of `06-vespertinae-preces-transcript.md` (printed 433–436).
                         THE EVENING PRAYERS.
 *Ps.* cxxxiv. 3.   IN the night seasons lift up your hands in the
                     sanctuary, and bless the Lord.
-        [Ps. 55:17]   At evening, and morning, and at noonday will I pray, and
+        [*Ps.*] lv. 17.   At evening, and morning, and at noonday will I pray, and
                     that instantly; and Thou, O Lord, shalt hear my
                     voice.
-        [Ps. 42:10]   The Lord hath granted His loving-kindness in the
+        [*Ps.*] xlii. 10.   The Lord hath granted His loving-kindness in the
                     day-time, therefore in the night season did I sing His
                     praises, and my prayer was unto the God of my life.
-        [Ps. 141:2]   Let my prayer be set forth as incense in
+        [*Ps.*] cxli. 2.   Let my prayer be set forth as incense in
                     Thy sight; and the lifting up of mine
                     hands, as the evening sacrifice.
                         Blessed art Thou, O Lord,
@@ -25,7 +25,7 @@ Line-keyed English of `06-vespertinae-preces-transcript.md` (printed 433–436).
 [Job 35]   Who givest songs in the night,
 *Ps.* lxv. 8.   And makest the outgoings of the morning
                             and of the evening to praise Thee.
-        [Ps. 91:5]   Who hast delivered us from the arrow
+        [*Ps.*] xci. 5.   Who hast delivered us from the arrow
                             that flieth by day, from the assault,
                             and from the noonday devil.
 *Isa.* xxxviii. 14.   Who hast not cut off, like a weaver,

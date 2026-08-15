@@ -6,21 +6,21 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
 
         HIS MERCY.
 *Ps.* cix. 20.   Sweet,
-    [Ps. 69:17]   Pleasant,
-    [Ps. 63:4]   Better than life.
+    [*Ps.*] lxix. 17.   Pleasant,
+    [*Ps.*] lxiii. 4.   Better than life.
 
 <!-- printed 417 (PDF 460) -->
 
         THE MERCY OF GOD.
 *Ps.* v. 7.   Many,
-    [Ps. 51:1]   Manifold,
+    [*Ps.*] li. 1.   Manifold,
 *1 Pet.* iv. 10.   Plenteous,
 *Ps.* cxix. 156.   Great,
-    [Ps. 103:12]   { Broad, / the east and the west, }
-    [Ps. 42:7]   Deep, a deep.
-    { [Ps. 36:5] / [Ps. 108:4] }   High { unto the heavens, / above the heavens. }
-    { [Ps. 25:6] / [Ps. 103:17] / [Ps. 13:6] }   Everlasting { Before, / After. }
-    [Ps. 145:9]   His tender mercies are over all His works.
+    [*Ps.*] ciii. 12.   { Broad, / the east and the west, }
+    [*Ps.*] xlii. 7.   Deep, a deep.
+    { [*Ps.*] xxxvi. 5. / [*Ps.*] cviii. 4. }   High { unto the heavens, / above the heavens. }
+    { [*Ps.*] xxv. 6. / [*Ps.*] ciii. 17. / [*Ps.*] xiii. 6. }   Everlasting { Before, / After. }
+    [*Ps.*] cxlv. 9.   His tender mercies are over all His works.
 *Rom.* v. 20.   Over our sin,
 *Jas.* ii. 13.   Over His own justice.
 *Ecclus.* ii. 18.   According to the greatness of Him, so
@@ -43,7 +43,7 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
 *Wisd.* xi. 23.   Winking at the sins of men
                 that they may repent.
 *Ps.* xcv. [10.]   Bearing with them forty whole years
-    [Ps. 78:38]   But He was so merciful, and so gracious
+    [*Ps.*] lxxviii. 38.   But He was so merciful, and so gracious
         was He, and soon appeased, that He destroyed them not.
             Yea, many a time turned He His wrath away,
         and would not suffer His whole displea-
@@ -58,7 +58,7 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
     The punishment is a part of the mercy,
 *Ps.* lxxxix. 32.   I will visit their offences with the rod,
                 Yet My mercy will I not take from him.
-    [Ps. 103:10]   He hath not dealt with us after our sins, nor
+    [*Ps.*] ciii. 10.   He hath not dealt with us after our sins, nor
         rewarded us according to our wickednesses.
                 For a great sin a little
                     punishment sufficeth a father.
@@ -77,7 +77,7 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
         easily and sparingly.
 *Ps.* xciv. 18.   When I said, My foot hath slipt, Thy
         mercy, O Lord, shall hold me up.
-    [Ps. 32:5]   I said, I will acknowledge mine unrighteous-
+    [*Ps.*] xxxii. 5.   I said, I will acknowledge mine unrighteous-
         ness against myself unto the Lord, and Thou forgavest
         the wickedness of my sin.
             It is as nothing with us; for His own
@@ -111,12 +111,12 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
     5. Pardon, and not only pardon,
                 but lavish pardon.
 *2 Sam.* xiii. 10.   As David of his own accord brought
-        [2 Sam. 14:24]   Absalom back, yet at the first that he should not see his face,
+        [*2 Sam.*] xiv. 24.   Absalom back, yet at the first that he should not see his face,
                 and at the last admitted him to the kiss.
 *Luke* xv. 22.   As the father, when the naughty son returned, not only
         forgave him, but made ready the best robe and the ring, and
         the fatted calf.
-        [Luke 15:7]   He will have joy and triumph in heaven
+        [*Luke*] xv. 7.   He will have joy and triumph in heaven
         over one sinner that repenteth.
             And not over little faults only,
             But over grievous crimes.
@@ -136,14 +136,14 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
 
 <!-- printed 421 (PDF 464) -->
 
-{ *Ps.* lxxviii. 8. / [Ps. 23:6] / [Ps. 32:16] }   { Preventing, / Following, / Compassing about, }
+{ *Ps.* lxxviii. 8. / [*Ps.*] xxiii. 6. / [*Ps.*] xxxii. 16. }   { Preventing, / Following, / Compassing about, }
                 On every side.
 
     7. And whatsoever poor service (that grace enabling us)
         we shall have done, He rewardeth it abundantly.
 *Ps.* ciii. 4.   He crowneth us with mercy and loving-
                 kindness.
-    [Ps. 62:10]   He is merciful, for He rendereth unto us both according to
+    [*Ps.*] lxii. 10.   He is merciful, for He rendereth unto us both according to
                 and above our good works.
 [*Matt.* x. 42.]   Nor doth He suffer a cup of cold water to go un-
                 rewarded.
@@ -152,12 +152,12 @@ Line-keyed English of `03-misericordia-dei-transcript.md` (printed 416 foot–42
 *Ps.* xxv. 6.   He hath learned to shew mercy, and hath had the practice of it
                 from of old.
         [ver. 1]   Rightly therefore do we so call Him.
-    [Ps. 22:4]   Our fathers hoped in Thee, they trusted
+    [*Ps.*] xxii. 4.   Our fathers hoped in Thee, they trusted
         in Thy mercy, and were not confounded.
-    [Ps. 77:5]   Hath God now forgotten to be merciful? and
+    [*Ps.*] lxxvii. 5.   Hath God now forgotten to be merciful? and
         will He shut up His mercies within Himself?
             It is not { a spring dried up,   [*Hos.* xiii. 15.] / a hand shortened,   [*Isa.* lix. 1.] / an ear made heavy.   [Ibid.] }
-    [Ps. 89:48]   Lord, where are Thine old loving-kindnesses?
+    [*Ps.*] lxxxix. 48.   Lord, where are Thine old loving-kindnesses?
         [ver. 1]   I will sing of the mercies of God for ever.
         [ver. 4]   I have said, Thy mercy shall be set up
                 for ever.
@@ -210,9 +210,9 @@ Nor had Thine Apostle said it in vain,
         sinners, of whom I am chief.
 *Rom.* v. 20.   Where sin abounded, grace did much more
         abound.
-    [Rom. 11:32]   God hath concluded all under sin, that
+    [*Rom.*] xi. 32.   God hath concluded all under sin, that
         He might have mercy upon all.
-    [Rom. 5:10]   God commendeth His love toward
+    [*Rom.*] v. 10.   God commendeth His love toward
         us, in that, while we were yet sinners, yea,
         while we were His enemies, Christ died
         for us.
