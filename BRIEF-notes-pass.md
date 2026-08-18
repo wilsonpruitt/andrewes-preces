@@ -262,6 +262,18 @@ Sections: (1) the unmarked recurrences · (2) the *Divisio* at 347 as a table of
 
 ⚠ **Every claim in it comes from a note already in `apparatus/print-notes.md`. Change one there and change it here.** The file's header comment says so.
 
-**Owed by Wilson:** a push (`git push origin main`, protected); a non-Google digitization; and **a read of the introduction in his own voice** — the preface is approved and settled, this one is new and has never been through him.
+### 6g. ✅ THE BOOK NOW HAS A COVER AND A FRONTISPIECE, 2026-08-18 — both are RULINGS, not drafts
+
+**Frontispiece** — `prototypes/front/andrewes-frontispiece.png`, set by the generator's front block. Simon de Passe's engraving of 1618 (Andrewes as Bishop of **Ely**, engraved in his lifetime), public domain, British Museum; source scan in `raw/portrait/`. It takes the blank verso that already stood before the title page, **so the page count did not change**. Credited in the colophon.
+
+⚠⚠ **IT IS THE WHOLE PLATE AND MUST STAY WHOLE.** The 1618 impression carries an eight-line verse tablet beneath the portrait — *"But to these LINES his WRYTINGS added, cann / Make up the faire resemblance of a MAN"* — and that verse is the entire reason this impression was chosen over a cleaner bust. **Do not crop to the head to make it print larger.** The verse signature reads `Ge: Wi.` on the plate; the caption reports only that, because the obvious candidate could not be verified. **Don't attribute it without a source.**
+
+**Cover** — `covers/cover.py` (`front` · `wrap` · `guides` · `all`), built on the church-in-palestine grammar so the catalog reads as one shelf. Wrap **13.812 × 9.25in, spine 1.562in at 625pp on cream**; barcode keep-out verified by eye on `guides`.
+
+⚠⚠ **THE FRONT IS TYPE-LED AND SHOWS THE PARALLEL. IT IS NOT A PORTRAIT, AND THAT IS WILSON'S CALL, NOT a shortage of artwork.** The reason is the preface's own claim — no edition in print presents the Greek and the Latin at all — so the parallel is the one thing this book has that the Newman/Neale/Brightman shelf does not. **Do not "restore" the portrait to the cover; it already has its place inside.** The full reasoning is in the `cover.py` docstring; read it before changing the front.
+
+⚠ **Two constants there can silently invalidate the wrap and nothing warns you:** `PAGES = 625` (must be the FINAL interior count — rebuild the interior first if the introduction's length changes) and `PPI = 0.0025` (**cream**; white is 0.002252 and moves the spine 0.14in). The cover's specimen is Ps. xxvi. 8 copied from the part2 §27 transcripts — **if that transcript changes, change the cover.**
+
+**Owed by Wilson:** a push (`git push origin main`, protected); a non-Google digitization; and **a read of the introduction in his own voice** — the preface is approved and settled, this one is new and has never been through him. ✅ The cover he has seen and approved (2026-08-18); the paper stock (cream assumed) and the final page count are the two things still to confirm at upload.
 
 Related: `NOTES-CONVENTIONS.md` · `CONVENTIONS.md` · `EDITION-SHAPE.md` · `apparatus/print-notes.md` · `next-session-resume.md`
