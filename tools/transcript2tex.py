@@ -903,6 +903,7 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
 \clearpage
 
 \input{front/preface}
+\input{front/introduction}
 
 \mainmatter
 \pagestyle{fancy}

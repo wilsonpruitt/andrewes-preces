@@ -248,6 +248,18 @@ The pre-print list is an **images** problem, not a collation one — printed 210
 
 ⚠⚠ **ONE NON-IMAGE JOB WAS ADDED 2026-08-11 and it is cheap: sweep the English layers for arabic-colon references.** Printed 380 rendered the plate's own in-text `*Psal.* cviii. 1.` as `*Ps.* 108:1` — **the only in-text reference in the volume so set**, and it was fixed. **But the early Part II files carry bracketed arabic (`[Ps. 65:2]`) which is a different thing** — our added apparatus, not the plate's printed text, and probably right as it stands. **Nobody has sorted which is which.** The rule that decides each case: **a reference the 1853 prints inside the text is body text and follows the plate; a reference we supplied is ours and follows our own convention.**
 
-**Owed by Wilson:** a push (`git push origin main`, protected); a non-Google digitization; and the preface (`prototypes/front/preface.tex`), which is still a draft in my words and is blocked on his voice, not on research.
+### 6f. ✅ THE INTRODUCTION IS WRITTEN, 2026-08-17 — `prototypes/front/introduction.tex`
+
+**~3,750 words, seven sections, in the front matter after the approved preface** (`\input{front/introduction}`, added to `tools/transcript2tex.py`'s front block — the generator, NOT the generated `volume-loeb.tex`). Build **625pp, 0 TeX errors, 0 of 595 too tall, 0 missing glyphs, `audit_emphasis` clean.** TOC: Preface vii, Introduction x.
+
+⚠⚠ **ITS RULE, and any edit must keep it: THE INTRODUCTION MUST NOT RESTATE THE PREFACE.** The preface carries the *editorial* matter — the gap in print, the commonplace-book character, the do-not-repair textual policy, the Latin question and πλάσμα, the English register and Coverdale, the layout, the unprinted Hebrew, Brightman. Wilson approved it as it stands. **The introduction is a READING of the book** and takes none of that ground.
+
+**Its spine is the one thing the notes pass found over and over: the book never points at itself.** Every recurrence in it is unmarked — 22/332/431, Jacob three times, Isaiah xxxviii three times, the two bodies at 406 and 426, the last sentence already said at 26. That thesis is what earns the recto notes, and it is the argument for reading the volume through rather than consulting it.
+
+Sections: (1) the unmarked recurrences · (2) the *Divisio* at 347 as a table of contents for a book that never prints one, with the derived-not-inherited hours/places/postures at 2–14 · (3) how it quarries — mood changed, text turned on its speaker (*fecerim* ×3 at 372, twin at 409), vocabulary from the neighbouring Vulgate, the Lord's Prayer three unconformed ways · (4) Part III as a legal case ending on the publican's seven words, the argument strongest where the example is worst (412, 422), *Upon this last I take my stand* (415), §28's ladder floored by Dives · (5) **the liturgical evidence BOTH WAYS** — five Eastern marks (349 anaphora + ἑκουσίων καὶ ἀκουσίων, 350 doxology, 355 *Carbo duplicis naturæ*, 356 praying Ps. xxvi. 8 in Greek) against 358's Litany, 359's Requiem, 360's memory-verses, with 363's *vel peto ut offeras* held open and adjudicated neither way · (6) what was on the desk — the Psalter question settled from numerals (433 Coverdale-only, xxii. 17 vs. 16 across two recensions, 295, 274), the Hebrew at 383, the four-Gospel harmony · (7) the last leaves, the lamp quenched, and 383's Augustine as the consolation the book withheld for six leaves.
+
+⚠ **Every claim in it comes from a note already in `apparatus/print-notes.md`. Change one there and change it here.** The file's header comment says so.
+
+**Owed by Wilson:** a push (`git push origin main`, protected); a non-Google digitization; and **a read of the introduction in his own voice** — the preface is approved and settled, this one is new and has never been through him.
 
 Related: `NOTES-CONVENTIONS.md` · `CONVENTIONS.md` · `EDITION-SHAPE.md` · `apparatus/print-notes.md` · `next-session-resume.md`
