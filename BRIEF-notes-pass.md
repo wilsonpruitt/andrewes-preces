@@ -238,9 +238,11 @@ These recur, and each is a thing a careless pass destroys.
 - ⚠ **Printed 423 — `Matt. xi. 25`** where *Venite ad Me* is **xi. 28**. Unbracketed, so the plate's own.
 - ⚠ **Printed 425 — the *Isaac* crux is STILL OPEN** (`Cantemus Domino Isaac et Israelitarum`, Exod. xv. 2). Compositor's, scribe's, or a compression — **cannot be settled from these files.** Left as a question in the band.
 
-### 6d. Still an images problem
+### 6d. ✅ CLOSED 2026-08-17 — THE PRE-PRINT LIST IS EMPTY
 
-The remainder is images, not collation — **printed 414's cento is the one genuinely open item** (*Job. xxv. 3* covers only part of the line; Brightman's margin is OCR-noisy and **needs his page image**). 210 · 239 · 353 · 386's Hebrew are all closed. Brightman by text is near exhausted.
+**Printed 414's cento is settled and the note is applied** (build 0 errors, leaf fits). It is a cento of **three** places in Job in **three different texts**: xiv. 4 as the Septuagint reads it (the Vulgate has no day-old child; Andrewes uses the phrase himself in a Pentecost sermon, `as the Seventy read it`; Augustine gives it at *Conf.* I. vii. 11) + xxv. 5 Vulgate verbatim + iv. 18 **not** Vulgate (*reperit pravitatem*) but the Hebrew's *folly*, as AV. The plate's own `xxv. 3` fits none of the three and stands as printed. Full account: `apparatus/BRIGHTMAN-collation.md`.
+
+⚠⚠ **It was never actually blocked.** Brightman's page image was one URL away on the same archive.org item whose OCR we had been reading — `archive.org/download/bwb_KP-665-232/page/n213.jpg`, printed page = n − 65. **Nobody had tried the image endpoint.** 210 · 239 · 353 · 386's Hebrew were already closed; with this, the pre-print list is empty.
 
 ### 6e. The old wording of this section, kept
 

@@ -91,7 +91,7 @@ The 1853 apparatus is headed **EX APOGRAPHO SAMUELIS WRIGHT, APUD COLL. PEMB. CA
 | 1 | **printed 239**, Latin recto cut off by the one-frame spread photograph | ✅ **CLOSED AND RESTORED** (Wilson's go, 2026-08-10). Read entire on Toronto leaf `0267`; the transcript now carries the full page and the band is written at `print-notes.md` ## 238. |
 | 2 | **printed 210**, left-margin ink smear | ✅ **CLOSED AND RESTORED** (leaf `0236`). **The smear is not on the plate at all** — a pure Google-scan artifact; Toronto's left margin is clean. All 18 `[?]` read, every one confirmed by the facing Latin. ⚠ **It had also caused three SILENT errors**, one of them a change of sense. |
 | 3 | **printed 386**, the garbled Hebrew `חזתלת` | ✅ **Re-read and confirmed a *plate* defect**, as expected — no scan can repair it. ⚠ **But the re-read produced the mechanism**: the next word is `התועלת`, and the compositor mangled *tocheleth* into a version of its near-identical neighbour. See the foot of this file. |
-| 4 | **printed 414**, the `Job. xxv. 3` cento | **Open, and Toronto is the wrong tool** — this needs *Brightman's* page images (he marks Hebrew by italics and italics don't survive OCR), not a better 1853. |
+| 4 | **printed 414**, the `Job. xxv. 3` cento | ✅ **CLOSED 2026-08-17.** Brightman's page image was got after all — `archive.org/download/bwb_KP-665-232/page/n213.jpg` (his printed 148; **printed = n − 65** on that scan). Margin reads `Job xiv 4 vulg., iv 18`. See `apparatus/BRIGHTMAN-collation.md`. |
 
 ⚠ **So the digitization closes 1 outright, should close 2, confirms 3, and does not touch 4.** The earlier note that "a digitization unblocks the entire remaining pre-print list at once" was **too optimistic** — 414 was never an 1853-imaging problem.
 
@@ -120,6 +120,6 @@ Every item below was read on the Toronto scan at native resolution and checked a
 
 | **printed 353, §26 V. 7**, the line breaking off at *omnia m* | `0393` | ✅ **CLOSED — THERE WAS NEVER A DEFECT.** The leaf reads *amoveantur a domibus nostris **omnia mala.** [Prov. xvii. 11. 13.]* entire. ⚠⚠ **Our note had called it a confirmed PLATE defect because the OCR agreed — but the OCR was made from that same Google scan.** Two views of one bad source agreeing were taken for corroboration. **The conjecture had nevertheless been exactly right.** |
 
-**Still open: printed 414's cento alone**, and it needs *Brightman's* page images, not a better 1853.
+✅ **NOTHING IS OPEN. Printed 414's cento closed 2026-08-17** — Brightman's page image was fetched from the same archive.org item whose OCR we already had, so it was never really blocked; nobody had tried the image endpoint. ⚠ **The lesson: an OCR-noisy margin is not a blocked item when the scan's page images are one URL away.**
 
 ⚠⚠ **THE METHODOLOGICAL LESSON, now paid for three times (239, 210, 353): a defect "confirmed against the OCR" is not confirmed at all.** The `_djvu.txt` is derived from the same imaging as the page, so it cannot be an independent witness to whether a loss is in the plate or in the camera. **Only a different scan can settle that** — and on all three occasions it said the plate was innocent. The `אל תשחית`/`הצילני` cluster at 198–202 and `יראתי כסלתי` at 212. 1 are unread only because nothing sets them.
