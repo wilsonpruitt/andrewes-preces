@@ -873,7 +873,18 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
 % half-title
 \fullleaf{\vspace*{0.30\textheight}
   {\centering{\LARGE\scshape Preces Privatae}\par}\vfill}
-\fullleaf{}
+
+% frontispiece, facing the title page. Simon de Passe, 1618 (British Museum),
+% public domain. Source scan and the prepared plate: raw/portrait/ and
+% front/andrewes-frontispiece.png. ⚠ The verse tablet is part of the plate and
+% must not be cropped away — it is why this impression was chosen.
+\fullleaf{\vspace*{0.10\textheight}
+  {\centering
+   \includegraphics[width=3.2in]{front/andrewes-frontispiece.png}\par
+   \vspace{1.1\baselineskip}
+   {\footnotesize Lancelot Andrewes, Bishop of Ely, engraved by Simon de Passe, 1618.\\
+    The verse beneath the portrait is signed \emph{Ge: Wi.}\par}%
+  }\vfill}
 
 % title page
 \fullleaf{\vspace*{0.14\textheight}
@@ -893,7 +904,9 @@ LOEB_TEMPLATE = r"""% Prototype C at volume scale — originals verso, English r
 \fullleaf{\vfill
   {\raggedright\footnotesize
   The Greek, Latin and Hebrew are transcribed from the 1853 Parker
-  edition, which is in the public domain.\par\medskip
+  edition, which is in the public domain. The frontispiece is Simon de Passe's
+  engraving of 1618, in the British Museum, and is also in the public
+  domain.\par\medskip
   The English translation, the apparatus and the editorial matter are
   \copyright{} Wroot Press, and are issued under a Creative Commons
   Attribution\,--\,NonCommercial 4.0 licence.\par\medskip
