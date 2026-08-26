@@ -1,6 +1,12 @@
 % Shared preamble for the M2 layout prototypes (xelatex + Cardo)
+% ⚠ KDP flagged insufficient gutter at 625pp (needs >=0.75in clear from the trim
+% edge). The true cause: \plnumber's \llap ruler (below) pokes INTO the inner
+% margin by design, so the nominal 0.80in inner left only ~0.66in actually clear
+% -- verified by measuring page 21's rendered ink, not by guessing. Fixed by
+% moving 0.15in from outer to inner, which leaves \textwidth (inner+outer
+% unchanged) untouched -- no reflow, no page-count shift, no cover rebuild.
 \usepackage[paperwidth=6in,paperheight=9in,
-  inner=0.80in,outer=0.65in,top=0.80in,bottom=0.85in]{geometry}
+  inner=0.95in,outer=0.50in,top=0.80in,bottom=0.85in]{geometry}
 \usepackage{fontspec}
 \setmainfont{Cardo}[
   BoldFont={* Bold}, ItalicFont={* Italic},
