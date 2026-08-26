@@ -274,6 +274,19 @@ Sections: (1) the unmarked recurrences · (2) the *Divisio* at 347 as a table of
 
 ⚠ **Two constants there can silently invalidate the wrap and nothing warns you:** `PAGES = 625` (must be the FINAL interior count — rebuild the interior first if the introduction's length changes) and `PPI = 0.0025` (**cream**; white is 0.002252 and moves the spine 0.14in). The cover's specimen is Ps. xxvi. 8 copied from the part2 §27 transcripts — **if that transcript changes, change the cover.**
 
-**Owed by Wilson:** a push (`git push origin main`, protected); a non-Google digitization; and **a read of the introduction in his own voice** — the preface is approved and settled, this one is new and has never been through him. ✅ The cover he has seen and approved (2026-08-18); the paper stock (cream assumed) and the final page count are the two things still to confirm at upload.
+### 6h. ✅✅ THE INTERIOR AND THE COVER ARE BOTH CLOSED, 2026-08-26
+
+**Wilson read the introduction and approved it unchanged, and ruled CREAM.** With that, every gate on the book itself is shut:
+
+- **Introduction** — approved as written, no edit. Its length is therefore settled, which is what `PAGES` in `covers/cover.py` depends on.
+- **Paper: CREAM** (`PPI = 0.0025`). Ruled, no longer assumed. ⚠ White is 0.002252 and moves the spine 0.14in — changing the stock at KDP invalidates the wrap and nothing warns you.
+- **Interior: 625pp at 6×9in**, verified with `pdfinfo` on `prototypes/volume-loeb.pdf`, not taken from prose. 0 TeX errors, 0 `Missing character`, 0 of 595 units too tall.
+- **Cover rebuilt on those numbers** — wrap **13.812 × 9.25in, spine 1.562in**, confirmed by `pdfinfo` at 994.5 × 666pt. Cardo and Cardo-Italic both **embedded and subset**; the artwork is type only, so there is no raster resolution to check.
+- **The specimen was re-verified against the transcripts line by line** (the docstring's standing check): all six lines are verbatim from `part2/27-in-praedicatione-…`, Latin ll. 64–65, Greek ll. 78–79, English ll. 63–64 and 77–78 — **and the two English renderings of the doublet are identical**, which is the rule the seal depends on.
+- ⚠⚠ **The barcode keep-out was verified MECHANICALLY, not by eye**, which is the improvement this repo's own lessons ask for. `pdftoppm -r 300` then a crop of the 2 × 1.2in box, 0.25in in from the back panel's spine-side and bottom trim edges (the geometry [[feedback_wesley-journals-cover-barcode-keepout]] paid for): **one distinct colour across all 216,000 pixels, zero ink.** An eyeball on the `guides` render says the same thing but cannot prove it.
+
+**Still owed by Wilson:** a push (`git push origin main`, protected) and the KDP upload itself. A non-Google digitization remains a standing want, blocking nothing.
+
+**(superseded)** *Owed by Wilson: a push; a non-Google digitization; and a read of the introduction in his own voice. The cover he has seen and approved (2026-08-18); the paper stock (cream assumed) and the final page count are the two things still to confirm at upload.*
 
 Related: `NOTES-CONVENTIONS.md` · `CONVENTIONS.md` · `EDITION-SHAPE.md` · `apparatus/print-notes.md` · `next-session-resume.md`

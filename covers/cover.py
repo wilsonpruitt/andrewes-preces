@@ -33,11 +33,13 @@ modern title pages were commonly printed in red and black, which is the pair thi
   goes there. `python3.11 cover.py guides` draws it so it can be checked by eye before upload.
 
 ! PAGES drives the spine and NOTHING WARNS YOU WHEN IT IS STALE. It must be the FINAL interior
-  count. 625 is the build of 2026-08-18 (introduction + frontispiece in, 0 TeX errors). If Wilson's
-  read of the introduction changes its length, rebuild the interior and update this first.
+  count. ✅ 625 IS FINAL — Wilson approved the introduction unchanged on 2026-08-26, so its length
+  is settled; the interior rebuilt that day is 625pp at 6x9in, 0 TeX errors. Verified against
+  prototypes/volume-loeb.pdf with pdfinfo, not from prose.
 
-! PPI must match the paper actually chosen at KDP. 0.0025 is CREAM, which is what a 625pp
-  classical text wants; white is 0.002252 and would make the spine 0.14in narrower.
+! PPI must match the paper actually chosen at KDP. 0.0025 is CREAM.
+  ✅ CREAM IS RULED BY WILSON, 2026-08-26 — no longer an assumption. White is 0.002252 and
+  would make the spine 0.14in narrower, so changing the stock invalidates the wrap.
 
 Usage:  python3.11 cover.py [front|wrap|guides|all]
 """
