@@ -14,8 +14,8 @@ export default async function ApparatusPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const found = loadApparatusPage(slug);
-  if (!found) notFound();
+  const page = loadApparatusPage(slug);
+  if (!page) notFound();
 
   return (
     <div>
@@ -23,7 +23,7 @@ export default async function ApparatusPage({
         &larr; The apparatus
       </Link>
       <div className="apparatus-prose" style={{ marginTop: "1.5rem" }}>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{found.body}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{page.body}</ReactMarkdown>
       </div>
     </div>
   );

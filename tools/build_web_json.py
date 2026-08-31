@@ -262,6 +262,41 @@ def build_links():
     return out
 
 
+# ⚠ The apparatus prose is read INTO the site's data at build time, not read
+# from ../apparatus/ by the page. A deploy uploads only site/, so any path that
+# escapes it with ".." exists locally and is missing in production — which is
+# how the first deploy failed. Nothing under site/ may reach outside site/.
+APPARATUS_PAGES = [
+    ("class-a", "CLASS-A-ledger.md", "Class A — the ledger",
+     "Every reading where the Wright apograph (Pembroke College, Cambridge) diverges "
+     "from the 1853 plate, resolved against our own transcripts."),
+    ("class-b", "CLASS-B-unit-boundaries.md", "Class B — the spacing record",
+     "The manuscript's own record of where Andrewes left air on the page — the "
+     "intervals CONVENTIONS §13 calls the highest-value class for the edition's structure."),
+    ("brightman", "BRIGHTMAN-collation.md", "Brightman 1903 as a collation witness",
+     "A pilot collation against Brightman's edition — method, probes, and the anchor table."),
+    ("variae-lectiones", "variae-lectiones-transcript.md", "Variæ Lectiones et Addenda Quædam",
+     "Raw transcript of the 1853's own apparatus, separately foliated in lower-case "
+     "roman — the source Class A is resolved from."),
+    ("notae-marginales", "notae-marginales-transcript.md", "Notæ Marginales ex eodem MS.",
+     "Raw transcript of the 1853's marginal notes from the same manuscript."),
+    ("latin-question", "THE-LATIN-QUESTION.md", "The Latin Question",
+     "Whether the Latin of printed 1–250 is Andrewes' own or a 1675 editor's — "
+     "surfaced, not settled; Wilson's call."),
+]
+
+
+def build_apparatus_prose():
+    out = []
+    for slug, fname, title, blurb in APPARATUS_PAGES:
+        src = ROOT / "apparatus" / fname
+        if not src.exists():
+            raise SystemExit(f"missing apparatus file: {src}")
+        out.append({"slug": slug, "title": title, "blurb": blurb,
+                    "body": src.read_text()})
+    return out
+
+
 def build_search(content):
     """A compact index for the client-side search (WEB-PLAN §12).
 
@@ -375,6 +410,9 @@ def main():
     search = build_search(content)
     (pub / "search-index.json").write_text(
         json.dumps(search, ensure_ascii=False, separators=(",", ":")))
+
+    (OUT / "apparatus-prose.json").write_text(
+        json.dumps(build_apparatus_prose(), ensure_ascii=False, indent=1))
 
     links = build_links()
     (OUT / "links.json").write_text(json.dumps(links, ensure_ascii=False, indent=1))
