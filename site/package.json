@@ -6,7 +6,8 @@
     "dev": "python3.11 ../tools/build_web_json.py && next dev --turbopack",
     "build": "python3.11 ../tools/build_web_json.py && next build",
     "rebuild-content": "python3.11 ../tools/build_web_json.py",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "next build"
   },
   "dependencies": {
     "next": "^16.2.2",
