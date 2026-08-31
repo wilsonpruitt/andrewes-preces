@@ -7,6 +7,7 @@ import { LAYER_LABEL, LAYER_ORDER, sectionLayers, sectionUnits } from "@/lib/con
 import type { RectoMark, VersoMark } from "@/lib/apparatus";
 import { notesForPage, rectoMarks, stripLead, versoMarks } from "@/lib/apparatus";
 import { renderMarkup } from "@/lib/markup";
+import { isVerified, plateUrl } from "@/lib/plate";
 
 const MOBILE_QUERY = "(max-width: 900px)";
 const ORIGINAL_KEY = "andrewes.originalLang";
@@ -120,12 +121,35 @@ function UnitBlock({ unit, activeKeys }: { unit: Unit; activeKeys: LayerKey[] })
 
   const [openNote, setOpenNote] = useState<string | null>(null);
   const toggle = (id: string) => setOpenNote((cur) => (cur === id ? null : id));
+  const [showPlate, setShowPlate] = useState(false);
 
   return (
     <div style={{ marginBottom: "2.5rem" }}>
-      <div className="page-marker page-marker-margin" style={{ marginBottom: "0.5rem" }}>
-        {pageLabel}
+      <div className="unit-head">
+        <span className="page-marker page-marker-margin">{pageLabel}</span>
+        <button className="plate-toggle" onClick={() => setShowPlate((v) => !v)}>
+          {showPlate ? "hide the plate" : "show the plate"}
+        </button>
       </div>
+      {showPlate && (
+        <div className="plate-strip">
+          {unit.pages.map((n) => {
+            const src = plateUrl(n);
+            if (!src) return null;
+            return (
+              <figure key={n} className="plate-figure">
+                <img src={src} alt={`The 1853 plate, printed page ${n}`} loading="lazy" />
+                <figcaption>
+                  {/* The plate carries its own number in the running head, so a
+                      wrong mapping is visible at a glance rather than silent. */}
+                  This should be <strong>printed {n}</strong> — check the running head.
+                  {isVerified(n) ? " Verified by eye." : " Derived from the volume-wide offset."}
+                </figcaption>
+              </figure>
+            );
+          })}
+        </div>
+      )}
       <div className="parallel-grid" style={{ ["--lang-count" as string]: present.length }}>
         {present.map((k) => (
           <div key={k}>

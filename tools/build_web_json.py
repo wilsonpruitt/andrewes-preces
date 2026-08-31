@@ -223,6 +223,44 @@ def build_scripture():
     return books, entries, report
 
 
+# ⚠ A note that names ANOTHER printed page is the volume pointing at itself,
+# and it is the only trustworthy source for the recension parallels: the two
+# recensions share almost no verbatim Latin (measured: 10 identical lines out
+# of 157/208 between §23 and Part III §1, and NONE between §17 and §2, because
+# §17 is a brace-and-heading SCHEMA and §2 is written-out prose). No alignment
+# algorithm could pair them honestly. The notes pass did it by reading, and
+# said so in words — "the same six titles ... stand again at printed 402-403,
+# in Part III's Harley recension"; "this is Part II's printed 380 over again".
+PAGE_REF = re.compile(r"printed\s+(\d{1,3})(?:\s*[–-]\s*(\d{1,3}))?|\bat\s+(\d{3})\b")
+
+
+def build_links():
+    """[{from, to, band, note}] — every note naming another printed page."""
+    notes = transcript2tex.load_notes()
+    out = []
+    for page, bands in sorted(notes.items()):
+        for band in ("R", "S"):
+            for entry in bands.get(band, []):
+                targets = set()
+                for m in PAGE_REF.finditer(entry):
+                    a = m.group(1) or m.group(3)
+                    if a and abs(int(a) - page) > 1:
+                        targets.add(int(a))
+                    if m.group(2):
+                        targets.add(int(m.group(2)))
+                if not targets:
+                    continue
+                line = re.match(r"^(\d+)", entry)
+                out.append({
+                    "from": page,
+                    "line": int(line.group(1)) if line else 0,
+                    "to": sorted(targets),
+                    "band": band,
+                    "note": re.sub(r"^\d+\s+", "", entry).strip(),
+                })
+    return out
+
+
 def build_apparatus():
     notes = transcript2tex.load_notes()
     return {str(p): bands for p, bands in sorted(notes.items())}
@@ -300,6 +338,9 @@ def main():
     (OUT / "content.json").write_text(json.dumps(content, ensure_ascii=False, indent=1))
     (OUT / "apparatus.json").write_text(
         json.dumps(build_apparatus(), ensure_ascii=False, indent=1))
+
+    links = build_links()
+    (OUT / "links.json").write_text(json.dumps(links, ensure_ascii=False, indent=1))
 
     books, entries, report = build_scripture()
     sdir = OUT / "scripture"
