@@ -1,0 +1,63 @@
+[
+ {
+  "book": "zech",
+  "chapter": 3,
+  "verses": [
+   2
+  ],
+  "printed": "Zach. iii. 2",
+  "page": 155,
+  "line": 2,
+  "source": "marked",
+  "situation": "*is not this a brand plucked out of the fire?*"
+ },
+ {
+  "book": "zech",
+  "chapter": 3,
+  "verses": [
+   3,
+   1
+  ],
+  "printed": "Zach. iii. 3, 1",
+  "page": 153,
+  "line": 25,
+  "source": "marked",
+  "situation": "Joshua the high priest in filthy garments, and Satan at his right hand"
+ },
+ {
+  "book": "zech",
+  "chapter": 9,
+  "verses": [
+   11
+  ],
+  "printed": "Zech. ix. 11",
+  "page": 37,
+  "line": 7,
+  "source": "marked",
+  "situation": "the blood of the covenant, *by which I have sent forth thy prisoners out of the pit*"
+ },
+ {
+  "book": "zech",
+  "chapter": 9,
+  "verses": [
+   11
+  ],
+  "printed": "Zach. ix. 11",
+  "page": 153,
+  "line": 26,
+  "source": "marked",
+  "situation": "*by the blood of thy covenant*"
+ },
+ {
+  "book": "zech",
+  "chapter": 11,
+  "verses": [
+   12
+  ],
+  "printed": "Zech. xi. 12",
+  "page": 310,
+  "line": 5,
+  "source": "marked",
+  "situation": "the shepherd's wages weighed out: *so they weighed for my price thirty pieces of silver*"
+ }
+]

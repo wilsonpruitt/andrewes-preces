@@ -1,0 +1,326 @@
+[
+ {
+  "book": "dan",
+  "chapter": 1,
+  "verses": [
+   8
+  ],
+  "printed": "Dan. i. 8",
+  "page": 357,
+  "line": 19,
+  "source": "marked",
+  "situation": "Daniel at the king's table, who *would not defile himself with the portion of the king's meat*"
+ },
+ {
+  "book": "dan",
+  "chapter": 2,
+  "verses": [
+   23
+  ],
+  "printed": "Dan. ii. 23",
+  "page": 347,
+  "line": 8,
+  "source": "marked",
+  "situation": "Daniel's thanksgiving the night the king's dream was shewn him, with the executioner already appointed for the wise men of Babylon. His words stand in the four lines above; the bracket is the editor's."
+ },
+ {
+  "book": "dan",
+  "chapter": 4,
+  "verses": [
+   24
+  ],
+  "printed": "Dan. iv. 24",
+  "page": 372,
+  "line": 6,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 6,
+  "verses": [
+   4
+  ],
+  "printed": "Dan. vi. 4",
+  "page": 357,
+  "line": 9,
+  "source": "marked",
+  "situation": "the plate's figure. Daniel kneeling three times a day is at vi. 10; vi. 4 is the presidents seeking occasion against him. Kept as printed — it stands on the volume's running list with `[Jer. l. 24.]` and `[Eph. i. 8.]`",
+  "plateFigure": true
+ },
+ {
+  "book": "dan",
+  "chapter": 6,
+  "verses": [
+   8
+  ],
+  "printed": "Dan. vi. 8",
+  "page": 422,
+  "line": 7,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 6,
+  "verses": [
+   10
+  ],
+  "printed": "Dan. vi. 10",
+  "page": 3,
+  "line": 8,
+  "source": "marked",
+  "situation": "Daniel kneeling three times a day, as he did aforetime"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   3
+  ],
+  "printed": "Dan. ix. 3",
+  "page": 357,
+  "line": 16,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   5
+  ],
+  "printed": "Dan. ix. 5",
+  "page": 133,
+  "line": 12,
+  "source": "marked",
+  "situation": "Daniel's confession: *even by departing from thy precepts*"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   7
+  ],
+  "printed": "Dan. ix. 7",
+  "page": 35,
+  "line": 9,
+  "source": "marked",
+  "situation": "Daniel in the exile, at the evening sacrifice"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   7
+  ],
+  "printed": "Dan. ix. 7",
+  "page": 133,
+  "line": 16,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   8
+  ],
+  "printed": "Dan. ix. 8",
+  "page": 133,
+  "line": 19,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   8
+  ],
+  "printed": "Dan. ix. 8",
+  "page": 361,
+  "line": 18,
+  "source": "marked",
+  "situation": "the plate's figure. The words are verse 7's: printed 35 sets the same pair at ix. 7, and printed 133 prints the two verses in order under their own `Vers.` marks. Kept as printed.",
+  "plateFigure": true
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   16
+  ],
+  "printed": "Dan. ix. 16",
+  "page": 133,
+  "line": 22,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   16
+  ],
+  "printed": "Dan. ix. 16",
+  "page": 343,
+  "line": 10,
+  "situation": "*let thine anger be turned away from thy city* — unmarked in the plate, but Daniel's at the exile, and the volume printed ix. 19 of the same prayer at 339. It takes up Daniel's intercession in reverse, the later verse first.",
+  "source": "identified"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   16
+  ],
+  "printed": "Dan. ix. 16",
+  "page": 363,
+  "line": 4,
+  "source": "marked",
+  "situation": "Daniel in the exile: *O Lord, according to all thy righteousness, let thine anger be turned away*"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   17
+  ],
+  "printed": "Dan. ix. 17",
+  "page": 133,
+  "line": 24,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   17
+  ],
+  "printed": "Dan. ix. 17",
+  "page": 424,
+  "line": 11,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   18
+  ],
+  "printed": "Dan. ix. 18",
+  "page": 133,
+  "line": 27,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   18
+  ],
+  "printed": "Dan. ix. 18",
+  "page": 321,
+  "line": 11,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   19
+  ],
+  "printed": "Dan. ix. 19",
+  "page": 37,
+  "line": 28,
+  "source": "marked",
+  "situation": "Daniel's plea in the exile: *for thine own sake, O my God*"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   19
+  ],
+  "printed": "Dan. ix. 19",
+  "page": 135,
+  "line": 2,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   19
+  ],
+  "printed": "Dan. ix. 19",
+  "page": 263,
+  "line": 7,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   19
+  ],
+  "printed": "Dan. ix. 19",
+  "page": 263,
+  "line": 17,
+  "source": "marked"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   19
+  ],
+  "printed": "Dan. ix. 19",
+  "page": 294,
+  "line": 10,
+  "source": "marked",
+  "situation": "Daniel at the evening sacrifice, on the seventy years"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   19
+  ],
+  "printed": "Dan. ix. 19",
+  "page": 299,
+  "line": 4,
+  "source": "marked",
+  "situation": "Daniel: *defer not, for thine own sake, O my God*"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   19
+  ],
+  "printed": "Dan. ix. 19",
+  "page": 321,
+  "line": 15,
+  "source": "marked",
+  "situation": "*O Lord, hearken and do; defer not*"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   19
+  ],
+  "printed": "Dan. ix. 19",
+  "page": 339,
+  "line": 23,
+  "source": "marked",
+  "situation": "Daniel in the exile: *O Lord, hearken and do; defer not, for thine own sake*"
+ },
+ {
+  "book": "dan",
+  "chapter": 9,
+  "verses": [
+   19
+  ],
+  "printed": "Dan. ix. 19",
+  "page": 411,
+  "line": 11,
+  "source": "marked"
+ }
+]

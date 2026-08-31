@@ -1,0 +1,71 @@
+[
+ {
+  "book": "lev",
+  "chapter": 5,
+  "verses": [
+   16
+  ],
+  "printed": "Lev. v. 16",
+  "page": 357,
+  "line": 22,
+  "source": "marked",
+  "situation": "the trespass offering: *he shall make amends … and shall add the fifth part thereto*"
+ },
+ {
+  "book": "lev",
+  "chapter": 18,
+  "verses": [
+   25
+  ],
+  "printed": "Lev. xviii. 25",
+  "page": 205,
+  "line": 24,
+  "source": "marked"
+ },
+ {
+  "book": "lev",
+  "chapter": 26,
+  "verses": [
+   29
+  ],
+  "printed": "Lev. xxvi. 29",
+  "page": 331,
+  "line": 22,
+  "source": "marked",
+  "situation": "the covenant curses, and the promise of return hidden in them"
+ },
+ {
+  "book": "lev",
+  "chapter": 26,
+  "verses": [
+   40
+  ],
+  "printed": "Lev. xxvi. 40",
+  "page": 71,
+  "line": 23,
+  "source": "marked",
+  "situation": "*if they shall confess their iniquity, and the iniquity of their fathers*"
+ },
+ {
+  "book": "lev",
+  "chapter": 26,
+  "verses": [
+   41
+  ],
+  "printed": "Lev. xxvi. 41",
+  "page": 331,
+  "line": 23,
+  "source": "marked"
+ },
+ {
+  "book": "lev",
+  "chapter": 26,
+  "verses": [
+   42
+  ],
+  "printed": "Lev. xxvi. 42",
+  "page": 331,
+  "line": 24,
+  "source": "marked"
+ }
+]

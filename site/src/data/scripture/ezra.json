@@ -1,0 +1,64 @@
+[
+ {
+  "book": "ezra",
+  "chapter": 9,
+  "verses": [
+   6
+  ],
+  "printed": "Ez. ix. 6",
+  "page": 15,
+  "line": 19,
+  "source": "marked"
+ },
+ {
+  "book": "ezra",
+  "chapter": 9,
+  "verses": [
+   6,
+   7,
+   15
+  ],
+  "printed": "Ezr. ix. 6, 7. 15",
+  "page": 171,
+  "line": 2,
+  "source": "marked",
+  "situation": "Ezra at the evening sacrifice: *we cannot stand before thee because of this*"
+ },
+ {
+  "book": "ezra",
+  "chapter": 9,
+  "verses": [
+   6,
+   7,
+   15
+  ],
+  "printed": "Ezr. ix. 6, 7. 15",
+  "page": 171,
+  "line": 18,
+  "source": "marked"
+ },
+ {
+  "book": "ezra",
+  "chapter": 9,
+  "verses": [
+   6,
+   7,
+   15
+  ],
+  "printed": "Ezr. ix. 6, 7. 15",
+  "page": 171,
+  "line": 28,
+  "source": "marked"
+ },
+ {
+  "book": "ezra",
+  "chapter": 10,
+  "verses": [
+   2
+  ],
+  "printed": "Ezr. x. 2",
+  "page": 372,
+  "line": 4,
+  "source": "marked"
+ }
+]

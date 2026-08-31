@@ -130,3 +130,17 @@ export function sectionUnits(section: Section): Unit[] {
   }
   return units;
 }
+
+/** Which section a printed page falls in — the scripture index links back
+ * into the reader by page and sense-line. */
+export function sectionForPage(n: number): Section | undefined {
+  return loadSections().find((s) => s.pages.some((p) => p.n === n));
+}
+
+/** The reader anchor for a printed page and line: /read/1/day1#p34.27 */
+export function readerHref(page: number, line: number): string | undefined {
+  const s = sectionForPage(page);
+  if (!s) return undefined;
+  const anchor = line > 0 ? `#p${page}.${line}` : "";
+  return `/read/${s.part}/${sectionStem(s.id)}${anchor}`;
+}

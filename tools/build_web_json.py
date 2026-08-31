@@ -10,8 +10,8 @@ cover's page count depends on, and the print book is already submitted to KDP.
 
 Emits:
     site/src/data/content.json    — sections, in reading order (§5)
-    site/src/data/scripture.json  — ref_index.index(), raw (marked references only;
-                                     the S:-band merge in WEB-PLAN §9 is W4 work)
+    site/src/data/scripture/      — index.json + one file per book; the MERGE of
+                                     marked (plate) and identified (notes), §9
     site/src/data/apparatus.json  — transcript2tex.load_notes(), raw (W3 renders it)
 """
 import argparse
@@ -22,6 +22,7 @@ from pathlib import Path
 from proof2tex import COMMENT, GAP, HEBREW, SUPERS, parse_pages, sections_for
 import ref_index
 import transcript2tex
+import scripture_index
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site" / "src" / "data"
@@ -212,9 +213,14 @@ def build_content():
 
 
 def build_scripture():
-    idx = ref_index.index()
-    return {str(p): [{"line": ln, "ref": ref} for ln, ref in rows]
-            for p, rows in sorted(idx.items()) if rows}
+    """Per-book files plus an index (WEB-PLAN §9, Milton's shape).
+
+    ⚠ ONE file per book, not one file for the index. A static export inlines
+    whatever a page imports, so a single 2,400-entry file would be baked into
+    every one of the ~56 book pages.
+    """
+    books, entries, report = scripture_index.build()
+    return books, entries, report
 
 
 def build_apparatus():
@@ -292,13 +298,31 @@ def main():
 
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "content.json").write_text(json.dumps(content, ensure_ascii=False, indent=1))
-    (OUT / "scripture.json").write_text(
-        json.dumps(build_scripture(), ensure_ascii=False, indent=1))
     (OUT / "apparatus.json").write_text(
         json.dumps(build_apparatus(), ensure_ascii=False, indent=1))
+
+    books, entries, report = build_scripture()
+    sdir = OUT / "scripture"
+    sdir.mkdir(parents=True, exist_ok=True)
+    for stale in sdir.glob("*.json"):
+        stale.unlink()
+    (sdir / "index.json").write_text(json.dumps(books, ensure_ascii=False, indent=1))
+    for slug, rows in entries.items():
+        (sdir / f"{slug}.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1))
+
     npages = sum(len(s["pages"]) for s in content)
     print(f"wrote content.json ({len(content)} sections, {npages} pages), "
-          f"scripture.json, apparatus.json -> {OUT}")
+          f"apparatus.json, scripture/ ({len(books)} books, "
+          f"{report['marked']} marked + {report['identified']} identified) -> {OUT}")
+    for key, label in (("unparsed_plate", "plate references that did not parse"),
+                       ("unparsed_notes", "note citations that did not parse"),
+                       ("empty_entries", "S: entries yielding no reference"),
+                       ("out_of_range", "citations past the book's last chapter")):
+        if report[key]:
+            print(f"  ⚠ {len(report[key])} {label}")
+    if report["offset_matches"]:
+        print(f"  · {len(report['offset_matches'])} notes matched a mark on the "
+              f"opening but not the line (Part I column line-counts differ)")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,132 @@
+[
+ {
+  "book": "num",
+  "chapter": 6,
+  "verses": [
+   24,
+   25,
+   26
+  ],
+  "printed": "Num. vi. 24, 25, 26",
+  "page": 65,
+  "line": 23,
+  "source": "marked"
+ },
+ {
+  "book": "num",
+  "chapter": 11,
+  "verses": [
+   25
+  ],
+  "printed": "Num. xi. 25",
+  "page": 316,
+  "line": 13,
+  "source": "marked"
+ },
+ {
+  "book": "num",
+  "chapter": 14,
+  "verses": [
+   7
+  ],
+  "printed": "Num. xiv. 7",
+  "page": 416,
+  "line": 3,
+  "source": "marked"
+ },
+ {
+  "book": "num",
+  "chapter": 14,
+  "verses": [
+   15
+  ],
+  "printed": "Num. xiv. 15",
+  "page": 413,
+  "line": 19,
+  "source": "marked"
+ },
+ {
+  "book": "num",
+  "chapter": 14,
+  "verses": [
+   16
+  ],
+  "printed": "Num. xiv. 16",
+  "page": 298,
+  "line": 9,
+  "source": "marked",
+  "situation": "Moses after the spies, foretelling what the nations will say"
+ },
+ {
+  "book": "num",
+  "chapter": 14,
+  "verses": [
+   17,
+   18
+  ],
+  "printed": "Num. xiv. 17, 18",
+  "page": 292,
+  "line": 2,
+  "source": "marked",
+  "situation": "Moses pleading for Israel after the spies, when God would have disinherited them"
+ },
+ {
+  "book": "num",
+  "chapter": 14,
+  "verses": [
+   18
+  ],
+  "printed": "Num. xiv. 18",
+  "page": 33,
+  "line": 16,
+  "source": "marked",
+  "situation": "Moses pleading that same Name after the spies"
+ },
+ {
+  "book": "num",
+  "chapter": 14,
+  "verses": [
+   19
+  ],
+  "printed": "Num. xiv. 19",
+  "page": 73,
+  "line": 5,
+  "source": "marked",
+  "situation": "Moses after the spies: *as thou hast forgiven this people, from Egypt even until now*"
+ },
+ {
+  "book": "num",
+  "chapter": 24,
+  "verses": [
+   13
+  ],
+  "printed": "Num. xxiv. 13",
+  "page": 351,
+  "line": 8,
+  "source": "marked",
+  "situation": "Balaam, the prophet hired to curse Israel: *I cannot go beyond the commandment of the LORD, to do either good or bad of mine own mind.* The petition *thy will be done* is put into the mouth of a man who wanted to do otherwise and could not."
+ },
+ {
+  "book": "num",
+  "chapter": 25,
+  "verses": [
+   5
+  ],
+  "printed": "Num. xxv. 5",
+  "page": 205,
+  "line": 22,
+  "source": "marked",
+  "situation": "the plague at Baal-peor"
+ },
+ {
+  "book": "num",
+  "chapter": 35,
+  "verses": [
+   33
+  ],
+  "printed": "Num. xxxv. 33",
+  "page": 205,
+  "line": 25,
+  "source": "marked"
+ }
+]

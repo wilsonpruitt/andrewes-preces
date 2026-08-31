@@ -1041,3 +1041,79 @@ a { color: inherit; text-decoration: none; }
   display: block;
   overflow-x: auto;
 }
+
+/* --- Scripture index (WEB-PLAN.md §9) ------------------------------------ */
+
+.scripture-book-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 0.15rem 1.5rem;
+}
+.scripture-book-list a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 2px;
+}
+.scripture-book-list a:hover { background: rgba(196,162,101,0.15); }
+.scripture-book-name { font-size: 15px; }
+.scripture-book-count {
+  font-family: var(--font-cinzel), serif;
+  font-size: 11px;
+  color: #8B6914;
+  opacity: 0.75;
+}
+.scripture-ident { color: #7A5C2E; font-style: italic; }
+
+.scripture-caveat {
+  max-width: 700px;
+  margin-bottom: 1.75rem;
+  padding: 0.75rem 1rem;
+  font-size: 13.5px;
+  line-height: 1.65;
+  background: rgba(196,162,101,0.12);
+  border-left: 3px solid rgba(139,105,20,0.45);
+  border-radius: 2px;
+}
+
+.scripture-entry-list { list-style: none; display: grid; gap: 0.35rem; }
+.scripture-entry {
+  padding: 0.3rem 0 0.3rem 0.75rem;
+  border-left: 2px solid rgba(139,105,20,0.25);
+  font-size: 14.5px;
+}
+/* An identification is this edition's reading, not the 1853's act — it must
+   never look like a mark. */
+.scripture-entry.src-identified { border-left-style: dotted; }
+.scripture-printed { font-weight: 600; margin-right: 0.6rem; }
+.scripture-where {
+  font-family: var(--font-cinzel), serif;
+  font-size: 11px;
+  color: #8B6914;
+}
+.scripture-where a { text-decoration: underline; text-underline-offset: 2px; }
+.scripture-flag {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.05em 0.45em;
+  font-family: var(--font-cinzel), serif;
+  font-size: 9.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid rgba(139,105,20,0.45);
+  border-radius: 2px;
+  color: #6B5A2E;
+  vertical-align: middle;
+}
+.flag-ident { border-style: dotted; }
+.flag-plate { border-color: rgba(181,69,58,0.5); color: #8B3A2E; }
+.scripture-situation {
+  margin-top: 0.15rem;
+  font-size: 13px;
+  line-height: 1.6;
+  opacity: 0.8;
+  max-width: 680px;
+}

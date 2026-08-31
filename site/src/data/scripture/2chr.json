@@ -1,0 +1,50 @@
+[
+ {
+  "book": "2chr",
+  "chapter": 6,
+  "verses": [
+   40
+  ],
+  "printed": "2 Chron. vi. 40",
+  "page": 7,
+  "line": 26,
+  "source": "marked",
+  "situation": "Solomon at the dedication of the temple, on the place the Name is called upon"
+ },
+ {
+  "book": "2chr",
+  "chapter": 30,
+  "verses": [
+   9
+  ],
+  "printed": "2 Paral. xxx. 9",
+  "page": 321,
+  "line": 17,
+  "source": "marked"
+ },
+ {
+  "book": "2chr",
+  "chapter": 30,
+  "verses": [
+   18,
+   19
+  ],
+  "printed": "2 Chron. xxx. 18, 19",
+  "page": 249,
+  "line": 8,
+  "source": "marked",
+  "situation": "Hezekiah's prayer for those who ate the passover uncleansed"
+ },
+ {
+  "book": "2chr",
+  "chapter": 30,
+  "verses": [
+   27
+  ],
+  "printed": "2 Paralip. xxx. 27",
+  "page": 321,
+  "line": 3,
+  "source": "marked",
+  "situation": "after Hezekiah's passover: *their prayer came up to his holy dwelling place, even unto heaven*"
+ }
+]

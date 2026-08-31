@@ -1,0 +1,133 @@
+[
+ {
+  "book": "deut",
+  "chapter": 8,
+  "verses": [
+   10
+  ],
+  "printed": "Deut. viii. 10",
+  "page": 425,
+  "line": 6,
+  "source": "marked"
+ },
+ {
+  "book": "deut",
+  "chapter": 19,
+  "verses": [
+   4
+  ],
+  "printed": "Deut. xix. 4",
+  "page": 372,
+  "line": 7,
+  "source": "marked"
+ },
+ {
+  "book": "deut",
+  "chapter": 26,
+  "verses": [
+   12
+  ],
+  "printed": "Deut. xxvi. 12",
+  "page": 357,
+  "line": 26,
+  "source": "marked",
+  "situation": "the third year's tithe, *the year of tithing*. The line offers a THIRTIETH part (*tricesimam partem*), which is not what that verse commands, nor any tithe. Kept as printed and on the running list.",
+  "plateFigure": true
+ },
+ {
+  "book": "deut",
+  "chapter": 29,
+  "verses": [
+   18
+  ],
+  "printed": "Deut. xxix. 18",
+  "page": 406,
+  "line": 6,
+  "source": "marked"
+ },
+ {
+  "book": "deut",
+  "chapter": 30,
+  "verses": [
+   1,
+   2,
+   3,
+   6
+  ],
+  "printed": "Deut. xxx. 1, 2, 3. 6",
+  "page": 331,
+  "line": 28,
+  "source": "marked",
+  "situation": "the restoration clause: *the LORD thy God will circumcise thine heart*"
+ },
+ {
+  "book": "deut",
+  "chapter": 30,
+  "verses": [
+   2
+  ],
+  "printed": "Deut. xxx. 2",
+  "page": 225,
+  "line": 27,
+  "source": "marked",
+  "situation": "*and shalt return unto the LORD thy God with all thine heart*"
+ },
+ {
+  "book": "deut",
+  "chapter": 32,
+  "verses": [
+   4
+  ],
+  "printed": "Deut. xxxii. 4",
+  "page": 343,
+  "line": 1,
+  "source": "marked",
+  "situation": "*a God of truth and without iniquity* — and Is. ix. 6, *the Prince of Peace*. The titles are chosen for what the next line asks: he addresses God as truth and peace, then asks for peace and truth. The petition is made out of the address."
+ },
+ {
+  "book": "deut",
+  "chapter": 32,
+  "verses": [
+   29
+  ],
+  "printed": "Deut. xxxii. 29",
+  "page": 43,
+  "line": 15,
+  "source": "marked",
+  "situation": "*O that they would consider their latter end*"
+ },
+ {
+  "book": "deut",
+  "chapter": 32,
+  "verses": [
+   29
+  ],
+  "printed": "Deut. xxxii. 29",
+  "page": 279,
+  "line": 3,
+  "source": "marked",
+  "situation": "*that they would consider their latter end*"
+ },
+ {
+  "book": "deut",
+  "chapter": 32,
+  "verses": [
+   32
+  ],
+  "printed": "Deut. xxxii. 32",
+  "page": 406,
+  "line": 7,
+  "source": "marked"
+ },
+ {
+  "book": "deut",
+  "chapter": 33,
+  "verses": [
+   13
+  ],
+  "printed": "Deut. xxxiii. 13",
+  "page": 215,
+  "line": 13,
+  "source": "marked"
+ }
+]

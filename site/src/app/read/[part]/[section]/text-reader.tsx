@@ -6,6 +6,7 @@ import type { Line, LayerKey, Section, Span, Unit } from "@/lib/content";
 import { LAYER_LABEL, LAYER_ORDER, sectionLayers, sectionUnits } from "@/lib/content";
 import type { RectoMark, VersoMark } from "@/lib/apparatus";
 import { notesForPage, rectoMarks, stripLead, versoMarks } from "@/lib/apparatus";
+import { renderMarkup } from "@/lib/markup";
 
 const MOBILE_QUERY = "(max-width: 900px)";
 const ORIGINAL_KEY = "andrewes.originalLang";
@@ -223,7 +224,7 @@ function NoteBlock({ lang, mark }: { lang: LayerKey; mark: VersoMark | RectoMark
       <div className="pv-note pv-note-verso">
         {mark.entries.map((e, i) => (
           <div key={i} className="pv-note-line">
-            {renderNoteMarkup(stripLead(e))}
+            {renderMarkup(stripLead(e))}
           </div>
         ))}
       </div>
@@ -237,53 +238,20 @@ function NoteBlock({ lang, mark }: { lang: LayerKey; mark: VersoMark | RectoMark
           {mark.scripture.map((e, i) => (
             <span key={i}>
               {i > 0 && " · "}
-              {renderNoteMarkup(stripLead(e))}
+              {renderMarkup(stripLead(e))}
             </span>
           ))}
         </div>
       )}
       {mark.explanatory.map((e, i) => (
         <p key={i} className="pv-note-line">
-          {renderNoteMarkup(stripLead(e))}
+          {renderMarkup(stripLead(e))}
         </p>
       ))}
     </div>
   );
 }
 
-const NOTE_TOKEN =
-  /`([^`]+)`|\*\*([^*]+)\*\*|\*([^*]+)\*|([֐-׿][֐-׿\s]*[֐-׿]|[֐-׿])/g;
-
-function renderNoteMarkup(text: string): React.ReactNode[] {
-  const nodes: React.ReactNode[] = [];
-  let last = 0;
-  let key = 0;
-  let m: RegExpExecArray | null;
-  NOTE_TOKEN.lastIndex = 0;
-  while ((m = NOTE_TOKEN.exec(text))) {
-    if (m.index > last) nodes.push(text.slice(last, m.index));
-    if (m[1] !== undefined) {
-      nodes.push(
-        <span key={key++} className="pv-lemma">
-          {m[1]}
-        </span>
-      );
-    } else if (m[2] !== undefined) {
-      nodes.push(<strong key={key++}>{m[2]}</strong>);
-    } else if (m[3] !== undefined) {
-      nodes.push(<em key={key++}>{m[3]}</em>);
-    } else if (m[4] !== undefined) {
-      nodes.push(
-        <span key={key++} className="pv-hebrew" dir="rtl" style={{ unicodeBidi: "isolate" }}>
-          {m[4]}
-        </span>
-      );
-    }
-    last = NOTE_TOKEN.lastIndex;
-  }
-  if (last < text.length) nodes.push(text.slice(last));
-  return nodes;
-}
 
 function SpanNode({ span }: { span: Span }) {
   switch (span.kind) {

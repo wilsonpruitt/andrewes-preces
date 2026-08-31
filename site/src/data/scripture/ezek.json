@@ -1,0 +1,176 @@
+[
+ {
+  "book": "ezek",
+  "chapter": 3,
+  "verses": [
+   12
+  ],
+  "printed": "Ezek. iii. 12",
+  "page": 69,
+  "line": 10,
+  "source": "marked",
+  "situation": "*blessed be the glory of the LORD from his place*"
+ },
+ {
+  "book": "ezek",
+  "chapter": 3,
+  "verses": [
+   12
+  ],
+  "printed": "Ezech. iii. 12",
+  "page": 428,
+  "line": 5,
+  "source": "marked"
+ },
+ {
+  "book": "ezek",
+  "chapter": 9,
+  "verses": [
+   6
+  ],
+  "printed": "Ezekiel ix. 6",
+  "page": 14,
+  "line": 18,
+  "situation": "The reference here is the 1853 editor's, in his brackets, and his contraction is ambiguous. He writes `[*Ez.* ix. 6.]`, which in this volume could stand for either Ezekiel or Ezra — the two are elsewhere kept apart as `*Ezech.*` and `*Ezr.*` The verse is Ezra's: *I am ashamed and blush to lift up my face to thee, my God*, which is a countenance cast down and a confusion, exactly the posture and the affection the line names; Ezekiel ix. 6 is the order to slay at the sanctuary and has nothing to do with either. The volume settles it from inside itself — printed 171 prints the same verse in full as `*Ezr.* ix. 6, 7`, in the same penitential sense. Brightman reaches the same reading independently, tagging the sentence *Of Ezra*.",
+  "source": "identified",
+  "band": "R"
+ },
+ {
+  "book": "ezek",
+  "chapter": 13,
+  "verses": [
+   19
+  ],
+  "printed": "Ezech. xiii. 19",
+  "page": 408,
+  "line": 13,
+  "source": "marked"
+ },
+ {
+  "book": "ezek",
+  "chapter": 14,
+  "verses": [
+   4
+  ],
+  "printed": "Ezech. xiv. 4",
+  "page": 354,
+  "line": 14,
+  "source": "marked",
+  "situation": "*that putteth the stumblingblock of his iniquity before his face*"
+ },
+ {
+  "book": "ezek",
+  "chapter": 14,
+  "verses": [
+   8
+  ],
+  "printed": "Ezech. xiv. 8",
+  "page": 372,
+  "line": 5,
+  "source": "marked"
+ },
+ {
+  "book": "ezek",
+  "chapter": 15,
+  "verses": [
+   7
+  ],
+  "printed": "Ezech. xv. 7",
+  "page": 354,
+  "line": 15,
+  "source": "marked",
+  "situation": "*I will set my face against them*, asked here as set not thy face against us"
+ },
+ {
+  "book": "ezek",
+  "chapter": 18,
+  "verses": [
+   23
+  ],
+  "printed": "Ez. xviii. 23",
+  "page": 333,
+  "line": 16,
+  "source": "marked",
+  "situation": "*have I any pleasure at all that the wicked should die?*"
+ },
+ {
+  "book": "ezek",
+  "chapter": 18,
+  "verses": [
+   30
+  ],
+  "printed": "Ezech. xviii. 30",
+  "page": 133,
+  "line": 10,
+  "source": "marked",
+  "situation": "*so iniquity shall not be your ruin*"
+ },
+ {
+  "book": "ezek",
+  "chapter": 18,
+  "verses": [
+   30
+  ],
+  "printed": "Ez. xviii. 30",
+  "page": 333,
+  "line": 18,
+  "source": "marked"
+ },
+ {
+  "book": "ezek",
+  "chapter": 33,
+  "verses": [
+   11
+  ],
+  "printed": "Ezech. xxxiii. 11",
+  "page": 133,
+  "line": 6,
+  "source": "marked",
+  "situation": "the watchman's charge: *why will ye die, O house of Israel?*"
+ },
+ {
+  "book": "ezek",
+  "chapter": 33,
+  "verses": [
+   11
+  ],
+  "printed": "Ez. xxxiii. 11",
+  "page": 333,
+  "line": 22,
+  "source": "marked",
+  "situation": "*as I live, saith the Lord GOD, I have no pleasure in the death of the wicked*"
+ },
+ {
+  "book": "ezek",
+  "chapter": 33,
+  "verses": [
+   11
+  ],
+  "printed": "Ezech. xxxiii. 11",
+  "page": 372,
+  "line": 10,
+  "source": "marked"
+ },
+ {
+  "book": "ezek",
+  "chapter": 33,
+  "verses": [
+   12
+  ],
+  "printed": "Ez. xxxiii. 12",
+  "page": 333,
+  "line": 24,
+  "source": "marked"
+ },
+ {
+  "book": "ezek",
+  "chapter": 33,
+  "verses": [
+   19
+  ],
+  "printed": "Ez. xxxiii. 19",
+  "page": 333,
+  "line": 26,
+  "source": "marked"
+ }
+]

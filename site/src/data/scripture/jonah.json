@@ -1,0 +1,81 @@
+[
+ {
+  "book": "jonah",
+  "chapter": 2,
+  "verses": [
+   4
+  ],
+  "printed": "Jon. ii. 4",
+  "page": 153,
+  "line": 4,
+  "source": "marked"
+ },
+ {
+  "book": "jonah",
+  "chapter": 2,
+  "verses": [
+   4
+  ],
+  "printed": "Jon. ii. 4",
+  "page": 153,
+  "line": 8,
+  "source": "marked"
+ },
+ {
+  "book": "jonah",
+  "chapter": 2,
+  "verses": [
+   6
+  ],
+  "printed": "Jon. ii. 6",
+  "page": 153,
+  "line": 8,
+  "source": "marked"
+ },
+ {
+  "book": "jonah",
+  "chapter": 2,
+  "verses": [
+   7
+  ],
+  "printed": "Jon. ii. 7",
+  "page": 153,
+  "line": 6,
+  "source": "marked"
+ },
+ {
+  "book": "jonah",
+  "chapter": 2,
+  "verses": [
+   8
+  ],
+  "printed": "Jon. ii. 8",
+  "page": 33,
+  "line": 22,
+  "source": "marked",
+  "situation": "Jonah out of the fish's belly: *they that observe lying vanities*"
+ },
+ {
+  "book": "jonah",
+  "chapter": 2,
+  "verses": [
+   8
+  ],
+  "printed": "Jon. ii. 8",
+  "page": 153,
+  "line": 3,
+  "source": "marked",
+  "situation": "*they that observe lying vanities forsake their own mercy*"
+ },
+ {
+  "book": "jonah",
+  "chapter": 2,
+  "verses": [
+   10
+  ],
+  "printed": "Jon. ii. 10",
+  "page": 320,
+  "line": 16,
+  "source": "marked"
+ }
+]

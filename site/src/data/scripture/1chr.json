@@ -1,0 +1,50 @@
+[
+ {
+  "book": "1chr",
+  "chapter": 29,
+  "verses": [
+   10
+  ],
+  "printed": "1 Chron. xxix. 10",
+  "page": 129,
+  "line": 3,
+  "source": "marked",
+  "situation": "David blessing the LORD before all the congregation, at the offering for the Temple"
+ },
+ {
+  "book": "1chr",
+  "chapter": 29,
+  "verses": [
+   11
+  ],
+  "printed": "1 Chron. xxix. 11",
+  "page": 129,
+  "line": 12,
+  "source": "marked"
+ },
+ {
+  "book": "1chr",
+  "chapter": 29,
+  "verses": [
+   12,
+   13
+  ],
+  "printed": "1 Chron. xxix. 12, 13",
+  "page": 129,
+  "line": 25,
+  "source": "marked",
+  "situation": "*in thine hand it is to make great, and to give strength unto all*"
+ },
+ {
+  "book": "1chr",
+  "chapter": 29,
+  "verses": [
+   13
+  ],
+  "printed": "1 Chron. xxix. 13",
+  "page": 128,
+  "line": 25,
+  "situation": "*now therefore, our God, we thank thee, and praise thy glorious name*. The three lines above are David's prayer verbatim, and this closes it.",
+  "source": "identified"
+ }
+]

@@ -1,0 +1,482 @@
+[
+ {
+  "slug": "gen",
+  "name": "Genesis",
+  "testament": "ot",
+  "marked": 72,
+  "identified": 0,
+  "total": 72
+ },
+ {
+  "slug": "exod",
+  "name": "Exodus",
+  "testament": "ot",
+  "marked": 13,
+  "identified": 2,
+  "total": 15
+ },
+ {
+  "slug": "lev",
+  "name": "Leviticus",
+  "testament": "ot",
+  "marked": 6,
+  "identified": 0,
+  "total": 6
+ },
+ {
+  "slug": "num",
+  "name": "Numbers",
+  "testament": "ot",
+  "marked": 11,
+  "identified": 0,
+  "total": 11
+ },
+ {
+  "slug": "deut",
+  "name": "Deuteronomy",
+  "testament": "ot",
+  "marked": 11,
+  "identified": 0,
+  "total": 11
+ },
+ {
+  "slug": "josh",
+  "name": "Joshua",
+  "testament": "ot",
+  "marked": 8,
+  "identified": 0,
+  "total": 8
+ },
+ {
+  "slug": "judg",
+  "name": "Judges",
+  "testament": "ot",
+  "marked": 2,
+  "identified": 0,
+  "total": 2
+ },
+ {
+  "slug": "1sam",
+  "name": "1 Samuel",
+  "testament": "ot",
+  "marked": 11,
+  "identified": 0,
+  "total": 11
+ },
+ {
+  "slug": "2sam",
+  "name": "2 Samuel",
+  "testament": "ot",
+  "marked": 15,
+  "identified": 0,
+  "total": 15
+ },
+ {
+  "slug": "1kgs",
+  "name": "1 Kings",
+  "testament": "ot",
+  "marked": 14,
+  "identified": 0,
+  "total": 14
+ },
+ {
+  "slug": "2kgs",
+  "name": "2 Kings",
+  "testament": "ot",
+  "marked": 2,
+  "identified": 0,
+  "total": 2
+ },
+ {
+  "slug": "1chr",
+  "name": "1 Chronicles",
+  "testament": "ot",
+  "marked": 3,
+  "identified": 1,
+  "total": 4
+ },
+ {
+  "slug": "2chr",
+  "name": "2 Chronicles",
+  "testament": "ot",
+  "marked": 4,
+  "identified": 0,
+  "total": 4
+ },
+ {
+  "slug": "ezra",
+  "name": "Ezra",
+  "testament": "ot",
+  "marked": 5,
+  "identified": 0,
+  "total": 5
+ },
+ {
+  "slug": "neh",
+  "name": "Nehemiah",
+  "testament": "ot",
+  "marked": 10,
+  "identified": 0,
+  "total": 10
+ },
+ {
+  "slug": "job",
+  "name": "Job",
+  "testament": "ot",
+  "marked": 51,
+  "identified": 5,
+  "total": 56
+ },
+ {
+  "slug": "ps",
+  "name": "Psalms",
+  "testament": "ot",
+  "marked": 626,
+  "identified": 24,
+  "total": 650
+ },
+ {
+  "slug": "prov",
+  "name": "Proverbs",
+  "testament": "ot",
+  "marked": 25,
+  "identified": 2,
+  "total": 27
+ },
+ {
+  "slug": "eccl",
+  "name": "Ecclesiastes",
+  "testament": "ot",
+  "marked": 3,
+  "identified": 0,
+  "total": 3
+ },
+ {
+  "slug": "song",
+  "name": "Song of Songs",
+  "testament": "ot",
+  "marked": 1,
+  "identified": 0,
+  "total": 1
+ },
+ {
+  "slug": "isa",
+  "name": "Isaiah",
+  "testament": "ot",
+  "marked": 115,
+  "identified": 6,
+  "total": 121
+ },
+ {
+  "slug": "jer",
+  "name": "Jeremiah",
+  "testament": "ot",
+  "marked": 36,
+  "identified": 1,
+  "total": 37
+ },
+ {
+  "slug": "lam",
+  "name": "Lamentations",
+  "testament": "ot",
+  "marked": 11,
+  "identified": 0,
+  "total": 11
+ },
+ {
+  "slug": "ezek",
+  "name": "Ezekiel",
+  "testament": "ot",
+  "marked": 14,
+  "identified": 1,
+  "total": 15
+ },
+ {
+  "slug": "dan",
+  "name": "Daniel",
+  "testament": "ot",
+  "marked": 27,
+  "identified": 1,
+  "total": 28
+ },
+ {
+  "slug": "hos",
+  "name": "Hosea",
+  "testament": "ot",
+  "marked": 17,
+  "identified": 0,
+  "total": 17
+ },
+ {
+  "slug": "joel",
+  "name": "Joel",
+  "testament": "ot",
+  "marked": 10,
+  "identified": 0,
+  "total": 10
+ },
+ {
+  "slug": "amos",
+  "name": "Amos",
+  "testament": "ot",
+  "marked": 2,
+  "identified": 0,
+  "total": 2
+ },
+ {
+  "slug": "jonah",
+  "name": "Jonah",
+  "testament": "ot",
+  "marked": 7,
+  "identified": 0,
+  "total": 7
+ },
+ {
+  "slug": "mic",
+  "name": "Micah",
+  "testament": "ot",
+  "marked": 9,
+  "identified": 0,
+  "total": 9
+ },
+ {
+  "slug": "hab",
+  "name": "Habakkuk",
+  "testament": "ot",
+  "marked": 6,
+  "identified": 0,
+  "total": 6
+ },
+ {
+  "slug": "zech",
+  "name": "Zechariah",
+  "testament": "ot",
+  "marked": 5,
+  "identified": 0,
+  "total": 5
+ },
+ {
+  "slug": "judith",
+  "name": "Judith",
+  "testament": "ap",
+  "marked": 1,
+  "identified": 0,
+  "total": 1
+ },
+ {
+  "slug": "wisd",
+  "name": "Wisdom",
+  "testament": "ap",
+  "marked": 8,
+  "identified": 0,
+  "total": 8
+ },
+ {
+  "slug": "ecclus",
+  "name": "Ecclesiasticus",
+  "testament": "ap",
+  "marked": 10,
+  "identified": 0,
+  "total": 10
+ },
+ {
+  "slug": "bar",
+  "name": "Baruch",
+  "testament": "ap",
+  "marked": 1,
+  "identified": 0,
+  "total": 1
+ },
+ {
+  "slug": "matt",
+  "name": "Matthew",
+  "testament": "nt",
+  "marked": 172,
+  "identified": 5,
+  "total": 177
+ },
+ {
+  "slug": "mark",
+  "name": "Mark",
+  "testament": "nt",
+  "marked": 37,
+  "identified": 2,
+  "total": 39
+ },
+ {
+  "slug": "luke",
+  "name": "Luke",
+  "testament": "nt",
+  "marked": 151,
+  "identified": 2,
+  "total": 153
+ },
+ {
+  "slug": "john",
+  "name": "John",
+  "testament": "nt",
+  "marked": 109,
+  "identified": 4,
+  "total": 113
+ },
+ {
+  "slug": "acts",
+  "name": "Acts",
+  "testament": "nt",
+  "marked": 59,
+  "identified": 2,
+  "total": 61
+ },
+ {
+  "slug": "rom",
+  "name": "Romans",
+  "testament": "nt",
+  "marked": 111,
+  "identified": 6,
+  "total": 117
+ },
+ {
+  "slug": "1cor",
+  "name": "1 Corinthians",
+  "testament": "nt",
+  "marked": 37,
+  "identified": 2,
+  "total": 39
+ },
+ {
+  "slug": "2cor",
+  "name": "2 Corinthians",
+  "testament": "nt",
+  "marked": 49,
+  "identified": 4,
+  "total": 53
+ },
+ {
+  "slug": "gal",
+  "name": "Galatians",
+  "testament": "nt",
+  "marked": 28,
+  "identified": 2,
+  "total": 30
+ },
+ {
+  "slug": "eph",
+  "name": "Ephesians",
+  "testament": "nt",
+  "marked": 39,
+  "identified": 4,
+  "total": 43
+ },
+ {
+  "slug": "phil",
+  "name": "Philippians",
+  "testament": "nt",
+  "marked": 14,
+  "identified": 0,
+  "total": 14
+ },
+ {
+  "slug": "col",
+  "name": "Colossians",
+  "testament": "nt",
+  "marked": 18,
+  "identified": 0,
+  "total": 18
+ },
+ {
+  "slug": "1thess",
+  "name": "1 Thessalonians",
+  "testament": "nt",
+  "marked": 16,
+  "identified": 1,
+  "total": 17
+ },
+ {
+  "slug": "2thess",
+  "name": "2 Thessalonians",
+  "testament": "nt",
+  "marked": 1,
+  "identified": 0,
+  "total": 1
+ },
+ {
+  "slug": "1tim",
+  "name": "1 Timothy",
+  "testament": "nt",
+  "marked": 43,
+  "identified": 1,
+  "total": 44
+ },
+ {
+  "slug": "2tim",
+  "name": "2 Timothy",
+  "testament": "nt",
+  "marked": 11,
+  "identified": 1,
+  "total": 12
+ },
+ {
+  "slug": "titus",
+  "name": "Titus",
+  "testament": "nt",
+  "marked": 16,
+  "identified": 0,
+  "total": 16
+ },
+ {
+  "slug": "heb",
+  "name": "Hebrews",
+  "testament": "nt",
+  "marked": 53,
+  "identified": 5,
+  "total": 58
+ },
+ {
+  "slug": "jas",
+  "name": "James",
+  "testament": "nt",
+  "marked": 21,
+  "identified": 2,
+  "total": 23
+ },
+ {
+  "slug": "1pet",
+  "name": "1 Peter",
+  "testament": "nt",
+  "marked": 29,
+  "identified": 0,
+  "total": 29
+ },
+ {
+  "slug": "2pet",
+  "name": "2 Peter",
+  "testament": "nt",
+  "marked": 22,
+  "identified": 1,
+  "total": 23
+ },
+ {
+  "slug": "1john",
+  "name": "1 John",
+  "testament": "nt",
+  "marked": 20,
+  "identified": 1,
+  "total": 21
+ },
+ {
+  "slug": "jude",
+  "name": "Jude",
+  "testament": "nt",
+  "marked": 5,
+  "identified": 0,
+  "total": 5
+ },
+ {
+  "slug": "rev",
+  "name": "Revelation",
+  "testament": "nt",
+  "marked": 34,
+  "identified": 6,
+  "total": 40
+ }
+]
