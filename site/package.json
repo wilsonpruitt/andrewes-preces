@@ -1,0 +1,21 @@
+{
+  "name": "andrewes-preces-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3.11 ../tools/build_web_json.py && next dev --turbopack",
+    "build": "python3.11 ../tools/build_web_json.py && next build",
+    "rebuild-content": "python3.11 ../tools/build_web_json.py",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^16.2.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "typescript": "^6.0.2"
+  }
+}

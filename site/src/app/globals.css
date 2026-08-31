@@ -1,0 +1,928 @@
+/* Fonts are loaded via next/font in src/app/layout.tsx.
+   The CSS variables below are set on <html>:
+     --font-eb-garamond
+     --font-cormorant-garamond
+     --font-cinzel
+     --font-cinzel-decorative
+*/
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-eb-garamond), var(--font-cormorant-garamond), Georgia, serif;
+  color: #2C1810;
+  line-height: 1.7;
+  background: linear-gradient(to bottom, #F5ECD7 0%, #F0E4C8 30%, #EDE0C0 70%, #E8D9B5 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* Header */
+.site-header {
+  background: linear-gradient(to bottom, #3D1308 0%, #5A1A0E 50%, #6B2415 100%);
+  border-bottom: 4px solid #C4A265;
+  position: relative;
+  overflow: hidden;
+}
+.site-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(196,162,101,0.04) 40px, rgba(196,162,101,0.04) 41px),
+    repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(196,162,101,0.04) 40px, rgba(196,162,101,0.04) 41px);
+  z-index: 1;
+}
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 1.5rem;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header-title {
+  font-family: var(--font-cinzel-decorative), serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #C4A265;
+  line-height: 1.3;
+}
+.header-subtitle {
+  font-family: var(--font-cinzel), serif;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(196,162,101,0.7);
+}
+
+/* Nav */
+.site-nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  gap: 0;
+  border-top: 1px solid rgba(196,162,101,0.3);
+  background: rgba(0,0,0,0.15);
+  position: relative;
+  z-index: 2;
+}
+.site-nav a {
+  font-family: var(--font-cinzel), serif;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(196,162,101,0.7);
+  padding: 0.75rem 1.25rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+.site-nav a:hover, .site-nav a.active {
+  color: #C4A265;
+  background: rgba(196,162,101,0.1);
+  border-bottom-color: #C4A265;
+}
+
+/* Main */
+.main-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* Footer */
+.site-footer {
+  background: #3D1308;
+  border-top: 4px solid #C4A265;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  font-family: var(--font-cinzel), serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: rgba(196,162,101,0.6);
+}
+
+/* Shared */
+.section-title {
+  font-family: var(--font-cinzel), serif;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8B6914;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(139,105,20,0.2);
+}
+.card {
+  background: rgba(245,236,215,0.7);
+  border: 1px solid rgba(139,105,20,0.2);
+  border-radius: 2px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
+  transition: all 0.15s;
+}
+.card-link {
+  display: block;
+}
+.card-link:hover .card, .card:hover {
+  border-color: rgba(139,105,20,0.5);
+  background: rgba(245,236,215,0.95);
+}
+.card-title {
+  font-family: var(--font-cinzel), serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #3D1308;
+  margin-bottom: 0.25rem;
+}
+.card-meta {
+  font-size: 14px;
+  color: #6B4A3A;
+}
+.body-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #3D1810;
+}
+.back-link {
+  font-family: var(--font-cinzel), serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #8B6914;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* Project-scope roadmap (landing page) */
+.scope-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid rgba(139,105,20,0.15);
+  border-radius: 2px;
+  margin-bottom: 0.5rem;
+  background: rgba(245,236,215,0.4);
+}
+.scope-link .scope-row { transition: all 0.15s; }
+.scope-link:hover .scope-row {
+  border-color: rgba(139,105,20,0.45);
+  background: rgba(245,236,215,0.85);
+}
+.scope-num {
+  font-family: var(--font-cinzel), serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #8B6914;
+  flex: 0 0 2.75rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.scope-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.scope-title {
+  font-family: var(--font-cinzel), serif;
+  font-size: 14px;
+  color: #3D1308;
+}
+.scope-year {
+  color: rgba(139,105,20,0.7);
+  font-weight: 400;
+}
+.scope-gloss {
+  font-size: 13px;
+  color: #6B4A3A;
+  font-style: italic;
+}
+.scope-status {
+  flex: 0 0 auto;
+  font-family: var(--font-cinzel), serif;
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.scope-published .scope-status {
+  color: #3D1308;
+  background: rgba(139,105,20,0.18);
+  border: 1px solid rgba(139,105,20,0.35);
+}
+.scope-in-preparation .scope-status {
+  color: #8B6914;
+  background: rgba(139,105,20,0.07);
+  border: 1px solid rgba(139,105,20,0.3);
+}
+.scope-planned {
+  opacity: 0.72;
+}
+.scope-planned .scope-status {
+  color: rgba(107,74,58,0.7);
+  background: transparent;
+  border: 1px solid rgba(139,105,20,0.18);
+}
+@media (max-width: 600px) {
+  .scope-status { display: none; }
+}
+.back-link:hover { text-decoration: underline; }
+.h2 {
+  font-family: var(--font-cinzel), serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3D1308;
+  margin-bottom: 0.5rem;
+}
+
+/* Decorations */
+.cross-divider { display: block; margin: 1.5rem 0; opacity: 0.4; }
+.fleuron {
+  text-align: center;
+  margin: 2rem 0;
+  font-family: var(--font-cinzel-decorative), serif;
+  font-size: 18px;
+  color: #8B6914;
+  opacity: 0.5;
+  letter-spacing: 0.5em;
+}
+
+/* Read page */
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.view-btn {
+  font-family: var(--font-cinzel), serif;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8B6914;
+  background: transparent;
+  border: 1px solid rgba(139,105,20,0.2);
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.view-btn:hover { background: rgba(196,162,101,0.1); }
+.view-btn.active {
+  color: #3D1308;
+  background: rgba(196,162,101,0.2);
+  border-color: rgba(139,105,20,0.4);
+}
+/* Language-array grid: column count comes from the --lang-count CSS var set
+   inline by the reader (texts.length), NOT a hardcoded 2. This is the same
+   generalization the reader component makes — a 3-language (Greek/Latin/
+   English) reader just sets --lang-count: 3 and this rule already works. */
+.parallel-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--lang-count, 2), 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .parallel-grid { grid-template-columns: 1fr; }
+}
+.text-column {
+  border-left: 2px solid rgba(139,105,20,0.2);
+  padding-left: 1.25rem;
+}
+/* Generic per-language style hook: a language KEY drives typography, not a
+   fixed "latin"/"english" pair. Default is roman; languages whose key is (or
+   starts with a family of) "la" get the italic treatment conventional for
+   Latin in a parallel edition. A future Greek key picks up neither rule and
+   falls back to the roman default — extend here, not in the reader. */
+.chunk-text {
+  color: #2C1810;
+  font-size: 16px;
+  line-height: 1.85;
+}
+.text-column[data-lang="la"] .chunk-text,
+.text-column[data-lang^="la-"] .chunk-text {
+  font-style: italic;
+  color: #4A2A1A;
+  font-size: 15.5px;
+}
+.para-marker {
+  font-family: var(--font-cinzel), serif;
+  font-size: 10px;
+  color: #8B6914;
+  opacity: 0.6;
+  margin-right: 0.5em;
+  user-select: none;
+  vertical-align: super;
+}
+.small-caps {
+  font-variant: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+}
+.conclusion-header {
+  font-family: var(--font-cinzel), serif;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  color: #8B6914;
+  margin: 1.5rem 0 0.75rem;
+  text-transform: uppercase;
+}
+.reader-h3 {
+  font-family: var(--font-cinzel), serif;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  color: #6B3410;
+  margin: 1.75rem 0 0.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.reader-h4 {
+  font-family: var(--font-cinzel), serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: #8B6914;
+  margin: 1.5rem 0 0.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.reader-blockquote {
+  border-left: 3px solid rgba(139, 105, 20, 0.4);
+  padding: 0.5rem 0 0.5rem 1rem;
+  margin: 1rem 0 1.25rem;
+  font-style: italic;
+  color: #4A2E10;
+}
+.translated-badge {
+  display: inline-block;
+  font-family: var(--font-cinzel), serif;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5A7A3A;
+  border: 1px solid rgba(90,122,58,0.3);
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+}
+.pending-badge {
+  display: inline-block;
+  font-family: var(--font-cinzel), serif;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8B6914;
+  border: 1px solid rgba(139,105,20,0.2);
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  opacity: 0.6;
+}
+
+/* Search */
+.search-input {
+  flex: 1;
+  font-family: var(--font-eb-garamond), serif;
+  font-size: 16px;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(139,105,20,0.3);
+  background: rgba(245,236,215,0.8);
+  color: #2C1810;
+  outline: none;
+}
+.search-btn {
+  font-family: var(--font-cinzel), serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #F5ECD7;
+  background: #5A1A0E;
+  border: 1px solid #8B1A1A;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+}
+.mode-toggle {
+  font-family: var(--font-cinzel), serif;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6B4A3A;
+  background: transparent;
+  border: 1px solid rgba(139,105,20,0.35);
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.mode-toggle:hover { border-color: rgba(139,26,26,0.6); color: #3D1308; }
+.mode-toggle.active {
+  color: #F5ECD7;
+  background: #5A1A0E;
+  border-color: #8B1A1A;
+}
+
+/* Notes */
+.notes-section {
+  background: rgba(61,19,8,0.04);
+  border: 1px solid rgba(139,105,20,0.2);
+  border-radius: 2px;
+  padding: 1.5rem 2rem;
+}
+
+/* ---------------------------------------------------------------------------
+   Distinction page — card-per-question layout
+   Pattern drawn from aquinas101.thomisticinstitute.org/summa: a centered
+   section title, bolded subheaders grouping cards by article, and simple
+   rounded-border cards whose content is just the question label.
+   --------------------------------------------------------------------------- */
+
+.dist-header {
+  margin: 1.5rem 0 2.5rem;
+  text-align: center;
+}
+.dist-page-title {
+  font-family: var(--font-cinzel), serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #3D1308;
+  text-transform: uppercase;
+  margin: 0;
+}
+.dist-subtitle {
+  font-family: var(--font-eb-garamond), serif;
+  font-size: 17px;
+  font-style: italic;
+  color: #6B4A3A;
+  margin-top: 0.5rem;
+}
+
+.dist-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.dist-section { margin: 0; }
+
+.article-heading {
+  font-family: var(--font-eb-garamond), var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #3D1308;
+  margin: 0 0 0.9rem;
+  padding-bottom: 0.35rem;
+}
+
+.question-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.question-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: rgba(245,236,215,0.55);
+  border: 1px solid rgba(139,105,20,0.22);
+  border-radius: 6px;
+  font-family: var(--font-eb-garamond), var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 17px;
+  color: #2C1810;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.question-card:hover {
+  background: rgba(245,236,215,0.92);
+  border-color: rgba(139,105,20,0.5);
+}
+.question-card-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.question-card-eyebrow {
+  font-family: var(--font-cinzel), serif;
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8B6914;
+  opacity: 0.85;
+}
+.question-card-title {
+  font-family: var(--font-eb-garamond), Georgia, serif;
+  font-size: 17px;
+  line-height: 1.35;
+  color: #2C1810;
+  font-style: italic;
+}
+
+/* Distinction accordion on the book page */
+.distinction-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+.distinction-details {
+  background: rgba(245,236,215,0.55);
+  border: 1px solid rgba(139,105,20,0.22);
+  border-radius: 6px;
+  transition: border-color 0.15s, background 0.15s;
+}
+.distinction-details[open] {
+  background: rgba(245,236,215,0.85);
+  border-color: rgba(139,105,20,0.45);
+}
+.distinction-summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.85rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.distinction-summary::-webkit-details-marker { display: none; }
+.distinction-summary:hover { background: rgba(196,162,101,0.12); }
+.distinction-details[open] > .distinction-summary:hover {
+  background: rgba(196,162,101,0.18);
+}
+.distinction-summary-chevron {
+  font-family: var(--font-cinzel), serif;
+  font-size: 22px;
+  color: #8B6914;
+  line-height: 1;
+  transition: transform 0.18s ease;
+  display: inline-block;
+  transform: translateY(-1px);
+}
+.distinction-details[open] > .distinction-summary > .distinction-summary-chevron {
+  transform: rotate(90deg) translateX(-1px);
+}
+.distinction-summary-heading {
+  font-family: var(--font-cinzel), serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3D1308;
+  flex: 1;
+  min-width: 0;
+}
+.distinction-summary-meta {
+  font-family: var(--font-eb-garamond), Georgia, serif;
+  font-size: 13px;
+  color: #6B4A3A;
+  font-style: italic;
+  flex-shrink: 0;
+}
+.distinction-details-body {
+  padding: 0.5rem 1.5rem 1.5rem;
+  border-top: 1px solid rgba(139,105,20,0.18);
+}
+.distinction-details-body .dist-sections {
+  gap: 1.75rem;
+  margin-top: 1rem;
+}
+.distinction-details-body .article-heading {
+  font-size: 16px;
+}
+
+.translated-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #5A7A3A;
+  flex-shrink: 0;
+  opacity: 0.75;
+}
+
+/* Page-break markers */
+.page-marker {
+  font-family: var(--font-cinzel), serif;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8B6914;
+  opacity: 0.65;
+  user-select: none;
+}
+.page-marker-inline {
+  display: inline-block;
+  margin: 0 0.35em;
+  padding: 0 0.3em;
+  border: 1px solid rgba(139,105,20,0.25);
+  border-radius: 2px;
+  vertical-align: baseline;
+}
+.page-marker-margin {
+  float: left;
+  margin-left: -4.5rem;
+  margin-top: 0.25em;
+  width: 3.5rem;
+  text-align: right;
+  padding-right: 0.4rem;
+  border-right: 1px solid rgba(139,105,20,0.3);
+}
+.page-marker-standalone {
+  display: block;
+  float: none;
+}
+.page-marker-standalone.page-marker-inline {
+  margin: 1rem 0;
+  text-align: center;
+  width: auto;
+  padding: 0.25rem 0;
+  border: none;
+  border-top: 1px dashed rgba(139,105,20,0.2);
+  border-bottom: 1px dashed rgba(139,105,20,0.2);
+}
+.page-marker-standalone.page-marker-margin {
+  width: fit-content;
+  margin: 0.75rem 0 0.75rem -4.5rem;
+  padding: 0.15rem 0.4rem;
+  border: 1px solid rgba(139,105,20,0.25);
+  border-radius: 2px;
+  text-align: left;
+}
+@media (max-width: 900px) {
+  .page-marker-margin {
+    float: none;
+    display: inline-block;
+    margin: 0 0.35em;
+    width: auto;
+    padding: 0 0.3em;
+    border: 1px solid rgba(139,105,20,0.25);
+    border-radius: 2px;
+    text-align: left;
+  }
+  .page-marker-standalone.page-marker-margin {
+    display: block;
+    margin: 0.75rem 0;
+    width: fit-content;
+  }
+}
+
+/* Footnote reference markers inside body text */
+.fn-ref {
+  font-size: 0.7em;
+  line-height: 0;
+  vertical-align: super;
+  margin: 0 0.1em;
+}
+.fn-ref a {
+  color: #8B6914;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(139,105,20,0.4);
+  padding: 0 0.1em;
+}
+.fn-ref a:hover {
+  color: #3D1308;
+  background: rgba(196,162,101,0.15);
+}
+
+/* Scholion subsection (inside each language column) */
+.scholion-block {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px dashed rgba(139,105,20,0.3);
+}
+.scholion-label {
+  font-family: var(--font-cinzel), serif;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8B6914;
+  margin-bottom: 0.5rem;
+}
+.scholion-block .text-column {
+  border-left: 2px solid rgba(139,105,20,0.15);
+  padding-left: 1rem;
+  font-size: 0.94em;
+  opacity: 0.92;
+}
+
+/* Apparatus criticus block (rendered below the parallel/latin/english view) */
+.apparatus-block {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(139,105,20,0.25);
+}
+.apparatus-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+.apparatus-entry {
+  position: relative;
+  padding-left: 2.25rem;
+  margin-bottom: 1.1rem;
+  scroll-margin-top: 1rem;
+}
+.apparatus-num {
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  font-family: var(--font-cinzel), serif;
+  font-size: 11px;
+  color: #8B6914;
+  background: rgba(196,162,101,0.12);
+  border: 1px solid rgba(139,105,20,0.3);
+  border-radius: 2px;
+  min-width: 1.6rem;
+  padding: 0.1rem 0.35rem;
+  text-align: center;
+}
+.apparatus-entry:target .apparatus-num {
+  background: rgba(196,162,101,0.45);
+  color: #3D1308;
+  border-color: rgba(61,19,8,0.5);
+}
+.apparatus-anchor {
+  font-family: var(--font-eb-garamond), serif;
+  font-size: 12px;
+  color: #8B6914;
+  opacity: 0.8;
+  margin-bottom: 0.2rem;
+}
+/* Generic per-language apparatus text, same data-lang hook as the reader. */
+.apparatus-text {
+  font-family: var(--font-eb-garamond), serif;
+  color: #2C1810;
+  font-size: 14px;
+  line-height: 1.65;
+  margin-top: 0.25rem;
+  opacity: 0.92;
+}
+.apparatus-text[data-lang="la"],
+.apparatus-text[data-lang^="la-"] {
+  font-style: italic;
+  color: #4A2A1A;
+}
+
+/* Headnote panel (chapter page, above the reader) */
+.headnote-block {
+  margin: 1rem 0 2rem;
+  padding: 1rem 1.25rem;
+  background: rgba(196,162,101,0.08);
+  border: 1px solid rgba(139,105,20,0.2);
+  border-radius: 3px;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: #3D2410;
+}
+.headnote-block p {
+  margin-bottom: 0.75rem;
+}
+.headnote-block p:last-child {
+  margin-bottom: 0;
+  font-size: 12.5px;
+  opacity: 0.75;
+  font-style: italic;
+}
+
+/* Support */
+.site-support {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3.5rem;
+  text-align: center;
+}
+.site-support h2 {
+  font-family: var(--font-cinzel), serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8B6914;
+  margin-bottom: 0.75rem;
+}
+.site-support p {
+  font-size: 15px;
+  color: rgba(44,24,16,0.75);
+  margin-bottom: 1.25rem;
+}
+.support-tiers {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+.support-tiers a {
+  font-family: var(--font-cinzel), serif;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  padding: 0.55rem 1.2rem;
+  border: 1px solid rgba(139,105,20,0.35);
+  border-radius: 2px;
+  color: #5A1A0E;
+  background: rgba(245,236,215,0.7);
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.support-tiers a:hover {
+  border-color: #C4A265;
+  background: rgba(196,162,101,0.15);
+}
+.site-support .support-fine {
+  font-size: 12.5px;
+  color: rgba(44,24,16,0.55);
+  margin-bottom: 0;
+}
+
+/* --- Andrewes reader additions (WEB-PLAN.md §7/§11) --------------------- */
+
+/* Cardo carries polytonic Greek and pointed Hebrew; the print build uses the
+   same face for the same reason (§11). Latin keeps Milton's italic-construal
+   convention; English stays roman. */
+.text-column[data-lang="gr"] .pv-line {
+  font-family: var(--font-cardo), serif;
+  font-size: 16px;
+}
+.text-column[data-lang="la"] .pv-line {
+  font-family: var(--font-eb-garamond), serif;
+  font-style: italic;
+  color: #4A2A1A;
+  font-size: 15.5px;
+}
+.text-column[data-lang="en"] .pv-line {
+  font-family: var(--font-eb-garamond), serif;
+}
+
+.pv-line {
+  position: relative;
+  line-height: 1.85;
+  color: #2C1810;
+  padding-left: 2.4em;
+}
+.pv-break {
+  height: 0.9em;
+}
+.pv-line-num {
+  position: absolute;
+  left: 0;
+  width: 2em;
+  text-align: right;
+  padding-right: 0.5em;
+  font-family: var(--font-cinzel), serif;
+  font-size: 10px;
+  color: #8B6914;
+  opacity: 0;
+  user-select: none;
+  transition: opacity 0.15s;
+}
+.pv-line:hover .pv-line-num,
+.pv-line:target .pv-line-num {
+  opacity: 0.65;
+}
+.pv-line:target {
+  background: rgba(196,162,101,0.14);
+  border-radius: 2px;
+}
+
+/* Hebrew is RTL and appears inline inside an LTR line (printed 42, 274, 383,
+   386) — isolate it so it does not reverse the Latin/English around it. */
+.pv-hebrew {
+  font-family: var(--font-cardo), serif;
+  unicode-bidi: isolate;
+}
+
+/* The printed-279 lettered footnote apparatus (ᵃᵇᶜᵈ) — Unicode modifier
+   letters, mapped at render time exactly as the print build's SUPERS table
+   does (never written back into a transcript, NOTES-CONVENTIONS §7.2). */
+.pv-sup {
+  color: #8B6914;
+}
+
+/* An unreadable mark on the plate ([?]) is honest, not a repair — keep it
+   visibly distinct from ordinary text rather than silently dropping it. */
+.pv-unclear {
+  color: #B5453A;
+  font-weight: 600;
+  padding: 0 0.15em;
+}
+
+/* An editor's supplied reference or bracketed insertion, kept as printed. */
+.pv-supplied {
+  color: #6B5A3A;
+  opacity: 0.85;
+}
+
+/* A measured run of 2+ source spaces (the reference column, the ` | ` tables,
+   the brace gutters) — rendered as real horizontal space, not collapsed. */
+.pv-gap {
+  display: inline-block;
+}
