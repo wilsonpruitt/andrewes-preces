@@ -23,6 +23,7 @@ from proof2tex import COMMENT, GAP, HEBREW, SUPERS, parse_pages, sections_for
 import ref_index
 import transcript2tex
 import scripture_index
+import search_fold
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site" / "src" / "data"
@@ -261,6 +262,36 @@ def build_links():
     return out
 
 
+def build_search(content):
+    """A compact index for the client-side search (WEB-PLAN §12).
+
+    ⚠ Written to site/public/, NOT site/src/data/. A file under src/ that a
+    page imports is bundled into that page's JavaScript; this one is fetched on
+    demand, so visiting the reader never downloads it.
+
+    Rows are arrays, not objects: at 18,555 sense-lines the key names would be
+    most of the file.
+    """
+    rows = []
+    for sec in content:
+        for page in sec["pages"]:
+            for lang, lines in page["layers"].items():
+                for ln in lines:
+                    if "n" not in ln:
+                        continue
+                    text = "".join(
+                        sp.get("text", "") for sp in ln["spans"]
+                        if sp.get("kind") != "gap"
+                    ).strip()
+                    if not text:
+                        continue
+                    folded = search_fold.fold_spans(ln["spans"])
+                    if not folded:
+                        continue
+                    rows.append([page["n"], ln["n"], lang, text, folded])
+    return {"foldTests": search_fold.fold_tests(), "lines": rows}
+
+
 def build_apparatus():
     notes = transcript2tex.load_notes()
     return {str(p): bands for p, bands in sorted(notes.items())}
@@ -339,6 +370,12 @@ def main():
     (OUT / "apparatus.json").write_text(
         json.dumps(build_apparatus(), ensure_ascii=False, indent=1))
 
+    pub = ROOT / "site" / "public"
+    pub.mkdir(parents=True, exist_ok=True)
+    search = build_search(content)
+    (pub / "search-index.json").write_text(
+        json.dumps(search, ensure_ascii=False, separators=(",", ":")))
+
     links = build_links()
     (OUT / "links.json").write_text(json.dumps(links, ensure_ascii=False, indent=1))
 
@@ -353,7 +390,9 @@ def main():
 
     npages = sum(len(s["pages"]) for s in content)
     print(f"wrote content.json ({len(content)} sections, {npages} pages), "
-          f"apparatus.json, scripture/ ({len(books)} books, "
+          f"apparatus.json, links.json ({len(links)} cross-references), "
+          f"search-index.json ({len(search['lines'])} lines), "
+          f"scripture/ ({len(books)} books, "
           f"{report['marked']} marked + {report['identified']} identified) -> {OUT}")
     for key, label in (("unparsed_plate", "plate references that did not parse"),
                        ("unparsed_notes", "note citations that did not parse"),
